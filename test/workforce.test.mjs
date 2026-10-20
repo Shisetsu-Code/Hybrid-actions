@@ -139,3 +139,24 @@ test('workflow defaults to eight runners, five or six slots, <=60m and pinned en
  assert.match(y,/a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d/);
  assert.ok(!/upload-artifact/.test(y));
 });
+
+test('a temporary D1 read failure does not stop the cataloguing runner',async()=>{
+ const config=setup(1),provider='p1';
+ let ticks=1000,reads=0,done=0;
+ const cloud={
+  jobs:async()=>{
+   reads++;
+   if(reads===1)throw Error('temporary Cloudflare 503');
+   return {providers:[{provider,discovery:{pending:0,leased:0},
+    catalog:{pending:done?0:1,leased:0}}]};
+  },
+  stats:async()=>({captures:{structured:0,visual:0,hybrid:0}}),
+  heartbeat:async()=>({}),
+  claim:async()=>done?null:{id:'a',role:'catalog',provider,subject:'game-p1'}
+ };
+ const output=await runFleet({cloud,config,engine:{},browser:{},runnerId:'gha-1',
+  lanes:1,durationMinutes:15,classification:false,
+  now:()=>ticks,sleepFn:async(ms)=>{ticks+=ms;await Promise.resolve();},
+  execute:async()=>{done++;return {status:'done'};},log:()=>{}});
+ assert.equal(done,1);assert.equal(output.completed,1);assert.ok(reads>=2);
+});
