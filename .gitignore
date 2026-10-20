@@ -1,0 +1,11 @@
+node_modules/
+engine/
+.env
+.env.*
+.local/
+.cache/
+*.har
+*.jpg
+*.jpeg
+*.png
+*.zip

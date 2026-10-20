@@ -1,0 +1,16 @@
+{
+  "name": "hybrid-actions",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Distributed public DEMO catalogue workers coordinated by Hybrid Cloud Fuzzer D1/R2",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/config.mjs && node --check src/client.mjs && node --check src/engine.mjs && node --check src/capture.mjs && node --check src/execute.mjs && node --check src/scheduler.mjs && node --check src/seed.mjs && node --check src/cli.mjs",
+    "seed": "node src/cli.mjs seed --config=config/providers.json",
+    "report": "node src/cli.mjs report --config=config/providers.json"
+  }
+}

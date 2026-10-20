@@ -1,0 +1,51 @@
+name: CI — distributed DEMO scheduler
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['22', '24']
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm run check
+      - run: npm test
+
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Run local-only Chromium DEMO integration test
+        env:
+          INTEGRATION_BROWSER: '1'
+        run: node --test test/browser-smoke.test.mjs

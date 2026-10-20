@@ -1,0 +1,117 @@
+name: Catalog DEMO — 8 runners x 5-6 games
+
+on:
+  workflow_dispatch:
+    inputs:
+      per_runner:
+        description: "Max concurrent games per runner (different providers)"
+        type: choice
+        options: ['5', '6']
+        default: '5'
+        required: true
+      duration_minutes:
+        description: "Maximum processing duration per runner"
+        type: choice
+        options: ['15', '30', '60']
+        default: '60'
+        required: true
+      confirm_adult:
+        description: "Operator has explicitly confirmed adulthood for public DEMO age gates"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hybrid-actions-catalog-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    name: Validate and seed D1 queues
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify credentials are present without printing them
+        run: |
+          test -n "$HYBRID_REVIEW_TOKEN" || { echo "::error::HYBRID_REVIEW_TOKEN missing"; exit 1; }
+          test -n "$HYBRID_INGEST_TOKEN" || { echo "::error::HYBRID_INGEST_TOKEN missing"; exit 1; }
+      - name: Check coordinator readiness and configure provider policies
+        run: node src/cli.mjs seed --config=config/providers.json
+
+  workers:
+    needs: prepare
+    name: Runner ${{ matrix.runner }} / 8
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        runner: [1, 2, 3, 4, 5, 6, 7, 8]
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+    steps:
+      - name: Checkout distributed scheduler
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Checkout pinned Hybrid Cloud Fuzzer engine
+        uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: engine/package-lock.json
+      - name: Install the pinned engine
+        run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium with Linux system dependencies
+        run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Process public DEMO games with per-provider D1 leases
+        env:
+          SLOTS: ${{ inputs.per_runner }}
+          MINUTES: ${{ inputs.duration_minutes }}
+          ADULT: ${{ inputs.confirm_adult }}
+          RUNNER_INDEX: ${{ matrix.runner }}
+        run: |
+          args=(worker --config=config/providers.json --engine=engine "--slots=$SLOTS" "--minutes=$MINUTES" "--runner=$RUNNER_INDEX")
+          if [ "$ADULT" = "true" ]; then args+=(--confirm-adult); fi
+          node src/cli.mjs "${args[@]}"
+
+  report:
+    if: always() && needs.prepare.result == 'success'
+    needs: [prepare, workers]
+    name: Summarize D1 / R2 catalogue
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Report outstanding providers and visual review backlog
+        run: node src/cli.mjs report --config=config/providers.json

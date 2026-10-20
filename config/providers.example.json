@@ -1,0 +1,55 @@
+{
+  "runId": "hybrid-actions-20261020",
+  "providers": [
+    {
+      "id": "pragmatic",
+      "enabled": true,
+      "approved": true,
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 2
+      },
+      "allowlist": [
+        {
+          "origin": "https://www.pragmaticplay.fun",
+          "pathPrefix": "/en/slots/"
+        }
+      ],
+      "sources": [
+        {
+          "id": "pragmatic-public",
+          "enabled": true,
+          "approved": true,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://www.pragmaticplay.fun/en/slots/"
+          ],
+          "gameUrlPrefix": "https://www.pragmaticplay.fun/en/slots/",
+          "gamePathPattern": "^/en/slots/[a-z0-9-]+/$",
+          "maxGames": 100
+        }
+      ],
+      "games": []
+    },
+    {
+      "id": "playtech",
+      "enabled": false,
+      "approved": false
+    },
+    {
+      "id": "3oaks",
+      "enabled": false,
+      "approved": false
+    },
+    {
+      "id": "rubyplay",
+      "enabled": false,
+      "approved": false
+    },
+    {
+      "id": "belatra",
+      "enabled": false,
+      "approved": false
+    }
+  ]
+}
