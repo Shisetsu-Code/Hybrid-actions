@@ -23,4 +23,7 @@ test('the scheduled continuation is opt-in, serialized and gated on real D1 dema
  assert.match(y,/steps\.readiness\.outputs\.hasWork/);
  assert.match(y,/cancel-in-progress: false/);
  assert.match(y,/max-parallel: 8/);
+ assert.match(y,/SLOTS: \$\{\{ inputs\.per_runner \|\| '5' \}\}/);
+ assert.match(y,/MINUTES: \$\{\{ inputs\.duration_minutes \|\| '60' \}\}/);
+ assert.match(y,/ADULT: \$\{\{ inputs\.confirm_adult \|\| 'false' \}\}/);
 });
