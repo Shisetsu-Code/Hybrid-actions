@@ -1,5 +1,7 @@
 # Hybrid Actions
 
+**Para Codex (deploy completo, orden de ejecución, migraciones, secretos, piloto y rollback):** [Runbook de despliegue](docs/CODEX_DEPLOY_RUNBOOK.md). Antes de empezar, leer también [AGENTS.md](AGENTS.md). El código del workflow no significa que esté activo: requiere D1 esquema 0004, Worker publicado, secretos y proveedores aprobados.
+
 Ejecutor distribuido de catálogos de **juegos DEMO públicos** sobre GitHub Actions, conectado a [Hybrid Cloud Fuzzer](https://github.com/Shisetsu-Code/hybrid-cloud-fuzzer). No utiliza cuentas de dinero real y el modo catálogo no hace giros, apuestas ni compras.
 
 ## Arquitectura
