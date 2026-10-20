@@ -97,9 +97,9 @@ jobs:
         run: node engine/node_modules/playwright/cli.js install --with-deps chromium
       - name: Process public DEMO games with per-provider D1 leases
         env:
-          SLOTS: ${{ inputs.per_runner }}
-          MINUTES: ${{ inputs.duration_minutes }}
-          ADULT: ${{ inputs.confirm_adult }}
+          SLOTS: ${{ inputs.per_runner || '5' }}
+          MINUTES: ${{ inputs.duration_minutes || '60' }}
+          ADULT: ${{ inputs.confirm_adult || 'false' }}
           RUNNER_INDEX: ${{ matrix.runner }}
         run: |
           args=(worker --config=config/providers.json --engine=engine "--slots=$SLOTS" "--minutes=$MINUTES" "--runner=$RUNNER_INDEX")
