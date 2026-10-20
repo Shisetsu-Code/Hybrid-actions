@@ -64,6 +64,16 @@ Cada runner toma un trabajo de descubrimiento o catálogo por proveedor, espera 
 
 El job final `report` consulta D1 y registra por proveedor los trabajos pendientes, completados y fallidos, además de la cola de capturas que todavía requieren clasificación visual. Ningún runner depende de la persistencia del disco de GitHub Actions.
 
+## Reanudación automática de tandas (opcional)
+
+El workflow contiene también una programación **cada hora**. Por seguridad, está desactivada por defecto. Para activarla, creá la **Repository variable** `ENABLE_RECURRING_CATALOG` con valor `true` en **Settings → Secrets and variables → Actions → Variables**. Los dos tokens existentes y los proveedores aprobados deben estar configurados primero.
+
+Cada ejecución programada utiliza **8 runners × 5 juegos simultáneos**, con hasta **60 minutos de trabajo por runner**. Reutiliza las colas D1, los leases y los resultados ya guardados; no empieza desde cero. Antes de reservar los ocho runners, el job `prepare` consulta si quedan tickets de descubrimiento o catálogo, o capturas estructuradas pendientes de clasificación. Si no los hay, los runners se **omiten automáticamente**. Las ejecuciones están serializadas (`cancel-in-progress: false`), por lo que una tanda no cancela otra a mitad de una captura.
+
+Las capturas visuales e híbridas sin clasificar **no** se consideran trabajo automáticamente clasificable por este workflow. Permanecen pendientes del revisor MCP; el reporte final siempre muestra ese atraso. La reanudación horaria garantiza la continuidad del *catálogo y clasificación estructurada*, pero no implica que la clasificación visual se complete sola. Cuando el catálogo termina, el workflow deja de arrancar los ocho navegadores hasta que aparezca nuevo trabajo aprobado.
+
+Para desactivar las nuevas tandas, cambiá la variable a `false` o eliminála. No borra trabajo de D1 ni R2.
+
 ## Pruebas
 
 ```bash
