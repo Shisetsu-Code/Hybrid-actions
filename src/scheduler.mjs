@@ -55,8 +55,17 @@ export async function runFleet({
  try{
   while(now()<deadline&&!stopping){
    if(now()>=nextSnapshot){
-    [snapshot,queue]=await Promise.all([cloud.jobs(config.runId),cloud.stats(config.runId)]);
-    nextSnapshot=now()+5000;
+    try{
+     [snapshot,queue]=await Promise.all([cloud.jobs(config.runId),cloud.stats(config.runId)]);
+     nextSnapshot=now()+5000;
+    }catch(e){
+     // Temporary Cloudflare/D1 outage must not terminate a 60-minute runner.
+     // Do not claim work using a potentially stale backlog snapshot.
+     log('D1 BACKOFF',String(e.message).slice(0,150));
+     nextSnapshot=0;
+     await sleepFn(5000);
+     continue;
+    }
    }
    if(now()-lastHeartbeat>30000){
     await cloud.heartbeat(config.runId,runnerId,'catalog').catch(e=>log('HEARTBEAT',e.message));
@@ -77,7 +86,15 @@ export async function runFleet({
     if(!pick)break;
     cursor=pick.nextCursor;
     // Prevent claiming the same non-ready ticket repeatedly on this poll.
-    const claimed=await cloud.claim(config.runId,pick.role,pick.provider,runnerId);
+    let claimed;
+    try{claimed=await cloud.claim(config.runId,pick.role,pick.provider,runnerId);}
+    catch(e){
+     log('D1 CLAIM BACKOFF',pick.provider,String(e.message).slice(0,150));
+     const row=snapshot.providers.find(p=>p.provider===pick.provider);
+     if(row?.[pick.role])row[pick.role].pending=0;
+     nextSnapshot=0;
+     continue;
+    }
     if(!claimed){
      const row=snapshot.providers.find(p=>p.provider===pick.provider);
      if(row?.[pick.role])row[pick.role].pending=0;
