@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 import path from 'node:path';
+import fs from 'node:fs/promises';
+import {hasAutomatableWork,outstandingCounts} from './readiness.mjs';
 import {CloudClient} from './client.mjs';
 import {loadConfig} from './config.mjs';
 import {seedCatalogues} from './seed.mjs';
@@ -19,6 +21,13 @@ const log=(...msg)=>console.log(new Date().toISOString(),...msg);
 if(mode==='seed'){
  const result=await seedCatalogues({cloud,config,log});
  log('SEED RESULT',JSON.stringify(result));
+}else if(mode==='readiness'){
+ await cloud.requireReady();
+ const stats=await cloud.stats(config.runId);
+ const value=hasAutomatableWork(stats);
+ const result={runId:config.runId,hasWork:value,...outstandingCounts(stats)};
+ if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,'hasWork='+String(value)+'\n');
+ log('READINESS',JSON.stringify(result));
 }else if(mode==='report'){
  await cloud.requireReady();
  const [jobs,stats,policies]=await Promise.all([cloud.jobs(config.runId),cloud.stats(config.runId),cloud.policies()]);
