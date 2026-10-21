@@ -2,7 +2,7 @@ import {waitForGameCapture} from './capture-delay.mjs';
 // Official Play'n GO catalogue and read-only mobile practice DEMO adapter.
 // Never infer GID from a title/slug; use the official detail-page mobileUrl.
 import {providerForUrl} from './config.mjs';
-const origin='https://www.playngo.com',launcherHost='released.playngonetwork.com';
+const origin='https://www.playngo.com',launcherHosts=new Set(['released.playngonetwork.com','preview.playngonetwork.com']);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const sku=/^\d{1,12}$/,slugPattern=/^[a-z0-9][a-z0-9'-]{0,120}$/i;
 function gameRecord(row){
@@ -55,10 +55,10 @@ export function officialMobileLauncher(html){
  const normalized=html.replace(/\\u0026/gi,'&').replace(/&amp;/g,'&')
   .replace(/\\\//g,'/').replace(/\\"/g,'"').replace(/&quot;/g,'"');
  const raw=normalized.match(/"mobileUrl"\s*:\s*"([^"]+)"/i)?.[1]||
-  normalized.match(/https:\/\/released\.playngonetwork\.com\/casino\/ContainerLauncher\?[^"'\s<>]*channel=mobile[^"'\s<>]*/i)?.[0];
+  normalized.match(/https:\/\/(?:released|preview)\.playngonetwork\.com\/casino\/ContainerLauncher\?[^"'\s<>]*channel=mobile[^"'\s<>]*/i)?.[0];
  if(!raw)throw Error('official mobileUrl absent from game detail');
  let url;try{url=new URL(raw);}catch{throw Error('invalid mobile demo URL');}
- if(url.protocol!=='https:'||url.hostname!==launcherHost||url.pathname!=='/casino/ContainerLauncher'||
+ if(url.protocol!=='https:'||!launcherHosts.has(url.hostname)||url.pathname!=='/casino/ContainerLauncher'||
    url.username||url.password||url.port||url.hash)throw Error('unexpected launcher origin');
  const allowed=new Set(['pid','gid','lang','practice','channel','demo']);
  for(const key of url.searchParams.keys())if(!allowed.has(key))throw Error('launcher has sensitive/unexpected parameter');
@@ -113,7 +113,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
    state:'BASE',mode:'visual',adapter:'playngo-mobile-public-demo',adapterVersion:'1',
    candidates:[],width:viewport.width,height:viewport.height,
    metadata:{url:game.url,source:'github-actions-catalogue',runnerId:String(runnerId).slice(0,64),
-    mobileChannel:'mobile',launcherHost,publicGid:launcher.searchParams.get('gid'),
+    mobileChannel:'mobile',launcherHost:launcher.hostname,publicGid:launcher.searchParams.get('gid'),
     frameAligned:true,opaqueCanvas:true,capturedAt:new Date().toISOString(),
     networkDiagnostics:{format:'summary-v1',summary:{...assets,canvases}}}}};
  }finally{await ctx.close();}
