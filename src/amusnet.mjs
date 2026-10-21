@@ -25,7 +25,7 @@ export async function discoverAmusnet(browser,source,{config,maxPages=20,pauseMs
  providerForUrl(config,'amusnet',site+'/games/online-casino/verified-demo');
  if(!Number.isSafeInteger(maxPages)||maxPages<1||maxPages>25)throw Error('invalid Amusnet page limit');
  const ctx=await browser.newContext({serviceWorkers:'block'});
- const seen=new Map();let pages=0,complete=false,scanned=0,total=null;
+ const seen=new Map();let pages=0,complete=false,scanned=0,total=null,variants=0;
  try{
   for(let offset=0;pages<maxPages;offset+=50){
    const q=new URLSearchParams();
@@ -46,7 +46,10 @@ export async function discoverAmusnet(browser,source,{config,maxPages=20,pauseMs
     if(!game)continue;
     providerForUrl(config,'amusnet',game.url);
     const prior=seen.get(game.gameId);
-    if(prior&&prior.url!==game.url)throw Error('Amusnet GIN maps to multiple pages');
+    // The public catalogue contains different slugs for a shared game GIN.
+    // D1 ticket identity is provider+gameId, so keep the first documented
+    // official variant and count later aliases without overwriting tickets.
+    if(prior&&prior.url!==game.url){variants++;continue;}
     seen.set(game.gameId,game);
    }
    scanned+=json.data.length;pages++;
@@ -61,7 +64,7 @@ export async function discoverAmusnet(browser,source,{config,maxPages=20,pauseMs
  if(!complete)throw Error('Amusnet catalogue scan incomplete');
  if(!seen.size)throw Error('no public Amusnet games with an available DEMO');
  return {provider:'amusnet',complete,pages,recordsSeen:scanned,
-  totalPublished:total,games:[...seen.values()]};
+  totalPublished:total,duplicateGinVariants:variants,games:[...seen.values()]};
 }
 async function rejectCookies(page){
  const banner=page.locator('#cookiescript_injected_wrapper').first();
