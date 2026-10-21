@@ -13,7 +13,13 @@ export function prepareTesterSpinConfig(original,rows){
  for(const provider of config.providers){
   const source=rows.filter(row=>row.provider===provider.id);
   provider.enabled=false;
+  provider.approved=false;
   delete provider.pacing;
+  if(['amusnet','playngo'].includes(provider.id)&&provider.sources?.length){
+   summary.push({provider:provider.id,sourceGames:source.length,launchableGames:0,
+    omittedGames:0,status:'native-adapter-preserved-disabled'});
+   continue;
+  }
   delete provider.allowlist;
   delete provider.launcher;
   provider.games=[];provider.sources=[];

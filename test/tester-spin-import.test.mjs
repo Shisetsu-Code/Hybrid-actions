@@ -51,3 +51,16 @@ test('database import reads Tester Spin without starting providers or modifying 
   assert.deepEqual(await fs.readFile(file),before);
  }finally{await fs.rm(dir,{recursive:true,force:true});}
 });
+
+test('reimport preserves native adapter scopes while revoking operational approval',async()=>{
+ const {prepareTesterSpinConfig}=await import('../src/tester-spin-import.mjs');
+ for(const id of ['amusnet','playngo']){
+  const provider={id,enabled:true,approved:true,pacing:{maxActive:1},allowlist:[{origin:'https://official.example',pathPrefix:'/games/'}],sources:[{id:'official',indexUrls:['https://official.example/games/']}],games:[]};
+  const result=prepareTesterSpinConfig({providers:[provider]},[]);
+  assert.deepEqual(result.config.providers[0].sources,provider.sources);
+  assert.deepEqual(result.config.providers[0].allowlist,provider.allowlist);
+  assert.equal(result.config.providers[0].enabled,false);
+  assert.equal(result.config.providers[0].approved,false);
+  assert.equal(result.summary[0].status,'native-adapter-preserved-disabled');
+ }
+});
