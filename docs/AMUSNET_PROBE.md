@@ -20,8 +20,29 @@ La prueba está en \`test/amusnet-live-probe.mjs\`, workflow \`.github/workflows
 
 **Conclusión verificada:** los runners GitHub-hosted pueden leer el catálogo de Amusnet y abrir la ficha de un juego real; **no está comprobado que hayan podido iniciar el iframe del juego**. El estado de un workflow \`success\` indica que el diagnóstico terminó; el campo \`demo.state\` del log confirma o niega el lanzamiento.
 
-## Prueba posterior
+## Resultado: arranque confirmado en GitHub-hosted Chromium
 
-Abrir [Actions → Probe Amusnet public catalogue and DEMO](https://github.com/Shisetsu-Code/Hybrid-actions/actions/workflows/amusnet-probe.yml) y ejecutar \`workflow_dispatch\`. Revisar el mensaje \`AMUSNET_PROBE_RESULT\` del job; NO interpretar solamente la conclusión del job. Si aparece un aviso real de cookies, se puede cerrar su opción legítima de rechazo; si aparece una comprobación de edad, requerir confirmación explícita del operador antes de continuar. Si aparece un error 403/429, no intentar evadirlo; revisar las políticas del proveedor.
+En el [run 39627618350](https://github.com/Shisetsu-Code/Hybrid-actions/actions/runs/39627618350) del 2026-10-21, la prueba autorizada por un operador mayor de edad obtuvo:
 
-Antes de integrar Amusnet a \`config/providers.json\` hay que crear un adaptador específico para el descubrimiento JSON:API y el lanzamiento mediante la propia UI de \`Play Demo\`, y pasar un smoke test de \`iframe_attached\` + host esperado sin mostrar tokens. El clasificador Pragmatic existente no debe aplicarse ciegamente a Amusnet; sus capturas serán \`visual\`/\`hybrid\` si no hay candidatos estructurados verificados. No habilitar ocho runners para este proveedor mientras no exista un piloto controlado y una política de frecuencia adecuada.
+- Catálogo HTTP 200, backend JSON:API HTTP 200 y 490 juegos contabilizados.
+- Rechazo real de cookies de CookieScript, sin ocultar el overlay por CSS.
+- Confirmación explícita de mayoría de edad dentro de la ventana correspondiente.
+- Ficha **Rise of RA**, GIN 806: HTTP 200 y control **Play Demo** visible.
+- Clic funcional: `/api/lobby` solicitado y respondido con HTTP 200.
+- Iframe creado en `free-pod.games.amusnet.io` y navegación del juego confirmada (`iframeReadable=true`).
+
+**Conclusión:** GitHub Actions puede leer el catálogo y abrir una demo de Amusnet usando Chromium, sin giros, compras ni apuestas. Esto no prueba todos los 490 juegos ni la ejecución masiva.
+
+El bloqueo anterior era el aviso `#cookiescript_injected_wrapper` interceptando el botón, junto con el control de edad `.age-conf-container`. Se corrigió usando la opción de rechazo de cookies de CookieScript y el control positivo de edad solamente con autorización explícita.
+
+## Repetición controlada
+
+El workflow `.github/workflows/amusnet-probe.yml` se ejecuta **manualmente**, mediante `workflow_dispatch`, y por defecto `confirm_adult=false`. Cada operador adulto debe seleccionar `confirm_adult=true` si desea autorizar la confirmación de edad. Sin autorización, el script se detiene si aparece esa pantalla.
+
+El registro `AMUSNET_PROBE_RESULT` separa los estados del catálogo y la demo. No se imprimen ni conservan URLs completas con tokens de lanzamiento.
+
+## Próxima integración
+
+Falta integrar un adaptador propio para convertir la paginación JSON:API de Amusnet a tickets de D1, abrir cada demo mediante la UI legítima y capturar pantallas con una política de límites por proveedor. Debe realizarse un piloto antes de habilitar ocho runners.
+
+Los controles del adaptador Pragmatic no deben aplicarse automáticamente a Amusnet. Sus controles no verificados requieren clasificación visual/híbrida mediante MCP. Que el catálogo y una demo funcionen no implica que estén clasificados.
