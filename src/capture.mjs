@@ -1,3 +1,4 @@
+import {selectVisibleImportedSurface} from './imported-surface.mjs';
 import {prepareKAPublicTransport} from './tester-spin-http.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // One read-only public DEMO capture using a *shared* Chromium instance.
@@ -61,13 +62,19 @@ export async function capturePublicDemo(browser,engine,job,{
   if(imported)await dismissImportedSiteOverlays(page,job.provider);
   inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no frame after removing catalogue overlays');
+  if(imported){
+   let visible=await selectVisibleImportedSurface(page,engine,job.provider,game);
+   if(!visible){
+    const extended=job.provider==='yggdrasil'?60000:job.provider==='3oaks'?45000:35000;
+    await captureWait(gameStartedAt,{waitMs:Math.max(waitMs+10000,extended),provider:job.provider});
+    await dismissImportedSiteOverlays(page,job.provider);
+    visible=await selectVisibleImportedSurface(page,engine,job.provider,game);
+   }
+   if(visible)inspected=visible;
+  }
   if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
   if(imported){
-   const canvases=inspected.frame.locator('canvas');
-   let visibleCanvas=false;
-   for(let i=0;i<Math.min(await canvases.count(),8);i++){
-    if(await canvases.nth(i).isVisible()){visibleCanvas=true;break;}
-   }
+   const visibleCanvas=await inspected.frame.locator('canvas:visible').count()>0;
    if(!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
     throw Error('Tester Spin runtime has no visible game surface');
   }

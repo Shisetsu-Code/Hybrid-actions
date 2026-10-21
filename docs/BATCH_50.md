@@ -18,3 +18,5 @@ Consultar Cloudflare con runId `catalog-50-20261021`. Las capturas usan shotId `
 
 El chat clasificador debe reclamar únicamente esta tanda, guardar sus decisiones con la revisión y el hash correspondientes, y liberar sus leases cuando no pueda clasificar. Las imágenes anteriores permanecen en sus respectivos runId y shotId.
 La recuperación de la tanda detectó variantes oficiales adicionales: Yggdrasil PFF usa el índice por gameid y el servidor productionpff-mt; Playtech antiguo usa el cliente NGM versionado manteniendo juego, offline y real=0; la ficha oficial de Play’n GO puede publicar un lanzador preview con practice=1 y demo=2. Se mantienen hosts y rutas explícitos, y se verifica la identidad de juego donde está disponible. Estas variantes no añaden juegos a la selección de 600.
+
+La selección de captura prioriza únicamente frames de runtime permitidos con canvas visible; no limita la inspección a los primeros ocho canvas utilitarios. Si aún no hay superficie visible, realiza una única espera adicional acotada de diez segundos antes de volver a inspeccionar. No convierte una ficha promocional ni un cargador sin superficie en una captura válida.
