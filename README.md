@@ -15,6 +15,10 @@ Ejecutor distribuido de catálogos de **juegos DEMO públicos** sobre GitHub Act
 
 El límite anterior de *3 aperturas/minuto* del motor local **no se multiplica por 8**: en GitHub Actions el inicio de cada juego obtiene un permiso global D1 **específico de ese proveedor**. Cada proveedor debe tener su `minStartIntervalMs` y `maxActive` habilitados explícitamente. Estos límites son políticas del operador, no valores oficiales afirmados por los proveedores.
 
+### Play’n GO: modo móvil verificado
+
+La demo pública de Play’n GO se inicializó en un runner real de GitHub Actions usando **`channel=mobile`**, emulación Pixel 7 y WebView Android. Existe un adaptador optativo que descubre juegos mediante `/api/games`, toma el enlace móvil publicado por el proveedor y captura **solo** la pantalla de práctica, marcando `mode=visual` para revisión. El [informe de Play’n GO](docs/PLAYNGO_MOBILE_PROBE.md) explica las pruebas y cómo configurarlo. El proveedor está deshabilitado en el ejemplo y requiere aprobación y una política de frecuencia antes de cargar múltiples juegos.
+
 ## Configuración (necesaria una sola vez)
 
 ### 1. Actualizar el coordinador Cloudflare
