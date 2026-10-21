@@ -1,3 +1,4 @@
+import {waitForGameCapture} from './capture-delay.mjs';
 // Amusnet: publicly published English catalogue and read-only Play Demo iframe.
 // No wager/spin, raw HAR, /api/lobby body, session token, or iframe URL in output.
 import {providerForUrl} from './config.mjs';
@@ -119,7 +120,7 @@ export async function dismissAmusnetOverlays(page,{confirmAdult=false}={}){
  throw Error('Amusnet consent/age dialog still blocking public DEMO');
 }
 export async function captureAmusnetDemo(browser,_engine,job,{
- config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture
 }={}){
  const game=job.payload?.game;
  if(job.provider!=='amusnet'||game?.provider!=='amusnet'||job.subject!==game.id)
@@ -152,13 +153,14 @@ export async function captureAmusnetDemo(browser,_engine,job,{
    const url=new URL(r.url());
    if(url.origin===site&&url.pathname==='/api/lobby')lobbyStatus=r.status();
   });
+  const gameStartedAt=Date.now();
   await play.click({timeout:12000});
   const frameElement=page.locator('.play-popup iframe').first();
   await frameElement.waitFor({state:'attached',timeout:30000});
   const frame=await (await frameElement.elementHandle())?.contentFrame();
   if(!frame)throw Error('Amusnet demo iframe not attached');
   await frame.waitForLoadState('domcontentloaded',{timeout:20000}).catch(()=>{});
-  await sleep(Math.max(1000,Math.min(waitMs,8000)));
+  await captureWait(gameStartedAt,{waitMs});
   const frameUrl=new URL(frame.url());
   if(frameUrl.protocol!=='https:'||!hosts.has(frameUrl.hostname)||
      frameUrl.pathname==='/'&&frameUrl.search==='')

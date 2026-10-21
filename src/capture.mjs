@@ -1,3 +1,4 @@
+import {waitForGameCapture} from './capture-delay.mjs';
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
@@ -5,9 +6,8 @@ import {TESTER_SPIN_LAUNCHER,guardImportedNavigation,openImportedDemo,isImported
 import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 
-const wait=ms=>new Promise(r=>setTimeout(r,ms));
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture
 }={}){
  let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
@@ -19,8 +19,8 @@ export async function capturePublicDemo(browser,engine,job,{
   if(!known||known.url!==game.url||(known.symbol||'')!==(game.symbol||''))throw Error('imported DEMO ticket does not match configured game');
   game={...known,provider:job.provider};
  }
- if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId});
- if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId});
+ if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId,captureWait});
+ if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait});
 
  const expectedOrigin=new URL(game.url).origin;
  const context=await browser.newContext({
@@ -42,7 +42,8 @@ export async function capturePublicDemo(browser,engine,job,{
    await engine.intro.openPublicDemo(page,{provider:job.provider,url:game.url,confirmAdult});
   }
   phase='frame inspection';
-  await wait(Math.max(500,Math.min(waitMs,15000)));
+  const gameStartedAt=Date.now();
+  await captureWait(gameStartedAt,{waitMs});
   let inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no game iframe or DOM surface');
   if(job.provider==='pragmatic'&&inspected.data.state==='INTRO'){

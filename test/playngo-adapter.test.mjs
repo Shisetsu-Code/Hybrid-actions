@@ -86,7 +86,7 @@ test('mobile capture has a real frame and mobile assets before emitting visual J
  }};
  const engine={devices:{'Pixel 7':{viewport:{width:393,height:851},isMobile:true,hasTouch:true}}};
  const job={provider:'playngo',subject:'123',payload:{game:{id:'123',provider:'playngo',url:'https://www.playngo.com/games/unigoat'}}};
- const result=await capturePublicDemo(browser,engine,job,{config,runId:'playngo-pilot',waitMs:1});
+ const result=await capturePublicDemo(browser,engine,job,{config,runId:'playngo-pilot',captureWait:async()=>{},waitMs:1});
  assert.equal(result.info.mode,'visual');
  assert.equal(result.info.adapter,'playngo-mobile-public-demo');
  assert.equal(result.info.metadata.mobileChannel,'mobile');

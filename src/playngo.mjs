@@ -1,3 +1,4 @@
+import {waitForGameCapture} from './capture-delay.mjs';
 // Official Play'n GO catalogue and read-only mobile practice DEMO adapter.
 // Never infer GID from a title/slug; use the official detail-page mobileUrl.
 import {providerForUrl} from './config.mjs';
@@ -69,7 +70,7 @@ export function officialMobileLauncher(html){
  url.searchParams.set('channel','mobile');
  return url;
 }
-export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=3500,runnerId='runner'}={}){
+export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=25000,runnerId='runner',captureWait=waitForGameCapture}={}){
  const game=job.payload?.game;
  if(job.provider!=='playngo'||game?.provider!=='playngo'||game.id!==job.subject)
   throw Error('invalid Playngo ticket');
@@ -93,6 +94,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
    if(u.pathname.endsWith('ui_mobile_bundle.json')||/_mobile\.bundle\.js$/.test(u.pathname))assets.mobileUI++;
    if(u.pathname==='/configuration/v2')assets.configV2++;
   });
+  const gameStartedAt=Date.now();
   const res=await page.goto(launcher.href,{waitUntil:'domcontentloaded',timeout:45000});
   if(res?.status()!==200)throw Error('mobile DEMO launcher HTTP error');
   const deadline=Date.now()+45000;
@@ -103,7 +105,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   }
   if(!(canvases>0&&assets.configMobile>0&&assets.mobileUI>0&&assets.configV2>0))
    throw Error('mobile game not initialized; not uploading a misleading screenshot');
-  await sleep(Math.max(500,Math.min(waitMs,7000)));
+  await captureWait(gameStartedAt,{waitMs});
   const image=Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false}));
   if(image.length<1200)throw Error('screenshot unexpectedly small');
   const viewport=page.viewportSize();

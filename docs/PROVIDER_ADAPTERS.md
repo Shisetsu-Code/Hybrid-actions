@@ -54,3 +54,8 @@ En total son 13 proveedores con implementación de apertura/captura. Los 11 impo
 Los otros 11 proveedores del inventario siguen sin lanzador gráfico integrado: Games Global, Greentube / Novomatic, NetEnt, PG Soft, Blueprint Gaming, Relax Gaming, Playson, Wazdan, ELK Studios, Push Gaming y Hacksaw Gaming (este último dispone de protocolo en Tester Spin).
 
 Consulte [contratos, importación y limitaciones de Tester Spin](TESTER_SPIN_LAUNCHERS.md). La importacion de Tester Spin conserva las fuentes y alcances configurados de Amusnet y Play'n GO; ambos quedan deshabilitados, sin aprobacion ni ritmo operativo.
+
+
+## Capture delay after runtime launch
+
+All three capture paths wait at least 25 seconds from opening the game runtime before taking a screenshot. Catalogue navigation is not counted. Time spent initializing the runtime counts toward this delay; a larger waitMs remains supported up to 300 seconds. Older 3500 ms callers cannot reduce the 25 second minimum. This is an observation interval, not proof that loading completed; loading screenshots still need review. Consent, identity, runtime and storage checks remain required.

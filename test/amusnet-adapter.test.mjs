@@ -110,7 +110,7 @@ test('Amusnet capture demands age authorization, then records ONLY public iframe
   provider:'amusnet',id:'806',url:'https://amusnet.com/games/online-casino/rise-of-ra'}}};
  await assert.rejects(()=>capturePublicDemo(browser,{},job,{config,runId:'amusnet-pilot'}),e=>
   e?.code==='ADULT_CONFIRMATION_REQUIRED');
- const result=await capturePublicDemo(browser,{},job,{config,runId:'amusnet-pilot',confirmAdult:true});
+ const result=await capturePublicDemo(browser,{},job,{config,runId:'amusnet-pilot',confirmAdult:true,captureWait:async()=>{}});
  assert.equal(result.info.mode,'visual');
  assert.equal(result.info.adapter,'amusnet-public-demo');
  assert.equal(result.info.metadata.networkDiagnostics.summary.lobbyHttp,200);
