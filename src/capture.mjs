@@ -1,17 +1,18 @@
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
+import {acceptKnownPublicDemoOverlays} from './consent.mjs';
 import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
+ config,runId,waitMs=3500,confirmAdult=true,runnerId='runner'
 }={}){
  const game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
   throw Error('catalogue ticket identity mismatch');
  providerForUrl(config,job.provider,game.url);
- if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId});
+ if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId});
  if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId});
  const expectedOrigin=new URL(game.url).origin;
  const context=await browser.newContext({
@@ -24,7 +25,9 @@ export async function capturePublicDemo(browser,engine,job,{
   const response=await page.goto(game.url,{waitUntil:'domcontentloaded',timeout:45000});
   if(!response||response.status()>=400)throw Error('public DEMO returned HTTP error');
   if(new URL(page.url()).origin!==expectedOrigin)throw Error('demo redirected outside approved origin');
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,graceMs:500,requireClear:true});
   await engine.intro.openPublicDemo(page,{provider:job.provider,url:game.url,confirmAdult});
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,graceMs:500,requireClear:true});
   await wait(Math.max(500,Math.min(waitMs,15000)));
   let inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no game iframe or DOM surface');
@@ -38,6 +41,7 @@ export async function capturePublicDemo(browser,engine,job,{
   inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no frame after removing catalogue overlays');
   const shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,requireClear:true});
   const image=Buffer.from(await page.screenshot({type:'jpeg',quality:67,
    ...(shot.clip?{clip:shot.clip}:{})}));
   const {har,summary}=await recorder.finish();
