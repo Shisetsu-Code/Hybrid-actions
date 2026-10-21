@@ -59,3 +59,6 @@ Consulte [contratos, importación y limitaciones de Tester Spin](TESTER_SPIN_LAU
 ## Capture delay after runtime launch
 
 All three capture paths wait at least 25 seconds from opening the game runtime before taking a screenshot. Catalogue navigation is not counted. Time spent initializing the runtime counts toward this delay; a larger waitMs remains supported up to 300 seconds. Older 3500 ms callers cannot reduce the 25 second minimum. This is an observation interval, not proof that loading completed; loading screenshots still need review. Consent, identity, runtime and storage checks remain required.
+
+
+3 Oaks uses a 35 second minimum after opening its DEMO, following the bounded live comparison. The other providers keep the 25 second minimum. Neither interval alone certifies that loading completed.

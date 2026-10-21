@@ -43,7 +43,7 @@ export async function capturePublicDemo(browser,engine,job,{
   }
   phase='frame inspection';
   const gameStartedAt=Date.now();
-  await captureWait(gameStartedAt,{waitMs});
+  await captureWait(gameStartedAt,{waitMs,provider:job.provider});
   let inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no game iframe or DOM surface');
   if(job.provider==='pragmatic'&&inspected.data.state==='INTRO'){
