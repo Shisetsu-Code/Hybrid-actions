@@ -36,7 +36,7 @@ test('pinned engine captures a real Chromium JPEG from a completely mocked HTTPS
   const result=await capturePublicDemo(routed,engine,{
    role:'catalog',provider:'pragmatic',subject:'candy-rush',
    payload:{game:{provider:'pragmatic',id:'candy-rush',url}}
-  },{config,runId:'browser-fixture',waitMs:600,runnerId:'ci-fixture',confirmAdult:false});
+  },{config,runId:'browser-fixture',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:600,runnerId:'ci-fixture',confirmAdult:false});
   assert.equal(result.info.runId,'browser-fixture');
   assert.equal(result.info.provider,'pragmatic');
   assert.equal(result.info.gameId,'candy-rush');
@@ -104,7 +104,7 @@ test('Tester Spin launchers reach mocked DEMO runtimes without spinning or conta
    }]});
    const result=await capturePublicDemo(routed,engine,{
     role:'catalog',provider:f.id,subject:'fixture',payload:{game:{provider:f.id,id:'fixture',url:f.url,symbol:f.symbol||''}}
-   },{config,runId:'mock-launchers',waitMs:500}).catch(error=>{
+   },{config,runId:'mock-launchers',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}).catch(error=>{
     throw new Error(f.id+': '+error.message);
    });
    assert.equal(result.info.metadata.launcher,'tester-spin-v1',f.id);
@@ -119,17 +119,17 @@ test('Tester Spin launchers reach mocked DEMO runtimes without spinning or conta
   const config=validateConfig({runId:'missing-demo',providers:[{id:'belatra',launcher:'tester-spin-v1',enabled:true,approved:true,
    pacing:{minStartIntervalMs:20000,maxActive:1},allowlist:[{origin:'https://belatragames.com',pathPrefix:'/es/games/game/'}],games:[{id:'missing',url:source}]}]});
   await assert.rejects(capturePublicDemo(ctxBrowser,engine,{provider:'belatra',subject:'missing',payload:{game:{provider:'belatra',id:'missing',url:source}}},
-   {config,runId:'missing-demo',waitMs:500}),/DEMO launch/);
+   {config,runId:'missing-demo',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}),/DEMO launch/);
   const direct='https://playin.com/embed/v1/demo/Broken';
   documents.set(direct,{body:'<h1>Session unavailable</h1>'});
   const brokenConfig=validateConfig({runId:'broken-demo',providers:[{id:'nolimit_city',launcher:'tester-spin-v1',enabled:true,approved:true,
    pacing:{minStartIntervalMs:20000,maxActive:1},allowlist:[{origin:'https://playin.com',pathPrefix:'/embed/v1/demo/'}],games:[{id:'broken',url:direct}]}]});
   await assert.rejects(capturePublicDemo(ctxBrowser,engine,{provider:'nolimit_city',subject:'broken',payload:{game:{provider:'nolimit_city',id:'broken',url:direct}}},
-   {config:brokenConfig,runId:'broken-demo',waitMs:500}),/DEMO frame inspection/);
+   {config:brokenConfig,runId:'broken-demo',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}),/DEMO frame inspection/);
   documents.set(direct,{status:302,headers:{location:'https://unapproved.example/demo'}});
   const redirected=transport.browser;
   await assert.rejects(capturePublicDemo(redirected,engine,{provider:'nolimit_city',subject:'broken',payload:{game:{provider:'nolimit_city',id:'broken',url:direct}}},
-   {config:brokenConfig,runId:'broken-demo',waitMs:500}),/DEMO navigation/);
+   {config:brokenConfig,runId:'broken-demo',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}),/DEMO navigation/);
   assert.ok(!transport.requests.some(url=>new URL(url).hostname==='unapproved.example'),
    'a redirected document must be validated before its next HTTP fetch');
   const preloaded='https://rubyplay.com/games/preloaded/';
