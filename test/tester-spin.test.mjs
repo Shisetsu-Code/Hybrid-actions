@@ -148,3 +148,12 @@ test('BGaming official FUN redirect retains its demo server identifier',()=>{
  assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/play/Adventures/FUN?server=demo_fun_curacao'),true);
  assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/play/Adventures/FUN?server=real'),false);
 });
+
+test('legacy official DEMO routes keep the selected game and server identities',()=>{
+ assert.equal(imported.isImportedRuntime('yggdrasil','https://staticpff.yggdrasilgaming.com/7365/index.html?gameid=7365&appsrv=https%3A%2F%2Fproductionpff-mt.yggdrasilgaming.com',{symbol:'7365'}),true);
+ assert.equal(imported.isImportedRuntime('yggdrasil','https://staticpff.yggdrasilgaming.com/7365/index.html?gameid=7365&appsrv=https%3A%2F%2Fevil.example',{symbol:'7365'}),false);
+ assert.equal(imported.isImportedRuntime('yggdrasil','https://staticpff.yggdrasilgaming.com/7365/index.html?gameid=7365&appsrv=https%3A%2F%2Fproductionpff-mt.yggdrasilgaming.com',{symbol:'9999'}),false);
+ const legacy='https://cachedownload.playtechone.com/ngmdesktop/256/platform/index.html?game=ashadv&preferedmode=offline&real=0';
+ assert.equal(imported.isImportedRuntime('playtech',legacy,{symbol:'ashadv'}),true);
+ assert.equal(imported.isImportedRuntime('playtech',legacy,{symbol:'ftsis'}),false);
+});

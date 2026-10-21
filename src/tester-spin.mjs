@@ -92,6 +92,7 @@ export function isImportedRuntime(provider,raw,game={}){
   case 'ka_gaming':
    return Boolean(importedEntryUrl(provider,raw));
   case 'playtech':
+   if(h==='cachedownload.playtechone.com'&&/^\/ngmdesktop\/\d+\/platform\/index\.html$/.test(p)&&identifier(game.symbol)&&value(u,'game',game.symbol)&&value(u,'preferedmode','offline')&&value(u,'real','0'))return true;
    if(h==='gpas-games.playtechone.com'&&p==='/gpasclient.html'&&identifier(game.symbol)&&value(u,'game',game.symbol))return true;
    if(h==='cachedownload.playtechone.com'&&identifier(game.symbol)&&p.includes('/'+game.symbol+'/'))return true;
    return Boolean(importedEntryUrl(provider,raw));
@@ -105,11 +106,12 @@ export function isImportedRuntime(provider,raw,game={}){
     (h.endsWith('.demo.bgaming-network.com')&&['/','/hyperhive','/hyperhive/'].includes(p)));
   case 'nolimit_city':return (h==='demo.nolimitcdn.com'&&p==='/loader/loader-desktop.html'&&identifier(game.symbol)&&value(u,'game',game.symbol)&&value(u,'operator','FANPAGE_DEMO'))||(h==='playin.com'&&/^\/embed\/v1\/demo\/[A-Za-z0-9_-]+$/.test(p))||h==='demo.nolimitcity.com';
   case 'yggdrasil':{
-   const game=q.get('gameid');
+   const gameId=q.get('gameid');
+   if(game.symbol&&!value(u,'gameid',game.symbol))return false;
    return ['staticdemo.yggdrasilgaming.com','staticpff.yggdrasilgaming.com'].includes(h)&&
-    /^\d+$/.test(game||'')&&q.getAll('gameid').length===1&&
+    /^\d+$/.test(gameId||'')&&q.getAll('gameid').length===1&&
     (value(u,'org','Demo')||(h==='staticpff.yggdrasilgaming.com'&&!q.has('org')))&&
-    (p==='/init/launchClient.html'||(h==='staticdemo.yggdrasilgaming.com'&&p===`/${game}/index.html`&&value(u,'appsrv','https://demo.yggdrasilgaming.com')));
+    (p==='/init/launchClient.html'||(h==='staticdemo.yggdrasilgaming.com'&&p===`/${gameId}/index.html`&&value(u,'appsrv','https://demo.yggdrasilgaming.com'))||(h==='staticpff.yggdrasilgaming.com'&&p===`/${gameId}/index.html`&&value(u,'appsrv','https://productionpff-mt.yggdrasilgaming.com')));
   }
   case 'rubyplay':return h==='prrpeu3.com'&&p==='/launcher'&&value(u,'mode','fun')&&
     value(u,'operator','rubyplay.com')&&value(u,'server_url','https://srv.prrpeu3.com')&&
