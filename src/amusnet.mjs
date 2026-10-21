@@ -1,6 +1,7 @@
 // Amusnet: publicly published English catalogue and read-only Play Demo iframe.
 // No wager/spin, raw HAR, /api/lobby body, session token, or iframe URL in output.
 import {providerForUrl} from './config.mjs';
+import {acceptKnownPublicDemoOverlays} from './consent.mjs';
 
 const site='https://amusnet.com';
 const api='https://backend.careers-amusnet.com/jsonapi/node/game';
@@ -66,60 +67,11 @@ export async function discoverAmusnet(browser,source,{config,maxPages=20,pauseMs
  return {provider:'amusnet',complete,pages,recordsSeen:scanned,
   totalPublished:total,duplicateGinVariants:variants,games:[...seen.values()]};
 }
-async function rejectCookies(page){
- const banner=page.locator('#cookiescript_injected_wrapper').first();
- if(!await banner.isVisible().catch(()=>false))return false;
- const button=page.locator('#cookiescript_reject, #cookiescript_reject_all').first();
- const text=banner.getByText(/^(?:reject|decline)(?: all)?(?: cookies)?$|^only necessary(?: cookies)?$|^necessary only$/i).first();
- if(await button.isVisible().catch(()=>false))await button.click({timeout:7000});
- else if(await text.isVisible().catch(()=>false))await text.click({timeout:7000});
- else{
-  // The site's own documented CookieScript action: no DOM removal or
-  // injected browser storage, and never accept optional tracking cookies.
-  const called=await page.evaluate(()=>{
-   const x=window.CookieScript?.instance;
-   if(typeof x?.rejectAllAction!=='function')return false;
-   x.rejectAllAction();return true;
-  }).catch(()=>false);
-  if(!called)throw Error('Amusnet cookie rejection control unavailable');
- }
- await banner.waitFor({state:'hidden',timeout:9000});
- return true;
-}
-async function confirmAge(page,confirmAdult){
- const gate=page.locator('.age-conf-container').first();
- if(!await gate.isVisible().catch(()=>false))return false;
- if(confirmAdult!==true){
-  const error=Error('Adult age confirmation required for Amusnet public DEMO');
-  error.code='ADULT_CONFIRMATION_REQUIRED';
-  throw error;
- }
- const pattern=/^(?:yes|yes,? i(?:'|’)m (?:over|above) 18|i(?:'|’)m (?:over|above) 18|i am (?:over|above) 18)$/i;
- const role=gate.getByRole('button',{name:pattern}).first();
- const text=gate.getByText(pattern).first();
- const known=gate.locator('[id*="yes" i], [class*="confirm" i]').first();
- const chosen=await role.isVisible().catch(()=>false)?role:
-  await text.isVisible().catch(()=>false)?text:
-  await known.isVisible().catch(()=>false)?known:null;
- if(!chosen)throw Error('Amusnet YES control could not be safely identified');
- await chosen.click({timeout:7500});
- await gate.waitFor({state:'hidden',timeout:10000});
- return true;
-}
-export async function dismissAmusnetOverlays(page,{confirmAdult=false}={}){
- let cookiesRejected=false,ageConfirmed=false;
- for(let attempt=0;attempt<3;attempt++){
-  await sleep(attempt===0?900:350);
-  cookiesRejected=(await rejectCookies(page))||cookiesRejected;
-  ageConfirmed=(await confirmAge(page,confirmAdult))||ageConfirmed;
-  const cookies=await page.locator('#cookiescript_injected_wrapper').first().isVisible().catch(()=>false);
-  const age=await page.locator('.age-conf-container').first().isVisible().catch(()=>false);
-  if(!cookies&&!age)return {cookiesRejected,ageConfirmed};
- }
- throw Error('Amusnet consent/age dialog still blocking public DEMO');
+export async function dismissAmusnetOverlays(page,{confirmAdult=true}={}){
+ return acceptKnownPublicDemoOverlays(page,{confirmAdult,graceMs:550,requireClear:true});
 }
 export async function captureAmusnetDemo(browser,_engine,job,{
- config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
+ config,runId,waitMs=3500,confirmAdult=true,runnerId='runner'
 }={}){
  const game=job.payload?.game;
  if(job.provider!=='amusnet'||game?.provider!=='amusnet'||job.subject!==game.id)
@@ -177,6 +129,6 @@ export async function captureAmusnetDemo(browser,_engine,job,{
     opaqueCanvas:true,capturedAt:new Date().toISOString(),
     networkDiagnostics:{format:'summary-v1',summary:{
      lobbyHttp:lobbyStatus,iframeHost:frameUrl.hostname,
-     cookiesRejected:overlays.cookiesRejected,ageConfirmed:overlays.ageConfirmed}}}}};
+     cookiesAccepted:overlays.cookiesAccepted,ageConfirmed:overlays.ageConfirmed}}}}};
  }finally{await ctx.close();}
 }
