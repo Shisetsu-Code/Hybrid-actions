@@ -12,7 +12,7 @@ const summarize=(u)=>{
  try{const url=new URL(u);return {host:url.hostname,path:url.pathname.slice(0,105)};}
  catch{return {host:'unknown',path:''};}
 };
-const driver=await chromium.launch({headless:true,args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--disable-web-security=false']});
+const driver=await chromium.launch({headless:true,args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
 async function catalogueProbe(){
  const ctx=await driver.newContext({...devices['Pixel 7'],serviceWorkers:'block'});
  try{
@@ -32,13 +32,15 @@ async function catalogueProbe(){
  }catch(e){results.catalogue.error=safeError(e);}
  finally{await ctx.close();}
 }
-async function gameProbe(name,base,query,{mobile,expectedGid}={}){
- const ctx=await driver.newContext(mobile?
+async function gameProbe(name,base,query,{mobile,expectedGid,legacyWebview=false,smallDesktop=false}={}){
+ const contextOpts=mobile?
   {...devices['Pixel 7'],serviceWorkers:'block',acceptDownloads:false}:
-  {viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
+  {viewport:smallDesktop?{width:412,height:915}:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false};
+ if(legacyWebview)contextOpts.userAgent='Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.0.0 Mobile Safari/537.36';
+ const ctx=await driver.newContext(contextOpts);
  const row={name,mobile,queryChannel:query.channel,http:0,elapsedMs:0,requests:[],
   assets:{configMobile:0,mobileBundle:0,desktopBundle:0,gameBundle:0,runtimeJs:0},
-  errorStatuses:[],pageErrors:[],requestFailed:[],frames:[],canvases:0,bodyLength:0};
+  errorStatuses:[],pageErrors:[],requestFailed:[],frames:[],canvases:0,bodyLength:0,prelaunch:null,configVersion:null};
  const start=Date.now();
  try{
   const page=await ctx.newPage();
@@ -51,6 +53,17 @@ async function gameProbe(name,base,query,{mobile,expectedGid}={}){
   });
   page.on('response',r=>{
    const u=summarize(r.url()),status=r.status();
+   if(u.path==='/configuration/prelaunchconfiguration'){
+    void r.json().then(c=>{
+     row.prelaunch={status,embeddedAllowed:c.IsEmbeddedClientAllowed===true,
+      errorMessagePresent:Boolean(c.ErrorMessages),lang:String(c.Language||'').slice(0,14)};
+    }).catch(()=>{row.prelaunch={status,jsonParsed:false};});
+   }else if(u.path==='/configuration/v2'){
+    void r.json().then(c=>{
+     row.configVersion={status,bundleMode:c.bundleMode??null,
+      platform:String(c.platform||'').slice(0,30)};
+    }).catch(()=>{row.configVersion={status,jsonParsed:false};});
+   }
    if(row.requests.length<35&&
        (/playngonetwork\.com$/.test(u.host)||u.host==='www.playngo.com')&&
        (/configuration|games\/getgamebygid|ContainerLauncher|bundle|main\.js|config_mobile|\.wasm/.test(u.path)))
@@ -73,6 +86,7 @@ async function gameProbe(name,base,query,{mobile,expectedGid}={}){
   row.landHost=new URL(page.url()).hostname;
   row.landPath=new URL(page.url()).pathname;
   row.userAgentMobile=(await page.evaluate(()=>navigator.userAgent)).includes('Mobile');
+  row.userAgentWebview=(await page.evaluate(()=>navigator.userAgent)).includes('; wv)');
   row.touch=await page.evaluate(()=>navigator.maxTouchPoints);
   for(let i=0;i<6;i++){
    await page.waitForTimeout(5000);
@@ -108,9 +122,18 @@ try{
  await gameProbe('public-production-mobile',released,{
   pid:'2',gid:'amuletofdead',lang:'en_GB',practice:'1',channel:'mobi',demo:'2'
  },{mobile:true,expectedGid:'amuletofdead'});
+ await gameProbe('public-production-mobile-official',released,{
+  pid:'2',gid:'amuletofdead',lang:'en_GB',practice:'1',channel:'mobile',demo:'2'
+ },{mobile:true,expectedGid:'amuletofdead'});
+ await gameProbe('public-production-mobile-legacy-webview',released,{
+  pid:'2',gid:'amuletofdead',lang:'en_GB',practice:'1',channel:'mobile',demo:'2'
+ },{mobile:true,legacyWebview:true,expectedGid:'amuletofdead'});
  await gameProbe('public-production-desktop-baseline',released,{
   pid:'2',gid:'amuletofdead',lang:'en_GB',practice:'1',channel:'desktop',demo:'2'
  },{mobile:false,expectedGid:'amuletofdead'});
+ await gameProbe('provided-preview-mobile-official',preview,{
+  pid:'4',gid:'wrappinmoregold',lang:'en_GB',practice:'1',channel:'mobile'
+ },{mobile:true,expectedGid:'wrappinmoregold'});
  await gameProbe('provided-preview-mobile',preview,{
   pid:'4',gid:'wrappinmoregold',lang:'en_GB',practice:'1',channel:'mobi'
  },{mobile:true,expectedGid:'wrappinmoregold'});
