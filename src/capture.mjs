@@ -1,26 +1,41 @@
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
+import {TESTER_SPIN_LAUNCHER,guardImportedNavigation,openImportedDemo,isImportedRuntime} from './tester-spin.mjs';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 export async function capturePublicDemo(browser,engine,job,{
  config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
 }={}){
- const game=job.payload?.game;
+ let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
   throw Error('catalogue ticket identity mismatch');
- providerForUrl(config,job.provider,game.url);
+ const provider=providerForUrl(config,job.provider,game.url);
+ const imported=provider.launcher===TESTER_SPIN_LAUNCHER;
+ if(imported){
+  const known=provider.games.find(row=>row.id===game.id);
+  if(!known||known.url!==game.url||(known.symbol||'')!==(game.symbol||''))throw Error('imported DEMO ticket does not match configured game');
+  game={...known,provider:job.provider};
+ }
  const expectedOrigin=new URL(game.url).origin;
  const context=await browser.newContext({
   viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
  const recorder=engine.har.createNetworkRecorder(context,{maxEntries:250,maxFrames:60});
- let recorded=false;
+ let recorded=false,phase='navigation';
  try{
-  const page=await context.newPage();
+  if(imported)await guardImportedNavigation(context,job.provider,game.url,game);
+  let page=await context.newPage();
   page.setDefaultNavigationTimeout(45000);
   const response=await page.goto(game.url,{waitUntil:'domcontentloaded',timeout:45000});
   if(!response||response.status()>=400)throw Error('public DEMO returned HTTP error');
-  if(new URL(page.url()).origin!==expectedOrigin)throw Error('demo redirected outside approved origin');
-  await engine.intro.openPublicDemo(page,{provider:job.provider,url:game.url,confirmAdult});
+  if(imported){
+   if(page.url()!==game.url&&!isImportedRuntime(job.provider,page.url(),game))throw Error('imported DEMO redirected outside provider contract');
+   phase='launch';
+   page=await openImportedDemo(page,job.provider,game,{engine,confirmAdult});
+  }else{
+   if(new URL(page.url()).origin!==expectedOrigin)throw Error('demo redirected outside approved origin');
+   await engine.intro.openPublicDemo(page,{provider:job.provider,url:game.url,confirmAdult});
+  }
+  phase='frame inspection';
   await wait(Math.max(500,Math.min(waitMs,15000)));
   let inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no game iframe or DOM surface');
@@ -29,10 +44,22 @@ export async function capturePublicDemo(browser,engine,job,{
     inspect:()=>engine['select-frame'].bestFrame(page,job.provider)});
    inspected=intro.selected;
   }
-  await engine.intro.dismissCatalogueOverlays(page,{provider:job.provider,url:game.url,
-   confirmAdult,graceMs:450,requireClear:true});
+  if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
+   await engine.intro.dismissCatalogueOverlays(page,{provider:job.provider,url:game.url,
+    confirmAdult,graceMs:450,requireClear:true});
   inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no frame after removing catalogue overlays');
+  if(imported&&!isImportedRuntime(job.provider,inspected.frame.url(),game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
+  if(imported){
+   const canvases=inspected.frame.locator('canvas');
+   let visibleCanvas=false;
+   for(let i=0;i<Math.min(await canvases.count(),8);i++){
+    if(await canvases.nth(i).isVisible()){visibleCanvas=true;break;}
+   }
+   if(!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
+    throw Error('Tester Spin runtime has no visible game surface');
+  }
+  phase='screenshot';
   const shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
   const image=Buffer.from(await page.screenshot({type:'jpeg',quality:67,
    ...(shot.clip?{clip:shot.clip}:{})}));
@@ -46,7 +73,7 @@ export async function capturePublicDemo(browser,engine,job,{
    state:inspected.data.state,mode,adapter:shot.aligned?inspected.data.adapter:'unaligned-frame',
    adapterVersion:inspected.data.adapterVersion||'1',
    candidates:cands,width,height,metadata:{url:game.url,
-    source:'github-actions-catalogue',runnerId:String(runnerId).slice(0,64),
+    source:'github-actions-catalogue',...(imported?{launcher:TESTER_SPIN_LAUNCHER}:{}),runnerId:String(runnerId).slice(0,64),
     frameAligned:shot.aligned,opaqueCanvas:Boolean(inspected.data.metadata?.opaqueCanvas),
     capturedAt:new Date().toISOString(),networkDiagnostics:{format:'sanitized-har-1.2',
      summary}}};
@@ -54,6 +81,9 @@ export async function capturePublicDemo(browser,engine,job,{
   // diagnostics summary contains only redacted routes and action names.
   void har;
   return {info,image};
+ }catch(error){
+  if(imported)throw Error('Tester Spin DEMO '+phase+' failed');
+  throw error;
  }finally{
   if(!recorded)await recorder.finish().catch(()=>{});
   await context.close().catch(()=>{});

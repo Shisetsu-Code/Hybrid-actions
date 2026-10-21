@@ -1,0 +1,176 @@
+{
+  "source": "Tester Spin local metadata and launch contracts",
+  "sourceRevision": "644d422989116c6725e3c8d9fbff03298388f36d",
+  "importedAt": "2026-10-21T06:40:25.770Z",
+  "executionEnabled": false,
+  "providers": [
+    {
+      "provider": "pragmatic",
+      "sourceGames": 660,
+      "launchableGames": 660,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "1spin4win",
+      "sourceGames": 229,
+      "launchableGames": 228,
+      "omittedGames": 1,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "belatra",
+      "sourceGames": 116,
+      "launchableGames": 116,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "bgaming",
+      "sourceGames": 241,
+      "launchableGames": 220,
+      "omittedGames": 21,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "ka_gaming",
+      "sourceGames": 833,
+      "launchableGames": 833,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "rubyplay",
+      "sourceGames": 49,
+      "launchableGames": 49,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "redtiger",
+      "sourceGames": 396,
+      "launchableGames": 396,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "3oaks",
+      "sourceGames": 102,
+      "launchableGames": 102,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "yggdrasil",
+      "sourceGames": 159,
+      "launchableGames": 159,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "hacksaw",
+      "sourceGames": 187,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-protocol-only-no-browser-launcher"
+    },
+    {
+      "provider": "nolimit_city",
+      "sourceGames": 141,
+      "launchableGames": 141,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "playtech",
+      "sourceGames": 529,
+      "launchableGames": 529,
+      "omittedGames": 0,
+      "status": "tester-spin-launcher-imported-disabled"
+    },
+    {
+      "provider": "games_global",
+      "sourceGames": 94,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "amusnet",
+      "sourceGames": 192,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "playngo",
+      "sourceGames": 476,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "greentube",
+      "sourceGames": 750,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "netent",
+      "sourceGames": 240,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "pgsoft",
+      "sourceGames": 155,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "blueprint",
+      "sourceGames": 267,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "relax",
+      "sourceGames": 177,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "playson",
+      "sourceGames": 54,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "wazdan",
+      "sourceGames": 265,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "elk",
+      "sourceGames": 158,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    },
+    {
+      "provider": "pushgaming",
+      "sourceGames": 90,
+      "launchableGames": 0,
+      "omittedGames": 0,
+      "status": "tester-spin-catalogue-only"
+    }
+  ]
+}
