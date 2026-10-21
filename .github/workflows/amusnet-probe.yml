@@ -1,11 +1,12 @@
 name: Probe Amusnet public catalogue and DEMO
 on:
-  push:
-    branches: [test/amusnet-live-catalog-and-demo-20261021]
-    paths:
-      - '.github/workflows/amusnet-probe.yml'
-      - 'test/amusnet-live-probe.mjs'
   workflow_dispatch:
+    inputs:
+      confirm_adult:
+        description: "The operator explicitly confirms being 18+ for the Amusnet DEMO test"
+        type: boolean
+        required: true
+        default: false
 permissions:
   contents: read
 jobs:
@@ -32,5 +33,5 @@ jobs:
         run: node engine/node_modules/playwright/cli.js install --with-deps chromium
       - name: Inspect Amusnet public catalogue and attempt public DEMO launch
         env:
-          AMUSNET_ADULT_CONFIRMED: 'true'
+          AMUSNET_ADULT_CONFIRMED: ${{ inputs.confirm_adult || 'false' }}
         run: node test/amusnet-live-probe.mjs
