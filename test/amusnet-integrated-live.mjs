@@ -19,7 +19,7 @@ const browser=await chromium.launch({headless:true});
 try{
  const found=await discoverAmusnet(browser,source,{config,maxPages:20,pauseMs:500});
  report.catalogue={complete:found.complete,pages:found.pages,
-  published:found.totalPublished,visibleDemoGames:found.games.length};
+  published:found.totalPublished,visibleDemoGames:found.games.length,duplicateGinVariants:found.duplicateGinVariants};
  const selected=found.games.find(x=>x.gameId==='806')||found.games[0];
  if(!selected)throw Error('no public demo available');
  const job={role:'catalog',provider:'amusnet',subject:selected.gameId,
