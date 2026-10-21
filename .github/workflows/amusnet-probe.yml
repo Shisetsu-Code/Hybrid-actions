@@ -1,0 +1,36 @@
+name: Probe Amusnet public catalogue and DEMO
+on:
+  push:
+    branches: [test/amusnet-live-catalog-and-demo-20261021]
+    paths:
+      - '.github/workflows/amusnet-probe.yml'
+      - 'test/amusnet-live-probe.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  amusnet-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Fetch pinned DEMO engine and browser dependencies
+        uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned Playwright
+        run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium in runner
+        run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Inspect Amusnet public catalogue and attempt public DEMO launch
+        env:
+          AMUSNET_ADULT_CONFIRMED: 'false'
+        run: node test/amusnet-live-probe.mjs
