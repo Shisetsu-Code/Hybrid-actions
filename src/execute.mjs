@@ -4,7 +4,7 @@ import {capturePublicDemo,discoverCatalogue} from './capture.mjs';
 function boundedError(error){return String(error?.message||error).slice(0,300);}
 export async function executeTicket({
  cloud,job,workerId,runId,browser,engine,config,deadline,
- waitMs=3500,confirmAdult=false,log=()=>{},sleepFn=sleep,
+ waitMs=3500,confirmAdult=true,log=()=>{},sleepFn=sleep,
  capture=capturePublicDemo,discover=discoverCatalogue
 }){
  let session=null,done=false;
