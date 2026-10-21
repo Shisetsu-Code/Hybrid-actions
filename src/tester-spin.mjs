@@ -1,3 +1,4 @@
+import {guardDocumentNavigations} from './navigation-guard.mjs';
 // Launch contracts reused from Tester Spin; no spin, wager or purchase primitives.
 export const TESTER_SPIN_LAUNCHER='tester-spin-v1';
 export const testerSpinProviders=new Set(['pragmatic','1spin4win','ka_gaming','bgaming',
@@ -78,7 +79,8 @@ export function importedRuntimeOrigin(provider,raw){
 
 export function isImportedRuntime(provider,raw,game={}){
  try{
-  const u=https(raw),h=u.hostname,p=u.pathname,q=u.searchParams;
+  const u=new URL(raw),h=u.hostname,p=u.pathname,q=u.searchParams;
+  if(u.protocol!=='https:'||u.username||u.password)return false;
   if(provider!=='1spin4win'&&u.port)return false;
   // These launchers must never be repurposed to a real-money session.
   for(const [key,v] of q){
@@ -90,6 +92,7 @@ export function isImportedRuntime(provider,raw,game={}){
   case 'ka_gaming':
    return Boolean(importedEntryUrl(provider,raw));
   case 'playtech':
+   if(h==='gpas-games.playtechone.com'&&p==='/gpasclient.html'&&identifier(game.symbol)&&value(u,'game',game.symbol))return true;
    if(h==='cachedownload.playtechone.com'&&identifier(game.symbol)&&p.includes('/'+game.symbol+'/'))return true;
    return Boolean(importedEntryUrl(provider,raw));
   case 'pragmatic':return h==='demogamesfree.pragmaticplay.net'&&/^\/gs2c\/(?:html5Game|openGame)\.do$/.test(p)&&
@@ -97,10 +100,10 @@ export function isImportedRuntime(provider,raw,game={}){
   case 'belatra':return h==='demo.bltr-static.com'&&p==='/belatra/demo'&&identifier(q.get('game'))&&q.getAll('game').length===1;
   case '3oaks':return (h==='3oaks.com'&&/^\/api\/v1\/games\/[a-z0-9_]+\/play$/.test(p)&&value(u,'lang','en'))||
     (h==='static.3oaks.com'&&/\/clients_[a-z]+\//.test(p)&&(/\.html$/.test(p)||p.endsWith('/')));
-  case 'bgaming':return (!q.has('server')||value(u,'server','demo'))&&
-    (((h==='demo.bgaming-network.com'||h==='bgaming-network.com')&&/^\/play\/[A-Za-z0-9_-]+\/FUN\/?$/.test(p))||
+  case 'bgaming':return (!q.has('server')||value(u,'server','demo')||value(u,'server','demo_fun_curacao'))&&
+    (((h==='demo.bgaming-network.com'||h==='bgaming-network.com')&&/^\/(?:play|games)\/[A-Za-z0-9_-]+\/FUN\/?$/.test(p))||
     (h.endsWith('.demo.bgaming-network.com')&&['/','/hyperhive','/hyperhive/'].includes(p)));
-  case 'nolimit_city':return (h==='playin.com'&&/^\/embed\/v1\/demo\/[A-Za-z0-9_-]+$/.test(p))||h==='demo.nolimitcity.com';
+  case 'nolimit_city':return (h==='demo.nolimitcdn.com'&&p==='/loader/loader-desktop.html'&&identifier(game.symbol)&&value(u,'game',game.symbol)&&value(u,'operator','FANPAGE_DEMO'))||(h==='playin.com'&&/^\/embed\/v1\/demo\/[A-Za-z0-9_-]+$/.test(p))||h==='demo.nolimitcity.com';
   case 'yggdrasil':{
    const game=q.get('gameid');
    return ['staticdemo.yggdrasilgaming.com','staticpff.yggdrasilgaming.com'].includes(h)&&
@@ -150,32 +153,29 @@ export function selectImportedTarget(provider,candidates,symbol='',game={}){
  return targets[0];
 }
 
+export async function isImportedRuntimeFrame(provider,frame,game){
+ if(isImportedRuntime(provider,frame.url(),game))return true;
+ if(provider!=='nolimit_city'||!['about:blank','about:srcdoc'].includes(frame.url())||
+    frame.parentFrame()?.url()!==game.url||!identifier(game.symbol))return false;
+ // The official Playin loader writes a same-origin blank iframe. Bind it to
+ // the configured entry and exact CDN game client, never to an arbitrary canvas.
+ const scripts=await frame.evaluate(()=>Array.from(document.scripts,script=>script.src));
+ return scripts.some(raw=>{
+  try{const u=new URL(raw);return u.protocol==='https:'&&u.hostname==='demo.nolimitcdn.com'&&
+   u.pathname.startsWith('/games/'+game.symbol+'/')&&u.pathname.endsWith('/game.js');}
+  catch{return false;}
+ });
+}
+
 const requestedDocuments=new WeakMap();
 export async function guardImportedNavigation(context,provider,entryUrl,game={}){
- const openedDocuments=new Map();
- requestedDocuments.set(context,openedDocuments);
- const allowed=target=>target===entryUrl||isImportedRuntime(provider,target,game);
- await context.route('**/*',async route=>{
-  const request=route.request();
-  if(!request.isNavigationRequest())return route.fallback();
-  if(!allowed(request.url()))return route.abort('blockedbyclient');
-  try{
-   openedDocuments.set(request.url(),request.frame().page());
-   // Fetch one document at a time. Chromium can bypass route callbacks for
-   // redirects, so never hand an unchecked HTTP redirect to the browser.
-   const response=await route.fetch({maxRedirects:0,timeout:45000});
-   const location=response.headers()['location'];
-   if(response.status()>=300&&response.status()<400&&location){
-    if(request.method()!=='GET')return route.abort('blockedbyclient');
-    const target=new URL(location,request.url()).href;
-    if(!allowed(target))return route.abort('blockedbyclient');
-    const literal=JSON.stringify(target).replaceAll('<','\\u003c');
-    return route.fulfill({status:200,contentType:'text/html',
-     headers:{'cache-control':'no-store'},body:`<script>location.replace(${literal})</script>`});
-   }
-   return route.fulfill({response});
-  }catch{return route.abort('blockedbyclient');}
- });
+ const openedDocuments=new Map();requestedDocuments.set(context,openedDocuments);
+ const entry=new URL(entryUrl);
+ const equivalentEntry=target=>{
+  try{const u=new URL(target);return u.origin===entry.origin&&u.pathname.replace(/\/$/,'')===entry.pathname.replace(/\/$/,'')&&u.search===entry.search;}catch{return false;}
+ };
+ await guardDocumentNavigations(context,target=>equivalentEntry(target)||isImportedRuntime(provider,target,game),
+  (url,page)=>openedDocuments.set(url,page));
 }
 async function launcherCandidates(page,provider){
  const values=await page.locator('*').evaluateAll(elements=>elements.flatMap(el=>
@@ -194,8 +194,26 @@ async function launcherCandidates(page,provider){
  return values;
 }
 
+export async function dismissImportedSiteOverlays(page,provider){
+ const selectors=provider==='rubyplay'?['.cky-btn-reject:visible']:
+  provider==='redtiger'?['.cmplz-deny:visible','.cmplz-cookiebanner.cmplz-show .cmplz-close:visible']:[];
+ for(const selector of selectors){
+  const control=page.locator(selector).first();
+  if(await control.count()&&await control.isVisible())await control.click({timeout:5000});
+ }
+}
 export async function openImportedDemo(page,provider,game,{engine,confirmAdult=false}={}){
  try{
+  if(['redtiger','nolimit_city','rubyplay'].includes(provider)){
+   const pattern=provider==='rubyplay'?/^Yes, I am of legal gambling age$/i:provider==='redtiger'?/^YES, I AM 18\+$/i:/^Yes, I.m 18 or older$/i;
+   const gates=page.getByText(pattern,{exact:true});
+   if(provider==='nolimit_city')await gates.first().waitFor({state:'visible',timeout:7000}).catch(()=>{});
+   for(let i=0;i<Math.min(await gates.count(),8);i++)if(await gates.nth(i).isVisible()){
+    if(!confirmAdult)throw Error('adult confirmation required');
+    await gates.nth(i).click({timeout:8000});break;
+   }
+   await dismissImportedSiteOverlays(page,provider);
+  }
   if(isImportedRuntime(provider,page.url(),game))return page;
   if(provider==='pragmatic'&&new URL(game.url).hostname==='www.pragmaticplay.fun'){
    await engine.intro.openPublicDemo(page,{provider,url:game.url,confirmAdult});return page;
@@ -214,11 +232,11 @@ export async function openImportedDemo(page,provider,game,{engine,confirmAdult=f
   }
   if(provider==='redtiger'){
    // Tester Spin _wait_for_official_loader + _submit_official_start.
-   await page.locator('#start-game').waitFor({state:'visible',timeout:15000});
+   await page.locator('form.start-form').waitFor({state:'attached',timeout:15000});
    const id=await page.locator('.game-playable').getAttribute('data-game-id');
    check(game.symbol&&id===game.symbol);
    await page.locator('form.start-form').evaluate(form=>{
-    const button=form.querySelector('#start-game');
+    const button=form.querySelector('#start-game, button[type=submit], button:not([type])');
     if(!button)throw Error('official demo start button missing');
     form.requestSubmit(button);
    });
@@ -244,16 +262,25 @@ export async function openImportedDemo(page,provider,game,{engine,confirmAdult=f
     }
     await page.waitForTimeout(250);continue;
    }
+   // Tester Spin extracts RubyPlay's complete launcher, then opens it directly.
+   // Its catalogue can keep a promotional cover over an already loaded iframe.
+   if(provider==='rubyplay'&&page.url()!==target){
+    await page.goto(target,{waitUntil:'domcontentloaded',timeout:45000});return page;
+   }
    const requested=requestedDocuments.get(page.context())?.get(target);
    const opened=requested&&!requested.isClosed()?requested:
     pages.find(current=>current.url()===target||current.frames().some(frame=>frame.url()===target));
    if(opened)return opened;
+   for(const current of pages){
+    const pending=await current.locator('iframe[src]').evaluateAll(elements=>elements.map(el=>el.src));
+    if(pending.includes(target))return current;
+   }
    await page.goto(target,{waitUntil:'domcontentloaded',timeout:45000});
    return page;
   }
   throw Error('missing DEMO target');
- }catch{
+ }catch(error){
   // Browser errors can contain fresh launcher/session tokens. Do not persist them.
-  throw Error('Tester Spin DEMO launch failed');
+  throw Error('Tester Spin DEMO launch failed',{cause:error});
  }
 }
