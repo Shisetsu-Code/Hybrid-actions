@@ -34,6 +34,16 @@ En [Actions → Probe Play'n GO Mobile Demo](https://github.com/Shisetsu-Code/Hy
 
 Parámetros públicos de práctica documentados en los HAR: `pid`, `gid`, `lang=en_GB`, `practice=1`, `demo=2` y `channel=mobile`. No agregar credenciales de juego, cuentas reales ni modificar solicitudes de apuesta.
 
-## Integración pendiente
+## Adaptador opcional de catálogo y captura (sin giros)
 
-Implementar adaptador de catálogo para `/api/games` con paginación y deduplicación por SKU; extraer las URLs públicas de demo desde las fichas originales (sin inferir GID) y capturar con un contexto `isMobile=true`, `hasTouch=true`, viewport móvil y `channel=mobile`. Por defecto marcar controles como `visual` hasta verificar un extractor propio de Play’n GO; no reutilizar rutas de interfaz de Pragmatic. Antes de habilitar múltiples runners establecer una política de sesiones específica del proveedor en D1 y validar un piloto con pocos juegos.
+Se implementó un adaptador propio en `src/playngo.mjs`, conectado mediante `src/capture.mjs` al coordinador de D1. Permite:
+
+- Leer la API oficial `/api/games` por páginas `offset`, deduplicar por **SKU** (importante: algunos slugs contienen apóstrofes) y terminar únicamente al recibir `nextOffset:null`.
+- Encolar tickets `catalog` con URL pública de ficha y SKU, sin inventar el GID.
+- Leer el `mobileUrl` incrustado en la ficha oficial del juego, verificar host `released.playngonetwork.com`, `practice=1`, `demo=2` y no aceptar tokens ni parámetros de sesión.
+- Abrir Playwright Pixel 7 con `isMobile=true` y `hasTouch=true`, normalizar solo `channel=mobile` y esperar `/configuration/v2`, `config_mobile.json`, UI móvil y al menos un canvas antes de capturar.
+- Enviar JPEG a la canalización normal de D1/R2 con `mode=visual` y `adapter=playngo-mobile-public-demo`; los botones todavía deben ser clasificados mediante MCP visual, no con reglas de Pragmatic.
+
+**No hay ejecución masiva habilitada automáticamente.** `config/providers.json` sigue vacío; `config/providers.example.json` contiene Play'n GO deshabilitado por defecto con un intervalo inicial de 20 s entre aperturas y `maxActive=1` (límites conservadores de prueba, **no** capacidades oficiales del proveedor). Para habilitarlo, el operador debe confirmar la fuente y los límites, configurar los secretos de Cloudflare y pasar un piloto pequeño. El flujo de la flota con 8 runners respeta los permisos D1 de cada proveedor.
+
+Las pruebas unitarias están en `test/playngo-adapter.test.mjs`; prueban validación de URL, paginación, SKUs con apóstrofes y que no se genera una captura antes de detectar recursos móviles. Ninguna prueba unitaria hace apuestas ni abre una sesión de dinero real.
