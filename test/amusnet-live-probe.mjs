@@ -9,6 +9,66 @@ const expectedHosts=new Set(['free-pod.games.amusnet.io','free.games.amusnet.io'
 const out={runner:'github-actions',catalogue:{},api:{},game:{},demo:{state:'not_attempted'}};
 const message=(x)=>String(x?.message||x).replace(/token=[^&\\s]+/gi,'token=REDACTED').slice(0,650);
 const emit=()=>console.log('AMUSNET_PROBE_RESULT '+JSON.stringify(out));
+
+async function dismissCookieBanner(page,stage){
+ // Exercise the site's actual CookieScript rejection action, not a CSS hide or
+ // a forged storage entry. This is equivalent to pressing "Reject all".
+ const banner=page.locator('#cookiescript_injected_wrapper').first();
+ await page.waitForTimeout(1500);
+ if(!(await banner.isVisible().catch(()=>false)))return;
+ const reject=page.locator('#cookiescript_reject, #cookiescript_reject_all').first();
+ const textReject=banner.getByText(/^(?:reject|decline)(?: all)?(?: cookies)?$|^only necessary(?: cookies)?$|^necessary only$/i).first();
+ if(await reject.isVisible().catch(()=>false))await reject.click({timeout:4500});
+ else if(await textReject.isVisible().catch(()=>false))await textReject.click({timeout:4500});
+ else{
+  const official=await page.evaluate(()=>{
+   const instance=window.CookieScript?.instance;
+   if(typeof instance?.rejectAllAction!=='function')return false;
+   instance.rejectAllAction();
+   return true;
+  }).catch(()=>false);
+  if(!official)throw Error('CookieScript reject action unavailable at '+stage);
+ }
+ await banner.waitFor({state:'hidden',timeout:7000});
+ out[stage].cookiesRejected=true;
+}
+
+async function confirmAdultGate(page,stage){
+ const container=page.locator('.age-conf-container').first();
+ if(!(await container.isVisible().catch(()=>false)))return;
+ out[stage].ageGateVisible=true;
+ if(process.env.AMUSNET_ADULT_CONFIRMED!=='true')
+  throw Error('Operator has not authorized adult confirmation');
+ // Age confirmation is restricted to the observed gate. Avoid accidentally
+ // clicking a "No", tracking-consent or normal game button.
+ const yes=container.getByRole('button',{name:/^(?:yes|yes,? i(?:'|’)m (?:over|above) 18|i(?:'|’)m (?:over|above) 18|i am (?:over|above) 18)$/i}).first();
+ const yesText=container.getByText(/^(?:yes|yes,? i(?:'|’)m (?:over|above) 18|i(?:'|’)m (?:over|above) 18|i am (?:over|above) 18)$/i).first();
+ const known=container.locator('[id*="yes" i], [class*="confirm" i]').first();
+ const target=await yes.isVisible().catch(()=>false)?yes:
+  await yesText.isVisible().catch(()=>false)?yesText:
+  await known.isVisible().catch(()=>false)?known:null;
+ if(!target){
+  out[stage].ageOptions=(await container.locator('button, a, [role=button], input').evaluateAll(
+   nodes=>nodes.slice(0,8).map(n=>({tag:n.tagName,text:String(n.textContent||n.value||'').trim().slice(0,65),
+    id:String(n.id||'').slice(0,50)}))
+  ).catch(()=>[]));
+  throw Error('Age confirmation YES control not identifiable');
+ }
+ await target.click({timeout:6000});
+ await container.waitFor({state:'hidden',timeout:10000});
+ out[stage].ageConfirmedExplicitly=true;
+}
+async function clearOverlays(page,stage){
+ // Cookie/age pop-ups may load after hydration and independently of each other.
+ for(let pass=0;pass<3;pass++){
+  await dismissCookieBanner(page,stage);
+  await confirmAdultGate(page,stage);
+  if(!(await page.locator('#cookiescript_injected_wrapper').first().isVisible().catch(()=>false))&&
+     !(await page.locator('.age-conf-container').first().isVisible().catch(()=>false)))return;
+ }
+ throw Error('Overlay still present after authorized dismissal');
+}
+
 const browser=await chromium.launch({headless:true});
 try {
  const context=await browser.newContext({viewport:{width:1280,height:800},serviceWorkers:'block'});
@@ -34,6 +94,7 @@ try {
  out.catalogue.domGameLinks=liveLinks.length;
  const ageButton=page.getByRole('button',{name:/yes.*over 18|i.m over 18/i}).first();
  out.catalogue.ageGateVisible=await ageButton.isVisible().catch(()=>false);
+ await clearOverlays(page,'catalogue');
 
  // The HAR shows Amusnet's public Drupal JSON:API exposes full game records.
  // Probe only the first five records instead of paging through all ~490.
@@ -65,16 +126,8 @@ try {
   const detailResponse=await page.goto(detail,{waitUntil:'domcontentloaded',timeout:45000});
   out.game={title:String(a.title).slice(0,80),gin:a.field_game_gin,
    detailHttp:detailResponse?.status()||0,detailPath:new URL(page.url()).pathname};
-  const age=page.getByRole('button',{name:/yes.*over 18|i.m over 18/i}).first();
-  const blocked=await age.isVisible().catch(()=>false);
-  out.game.ageGateVisible=blocked;
-  if(blocked&&process.env.AMUSNET_ADULT_CONFIRMED!=='true'){
-   out.demo={state:'age_gate_blocks_click',details:'Adult confirmation required; not clicked'};
-  }else{
-   if(blocked){
-    await age.click({timeout:7000});
-    out.game.ageConfirmedExplicitly=true;
-   }
+  await clearOverlays(page,'game');
+  {
    // Catalogue tiles use .play-demo-btn; detailed game pages may use
    // .bttn (both are visible in the site's shipped JavaScript bundle).
    // Hydration can lag behind the server-rendered Play Demo label.
@@ -119,6 +172,7 @@ try {
      const u=new URL(r.url());
      if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyHttp=r.status();
     });
+    await clearOverlays(page,'game');
     try { await play.click({timeout:8000}); }
     catch(e) {
       out.demo={state:'click_blocked',lobbyRequested,error:message(e)};
@@ -154,4 +208,5 @@ try {
  emit();
 }
 if(out.catalogue.http!==200||out.api.http!==200||out.api.pageCount<1)process.exitCode=1;
-// Demo failure is reported distinctly. Age authorization must not be assumed.
+// Demonstrate success only from demo.state, not a green workflow conclusion.
+// Age authorization comes solely from the manually configured test workflow.
