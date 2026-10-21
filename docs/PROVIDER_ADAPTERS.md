@@ -37,3 +37,9 @@ Referencias:
 - [Play'n GO / prueba de 476 juegos](PLAYNGO_MOBILE_PROBE.md)
 - [Amusnet / prueba de iframe](AMUSNET_PROBE.md)
 - [Despliegue para Codex](CODEX_DEPLOY_RUNBOOK.md)
+
+## Prueba de extremo a extremo del adaptador Amusnet
+
+La ejecución real [GitHub Actions #39644855246](https://github.com/Shisetsu-Code/Hybrid-actions/actions/runs/39644855246), ejecutada en el runner Linux con Chromium, confirmó **10 páginas / 490 registros publicados**, **485 GIN únicos con botón Play Demo** (se deduplicó una variante de alias compartiendo GIN), y una captura real de **Rise of RA** (GIN 806). Evidencia: rechazo de cookies, confirmación de mayoría de edad expresamente autorizada, POST /api/lobby HTTP 200, iframe de free-pod.games.amusnet.io, screenshot JPEG de **22.222 bytes**, resolución **1152 × 800**, mode=visual. La prueba conservó el JPEG en memoria y no modificó D1/R2.
+
+El resultado demuestra que el adaptador integrado funciona contra el catálogo y una demo, no que todos los registros admitan cargas exitosas ni que estén clasificados sus botones.
