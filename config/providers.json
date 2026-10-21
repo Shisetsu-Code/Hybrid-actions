@@ -18550,8 +18550,27 @@
       "approved": false,
       "catalogFile": "config/catalogs/amusnet.json",
       "games": [],
-      "sources": [],
-      "preparationStatus": "tester-spin-catalogue-only"
+      "sources": [
+        {
+          "id": "amusnet-official-catalogue",
+          "enabled": false,
+          "approved": false,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://amusnet.com/online-casino"
+          ],
+          "gameUrlPrefix": "https://amusnet.com/games/online-casino/",
+          "gamePathPattern": "^/games/online-casino/[a-z0-9-]+$",
+          "maxGames": 500
+        }
+      ],
+      "preparationStatus": "tester-spin-catalogue-only",
+      "allowlist": [
+        {
+          "origin": "https://amusnet.com",
+          "pathPrefix": "/games/online-casino/"
+        }
+      ]
     },
     {
       "id": "playngo",
@@ -18560,8 +18579,27 @@
       "approved": false,
       "catalogFile": "config/catalogs/playngo.json",
       "games": [],
-      "sources": [],
-      "preparationStatus": "tester-spin-catalogue-only"
+      "sources": [
+        {
+          "id": "playngo-official-catalogue",
+          "enabled": false,
+          "approved": false,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://www.playngo.com/games"
+          ],
+          "gameUrlPrefix": "https://www.playngo.com/games/",
+          "gamePathPattern": "^/games/.*$",
+          "maxGames": 600
+        }
+      ],
+      "preparationStatus": "tester-spin-catalogue-only",
+      "allowlist": [
+        {
+          "origin": "https://www.playngo.com",
+          "pathPrefix": "/games/"
+        }
+      ]
     },
     {
       "id": "greentube",

@@ -30,7 +30,7 @@ La preparación actual contiene 3433 enlaces de esos 11 proveedores. Un enlace a
 
 De los 396 registros Red Tiger, 385 tienen un origen de runtime previamente observado en Tester Spin. Los 11 restantes conservan la ficha y el formulario oficiales, pero rechazan un destino final desconocido hasta disponer de metadatos actualizados. De `settings_url` se exporta solamente el origen HTTPS, nunca rutas de acciones, cookies ni parámetros de sesión.
 
-Hacksaw tiene un bootstrap HTTP de protocolo en `hacksaw/adapter.py`; esa instalación no expone un lanzador gráfico reutilizable para la captura. Games Global, Amusnet, Play'n GO, Greentube, NetEnt, PG Soft, Blueprint, Relax, Playson, Wazdan, ELK y Push Gaming usan el adaptador de catálogo `CatalogProvider`, sin apertura de juego implementada. Sus inventarios permanecen guardados y deshabilitados; no se inventan URLs para completar esos proveedores.
+Hacksaw tiene un bootstrap HTTP de protocolo en `hacksaw/adapter.py`; esa instalación no expone un lanzador gráfico reutilizable para la captura. Games Global, Amusnet, Play'n GO, Greentube, NetEnt, PG Soft, Blueprint, Relax, Playson, Wazdan, ELK y Push Gaming usan el adaptador de catálogo `CatalogProvider`, sin apertura de juego implementada. Esa limitaci�n corresponde al origen Tester Spin. En Hybrid-actions, Amusnet y Play'n GO ya disponen de adaptadores nativos de descubrimiento y captura, documentados en [PROVIDER_ADAPTERS.md](PROVIDER_ADAPTERS.md). Los otros inventarios permanecen guardados y deshabilitados; no se inventan URLs para completarlos.
 
 ## Límites y comprobaciones
 

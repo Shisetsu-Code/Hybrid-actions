@@ -50,6 +50,66 @@
       "id": "belatra",
       "enabled": false,
       "approved": false
+    },
+    {
+      "id": "playngo",
+      "enabled": false,
+      "approved": false,
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      },
+      "allowlist": [
+        {
+          "origin": "https://www.playngo.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "sources": [
+        {
+          "id": "playngo-official-catalogue",
+          "enabled": false,
+          "approved": false,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://www.playngo.com/games"
+          ],
+          "gameUrlPrefix": "https://www.playngo.com/games/",
+          "gamePathPattern": "^/games/.*$",
+          "maxGames": 600
+        }
+      ],
+      "games": []
+    },
+    {
+      "id": "amusnet",
+      "enabled": false,
+      "approved": false,
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      },
+      "allowlist": [
+        {
+          "origin": "https://amusnet.com",
+          "pathPrefix": "/games/online-casino/"
+        }
+      ],
+      "sources": [
+        {
+          "id": "amusnet-official-catalogue",
+          "enabled": false,
+          "approved": false,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://amusnet.com/online-casino"
+          ],
+          "gameUrlPrefix": "https://amusnet.com/games/online-casino/",
+          "gamePathPattern": "^/games/online-casino/[a-z0-9-]+$",
+          "maxGames": 500
+        }
+      ],
+      "games": []
     }
   ]
 }

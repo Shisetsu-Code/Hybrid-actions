@@ -1,0 +1,33 @@
+name: Pilot Play'n GO Full Catalogue + Two Mobile Demos
+on:
+  push:
+    branches: [test/playngo-full-catalog-two-mobile-games-20261021]
+    paths:
+      - '.github/workflows/playngo-full-catalog-pilot.yml'
+      - 'test/playngo-full-catalog-pilot.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned Playwright
+        run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium and Linux dependencies
+        run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Read complete official catalogue then open two public mobile practice demos
+        run: node test/playngo-full-catalog-pilot.mjs

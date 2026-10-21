@@ -1,0 +1,212 @@
+// One bounded live probe on GitHub-hosted Chromium.
+// Reads a public catalogue and tries "Play Demo"; never spins, buys or logs
+// the short-lived game launch token. No cookies/age assertions are bypassed.
+import {chromium} from '../engine/node_modules/playwright/index.mjs';
+
+const catalogue='https://amusnet.com/online-casino#online-casino-games';
+const apiOrigin='https://backend.careers-amusnet.com';
+const expectedHosts=new Set(['free-pod.games.amusnet.io','free.games.amusnet.io']);
+const out={runner:'github-actions',catalogue:{},api:{},game:{},demo:{state:'not_attempted'}};
+const message=(x)=>String(x?.message||x).replace(/token=[^&\\s]+/gi,'token=REDACTED').slice(0,650);
+const emit=()=>console.log('AMUSNET_PROBE_RESULT '+JSON.stringify(out));
+
+async function dismissCookieBanner(page,stage){
+ // Exercise the site's actual CookieScript rejection action, not a CSS hide or
+ // a forged storage entry. This is equivalent to pressing "Reject all".
+ const banner=page.locator('#cookiescript_injected_wrapper').first();
+ await page.waitForTimeout(1500);
+ if(!(await banner.isVisible().catch(()=>false)))return;
+ const reject=page.locator('#cookiescript_reject, #cookiescript_reject_all').first();
+ const textReject=banner.getByText(/^(?:reject|decline)(?: all)?(?: cookies)?$|^only necessary(?: cookies)?$|^necessary only$/i).first();
+ if(await reject.isVisible().catch(()=>false))await reject.click({timeout:4500});
+ else if(await textReject.isVisible().catch(()=>false))await textReject.click({timeout:4500});
+ else{
+  const official=await page.evaluate(()=>{
+   const instance=window.CookieScript?.instance;
+   if(typeof instance?.rejectAllAction!=='function')return false;
+   instance.rejectAllAction();
+   return true;
+  }).catch(()=>false);
+  if(!official)throw Error('CookieScript reject action unavailable at '+stage);
+ }
+ await banner.waitFor({state:'hidden',timeout:7000});
+ out[stage].cookiesRejected=true;
+}
+
+async function confirmAdultGate(page,stage){
+ const container=page.locator('.age-conf-container').first();
+ if(!(await container.isVisible().catch(()=>false)))return;
+ out[stage].ageGateVisible=true;
+ if(process.env.AMUSNET_ADULT_CONFIRMED!=='true')
+  throw Error('Operator has not authorized adult confirmation');
+ // Age confirmation is restricted to the observed gate. Avoid accidentally
+ // clicking a "No", tracking-consent or normal game button.
+ const yes=container.getByRole('button',{name:/^(?:yes|yes,? i(?:'|’)m (?:over|above) 18|i(?:'|’)m (?:over|above) 18|i am (?:over|above) 18)$/i}).first();
+ const yesText=container.getByText(/^(?:yes|yes,? i(?:'|’)m (?:over|above) 18|i(?:'|’)m (?:over|above) 18|i am (?:over|above) 18)$/i).first();
+ const known=container.locator('[id*="yes" i], [class*="confirm" i]').first();
+ const target=await yes.isVisible().catch(()=>false)?yes:
+  await yesText.isVisible().catch(()=>false)?yesText:
+  await known.isVisible().catch(()=>false)?known:null;
+ if(!target){
+  out[stage].ageOptions=(await container.locator('button, a, [role=button], input').evaluateAll(
+   nodes=>nodes.slice(0,8).map(n=>({tag:n.tagName,text:String(n.textContent||n.value||'').trim().slice(0,65),
+    id:String(n.id||'').slice(0,50)}))
+  ).catch(()=>[]));
+  throw Error('Age confirmation YES control not identifiable');
+ }
+ await target.click({timeout:6000});
+ await container.waitFor({state:'hidden',timeout:10000});
+ out[stage].ageConfirmedExplicitly=true;
+}
+async function clearOverlays(page,stage){
+ // Cookie/age pop-ups may load after hydration and independently of each other.
+ for(let pass=0;pass<3;pass++){
+  await dismissCookieBanner(page,stage);
+  await confirmAdultGate(page,stage);
+  if(!(await page.locator('#cookiescript_injected_wrapper').first().isVisible().catch(()=>false))&&
+     !(await page.locator('.age-conf-container').first().isVisible().catch(()=>false)))return;
+ }
+ throw Error('Overlay still present after authorized dismissal');
+}
+
+const browser=await chromium.launch({headless:true});
+try {
+ const context=await browser.newContext({viewport:{width:1280,height:800},serviceWorkers:'block'});
+ const page=await context.newPage();
+ const pageErrors=[],failedRequests=[];
+ page.on('pageerror',e=>pageErrors.push(String(e?.name||'PageError').slice(0,70)));
+ page.on('requestfailed',request=>{
+  if(failedRequests.length<12)failedRequests.push(new URL(request.url()).hostname);
+ });
+ page.setDefaultTimeout(9000);
+ page.setDefaultNavigationTimeout(45000);
+ // Do not request images, media or fonts. Test only page/API/demo launch.
+ await page.route('**/*',async route=>{
+  const type=route.request().resourceType();
+  if(['image','media','font'].includes(type))return route.abort();
+  return route.continue();
+ });
+ const catalogResponse=await page.goto(catalogue,{waitUntil:'domcontentloaded',timeout:45000});
+ out.catalogue={http:catalogResponse?.status()||0,title:(await page.title()).slice(0,110),
+  urlHost:new URL(page.url()).hostname};
+ const liveLinks=await page.locator('a[href*="/games/online-casino/"]')
+  .evaluateAll(els=>[...new Set(els.map(a=>a.href))].slice(0,5));
+ out.catalogue.domGameLinks=liveLinks.length;
+ const ageButton=page.getByRole('button',{name:/yes.*over 18|i.m over 18/i}).first();
+ out.catalogue.ageGateVisible=await ageButton.isVisible().catch(()=>false);
+ await clearOverlays(page,'catalogue');
+
+ // The HAR shows Amusnet's public Drupal JSON:API exposes full game records.
+ // Probe only the first five records instead of paging through all ~490.
+ const params=new URLSearchParams();
+ params.set('filter[status][value]','1');
+ params.set('filter[langcode][value]','en');
+ params.set('fields[node--game]','title,path,field_game_gin,field__don_t_show_play_demo_butt');
+ params.set('page[limit]','5');
+ params.set('page[offset]','0');
+ const apiUrl=apiOrigin+'/jsonapi/node/game?'+params;
+ const apiResponse=await context.request.get(apiUrl,{timeout:30000});
+ out.api.http=apiResponse.status();
+ if(!apiResponse.ok())throw Error('catalogue API HTTP '+apiResponse.status());
+ const catalog=await apiResponse.json();
+ const records=Array.isArray(catalog.data)?catalog.data:[];
+ out.api.gameCountTotal=Number(catalog.meta?.count||0);
+ out.api.pageCount=records.length;
+ out.api.exampleTitles=records.slice(0,3).map(x=>String(x.attributes?.title||'').slice(0,75));
+ if(records.length===0)throw Error('public JSONAPI returned no games');
+ const record=records.find(x=>{
+  const a=x.attributes||{};
+  return Number.isSafeInteger(a.field_game_gin)&&a.field__don_t_show_play_demo_butt===false
+   && /^\/[a-z0-9-]+$/.test(a.path?.alias||'');
+ });
+ if(!record){
+  out.demo={state:'no_eligible_demo_in_first_page'};
+ } else{
+  const a=record.attributes, detail='https://amusnet.com/games/online-casino'+a.path.alias;
+  const detailResponse=await page.goto(detail,{waitUntil:'domcontentloaded',timeout:45000});
+  out.game={title:String(a.title).slice(0,80),gin:a.field_game_gin,
+   detailHttp:detailResponse?.status()||0,detailPath:new URL(page.url()).pathname};
+  await clearOverlays(page,'game');
+  {
+   // Catalogue tiles use .play-demo-btn; detailed game pages may use
+   // .bttn (both are visible in the site's shipped JavaScript bundle).
+   // Hydration can lag behind the server-rendered Play Demo label.
+   await page.waitForLoadState('networkidle',{timeout:10000}).catch(()=>{});
+   const play=page.getByText(/^Play Demo$/i).first();
+   await play.waitFor({state:'visible',timeout:18000}).catch(()=>{});
+   await page.waitForTimeout(2000);
+   out.game.playParents=await play.evaluate(el=>{
+    const parents=[];let p=el;
+    for(let i=0;i<5&&p;i++,p=p.parentElement)
+     parents.push({tag:p.tagName,cl:String(p.className||'').slice(0,100)});
+    return parents;
+   }).catch(()=>[]);
+   out.game.scriptErrors=pageErrors.length;
+   out.game.failedHosts=[...new Set(failedRequests)].slice(0,8);
+   out.game.demoTextCount=await page.getByText(/^Play Demo$/i).count();
+   out.game.catalogueButtonCount=await page.locator('.play-demo-btn').count();
+   out.game.detailButtonCount=await page.locator('.bttn').count();
+   out.game.demoControlVisible=await play.isVisible().catch(()=>false);
+   out.game.buttonCenter=await play.evaluate(el=>{
+    const r=el.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);
+    return {buttonWidth:Math.round(r.width),buttonHeight:Math.round(r.height),
+      topTag:top?.tagName||null,topId:String(top?.id||'').slice(0,70),
+      topClass:String(top?.className||'').slice(0,120),
+      topText:String(top?.textContent||'').replace(/\\s+/g,' ').slice(0,100)};
+   }).catch(()=>null);
+   out.game.agePromptVisible=await page.getByText(/Please confirm that you are 18/i)
+    .first().isVisible().catch(()=>false);
+   out.game.overlayCandidates=await page.locator('[role=dialog], #cookiescript_injected, [class*=cookie], [class*=age]')
+    .evaluateAll(els=>els.filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0;})
+     .slice(0,8).map(e=>({id:String(e.id||'').slice(0,40),
+       cl:String(e.className||'').slice(0,80)}))).catch(()=>[]);
+   if(!out.game.demoControlVisible){
+    out.demo={state:'no_visible_play_demo_control'};
+   }else{
+    let lobbyHttp=null,lobbyRequested=false;
+    page.on('request',r=>{
+     const u=new URL(r.url());
+     if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyRequested=true;
+    });
+    page.on('response',r=>{
+     const u=new URL(r.url());
+     if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyHttp=r.status();
+    });
+    await clearOverlays(page,'game');
+    try { await play.click({timeout:8000}); }
+    catch(e) {
+      out.demo={state:'click_blocked',lobbyRequested,error:message(e)};
+      throw Error('demo click was blocked by page overlay or noninteractive control');
+    }
+    const frame=page.locator('.play-popup iframe').first();
+    try{
+     await frame.waitFor({state:'attached',timeout:25000});
+     const src=await frame.getAttribute('src');
+     const hostname=src?new URL(src).hostname:null;
+     out.demo={state:'iframe_attached',host:hostname,
+      knownDemoHost:expectedHosts.has(hostname),lobbyHttp,lobbyRequested,
+      // Never output the src: it contains an ephemeral launch token.
+      iframeReadable:false};
+     // Confirm that the actual iframe navigates, not only that it exists.
+     const handle=await frame.elementHandle();
+     const gameFrame=await handle?.contentFrame();
+     if(gameFrame){
+      await gameFrame.waitForLoadState('domcontentloaded',{timeout:20000}).catch(()=>{});
+      out.demo.iframeReadable=Boolean(gameFrame.url()!=='about:blank');
+     }
+    }catch(e){
+     out.demo={state:'iframe_not_attached',lobbyHttp,lobbyRequested,scriptErrors:pageErrors.length,error:message(e)};
+    }
+   }
+  }
+ }
+ await context.close();
+} catch(e){
+ out.error=message(e);
+} finally{
+ await browser.close();
+ emit();
+}
+if(out.catalogue.http!==200||out.api.http!==200||out.api.pageCount<1)process.exitCode=1;
+// Demonstrate success only from demo.state, not a green workflow conclusion.
+// Age authorization comes solely from the manually configured test workflow.

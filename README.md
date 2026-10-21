@@ -15,6 +15,14 @@ Ejecutor distribuido de cat谩logos de **juegos DEMO p煤blicos** sobre GitHub Act
 
 El l铆mite anterior de *3 aperturas/minuto* del motor local **no se multiplica por 8**: en GitHub Actions el inicio de cada juego obtiene un permiso global D1 **espec铆fico de ese proveedor**. Cada proveedor debe tener su `minStartIntervalMs` y `maxActive` habilitados expl铆citamente. Estos l铆mites son pol铆ticas del operador, no valores oficiales afirmados por los proveedores.
 
+### Play鈥檔 GO: modo m贸vil verificado
+
+La demo p煤blica de Play鈥檔 GO se inicializ贸 en un runner real de GitHub Actions usando **`channel=mobile`**, emulaci贸n Pixel 7 y WebView Android. Existe un adaptador optativo que descubre juegos mediante `/api/games`, toma el enlace m贸vil publicado por el proveedor y captura **solo** la pantalla de pr谩ctica, marcando `mode=visual` para revisi贸n. El [informe de Play鈥檔 GO](docs/PLAYNGO_MOBILE_PROBE.md) explica las pruebas y c贸mo configurarlo. El proveedor est谩 deshabilitado en el ejemplo y requiere aprobaci贸n y una pol铆tica de frecuencia antes de cargar m煤ltiples juegos.
+
+### Adaptadores de proveedores integrados
+
+Play'n GO y Amusnet est谩n conectados al mismo despachador de tareas de descubrimiento y captura D1/R2. Play'n GO usa su API de cat谩logo por SKU y un navegador m贸vil real (channel=mobile). Amusnet usa JSON:API por GIN, rechazo de cookies, comprobaci贸n expl铆cita de mayor铆a de edad y Play Demo con iframe validado. Ambos crean im谩genes visuales pendientes de revisi贸n MCP, no clasificaciones inventadas. La [gu铆a de adaptadores](docs/PROVIDER_ADAPTERS.md) explica l铆mites y activaci贸n; los proveedores siguen deshabilitados por defecto hasta el piloto con permisos de Cloudflare.
+
 ## Configuraci贸n (necesaria una sola vez)
 
 ### 1. Actualizar el coordinador Cloudflare
@@ -94,3 +102,10 @@ La CI comprueba configuraci贸n, l铆mites, reparto entre seis proveedores, permis
 - No inicia giros, compras ni confirmaciones de apuestas. La exploraci贸n de ramas con controles ya clasificados es responsabilidad del motor principal y necesita coordinaci贸n distribuida propia antes de paralelizarse entre runners.
 - Los secretos, el origen de los cat谩logos y las pol铆ticas de rate limit deben estar configurados antes de ejecutar la primera tanda real.
 
+
+
+### Estado integrado de proveedores
+
+Hay 13 proveedores con apertura/captura implementada en el despachador: Amusnet y Play抧 GO mediante adaptadores nativos, y Pragmatic Play, 1Spin4Win, Belatra, BGaming, KA Gaming, RubyPlay, Red Tiger, 3 Oaks, Yggdrasil, Nolimit City y Playtech mediante los contratos de Tester Spin. El inventario contiene 24 proveedores; todos permanecen desactivados. Integraci髇 de c骴igo no equivale a ejecuci髇 ni validaci髇 en vivo de todo el cat醠ogo.
+
+V閍nse [adaptadores y estado operativo](docs/PROVIDER_ADAPTERS.md) y [contratos Tester Spin](docs/TESTER_SPIN_LAUNCHERS.md).
