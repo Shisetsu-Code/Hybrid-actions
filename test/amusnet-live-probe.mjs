@@ -13,6 +13,11 @@ const browser=await chromium.launch({headless:true});
 try {
  const context=await browser.newContext({viewport:{width:1280,height:800},serviceWorkers:'block'});
  const page=await context.newPage();
+ const pageErrors=[],failedRequests=[];
+ page.on('pageerror',e=>pageErrors.push(String(e?.name||'PageError').slice(0,70)));
+ page.on('requestfailed',request=>{
+  if(failedRequests.length<12)failedRequests.push(new URL(request.url()).hostname);
+ });
  page.setDefaultTimeout(9000);
  page.setDefaultNavigationTimeout(45000);
  // Do not request images, media or fonts. Test only page/API/demo launch.
@@ -72,8 +77,19 @@ try {
    }
    // Catalogue tiles use .play-demo-btn; detailed game pages may use
    // .bttn (both are visible in the site's shipped JavaScript bundle).
+   // Hydration can lag behind the server-rendered Play Demo label.
+   await page.waitForLoadState('networkidle',{timeout:10000}).catch(()=>{});
    const play=page.getByText(/^Play Demo$/i).first();
    await play.waitFor({state:'visible',timeout:18000}).catch(()=>{});
+   await page.waitForTimeout(2000);
+   out.game.playParents=await play.evaluate(el=>{
+    const parents=[];let p=el;
+    for(let i=0;i<5&&p;i++,p=p.parentElement)
+     parents.push({tag:p.tagName,cl:String(p.className||'').slice(0,100)});
+    return parents;
+   }).catch(()=>[]);
+   out.game.scriptErrors=pageErrors.length;
+   out.game.failedHosts=[...new Set(failedRequests)].slice(0,8);
    out.game.demoTextCount=await page.getByText(/^Play Demo$/i).count();
    out.game.catalogueButtonCount=await page.locator('.play-demo-btn').count();
    out.game.detailButtonCount=await page.locator('.bttn').count();
@@ -81,7 +97,11 @@ try {
    if(!out.game.demoControlVisible){
     out.demo={state:'no_visible_play_demo_control'};
    }else{
-    let lobbyHttp=null;
+    let lobbyHttp=null,lobbyRequested=false;
+    page.on('request',r=>{
+     const u=new URL(r.url());
+     if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyRequested=true;
+    });
     page.on('response',r=>{
      const u=new URL(r.url());
      if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyHttp=r.status();
@@ -93,7 +113,7 @@ try {
      const src=await frame.getAttribute('src');
      const hostname=src?new URL(src).hostname:null;
      out.demo={state:'iframe_attached',host:hostname,
-      knownDemoHost:expectedHosts.has(hostname),lobbyHttp,
+      knownDemoHost:expectedHosts.has(hostname),lobbyHttp,lobbyRequested,
       // Never output the src: it contains an ephemeral launch token.
       iframeReadable:false};
      // Confirm that the actual iframe navigates, not only that it exists.
@@ -104,7 +124,7 @@ try {
       out.demo.iframeReadable=Boolean(gameFrame.url()!=='about:blank');
      }
     }catch(e){
-     out.demo={state:'iframe_not_attached',lobbyHttp,error:message(e)};
+     out.demo={state:'iframe_not_attached',lobbyHttp,lobbyRequested,scriptErrors:pageErrors.length,error:message(e)};
     }
    }
   }
