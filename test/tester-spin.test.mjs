@@ -6,6 +6,22 @@ import {seedCatalogues} from '../src/seed.mjs';
 
 const d1='https://gs.1spin4win.com:10443/gmh5/games.html?game=TenLuckySpins&currency=EUR&config=1&freeplay=true&language=en&exit=none';
 const ka='https://gamesdemo.kaga88.com/?g=CapyGo123&p=demo&u=123&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F';
+test('Nolimit written iframe must belong to its official entry and exact game script',async()=>{
+ const game={url:'https://playin.com/embed/v1/demo/Test',symbol:'Test'};
+ const frame={url:()=> 'about:blank',parentFrame:()=>({url:()=>game.url}),evaluate:async()=>['https://demo.nolimitcdn.com/games/Test/1.0.420/game.js']};
+ assert.equal(await imported.isImportedRuntimeFrame('nolimit_city',frame,game),true);
+ assert.equal(await imported.isImportedRuntimeFrame('rubyplay',frame,game),false);
+ assert.equal(await imported.isImportedRuntimeFrame('nolimit_city',frame,{...game,symbol:'Other'}),false);
+ assert.equal(await imported.isImportedRuntimeFrame('nolimit_city',{...frame,parentFrame:()=>({url:()=> 'https://unapproved.example/'})},game),false);
+});
+test('live browser targets retain DEMO mode and exact per-game identity',()=>{
+ assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/games/Test/FUN'),true);
+ assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/games/Test/REAL'),false);
+ assert.equal(imported.isImportedRuntime('playtech','https://gpas-games.playtechone.com/gpasclient.html?game=gpas_test',{symbol:'gpas_test'}),true);
+ assert.equal(imported.isImportedRuntime('playtech','https://gpas-games.playtechone.com/gpasclient.html?game=gpas_other',{symbol:'gpas_test'}),false);
+ assert.equal(imported.isImportedRuntime('nolimit_city','https://demo.nolimitcdn.com/loader/loader-desktop.html?operator=FANPAGE_DEMO&game=Test&language=en&provider=NLC',{symbol:'Test'}),true);
+ assert.equal(imported.isImportedRuntime('nolimit_city','https://demo.nolimitcdn.com/loader/loader-desktop.html?operator=REAL&game=Test',{symbol:'Test'}),false);
+});
 test('source-derived Pragmatic launch cannot bypass a visible age confirmation',async()=>{
  let navigated=false;
  const page={url:()=> 'https://www.pragmaticplay.com/en/games/example/',
@@ -126,4 +142,9 @@ test('Red Tiger follows Evolution showcase and only the runtime origin recorded 
  assert.equal(imported.isImportedRuntime('redtiger','https://attacker.example/game/index.html',game),false);
  const frame='https://gserver-evo-93212de3kbqabvry.redtiger.cash/game/index.html?token=fresh';
  assert.equal(imported.selectImportedTarget('redtiger',['https://showcase.evo-games.com/entry?token=fresh',frame],'',game),frame);
+});
+
+test('BGaming official FUN redirect retains its demo server identifier',()=>{
+ assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/play/Adventures/FUN?server=demo_fun_curacao'),true);
+ assert.equal(imported.isImportedRuntime('bgaming','https://demo.bgaming-network.com/play/Adventures/FUN?server=real'),false);
 });

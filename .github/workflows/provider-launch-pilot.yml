@@ -1,0 +1,53 @@
+name: Bounded provider launcher pilot
+on:
+  workflow_dispatch:
+    inputs:
+      providers:
+        description: Comma-separated configured Tester Spin provider IDs, at most two games each
+        required: true
+        default: belatra,bgaming,ka_gaming,rubyplay,redtiger,yggdrasil,nolimit_city,playtech
+      confirm_adult:
+        description: Operator has explicitly authorized adult confirmation
+        type: boolean
+        default: false
+      shot_id:
+        description: New capture ID suffix; previous images are never replaced
+        required: true
+        default: launchfix-v1
+permissions:
+  contents: read
+concurrency:
+  group: hybrid-actions-bounded-provider-pilot
+  cancel-in-progress: false
+jobs:
+  pilot:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+      PILOT_PROVIDERS: ${{ inputs.providers }}
+      PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_SHOT_ID: ${{ inputs.shot_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check -r requirements-launchers.txt
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - run: node scripts/provider-pilot.mjs

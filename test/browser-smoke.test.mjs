@@ -104,7 +104,7 @@ test('Tester Spin launchers reach mocked DEMO runtimes without spinning or conta
    }]});
    const result=await capturePublicDemo(routed,engine,{
     role:'catalog',provider:f.id,subject:'fixture',payload:{game:{provider:f.id,id:'fixture',url:f.url,symbol:f.symbol||''}}
-   },{config,runId:'mock-launchers',captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}).catch(error=>{
+   },{config,runId:'mock-launchers',createKATransport:async()=>({contextOptions:{},install:async()=>{},close:()=>{}}),captureWait:async()=>new Promise(resolve=>setTimeout(resolve,600)),waitMs:500}).catch(error=>{
     throw new Error(f.id+': '+error.message);
    });
    assert.equal(result.info.metadata.launcher,'tester-spin-v1',f.id);
@@ -141,7 +141,8 @@ test('Tester Spin launchers reach mocked DEMO runtimes without spinning or conta
    await page.goto(preloaded,{waitUntil:'load'});
    const before=transport.requests.length;
    assert.equal(await openImportedDemo(page,'rubyplay',{url:preloaded,symbol:''},{engine}),page);
-   assert.equal(transport.requests.length,before,'an existing child runtime must not start a second session');
+   assert.equal(page.url(),ruby,'RubyPlay must expose its complete launcher without the catalogue promotional cover');
+   assert.equal(transport.requests.length,before+1,'RubyPlay opens the same complete launcher once in the main page');
   }finally{await context.close();}
  }finally{await browser.close();await transport.close();}
 });

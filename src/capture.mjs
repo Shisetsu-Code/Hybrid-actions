@@ -1,13 +1,14 @@
+import {prepareKAPublicTransport} from './tester-spin-http.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
-import {TESTER_SPIN_LAUNCHER,guardImportedNavigation,openImportedDemo,isImportedRuntime} from './tester-spin.mjs';
+import {TESTER_SPIN_LAUNCHER,guardImportedNavigation,openImportedDemo,isImportedRuntime,isImportedRuntimeFrame,dismissImportedSiteOverlays} from './tester-spin.mjs';
 import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport
 }={}){
  let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
@@ -23,18 +24,21 @@ export async function capturePublicDemo(browser,engine,job,{
  if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait});
 
  const expectedOrigin=new URL(game.url).origin;
- const context=await browser.newContext({
-  viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
- const recorder=engine.har.createNetworkRecorder(context,{maxEntries:250,maxFrames:60});
+ let kaTransport,context,recorder;
  let recorded=false,phase='navigation';
  try{
+  kaTransport=imported&&job.provider==='ka_gaming'?await createKATransport():null;
+  context=await browser.newContext({...kaTransport?.contextOptions,
+   viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
+  recorder=engine.har.createNetworkRecorder(context,{maxEntries:250,maxFrames:60});
+  if(kaTransport)await kaTransport.install(context);
   if(imported)await guardImportedNavigation(context,job.provider,game.url,game);
   let page=await context.newPage();
   page.setDefaultNavigationTimeout(45000);
   const response=await page.goto(game.url,{waitUntil:'domcontentloaded',timeout:45000});
   if(!response||response.status()>=400)throw Error('public DEMO returned HTTP error');
   if(imported){
-   if(page.url()!==game.url&&!isImportedRuntime(job.provider,page.url(),game))throw Error('imported DEMO redirected outside provider contract');
+   if(page.url().replace(/\/$/,'')!==game.url.replace(/\/$/,'')&&!isImportedRuntime(job.provider,page.url(),game))throw Error('imported DEMO redirected outside provider contract');
    phase='launch';
    page=await openImportedDemo(page,job.provider,game,{engine,confirmAdult});
   }else{
@@ -54,9 +58,10 @@ export async function capturePublicDemo(browser,engine,job,{
   if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
    await engine.intro.dismissCatalogueOverlays(page,{provider:job.provider,url:game.url,
     confirmAdult,graceMs:450,requireClear:true});
+  if(imported)await dismissImportedSiteOverlays(page,job.provider);
   inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no frame after removing catalogue overlays');
-  if(imported&&!isImportedRuntime(job.provider,inspected.frame.url(),game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
+  if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
   if(imported){
    const canvases=inspected.frame.locator('canvas');
    let visibleCanvas=false;
@@ -89,11 +94,12 @@ export async function capturePublicDemo(browser,engine,job,{
   void har;
   return {info,image};
  }catch(error){
-  if(imported)throw Error('Tester Spin DEMO '+phase+' failed');
+  if(imported)throw Error('Tester Spin DEMO '+phase+' failed',{cause:error});
   throw error;
  }finally{
-  if(!recorded)await recorder.finish().catch(()=>{});
-  await context.close().catch(()=>{});
+  if(!recorded&&recorder)await recorder.finish().catch(()=>{});
+  kaTransport?.close();
+  if(context)await context.close().catch(()=>{});
  }
 }
 export async function discoverCatalogue(browser,engine,job,{config,cloud,runId}={}){

@@ -1,7 +1,7 @@
 import http from 'node:http';
 
-// Mock only the remote HTTP boundary. Chromium, route.fetch responses, redirect
-// validation, DOM launch controls and screenshots remain real.
+// Mock only remote HTTP. Native HTTP redirect validation has a separate local
+// server test; these provider fixtures use browser redirects and real DOM/JPEG.
 export async function fixtureTransport(browser,documents){
  const requests=[];
  const server=http.createServer((req,res)=>{
@@ -25,7 +25,12 @@ export async function fixtureTransport(browser,documents){
   })));
   await context.route('**/*',async route=>{
    if(!documents.has(route.request().url()))return route.abort();
-   return route.fulfill({response:await route.fetch()});
+   const response=await route.fetch();
+   if(response.status()>=300&&response.status()<400&&response.headers().location){
+    const url=new URL(response.headers().location,route.request().url()).href;
+    return route.fulfill({status:200,contentType:'text/html',body:'<script>location.replace('+JSON.stringify(url)+')</script>'});
+   }
+   return route.fulfill({response});
   });
   return context;
  }},async close(){server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}};

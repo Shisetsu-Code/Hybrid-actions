@@ -62,3 +62,6 @@ All three capture paths wait at least 25 seconds from opening the game runtime b
 
 
 3 Oaks uses a 35 second minimum after opening its DEMO, following the bounded live comparison. The other providers keep the 25 second minimum. Neither interval alone certifies that loading completed.
+
+
+See [live launcher corrections and bounded pilot](TESTER_SPIN_LAUNCHERS.md#live-launch-corrections) for the verified redirect, transport, GPAS and inline-frame paths. The bounded manual pilot preserves disabled catalogue configuration and stores fresh capture IDs directly in D1/R2.

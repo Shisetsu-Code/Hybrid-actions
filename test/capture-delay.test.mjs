@@ -19,3 +19,7 @@ test('loading work counts toward elapsed time and longer configured waits remain
  await waitForGameCapture(1000,{waitMs:45000,now:()=>27000,sleepFn:async ms=>sleeps.push(ms)});
  assert.deepEqual(sleeps,[19000]);
 });
+
+test('Yggdrasil extends the observed loading window to 50 seconds',async()=>{
+ const sleeps=[];await waitForGameCapture(1000,{provider:'yggdrasil',now:()=>6000,sleepFn:async ms=>sleeps.push(ms)});assert.deepEqual(sleeps,[45000]);
+});
