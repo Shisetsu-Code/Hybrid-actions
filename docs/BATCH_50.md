@@ -20,3 +20,9 @@ El chat clasificador debe reclamar Ãºnicamente esta tanda, guardar sus decisione
 La recuperaciÃ³n de la tanda detectÃ³ variantes oficiales adicionales: Yggdrasil PFF usa el Ã­ndice por gameid y el servidor productionpff-mt; Playtech antiguo usa el cliente NGM versionado manteniendo juego, offline y real=0; la ficha oficial de Playâ€™n GO puede publicar un lanzador preview con practice=1 y demo=2. Se mantienen hosts y rutas explÃ­citos, y se verifica la identidad de juego donde estÃ¡ disponible. Estas variantes no aÃ±aden juegos a la selecciÃ³n de 600.
 
 La selecciÃ³n de captura prioriza Ãºnicamente frames de runtime permitidos con canvas visible; no limita la inspecciÃ³n a los primeros ocho canvas utilitarios. Si aÃºn no hay superficie visible, realiza una Ãºnica espera adicional acotada de diez segundos antes de volver a inspeccionar. No convierte una ficha promocional ni un cargador sin superficie en una captura vÃ¡lida.
+
+## Resultado de la tanda 2026-10-21
+
+Se recorrieron las 600 identidades previstas. Tras recuperar fallos transitorios y corregir rutas y selección visual, quedaron 574 JPEG con identidad D1 y SHA-256 de R2 comprobados, todos pendientes de clasificación visual en `catalog-50-20261021`. Nueve proveedores llegaron a 50/50; RubyPlay quedó en 48, Yggdrasil en 27 y Play’n GO en 49. Los 26 restantes no generaron una imagen válida y no se sustituyeron por juegos nuevos.
+
+Yggdrasil conserva 21 clientes PFF sin superficie visible, un destino ausente (Bloody Pesos) y un timeout (Cannonade). Dos fichas RubyPlay no resolvieron destino válido; el placeholder inspeccionado tenía gamename vacío. El cliente preview de Play’n GO1096 no completó las comprobaciones de inicialización. Todas las políticas quedaron deshabilitadas y no se realizaron clasificaciones. El informe inicial de GitHub debe combinarse con las recuperaciones locales; no representa por sí solo el total final.
