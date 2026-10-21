@@ -41,8 +41,12 @@ El workflow `.github/workflows/amusnet-probe.yml` se ejecuta **manualmente**, me
 
 El registro `AMUSNET_PROBE_RESULT` separa los estados del catálogo y la demo. No se imprimen ni conservan URLs completas con tokens de lanzamiento.
 
-## Próxima integración
+## Adaptador de catálogo y captura integrado
 
-Falta integrar un adaptador propio para convertir la paginación JSON:API de Amusnet a tickets de D1, abrir cada demo mediante la UI legítima y capturar pantallas con una política de límites por proveedor. Debe realizarse un piloto antes de habilitar ocho runners.
+El código integrado de Amusnet está en src/amusnet.mjs y se conecta a src/capture.mjs para convertir JSON:API a tickets D1 y capturar la pantalla del iframe en modo visual. El botón Play Demo se pulsa solamente después de rechazar cookies opcionales y contar con autorización explícita para la puerta 18+. Los URL de iframe con tokens no se guardan en D1. La [guía de proveedores](PROVIDER_ADAPTERS.md) explica cómo activarlo con rate limiting por proveedor.
+
+## Límites de validación
+
+El adaptador ya implementa la paginación y el circuito de captura; falta validar el nuevo adaptador integrado en un piloto con D1/R2, no solamente el script de diagnóstico anterior. Debe realizarse un piloto antes de habilitar ocho runners.
 
 Los controles del adaptador Pragmatic no deben aplicarse automáticamente a Amusnet. Sus controles no verificados requieren clasificación visual/híbrida mediante MCP. Que el catálogo y una demo funcionen no implica que estén clasificados.
