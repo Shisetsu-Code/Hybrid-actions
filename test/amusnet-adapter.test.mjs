@@ -133,3 +133,17 @@ test('unapproved adult gate defers D1 job rather than spending a retry',async()=
   capture:async()=>{const e=Error('adult');e.code='ADULT_CONFIRMATION_REQUIRED';throw e;}});
  assert.equal(result.status,'deferred');assert.equal(deferred,1);assert.equal(failed,0);
 });
+
+
+test('Amusnet canonicalizes multiple official slugs sharing the same public GIN',async()=>{
+ const browser={newContext:async()=>({request:{get:async()=>({
+  status:()=>200,json:async()=>({meta:{count:2},data:[
+   record(806,{path:{alias:'/rise-of-ra'}}),
+   record(806,{path:{alias:'/rise-of-ra-deluxe'}})
+  ]})
+ })},close:async()=>{}})};
+ const data=await discoverAmusnet(browser,source,{config,maxPages:1,pauseMs:0});
+ assert.equal(data.games.length,1);
+ assert.equal(data.duplicateGinVariants,1);
+ assert.equal(data.games[0].url,'https://amusnet.com/games/online-casino/rise-of-ra');
+});
