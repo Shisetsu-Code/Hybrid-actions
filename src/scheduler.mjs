@@ -24,7 +24,7 @@ export function chooseProvider(workload,allowed,active,newCursor=0){
 }
 export async function runFleet({
  cloud,config,engine,browser,runnerId,lanes=5,durationMinutes=60,
- waitMs=3500,confirmAdult=false,classification=true,
+ waitMs=3500,confirmAdult=true,classification=true,
  log=console.log,sleepFn=sleep,now=()=>Date.now(),
  execute=executeTicket,classify=classifyOne
 }){
