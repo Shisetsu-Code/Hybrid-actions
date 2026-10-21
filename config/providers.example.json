@@ -50,6 +50,36 @@
       "id": "belatra",
       "enabled": false,
       "approved": false
+    },
+    {
+      "id": "playngo",
+      "enabled": false,
+      "approved": false,
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      },
+      "allowlist": [
+        {
+          "origin": "https://www.playngo.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "sources": [
+        {
+          "id": "playngo-official-catalogue",
+          "enabled": false,
+          "approved": false,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://www.playngo.com/games"
+          ],
+          "gameUrlPrefix": "https://www.playngo.com/games/",
+          "gamePathPattern": "^/games/.*$",
+          "maxGames": 600
+        }
+      ],
+      "games": []
     }
   ]
 }
