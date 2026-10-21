@@ -1,8 +1,8 @@
 {
   "provider": "hacksaw",
   "name": "Hacksaw Gaming",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
-  "count": 187,
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
+  "count": 188,
   "refreshStatus": "updated",
   "partialReported": false,
   "fallbackReported": false,
@@ -235,6 +235,12 @@
       "id": "2319",
       "name": "Death Becomes You",
       "publicUrl": "https://www.hacksawgaming.com/games/death-becomes-you",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2091",
+      "name": "Demonic Dolls",
+      "publicUrl": "https://www.hacksawgaming.com/games/demonic-dolls",
       "launchUrlOmitted": false
     },
     {

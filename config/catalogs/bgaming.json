@@ -1,13 +1,13 @@
 {
   "provider": "bgaming",
   "name": "BGaming",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
   "count": 241,
   "refreshStatus": "updated",
   "partialReported": false,
   "fallbackReported": false,
   "completeness": "not-certified",
-  "omittedLaunchUrls": 190,
+  "omittedLaunchUrls": 191,
   "games": [
     {
       "id": "3-lucky-monkeys-hold-win",
@@ -198,8 +198,8 @@
     {
       "id": "bonanza-billion",
       "name": "Bonanza Billion",
-      "publicUrl": "https://bgaming.com/games/bonanza-billion",
-      "launchUrlOmitted": false
+      "publicUrl": null,
+      "launchUrlOmitted": true
     },
     {
       "id": "bonanza-billion-merge-up",
@@ -886,9 +886,9 @@
       "launchUrlOmitted": true
     },
     {
-      "id": "luxury-feasthold-and-win",
-      "name": "Luxury FeastHold and Win",
-      "publicUrl": "https://bgaming.com/games/luxury-feasthold-and-win",
+      "id": "luxury-feast-hold-and-win",
+      "name": "Luxury Feast Hold and Win",
+      "publicUrl": "https://bgaming.com/games/luxury-feast-hold-and-win",
       "launchUrlOmitted": false
     },
     {

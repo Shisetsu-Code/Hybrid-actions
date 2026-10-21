@@ -1,13 +1,13 @@
 {
   "source": "Tester Spin local catalogue adapters",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
   "executionEnabled": false,
-  "totalGames": 6560,
+  "totalGames": 6581,
   "providers": [
     {
       "provider": "pragmatic",
       "name": "Pragmatic Play",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 660,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -18,18 +18,18 @@
     {
       "provider": "1spin4win",
       "name": "1Spin4Win",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
-      "count": 229,
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
+      "count": 230,
       "refreshStatus": "updated",
       "partialReported": false,
       "fallbackReported": false,
       "completeness": "not-certified",
-      "omittedLaunchUrls": 229
+      "omittedLaunchUrls": 230
     },
     {
       "provider": "belatra",
       "name": "Belatra",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 116,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -40,18 +40,18 @@
     {
       "provider": "bgaming",
       "name": "BGaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 241,
       "refreshStatus": "updated",
       "partialReported": false,
       "fallbackReported": false,
       "completeness": "not-certified",
-      "omittedLaunchUrls": 190
+      "omittedLaunchUrls": 191
     },
     {
       "provider": "ka_gaming",
       "name": "KA Gaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 833,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -62,10 +62,10 @@
     {
       "provider": "rubyplay",
       "name": "RubyPlay",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
-      "count": 49,
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
+      "count": 66,
       "refreshStatus": "updated",
-      "partialReported": true,
+      "partialReported": false,
       "fallbackReported": false,
       "completeness": "not-certified",
       "omittedLaunchUrls": 0
@@ -73,7 +73,7 @@
     {
       "provider": "redtiger",
       "name": "Red Tiger",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 396,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -84,7 +84,7 @@
     {
       "provider": "3oaks",
       "name": "3 Oaks",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 102,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -95,19 +95,19 @@
     {
       "provider": "yggdrasil",
       "name": "Yggdrasil",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 159,
       "refreshStatus": "updated",
       "partialReported": true,
-      "fallbackReported": false,
+      "fallbackReported": true,
       "completeness": "not-certified",
       "omittedLaunchUrls": 0
     },
     {
       "provider": "hacksaw",
       "name": "Hacksaw Gaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
-      "count": 187,
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
+      "count": 188,
       "refreshStatus": "updated",
       "partialReported": false,
       "fallbackReported": false,
@@ -117,7 +117,7 @@
     {
       "provider": "nolimit_city",
       "name": "Nolimit City",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 141,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -128,8 +128,8 @@
     {
       "provider": "playtech",
       "name": "Playtech",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
-      "count": 529,
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
+      "count": 531,
       "refreshStatus": "updated",
       "partialReported": false,
       "fallbackReported": false,
@@ -139,7 +139,7 @@
     {
       "provider": "games_global",
       "name": "Games Global",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 94,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -150,7 +150,7 @@
     {
       "provider": "amusnet",
       "name": "Amusnet",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 192,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -161,7 +161,7 @@
     {
       "provider": "playngo",
       "name": "Play’n GO",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 476,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -172,18 +172,18 @@
     {
       "provider": "greentube",
       "name": "Greentube / Novomatic",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 750,
       "refreshStatus": "updated",
       "partialReported": false,
-      "fallbackReported": false,
+      "fallbackReported": true,
       "completeness": "not-certified",
       "omittedLaunchUrls": 0
     },
     {
       "provider": "netent",
       "name": "NetEnt",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 240,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -194,7 +194,7 @@
     {
       "provider": "pgsoft",
       "name": "PG Soft",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 155,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -205,7 +205,7 @@
     {
       "provider": "blueprint",
       "name": "Blueprint Gaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 267,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -216,7 +216,7 @@
     {
       "provider": "relax",
       "name": "Relax Gaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 177,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -227,29 +227,29 @@
     {
       "provider": "playson",
       "name": "Playson",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 54,
       "refreshStatus": "updated",
       "partialReported": false,
-      "fallbackReported": false,
+      "fallbackReported": true,
       "completeness": "not-certified",
       "omittedLaunchUrls": 0
     },
     {
       "provider": "wazdan",
       "name": "Wazdan",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 265,
       "refreshStatus": "updated",
       "partialReported": false,
-      "fallbackReported": false,
+      "fallbackReported": true,
       "completeness": "not-certified",
       "omittedLaunchUrls": 0
     },
     {
       "provider": "elk",
       "name": "ELK Studios",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 158,
       "refreshStatus": "updated",
       "partialReported": false,
@@ -260,7 +260,7 @@
     {
       "provider": "pushgaming",
       "name": "Push Gaming",
-      "refreshedAt": "2026-10-21T06:13:10+00:00",
+      "refreshedAt": "2026-10-21T20:15:15+00:00",
       "count": 90,
       "refreshStatus": "updated",
       "partialReported": false,
