@@ -75,6 +75,7 @@ test('mobile capture has a real frame and mobile assets before emitting visual J
   url:()=>visits.at(-1),
   content:async()=>mockHtml,
   on:(type,fn)=>{pageEvents[type]=fn;},
+  locator:()=>({first(){return this;},isVisible:async()=>false}),
   evaluate:async()=>2,
   screenshot:async()=>Buffer.alloc(2200,0xef),
   viewportSize:()=>({width:393,height:851})
