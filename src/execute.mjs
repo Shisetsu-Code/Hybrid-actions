@@ -58,6 +58,10 @@ export async function executeTicket({
   const row=await cloud.complete(job,workerId,{ok:true,result});
   done=true;return {status:row.status,result};
  }catch(e){
+  if(!done&&e?.code==='ADULT_CONFIRMATION_REQUIRED'){
+   try{await cloud.defer(job,workerId,900);done=true;return {status:'deferred',reason:'adult_confirmation_required'};}
+   catch(deferError){log('JOB DEFER FAILED',job.id,boundedError(deferError));}
+  }
   if(!done){
    try{await cloud.complete(job,workerId,{ok:false,error:boundedError(e)});}
    catch(completeError){log('JOB COMPLETION FAILED',job.id,boundedError(completeError));}
