@@ -70,7 +70,13 @@ try {
     await age.click({timeout:7000});
     out.game.ageConfirmedExplicitly=true;
    }
-   const play=page.locator('.play-demo-btn').first();
+   // Catalogue tiles use .play-demo-btn; detailed game pages may use
+   // .bttn (both are visible in the site's shipped JavaScript bundle).
+   const play=page.getByText(/^Play Demo$/i).first();
+   await play.waitFor({state:'visible',timeout:18000}).catch(()=>{});
+   out.game.demoTextCount=await page.getByText(/^Play Demo$/i).count();
+   out.game.catalogueButtonCount=await page.locator('.play-demo-btn').count();
+   out.game.detailButtonCount=await page.locator('.bttn').count();
    out.game.demoControlVisible=await play.isVisible().catch(()=>false);
    if(!out.game.demoControlVisible){
     out.demo={state:'no_visible_play_demo_control'};
