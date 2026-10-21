@@ -1,0 +1,307 @@
+{
+  "provider": "rubyplay",
+  "name": "RubyPlay",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 49,
+  "refreshStatus": "updated",
+  "partialReported": true,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "diamond-explosion-7s",
+      "name": "Diamond Explosion ® 7s Max Win: 8,000x",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frankenstein-triple-volt",
+      "name": "Frankenstein Triple Volt",
+      "publicUrl": "https://rubyplay.com/games/frankenstein-triple-volt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-panda",
+      "name": "Go High® Panda Max Win: 2,700x",
+      "publicUrl": "https://rubyplay.com/games/go-high-panda/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gummy-giga-match",
+      "name": "Gummy Giga Match® Max Win: 18,997x",
+      "publicUrl": "https://rubyplay.com/games/gummy-giga-match/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-diamonds-extreme",
+      "name": "Mad Hit Diamonds Extreme",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-mr-coin-se",
+      "name": "Mad Hit Mr Coin Se",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-marlin-bonanza",
+      "name": "Mad Hit® Marlin Bonanza",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-marlin-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayan-cache",
+      "name": "Mayan Cache",
+      "publicUrl": "https://rubyplay.com/games/mayan-cache/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-diamonds",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-luva",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-luva/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-pinata",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-pinata/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-88-charms",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-88-charms/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-mr-first",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-mr-first/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-sweet-coin",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-sweet-coin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-betano",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-betano/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-champions",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-champions/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-lady-moon",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-lady-moon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-spooktacular",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-spooktacular/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-oasis",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-oasis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-wild-alice",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-wild-alice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-supernova",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-supernova/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-hidden-cities",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-hidden-cities/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-bearhaus",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-bearhaus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-savannah",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-savannah/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-full-steam",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-full-steam/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-diamonds",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-gorillatron",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-gorillatron/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elephant-stampede",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/elephant-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stampede-rush-wicked",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/stampede-rush-wicked/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stampede-rush-speedy-santa",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/stampede-rush-speedy-santa/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stampede-rush-mighty-chang",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/stampede-rush-mighty-chang/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elephant-stampede-se",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/elephant-stampede-se/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stampede-rush-trident",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/stampede-rush-trident/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-harvest",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-harvest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-gone-fishing",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-gone-fishing/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-fruit",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-fruit/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-olympus",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-olympus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-gallina",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-gallina/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-puppy-love",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-puppy-love/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-joker",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-high-safari",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/go-high-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-sweet-love",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-sweet-love/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-candy",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-candy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-patriots",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-patriots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-christmas-tango",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-christmas-tango/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-7s-se",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-7s-se/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fu-double-luck-diamond-explosion",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/fu-double-luck-diamond-explosion/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-explosion-777",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/diamond-explosion-777/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "volcano-rising-se",
+      "name": "Volcano Rising SE Max Win: 2,500x",
+      "publicUrl": "https://rubyplay.com/games/volcano-rising-se/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

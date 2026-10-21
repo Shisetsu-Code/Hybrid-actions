@@ -1,0 +1,1165 @@
+{
+  "provider": "amusnet",
+  "name": "Amusnet",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 192,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "10-bulky-fruits",
+      "name": "10 Bulky Fruits",
+      "publicUrl": "https://amusnetgaming.com/10-bulky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-burning-heart",
+      "name": "10 Burning Heart",
+      "publicUrl": "https://amusnetgaming.com/10-burning-heart",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-glossy-hot",
+      "name": "10 Glossy Hot",
+      "publicUrl": "https://amusnetgaming.com/10-glossy-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-power-hot",
+      "name": "10 Power Hot",
+      "publicUrl": "https://amusnetgaming.com/10-power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-vampire-beast",
+      "name": "10 Vampire Beast",
+      "publicUrl": "https://amusnetgaming.com/10-vampire-beast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-bulky-fruits",
+      "name": "100 Bulky Fruits",
+      "publicUrl": "https://amusnetgaming.com/100-bulky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-burning-hot",
+      "name": "100 Burning Hot",
+      "publicUrl": "https://amusnetgaming.com/100-burning-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-cats",
+      "name": "100 Cats",
+      "publicUrl": "https://amusnetgaming.com/100-cats",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-dice",
+      "name": "100 Dice",
+      "publicUrl": "https://amusnetgaming.com/100-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-extra-crown-6-reels",
+      "name": "100 Extra Crown 6 reels",
+      "publicUrl": "https://amusnetgaming.com/100-extra-crown-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-golden-coins",
+      "name": "100 Golden Coins",
+      "publicUrl": "https://amusnetgaming.com/100-golden-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-golden-coins-dice-edition",
+      "name": "100 Golden Coins Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/100-golden-coins-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-power-hot",
+      "name": "100 Power Hot",
+      "publicUrl": "https://amusnetgaming.com/100-power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-power-hot-dice-edition",
+      "name": "100 Power Hot Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/100-power-hot-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-super-dice",
+      "name": "100 Super Dice",
+      "publicUrl": "https://amusnetgaming.com/100-super-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-super-hot",
+      "name": "100 Super Hot",
+      "publicUrl": "https://amusnetgaming.com/100-super-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-bulky-dice",
+      "name": "20 Bulky Dice",
+      "publicUrl": "https://amusnetgaming.com/20-bulky-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-bulky-fruits",
+      "name": "20 Bulky Fruits",
+      "publicUrl": "https://amusnetgaming.com/20-bulky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-burning-dice",
+      "name": "20 Burning Dice",
+      "publicUrl": "https://amusnetgaming.com/20-burning-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-burning-hot",
+      "name": "20 Burning Hot",
+      "publicUrl": "https://amusnetgaming.com/20-burning-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-dazzling-hot",
+      "name": "20 Dazzling Hot",
+      "publicUrl": "https://amusnetgaming.com/20-dazzling-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-diamond-plus",
+      "name": "20 Diamond Plus",
+      "publicUrl": "https://amusnetgaming.com/20-diamond-plus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-diamonds",
+      "name": "20 Diamonds",
+      "publicUrl": "https://amusnetgaming.com/20-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-extra-crown",
+      "name": "20 Extra Crown",
+      "publicUrl": "https://amusnetgaming.com/20-extra-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-glossy-hot",
+      "name": "20 Glossy Hot",
+      "publicUrl": "https://amusnetgaming.com/20-glossy-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-golden-coins",
+      "name": "20 Golden Coins",
+      "publicUrl": "https://amusnetgaming.com/20-golden-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-golden-coins-christmas-edition",
+      "name": "20 Golden Coins - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/20-golden-coins-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-golden-coins-dice-edition",
+      "name": "20 Golden Coins Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/20-golden-coins-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-hot-blast",
+      "name": "20 Hot Blast",
+      "publicUrl": "https://amusnetgaming.com/20-hot-blast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-joker-dice",
+      "name": "20 Joker Dice",
+      "publicUrl": "https://amusnetgaming.com/20-joker-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-joker-reels",
+      "name": "20 Joker Reels",
+      "publicUrl": "https://amusnetgaming.com/20-joker-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-pirate-bombs",
+      "name": "20 Pirate Bombs",
+      "publicUrl": "https://amusnetgaming.com/20-pirate-bombs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-power-hot",
+      "name": "20 Power Hot",
+      "publicUrl": "https://amusnetgaming.com/20-power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-power-hot-dice-edition",
+      "name": "20 Power Hot Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/20-power-hot-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-super-dice",
+      "name": "20 Super Dice",
+      "publicUrl": "https://amusnetgaming.com/20-super-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-super-hot",
+      "name": "20 Super Hot",
+      "publicUrl": "https://amusnetgaming.com/20-super-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-vampire-beast",
+      "name": "20 Vampire Beast",
+      "publicUrl": "https://amusnetgaming.com/20-vampire-beast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-wild-goals",
+      "name": "20 Wild Goals",
+      "publicUrl": "https://amusnetgaming.com/20-wild-goals",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-wild-goals-dice",
+      "name": "20 Wild Goals Dice",
+      "publicUrl": "https://amusnetgaming.com/20-wild-goals-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "27-dice",
+      "name": "27 Dice",
+      "publicUrl": "https://amusnetgaming.com/27-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "27-eternal-hot",
+      "name": "27 Eternal Hot",
+      "publicUrl": "https://amusnetgaming.com/27-eternal-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "27-wins",
+      "name": "27 Wins",
+      "publicUrl": "https://amusnetgaming.com/27-wins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "30-spicy-dice",
+      "name": "30 Spicy Dice",
+      "publicUrl": "https://amusnetgaming.com/30-spicy-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "30-spicy-fruits",
+      "name": "30 Spicy Fruits",
+      "publicUrl": "https://amusnetgaming.com/30-spicy-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-almighty-ramses-ii",
+      "name": "40 Almighty Ramses II",
+      "publicUrl": "https://amusnetgaming.com/40-almighty-ramses-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-bulky-dice",
+      "name": "40 Bulky Dice",
+      "publicUrl": "https://amusnetgaming.com/40-bulky-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-bulky-dice-6-reels",
+      "name": "40 Bulky Dice 6 reels",
+      "publicUrl": "https://amusnetgaming.com/40-bulky-dice-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-bulky-fruits",
+      "name": "40 Bulky Fruits",
+      "publicUrl": "https://amusnetgaming.com/40-bulky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-bulky-fruits-6-reels",
+      "name": "40 Bulky Fruits 6 Reels",
+      "publicUrl": "https://amusnetgaming.com/40-bulky-fruits-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-burning-hot",
+      "name": "40 Burning Hot",
+      "publicUrl": "https://amusnetgaming.com/40-burning-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-burning-hot-6-reels",
+      "name": "40 Burning Hot 6 Reels",
+      "publicUrl": "https://amusnetgaming.com/40-burning-hot-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-diamond-plus",
+      "name": "40 Diamond Plus",
+      "publicUrl": "https://amusnetgaming.com/40-diamond-plus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-extra-crown",
+      "name": "40 Extra Crown",
+      "publicUrl": "https://amusnetgaming.com/40-extra-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-extra-crown-6-reels",
+      "name": "40 Extra Crown 6 Reels",
+      "publicUrl": "https://amusnetgaming.com/40-extra-crown-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-golden-coins",
+      "name": "40 Golden Coins",
+      "publicUrl": "https://amusnetgaming.com/40-golden-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-golden-coins-dice-edition",
+      "name": "40 Golden Coins Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/40-golden-coins-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-hot-and-cash",
+      "name": "40 Hot & Cash",
+      "publicUrl": "https://amusnetgaming.com/40-hot-and-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-king",
+      "name": "40 King",
+      "publicUrl": "https://amusnetgaming.com/40-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-lucky-king",
+      "name": "40 Lucky King",
+      "publicUrl": "https://amusnetgaming.com/40-lucky-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-luxury-dice",
+      "name": "40 Luxury Dice",
+      "publicUrl": "https://amusnetgaming.com/40-luxury-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-mega-clover",
+      "name": "40 Mega Clover",
+      "publicUrl": "https://amusnetgaming.com/40-mega-clover",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-power-hot",
+      "name": "40 Power Hot",
+      "publicUrl": "https://amusnetgaming.com/40-power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-power-hot-dice-edition",
+      "name": "40 Power Hot Dice Edition",
+      "publicUrl": "https://amusnetgaming.com/40-power-hot-dice-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-super-dice",
+      "name": "40 Super Dice",
+      "publicUrl": "https://amusnetgaming.com/40-super-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-super-hot",
+      "name": "40 Super Hot",
+      "publicUrl": "https://amusnetgaming.com/40-super-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-ultra-respin",
+      "name": "40 Ultra Respin",
+      "publicUrl": "https://amusnetgaming.com/40-ultra-respin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-burning-heart",
+      "name": "5 Burning Heart",
+      "publicUrl": "https://amusnetgaming.com/5-burning-heart",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-dazzling-hot",
+      "name": "5 Dazzling Hot",
+      "publicUrl": "https://amusnetgaming.com/5-dazzling-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-diamond-plus",
+      "name": "5 Diamond Plus",
+      "publicUrl": "https://amusnetgaming.com/5-diamond-plus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-glossy-dice",
+      "name": "5 Glossy Dice",
+      "publicUrl": "https://amusnetgaming.com/5-glossy-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-glossy-hot",
+      "name": "5 Glossy Hot",
+      "publicUrl": "https://amusnetgaming.com/5-glossy-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-great-star",
+      "name": "5 Great Star",
+      "publicUrl": "https://amusnetgaming.com/5-great-star",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-juggle-fruits",
+      "name": "5 Juggle Fruits",
+      "publicUrl": "https://amusnetgaming.com/5-juggle-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-power-hot",
+      "name": "5 Power Hot",
+      "publicUrl": "https://amusnetgaming.com/5-power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-amazons-battle",
+      "name": "50 Amazons' Battle",
+      "publicUrl": "https://amusnetgaming.com/50-amazons-battle",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-horses",
+      "name": "50 Horses",
+      "publicUrl": "https://amusnetgaming.com/50-horses",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-and-crystals",
+      "name": "7 & Crystals",
+      "publicUrl": "https://amusnetgaming.com/7-and-crystals",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-crystals-dice",
+      "name": "7 & Crystals Dice",
+      "publicUrl": "https://amusnetgaming.com/7-crystals-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "81-wins",
+      "name": "81 Wins",
+      "publicUrl": "https://amusnetgaming.com/81-wins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-ramses-ii",
+      "name": "Almighty Ramses II",
+      "publicUrl": "https://amusnetgaming.com/almighty-ramses-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazons-battle",
+      "name": "Amazons' Battle",
+      "publicUrl": "https://amusnetgaming.com/amazons-battle",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-dynasty",
+      "name": "Ancient Dynasty",
+      "publicUrl": "https://amusnetgaming.com/ancient-dynasty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "art-of-gold",
+      "name": "Art of Gold",
+      "publicUrl": "https://amusnetgaming.com/art-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-dice",
+      "name": "Aztec Dice",
+      "publicUrl": "https://amusnetgaming.com/aztec-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-forest",
+      "name": "Aztec Forest",
+      "publicUrl": "https://amusnetgaming.com/aztec-forest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-glory",
+      "name": "Aztec Glory",
+      "publicUrl": "https://amusnetgaming.com/aztec-glory",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bier-ometer",
+      "name": "Bier O'Meter",
+      "publicUrl": "https://amusnetgaming.com/bier-ometer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blue-heart",
+      "name": "Blue Heart",
+      "publicUrl": "https://amusnetgaming.com/blue-heart",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bulky-dice",
+      "name": "Bulky Dice",
+      "publicUrl": "https://amusnetgaming.com/bulky-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bulky-fruits",
+      "name": "Bulky Fruits",
+      "publicUrl": "https://amusnetgaming.com/bulky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-dice",
+      "name": "Burning Dice",
+      "publicUrl": "https://amusnetgaming.com/burning-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-hot",
+      "name": "Burning Hot",
+      "publicUrl": "https://amusnetgaming.com/burning-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-dice",
+      "name": "Candy Dice",
+      "publicUrl": "https://amusnetgaming.com/candy-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-palace",
+      "name": "Candy Palace",
+      "publicUrl": "https://amusnetgaming.com/candy-palace",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-palace-christmas-edition",
+      "name": "Candy Palace - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/candy-palace-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caramel-dice",
+      "name": "Caramel Dice",
+      "publicUrl": "https://amusnetgaming.com/caramel-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caramel-dice-christmas-edition",
+      "name": "Caramel Dice - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/caramel-dice-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caramel-hot",
+      "name": "Caramel Hot",
+      "publicUrl": "https://amusnetgaming.com/caramel-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caramel-hot-christmas-edition",
+      "name": "Caramel Hot - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/caramel-hot-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-mania",
+      "name": "Casino Mania",
+      "publicUrl": "https://amusnetgaming.com/casino-mania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cavemen-and-dinosaurs",
+      "name": "Cavemen and Dinosaurs",
+      "publicUrl": "https://amusnetgaming.com/cavemen-and-dinosaurs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "circus-brilliant",
+      "name": "Circus Brilliant",
+      "publicUrl": "https://amusnetgaming.com/circus-brilliant",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clover-islands",
+      "name": "Clover Islands",
+      "publicUrl": "https://amusnetgaming.com/clover-islands",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cocktail-dice",
+      "name": "Cocktail Dice",
+      "publicUrl": "https://amusnetgaming.com/cocktail-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cocktail-rush",
+      "name": "Cocktail Rush",
+      "publicUrl": "https://amusnetgaming.com/cocktail-rush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cocktail-rush-easter-edition",
+      "name": "Cocktail Rush - Easter Edition",
+      "publicUrl": "https://amusnetgaming.com/cocktail-rush-easter-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-gobbler",
+      "name": "Coin Gobbler",
+      "publicUrl": "https://amusnetgaming.com/coin-gobbler",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dancing-dead",
+      "name": "Dancing Dead",
+      "publicUrl": "https://amusnetgaming.com/dancing-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-plus",
+      "name": "Diamond Plus",
+      "publicUrl": "https://amusnetgaming.com/diamond-plus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-plus-valentines-edition",
+      "name": "Diamond Plus - Valentine's Edition",
+      "publicUrl": "https://amusnetgaming.com/diamond-plus-valentines-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-plus-football-edition",
+      "name": "Diamond Plus Football Edition",
+      "publicUrl": "https://amusnetgaming.com/diamond-plus-football-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-dinosaurs",
+      "name": "Dice & Dinosaurs",
+      "publicUrl": "https://amusnetgaming.com/dice-dinosaurs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-and-roll",
+      "name": "Dice & Roll",
+      "publicUrl": "https://amusnetgaming.com/dice-and-roll",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-roll-christmas-edition",
+      "name": "Dice & Roll - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/dice-roll-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-deco",
+      "name": "Dice Deco",
+      "publicUrl": "https://amusnetgaming.com/dice-deco",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-of-magic",
+      "name": "Dice of Magic",
+      "publicUrl": "https://amusnetgaming.com/dice-of-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-of-magic-easter-edition",
+      "name": "Dice of Magic - Easter Edition",
+      "publicUrl": "https://amusnetgaming.com/dice-of-magic-easter-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-of-ra",
+      "name": "Dice of Ra",
+      "publicUrl": "https://amusnetgaming.com/dice-of-ra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-of-sherwood",
+      "name": "Dice of Sherwood",
+      "publicUrl": "https://amusnetgaming.com/dice-of-sherwood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-plus",
+      "name": "Dice Plus",
+      "publicUrl": "https://amusnetgaming.com/dice-plus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-vikings",
+      "name": "Dice Vikings",
+      "publicUrl": "https://amusnetgaming.com/dice-vikings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-ways",
+      "name": "Dice Ways",
+      "publicUrl": "https://amusnetgaming.com/dice-ways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-reborn",
+      "name": "Dragon Reborn",
+      "publicUrl": "https://amusnetgaming.com/dragon-reborn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-reels",
+      "name": "Dragon Reels",
+      "publicUrl": "https://amusnetgaming.com/dragon-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "drops-of-water",
+      "name": "Drops of Water",
+      "publicUrl": "https://amusnetgaming.com/drops-of-water",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-frog",
+      "name": "Easter Frog",
+      "publicUrl": "https://amusnetgaming.com/easter-frog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-frog-dice",
+      "name": "Easter Frog Dice",
+      "publicUrl": "https://amusnetgaming.com/easter-frog-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-crown",
+      "name": "Extra Crown",
+      "publicUrl": "https://amusnetgaming.com/extra-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-crown-classic",
+      "name": "Extra Crown Classic",
+      "publicUrl": "https://amusnetgaming.com/extra-crown-classic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-crown-deluxe",
+      "name": "Extra Crown Deluxe",
+      "publicUrl": "https://amusnetgaming.com/extra-crown-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-crown-dice",
+      "name": "Extra Crown Dice",
+      "publicUrl": "https://amusnetgaming.com/extra-crown-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-joker",
+      "name": "Extra Joker",
+      "publicUrl": "https://amusnetgaming.com/extra-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-stars",
+      "name": "Extra Stars",
+      "publicUrl": "https://amusnetgaming.com/extra-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extreme-dice",
+      "name": "Extreme Dice",
+      "publicUrl": "https://amusnetgaming.com/extreme-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flaming-hot",
+      "name": "Flaming Hot",
+      "publicUrl": "https://amusnetgaming.com/flaming-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flaming-hot-6-reels",
+      "name": "Flaming Hot 6 Reels",
+      "publicUrl": "https://amusnetgaming.com/flaming-hot-6-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flaming-hot-extreme",
+      "name": "Flaming Hot Extreme",
+      "publicUrl": "https://amusnetgaming.com/flaming-hot-extreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frog-story",
+      "name": "Frog Story",
+      "publicUrl": "https://amusnetgaming.com/frog-story",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruits-and-gold",
+      "name": "Fruits & Gold",
+      "publicUrl": "https://amusnetgaming.com/fruits-and-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruits-and-gold-dice",
+      "name": "Fruits & Gold Dice",
+      "publicUrl": "https://amusnetgaming.com/fruits-and-gold-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruity-time",
+      "name": "Fruity Time",
+      "publicUrl": "https://amusnetgaming.com/fruity-time",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-crystals",
+      "name": "Gold & Crystals",
+      "publicUrl": "https://amusnetgaming.com/gold-crystals",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grace-of-cleopatra",
+      "name": "Grace of Cleopatra",
+      "publicUrl": "https://amusnetgaming.com/grace-of-cleopatra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-27",
+      "name": "Great 27",
+      "publicUrl": "https://amusnetgaming.com/great-27",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greek-fortune",
+      "name": "Greek Fortune",
+      "publicUrl": "https://amusnetgaming.com/greek-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-and-cash",
+      "name": "Hot & Cash",
+      "publicUrl": "https://amusnetgaming.com/hot-and-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-deco",
+      "name": "Hot Deco",
+      "publicUrl": "https://amusnetgaming.com/hot-deco",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-keno",
+      "name": "Hot Keno",
+      "publicUrl": "https://amusnetgaming.com/hot-keno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-dice",
+      "name": "Ice Dice",
+      "publicUrl": "https://amusnetgaming.com/ice-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kangaroo-land",
+      "name": "Kangaroo Land",
+      "publicUrl": "https://amusnetgaming.com/kangaroo-land",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kemets-dice",
+      "name": "Kemet's Dice",
+      "publicUrl": "https://amusnetgaming.com/kemets-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kemets-treasures",
+      "name": "Kemet's Treasures",
+      "publicUrl": "https://amusnetgaming.com/kemets-treasures",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knights-heart",
+      "name": "Knight's Heart",
+      "publicUrl": "https://amusnetgaming.com/knights-heart",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-and-wild",
+      "name": "Lucky & Wild",
+      "publicUrl": "https://amusnetgaming.com/lucky-and-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-hot",
+      "name": "Lucky Hot",
+      "publicUrl": "https://amusnetgaming.com/lucky-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-wood",
+      "name": "Lucky Wood",
+      "publicUrl": "https://amusnetgaming.com/lucky-wood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-sparta",
+      "name": "Mighty Sparta",
+      "publicUrl": "https://amusnetgaming.com/mighty-sparta",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "more-dice-and-roll",
+      "name": "More Dice & Roll",
+      "publicUrl": "https://amusnetgaming.com/more-dice-and-roll",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mythical-treasure",
+      "name": "Mythical Treasure",
+      "publicUrl": "https://amusnetgaming.com/mythical-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-dice",
+      "name": "Neon Dice",
+      "publicUrl": "https://amusnetgaming.com/neon-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oil-company-ii",
+      "name": "Oil Company II",
+      "publicUrl": "https://amusnetgaming.com/oil-company-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "olympus-glory",
+      "name": "Olympus Glory",
+      "publicUrl": "https://amusnetgaming.com/olympus-glory",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orient-story",
+      "name": "Orient Story",
+      "publicUrl": "https://amusnetgaming.com/orient-story",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orient-story-deluxe",
+      "name": "Orient Story Deluxe",
+      "publicUrl": "https://amusnetgaming.com/orient-story-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-star",
+      "name": "Phoenix Star",
+      "publicUrl": "https://amusnetgaming.com/phoenix-star",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-hot",
+      "name": "Power Hot",
+      "publicUrl": "https://amusnetgaming.com/power-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "richness-dice",
+      "name": "Richness Dice",
+      "publicUrl": "https://amusnetgaming.com/richness-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-ra",
+      "name": "Rise of RA",
+      "publicUrl": "https://amusnetgaming.com/rise-of-ra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rolling-dice-christmas-edition",
+      "name": "Rolling Dice - Christmas Edition",
+      "publicUrl": "https://amusnetgaming.com/rolling-dice-christmas-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-secrets",
+      "name": "Royal Secrets",
+      "publicUrl": "https://amusnetgaming.com/royal-secrets",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secrets-of-alchemy",
+      "name": "Secrets of Alchemy",
+      "publicUrl": "https://amusnetgaming.com/secrets-of-alchemy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secrets-of-cairo",
+      "name": "Secrets of Cairo",
+      "publicUrl": "https://amusnetgaming.com/secrets-of-cairo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secrets-of-sherwood",
+      "name": "Secrets of Sherwood",
+      "publicUrl": "https://amusnetgaming.com/secrets-of-sherwood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-crown",
+      "name": "Shining Crown",
+      "publicUrl": "https://amusnetgaming.com/shining-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-crown-buy-bonus",
+      "name": "Shining Crown Buy Bonus",
+      "publicUrl": "https://amusnetgaming.com/shining-crown-buy-bonus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-dice",
+      "name": "Shining Dice",
+      "publicUrl": "https://amusnetgaming.com/shining-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sparta-legend",
+      "name": "Sparta Legend",
+      "publicUrl": "https://amusnetgaming.com/sparta-legend",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stoichkov-8",
+      "name": "Stoichkov#8",
+      "publicUrl": "https://amusnetgaming.com/stoichkov-8",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-20",
+      "name": "Super 20",
+      "publicUrl": "https://amusnetgaming.com/super-20",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "superb-keno",
+      "name": "Superb Keno",
+      "publicUrl": "https://amusnetgaming.com/superb-keno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "supreme-dice",
+      "name": "Supreme Dice",
+      "publicUrl": "https://amusnetgaming.com/supreme-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "supreme-hot",
+      "name": "Supreme Hot",
+      "publicUrl": "https://amusnetgaming.com/supreme-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-great-egypt",
+      "name": "The Great Egypt",
+      "publicUrl": "https://amusnetgaming.com/the-great-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultimate-hot",
+      "name": "Ultimate Hot",
+      "publicUrl": "https://amusnetgaming.com/ultimate-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampire-beast",
+      "name": "Vampire Beast",
+      "publicUrl": "https://amusnetgaming.com/vampire-beast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampire-night",
+      "name": "Vampire Night",
+      "publicUrl": "https://amusnetgaming.com/vampire-night",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "versailles-gold",
+      "name": "Versailles Gold",
+      "publicUrl": "https://amusnetgaming.com/versailles-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-rising",
+      "name": "Viking Rising",
+      "publicUrl": "https://amusnetgaming.com/viking-rising",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "water-dice",
+      "name": "Water Dice",
+      "publicUrl": "https://amusnetgaming.com/water-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wenshi-lion",
+      "name": "Wenshi Lion",
+      "publicUrl": "https://amusnetgaming.com/wenshi-lion",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-traces",
+      "name": "Wild Traces",
+      "publicUrl": "https://amusnetgaming.com/wild-traces",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zodiac-wheel",
+      "name": "Zodiac Wheel",
+      "publicUrl": "https://amusnetgaming.com/zodiac-wheel",
+      "launchUrlOmitted": false
+    }
+  ]
+}

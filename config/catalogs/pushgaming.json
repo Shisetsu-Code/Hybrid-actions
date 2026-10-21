@@ -1,0 +1,553 @@
+{
+  "provider": "pushgaming",
+  "name": "Push Gaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 90,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "10-cash-bisons",
+      "name": "10 Cash Bisons",
+      "publicUrl": "https://www.pushgaming.com/games/10-cash-bisons.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-flaming-bisons",
+      "name": "10 Flaming Bisons",
+      "publicUrl": "https://www.pushgaming.com/games/10-flaming-bisons.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-pharaohs",
+      "name": "10 Pharaohs",
+      "publicUrl": "https://www.pushgaming.com/games/10-pharaohs.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-santas-reindeers",
+      "name": "10 Santas Reindeers",
+      "publicUrl": "https://www.pushgaming.com/games/10-santas-reindeers.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-swords",
+      "name": "10 Swords",
+      "publicUrl": "https://www.pushgaming.com/games/10-swords.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-liberty-eagles",
+      "name": "3 Liberty Eagles",
+      "publicUrl": "https://www.pushgaming.com/games/3-liberty-eagles.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-magic-pots",
+      "name": "3 Magic Pots",
+      "publicUrl": "https://www.pushgaming.com/games/3-magic-pots.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bait-n-bank",
+      "name": "Bait N Bank",
+      "publicUrl": "https://www.pushgaming.com/games/bait-n-bank.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bamboo-ways",
+      "name": "Bamboo Ways",
+      "publicUrl": "https://www.pushgaming.com/games/bamboo-ways.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bam-book",
+      "name": "Big Bam Book",
+      "publicUrl": "https://www.pushgaming.com/games/big-bam-book.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bamboo",
+      "name": "Big Bamboo",
+      "publicUrl": "https://www.pushgaming.com/games/big-bamboo.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bamboo-2",
+      "name": "Big Bamboo 2",
+      "publicUrl": "https://www.pushgaming.com/games/big-bamboo-2.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bite",
+      "name": "Big Bite",
+      "publicUrl": "https://www.pushgaming.com/games/big-bite.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bite-push-ways",
+      "name": "Big Bite Push Ways",
+      "publicUrl": "https://www.pushgaming.com/games/big-bite-push-ways.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bison-battle",
+      "name": "Bison Battle",
+      "publicUrl": "https://www.pushgaming.com/games/bison-battle.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blaze-ra",
+      "name": "Blaze Ra",
+      "publicUrl": "https://www.pushgaming.com/games/blaze-ra.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boss-bear",
+      "name": "Boss Bear",
+      "publicUrl": "https://www.pushgaming.com/games/boss-bear.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-blast",
+      "name": "Candy Blast",
+      "publicUrl": "https://www.pushgaming.com/games/candy-blast.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cats-olympuss",
+      "name": "Cats Olympuss",
+      "publicUrl": "https://www.pushgaming.com/games/cats-olympuss.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-catcher",
+      "name": "Crystal Catcher",
+      "publicUrl": "https://www.pushgaming.com/games/crystal-catcher.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadly-5",
+      "name": "Deadly 5",
+      "publicUrl": "https://www.pushgaming.com/games/deadly-5.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-supernova-100",
+      "name": "Diamond Supernova 100",
+      "publicUrl": "https://www.pushgaming.com/games/diamond-supernova-100.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-supernova-20",
+      "name": "Diamond Supernova 20",
+      "publicUrl": "https://www.pushgaming.com/games/diamond-supernova-20.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-supernova-40",
+      "name": "Diamond Supernova 40",
+      "publicUrl": "https://www.pushgaming.com/games/diamond-supernova-40.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-supernova-5",
+      "name": "Diamond Supernova 5",
+      "publicUrl": "https://www.pushgaming.com/games/diamond-supernova-5.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamonds-4-win",
+      "name": "Diamonds 4 Win",
+      "publicUrl": "https://www.pushgaming.com/games/diamonds-4-win.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dino-pd",
+      "name": "Dino Pd",
+      "publicUrl": "https://www.pushgaming.com/games/dino-pd.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dinopolis",
+      "name": "Dinopolis",
+      "publicUrl": "https://www.pushgaming.com/games/dinopolis.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-cat",
+      "name": "Dj Cat",
+      "publicUrl": "https://www.pushgaming.com/games/dj-cat.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-fox",
+      "name": "Dj Fox",
+      "publicUrl": "https://www.pushgaming.com/games/dj-fox.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-hopper",
+      "name": "Dragon Hopper",
+      "publicUrl": "https://www.pushgaming.com/games/dragon-hopper.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fang-city",
+      "name": "Fang City",
+      "publicUrl": "https://www.pushgaming.com/games/fang-city.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-banker",
+      "name": "Fat Banker",
+      "publicUrl": "https://www.pushgaming.com/games/fat-banker.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-drac",
+      "name": "Fat Drac",
+      "publicUrl": "https://www.pushgaming.com/games/fat-drac.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-rabbit",
+      "name": "Fat Rabbit",
+      "publicUrl": "https://www.pushgaming.com/games/fat-rabbit.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-santa",
+      "name": "Fat Santa",
+      "publicUrl": "https://www.pushgaming.com/games/fat-santa.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-hopper",
+      "name": "Fire Hopper",
+      "publicUrl": "https://www.pushgaming.com/games/fire-hopper.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-pig-push-ways",
+      "name": "Fire Pig Push Ways",
+      "publicUrl": "https://www.pushgaming.com/games/fire-pig-push-ways.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fish-n-nudge",
+      "name": "Fish N Nudge",
+      "publicUrl": "https://www.pushgaming.com/games/fish-n-nudge.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fish-n-nudge-big-catch",
+      "name": "Fish N Nudge Big Catch",
+      "publicUrl": "https://www.pushgaming.com/games/fish-n-nudge-big-catch.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "generous-jack",
+      "name": "Generous Jack",
+      "publicUrl": "https://www.pushgaming.com/games/generous-jack.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giga-jar",
+      "name": "Giga Jar",
+      "publicUrl": "https://www.pushgaming.com/games/giga-jar.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goat-getter",
+      "name": "Goat Getter",
+      "publicUrl": "https://www.pushgaming.com/games/goat-getter.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-show",
+      "name": "Grand Show",
+      "publicUrl": "https://www.pushgaming.com/games/grand-show.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-banker",
+      "name": "Great Banker",
+      "publicUrl": "https://www.pushgaming.com/games/great-banker.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-bamboo",
+      "name": "Happy Bamboo",
+      "publicUrl": "https://www.pushgaming.com/games/happy-bamboo.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hearts-highway",
+      "name": "Hearts Highway",
+      "publicUrl": "https://www.pushgaming.com/games/hearts-highway.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "henry-ape",
+      "name": "Henry Ape",
+      "publicUrl": "https://www.pushgaming.com/games/henry-ape.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "iron-phoenix",
+      "name": "Iron Phoenix",
+      "publicUrl": "https://www.pushgaming.com/games/iron-phoenix.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jaguar-drop",
+      "name": "Jaguar Drop",
+      "publicUrl": "https://www.pushgaming.com/games/jaguar-drop.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jammin-jars",
+      "name": "Jammin Jars",
+      "publicUrl": "https://www.pushgaming.com/games/jammin-jars.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jammin-jars-2",
+      "name": "Jammin Jars 2",
+      "publicUrl": "https://www.pushgaming.com/games/jammin-jars-2.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jiggys-pot-o-gold",
+      "name": "Jiggys Pot O Gold",
+      "publicUrl": "https://www.pushgaming.com/games/jiggys-pot-o-gold.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-troupe",
+      "name": "Joker Troupe",
+      "publicUrl": "https://www.pushgaming.com/games/joker-troupe.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-blast",
+      "name": "Mad Blast",
+      "publicUrl": "https://www.pushgaming.com/games/mad-blast.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-cars",
+      "name": "Mad Cars",
+      "publicUrl": "https://www.pushgaming.com/games/mad-cars.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "masked-mayhem",
+      "name": "Masked Mayhem",
+      "publicUrl": "https://www.pushgaming.com/games/masked-mayhem.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-mission-moon",
+      "name": "Mystery Mission Moon",
+      "publicUrl": "https://www.pushgaming.com/games/mystery-mission-moon.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-museum",
+      "name": "Mystery Museum",
+      "publicUrl": "https://www.pushgaming.com/games/mystery-museum.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-nile",
+      "name": "Mystery Nile",
+      "publicUrl": "https://www.pushgaming.com/games/mystery-nile.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-cash-city",
+      "name": "Neon Cash City",
+      "publicUrl": "https://www.pushgaming.com/games/neon-cash-city.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "olympus-unleashed",
+      "name": "Olympus Unleashed",
+      "publicUrl": "https://www.pushgaming.com/games/olympus-unleashed.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-paws",
+      "name": "Power Paws",
+      "publicUrl": "https://www.pushgaming.com/games/power-paws.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-vault",
+      "name": "Power Vault",
+      "publicUrl": "https://www.pushgaming.com/games/power-vault.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "publicUrl": "https://www.pushgaming.com/games/rat-king.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "razor-nudge",
+      "name": "Razor Nudge",
+      "publicUrl": "https://www.pushgaming.com/games/razor-nudge.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "razor-returns",
+      "name": "Razor Returns",
+      "publicUrl": "https://www.pushgaming.com/games/razor-returns.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "razor-shark",
+      "name": "Razor Shark",
+      "publicUrl": "https://www.pushgaming.com/games/razor-shark.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "razor-shark-jackpots",
+      "name": "Razor Shark Jackpots",
+      "publicUrl": "https://www.pushgaming.com/games/razor-shark-jackpots.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "razor-ways",
+      "name": "Razor Ways",
+      "publicUrl": "https://www.pushgaming.com/games/razor-ways.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-multipliers",
+      "name": "Red Hot Multipliers",
+      "publicUrl": "https://www.pushgaming.com/games/red-hot-multipliers.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "regal-knights",
+      "name": "Regal Knights",
+      "publicUrl": "https://www.pushgaming.com/games/regal-knights.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "retro-sweets",
+      "name": "Retro Sweets",
+      "publicUrl": "https://www.pushgaming.com/games/retro-sweets.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "retro-tapes",
+      "name": "Retro Tapes",
+      "publicUrl": "https://www.pushgaming.com/games/retro-tapes.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "retroverse",
+      "name": "Retroverse",
+      "publicUrl": "https://www.pushgaming.com/games/retroverse.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "samurais-katana",
+      "name": "Samurais Katana",
+      "publicUrl": "https://www.pushgaming.com/games/samurais-katana.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santa-hopper",
+      "name": "Santa Hopper",
+      "publicUrl": "https://www.pushgaming.com/games/santa-hopper.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-vault",
+      "name": "Santas Vault",
+      "publicUrl": "https://www.pushgaming.com/games/santas-vault.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sea-spirits",
+      "name": "Sea Spirits",
+      "publicUrl": "https://www.pushgaming.com/games/sea-spirits.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shamrock-saints",
+      "name": "Shamrock Saints",
+      "publicUrl": "https://www.pushgaming.com/games/shamrock-saints.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tarot-treasures",
+      "name": "Tarot Treasures",
+      "publicUrl": "https://www.pushgaming.com/games/tarot-treasures.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiki-tumble",
+      "name": "Tiki Tumble",
+      "publicUrl": "https://www.pushgaming.com/games/tiki-tumble.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tricky-treats",
+      "name": "Tricky Treats",
+      "publicUrl": "https://www.pushgaming.com/games/tricky-treats.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-rampage",
+      "name": "Triple Rampage",
+      "publicUrl": "https://www.pushgaming.com/games/triple-rampage.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-vault",
+      "name": "Vegas Vault",
+      "publicUrl": "https://www.pushgaming.com/games/vegas-vault.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viva-lock-vegas",
+      "name": "Viva Lock Vegas",
+      "publicUrl": "https://www.pushgaming.com/games/viva-lock-vegas.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-swarm",
+      "name": "Wild Swarm",
+      "publicUrl": "https://www.pushgaming.com/games/wild-swarm.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-swarm-2",
+      "name": "Wild Swarm 2",
+      "publicUrl": "https://www.pushgaming.com/games/wild-swarm-2.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-swarm-3-chocolate-eggs",
+      "name": "Wild Swarm 3 Chocolate Eggs",
+      "publicUrl": "https://www.pushgaming.com/games/wild-swarm-3-chocolate-eggs.html",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-swarm-triple-hive",
+      "name": "Wild Swarm Triple Hive",
+      "publicUrl": "https://www.pushgaming.com/games/wild-swarm-triple-hive.html",
+      "launchUrlOmitted": false
+    }
+  ]
+}

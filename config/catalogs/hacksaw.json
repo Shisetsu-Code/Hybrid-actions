@@ -1,0 +1,1135 @@
+{
+  "provider": "hacksaw",
+  "name": "Hacksaw Gaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 187,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 48,
+  "games": [
+    {
+      "id": "1400",
+      "name": "2 Wild 2 Die",
+      "publicUrl": "https://www.hacksawgaming.com/games/2-wild-2-die",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2296",
+      "name": "3 Cursed Chests: Hold & Win",
+      "publicUrl": "https://www.hacksawgaming.com/games/3-cursed-chests%3A-hold-%26-win",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1756",
+      "name": "Aiko and the Wind Spirit",
+      "publicUrl": "https://www.hacksawgaming.com/games/aiko-and-the-wind-spirit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1201",
+      "name": "Alpha Eagle",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2492",
+      "name": "Arizona James and The Lost Relics",
+      "publicUrl": "https://www.hacksawgaming.com/games/arizona-james-and-the-lost-relics",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1977",
+      "name": "Army of Ares",
+      "publicUrl": "https://www.hacksawgaming.com/games/army-of-ares",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1066",
+      "name": "Aztec Twist",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1928",
+      "name": "Bash Bros",
+      "publicUrl": "https://www.hacksawgaming.com/games/bash-bros",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1426",
+      "name": "Beam Boys",
+      "publicUrl": "https://www.hacksawgaming.com/games/beam-boys",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1279",
+      "name": "Beast Below",
+      "publicUrl": "https://www.hacksawgaming.com/games/beast-below",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1356",
+      "name": "Benny the Beer",
+      "publicUrl": "https://www.hacksawgaming.com/games/benny-the-beer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1251",
+      "name": "Bloodthirst",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1213",
+      "name": "Book of Time",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1783",
+      "name": "Booze Bash",
+      "publicUrl": "https://www.hacksawgaming.com/games/booze-bash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1189",
+      "name": "Born Wild",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1422",
+      "name": "Bouncy Bombs",
+      "publicUrl": "https://www.hacksawgaming.com/games/bouncy-bombs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1205",
+      "name": "Break Bones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1176",
+      "name": "Buffalo Stack'n'Sync",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1799",
+      "name": "Bullets and Bounty",
+      "publicUrl": "https://www.hacksawgaming.com/games/Bullets-and-bounty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1055",
+      "name": "Cash Compass",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1456",
+      "name": "Cash Crew",
+      "publicUrl": "https://www.hacksawgaming.com/games/cash-crew",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1099",
+      "name": "Cash Quest",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1059",
+      "name": "Chaos Crew",
+      "publicUrl": "https://www.hacksawgaming.com/games/chaos-crew",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1352",
+      "name": "Chaos Crew 2",
+      "publicUrl": "https://www.hacksawgaming.com/games/chaos-crew-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1867",
+      "name": "Chaos Crew 3",
+      "publicUrl": "https://www.hacksawgaming.com/games/chaos-crew-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2019",
+      "name": "Circle of Life",
+      "publicUrl": "https://www.hacksawgaming.com/games/circle-of-life",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1602",
+      "name": "Cloud Princess",
+      "publicUrl": "https://www.hacksawgaming.com/games/cloud-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1048",
+      "name": "Cubes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1069",
+      "name": "Cubes 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1434",
+      "name": "Cursed Crypt",
+      "publicUrl": "https://www.hacksawgaming.com/games/cursed-crypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1263",
+      "name": "Cursed Seas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2334",
+      "name": "Dandy Diamonds",
+      "publicUrl": "https://www.hacksawgaming.com/games/dandy-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1685",
+      "name": "Danny Dollar",
+      "publicUrl": "https://www.hacksawgaming.com/games/danny-dollar",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2143",
+      "name": "Dark Spiral",
+      "publicUrl": "https://www.hacksawgaming.com/games/dark-spiral",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1392",
+      "name": "Dark Summoning",
+      "publicUrl": "https://www.hacksawgaming.com/games/dark-summoning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1442",
+      "name": "Dawn of Kings",
+      "publicUrl": "https://www.hacksawgaming.com/games/dawn-of-kings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2000",
+      "name": "Deal With Death",
+      "publicUrl": "https://www.hacksawgaming.com/games/deal-with-death",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2319",
+      "name": "Death Becomes You",
+      "publicUrl": "https://www.hacksawgaming.com/games/death-becomes-you",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1348",
+      "name": "Densho",
+      "publicUrl": "https://www.hacksawgaming.com/games/densho",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1490",
+      "name": "Divine Drop",
+      "publicUrl": "https://www.hacksawgaming.com/games/divine-drop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2004",
+      "name": "Donny and Danny",
+      "publicUrl": "https://www.hacksawgaming.com/games/donny-and-danny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1530",
+      "name": "Donny Dough",
+      "publicUrl": "https://www.hacksawgaming.com/games/donny-dough",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1608",
+      "name": "Donut Division",
+      "publicUrl": "https://www.hacksawgaming.com/games/donut-division",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1172",
+      "name": "Dork Unit",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1430",
+      "name": "Dorks of the Deep",
+      "publicUrl": "https://www.hacksawgaming.com/games/dorks-of-the-deep",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1144",
+      "name": "Double Rainbow",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2253",
+      "name": "Dr Zappo",
+      "publicUrl": "https://www.hacksawgaming.com/games/dr-zappo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1360",
+      "name": "Dragon's Domain",
+      "publicUrl": "https://www.hacksawgaming.com/games/dragons-domain",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1314",
+      "name": "Drop'em",
+      "publicUrl": "https://www.hacksawgaming.com/games/drop-em",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1620",
+      "name": "Duel at Dawn",
+      "publicUrl": "https://www.hacksawgaming.com/games/duel-at-dawn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2190",
+      "name": "Dusk Princess",
+      "publicUrl": "https://www.hacksawgaming.com/games/dusk-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2082",
+      "name": "Dynasty of Death",
+      "publicUrl": "https://www.hacksawgaming.com/games/dynasty-of-death",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2185",
+      "name": "Epic Bullets and Bounty",
+      "publicUrl": "https://www.hacksawgaming.com/games/epic-bullets-and-bounty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2408",
+      "name": "Epic Ze Zeus",
+      "publicUrl": "https://www.hacksawgaming.com/games/epic-ze-zeus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2148",
+      "name": "Eternal Duel",
+      "publicUrl": "https://www.hacksawgaming.com/games/eternal-duel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1570",
+      "name": "Evil Eyes",
+      "publicUrl": "https://www.hacksawgaming.com/games/evil-eyes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1740",
+      "name": "Eye of Medusa",
+      "publicUrl": "https://www.hacksawgaming.com/games/eye-of-medusa",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1344",
+      "name": "Eye of the Panda",
+      "publicUrl": "https://www.hacksawgaming.com/games/eye-of-the-panda",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1271",
+      "name": "Fear the Dark",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1372",
+      "name": "Feel the Beat",
+      "publicUrl": "https://www.hacksawgaming.com/games/feel-the-beat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1715",
+      "name": "Fighter Pit",
+      "publicUrl": "https://www.hacksawgaming.com/games/fighter-pit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1640",
+      "name": "Fire my Laser",
+      "publicUrl": "https://www.hacksawgaming.com/games/fire-my-laser",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1408",
+      "name": "Fist of Destruction",
+      "publicUrl": "https://www.hacksawgaming.com/games/fist-of-destruction",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2536",
+      "name": "Fist of Destruction Megamultiplier",
+      "publicUrl": "https://www.hacksawgaming.com/games/fist-of-destruction-megamultiplier",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1185",
+      "name": "Forest Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1225",
+      "name": "Frank's Farm",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1229",
+      "name": "Freds Food Truck",
+      "publicUrl": "https://www.hacksawgaming.com/games/freds-food-truck",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1693",
+      "name": "FRKN Bananas",
+      "publicUrl": "https://www.hacksawgaming.com/games/frkn-bananas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1197",
+      "name": "Fruit Duel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1081",
+      "name": "Frutz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1580",
+      "name": "Get the CHEESE",
+      "publicUrl": "https://www.hacksawgaming.com/games/get-the-cheese",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1160",
+      "name": "Gladiator Legends",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2303",
+      "name": "Great Game Rockies",
+      "publicUrl": "https://www.hacksawgaming.com/games/great-game-rockies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2620",
+      "name": "Great Game Serengeti",
+      "publicUrl": "https://www.hacksawgaming.com/games/great-game-serengeti",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1221",
+      "name": "Gronk's Gems",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2166",
+      "name": "Grug Make Fire",
+      "publicUrl": "https://www.hacksawgaming.com/games/grug-make-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1164",
+      "name": "Hand Of Anubis",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1140",
+      "name": "Harvest Wilds",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1091",
+      "name": "Hop'N'Pop",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2062",
+      "name": "Hot Ross",
+      "publicUrl": "https://www.hacksawgaming.com/games/hot-ross",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1666",
+      "name": "Hounds of Hell",
+      "publicUrl": "https://www.hacksawgaming.com/games/hounds-of-hell",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1364",
+      "name": "Immortal Desire",
+      "publicUrl": "https://www.hacksawgaming.com/games/immortal-desire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1791",
+      "name": "Invictus",
+      "publicUrl": "https://www.hacksawgaming.com/games/invictus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1168",
+      "name": "Itero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1946",
+      "name": "Jaws of Justice",
+      "publicUrl": "https://www.hacksawgaming.com/games/jaws-of-justice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1452",
+      "name": "Jelly Slice",
+      "publicUrl": "https://www.hacksawgaming.com/games/jelly-slice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1117",
+      "name": "Joker Bombs",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1259",
+      "name": "Keep 'em Cool",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1494",
+      "name": "Keep'em",
+      "publicUrl": "https://www.hacksawgaming.com/games/keep-em",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1127",
+      "name": "King Carrot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1438",
+      "name": "Klowns",
+      "publicUrl": "https://www.hacksawgaming.com/games/klowns",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1309",
+      "name": "Le Bandit",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-bandit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2465",
+      "name": "Le Bandit Hold & Win",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-bandit-hold-%26-win",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2195",
+      "name": "Le Bunny",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-bunny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1924",
+      "name": "Le Cowboy",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-cowboy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2229",
+      "name": "Le Digger",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-digger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2057",
+      "name": "Le Fisherman",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-fisherman",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2438",
+      "name": "Le Football Fan",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-football-fan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2470",
+      "name": "Le Hooligan",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-hooligan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1787",
+      "name": "Le King",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1562",
+      "name": "Le Pharaoh",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-pharaoh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2413",
+      "name": "Le Prechaun",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-prechaun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1965",
+      "name": "Le Santa",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-santa",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2613",
+      "name": "Le Sortudo",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-sortudo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2582",
+      "name": "Le Vampire",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-vampire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1689",
+      "name": "Le Viking",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-viking",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1830",
+      "name": "Le Zeus",
+      "publicUrl": "https://www.hacksawgaming.com/games/le-zeus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1070",
+      "name": "Let It Snow",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1460",
+      "name": "Life and Death",
+      "publicUrl": "https://www.hacksawgaming.com/games/life-and-death",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1247",
+      "name": "Magic Piggy",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2258",
+      "name": "Magic Piggy OG",
+      "publicUrl": "https://www.hacksawgaming.com/games/magic-piggy-og",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1681",
+      "name": "Marlin Masters",
+      "publicUrl": "https://www.hacksawgaming.com/games/marlin-masters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2108",
+      "name": "Marlin Masters Atlantis",
+      "publicUrl": "https://www.hacksawgaming.com/games/marlin-masters-atlantis",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2378",
+      "name": "Marlin Masters OG",
+      "publicUrl": "https://www.hacksawgaming.com/games/marlin-masters-og",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1811",
+      "name": "Marlin Masters: The Big Haul",
+      "publicUrl": "https://www.hacksawgaming.com/games/marlin-masters-the-big-haul",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2356",
+      "name": "Max Win Machine",
+      "publicUrl": "https://www.hacksawgaming.com/games/max-win-machine",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1275",
+      "name": "Mayan Stackways",
+      "publicUrl": "https://www.hacksawgaming.com/games/mayan-stackways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1824",
+      "name": "Miami Mayhem",
+      "publicUrl": "https://www.hacksawgaming.com/games/miami-mayhem",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1049",
+      "name": "Miami Multiplier",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1305",
+      "name": "Mighty Masks",
+      "publicUrl": "https://www.hacksawgaming.com/games/mighty-masks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2248",
+      "name": "Minted Mike",
+      "publicUrl": "https://www.hacksawgaming.com/games/minted-mike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2219",
+      "name": "Munchy Milo",
+      "publicUrl": "https://www.hacksawgaming.com/games/munchy-milo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1071",
+      "name": "Mystery Motel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2328",
+      "name": "Nitro Nights",
+      "publicUrl": "https://www.hacksawgaming.com/games/nitro-nights",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1584",
+      "name": "Octo Attack",
+      "publicUrl": "https://www.hacksawgaming.com/games/octo-attack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1043",
+      "name": "OmNom",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1474",
+      "name": "Orb of Destiny",
+      "publicUrl": "https://www.hacksawgaming.com/games/orb-of-destiny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1083",
+      "name": "Outlaws Inc.",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1675",
+      "name": "Phoenix DuelReels",
+      "publicUrl": "https://www.hacksawgaming.com/games/phoenix-duelreels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2234",
+      "name": "Power of Ten",
+      "publicUrl": "https://www.hacksawgaming.com/games/power-of-ten",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2115",
+      "name": "Pray for Six",
+      "publicUrl": "https://www.hacksawgaming.com/games/pray-for-six",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1736",
+      "name": "Pray for Three",
+      "publicUrl": "https://www.hacksawgaming.com/games/pray-for-three",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1217",
+      "name": "Pug Life",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1732",
+      "name": "Rad Maxx",
+      "publicUrl": "https://www.hacksawgaming.com/games/rad-maxx",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1817",
+      "name": "Rainbow Princess",
+      "publicUrl": "https://www.hacksawgaming.com/games/rainbow-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2274",
+      "name": "Red Rascal",
+      "publicUrl": "https://www.hacksawgaming.com/games/red-rascal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1728",
+      "name": "Reign of Rome",
+      "publicUrl": "https://www.hacksawgaming.com/games/reign-of-rome",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1233",
+      "name": "Rip City",
+      "publicUrl": "https://www.hacksawgaming.com/games/rip-city",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2213",
+      "name": "Rise of Fortuna",
+      "publicUrl": "https://www.hacksawgaming.com/games/rise-of-fortuna",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1616",
+      "name": "Rise of Ymir",
+      "publicUrl": "https://www.hacksawgaming.com/games/rise-of-ymir",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1102",
+      "name": "Rocket Reels",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1267",
+      "name": "Ronin Stackways",
+      "publicUrl": "https://www.hacksawgaming.com/games/ronin-stackways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1209",
+      "name": "Rotten",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1404",
+      "name": "Rusty & Curly",
+      "publicUrl": "https://www.hacksawgaming.com/games/rusty-and-curly",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2243",
+      "name": "Sand and Ashes",
+      "publicUrl": "https://www.hacksawgaming.com/games/sand-and-ashes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1554",
+      "name": "Shaolin Master",
+      "publicUrl": "https://www.hacksawgaming.com/games/shaolin-master",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1534",
+      "name": "SixSixSix",
+      "publicUrl": "https://www.hacksawgaming.com/games/sixsixsix",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1482",
+      "name": "Slayers Inc",
+      "publicUrl": "https://www.hacksawgaming.com/games/slayers-inc",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1981",
+      "name": "Smoking Dragon",
+      "publicUrl": "https://www.hacksawgaming.com/games/smoking-dragon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1558",
+      "name": "Snow Slingers",
+      "publicUrl": "https://www.hacksawgaming.com/games/snow-slingers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1938",
+      "name": "Spear of Athena",
+      "publicUrl": "https://www.hacksawgaming.com/games/spear-of-athena",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1752",
+      "name": "Spinman",
+      "publicUrl": "https://www.hacksawgaming.com/games/spinman",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1084",
+      "name": "Stack'Em",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1871",
+      "name": "Steamrunners",
+      "publicUrl": "https://www.hacksawgaming.com/games/steamrunners",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1042",
+      "name": "Stick'Em",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1875",
+      "name": "Stormborn",
+      "publicUrl": "https://www.hacksawgaming.com/games/stormborn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1243",
+      "name": "Stormforged",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1697",
+      "name": "Strength of Hercules",
+      "publicUrl": "https://www.hacksawgaming.com/games/strength-of-hercules",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1914",
+      "name": "Sun Princess",
+      "publicUrl": "https://www.hacksawgaming.com/games/sun-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2138",
+      "name": "Superstar Sevens",
+      "publicUrl": "https://www.hacksawgaming.com/games/superstar-sevens",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2458",
+      "name": "Supreme Zeus",
+      "publicUrl": "https://www.hacksawgaming.com/games/supreme-zeus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1478",
+      "name": "Tai the Toad",
+      "publicUrl": "https://www.hacksawgaming.com/games/tai-the-toad",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1096",
+      "name": "Tasty Treats",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1237",
+      "name": "Temple of Torment",
+      "publicUrl": "https://www.hacksawgaming.com/games/temple-of-torment",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1135",
+      "name": "The Bowery Boys",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1803",
+      "name": "The Count",
+      "publicUrl": "https://www.hacksawgaming.com/games/the-count",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2670",
+      "name": "The Jade Path Hold & Win",
+      "publicUrl": "https://www.hacksawgaming.com/games/the-jade-path-hold-%26-win",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1897",
+      "name": "The Luxe",
+      "publicUrl": "https://www.hacksawgaming.com/games/the-luxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1058",
+      "name": "The Respinners",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1891",
+      "name": "The Wildwood Curse",
+      "publicUrl": "https://www.hacksawgaming.com/games/the-wildwood-curse",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1744",
+      "name": "Tiger Legends",
+      "publicUrl": "https://www.hacksawgaming.com/games/tiger-legends",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1181",
+      "name": "Time Spinners",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1087",
+      "name": "Toshi Video Club",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1971",
+      "name": "Toshi Ways Club",
+      "publicUrl": "https://www.hacksawgaming.com/games/toshi-ways-club",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1514",
+      "name": "Twisted Lab",
+      "publicUrl": "https://www.hacksawgaming.com/games/twisted-lab",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1760",
+      "name": "Ultimate Slot of America",
+      "publicUrl": "https://www.hacksawgaming.com/games/ultimate-slot-of-america",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1193",
+      "name": "Undead Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1340",
+      "name": "Vending Machine",
+      "publicUrl": "https://www.hacksawgaming.com/games/vending-machine",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1067",
+      "name": "Wanted Dead Or a Wild",
+      "publicUrl": "https://www.hacksawgaming.com/games/wanted-dead-or-a-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1131",
+      "name": "Warrior Ways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "2347",
+      "name": "Wicked Grin",
+      "publicUrl": "https://www.hacksawgaming.com/games/wicked-grin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1612",
+      "name": "Wings of Horus",
+      "publicUrl": "https://www.hacksawgaming.com/games/wings-of-horus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1711",
+      "name": "Wishbringer",
+      "publicUrl": "https://www.hacksawgaming.com/games/wishbringer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1396",
+      "name": "Xmas Drop",
+      "publicUrl": "https://www.hacksawgaming.com/games/xmas-drop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1093",
+      "name": "Xpander",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "1508",
+      "name": "Ze Zeus",
+      "publicUrl": "https://www.hacksawgaming.com/games/ze-zeus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "2077",
+      "name": "Zeus Ze Zecond",
+      "publicUrl": "https://www.hacksawgaming.com/games/zeus-ze-zecond",
+      "launchUrlOmitted": false
+    }
+  ]
+}

@@ -1,0 +1,5011 @@
+{
+  "provider": "ka_gaming",
+  "name": "KA Gaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 833,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 833,
+  "games": [
+    {
+      "id": "capygo123",
+      "name": "123 Vamos Capy",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elvisguava1960",
+      "name": "1960 Elvis Guayaba",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frogsball1xbet",
+      "name": "1XBET La Pelota de la Rana Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "threemonkeys",
+      "name": "3x Monos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fivegodsofwar",
+      "name": "5 Dioses de la Guerra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fiveheroes",
+      "name": "5 Héroes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fivebloodlusts",
+      "name": "5 Sed de Sangre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sevenheroines",
+      "name": "7 Heroínas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "flaming7",
+      "name": "7's en llamas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "777vegas",
+      "name": "777 Las Vegas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ninemonkey",
+      "name": "9x Monos Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bumblebee",
+      "name": "Abeja reina",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "witchacademy",
+      "name": "Academia de Brujas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "redcliff",
+      "name": "Acantilado Rojo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yummythanksgiving",
+      "name": "Acción de Gracias Deliciosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "acrobats",
+      "name": "Acrobatas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shoppingfiend",
+      "name": "Adicto/a a las compras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bawangbieji",
+      "name": "Adiós, mi concubina",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "secretagent",
+      "name": "Agente Secreto",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "agentangels",
+      "name": "Agente Ángeles",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckyailurus",
+      "name": "Ailurus Afortunado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "edgeofthestars",
+      "name": "Al Borde de las Estrellas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aladdin",
+      "name": "Aladino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildalaska",
+      "name": "Alaska Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alexanderthegreat",
+      "name": "Alexandre el Grande",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magiccarpet",
+      "name": "Alfombra Mágica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aliceinwonderland",
+      "name": "Alicia en el país de las maravillas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aliceinmegaland",
+      "name": "Alicia en MegaLandia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mysteryalchemy",
+      "name": "Alquimia Misteriosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "butterflylovers",
+      "name": "Amantes de la mariposa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sns",
+      "name": "Amigos de las redes sociales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fluffybuddy",
+      "name": "Amiguito Peludo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "millenniumlove",
+      "name": "Amor del Milenio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "loveinmemory",
+      "name": "Amor en la memoria",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "loveamongstwar",
+      "name": "Amor en medio de la guerra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckyanimals",
+      "name": "Animal de la Suerte Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "apolloandartemis",
+      "name": "Apolo y Artemisa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monsterfile",
+      "name": "Archivo de Monstruos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gladiatorsarena",
+      "name": "Arena del Gladiador",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ares",
+      "name": "Ares Dios de la Guerra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shadowaria",
+      "name": "Aria de la Sombra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "archerrobinhood",
+      "name": "Arquero Robin Hood",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zombiesiege",
+      "name": "Asedio Zombi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazykiller",
+      "name": "Asesino Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "astrology",
+      "name": "Astrología",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "attackhugemushroom",
+      "name": "Ataca al Hongo Gigante",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "atlantide",
+      "name": "Atlántida",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "catchthethief",
+      "name": "Atrapa al ladrón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dreamcatcher",
+      "name": "Atrapasueños",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lunarhowl",
+      "name": "Aullido Lunar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "musclecars",
+      "name": "Automóviles Musculosos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "deepsea",
+      "name": "Aventura en el Mar Profundo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "desertislandadventure",
+      "name": "Aventura en Isla Desierta Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jungleadventure",
+      "name": "Aventura en la Selva",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "volcanoadventure",
+      "name": "Aventura Volcánica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aquaticadventurer",
+      "name": "Aventurero Acuático",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "formosanbirds",
+      "name": "Aves de Formosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yearoftherabbit",
+      "name": "Año del Conejo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yearofthetiger",
+      "name": "Año del Tigre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "whalewild",
+      "name": "Ballena Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "passionatebasketball",
+      "name": "Baloncesto Apasionado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenball",
+      "name": "Balón de Oro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bangbang",
+      "name": "Bang Bang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesefeast",
+      "name": "Banquete chino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunefeast",
+      "name": "Banquete de la Fortuna Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazyblackbeard",
+      "name": "Barba Negra Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonboat",
+      "name": "Barco Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonboat2",
+      "name": "Barco Dragón 2 Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "stockedbar",
+      "name": "Barra surtida",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "footballbaby",
+      "name": "Bebé Fútbol",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "orientalbeast",
+      "name": "Bestia Oriental",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "welcomefortune",
+      "name": "Bienvenido Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bigfootyeti",
+      "name": "Bigfoot Yeti",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sunnybikini",
+      "name": "Bikini Soleado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "snowwhite",
+      "name": "Blancanieves",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "blockyblocks",
+      "name": "Blocky Block",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "blockyblocks2",
+      "name": "Blocky Block 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elvesbombs",
+      "name": "Bombas de Elfos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firefighters",
+      "name": "Bomberos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "buzzkillbonanza",
+      "name": "Bonanza de Desánimo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tangobonanza",
+      "name": "Bonanza del Tango",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "devilbonus",
+      "name": "Bono del Diablo Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonusmania",
+      "name": "Bonus Mania",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonusmaniadeluxe",
+      "name": "Bonus Mania Deluxe",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonusmaniaplinko",
+      "name": "Bonus Mania Plinko",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "primevalforest",
+      "name": "Bosque lluvioso primigenio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "boxingroo",
+      "name": "Boxeo Canguro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mysteriouswitch",
+      "name": "Bruja Misteriosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "twistedjester",
+      "name": "Bufón Retorcido",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bubbledouble",
+      "name": "Burbuja Doble",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "blazingbuffalo",
+      "name": "Búfalo Ardiente",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "owlinforest",
+      "name": "Búho en el bosque",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "victoryhorse",
+      "name": "Caballo Victorioso",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lobstercrazyshack",
+      "name": "Cabaña Loca de Langosta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mexicancactus",
+      "name": "Cactus mexicano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chainofwild",
+      "name": "Cadena Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cafemeow",
+      "name": "Café Meow",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coffeewild",
+      "name": "Café Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "caiyuanguangjin",
+      "name": "Cai Yuan Guang Jin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "surprisebox",
+      "name": "Caja Sorpresa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "superbox",
+      "name": "Caja Súper",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pumpkinwin",
+      "name": "Calabaza Ganadora",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "evilpumpkin",
+      "name": "Calabaza Malvada",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "walkingoz",
+      "name": "Caminando por Oz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "samurai",
+      "name": "Camino del Samurai",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "icecreamtruck",
+      "name": "Camión de helados",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildwildbell",
+      "name": "Campana Salvaje Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cancan",
+      "name": "Can Can",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "savannasong",
+      "name": "Canción de la Sabana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "holidaycarol",
+      "name": "Canción navideña Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "redridinghood",
+      "name": "Caperucita Roja",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "captainblackcat",
+      "name": "Capitán Gato Negro Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pirate",
+      "name": "Capitán Pirata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shrovetuesday",
+      "name": "Carnaval",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dinosaurcarnival",
+      "name": "Carnaval de Dinosaurios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasurecarp",
+      "name": "Carpa del Tesoro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "speed",
+      "name": "Carreras callejeras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckygem",
+      "name": "Carretes de Fusión de Gemas de la Suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magiccarousel",
+      "name": "Carrusel Mágico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classicaldollhouse",
+      "name": "Casa de Muñecas Clásica Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mirrorhouse",
+      "name": "Casa del Espejo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magicianhouse",
+      "name": "Casa del Mago",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elfcastle",
+      "name": "Castillo Elfo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ufohunt",
+      "name": "Caza de OVNIs",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghosthunter",
+      "name": "Cazador de Fantasmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghostbuster",
+      "name": "Cazafantasmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bountyhunter",
+      "name": "Cazarrecompensas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "angrypiggies",
+      "name": "Cerditos enfadados",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunepigvip",
+      "name": "Cerdo de la Fortuna VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "steampunk",
+      "name": "Cerradura Steampunk Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chaigong",
+      "name": "Chai Gong",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happyindianchef",
+      "name": "Chef indio feliz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chiyou",
+      "name": "Chi You",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chivalrousgirl",
+      "name": "Chica caballerosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bunnygirl",
+      "name": "Chica Conejita",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "partygirl",
+      "name": "Chica de fiesta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "partygirldeluxe",
+      "name": "Chica de Fiesta Deluxe Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bandgirl",
+      "name": "Chica de la Banda",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "milkgirl",
+      "name": "Chica de la leche",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tigergirl",
+      "name": "Chica Tigre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "streaminggirls",
+      "name": "Chicas en Streaming",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "imperialgirls",
+      "name": "Chicas Imperiales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gridironclash",
+      "name": "Choque de Gridiron Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fivesoundfortune",
+      "name": "Cinco Sonidos de la Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "blazingcircus",
+      "name": "Circo Ardiente",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasycircus",
+      "name": "Circo de Fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazycircus",
+      "name": "Circo Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "grimcircus",
+      "name": "Circo Siniestro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "blackswan",
+      "name": "Cisne Negro Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "donutcity",
+      "name": "Ciudad de las Donas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mayancivilization",
+      "name": "Civilización Maya",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cocorico",
+      "name": "Cocorico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cocoricovip",
+      "name": "Cocorico VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spacecolonization",
+      "name": "Colonización Espacial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chaoscombat",
+      "name": "Combate del Caos Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "royaldemeanor",
+      "name": "Comportamiento Real",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beautypageant",
+      "name": "Concurso de Belleza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "slamdunkcontest",
+      "name": "Concurso de Clavadas Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "africarun",
+      "name": "Correr por África",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firecorrida",
+      "name": "Corrida de Fuego",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rockparrot",
+      "name": "Cotorra de Roca",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "creatorra",
+      "name": "Creador Ra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mythologicalcreatures",
+      "name": "Creaturas Mitológicas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cuju",
+      "name": "Cu Ju",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fourbeauties",
+      "name": "Cuatro Bellezas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "quadrupledragons",
+      "name": "Cuatro Dragones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fourseasons",
+      "name": "Cuatro Estaciones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasurebowlmegaways",
+      "name": "Cuenco del Tesoro Megaways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fairyforesttale",
+      "name": "Cuento del Bosque Encantado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenandsilverhorn",
+      "name": "Cuerno Dorado y Cuerno de Plata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cupidandpsyche",
+      "name": "Cupido y Psique",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazywomensjail",
+      "name": "Cárcel de Mujeres Locas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "caesar",
+      "name": "César",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "davinci",
+      "name": "da Vinci",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "leagueofgods",
+      "name": "Daji",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ladyracer",
+      "name": "Dama corredora",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "liondance",
+      "name": "Danza del León",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "butterflywilddance",
+      "name": "Danza Salvaje de Mariposas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "egyptiandeity",
+      "name": "Deidad egipcia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "safaridiscovery",
+      "name": "Descubrimiento de Safari",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "xmaswishes",
+      "name": "Deseos de Navidad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monsterparade",
+      "name": "Desfile de Monstruos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "energyawakening",
+      "name": "Despertar de la Energía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "facaidestiny",
+      "name": "Destino Fa Cai",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mysterydetective",
+      "name": "Detective de Misterio Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "detectivedee",
+      "name": "Detective Dee",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wilddetective",
+      "name": "Detective Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "diamondpower",
+      "name": "Diamante de poder",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dimsum",
+      "name": "Dim Sum",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "honeymoney",
+      "name": "Dinero de miel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashcoming",
+      "name": "Dinero llegando",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunegod",
+      "name": "Dios de la fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckygod",
+      "name": "Dios de la suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "earthgod",
+      "name": "Dios de la Tierra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "godofgamblers",
+      "name": "Dios de los jugadores",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "godoflove",
+      "name": "Dios del Amor",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "moneygod",
+      "name": "Dios del Dinero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sushi",
+      "name": "Dios del Sushi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thundergod",
+      "name": "Dios del Trueno",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "moongoddess",
+      "name": "Diosa de la Luna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "snowgoddess",
+      "name": "Diosa de la nieve",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lightninggoddess",
+      "name": "Diosa del Rayo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "egyptiangoddess",
+      "name": "Diosa Egipcia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "olympusgods",
+      "name": "Dioses del Olimpo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "funkydisco",
+      "name": "Disco Funky",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "masquerade",
+      "name": "Disfraz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mysteryshoot",
+      "name": "Disparo misterioso",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "richdiwali",
+      "name": "Diwali rico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doublehappiness",
+      "name": "Doble Felicidad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doublefortune",
+      "name": "Doble Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "plaguedoctor",
+      "name": "Doctor de la Peste",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mysterydoctor",
+      "name": "Doctor Misterioso",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "animaldojo",
+      "name": "Dojo de animales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "donquixote",
+      "name": "Don Quijote",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "drgeek",
+      "name": "Dr. Geek",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "drmad",
+      "name": "Dr. Mad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragongate",
+      "name": "Dragon Gate",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonhunter",
+      "name": "Dragon Hunter",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasydragons",
+      "name": "Dragones de fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firedragons",
+      "name": "Dragones de fuego",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckygoldendragon",
+      "name": "Dragón de Oro de la Suerte Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonturtle",
+      "name": "Dragón Tortuga",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dracula",
+      "name": "Drácula",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "soccershowdown",
+      "name": "Duelo de Fútbol",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spidergoblin",
+      "name": "Duende Araña",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasuregoblin",
+      "name": "Duende del Tesoro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sweetmaid",
+      "name": "Dulce criada",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sweetopia",
+      "name": "Dulceopía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "christmascandy",
+      "name": "Dulces de Navidad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kaallstarsportsday",
+      "name": "Día de Deportes de Todas las Estrellas KA",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dayofdead",
+      "name": "Día de Muertos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesevalentinesday",
+      "name": "Día de San Valentín chino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "koningsdag",
+      "name": "Día del Rey",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bizarrebarber",
+      "name": "El Barbero Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonshoard",
+      "name": "El Botín del Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonsway",
+      "name": "El Camino del Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "carnivalofvenice",
+      "name": "El Carnaval de Venecia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "nutcracker",
+      "name": "El Cascanueces",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckycasino",
+      "name": "El Casino de la Suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thecountofmontecristo",
+      "name": "El conde de Montecristo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "queenscorgi",
+      "name": "El Corgi de la Reina",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "vampire",
+      "name": "El cuento del vampiro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greatestshow",
+      "name": "El Espectáculo Más Grande",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "themastercat",
+      "name": "El Gato Maestro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "daguanyuan",
+      "name": "El Gran Jardín",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thegrandmaster",
+      "name": "El Gran Maestro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thegoldenax",
+      "name": "El hacha dorada",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "werewolfiscoming",
+      "name": "El hombre lobo se acerca",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "idunsgarden",
+      "name": "El Jardín de Idun Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wizardofoz",
+      "name": "El Mago de Oz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gem",
+      "name": "El mejor amigo de una chica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "devilsmessenger",
+      "name": "El Mensajero del Diablo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "theboywhocriedwolf",
+      "name": "El niño que gritaba lobo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thepeonypavilion",
+      "name": "El Pabellón de las Peonías",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thelittleprince",
+      "name": "El Pequeño Príncipe Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yufu",
+      "name": "El pescador",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thehappyprince",
+      "name": "El Príncipe Feliz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thefrogprince",
+      "name": "El Príncipe Rana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "trex",
+      "name": "El Rey de los Dinosaurios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thekingproducer",
+      "name": "El Rey Productor",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cthulhusecret",
+      "name": "El Secreto de Cthulhu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thenaughtytattooist",
+      "name": "El Tatuador Travieso Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "poseidon",
+      "name": "El Tesoro de Poseidón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "solomonstreasure",
+      "name": "El Tesoro de Salomón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "theemperorsnewclothes",
+      "name": "El traje nuevo del emperador",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "retroelectronic",
+      "name": "Electrónica Retro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elementshaman",
+      "name": "Elemento Chamán",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "emoji",
+      "name": "Emoji",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "emperorqin",
+      "name": "Emperador Qin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "egyptianempress",
+      "name": "Emperatriz egipcia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "enchanted",
+      "name": "Encantado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "charmingsorceress",
+      "name": "Encantadora hechicera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "electricenergy",
+      "name": "Energía Eléctrica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cheerleadingteam",
+      "name": "Equipo de animadoras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "roaringera",
+      "name": "Era Rugiente",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "erlangshen",
+      "name": "Erlang Shen",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "outbreakescape",
+      "name": "Escape del Brote",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "forestscorpion",
+      "name": "Escorpión del Bosque",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruitsquadgo",
+      "name": "Escuadrón Frutal Go",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kingssword",
+      "name": "Espada del Rey",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spartan",
+      "name": "Espartano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bullstampede",
+      "name": "Estampida de toros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gorillastyle",
+      "name": "Estilo Gorila",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckystar",
+      "name": "Estrella de la suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "artiststudio",
+      "name": "Estudio de Artista",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zombieexpert",
+      "name": "Experto en Zombis Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasureraider",
+      "name": "Explorador del Tesoro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fastblast",
+      "name": "Explosión rápida",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "loveexpress",
+      "name": "Expreso del Amor Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "longmenexpress",
+      "name": "Expreso Longmen",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruitextravaganza",
+      "name": "Extravaganza de Frutas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "meerkatsfamily",
+      "name": "Familia de suricatas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "darkfamily",
+      "name": "Familia Oscura",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pandafamily",
+      "name": "Familia Panda",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "penguinfamily",
+      "name": "Familia Pingüino Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "stellarfantasia",
+      "name": "Fantasia Estelar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghostsnightwalk",
+      "name": "Fantasmas Paseo Nocturno Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasy777",
+      "name": "Fantasía 777",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "symphonyfantasia",
+      "name": "Fantasía de la Sinfonía Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "slavicfantasy",
+      "name": "Fantasía Eslava",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "incafantasy",
+      "name": "Fantasía Inca",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "summerfireworksfestival",
+      "name": "Festival de Fuegos Artificiales de Verano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "flowergoddessfestival",
+      "name": "Festival de la Diosa de las Flores",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lanternfestival",
+      "name": "Festival de las Linternas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tenjinmatsuri",
+      "name": "Festival de los Dioses Celestiales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghostfestival",
+      "name": "Festival de los Fantasmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "giantfeast",
+      "name": "Festín Gigante",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cantonesefriednoodles",
+      "name": "Fideos fritos cantoneses",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "baseballfever",
+      "name": "Fiebre del béisbol",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldrush",
+      "name": "Fiebre del oro de California",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "festabrazil",
+      "name": "Fiesta Brasil",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chihuahuaparty",
+      "name": "Fiesta Chihuahua",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "skeletonparty",
+      "name": "Fiesta de Esqueletos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruitparty",
+      "name": "Fiesta de Frutas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "munichbeerbash",
+      "name": "Fiesta de la Cerveza de Múnich",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "potfeast",
+      "name": "Fiesta de la Olla",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "eastereggparty",
+      "name": "Fiesta de los Huevos de Pascua",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "neonparty",
+      "name": "Fiesta de Neón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "unicornparty",
+      "name": "Fiesta de Unicornio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bigbossparty",
+      "name": "Fiesta del Gran Jefe Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sweetieparty",
+      "name": "Fiesta Dulce de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "flamingmonkeyclassic",
+      "name": "Flaming Monkey Classic",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "piedpiper",
+      "name": "Flautista",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "springblossom",
+      "name": "Flor de primavera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "partygirlways",
+      "name": "Formas de chica fiestera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "darkfortress",
+      "name": "Fortaleza Oscura",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortuna",
+      "name": "Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunebeauty",
+      "name": "Fortuna Belleza Megaways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunerabbit",
+      "name": "Fortuna Conejo Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghostsfortune",
+      "name": "Fortuna de los Fantasmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunestar",
+      "name": "Fortuna Estrella Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunefu",
+      "name": "Fortuna Fu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortuneganesha",
+      "name": "Fortuna Ganesha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "foxymama",
+      "name": "Foxy Mama",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frankenstein",
+      "name": "Frankenstein",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenmagicbeans",
+      "name": "Frijoles Mágicos Dorados",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rainbowfruit",
+      "name": "Fruta Arcoíris Fluyendo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bombingfruit",
+      "name": "Fruta Bombardeo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jokerfruit",
+      "name": "Fruta Joker",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crystalfruits",
+      "name": "Frutas Cristalinas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sunnyfruits",
+      "name": "Frutas Soleadas Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fushenlong",
+      "name": "Fu Shenlong",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doublefireworks",
+      "name": "Fuegos Artificiales Dobles",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "skyforce",
+      "name": "Fuerza Aérea",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fulushou",
+      "name": "Fuk Luk Sau",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chocolatefactory",
+      "name": "Fábrica de Chocolate de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesephoenix",
+      "name": "Fénix Chino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firephoenix",
+      "name": "Fénix de Fuego Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gachagacha",
+      "name": "Gacha Gacha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cricketwinner",
+      "name": "Ganador de cricket",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "medalwinner",
+      "name": "Ganador de la medalla Megaways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortuneganeshavip",
+      "name": "Ganesha de la Fortuna VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wonwonrich",
+      "name": "Ganó Ganó Rico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luxurygarage",
+      "name": "Garaje de lujo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "playfulkitten",
+      "name": "Gatito Juguetón Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckycat",
+      "name": "Gato de la suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "whitenosecat",
+      "name": "Gato de nariz blanca",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "evilwizardcat",
+      "name": "Gato Hechicero Malvado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "noblecat",
+      "name": "Gato Noble",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "seagull",
+      "name": "Gaviota",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "geisha",
+      "name": "Geisha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elasticjelly",
+      "name": "Gelatina Elástica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shininggems",
+      "name": "Gemas Brillantes Fluyendo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "soulgems",
+      "name": "Gemas del Alma Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "genghiskhan",
+      "name": "Genghis Khan",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "giants",
+      "name": "Gigantes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "barbariangiants",
+      "name": "Gigantes Bárbaros Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazygym",
+      "name": "Gimnasio Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "space",
+      "name": "Girando en el espacio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tangotwirl",
+      "name": "Giro de Tango",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gypsy",
+      "name": "Gitana Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gokudobentou",
+      "name": "Gokudo Bentou",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldengoal",
+      "name": "Gol de Oro Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bigcatch",
+      "name": "Gran Captura Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greatdoctor",
+      "name": "Gran doctor",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bigapple",
+      "name": "Gran Manzana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "woofwonderland",
+      "name": "Gran Parque Perruno",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greatcourtyard",
+      "name": "Gran Patio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greatluck",
+      "name": "Gran suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happygrange",
+      "name": "Granja Feliz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "richfarm",
+      "name": "Granja Rica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "guanyunchang",
+      "name": "Guan Yun Chang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "imperialguards",
+      "name": "Guardias Imperiales Ming",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "planetguardian",
+      "name": "Guardián del Planeta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazyguava",
+      "name": "Guayaba Loca Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasywar",
+      "name": "Guerra de Fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "songkranwarfare",
+      "name": "Guerra de Songkran",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "warofthrones",
+      "name": "Guerra de Tronos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "medievalwarfare",
+      "name": "Guerra Medieval",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "stardomrush",
+      "name": "Guía para el Estrellato",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gangster",
+      "name": "Gánster",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hacker",
+      "name": "Hacker",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "americanburger",
+      "name": "Hamburguesa Americana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hamlet",
+      "name": "Hamlet",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hanabi",
+      "name": "Hanabi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hanselandgretel",
+      "name": "Hansel y Gretel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sorcereranddemon",
+      "name": "Hechicero y Demonio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hengandha",
+      "name": "Heng y Ha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beautifullady",
+      "name": "Hermosa dama",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "heroinesofthemarsh",
+      "name": "Heroínas del Pantano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hiphop",
+      "name": "Hip Hop",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "storyofjingjiang",
+      "name": "Historia de Jing Jiang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "storyoffarmer",
+      "name": "Historia del granjero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "interstellarhome",
+      "name": "Hogar Interestelar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "molemoney",
+      "name": "Hola Dinero de Topo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fatguy",
+      "name": "Hombre Gordo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "werewolf",
+      "name": "Hombre lobo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "primitiveman",
+      "name": "Hombre Primitivo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hongkong60s",
+      "name": "Hong Kong en los años 60",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mushrooms",
+      "name": "Hongos alucinógenos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "horoscope",
+      "name": "Horóscopo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "houyi",
+      "name": "Hou Yi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "holeinone",
+      "name": "Hoyo de un solo golpe",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "huyeh",
+      "name": "Hu Yeh",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "huamulan",
+      "name": "Hua Mulan",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunepiggybank",
+      "name": "Hucha de la Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "veggiesplot",
+      "name": "Huerto de vegetales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenegg",
+      "name": "Huevo de Oro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hunterhelibu",
+      "name": "Hunter Helibu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dumbhero",
+      "name": "Héroe Tonto Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "underworldempire",
+      "name": "Imperio del Inframundo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firehit",
+      "name": "Incendio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "firehit2",
+      "name": "Incendio 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sevenkickoff",
+      "name": "Inicio 777",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ai",
+      "name": "Inteligencia Artificial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goescape",
+      "name": "Ir a escapar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jadepower",
+      "name": "Jade Power",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rourankhaganate",
+      "name": "Jaganato Rouran",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cannibalgarden",
+      "name": "Jardín Caníbal",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "divinegarden",
+      "name": "Jardín Divino Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "quickgarden",
+      "name": "Jardín Rápido",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jellymania",
+      "name": "Jellymania",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "burgerjenga",
+      "name": "Jenga de hamburguesas Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jingwei",
+      "name": "Jingwei",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jokerslot",
+      "name": "Joker Slot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sevengems",
+      "name": "Joyas 777 Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lovegame",
+      "name": "Juego de Amor",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shadowplay",
+      "name": "Juego de sombras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "quickplaycandy",
+      "name": "Juego Rápido de Caramelos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "quickplayjewels",
+      "name": "Juego rápido de joyas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elitegames",
+      "name": "Juegos de élite",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "toyworld",
+      "name": "Juguete Mundo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "boytoys",
+      "name": "Juguetes para niños",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kaifengfu",
+      "name": "Kai Feng Fu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildkong",
+      "name": "Kong Salvaje Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kungfu",
+      "name": "Kung Fu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kungfukaga",
+      "name": "KungFu Kaga",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jadequest",
+      "name": "La Búsqueda de Jade Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "piratestreasurequest",
+      "name": "La Búsqueda del Tesoro del Pirata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pandora",
+      "name": "La Caja de Pandora",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "radiantcity",
+      "name": "La Ciudad Radiante",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "emptycity",
+      "name": "La Ciudad Vacía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "satanskitchen",
+      "name": "La Cocina de Satán",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "westchamber",
+      "name": "La Cámara del Oeste",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "viking",
+      "name": "La era de los vikingos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sultansfortune",
+      "name": "La Fortuna del Sultán",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "theguardofhades",
+      "name": "La Guardia del Hades",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendofakihiro",
+      "name": "La leyenda de Akihiro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendofathena",
+      "name": "La leyenda de Atenea",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "whitesnakelegend",
+      "name": "La leyenda de la Serpiente Blanca",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendoflegends",
+      "name": "La Leyenda de las Leyendas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonslegend",
+      "name": "La leyenda de los dragones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendofheroes",
+      "name": "La Leyenda de los Héroes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shaolinlegend",
+      "name": "La Leyenda de Shaolin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendoffoxspirit",
+      "name": "La leyenda del espíritu zorro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendofpaladin",
+      "name": "La leyenda del paladín",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "knightsfolly",
+      "name": "La Locura del Caballero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lotuslamp",
+      "name": "La Lámpara de Loto",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thehauntedmanor",
+      "name": "La Mansión Embrujada",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zorro",
+      "name": "La máscara de Zorro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frogsball",
+      "name": "La Pelota de la Rana Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tanukitavern",
+      "name": "La Taberna del Tanuki",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "charlottesweb",
+      "name": "La telaraña de Charlotte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thegingerbreadland",
+      "name": "La Tierra de Pan de Jengibre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "latomatina",
+      "name": "La Tomatina",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cinderellasglassslipper",
+      "name": "La Zapatilla de Cristal de Cenicienta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sexylips",
+      "name": "Labios sexys",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "moonpalacelab",
+      "name": "Laboratorio del Palacio Lunar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thief",
+      "name": "Ladrón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jewelthief",
+      "name": "Ladrón de Joyas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "phantomthief",
+      "name": "Ladrón Fantasma",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ladykaka",
+      "name": "Lady KAKA",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sevenwonders",
+      "name": "Las 7 Maravillas Modernas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thecrypto",
+      "name": "Las Criptomonedas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "legendofsword",
+      "name": "Legend of Sword",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunelions",
+      "name": "Leones de la Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "snowleopards",
+      "name": "Leopardos de las nieves",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "leprechauns",
+      "name": "Leprechauns",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "arthurianlegend",
+      "name": "Leyenda Arturiana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bearpawlegend",
+      "name": "Leyenda de la Garra del Oso",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bearpawlegendplus",
+      "name": "Leyenda de la Garra del Oso Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonlegend",
+      "name": "Leyenda del Dragón Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "scientistslegends",
+      "name": "Leyendas Científicas Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "liononridge",
+      "name": "León en la cresta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bookofskull",
+      "name": "Libro de Calaveras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bookofcthulhu",
+      "name": "Libro de Cthulhu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bookofmoon",
+      "name": "Libro de la Luna Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bookofmummy",
+      "name": "Libro de la Momia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "harevstortoise",
+      "name": "Liebre vs. Tortuga",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lilith",
+      "name": "Lilith",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragoningot",
+      "name": "Lingote de Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fullmoonlanterns",
+      "name": "Linternas de Luna Llena",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lionvsshark",
+      "name": "Lion vs. Tiburón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wolfwarrior",
+      "name": "Lobo Guerrero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "siberianwolves",
+      "name": "Lobos Siberianos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "footballmania",
+      "name": "Locura por el fútbol",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "japanese7heroes",
+      "name": "Los 7 Héroes Japoneses",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "knights",
+      "name": "Los Caballeros Medievales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fivefortunegods",
+      "name": "Los Cinco Dioses de la Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fourscholars",
+      "name": "Los Cuatro Eruditos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thewildfour",
+      "name": "Los Cuatro Salvajes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thedoorgods",
+      "name": "Los Dioses de la Puerta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greatvoyages",
+      "name": "Los Grandes Viajes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mermaid",
+      "name": "Los mares de sirenas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "musketeers",
+      "name": "Los Mosqueteros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sevensinners",
+      "name": "Los Siete Pecadores",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "apes",
+      "name": "Los simios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "loungeclub",
+      "name": "Lounge Club",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luban",
+      "name": "Lu Ban",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fightinggirls",
+      "name": "Luchando chicas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckyinn",
+      "name": "Lucky Inn",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luxuryvegas",
+      "name": "Lujo en Vegas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "calligraphymaster",
+      "name": "Maestro de Caligrafía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mahjong",
+      "name": "Maestro de Mahjong",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "inkpaintingmaster",
+      "name": "Maestro de Pintura en Tinta Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "poolmaster",
+      "name": "Maestro del Billar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "taikomaster",
+      "name": "Maestro Taiko",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "masterofwulin",
+      "name": "Maestro Wulin Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wizardry",
+      "name": "Magia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldmagic",
+      "name": "Magia Dorada",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shoppingmalltycoon",
+      "name": "Magnate del Centro Comercial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pharaohmage",
+      "name": "Mago Faraón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magicianmerlin",
+      "name": "Mago Merlín",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "quickplaymahjong",
+      "name": "Mahjong de Juego Rápido",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mammut",
+      "name": "Mamut",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "candymania",
+      "name": "Manía de dulces",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happyfarm",
+      "name": "Manía de la Granja",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "maniavegas",
+      "name": "Manía Vegas Fluyendo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bloodydeepsea",
+      "name": "Mar Profundo Sangriento",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunehammer",
+      "name": "Martillo de la Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pets",
+      "name": "Mascotas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "astropets",
+      "name": "Mascotas Astro Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "grandmaspets",
+      "name": "Mascotas de la Abuela",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happymarriage",
+      "name": "Matrimonio Feliz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mazu",
+      "name": "Mazu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rainbowjellyfish",
+      "name": "Medusa Arcoíris",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "megawildwest",
+      "name": "Mega Salvaje Oeste",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "meowfia",
+      "name": "Meowfia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hyakkiyoichi",
+      "name": "Mercado Nocturno de los Cien Demonios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mexicaliente",
+      "name": "Mexicaliente",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "millionaires",
+      "name": "Millonarios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dwarfminer",
+      "name": "Minero enano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "geniusminer",
+      "name": "Minero Genial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "assassinmission",
+      "name": "Misión del Asesino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "egyptianmythology",
+      "name": "Mitología egipcia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fashionbones",
+      "name": "Moda Huesos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "modernizations",
+      "name": "Modernizaciones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hotcoin",
+      "name": "Moneda caliente",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hotcoinbf",
+      "name": "Moneda caliente Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hotcoinvip",
+      "name": "Moneda caliente VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rhinocoin",
+      "name": "Moneda Rinoceronte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "irishcoins",
+      "name": "Monedas Irlandesas Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kickcashmonkey2",
+      "name": "Mono de Dinero 2 Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monkeymaniac",
+      "name": "Mono Maniaco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monkeyandcrab",
+      "name": "Mono y Cangrejo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monsterbuster",
+      "name": "Monstruo Cazador",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "deepseamonster",
+      "name": "Monstruo Marino Profundo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "orientalmonster",
+      "name": "Monstruo Oriental",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "qomolangma",
+      "name": "Monte Everest",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sharkbite",
+      "name": "Mordedura de Tiburón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "moulinrouge",
+      "name": "Moulin Rouge",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "muaythai",
+      "name": "Muay Thai",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "stampworld",
+      "name": "Mundo de Sellos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "museumoffantasy",
+      "name": "Museo de la Fantasía fusion reel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "catmuseum",
+      "name": "Museo del Gato",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pricelessmuseum",
+      "name": "Museo Inestimable Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "piggybankmachine",
+      "name": "Máquina de alcancía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hallowsmask",
+      "name": "Máscara de los Espíritus Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mythic",
+      "name": "Mítico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildchristmas",
+      "name": "Navidad Salvaje Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "neanderthals",
+      "name": "Neandertales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "nezha",
+      "name": "Nezha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "nian",
+      "name": "Nian",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "niexiaoqian",
+      "name": "Nie Xiaoqian",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ninja",
+      "name": "Ninja",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "redboy",
+      "name": "Niño Rojo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "calabashboys",
+      "name": "Niños Calabaza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greedynight",
+      "name": "Noche codiciosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "vampiresnight",
+      "name": "Noche de Vampiros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "nightonthenile",
+      "name": "Noche en el Nilo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "redghostbride",
+      "name": "Novia Fantasma Roja",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ninelucks",
+      "name": "Nueve Suertes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "nvwa",
+      "name": "Nvwa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "eighttreasures",
+      "name": "Ocho Tesoros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ofrendamagic",
+      "name": "Ofrenda Mágica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "oktoberfest",
+      "name": "Oktoberfest",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasyoktoberfest",
+      "name": "Oktoberfest Fantástico Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazyoktoberfest",
+      "name": "Oktoberfest Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "originoffire",
+      "name": "Origen del fuego",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden777",
+      "name": "Oro 777",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden777vip",
+      "name": "Oro 777 VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mayangold",
+      "name": "Oro Maya",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "taiwanblackbear",
+      "name": "Oso negro de Taiwán",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sleepwalkingsheep",
+      "name": "Ovejas sonámbulas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ufo",
+      "name": "OVNI",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hiphoppigeon",
+      "name": "Paloma de Hip Hop",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bakery",
+      "name": "Panadería Dulzura",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "islandparadise",
+      "name": "Paraíso Insular",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dinosaurpark",
+      "name": "Parque de Dinosaurios",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasypark",
+      "name": "Parque de Fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortunefunland",
+      "name": "Parque de la Diversión Fortuna",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "greenparty",
+      "name": "Partido Verde",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesepastry",
+      "name": "Pastelería china",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kickcashllama",
+      "name": "Patada a la Llama de Efectivo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kickcashpanda",
+      "name": "Patada al Panda de Efectivo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kickcashcroc",
+      "name": "Patada Efectivo Cocodrilo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kickcashmonkey",
+      "name": "Patear Mono de Efectivo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "duelskateboards",
+      "name": "Patinetas de Duelo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "scaryclown",
+      "name": "Payaso aterrador",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happyjoker",
+      "name": "Payaso Feliz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenfish",
+      "name": "Pececito dorado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "seasidepelican",
+      "name": "Pelícano Costero Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "littlemonk",
+      "name": "Pequeño Monje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tinywarriors",
+      "name": "Pequeños Guerreros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lazyrich",
+      "name": "Perezoso Rico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragonpearl",
+      "name": "Perla del Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thiefdog",
+      "name": "Perro Ladrón Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "persiabonanza",
+      "name": "Persia Bonanza Megaways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "peterpan",
+      "name": "Peter Pan",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckypenguins",
+      "name": "Pingüinos afortunados",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pinocchio",
+      "name": "Pinocchio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "skyboundpirates",
+      "name": "Piratas del Cielo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "egypt",
+      "name": "Pirámide misteriosa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pinata",
+      "name": "Piñata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pochilam",
+      "name": "Po Chi Lam",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "polaroid",
+      "name": "Polaroid",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "polynesian",
+      "name": "Polinesio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonkerschicken",
+      "name": "Pollo Loco Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fairydust",
+      "name": "Polvo de hadas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragoninn",
+      "name": "Posada del Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "prettyprincess",
+      "name": "Princesa Bonita",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "carpprincess",
+      "name": "Princesa Carpa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "peacockprincess",
+      "name": "Princesa del Pavo Real Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mermaidprincess",
+      "name": "Princesa Sirena",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wencheng",
+      "name": "Princesa Wencheng",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gatesofmidsummer",
+      "name": "Puertas del Verano Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thumbelina",
+      "name": "Pulgarcita",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesequyi",
+      "name": "Quyi chino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jumpingfrog",
+      "name": "Rana Saltarina",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "animalrhapsody",
+      "name": "Rapsodia Animal",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rapunzel",
+      "name": "Rapunzel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rarities",
+      "name": "Rarezas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mouseontheprairie",
+      "name": "Ratón en la Pradera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wrestlingqueen",
+      "name": "Reina de la Lucha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "carnivalbeauty",
+      "name": "Reina del Carnaval",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magicqueen",
+      "name": "Reina Mágica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gummybearkingdom",
+      "name": "Reino de los Ositos de Goma Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chessking",
+      "name": "Reino del Ajedrez",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lostrealm",
+      "name": "Reino Perdido",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "phoenixrising",
+      "name": "Renacer de las cenizas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rebirth",
+      "name": "Renacimiento",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goblinsrestaurant",
+      "name": "Restaurante de Duendes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mayanrestaurant",
+      "name": "Restaurante Maya",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ghostsgather",
+      "name": "Reunión de Fantasmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "roborevolution",
+      "name": "Revolución Robótica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kingofdragon",
+      "name": "Rey de Dragón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kingoffighting",
+      "name": "Rey de la Lucha",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "speedking",
+      "name": "Rey de la Velocidad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kingofthegodzeus",
+      "name": "Rey de los Dioses Zeus Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lionkingandeagleking",
+      "name": "Rey León y Rey Águila",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monkeyking",
+      "name": "Rey Mono",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pirateking",
+      "name": "Rey Pirata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "richsquire",
+      "name": "Rico Caballero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "medievalriches",
+      "name": "Riquezas Medievales Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monkeyheist",
+      "name": "Robo de Monos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "repairrobot",
+      "name": "Robot de reparación",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "robots",
+      "name": "Robots",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hellrocker",
+      "name": "Rockero del Infierno",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bollywoodromance",
+      "name": "Romance de Bollywood",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "romanceinengland",
+      "name": "Romance en Inglaterra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "romeoandjuliet",
+      "name": "Romeo y Julieta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "breakthebank",
+      "name": "Rompe el Banco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "breakthrough",
+      "name": "Romper Barreras Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rudolph",
+      "name": "Rudolph",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "route66",
+      "name": "Ruta 66",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "silkroad",
+      "name": "Ruta de la Seda",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fastbreak",
+      "name": "Rápido",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "priestvsvampire",
+      "name": "Sacerdote vs. Vampiro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "midnightdeparture",
+      "name": "Salida de Medianoche",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jumpingfatguy",
+      "name": "Saltando Sr. Primero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hailthejudge",
+      "name": "Salve al Juez",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "santabumblebee",
+      "name": "Santa Abeja Zumbadora Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sante",
+      "name": "Sante",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "holybeast",
+      "name": "Santo Bestia",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sanctuaryofdarkness",
+      "name": "Santuario de la Oscuridad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wealthtoad",
+      "name": "Sapo de la riqueza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "succubussecret",
+      "name": "Secreto de la Súcubo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "secretofocean",
+      "name": "Secreto del océano",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "secretofocean2",
+      "name": "Secreto del océano 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "romanisecret",
+      "name": "Secreto Romani",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "countyseat",
+      "name": "Sede del condado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "seediq",
+      "name": "Seediq",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jungle",
+      "name": "Selva",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildjungle",
+      "name": "Selva Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "terrortrail",
+      "name": "Sendero del Terror",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bionichuman",
+      "name": "Ser humano biónico",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "windliongod",
+      "name": "Señor del viento",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "missjoker",
+      "name": "Señorita Joker",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "misssailor",
+      "name": "Señorita Marinera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "misstiger",
+      "name": "Señorita Tigre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenshanghai",
+      "name": "Shanghai Dorado",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shaolinsoccer",
+      "name": "Shaolin Soccer",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shennong",
+      "name": "Shen Nong",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sherlockholmes",
+      "name": "Sherlock Holmes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sinbad",
+      "name": "Sinbad",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "prisonsituation",
+      "name": "Situación en Prisión",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "couchpotato",
+      "name": "Sofá Patata",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "soldiers",
+      "name": "Soldados",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "redsorghum",
+      "name": "Sorgo Rojo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "speakeasy",
+      "name": "Speakeasy",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "speakeasy2",
+      "name": "Speakeasy 2 Carretes de Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "stonehenge",
+      "name": "Stonehenge",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "submariner",
+      "name": "Submarinero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckylucky",
+      "name": "Suerte, suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luck88",
+      "name": "Suerte88",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luck88quick",
+      "name": "Suerte88 VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sumo",
+      "name": "Sumo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "superbonusmania",
+      "name": "Super Bonus Manía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "superdragontiger",
+      "name": "Super Dragón Tigre",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "superenergy",
+      "name": "Super Energía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "superslime",
+      "name": "Super Slime",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "supershot",
+      "name": "SuperShot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "supershot2",
+      "name": "SuperShot 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sushininja",
+      "name": "Sushi Ninja",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "satyr",
+      "name": "Sátiro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "taichi",
+      "name": "Tai Chi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "taketorimonogatari",
+      "name": "Taketori Monogatari",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "penaltyshootout",
+      "name": "Tanda de Penaltis",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tao",
+      "name": "Tao",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "crazytaxi",
+      "name": "Taxi Loco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasurebowl",
+      "name": "Tazón del Tesoro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasurebowlvip",
+      "name": "Tazón del Tesoro VIP",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dolltheater",
+      "name": "Teatro de Muñecas Fusión de",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elftreasure",
+      "name": "Tesoro de los Elfos Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sharktreasure",
+      "name": "Tesoro del Tiburón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "incalosttreasure",
+      "name": "Tesoro Perdido de los Incas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "underwatertreasure",
+      "name": "Tesoros del Mar",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tibetplateau",
+      "name": "Tibet Plateau",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "adventurershop",
+      "name": "Tienda del Aventurero",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "magicalstore",
+      "name": "Tienda Mágica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "animalland",
+      "name": "Tierra de Animales",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "landofdwarfs",
+      "name": "Tierra de Enanos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "borderland",
+      "name": "Tierra de frontera",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sleepy",
+      "name": "Tierra de los Sueños Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zombieland",
+      "name": "Tierra de Zombies",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "landofgold",
+      "name": "Tierras de Oro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasuretiger",
+      "name": "Tigre del Tesoro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sharpshooter",
+      "name": "Tirador experto",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tugofwar",
+      "name": "Tirón de cuerda",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "midastouch",
+      "name": "Toque de Midas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "candystorm",
+      "name": "Tormenta de caramelos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lightningstorm",
+      "name": "Tormenta Eléctrica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spacestorm",
+      "name": "Tormenta Espacial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "arcticstorm",
+      "name": "Tormenta Ártica",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "toroamigo",
+      "name": "Toro Amigo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldenbull",
+      "name": "Toros de Oro",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "towerofbabel",
+      "name": "Torre de Babel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alientour",
+      "name": "Tour Alienígena",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "safari",
+      "name": "Tragamonedas Safari",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beautytrap",
+      "name": "Trampa de belleza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "livestreamingstar",
+      "name": "Transmisión en vivo de estrellas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "threebandits",
+      "name": "Tres Bandidos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "threelittlepigs",
+      "name": "Tres Cerditos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "threegods",
+      "name": "Tres Dioses",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "threeheroes",
+      "name": "Tres Héroes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tripledragons",
+      "name": "Triple Dragones",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "trickortreat",
+      "name": "Truco o Trato",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tuanyuan",
+      "name": "Tuan Yuan",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chineseancienttomb",
+      "name": "Tumba antigua china",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tombheroes",
+      "name": "Tumbas de Héroes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luckytumbler",
+      "name": "Tumbler de la suerte",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "thirstycrow",
+      "name": "Un Cuervo Sediento",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fantasyuniverse",
+      "name": "Universo de Fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "uphellyaa",
+      "name": "Up Helly Aa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tropicalholiday",
+      "name": "Vacaciones Tropicales Función de Compra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "comeonrhythm",
+      "name": "Vamos Ritmo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gogomonsters",
+      "name": "Vamos, vamos monstruos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildernesscowboy",
+      "name": "Vaquero de la Tierra Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cowboys",
+      "name": "Vaqueros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "twentythousandleaguesunderthesea",
+      "name": "Veinte mil leguas de viaje submarino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "whitedeer",
+      "name": "Venado Blanco",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hatseller",
+      "name": "Vendedor de sombreros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonusvending",
+      "name": "Vending de bonificación",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "summersamba",
+      "name": "Verano Samba",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "travelthroughtime",
+      "name": "Viaje a Través del Tiempo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "journeytowest",
+      "name": "Viaje al Oeste",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildvick2",
+      "name": "Viaje de Aventura Wild Vick 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "skyjourney",
+      "name": "Viaje por el cielo",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildvick",
+      "name": "Vick Salvaje",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fashionlife",
+      "name": "Vida de la Moda",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beachlife",
+      "name": "Vida en la Playa",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "kitty",
+      "name": "Viviendo con Kitty",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wanfujinan",
+      "name": "WanFu JinAn",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wending",
+      "name": "Wen Ding",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wongtaisin",
+      "name": "Wong Tai Sin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wugang",
+      "name": "Wu Gang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wusong",
+      "name": "Wu Song",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wuzetian",
+      "name": "Wu Zetian",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "xbomber",
+      "name": "X-Bomber",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "xelements",
+      "name": "X-Elementos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yakyuken",
+      "name": "Yakyuken",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yugong",
+      "name": "Yu Gong",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yuefei",
+      "name": "Yue Fei",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yuncaitongzi",
+      "name": "Yun Cai Tong Zi",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cinderella",
+      "name": "Zapato de cristal",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zashikigod",
+      "name": "Zashiki God",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "zhongyianddragon",
+      "name": "Zhong Yi and Dragon",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinesezombie",
+      "name": "Zombi Chino",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "neonmal",
+      "name": "Zoológico de Neón",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ninetailedfox",
+      "name": "zorro de nueve colas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "demonfox",
+      "name": "Zorro Demonio",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cheerup",
+      "name": "¡Anímate!",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "happythanksgiving",
+      "name": "¡Feliz Día de Acción de Gracias!",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "huhufighting",
+      "name": "¡Hu Hu luchando!",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wholetthedogsout",
+      "name": "¿Quién dejó salir a los perros?",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "area51",
+      "name": "Área 51 Bloqueadas 2 Giros",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "enchantressarea",
+      "name": "Área de la Encantadora",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "glacialepoch",
+      "name": "Época Glacial",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chineseopera",
+      "name": "Ópera China",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lastfantasy",
+      "name": "Última Fantasía",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    }
+  ]
+}

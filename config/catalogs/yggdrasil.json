@@ -1,0 +1,967 @@
+{
+  "provider": "yggdrasil",
+  "name": "Yggdrasil",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 159,
+  "refreshStatus": "updated",
+  "partialReported": true,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "3-gladiators-vs-caesar",
+      "name": "3 Gladiators Vs Caesar",
+      "publicUrl": "https://yggdrasilgaming.com/games/3-gladiators-vs-caesar/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-piggies-of-bank",
+      "name": "3 Piggies Of Bank",
+      "publicUrl": "https://yggdrasilgaming.com/games/3-piggies-of-bank/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4-foxx-crew-wildenergy-multimax",
+      "name": "4 Foxx Crew Wildenergy Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/4-foxx-crew-wildenergy-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4-wolves-of-fortune-doublemax",
+      "name": "4 Wolves Of Fortune Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/4-wolves-of-fortune-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-volt-gigablox",
+      "name": "777 Volt Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/777-volt-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "age-asgard",
+      "name": "Age Asgard",
+      "publicUrl": "https://yggdrasilgaming.com/games/age-asgard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alchymedes",
+      "name": "Alchymedes",
+      "publicUrl": "https://yggdrasilgaming.com/games/alchymedes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aldos-journey",
+      "name": "Aldos Journey",
+      "publicUrl": "https://yggdrasilgaming.com/games/aldos-journey/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aphrodite-goes-wild-rushingwilds",
+      "name": "Aphrodite Goes Wild Rushingwilds",
+      "publicUrl": "https://yggdrasilgaming.com/games/aphrodite-goes-wild-rushingwilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arthurs-fortune",
+      "name": "Arthurs Fortune",
+      "publicUrl": "https://yggdrasilgaming.com/games/arthurs-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "atlantean-gigarise",
+      "name": "Atlantean Gigarise",
+      "publicUrl": "https://yggdrasilgaming.com/games/atlantean-gigarise/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "avatars",
+      "name": "Avatars",
+      "publicUrl": "https://yggdrasilgaming.com/games/avatars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "badger-miners",
+      "name": "Badger Miners",
+      "publicUrl": "https://yggdrasilgaming.com/games/badger-miners/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "baron-samedi",
+      "name": "Baron Samedi",
+      "publicUrl": "https://yggdrasilgaming.com/games/baron-samedi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beauty-and-the-beast",
+      "name": "Beauty And The Beast",
+      "publicUrl": "https://yggdrasilgaming.com/games/beauty-and-the-beast/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bicicleta",
+      "name": "Bicicleta",
+      "publicUrl": "https://yggdrasilgaming.com/games/bicicleta/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-blox",
+      "name": "Big Blox",
+      "publicUrl": "https://yggdrasilgaming.com/games/big-blox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blood-moon-wilds",
+      "name": "Blood Moon Wilds",
+      "publicUrl": "https://yggdrasilgaming.com/games/blood-moon-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bloody-pesos",
+      "name": "Bloody Pesos",
+      "publicUrl": "https://yggdrasilgaming.com/games/bloody-pesos/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bob-marlin-goes-deep",
+      "name": "Bob Marlin Goes Deep",
+      "publicUrl": "https://yggdrasilgaming.com/games/bob-marlin-goes-deep/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bob-marlin-goes-splashing-wild-fight-rushingwilds",
+      "name": "Bob Marlin Goes Splashing Wild Fight Rushingwilds",
+      "publicUrl": "https://yggdrasilgaming.com/games/bob-marlin-goes-splashing-wild-fight-rushingwilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boilin-pots",
+      "name": "Boilin Pots",
+      "publicUrl": "https://yggdrasilgaming.com/games/boilin-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brazil-bomba",
+      "name": "Brazil Bomba",
+      "publicUrl": "https://yggdrasilgaming.com/games/brazil-bomba/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-freedom-doublemax",
+      "name": "Buffalo Freedom Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/buffalo-freedom-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "calavera-crush",
+      "name": "Calavera Crush",
+      "publicUrl": "https://yggdrasilgaming.com/games/calavera-crush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candyfinity",
+      "name": "Candyfinity",
+      "publicUrl": "https://yggdrasilgaming.com/games/candyfinity/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cannonade",
+      "name": "Cannonade",
+      "publicUrl": "https://yggdrasilgaming.com/games/cannonade/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "carol-of-the-elves",
+      "name": "Carol Of The Elves",
+      "publicUrl": "https://yggdrasilgaming.com/games/carol-of-the-elves/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cazino_cosmos",
+      "name": "Cazino Cosmos",
+      "publicUrl": "https://yggdrasilgaming.com/games/cazino_cosmos/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cazino-zeppelin",
+      "name": "Cazino Zeppelin",
+      "publicUrl": "https://yggdrasilgaming.com/games/cazino-zeppelin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cazino-zeppelin-reloaded",
+      "name": "Cazino Zeppelin Reloaded",
+      "publicUrl": "https://yggdrasilgaming.com/games/cazino-zeppelin-reloaded/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "champion-of-the-underworld",
+      "name": "Champion Of The Underworld",
+      "publicUrl": "https://yggdrasilgaming.com/games/champion-of-the-underworld/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "champions_of_rome",
+      "name": "Champions Of Rome",
+      "publicUrl": "https://yggdrasilgaming.com/games/champions_of_rome/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chibeasties",
+      "name": "Chibeasties",
+      "publicUrl": "https://yggdrasilgaming.com/games/chibeasties/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-plaza-doublemax",
+      "name": "Christmas Plaza Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/christmas-plaza-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coo-coo-cashoo-lightninglines",
+      "name": "Coo Coo Cashoo Lightninglines",
+      "publicUrl": "https://yggdrasilgaming.com/games/coo-coo-cashoo-lightninglines/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dark-joker-rizes",
+      "name": "Dark Joker Rizes",
+      "publicUrl": "https://yggdrasilgaming.com/games/dark-joker-rizes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dark-vortex",
+      "name": "Dark Vortex",
+      "publicUrl": "https://yggdrasilgaming.com/games/dark-vortex/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "defenders-of-mystica",
+      "name": "Defenders Of Mystica",
+      "publicUrl": "https://yggdrasilgaming.com/games/defenders-of-mystica/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "devour-the-weak",
+      "name": "Devour The Weak",
+      "publicUrl": "https://yggdrasilgaming.com/games/devour-the-weak/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dick-the-farmer",
+      "name": "Dick The Farmer",
+      "publicUrl": "https://yggdrasilgaming.com/games/dick-the-farmer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "double-dragons",
+      "name": "Double Dragons",
+      "publicUrl": "https://yggdrasilgaming.com/games/double-dragons/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dr_fortuno",
+      "name": "Dr Fortuno",
+      "publicUrl": "https://yggdrasilgaming.com/games/dr_fortuno/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dwarf_mine",
+      "name": "Dwarf Mine",
+      "publicUrl": "https://yggdrasilgaming.com/games/dwarf_mine/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "e-force",
+      "name": "E Force",
+      "publicUrl": "https://yggdrasilgaming.com/games/e-force/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-island",
+      "name": "Easter Island",
+      "publicUrl": "https://yggdrasilgaming.com/games/easter-island/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-island-2",
+      "name": "Easter Island 2",
+      "publicUrl": "https://yggdrasilgaming.com/games/easter-island-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elysian-jackpots",
+      "name": "Elysian Jackpots",
+      "publicUrl": "https://yggdrasilgaming.com/games/elysian-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "empire-fortune",
+      "name": "Empire Fortune",
+      "publicUrl": "https://yggdrasilgaming.com/games/empire-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "enchanted-waters",
+      "name": "Enchanted Waters",
+      "publicUrl": "https://yggdrasilgaming.com/games/enchanted-waters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fatzs-diner-gigablox",
+      "name": "Fatzs Diner Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/fatzs-diner-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firekick-multimax",
+      "name": "Firekick Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/firekick-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "florageddon",
+      "name": "Florageddon",
+      "publicUrl": "https://yggdrasilgaming.com/games/florageddon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "football-glory",
+      "name": "Football Glory",
+      "publicUrl": "https://yggdrasilgaming.com/games/football-glory/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frost-queen-jackpots",
+      "name": "Frost Queen Jackpots",
+      "publicUrl": "https://yggdrasilgaming.com/games/frost-queen-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruitoids",
+      "name": "Fruitoids",
+      "publicUrl": "https://yggdrasilgaming.com/games/fruitoids/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruitpunk",
+      "name": "Fruitpunk",
+      "publicUrl": "https://yggdrasilgaming.com/games/fruitpunk/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruitylicious-doublemax",
+      "name": "Fruitylicious Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/fruitylicious-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gator-gold-deluxe-gigablox",
+      "name": "Gator Gold Deluxe Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/gator-gold-deluxe-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gator-gold-gigablox",
+      "name": "Gator Gold Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/gator-gold-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-rocks",
+      "name": "Gem Rocks",
+      "publicUrl": "https://yggdrasilgaming.com/games/gem-rocks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemstone-jam",
+      "name": "Gemstone Jam",
+      "publicUrl": "https://yggdrasilgaming.com/games/gemstone-jam/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giga-zombies-gigablox",
+      "name": "Giga Zombies Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/giga-zombies-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gigagong-gigablox",
+      "name": "Gigagong Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/gigagong-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giganimals-gigablox",
+      "name": "Giganimals Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/giganimals-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goals-of-olympus-boltlock",
+      "name": "Goals Of Olympus Boltlock",
+      "publicUrl": "https://yggdrasilgaming.com/games/goals-of-olympus-boltlock/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-frontier-jackpots-fastpot5",
+      "name": "Gold Frontier Jackpots Fastpot5",
+      "publicUrl": "https://yggdrasilgaming.com/games/gold-frontier-jackpots-fastpot5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-chip-roulette",
+      "name": "Golden Chip Roulette",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-chip-roulette/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-fish-tank",
+      "name": "Golden Fish Tank",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-fish-tank/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-fish-tank-2-gigablox",
+      "name": "Golden Fish Tank 2 Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-fish-tank-2-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-fish-tank-party",
+      "name": "Golden Fish Tank Party",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-fish-tank-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-gorgon",
+      "name": "Golden Gorgon",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-gorgon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-monkey",
+      "name": "Golden Monkey",
+      "publicUrl": "https://yggdrasilgaming.com/games/golden-monkey/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldstorm-ultra",
+      "name": "Goldstorm Ultra",
+      "publicUrl": "https://yggdrasilgaming.com/games/goldstorm-ultra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "publicUrl": "https://yggdrasilgaming.com/games/hades/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hanzos-dojo",
+      "name": "Hanzos Dojo",
+      "publicUrl": "https://yggdrasilgaming.com/games/hanzos-dojo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "holmes-stolen-stones",
+      "name": "Holmes Stolen Stones",
+      "publicUrl": "https://yggdrasilgaming.com/games/holmes-stolen-stones/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hyperburst",
+      "name": "Hyperburst",
+      "publicUrl": "https://yggdrasilgaming.com/games/hyperburst/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "incinerator",
+      "name": "Incinerator",
+      "publicUrl": "https://yggdrasilgaming.com/games/incinerator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-express",
+      "name": "Jackpot Express",
+      "publicUrl": "https://yggdrasilgaming.com/games/jackpot-express/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-raiders",
+      "name": "Jackpot Raiders",
+      "publicUrl": "https://yggdrasilgaming.com/games/jackpot-raiders/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-millions",
+      "name": "Joker Millions",
+      "publicUrl": "https://yggdrasilgaming.com/games/joker-millions/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokerizer",
+      "name": "Jokerizer",
+      "publicUrl": "https://yggdrasilgaming.com/games/jokerizer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jungle-books",
+      "name": "Jungle Books",
+      "publicUrl": "https://yggdrasilgaming.com/games/jungle-books/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lightning-joker",
+      "name": "Lightning Joker",
+      "publicUrl": "https://yggdrasilgaming.com/games/lightning-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucha-maniacs",
+      "name": "Lucha Maniacs",
+      "publicUrl": "https://yggdrasilgaming.com/games/lucha-maniacs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-apocalypse-gigablox",
+      "name": "Lucky Apocalypse Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/lucky-apocalypse-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-neko",
+      "name": "Lucky Neko",
+      "publicUrl": "https://yggdrasilgaming.com/games/lucky-neko/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ryan-gigablox",
+      "name": "Lucky Ryan Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/lucky-ryan-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "max-elements-gigablox",
+      "name": "Max Elements Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/max-elements-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mexomax",
+      "name": "Mexomax",
+      "publicUrl": "https://yggdrasilgaming.com/games/mexomax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mexomax-2-wildenergy-multimax",
+      "name": "Mexomax 2 Wildenergy Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/mexomax-2-wildenergy-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkeys-go-bananas-multimax",
+      "name": "Monkeys Go Bananas Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/monkeys-go-bananas-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multifly",
+      "name": "Multifly",
+      "publicUrl": "https://yggdrasilgaming.com/games/multifly/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multifly-2-multimax",
+      "name": "Multifly 2 Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/multifly-2-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-rush",
+      "name": "Neon Rush",
+      "publicUrl": "https://yggdrasilgaming.com/games/neon-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-villains-doublemax",
+      "name": "Neon Villains Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/neon-villains-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-west",
+      "name": "Neon West",
+      "publicUrl": "https://yggdrasilgaming.com/games/neon-west/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nice-catch-2-doublemax",
+      "name": "Nice Catch 2 Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/nice-catch-2-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nice-catch-doublemax",
+      "name": "Nice Catch Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/nice-catch-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana",
+      "publicUrl": "https://yggdrasilgaming.com/games/nirvana/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitro-circus",
+      "name": "Nitro Circus",
+      "publicUrl": "https://yggdrasilgaming.com/games/nitro-circus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "notre-dame-tales-gigablox",
+      "name": "Notre Dame Tales Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/notre-dame-tales-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "of-sabers-and-monsters",
+      "name": "Of Sabers And Monsters",
+      "publicUrl": "https://yggdrasilgaming.com/games/of-sabers-and-monsters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "one-armed-bandit",
+      "name": "One Armed Bandit",
+      "publicUrl": "https://yggdrasilgaming.com/games/one-armed-bandit/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orient-express",
+      "name": "Orient Express",
+      "publicUrl": "https://yggdrasilgaming.com/games/orient-express/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ozwins-jackpots",
+      "name": "Ozwins Jackpots",
+      "publicUrl": "https://yggdrasilgaming.com/games/ozwins-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "penguin-city",
+      "name": "Penguin City",
+      "publicUrl": "https://yggdrasilgaming.com/games/penguin-city/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-2-mutiny",
+      "name": "Pirates 2 Mutiny",
+      "publicUrl": "https://yggdrasilgaming.com/games/pirates-2-mutiny/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-smugglers-paradise",
+      "name": "Pirates Smugglers Paradise",
+      "publicUrl": "https://yggdrasilgaming.com/games/pirates-smugglers-paradise/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pumpkin-smash",
+      "name": "Pumpkin Smash",
+      "publicUrl": "https://yggdrasilgaming.com/games/pumpkin-smash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pushy-cats",
+      "name": "Pushy Cats",
+      "publicUrl": "https://yggdrasilgaming.com/games/pushy-cats/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ragnaravens-wildenergy",
+      "name": "Ragnaravens Wildenergy",
+      "publicUrl": "https://yggdrasilgaming.com/games/ragnaravens-wildenergy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ragnawolves",
+      "name": "Ragnawolves",
+      "publicUrl": "https://yggdrasilgaming.com/games/ragnawolves/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-ryan",
+      "name": "Rainbow Ryan",
+      "publicUrl": "https://yggdrasilgaming.com/games/rainbow-ryan/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-ryan-2",
+      "name": "Rainbow Ryan 2",
+      "publicUrl": "https://yggdrasilgaming.com/games/rainbow-ryan-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raptor-2",
+      "name": "Raptor 2",
+      "publicUrl": "https://yggdrasilgaming.com/games/raptor-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raptor-doublemax",
+      "name": "Raptor Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/raptor-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-dragon-sails",
+      "name": "Red Dragon Sails",
+      "publicUrl": "https://yggdrasilgaming.com/games/red-dragon-sails/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-desire",
+      "name": "Reel Desire",
+      "publicUrl": "https://yggdrasilgaming.com/games/reel-desire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rock-star-santa-multimax",
+      "name": "Rock Star Santa Multimax",
+      "publicUrl": "https://yggdrasilgaming.com/games/rock-star-santa-multimax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-family",
+      "name": "Royal Family",
+      "publicUrl": "https://yggdrasilgaming.com/games/royal-family/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sahara-nights",
+      "name": "Sahara Nights",
+      "publicUrl": "https://yggdrasilgaming.com/games/sahara-nights/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scara-bucks",
+      "name": "Scara Bucks",
+      "publicUrl": "https://yggdrasilgaming.com/games/scara-bucks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "seasons",
+      "name": "Seasons",
+      "publicUrl": "https://yggdrasilgaming.com/games/seasons/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shaker-club",
+      "name": "Shaker Club",
+      "publicUrl": "https://yggdrasilgaming.com/games/shaker-club/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spina-colada",
+      "name": "Spina Colada",
+      "publicUrl": "https://yggdrasilgaming.com/games/spina-colada/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "suncatcher-gigablox",
+      "name": "Suncatcher Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/suncatcher-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sunny-shores",
+      "name": "Sunny Shores",
+      "publicUrl": "https://yggdrasilgaming.com/games/sunny-shores/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "syncronite",
+      "name": "Syncronite",
+      "publicUrl": "https://yggdrasilgaming.com/games/syncronite/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-stacks",
+      "name": "Temple Stacks",
+      "publicUrl": "https://yggdrasilgaming.com/games/temple-stacks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "timber-trail-treasures",
+      "name": "Timber Trail Treasures",
+      "publicUrl": "https://yggdrasilgaming.com/games/timber-trail-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "time-travel-tigers",
+      "name": "Time Travel Tigers",
+      "publicUrl": "https://yggdrasilgaming.com/games/time-travel-tigers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trickstar-spins",
+      "name": "Trickstar Spins",
+      "publicUrl": "https://yggdrasilgaming.com/games/trickstar-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trolls_bridge",
+      "name": "Trolls Bridge",
+      "publicUrl": "https://yggdrasilgaming.com/games/trolls_bridge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "turbo-gold-deluxe-gigablox",
+      "name": "Turbo Gold Deluxe Gigablox",
+      "publicUrl": "https://yggdrasilgaming.com/games/turbo-gold-deluxe-gigablox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tuts_twister",
+      "name": "Tuts Twister",
+      "publicUrl": "https://yggdrasilgaming.com/games/tuts_twister/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valley-of-the-dead-onlywins",
+      "name": "Valley Of The Dead Onlywins",
+      "publicUrl": "https://yggdrasilgaming.com/games/valley-of-the-dead-onlywins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valley-of-the-gods",
+      "name": "Valley Of The Gods",
+      "publicUrl": "https://yggdrasilgaming.com/games/valley-of-the-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valley-of-the-gods-2",
+      "name": "Valley Of The Gods 2",
+      "publicUrl": "https://yggdrasilgaming.com/games/valley-of-the-gods-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampire-riches-doublemax",
+      "name": "Vampire Riches Doublemax",
+      "publicUrl": "https://yggdrasilgaming.com/games/vampire-riches-doublemax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vault-of-fortune",
+      "name": "Vault Of Fortune",
+      "publicUrl": "https://yggdrasilgaming.com/games/vault-of-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-berzerk",
+      "name": "Vikings Go Berzerk",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-berzerk/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-berzerk-reloaded",
+      "name": "Vikings Go Berzerk Reloaded",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-berzerk-reloaded/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-egypt-wild-fight",
+      "name": "Vikings Go To Egypt Wild Fight",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-egypt-wild-fight/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-hell",
+      "name": "Vikings Go To Hell",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-hell/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-hollywood-wildfight-rushingwilds",
+      "name": "Vikings Go To Hollywood Wildfight Rushingwilds",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-hollywood-wildfight-rushingwilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-olympus-wildfight-rushingwilds",
+      "name": "Vikings Go To Olympus Wildfight Rushingwilds",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-olympus-wildfight-rushingwilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-valhalla",
+      "name": "Vikings Go To Valhalla",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-valhalla/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-to-vegas-wild-fight",
+      "name": "Vikings Go To Vegas Wild Fight",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-to-vegas-wild-fight/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-go-wild",
+      "name": "Vikings Go Wild",
+      "publicUrl": "https://yggdrasilgaming.com/games/vikings-go-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-robo-factory",
+      "name": "Wild Robo Factory",
+      "publicUrl": "https://yggdrasilgaming.com/games/wild-robo-factory/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-stack-frenzy",
+      "name": "Wild Stack Frenzy",
+      "publicUrl": "https://yggdrasilgaming.com/games/wild-stack-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wilhelm-tell",
+      "name": "Wilhelm Tell",
+      "publicUrl": "https://yggdrasilgaming.com/games/wilhelm-tell/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winter-berries",
+      "name": "Winter Berries",
+      "publicUrl": "https://yggdrasilgaming.com/games/winter-berries/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winterberries-2",
+      "name": "Winterberries 2",
+      "publicUrl": "https://yggdrasilgaming.com/games/winterberries-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-hunters",
+      "name": "Wolf Hunters",
+      "publicUrl": "https://yggdrasilgaming.com/games/wolf-hunters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yokozuna-clash",
+      "name": "Yokozuna Clash",
+      "publicUrl": "https://yggdrasilgaming.com/games/yokozuna-clash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "your-own-island",
+      "name": "Your Own Island",
+      "publicUrl": "https://yggdrasilgaming.com/games/your-own-island/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

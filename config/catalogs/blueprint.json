@@ -1,0 +1,1615 @@
+{
+  "provider": "blueprint",
+  "name": "Blueprint Gaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 267,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "3-pots-o-riches-megaways-jackpot-royale-express",
+      "name": "3 Pots O' Riches Megaways Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/3-pots-o-riches-megaways-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-pots-o-riches-megaways-rapid-fire",
+      "name": "3 Pots O' Riches Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/3-pots-o-riches-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-skulls-of-voodoo",
+      "name": "3 Skulls of Voodoo",
+      "publicUrl": "https://blueprintgaming.com/games/3-skulls-of-voodoo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-deluxe",
+      "name": "7's Deluxe",
+      "publicUrl": "https://blueprintgaming.com/games/7s-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-deluxe-fire-wheel-jackpot-king",
+      "name": "7's Deluxe Fire Wheel Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/7s-deluxe-fire-wheel-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-deluxe-jackpot-king",
+      "name": "7's Deluxe Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/7s-deluxe-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-deluxe-wild-fortune-play",
+      "name": "7's Deluxe Wild Fortune Play",
+      "publicUrl": "https://blueprintgaming.com/games/7s-deluxe-wild-fortune-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-deluxe",
+      "name": "777 Deluxe",
+      "publicUrl": "https://blueprintgaming.com/games/777-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-deluxe-jackpot-king",
+      "name": "777 Deluxe Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/777-deluxe-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-7s-wild-fortune-play",
+      "name": "Almighty 7's Wild Fortune Play",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-7s-wild-fortune-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-mustang-express",
+      "name": "Almighty Mustang Express",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-mustang-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-mustang-express-white-bison",
+      "name": "Almighty Mustang Express White Bison",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-mustang-express-white-bison-jackpot-royale-express",
+      "name": "Almighty Mustang Express White Bison Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-mustang-express-white-bison-rapid-fire",
+      "name": "Almighty Mustang Express White Bison Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-sevens-",
+      "name": "Almighty Sevens",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-sevens-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-sevens-jackpot-royale-",
+      "name": "Almighty Sevens Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/almighty-sevens-jackpot-royale-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "any-witch-way",
+      "name": "Any Witch Way",
+      "publicUrl": "https://blueprintgaming.com/games/any-witch-way",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-cat-gold",
+      "name": "Big Cat Gold",
+      "publicUrl": "https://blueprintgaming.com/games/big-cat-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-bass-fishing",
+      "name": "Big Catch Bass Fishing",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-bass-fishing",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-bass-fishing-christmas",
+      "name": "Big Catch Bass Fishing Christmas",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-bass-fishing-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-bass-fishing-christmas-rapid-fire",
+      "name": "Big Catch Bass Fishing Christmas Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-bass-fishing-christmas-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-bass-fishing-win-stepper-",
+      "name": "Big Catch Bass Fishing Win Stepper",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-bass-fishing-win-stepper-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-even-bigger-bass",
+      "name": "Big Catch Even Bigger Bass",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-even-bigger-bass",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-even-bigger-bass-2",
+      "name": "Big Catch Even Bigger Bass 2",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Big-Catch-Even-Bigger-Bass-3",
+      "name": "Big Catch Even Bigger Bass 3",
+      "publicUrl": "https://blueprintgaming.com/games/Big-Catch-Even-Bigger-Bass-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-even-bigger-bass-jackpot-royale-express",
+      "name": "Big Catch Even Bigger Bass Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-catch-even-bigger-bass-rapid-fire",
+      "name": "Big Catch Even Bigger Bass Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-money-frenzy-cash-gains",
+      "name": "Big Money Frenzy Cash Gains",
+      "publicUrl": "https://blueprintgaming.com/games/big-money-frenzy-cash-gains",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-catch-bass-fishing",
+      "name": "Bigger Catch Bass Fishing",
+      "publicUrl": "https://blueprintgaming.com/games/bigger-catch-bass-fishing",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-catch-bass-fishing-jackpot-royale-express",
+      "name": "Bigger Catch Bass Fishing Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/bigger-catch-bass-fishing-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-catch-bass-fishing-rapid-fire-",
+      "name": "Bigger Catch Bass Fishing Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/bigger-catch-bass-fishing-rapid-fire-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bison-rising-megaways",
+      "name": "Bison Rising MEGAWAYS™",
+      "publicUrl": "https://blueprintgaming.com/games/bison-rising-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bison-rising-megaways-jackpot-king",
+      "name": "Bison Rising MEGAWAYS™ Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/bison-rising-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-cash",
+      "name": "Blazing Cash",
+      "publicUrl": "https://blueprintgaming.com/games/blazing-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bullion-blitz",
+      "name": "Bullion Blitz",
+      "publicUrl": "https://blueprintgaming.com/games/bullion-blitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike",
+      "name": "Cash Strike",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-fire-lock",
+      "name": "Cash Strike Fire Lock",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-fire-lock",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper",
+      "name": "Cash Strike Hotstepper",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Cash-Strike-Hotstepper-2",
+      "name": "Cash Strike Hotstepper 2",
+      "publicUrl": "https://blueprintgaming.com/games/Cash-Strike-Hotstepper-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Cash-Strike-Hotstepper-2-Jackpot-King",
+      "name": "Cash Strike Hotstepper 2 Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/Cash-Strike-Hotstepper-2-Jackpot-King",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper-2-jackpot-royale-express",
+      "name": "Cash Strike Hotstepper 2 Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper-2-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper-2-rapid-fire",
+      "name": "Cash Strike Hotstepper 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper-2-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper-jackpot-royale-express",
+      "name": "Cash Strike Hotstepper Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper-megaways",
+      "name": "Cash Strike Hotstepper Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-hotstepper-rapid-fire",
+      "name": "Cash Strike Hotstepper Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-hotstepper-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-jackpot-king",
+      "name": "Cash Strike Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-power-5",
+      "name": "Cash Strike Power 5",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-power-5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-power-force-5",
+      "name": "Cash Strike Power Force 5",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-power-force-5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-power-force-5-megaways",
+      "name": "Cash Strike Power Force 5 Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-power-force-5-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-power-force-5-megaways-rapid-fire",
+      "name": "Cash Strike Power Force 5 Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-power-force-5-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Cash-Strike-Power-Up",
+      "name": "Cash Strike Power Up",
+      "publicUrl": "https://blueprintgaming.com/games/Cash-Strike-Power-Up",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-triple-fire",
+      "name": "Cash Strike Triple Fire",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-triple-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-win-boost",
+      "name": "Cash Strike Win Boost",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-win-boost",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-strike-x-cash",
+      "name": "Cash Strike X-Cash",
+      "publicUrl": "https://blueprintgaming.com/games/cash-strike-x-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cop-the-lot-even-more-swag-megaways-",
+      "name": "Cop The Lot Even More Swag Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/cop-the-lot-even-more-swag-megaways-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cop-the-lot-megaways-power-play",
+      "name": "Cop The Lot Megaways Power Play",
+      "publicUrl": "https://blueprintgaming.com/games/cop-the-lot-megaways-power-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crown-gems",
+      "name": "Crown Gems",
+      "publicUrl": "https://blueprintgaming.com/games/crown-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-bankers-boost-jackpot-king",
+      "name": "Deal or No Deal Bankers Boost Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-bankers-boost-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-megaways-jackpot-king",
+      "name": "Deal or No Deal Megaways Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-megaways-jackpot-royale-express",
+      "name": "Deal or No Deal Megaways Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-megaways-rapid-fire",
+      "name": "Deal or No Deal Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-megaways-the-golden-box",
+      "name": "Deal or No Deal Megaways: The Golden Box",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-the-golden-box",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-megaways-the-golden-case",
+      "name": "Deal or No Deal Megaways: The Golden Case",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-the-golden-case",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deal-or-no-deal-the-big-hit-megaways-jackpot-king",
+      "name": "Deal or No Deal The Big Hit Megaways Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/deal-or-no-deal-the-big-hit-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mine-megaways",
+      "name": "Diamond Mine MEGAWAYS™",
+      "publicUrl": "https://blueprintgaming.com/games/diamond-mine-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mine-megaways-jackpot-king",
+      "name": "Diamond Mine Megaways™ Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/diamond-mine-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diego-wild-search-for-the-hidden-tiger",
+      "name": "Diego Wild Search for the Hidden Tiger",
+      "publicUrl": "https://blueprintgaming.com/games/diego-wild-search-for-the-hidden-tiger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dumb-and-dumber-route-to-riches",
+      "name": "Dumb and Dumber Route to Riches",
+      "publicUrl": "https://blueprintgaming.com/games/dumb-and-dumber-route-to-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eagle-storm",
+      "name": "Eagle Storm",
+      "publicUrl": "https://blueprintgaming.com/games/eagle-storm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eagle-storm-jackpot-royale-express",
+      "name": "Eagle Storm Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/eagle-storm-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eagle-storm-rapid-fire",
+      "name": "Eagle Storm Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/eagle-storm-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus",
+      "name": "Eye of Horus",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-gold-spins-megaways",
+      "name": "Eye of Horus Gold Spins Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-gold-spins-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-golden-tablet-gold-spins",
+      "name": "Eye of Horus Golden Tablet Gold Spins (UK & Spain Release)",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-golden-tablet-gold-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-jackpot-king",
+      "name": "Eye of Horus Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-jackpot-royale-express",
+      "name": "Eye of Horus Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-legacy-of-gold",
+      "name": "Eye of Horus Legacy of Gold",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-legacy-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-legacy-of-gold-jackpot-king",
+      "name": "Eye of Horus Legacy of Gold Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-legacy-of-gold-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-megaways",
+      "name": "Eye of Horus Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-megaways-jackpot-king",
+      "name": "Eye of Horus Megaways Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-rapid-fire",
+      "name": "Eye of Horus Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-rise-of-egypt",
+      "name": "Eye of Horus Rise of Egypt",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-rise-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-tablets-of-destiny",
+      "name": "Eye of Horus Tablets of Destiny",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-tablets-of-destiny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-tablets-of-destiny-megaways",
+      "name": "Eye of Horus Tablets of Destiny Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-tablets-of-destiny-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-the-golden-tablet",
+      "name": "Eye of Horus The Golden Tablet",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-the-golden-tablet-jackpot-king",
+      "name": "Eye of Horus The Golden Tablet Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-horus-the-golden-tablet-megaways",
+      "name": "Eye of Horus The Golden Tablet Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy",
+      "name": "Fishin' Frenzy",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-christmas",
+      "name": "Fishin' Frenzy Christmas",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-catch",
+      "name": "Fishin' Frenzy Even Bigger Catch",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-catch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-catch-jackpot-king",
+      "name": "Fishin' Frenzy Even Bigger Catch Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-catch-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-fish",
+      "name": "Fishin' Frenzy Even Bigger Fish",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-fish-2-rapid-fire",
+      "name": "Fishin' Frenzy Even Bigger Fish 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-2-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-fish-3-megaways-rapid-fire",
+      "name": "Fishin' Frenzy Even Bigger Fish 3 Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-3-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-even-bigger-fish-rapid-fire",
+      "name": "Fishin' Frenzy Even Bigger Fish Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-fortune-play",
+      "name": "Fishin' Frenzy Fortune Play",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-fortune-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-jpk",
+      "name": "Fishin' Frenzy Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-jpk",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-lure-em-in-uk-only-release-",
+      "name": "Fishin' Frenzy Lure 'Em In (UK Only Release)",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-lure-em-in-uk-only-release-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-megaways",
+      "name": "Fishin' Frenzy Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-prize-lines",
+      "name": "Fishin' Frenzy Prize Lines",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-prize-lines",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-reely-big-catch-jackpot-king",
+      "name": "Fishin' Frenzy Reely Big Catch Jackpot King (UK Only Release)",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-reely-big-catch-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch",
+      "name": "Fishin' Frenzy The Big Catch",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-2",
+      "name": "Fishin' Frenzy The Big Catch 2",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-2-rapid-fire",
+      "name": "Fishin' Frenzy The Big Catch 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-2-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-3",
+      "name": "Fishin' Frenzy The Big Catch 3",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-3-rapid-fire",
+      "name": "Fishin' Frenzy The Big Catch 3 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-3-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-gold-spins",
+      "name": "Fishin' Frenzy The Big Catch Gold Spins (UK Only Release)",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-gold-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-jackpot-king",
+      "name": "Fishin' Frenzy The Big Catch Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-megaways",
+      "name": "Fishin' Frenzy The Big Catch Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-catch-rapid-fire",
+      "name": "Fishin' Frenzy The Big Catch Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-christmas-catch-jackpot-king",
+      "name": "Fishin' Frenzy The Big Christmas Catch Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-christmas-catch-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-match",
+      "name": "Fishin' Frenzy The Big Match (UK Only Release)",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-match",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-the-big-splash",
+      "name": "Fishin' Frenzy The Big Splash",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-the-big-splash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-frenzy-win-stepper-rapid-fire",
+      "name": "Fishin' Frenzy Win Stepper Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/fishin-frenzy-win-stepper-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frankensteins-fortune",
+      "name": "Frankenstein's Fortune",
+      "publicUrl": "https://blueprintgaming.com/games/frankensteins-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-of-thrones",
+      "name": "Game of Thrones",
+      "publicUrl": "https://blueprintgaming.com/games/game-of-thrones",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-of-thrones-jackpot-king",
+      "name": "Game of Thrones Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/game-of-thrones-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-of-thrones-jackpot-royale",
+      "name": "Game of Thrones Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/game-of-thrones-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "genie-jackpots-combo-frenzy",
+      "name": "Genie Jackpots Combo Frenzy",
+      "publicUrl": "https://blueprintgaming.com/games/genie-jackpots-combo-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "genie-jackpots-combo-frenzy-jackpot-king",
+      "name": "Genie Jackpots Combo Frenzy Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/genie-jackpots-combo-frenzy-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "genie-jackpots-three-wishes-combo-frenzy-ont--ab-release",
+      "name": "Genie Jackpots Three Wishes Combo Frenzy (ONT & AB Release)",
+      "publicUrl": "https://blueprintgaming.com/games/genie-jackpots-three-wishes-combo-frenzy-ont--ab-release",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-strike",
+      "name": "Gold Strike",
+      "publicUrl": "https://blueprintgaming.com/games/gold-strike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-strike-2-jackpot-royale-express",
+      "name": "Gold Strike 2 Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/gold-strike-2-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-strike-2-rapid-fire",
+      "name": "Gold Strike 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/gold-strike-2-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-strike-express-",
+      "name": "Gold Strike Express",
+      "publicUrl": "https://blueprintgaming.com/games/gold-strike-express-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-strike-jackpot-king",
+      "name": "Gold Strike Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/gold-strike-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "house-of-the-dragon",
+      "name": "House of The Dragon",
+      "publicUrl": "https://blueprintgaming.com/games/house-of-the-dragon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewel-stepper",
+      "name": "Jewel Stepper",
+      "publicUrl": "https://blueprintgaming.com/games/jewel-stepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash",
+      "name": "King Kong Cash",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-dj-prime8",
+      "name": "King Kong Cash DJ Prime8",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-dj-prime8-jackpot-royale-express",
+      "name": "King Kong Cash DJ Prime8 Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-dj-prime8-rapid-fire",
+      "name": "King Kong Cash DJ Prime8 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas",
+      "name": "King Kong Cash Even Bigger Bananas",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-2",
+      "name": "King Kong Cash Even Bigger Bananas 2",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-2-jackpot-royale-express",
+      "name": "King Kong Cash Even Bigger Bananas 2 Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-2-rapid-fire-",
+      "name": "King Kong Cash Even Bigger Bananas 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2-rapid-fire-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-4",
+      "name": "King Kong Cash Even Bigger Bananas 4",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-christmas",
+      "name": "King Kong Cash Even Bigger Bananas Christmas",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-jackpot-king",
+      "name": "King Kong Cash Even Bigger Bananas Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-even-bigger-bananas-jackpot-royale",
+      "name": "King Kong Cash Even Bigger Bananas Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-go-bananas-jackpot-king",
+      "name": "King Kong Cash Go Bananas Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-go-bananas-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cash-jackpot-king",
+      "name": "King Kong Cash Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cash-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cashpots",
+      "name": "King Kong Cashpots",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cashpots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-cashpots-jackpot-king",
+      "name": "King Kong Cashpots Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-cashpots-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-splash",
+      "name": "King Kong Splash",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-splash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-splash-jackpot-king",
+      "name": "King Kong Splash Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-splash-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-splash-jackpot-royale",
+      "name": "King Kong Splash Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-splash-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-kong-splash-power-play",
+      "name": "King Kong Splash Power Play",
+      "publicUrl": "https://blueprintgaming.com/games/king-kong-splash-power-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Kong-3-Even-Bigger-Bonus",
+      "name": "Kong 3 Even Bigger Bonus",
+      "publicUrl": "https://blueprintgaming.com/games/Kong-3-Even-Bigger-Bonus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kong-3-even-bigger-bonus-jackpot-royale-express",
+      "name": "Kong 3 Even Bigger Bonus Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/kong-3-even-bigger-bonus-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kong-3-even-bigger-bonus-rapid-fire",
+      "name": "Kong 3 Even Bigger Bonus Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/kong-3-even-bigger-bonus-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kong-even-bigger-balls",
+      "name": "Kong Even Bigger Balls",
+      "publicUrl": "https://blueprintgaming.com/games/kong-even-bigger-balls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kong-even-bigger-christmas",
+      "name": "Kong Even Bigger Christmas",
+      "publicUrl": "https://blueprintgaming.com/games/kong-even-bigger-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lava-lock",
+      "name": "Lava Lock",
+      "publicUrl": "https://blueprintgaming.com/games/lava-lock",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lava-lock-jackpot-king",
+      "name": "Lava Lock Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/lava-lock-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-cash-strike-jackpot-royale-express",
+      "name": "Luck O' The Irish Cash Strike Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-cash-strike-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-cash-strike-rapid-fire",
+      "name": "Luck O' The Irish Cash Strike Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-cash-strike-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-fortune-play",
+      "name": "Luck O' The Irish Fortune Play",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-fortune-play-2",
+      "name": "Luck O' The Irish Fortune Play 2",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-fortune-play-2-uk-only-release",
+      "name": "Luck O' The Irish Fortune Play 2 (UK Only Release)",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play-2-uk-only-release",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-fortune-spins-3",
+      "name": "Luck O' The Irish Fortune Play 3",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-spins-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-gold-spins",
+      "name": "Luck O' The Irish Gold Spins",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-gold-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-gold-spins-fortune-play-jackpot-king",
+      "name": "Luck O' The Irish Gold Spins Fortune Play Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-gold-spins-fortune-play-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-spins-o-gold",
+      "name": "Luck O' The Irish Spins O' Gold",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-spins-o-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-o-the-irish-strike-rapid-fire",
+      "name": "Luck O’ The Irish Strike Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/luck-o-the-irish-strike-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fire-blitz-hotstepper",
+      "name": "Lucky Fire Blitz Hotstepper",
+      "publicUrl": "https://blueprintgaming.com/games/lucky-fire-blitz-hotstepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fire-blitz-megaways",
+      "name": "Lucky Fire Blitz Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/lucky-fire-blitz-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fire-blitz-win-boost",
+      "name": "Lucky Fire Blitz Win Boost",
+      "publicUrl": "https://blueprintgaming.com/games/lucky-fire-blitz-win-boost",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-megaways",
+      "name": "Majestic Fury Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-megaways-jackpot-royale-express",
+      "name": "Majestic Fury Megaways Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-megaways-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-megaways-rapid-fire",
+      "name": "Majestic Fury Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-megaways-unleashed",
+      "name": "Majestic Fury Megaways Unleashed",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-megaways-unleashed",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-power-5",
+      "name": "Majestic Fury Power 5",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-power-5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-win-stepper",
+      "name": "Majestic Fury Win Stepper",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-win-stepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-win-stepper-jackpot-royale-express",
+      "name": "Majestic Fury Win Stepper Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-win-stepper-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-fury-win-stepper-rapid-fire",
+      "name": "Majestic Fury Win Stepper Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/majestic-fury-win-stepper-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "maradona-golden-goal",
+      "name": "Maradona Golden Goal",
+      "publicUrl": "https://blueprintgaming.com/games/maradona-golden-goal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "meerkat-mayhem-jackpot-royale-express",
+      "name": "Meerkat Mayhem Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/meerkat-mayhem-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "meerkat-mayhem-rapid-fire",
+      "name": "Meerkat Mayhem Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/meerkat-mayhem-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-charged-cash",
+      "name": "Mega Charged Cash",
+      "publicUrl": "https://blueprintgaming.com/games/mega-charged-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "Midas%20King%20of%20Gold",
+      "name": "Midas King of Gold",
+      "publicUrl": "https://blueprintgaming.com/games/Midas%20King%20of%20Gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "publicUrl": "https://blueprintgaming.com/games/napoleon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "napoleon-deluxe",
+      "name": "Napoleon Deluxe",
+      "publicUrl": "https://blueprintgaming.com/games/napoleon-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-o-fish",
+      "name": "Plenty O’ Fish",
+      "publicUrl": "https://blueprintgaming.com/games/plenty-o-fish",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prospector-megaways",
+      "name": "Prospector MEGAWAYS™",
+      "publicUrl": "https://blueprintgaming.com/games/prospector-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-catch",
+      "name": "Red Hot Catch",
+      "publicUrl": "https://blueprintgaming.com/games/red-hot-catch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-chilli-",
+      "name": "Red Hot Chilli",
+      "publicUrl": "https://blueprintgaming.com/games/red-hot-chilli-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-eruption",
+      "name": "Red Hot Eruption",
+      "publicUrl": "https://blueprintgaming.com/games/red-hot-eruption",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king-hot-to-pot-jackpot-king",
+      "name": "Reel King® Hot to Pot Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/reel-king-hot-to-pot-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king-hot-to-pot-jackpot-Royale",
+      "name": "Reel King® Hot to Pot Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/reel-king-hot-to-pot-jackpot-Royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king-riches-jackpot-king",
+      "name": "Reel King® Riches Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/reel-king-riches-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "return-of-kong-megaways",
+      "name": "Return of Kong Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/return-of-kong-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rick-and-morty-strike-back",
+      "name": "Rick And Morty Strike Back",
+      "publicUrl": "https://blueprintgaming.com/games/rick-and-morty-strike-back",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rick-and-morty-strike-back-jackpot-royale-express",
+      "name": "Rick And Morty Strike Back Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/rick-and-morty-strike-back-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rick-and-morty-strike-back-rapid-fire",
+      "name": "Rick And Morty Strike Back Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/rick-and-morty-strike-back-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rick-and-morty-wubba-lubba-dub-dub",
+      "name": "Rick And Morty Wubba Lubba Dub Dub",
+      "publicUrl": "https://blueprintgaming.com/games/rick-and-morty-wubba-lubba-dub-dub",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-atlantis",
+      "name": "Rise of Atlantis",
+      "publicUrl": "https://blueprintgaming.com/games/rise-of-atlantis",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-atlantis-legacy",
+      "name": "Rise of Atlantis Legacy",
+      "publicUrl": "https://blueprintgaming.com/games/rise-of-atlantis-legacy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "saint-nicked-3-present-tense",
+      "name": "Saint Nicked 3 Present Tense",
+      "publicUrl": "https://blueprintgaming.com/games/saint-nicked-3-present-tense",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "samba-reels",
+      "name": "Samba Reels",
+      "publicUrl": "https://blueprintgaming.com/games/samba-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scarab-rising-megaways",
+      "name": "Scarab Rising Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/scarab-rising-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scarab-rising-megaways-jackpot-king",
+      "name": "Scarab Rising Megaways Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/scarab-rising-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "searing-7s",
+      "name": "Searing 7s",
+      "publicUrl": "https://blueprintgaming.com/games/searing-7s",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slots-o-gold-triple-fire-jackpot-king",
+      "name": "Slots O' Gold Triple Fire Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/slots-o-gold-triple-fire-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spirit-wolf-wins",
+      "name": "Spirit Wolf Wins",
+      "publicUrl": "https://blueprintgaming.com/games/spirit-wolf-wins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-7-winner",
+      "name": "Super 7 Winner",
+      "publicUrl": "https://blueprintgaming.com/games/super-7-winner",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-graphics-upside-down",
+      "name": "Super Graphics Upside Down",
+      "publicUrl": "https://blueprintgaming.com/games/super-graphics-upside-down",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ted",
+      "name": "Ted",
+      "publicUrl": "https://blueprintgaming.com/games/ted",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ted-afterparty-",
+      "name": "Ted Afterparty",
+      "publicUrl": "https://blueprintgaming.com/games/ted-afterparty-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ted-stuffed-and-loaded",
+      "name": "Ted Stuffed & Loaded",
+      "publicUrl": "https://blueprintgaming.com/games/ted-stuffed-and-loaded",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones",
+      "name": "The Flintstones",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-bedrock-riches",
+      "name": "The Flintstones Bedrock Riches",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-bedrock-riches-jackpot-king",
+      "name": "The Flintstones Bedrock Riches Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-bedrock-riches-jackpot-royale",
+      "name": "The Flintstones Bedrock Riches Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-jackpot-royale-express",
+      "name": "The Flintstones Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rapid-fire-",
+      "name": "The Flintstones Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rapid-fire-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rock-around-the-pots-jackpot-royale-express",
+      "name": "The Flintstones Rock Around The Pots Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rock-around-the-pots-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rock-around-the-pots-rapid-fire",
+      "name": "The Flintstones Rock Around The Pots Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rock-around-the-pots-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rocky-riches",
+      "name": "The Flintstones Rocky Riches",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rocky-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rocky-riches-jackpot-king-",
+      "name": "The Flintstones Rocky Riches Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rocky-riches-jackpot-king-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-flintstones-rocky-riches-jackpot-royale",
+      "name": "The Flintstones Rocky Riches Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-flintstones-rocky-riches-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies",
+      "name": "The Goonies",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-cash-inferno",
+      "name": "The Goonies Cash Inferno",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-cash-inferno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-deluxe-jackpot-royale-express",
+      "name": "The Goonies Deluxe Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-deluxe-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-deluxe-rapid-fire",
+      "name": "The Goonies Deluxe Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-deluxe-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-hey-you-guys",
+      "name": "The Goonies Hey You Guys",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-hey-you-guys",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-jackpot-king",
+      "name": "The Goonies Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways",
+      "name": "The Goonies Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-jackpot-king",
+      "name": "The Goonies Megaways Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-jackpot-royale",
+      "name": "The Goonies Megaways Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-jackpot-royale-express",
+      "name": "The Goonies Megaways Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-quest-for-treasure-jackpot-king",
+      "name": "The Goonies Megaways Quest for Treasure Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-quest-for-treasure-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-quest-for-treasure-jackpot-royale",
+      "name": "The Goonies Megaways Quest for Treasure Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-quest-for-treasure-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-megaways-rapid-fire",
+      "name": "The Goonies Megaways Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-megaways-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-2",
+      "name": "The Goonies Quest For Treasure 2",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-2-jackpot-royale-express",
+      "name": "The Goonies Quest For Treasure 2 Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-2-rapid-fire",
+      "name": "The Goonies Quest For Treasure 2 Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-3",
+      "name": "The Goonies Quest for Treasure 3",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-3-jackpot-king",
+      "name": "The Goonies Quest for Treasure 3 Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-quest-for-treasure-3-jackpot-royale",
+      "name": "The Goonies Quest for Treasure 3 Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-return",
+      "name": "The Goonies Return",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-return",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-goonies-return-jackpot-king",
+      "name": "The Goonies Return Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-goonies-return-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-jetsons-jackpot-king-",
+      "name": "The Jetsons Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/the-jetsons-jackpot-king-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-jetsons-jackpot-royale",
+      "name": "The Jetsons Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/the-jetsons-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-lost-boys",
+      "name": "The Lost Boys",
+      "publicUrl": "https://blueprintgaming.com/games/the-lost-boys",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-lost-boys-jackpot-royale-express",
+      "name": "The Lost Boys Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/the-lost-boys-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-lost-boys-rapid-fire-",
+      "name": "The Lost Boys Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/the-lost-boys-rapid-fire-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-pig-wizard-cash-lock",
+      "name": "The Pig Wizard Cash Lock",
+      "publicUrl": "https://blueprintgaming.com/games/the-pig-wizard-cash-lock",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "top-cat-dining-for-dollars-jackpot-king",
+      "name": "Top Cat Dining For Dollars Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/top-cat-dining-for-dollars-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "top-cat-dining-for-dollars-jackpot-royale",
+      "name": "Top Cat Dining For Dollars Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/top-cat-dining-for-dollars-jackpot-royale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trailblazer",
+      "name": "Trailblazer",
+      "publicUrl": "https://blueprintgaming.com/games/trailblazer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trailblazer-jackpot-royale-express",
+      "name": "Trailblazer Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/trailblazer-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trailblazer-rapid-fire-",
+      "name": "Trailblazer Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/trailblazer-rapid-fire-",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-action-cash-strike",
+      "name": "Triple Action Cash Strike",
+      "publicUrl": "https://blueprintgaming.com/games/triple-action-cash-strike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-action-cash-strike-jackpot-royale-express",
+      "name": "Triple Action Cash Strike Jackpot Royale Express",
+      "publicUrl": "https://blueprintgaming.com/games/triple-action-cash-strike-jackpot-royale-express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-action-cash-strike-rapid-fire",
+      "name": "Triple Action Cash Strike Rapid Fire",
+      "publicUrl": "https://blueprintgaming.com/games/triple-action-cash-strike-rapid-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-power-cash-strike",
+      "name": "Triple Power Cash Strike",
+      "publicUrl": "https://blueprintgaming.com/games/triple-power-cash-strike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-power-cash-strike-ont--ab-release",
+      "name": "Triple Power Cash Strike (ONT & AB Release)",
+      "publicUrl": "https://blueprintgaming.com/games/triple-power-cash-strike-ont--ab-release",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-unchained-megaways",
+      "name": "Vikings Unchained MEGAWAYS™",
+      "publicUrl": "https://blueprintgaming.com/games/vikings-unchained-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-unleashed-megaways",
+      "name": "Vikings Unleashed MEGAWAYS™",
+      "publicUrl": "https://blueprintgaming.com/games/vikings-unleashed-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-fury-fire-blitz",
+      "name": "Wolf Fury Fire Blitz",
+      "publicUrl": "https://blueprintgaming.com/games/wolf-fury-fire-blitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-legend-gold-megaways",
+      "name": "Wolf Legend Gold Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/wolf-legend-gold-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-legend-megaways",
+      "name": "Wolf Legend Megaways",
+      "publicUrl": "https://blueprintgaming.com/games/wolf-legend-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-legend-spin-boost",
+      "name": "Wolf Legend Spin Boost",
+      "publicUrl": "https://blueprintgaming.com/games/wolf-legend-spin-boost",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yogi-bear",
+      "name": "Yogi Bear",
+      "publicUrl": "https://blueprintgaming.com/games/yogi-bear",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yogi-bear-jackpot-king",
+      "name": "Yogi Bear Jackpot King",
+      "publicUrl": "https://blueprintgaming.com/games/yogi-bear-jackpot-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yogi-bear-jackpot-royale",
+      "name": "Yogi Bear Jackpot Royale",
+      "publicUrl": "https://blueprintgaming.com/games/yogi-bear-jackpot-royale",
+      "launchUrlOmitted": false
+    }
+  ]
+}

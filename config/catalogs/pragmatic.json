@@ -1,0 +1,3973 @@
+{
+  "provider": "pragmatic",
+  "name": "Pragmatic Play",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 660,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "3-buzzing-wilds",
+      "name": "3 Buzzing Wilds™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/3-buzzing-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-dancing-monkeys",
+      "name": "3 Dancing Monkeys™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/3-dancing-monkeys/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-genie-wishes-slot",
+      "name": "3 Genie Wishes™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/3-genie-wishes-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-kingdoms-battle-of-red-cliffs-slot",
+      "name": "3 Kingdoms – Battle of Red Cliffs™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/3-kingdoms-battle-of-red-cliffs-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-magic-eggs",
+      "name": "3 Magic Eggs",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/3-magic-eggs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-frozen-charms-megaways",
+      "name": "5 Frozen Charms Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-frozen-charms-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-dance",
+      "name": "5 Lions Dance™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-dance/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-gold-slot",
+      "name": "5 Lions Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-megaways",
+      "name": "5 Lions Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-megaways-2",
+      "name": "5 Lions Megaways™ 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-megaways-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-reborn",
+      "name": "5 Lions Reborn",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-reborn/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-lions-slot",
+      "name": "5 Lions™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/5-lions-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "6-jokers",
+      "name": "6 Jokers",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/6-jokers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-clovers-of-fortune",
+      "name": "7 Clovers of Fortune",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/7-clovers-of-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-monkeys-slot",
+      "name": "7 Monkeys",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/7-monkeys-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-piggies-slot",
+      "name": "7 Piggies™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/7-piggies-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-rush",
+      "name": "777 Rush",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/777-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-wheel-blitz",
+      "name": "777 Wheel Blitz",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/777-wheel-blitz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "8-dragons-slot",
+      "name": "8 Dragons™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/8-dragons-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "8-golden-dragon-challenge",
+      "name": "8 Golden Dragon Challenge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/8-golden-dragon-challenge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "888-dragons-slot",
+      "name": "888 Dragons™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/888-dragons-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "888-gold-slot",
+      "name": "888 Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/888-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "african-elephant",
+      "name": "African Elephant™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/african-elephant/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aladdin-and-the-sorcerer-slot",
+      "name": "Aladdin and the Sorcerer™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aladdin-and-the-sorcerer-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aladdins-treasure-slot",
+      "name": "Aladdin’s Treasure",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aladdins-treasure-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alien-invaders",
+      "name": "Alien Invaders",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/alien-invaders/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "anaconda-gold",
+      "name": "Anaconda Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/anaconda-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-egypt-classic-slot",
+      "name": "Ancient Egypt Classic™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ancient-egypt-classic-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-egypt-slot",
+      "name": "Ancient Egypt™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ancient-egypt-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-island-megaways",
+      "name": "Ancient Island Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ancient-island-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "angel-vs-sinner",
+      "name": "Angel vs Sinner",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/angel-vs-sinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "argonauts",
+      "name": "Argonauts",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/argonauts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "asgard-slot",
+      "name": "Asgard™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/asgard-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-blaze",
+      "name": "Aztec Blaze",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-blaze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-bonanza-slot",
+      "name": "Aztec Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-gems-deluxe-slot",
+      "name": "Aztec Gems Deluxe™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-gems-deluxe-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-gems-megaways",
+      "name": "Aztec Gems Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-gems-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-gems-slot",
+      "name": "Aztec Gems™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-gems-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-powernudge",
+      "name": "Aztec Powernudge",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-powernudge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-smash",
+      "name": "Aztec Smash",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-smash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-treasure-hunt",
+      "name": "Aztec Treasure Hunt",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/aztec-treasure-hunt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "badge-blitz",
+      "name": "Badge Blitz",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/badge-blitz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bandit-megaways",
+      "name": "Bandit Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bandit-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "barn-festival",
+      "name": "Barn Festival",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/barn-festival/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "barnyard-megahays-megaways",
+      "name": "Barnyard Megahays Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/barnyard-megahays-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bear-crazy",
+      "name": "Bear Crazy",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bear-crazy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bee-keeper",
+      "name": "Bee Keeper",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bee-keeper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "better-barn-house-bonanza",
+      "name": "Better Barn House Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/better-barn-house-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beware-the-deep-megaways",
+      "name": "Beware The Deep Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/beware-the-deep-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-amazon-xtreme",
+      "name": "Big Bass Amazon Xtreme",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-amazon-xtreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-blast",
+      "name": "Big Bass Blast",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-blast/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-bonanza-1000",
+      "name": "Big Bass Bonanza 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-bonanza-3-reeler",
+      "name": "Big Bass Bonanza 3 Reeler",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-3-reeler/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-bonanza-megaways",
+      "name": "Big Bass Bonanza Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-bonanza-reel-action",
+      "name": "Big Bass Bonanza – Reel Action",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-reel-action/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-bonanza",
+      "name": "Big Bass Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-boxing-bonus-round",
+      "name": "Big Bass Boxing Bonus Round",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-boxing-bonus-round/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-christmas-bash",
+      "name": "Big Bass Christmas Bash™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-christmas-bash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-christmas-frozen-lake",
+      "name": "Big Bass Christmas – Frozen Lake",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-christmas-frozen-lake/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-day-at-the-races",
+      "name": "Big Bass Day at the Races",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-day-at-the-races/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-floats-my-boat",
+      "name": "Big Bass Floats My Boat",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-floats-my-boat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-football-bonanza",
+      "name": "Big Bass Football Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-football-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-halloween-2",
+      "name": "Big Bass Halloween 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-halloween-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-halloween-3",
+      "name": "Big Bass Halloween 3",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-halloween-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-halloween-splash-1000",
+      "name": "Big Bass Halloween Splash 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-halloween-splash-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-halloween",
+      "name": "Big Bass Halloween™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-halloween/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-hold-spinner-megaways",
+      "name": "Big Bass Hold & Spinner Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-mission-fishin",
+      "name": "Big Bass Mission Fishin’",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-mission-fishin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-raceday-repeat",
+      "name": "Big Bass Raceday Repeat",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-raceday-repeat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-reel-repeat",
+      "name": "Big Bass Reel Repeat",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-reel-repeat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-return-to-the-races",
+      "name": "Big Bass Return to the Races",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-return-to-the-races/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-secrets-of-the-golden-lake",
+      "name": "Big Bass Secrets of the Golden Lake",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-secrets-of-the-golden-lake/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-splash",
+      "name": "Big Bass Splash",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-splash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-splash-1000",
+      "name": "Big Bass Splash 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-splash-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-trophy-catch",
+      "name": "Big Bass Trophy Catch",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-trophy-catch/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-vegas-1000",
+      "name": "Big Bass Vegas 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-vegas-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-double-down-deluxe",
+      "name": "Big Bass Vegas Double Down Deluxe",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-double-down-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-xmas-extreme",
+      "name": "Big Bass Xmas Extreme",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-xmas-extreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-hold-spinner",
+      "name": "Big Bass – Hold & Spinner™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bass-keeping-it-reel",
+      "name": "Big Bass – Keeping it Reel",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-bass-keeping-it-reel/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-burger-load-it-up-with-xtra-cheese",
+      "name": "Big Burger Load it up with Xtra cheese",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-burger-load-it-up-with-xtra-cheese/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-juan",
+      "name": "Big Juan™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/big-juan/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-barn-house-bonanza",
+      "name": "Bigger Barn House Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bigger-barn-house-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-bass-blizzard-christmas-catch",
+      "name": "Bigger Bass Blizzard – Christmas Catch™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bigger-bass-blizzard-christmas-catch/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-bass-bonanza",
+      "name": "Bigger Bass Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bigger-bass-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bigger-bass-splash",
+      "name": "Bigger Bass Splash",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bigger-bass-splash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingo-mania",
+      "name": "Bingo Mania",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bingo-mania/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-bull",
+      "name": "Black Bull",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/black-bull/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blade-fangs",
+      "name": "Blade & Fangs",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/blade-fangs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-wilds-megaways",
+      "name": "Blazing Wilds Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/blazing-wilds-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blitz-super-wheel",
+      "name": "Blitz Super Wheel",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/blitz-super-wheel/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bloody-dawn",
+      "name": "Bloody Dawn",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bloody-dawn/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bomb-bonanza",
+      "name": "Bomb Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bomb-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-golden-sands",
+      "name": "Book of Golden Sands",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-golden-sands/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-kingdoms",
+      "name": "Book of Kingdoms®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-kingdoms/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-monsters",
+      "name": "Book of Monsters",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-monsters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-the-fallen",
+      "name": "Book of the Fallen™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-the-fallen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-tut-megaways",
+      "name": "Book of Tut Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-tut-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-vikings",
+      "name": "Book of Vikings®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/book-of-vikings/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bounty-gold",
+      "name": "Bounty Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bounty-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bounty-hunter",
+      "name": "Bounty Hunter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bounty-hunter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bow-of-artemis",
+      "name": "Bow of Artemis",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bow-of-artemis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brick-house-bonanza",
+      "name": "Brick House Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/brick-house-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bubble-up",
+      "name": "Bubble Up!",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/bubble-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-king-megaways",
+      "name": "Buffalo King Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/buffalo-king-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-king-untamed-megaways",
+      "name": "Buffalo King Untamed Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/buffalo-king-untamed-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-king-slot",
+      "name": "Buffalo King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/buffalo-king-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caishens-cash-pots",
+      "name": "Caishen’s Cash Pots",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/caishens-cash-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caishens-cash-slot",
+      "name": "Caishen’s Cash™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/caishens-cash-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caishens-gold-slot",
+      "name": "Caishen’s Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/caishens-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-blitz-bombs",
+      "name": "Candy Blitz Bombs",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-blitz-bombs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-blitz",
+      "name": "Candy Blitz™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-blitz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-corner",
+      "name": "Candy Corner",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-corner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-jar-clusters",
+      "name": "Candy Jar Clusters™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-jar-clusters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-rush",
+      "name": "Candy Rush",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-stars",
+      "name": "Candy Stars",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/candy-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-kraken-megaways",
+      "name": "Captain Kraken Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/captain-kraken-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-bonanza",
+      "name": "Cash Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-box",
+      "name": "Cash Box™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-box/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-chips",
+      "name": "Cash Chips™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-chips/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-elevator",
+      "name": "Cash Elevator™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-elevator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-patrol",
+      "name": "Cash Patrol",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-patrol/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-surge",
+      "name": "Cash Surge",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cash-surge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "castle-of-fire",
+      "name": "Castle of Fire",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/castle-of-fire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chase-for-glory",
+      "name": "Chase for Glory™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chase-for-glory/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cheetah-wild",
+      "name": "Cheetah Wild",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cheetah-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chests-of-cai-shen",
+      "name": "Chests of Cai Shen",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chests-of-cai-shen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chests-of-cai-shen-2",
+      "name": "Chests of Cai Shen 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chests-of-cai-shen-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicken-chase",
+      "name": "Chicken Chase",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chicken-chase/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicken-drop",
+      "name": "Chicken Drop®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chicken-drop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chilli-heat-spicy-spins",
+      "name": "Chilli Heat Spicy Spins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chilli-heat-spicy-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chilli-heat-slot",
+      "name": "Chilli Heat®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chilli-heat-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chilli-heat-megaways",
+      "name": "Chilli Heat® Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/chilli-heat-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-big-bass-bonanza",
+      "name": "Christmas Big Bass Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/christmas-big-bass-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-carol-megaways",
+      "name": "Christmas Carol Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/christmas-carol-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cleocatra",
+      "name": "Cleocatra®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cleocatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clover-gold",
+      "name": "Clover Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/clover-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "club-tropicana-happy-hour",
+      "name": "Club Tropicana – Happy Hour",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/club-tropicana-happy-hour/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "club-tropicana",
+      "name": "Club Tropicana™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/club-tropicana/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "code-of-cairo",
+      "name": "Code of Cairo",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/code-of-cairo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "colossal-cash-zone",
+      "name": "Colossal Cash Zone™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/colossal-cash-zone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "congo-cash-xl",
+      "name": "Congo Cash XL",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/congo-cash-xl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "congo-cash",
+      "name": "Congo Cash™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/congo-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cosmic-cash",
+      "name": "Cosmic Cash",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cosmic-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cosmic-clusters",
+      "name": "Cosmic Clusters!",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cosmic-clusters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "country-farming",
+      "name": "Country Farming™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/country-farming/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coven-rising",
+      "name": "Coven Rising",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/coven-rising/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cowboy-coins",
+      "name": "Cowboy Coins™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cowboy-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cowboys-gold",
+      "name": "Cowboys Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cowboys-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crank-it-up",
+      "name": "Crank It Up",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/crank-it-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crown-of-fire",
+      "name": "Crown of Fire",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/crown-of-fire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-caverns-megaways",
+      "name": "Crystal Caverns Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/crystal-caverns-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cult",
+      "name": "CULT",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cult/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "curse-of-the-werewolf-megaways-slot",
+      "name": "Curse of the Werewolf Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/curse-of-the-werewolf-megaways-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyberheist-city",
+      "name": "Cyberheist City",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cyberheist-city/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyclops-smash",
+      "name": "Cyclops Smash™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/cyclops-smash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dance-party-slot",
+      "name": "Dance Party™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dance-party-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "day-of-dead",
+      "name": "Day of Dead™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/day-of-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "death-dominion",
+      "name": "Death Dominion",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/death-dominion/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deep-sea-frenzy",
+      "name": "Deep Sea Frenzy",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/deep-sea-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "demon-pots",
+      "name": "Demon Pots™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/demon-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "devilicious",
+      "name": "Devilicious",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/devilicious/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cascade",
+      "name": "Diamond Cascade™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/diamond-cascade/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-strike-scratchcard",
+      "name": "Diamond Strike Scratchcard",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/diamond-strike-scratchcard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-strike-slot",
+      "name": "Diamond Strike®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/diamond-strike-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamonds-are-forever-3-lines-slot",
+      "name": "Diamonds are Forever 3 Lines™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/diamonds-are-forever-3-lines-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamonds-of-egypt",
+      "name": "Diamonds Of Egypt™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/diamonds-of-egypt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ding-dong-christmas-bells",
+      "name": "Ding Dong Christmas Bells™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ding-dong-christmas-bells/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dino-drop",
+      "name": "Dino Drop",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dino-drop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-neko",
+      "name": "DJ Neko",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dj-neko/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "down-the-rails",
+      "name": "Down the Rails",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/down-the-rails/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "drago-jewels-of-fortune-slot",
+      "name": "Drago – Jewels of Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/drago-jewels-of-fortune-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-gold-88",
+      "name": "Dragon Gold 88",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-gold-88/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-hero",
+      "name": "Dragon Hero™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-hero/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-hot-hold-and-spin",
+      "name": "Dragon Hot Hold and Spin™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-hot-hold-and-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-king-hot-pots",
+      "name": "Dragon King Hot Pots",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-king-hot-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-kingdom-eyes-of-fire",
+      "name": "Dragon Kingdom – Eyes of Fire™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-kingdom-eyes-of-fire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-kingdom-slot",
+      "name": "Dragon Kingdom™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-kingdom-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-pots-megaways",
+      "name": "Dragon Pots Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-pots-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-tiger-fortunes",
+      "name": "Dragon Tiger Fortunes",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragon-tiger-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-gate-bonus-choice",
+      "name": "Dragon’s Gate – Bonus Choice",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dragons-gate-bonus-choice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "drill-that-gold",
+      "name": "Drill that Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/drill-that-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "duel-of-night-day",
+      "name": "Duel of Night & Day",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/duel-of-night-day/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dwarf-dragon",
+      "name": "Dwarf & Dragon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dwarf-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dwarven-gold-slot-2",
+      "name": "Dwarven Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dwarven-gold-slot-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dwarven-gold-deluxe-slot",
+      "name": "Dwarven Gold Deluxe™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dwarven-gold-deluxe-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-diggin-doug",
+      "name": "Dynamite Diggin Doug",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/dynamite-diggin-doug/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eastern-fury",
+      "name": "Eastern Fury",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eastern-fury/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egyptian-fortunes-slot",
+      "name": "Egyptian Fortunes™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/egyptian-fortunes-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elemental-gems-megaways",
+      "name": "Elemental Gems Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/elemental-gems-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emerald-king-wheel-of-wealth",
+      "name": "Emerald King – Wheel of Wealth",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/emerald-king-wheel-of-wealth/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emerald-king-slot",
+      "name": "Emerald King®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/emerald-king-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emerald-king-rainbow-road",
+      "name": "Emerald King® Rainbow Road",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/emerald-king-rainbow-road/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emotiwins",
+      "name": "Emotiwins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/emotiwins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "empty-the-bank",
+      "name": "Empty the Bank™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/empty-the-bank/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "escape-the-pyramid-fire-ice",
+      "name": "Escape the Pyramid – Fire & Ice",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/escape-the-pyramid-fire-ice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eternal-diamonds",
+      "name": "Eternal Diamonds",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eternal-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eternal-empress-freeze-time",
+      "name": "Eternal Empress – Freeze Time",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eternal-empress-freeze-time/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "excalibur-unleashed",
+      "name": "Excalibur Unleashed™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/excalibur-unleashed/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-juicy-megaways",
+      "name": "Extra Juicy Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/extra-juicy-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-juicy-slot",
+      "name": "Extra Juicy™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/extra-juicy-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-cleopatra",
+      "name": "Eye of Cleopatra™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eye-of-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-spartacus",
+      "name": "Eye of Spartacus",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eye-of-spartacus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-the-storm",
+      "name": "Eye of the Storm™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/eye-of-the-storm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fairytale-fortune-slot",
+      "name": "Fairytale Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fairytale-fortune-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fangtastic-freespins",
+      "name": "Fangtastic Freespins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fangtastic-freespins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-panda",
+      "name": "Fat Panda™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fat-panda/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fiesta-fortune",
+      "name": "Fiesta Fortune",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fiesta-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "finger-lickn-free-spins",
+      "name": "Finger Lick’n Free Spins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/finger-lickn-free-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "88-fire-slot",
+      "name": "Fire 88™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/88-fire-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-archer",
+      "name": "Fire Archer",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-archer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-hot-100",
+      "name": "Fire Hot 100",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-hot-100/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-hot-20",
+      "name": "Fire Hot 20",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-hot-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-hot-40",
+      "name": "Fire Hot 40",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-hot-40/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-hot-5",
+      "name": "Fire Hot 5",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-hot-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-portals",
+      "name": "Fire Portals",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-portals/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-stampede-2",
+      "name": "Fire Stampede 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-stampede-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-stampede-ultimate",
+      "name": "Fire Stampede Ultimate",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-stampede-ultimate/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-stampede",
+      "name": "Fire Stampede™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-strike-2",
+      "name": "Fire Strike 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-strike-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-strike-slot",
+      "name": "Fire Strike™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fire-strike-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firebird-spirit",
+      "name": "Firebird Spirit",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/firebird-spirit/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fish-eye",
+      "name": "Fish Eye",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fish-eye/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishin-reels",
+      "name": "Fishin’ Reels™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fishin-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-hold-and-spin",
+      "name": "Floating Dragon Hold and Spin™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-hold-and-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-megaways",
+      "name": "Floating Dragon Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-new-year-festival-ultra-megaways-hold-spin",
+      "name": "Floating Dragon New Year Festival Ultra Megaways™ Hold & Spin",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-new-year-festival-ultra-megaways-hold-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-wild-horses",
+      "name": "Floating Dragon Wild Horses",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-wild-horses/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-dragon-boat-festival",
+      "name": "Floating Dragon – Dragon Boat Festival™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-dragon-boat-festival/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "floating-dragon-year-of-the-snake",
+      "name": "Floating Dragon – Year of the Snake",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/floating-dragon-year-of-the-snake/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fonzos-feline-fortunes",
+      "name": "Fonzo’s Feline Fortunes",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fonzos-feline-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forever-split-megaways",
+      "name": "Forever Split Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/forever-split-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forge-of-olympus",
+      "name": "Forge of Olympus™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/forge-of-olympus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forging-wilds",
+      "name": "Forging Wilds",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/forging-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-hitn-roll",
+      "name": "Fortune Hit’n Roll",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fortune-hitn-roll/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-of-aztec",
+      "name": "Fortune of Aztec",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fortune-of-aztec/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-of-giza",
+      "name": "Fortune of Giza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fortune-of-giza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-of-olympus",
+      "name": "Fortune of Olympus",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fortune-of-olympus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortunes-of-aztec",
+      "name": "Fortunes of Aztec™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fortunes-of-aztec/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "freya-1000",
+      "name": "Freya 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/freya-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frightening-frankie",
+      "name": "Frightening Frankie",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/frightening-frankie/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frozen-tropics",
+      "name": "Frozen Tropics™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/frozen-tropics/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-party-2",
+      "name": "Fruit Party 2™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fruit-party-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-party-slot",
+      "name": "Fruit Party™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fruit-party-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-rainbow-slot",
+      "name": "Fruit Rainbow™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fruit-rainbow-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruity-treats",
+      "name": "Fruity Treats",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fruity-treats/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fury-of-anubis",
+      "name": "Fury of Anubis",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fury-of-anubis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fury-of-odin-megaways",
+      "name": "Fury of Odin Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/fury-of-odin-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-hades",
+      "name": "Gates of Hades",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-hades/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus-1000",
+      "name": "Gates of Olympus 1000™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus-2500",
+      "name": "Gates of Olympus 2500",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus-2500/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus-pop",
+      "name": "Gates of Olympus POP",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus-pop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus-super-scatter",
+      "name": "Gates of Olympus Super Scatter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus-super-scatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus-xmas-1000",
+      "name": "Gates of Olympus Xmas 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus-xmas-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-olympus",
+      "name": "Gates of Olympus™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-olympus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-valhalla",
+      "name": "Gates of Valhalla™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gates-of-valhalla/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gears-of-horus",
+      "name": "Gears of Horus",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gears-of-horus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-elevator",
+      "name": "Gem Elevator",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gem-elevator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-fire-fortune",
+      "name": "Gem Fire Fortune",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gem-fire-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-trio",
+      "name": "Gem Trio",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gem-trio/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-bonanza",
+      "name": "Gems Bonanza®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gems-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-of-serengeti",
+      "name": "Gems of Serengeti™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gems-of-serengeti/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "genies-gem-bonanza",
+      "name": "Genie’s Gem Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/genies-gem-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "glorious-rome-slot",
+      "name": "Glorious Rome",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/glorious-rome-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goblin-heist-powernudge",
+      "name": "Goblin Heist PowerNudge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/goblin-heist-powernudge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gods-of-giza",
+      "name": "Gods of Giza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gods-of-giza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-oasis",
+      "name": "Gold Oasis™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-oasis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-party-2-after-hours",
+      "name": "Gold Party 2 – After Hours",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-party-2-after-hours/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-party",
+      "name": "Gold Party®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-rush-scratchcard",
+      "name": "Gold Rush Scratchcard",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-rush-scratchcard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-rush-slot",
+      "name": "Gold Rush™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-rush-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-train-slot",
+      "name": "Gold Train™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gold-train-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-retriever",
+      "name": "Golden Retriever",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/golden-retriever/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "good-luck-good-fortune",
+      "name": "Good Luck & Good Fortune",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/good-luck-good-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gorilla-mayhem",
+      "name": "Gorilla Mayhem",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gorilla-mayhem/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gravity-bonanza",
+      "name": "Gravity Bonanza™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/gravity-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-ghosts",
+      "name": "Great Ghosts!",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/great-ghosts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-reef-slot",
+      "name": "Great Reef",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/great-reef-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-rhino-slot",
+      "name": "Great Rhino®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/great-rhino-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-rhino-deluxe-slot",
+      "name": "Great Rhino® Deluxe",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/great-rhino-deluxe-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-rhino-megaways-slot",
+      "name": "Great Rhino® Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/great-rhino-megaways-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greedy-fortune-pig",
+      "name": "Greedy Fortune Pig",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/greedy-fortune-pig/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greedy-wolf",
+      "name": "Greedy Wolf",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/greedy-wolf/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greek-gods-slot",
+      "name": "Greek Gods™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/greek-gods-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hammerstorm",
+      "name": "Hammerstorm",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hammerstorm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hand-of-midas-2",
+      "name": "Hand of Midas 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hand-of-midas-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-dragon",
+      "name": "Happy Dragon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/happy-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-hooves",
+      "name": "Happy Hooves",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/happy-hooves/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-nets",
+      "name": "Happy Nets",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/happy-nets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "harvest-moon-grave-profits",
+      "name": "Harvest Moon – Grave Profits",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/harvest-moon-grave-profits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haunted-crypt",
+      "name": "Haunted Crypt",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/haunted-crypt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heart-of-cleopatra",
+      "name": "Heart of Cleopatra",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heart-of-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heart-of-rio",
+      "name": "Heart of Rio",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heart-of-rio/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heart-of-venus",
+      "name": "Heart of Venus",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heart-of-venus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heartbreakers",
+      "name": "Heartbreakers",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heartbreakers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heist-for-the-golden-nuggets",
+      "name": "Heist for the Golden Nuggets™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heist-for-the-golden-nuggets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "helios-triple-sun",
+      "name": "Helios – Triple Sun",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/helios-triple-sun/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hell-butcher",
+      "name": "Hell Butcher",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hell-butcher/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hellvis-wild",
+      "name": "Hellvis Wild™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hellvis-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hercules-and-pegasus-slot",
+      "name": "Hercules and Pegasus™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hercules-and-pegasus-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hercules-son-zeus-slot",
+      "name": "Hercules Son of Zeus™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hercules-son-zeus-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heroic-spins",
+      "name": "Heroic Spins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/heroic-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "himalayan-wild",
+      "name": "Himalayan Wild",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/himalayan-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hockey-league-slot",
+      "name": "Hockey League",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hockey-league-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hockey-league-wild-match-slot",
+      "name": "Hockey League Wild Match™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hockey-league-wild-match-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "honey-honey-honey-slot",
+      "name": "Honey Honey Honey™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/honey-honey-honey-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-chilli-slot",
+      "name": "Hot Chilli™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-chilli-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-fiesta",
+      "name": "Hot Fiesta™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-fiesta/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-pepper",
+      "name": "Hot Pepper™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-pepper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-safari-slot",
+      "name": "Hot Safari™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-safari-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-to-burn-multiplier",
+      "name": "Hot to Burn Multiplier",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-to-burn-multiplier/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-to-burn-7-deadly-free-spins",
+      "name": "Hot to Burn – 7 Deadly Free Spins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-to-burn-7-deadly-free-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-to-burn-slot",
+      "name": "Hot to Burn®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-to-burn-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-to-burn-extreme",
+      "name": "Hot to Burn® Extreme",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-to-burn-extreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-to-burn-hold-and-spin",
+      "name": "Hot to Burn® Hold and Spin",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-to-burn-hold-and-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-tuna",
+      "name": "Hot Tuna",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hot-tuna/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hundreds-and-thousands",
+      "name": "Hundreds and Thousands",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/hundreds-and-thousands/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-lobster",
+      "name": "Ice Lobster",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ice-lobster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-mints",
+      "name": "Ice Mints",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ice-mints/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "idol-pop-fever",
+      "name": "Idol Pop Fever",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/idol-pop-fever/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "inca-queen",
+      "name": "Inca Queen",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/inca-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "infective-wild",
+      "name": "Infective Wild™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/infective-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-charms-slot",
+      "name": "Irish Charms™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/irish-charms-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-crown",
+      "name": "Irish Crown",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/irish-crown/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-blaze",
+      "name": "Jackpot Blaze",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jackpot-blaze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-hunter",
+      "name": "Jackpot Hunter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jackpot-hunter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jade-butterfly-slot",
+      "name": "Jade Butterfly™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jade-butterfly-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jade-legends",
+      "name": "Jade Legends",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jade-legends/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jane-hunter-and-the-mask-of-montezuma",
+      "name": "Jane Hunter and the Mask of Montezuma™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jane-hunter-and-the-mask-of-montezuma/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jasmine-dreams",
+      "name": "Jasmine Dreams™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jasmine-dreams/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jelly-candy",
+      "name": "Jelly Candy",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jelly-candy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jelly-express",
+      "name": "Jelly Express",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jelly-express/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewel-rush",
+      "name": "Jewel Rush™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jewel-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-galileos-secrets",
+      "name": "John Hunter and Galileo’s Secrets",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-galileos-secrets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-aztec-treasure-slot",
+      "name": "John Hunter and the Aztec Treasure™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-aztec-treasure-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-book-of-tut-respin",
+      "name": "John Hunter and the Book of Tut Respin™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-book-of-tut-respin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-book-of-tut-slot",
+      "name": "John Hunter and the book of Tut™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-book-of-tut-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-mayan-gods",
+      "name": "John Hunter and the Mayan Gods™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-mayan-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-quest-for-bermuda-riches",
+      "name": "John Hunter and the Quest for Bermuda Riches™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-quest-for-bermuda-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "da-vincis-treasure-slot",
+      "name": "John Hunter and the secrets of Da Vinci’s Treasure",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/da-vincis-treasure-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "john-hunter-and-the-tomb-of-the-scarab-queen-slot",
+      "name": "John Hunter and the Tomb of the Scarab Queen™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/john-hunter-and-the-tomb-of-the-scarab-queen-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-king",
+      "name": "Joker King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/joker-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-jewels-cash",
+      "name": "Joker’s Jewels Cash",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-jewels-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-jewels-hold-spin",
+      "name": "Joker’s Jewels Hold & Spin",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-jewels-hold-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-jewels-hot",
+      "name": "Joker’s Jewels Hot",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-jewels-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-jewels-wild",
+      "name": "Joker’s Jewels Wild",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-jewels-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-jewels-slot",
+      "name": "Joker’s Jewels™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-jewels-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-revenge",
+      "name": "Joker’s Revenge",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jokers-revenge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "journey-to-the-west-slot",
+      "name": "Journey to the West™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/journey-to-the-west-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "juicy-fruits-multihold",
+      "name": "Juicy Fruits Multihold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/juicy-fruits-multihold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "juicy-fruits",
+      "name": "Juicy Fruits™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/juicy-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jumbo-safari",
+      "name": "Jumbo Safari",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jumbo-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jungle-gorilla-slot",
+      "name": "Jungle Gorilla™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jungle-gorilla-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jurassic-giants-slot",
+      "name": "Jurassic Giants®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/jurassic-giants-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kingdom-of-the-dead",
+      "name": "Kingdom of The Dead™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/kingdom-of-the-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knight-hot-spotz",
+      "name": "Knight Hot Spotz™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/knight-hot-spotz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knights-vs-barbarians",
+      "name": "Knights vs Barbarians",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/knights-vs-barbarians/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady-godiva-slot",
+      "name": "Lady Godiva™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lady-godiva-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady-of-the-moon-slot",
+      "name": "Lady of the Moon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lady-of-the-moon-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lamp-of-infinity",
+      "name": "Lamp Of Infinity™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lamp-of-infinity/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "launch-to-riches",
+      "name": "Launch to Riches",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/launch-to-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lava-balls",
+      "name": "Lava Balls",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lava-balls/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun-carol-slot",
+      "name": "Leprechaun Carol™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/leprechaun-carol-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun-song-slot",
+      "name": "Leprechaun Song™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/leprechaun-song-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "little-gem",
+      "name": "Little Gem",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/little-gem/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lobster-bobs-crazy-crab-shack",
+      "name": "Lobster Bob’s Crazy Crab Shack™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lobster-bobs-crazy-crab-shack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lobster-bobs-sea-food-and-win-it",
+      "name": "Lobster Bob’s Sea Food and Win It",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lobster-bobs-sea-food-and-win-it/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lobster-house",
+      "name": "Lobster House",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lobster-house/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lokis-riches",
+      "name": "Loki’s Riches",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lokis-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ox",
+      "name": "Lucky Bull",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-ox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-dice",
+      "name": "Lucky Dice",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-dog",
+      "name": "Lucky Dog",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-dog/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-dragons-slot",
+      "name": "Lucky Dragons™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-dragons-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-drums-88",
+      "name": "Lucky Drums 88",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-drums-88/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fortune-tree",
+      "name": "Lucky Fortune Tree",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-fortune-tree/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-grace-and-charm",
+      "name": "Lucky Grace And Charm",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-grace-and-charm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-lightning",
+      "name": "Lucky Lightning™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-lightning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-monkey",
+      "name": "Lucky Monkey",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-monkey/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-mouse",
+      "name": "Lucky Mouse",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-mouse/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-new-year-slot",
+      "name": "Lucky New Year™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-new-year-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-panda",
+      "name": "Lucky Panda",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-panda/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-phoenix",
+      "name": "Lucky Phoenix",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-phoenix/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-tiger",
+      "name": "Lucky Tiger",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-tiger/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-tiger-1000",
+      "name": "Lucky Tiger 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-tiger-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-tiger-gold",
+      "name": "Lucky Tiger Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/lucky-tiger-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luckys-wild-pub",
+      "name": "Lucky’s Wild Pub",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/luckys-wild-pub/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luckys-wild-pub-2",
+      "name": "Lucky’s Wild Pub 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/luckys-wild-pub-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luxor-of-cleopatra",
+      "name": "Luxor of Cleopatra",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/luxor-of-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "madame-destiny-megaways",
+      "name": "Madame Destiny Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/madame-destiny-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "madame-destiny-slot",
+      "name": "Madame Destiny™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/madame-destiny-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-crystals-slot",
+      "name": "Magic Crystals",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/magic-crystals-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-journey-slot",
+      "name": "Magic Journey™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/magic-journey-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-money-maze",
+      "name": "Magic Money Maze",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/magic-money-maze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magicians-secrets",
+      "name": "Magician’s Secrets™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/magicians-secrets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mahjong-wins-super-scatter",
+      "name": "Mahjong Wins Super Scatter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mahjong-wins-super-scatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mahjong-wins-triple-pot",
+      "name": "Mahjong Wins Triple Pot",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mahjong-wins-triple-pot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-express-gold-run",
+      "name": "Majestic Express – Gold Run",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/majestic-express-gold-run/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mammoth-gold-megaways",
+      "name": "Mammoth Gold Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mammoth-gold-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "master-chens-fortune-slot",
+      "name": "Master Chen’s Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/master-chens-fortune-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "master-gems",
+      "name": "Master Gems",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/master-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "master-joker-slot",
+      "name": "Master Joker™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/master-joker-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "medusas-stone",
+      "name": "Medusa’s Stone",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/medusas-stone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mermaids-treasure-trove",
+      "name": "Mermaid’s Treasure Trove",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mermaids-treasure-trove/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "might-of-freya-megaways",
+      "name": "Might of Freya Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/might-of-freya-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "might-of-ra",
+      "name": "Might of Ra",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/might-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-kong-slot",
+      "name": "Mighty Kong™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mighty-kong-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-munching-melons",
+      "name": "Mighty Munching Melons",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mighty-munching-melons/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mining-rush",
+      "name": "Mining Rush",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mining-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mochimon",
+      "name": "Mochimon™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mochimon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moleionaire",
+      "name": "Moleionaire",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/moleionaire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-mouse-slot",
+      "name": "Money Mouse™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/money-mouse-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-stacks",
+      "name": "Money Stacks",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/money-stacks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-stacks-megaways",
+      "name": "Money Stacks Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/money-stacks-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkey-madness-slot",
+      "name": "Monkey Madness™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/monkey-madness-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkey-warrior-slot",
+      "name": "Monkey Warrior™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/monkey-warrior-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monster-superlanche",
+      "name": "Monster Superlanche",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/monster-superlanche/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mr-nulls-wicked-wares",
+      "name": "Mr Null’s Wicked Wares",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mr-nulls-wicked-wares/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "muertos-multiplier-megaways",
+      "name": "Muertos Multiplier Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/muertos-multiplier-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mummys-jewels",
+      "name": "Mummy’s Jewels",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mummys-jewels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mummys-jewels-100",
+      "name": "Mummy’s Jewels 100",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mummys-jewels-100/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mustang-gold-megaways",
+      "name": "Mustang Gold Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mustang-gold-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mustang-gold-slot",
+      "name": "Mustang Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mustang-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mustang-trail",
+      "name": "Mustang Trail™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mustang-trail/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mysterious-egypt",
+      "name": "Mysterious Egypt™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mysterious-egypt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mysterious-slot",
+      "name": "Mysterious™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mysterious-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-mice",
+      "name": "Mystery Mice",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mystery-mice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-of-the-orient",
+      "name": "Mystery of the Orient",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mystery-of-the-orient/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-chief",
+      "name": "Mystic Chief™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mystic-chief/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-wishes",
+      "name": "Mystic Wishes",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/mystic-wishes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nile-fortune",
+      "name": "Nile Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/nile-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "north-guardians",
+      "name": "North Guardians",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/north-guardians/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "octobeer-fortunes",
+      "name": "Octobeer Fortunes",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/octobeer-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "odds-on-winner",
+      "name": "Odds On Winner",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/odds-on-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "olympus-wins",
+      "name": "Olympus Wins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/olympus-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oodles-of-noodles",
+      "name": "Oodles of Noodles",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/oodles-of-noodles/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oracle-of-gold",
+      "name": "Oracle of Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/oracle-of-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "out-of-the-woods",
+      "name": "Out of the Woods",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/out-of-the-woods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "panda-fortune-2",
+      "name": "Panda’s Fortune 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/panda-fortune-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pandas-fortune-slot",
+      "name": "Panda’s Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pandas-fortune-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pandemic-rising",
+      "name": "Pandemic Rising",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pandemic-rising/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "panther-queen-slot",
+      "name": "Panther Queen™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/panther-queen-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "peak-power",
+      "name": "Peak Power™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/peak-power/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "peking-luck-slot",
+      "name": "Peking Luck™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/peking-luck-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pelican-payday",
+      "name": "Pelican Payday",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pelican-payday/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "penguins-christmas-party-time",
+      "name": "Penguins Christmas Party Time",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/penguins-christmas-party-time/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "peppes-pepperoni-pizza-plaza",
+      "name": "Peppe’s Pepperoni Pizza Plaza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/peppes-pepperoni-pizza-plaza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-forge",
+      "name": "Phoenix Forge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/phoenix-forge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pig-farm",
+      "name": "Pig Farm",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pig-farm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-bank-bills",
+      "name": "Piggy Bank Bills™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/piggy-bank-bills/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-bankers",
+      "name": "Piggy Bankers™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/piggy-bankers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pinup-girls",
+      "name": "Pinup Girls",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pinup-girls/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirate-gold-deluxe",
+      "name": "Pirate Gold Deluxe™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pirate-gold-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirate-golden-age",
+      "name": "Pirate Golden Age",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pirate-golden-age/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirate-gold-slot",
+      "name": "Pirate Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pirate-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-pub",
+      "name": "Pirates Pub™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pirates-pub/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pixie-wings-slot",
+      "name": "Pixie Wings®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pixie-wings-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pizza-pizza-pizza",
+      "name": "PIZZA! PIZZA? PIZZA!™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pizza-pizza-pizza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plushie-wins",
+      "name": "Plushie Wins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/plushie-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pompeii-megareels-megaways",
+      "name": "Pompeii Megareels Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pompeii-megareels-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pot-of-fortune",
+      "name": "Pot of Fortune",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pot-of-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-merlin-megaways",
+      "name": "Power of Merlin Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/power-of-merlin-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-thor-megaways",
+      "name": "Power of Thor Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/power-of-thor-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pub-kings",
+      "name": "Pub Kings™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pub-kings/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pyramid-king-slot",
+      "name": "Pyramid King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/pyramid-king-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-of-atlantis-slot",
+      "name": "Queen of Atlantis™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/queen-of-atlantis-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-of-gods",
+      "name": "Queen of Gods",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/queen-of-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-of-gold-scratchcard",
+      "name": "Queen of Gold Scratchcard",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/queen-of-gold-scratchcard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queenie",
+      "name": "Queenie™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/queenie/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ra-vs-osiris",
+      "name": "Ra vs Osiris",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ra-vs-osiris/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabbit-garden",
+      "name": "Rabbit Garden",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rabbit-garden/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raging-waterfall-megaways",
+      "name": "Raging Waterfall Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/raging-waterfall-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-gold",
+      "name": "Rainbow Gold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rainbow-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-reels",
+      "name": "Rainbow Reels™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rainbow-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ratinho-sortudo",
+      "name": "Ratinho Sortudo",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ratinho-sortudo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-luck",
+      "name": "Red Hot Luck",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/red-hot-luck/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-banks",
+      "name": "Reel Banks™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/reel-banks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "release-the-bison",
+      "name": "Release the Bison",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/release-the-bison/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "release-the-kraken-megaways",
+      "name": "Release the Kraken Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/release-the-kraken-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "release-the-kraken-slot",
+      "name": "Release the Kraken®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/release-the-kraken-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "release-the-kraken-2",
+      "name": "Release the Kraken® 2",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/release-the-kraken-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "resurrecting-riches",
+      "name": "Resurrecting Riches",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/resurrecting-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "return-of-the-dead",
+      "name": "Return of the Dead™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/return-of-the-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "revenge-of-loki-megaways",
+      "name": "Revenge of Loki Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/revenge-of-loki-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ride-the-lightning",
+      "name": "Ride The Lightning",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ride-the-lightning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ripe-rewards",
+      "name": "Ripe Rewards",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ripe-rewards/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-giza-powernudge",
+      "name": "Rise of Giza PowerNudge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rise-of-giza-powernudge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-pyramids",
+      "name": "Rise of Pyramids",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rise-of-pyramids/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rock-vegas",
+      "name": "Rock Vegas™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rock-vegas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rocket-blast-megaways",
+      "name": "Rocket Blast Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rocket-blast-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rolling-in-treasures",
+      "name": "Rolling in Treasures",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/rolling-in-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "romeo-and-juliet-slot",
+      "name": "Romeo and Juliet™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/romeo-and-juliet-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "running-sushi",
+      "name": "Running Sushi",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/running-sushi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "safari-king-slot",
+      "name": "Safari King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/safari-king-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "samurai-code",
+      "name": "Samurai Code",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/samurai-code/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sanatorium-secrets",
+      "name": "Sanatorium Secrets",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sanatorium-secrets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santa-slot",
+      "name": "Santa",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/santa-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-great-gifts",
+      "name": "Santa’s Great Gifts™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/santas-great-gifts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-slay",
+      "name": "Santa’s Slay",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/santas-slay/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-wonderland",
+      "name": "Santa’s Wonderland™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/santas-wonderland/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-xmas-rush",
+      "name": "Santa’s Xmas Rush",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/santas-xmas-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "savannah-legend",
+      "name": "Savannah Legend",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/savannah-legend/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secret-city-gold",
+      "name": "Secret City Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/secret-city-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shield-of-sparta",
+      "name": "Shield of Sparta™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/shield-of-sparta/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-hot-100",
+      "name": "Shining Hot 100",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/shining-hot-100/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-hot-20",
+      "name": "Shining Hot 20",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/shining-hot-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-hot-40",
+      "name": "Shining Hot 40",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/shining-hot-40/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shining-hot-5",
+      "name": "Shining Hot 5",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/shining-hot-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sky-bounty",
+      "name": "Sky Bounty™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sky-bounty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sleeping-dragon",
+      "name": "Sleeping Dragon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sleeping-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sleeping-dragon-ultra-dark",
+      "name": "Sleeping Dragon Ultra Dark",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sleeping-dragon-ultra-dark/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smugglers-cove",
+      "name": "Smugglers Cove™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/smugglers-cove/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakes-ladders-snake-eyes",
+      "name": "Snakes & Ladders – Snake Eyes™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/snakes-ladders-snake-eyes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakes-and-ladders-megadice",
+      "name": "Snakes and Ladders Megadice™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/snakes-and-ladders-megadice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snow-party",
+      "name": "Snow Party",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/snow-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spartan-king",
+      "name": "Spartan King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/spartan-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spellbinding-mystery",
+      "name": "Spellbinding Mystery™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/spellbinding-mystery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spellmaster",
+      "name": "Spellmaster",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/spellmaster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spin-score-megaways",
+      "name": "Spin & Score Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/spin-score-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spirit-of-adventure",
+      "name": "Spirit of Adventure",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/spirit-of-adventure/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-bounty-slot",
+      "name": "Star Bounty™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/star-bounty-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-pirates-code",
+      "name": "Star Pirates Code™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/star-pirates-code/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-christmas",
+      "name": "Starlight Christmas",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-christmas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-princess-1000",
+      "name": "Starlight Princess 1000™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-princess-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-princess-pachi",
+      "name": "Starlight Princess Pachi",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-princess-pachi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-princess-super-scatter",
+      "name": "Starlight Princess Super Scatter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-princess-super-scatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-princess",
+      "name": "Starlight Princess™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-princess/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-wins",
+      "name": "Starlight Wins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starlight-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starz-megaways-slot",
+      "name": "Starz Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/starz-megaways-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "steamin-reels",
+      "name": "Steamin’ Reels",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/steamin-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sticky-bees",
+      "name": "Sticky Bees™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sticky-bees/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "strawberry-cocktail",
+      "name": "Strawberry Cocktail",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/strawberry-cocktail/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "street-racer-slot",
+      "name": "Street Racer™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/street-racer-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "striking-hot-5",
+      "name": "Striking Hot 5",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/striking-hot-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-rush",
+      "name": "Sugar Rush",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sugar-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-rush-1000",
+      "name": "Sugar Rush 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sugar-rush-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-rush-super-scatter",
+      "name": "Sugar Rush Super Scatter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sugar-rush-super-scatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-rush-xmas",
+      "name": "Sugar Rush Xmas™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sugar-rush-xmas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-supreme-powernudge",
+      "name": "Sugar Supreme Powernudge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sugar-supreme-powernudge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sumo-supreme-megaways",
+      "name": "Sumo Supreme Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sumo-supreme-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sunnydaze-asylum",
+      "name": "Sunnydaze Asylum",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sunnydaze-asylum/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-7s-slot",
+      "name": "Super 7s™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-7s-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-gummy-strike",
+      "name": "Super Gummy Strike",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-gummy-strike/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-joker-slot",
+      "name": "Super Joker™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-joker-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-serge",
+      "name": "Super Serge",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-serge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-tiki-strike",
+      "name": "Super Tiki Strike",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-tiki-strike/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-x",
+      "name": "Super X™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/super-x/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-1000",
+      "name": "Sweet Bonanza 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-2500",
+      "name": "Sweet Bonanza 2500",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-2500/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-pop",
+      "name": "Sweet Bonanza POP",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-pop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-super-scatter",
+      "name": "Sweet Bonanza Super Scatter",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-super-scatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-slot",
+      "name": "Sweet Bonanza®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-bonanza-xmas-slot",
+      "name": "Sweet Bonanza® Xmas",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-bonanza-xmas-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-burst",
+      "name": "Sweet Burst",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-burst/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-craze",
+      "name": "Sweet Craze",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-craze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-kingdom",
+      "name": "Sweet Kingdom",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-kingdom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-powernudge",
+      "name": "Sweet Powernudge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-powernudge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-rush-bonanza",
+      "name": "Sweet Rush Bonanza",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sweet-rush-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sword-of-ares",
+      "name": "Sword of Ares™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/sword-of-ares/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-of-egypt-slot",
+      "name": "Tales of Egypt",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tales-of-egypt-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-guardians",
+      "name": "Temple Guardians",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/temple-guardians/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temujin-treasures",
+      "name": "Temujin Treasures™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/temujin-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-alter-ego",
+      "name": "The Alter Ego",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-alter-ego/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-amazing-money-machine",
+      "name": "The Amazing Money Machine™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-amazing-money-machine/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-big-dawgs",
+      "name": "The Big Dawgs",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-big-dawgs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-big-dog-house",
+      "name": "The Big Dog House",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-big-dog-house/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-catfather-part-slot",
+      "name": "The Catfather Part II™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-catfather-part-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-catfather-slot",
+      "name": "The Catfather™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-catfather-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-champions-slot",
+      "name": "The Champions™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-champions-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-megaways-1000",
+      "name": "The Dog House Megaways 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-megaways-slot",
+      "name": "The Dog House Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-multihold",
+      "name": "The Dog House Multihold™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-multihold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-dog-or-alive",
+      "name": "The Dog House – Dog or Alive",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-dog-or-alive/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-muttley-crew",
+      "name": "The Dog House – Muttley Crew",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-muttley-crew/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-royal-hunt",
+      "name": "The Dog House – Royal Hunt",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-royal-hunt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-dog-house-slot",
+      "name": "The Dog House®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-dog-house-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-great-chicken-escape-slot",
+      "name": "The Great Chicken Escape™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-great-chicken-escape-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-great-stick-up",
+      "name": "The Great Stick-Up",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-great-stick-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-hand-of-midas",
+      "name": "The Hand of Midas™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-hand-of-midas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-knight-king",
+      "name": "The Knight King™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-knight-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-magic-cauldron-enchanted-brew",
+      "name": "The Magic Cauldron – Enchanted Brew™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-magic-cauldron-enchanted-brew/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-money-men-megaways",
+      "name": "The Money Men Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-money-men-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-red-queen",
+      "name": "The Red Queen™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-red-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-ultimate-5",
+      "name": "The Ultimate 5",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-ultimate-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wild-gang",
+      "name": "The Wild Gang™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-wild-gang/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wild-machine-slot",
+      "name": "The Wild Machine™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/the-wild-machine-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-star-fortune-slot",
+      "name": "Three Star Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/three-star-fortune-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tic-tac-take",
+      "name": "Tic Tac Take",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tic-tac-take/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "timber-stacks",
+      "name": "Timber Stacks™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/timber-stacks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiny-toads",
+      "name": "Tiny Toads",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tiny-toads/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "touro-sortudo",
+      "name": "Touro Sortudo",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/touro-sortudo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "towering-fortunes",
+      "name": "Towering Fortunes™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/towering-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasure-horse-slot",
+      "name": "Treasure Horse™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/treasure-horse-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasure-wild",
+      "name": "Treasure Wild™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/treasure-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasures-of-osiris",
+      "name": "Treasures of Osiris",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/treasures-of-osiris/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tree-of-riches-slot",
+      "name": "Tree of Riches™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tree-of-riches-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trees-of-treasure",
+      "name": "Trees of Treasure",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/trees-of-treasure/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-dragons-slot",
+      "name": "Triple Dragons™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-dragons-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-hop-pots",
+      "name": "Triple Hop Pots",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-hop-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-jokers-slot",
+      "name": "Triple Jokers™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-jokers-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-pot-diamond",
+      "name": "Triple Pot Diamond",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-pot-diamond/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-pot-gold",
+      "name": "Triple Pot Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-pot-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-pot-plinko-hercules",
+      "name": "Triple Pot Plinko – Hercules",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-pot-plinko-hercules/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-tigers-slot",
+      "name": "Triple Tigers™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/triple-tigers-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropical-tiki",
+      "name": "Tropical Tiki",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tropical-tiki/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tundras-fortune",
+      "name": "Tundra’s Fortune™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tundras-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tuts-treasure-tower",
+      "name": "Tut’s Treasure Tower",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/tuts-treasure-tower/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twilight-princess",
+      "name": "Twilight Princess™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/twilight-princess/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-burn-slot",
+      "name": "Ultra Burn®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ultra-burn-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-hold-and-spin-slot",
+      "name": "Ultra Hold and Spin™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/ultra-hold-and-spin-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampires-vs-wolves-slot",
+      "name": "Vampires vs Wolves™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/vampires-vs-wolves-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampy-party",
+      "name": "Vampy Party",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/vampy-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-magic-slot",
+      "name": "Vegas Magic™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/vegas-magic-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-nights-slot",
+      "name": "Vegas Nights™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/vegas-nights-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-forge",
+      "name": "Viking Forge™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/viking-forge/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "volcano-goddess",
+      "name": "Volcano Goddess",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/volcano-goddess/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "voodoo-magic",
+      "name": "Voodoo Magic™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/voodoo-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "waves-of-poseidon",
+      "name": "Waves of Poseidon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/waves-of-poseidon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wealthy-frog",
+      "name": "Wealthy Frog",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wealthy-frog/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheel-of-happiness",
+      "name": "Wheel of Happiness",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wheel-of-happiness/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheel-ogold",
+      "name": "Wheel O’Gold",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wheel-ogold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-beach-party",
+      "name": "Wild Beach Party™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-beach-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-booster",
+      "name": "Wild Booster™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-booster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-celebrity-bus-megaways",
+      "name": "Wild Celebrity Bus Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-celebrity-bus-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-depths",
+      "name": "Wild Depths™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-depths/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-gladiators-slot",
+      "name": "Wild Gladiators™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-gladiators-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-hopdrop",
+      "name": "Wild Hop&Drop",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-hopdrop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-pixies-slot",
+      "name": "Wild Pixies™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-pixies-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-skullz",
+      "name": "Wild Skullz",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-skullz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-spells-slot",
+      "name": "Wild Spells™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-spells-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-walker-slot",
+      "name": "Wild Walker™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-walker-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-west-duels",
+      "name": "Wild West Duels",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-west-duels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-west-gold-blazing-bounty",
+      "name": "Wild West Gold Blazing Bounty",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-west-gold-blazing-bounty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-west-gold-slot",
+      "name": "Wild West Gold®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-west-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-west-gold-megaways",
+      "name": "Wild West Gold® Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-west-gold-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-bananas",
+      "name": "Wild Wild Bananas™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-bananas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-joker",
+      "name": "Wild Wild Joker",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-pearls",
+      "name": "Wild Wild Pearls",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-pearls/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-riches-megaways",
+      "name": "Wild Wild Riches Megaways™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-riches-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-riches-returns",
+      "name": "Wild Wild Riches Returns",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-riches-returns/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-riches-slot",
+      "name": "Wild Wild Riches™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wild-riches-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wildebeest-wins",
+      "name": "Wild Wildebeest Wins",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wild-wildebeest-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildies",
+      "name": "Wildies",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wildies/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wisdom-of-athena-1000",
+      "name": "Wisdom of Athena 1000",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wisdom-of-athena-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wisdom-of-athena-1000-xmas",
+      "name": "Wisdom of Athena 1000 Xmas",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wisdom-of-athena-1000-xmas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wisdom-of-athena",
+      "name": "Wisdom of Athena™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wisdom-of-athena/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "witch-heart-megaways",
+      "name": "Witch Heart Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/witch-heart-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-gold-4-pack",
+      "name": "Wolf Gold 4 Pack",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wolf-gold-4-pack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-gold-scratchcard",
+      "name": "Wolf Gold Scratchcard",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wolf-gold-scratchcard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-gold-ultimate",
+      "name": "Wolf Gold Ultimate",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wolf-gold-ultimate/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-gold-slot",
+      "name": "Wolf Gold®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wolf-gold-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wonders-of-aztec",
+      "name": "Wonders of Aztec",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/wonders-of-aztec/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "year-of-the-dragon-king",
+      "name": "Year of the Dragon King",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/year-of-the-dragon-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yeti-quest",
+      "name": "Yeti Quest",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/yeti-quest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "you-can-piggy-bank-on-it",
+      "name": "You Can Piggy Bank On It",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/you-can-piggy-bank-on-it/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yum-yum-powerways",
+      "name": "Yum Yum PowerWays®",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/yum-yum-powerways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-vs-hades-gods-of-war-250",
+      "name": "Zeus vs Hades – Gods of War 250",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/zeus-vs-hades-gods-of-war-250/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-vs-hades-gods-of-war",
+      "name": "Zeus vs Hades – Gods of War™",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/zeus-vs-hades-gods-of-war/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-vs-typhon",
+      "name": "Zeus vs Typhon",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/zeus-vs-typhon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zombie-carnival",
+      "name": "Zombie Carnival",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/zombie-carnival/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zombie-school-megaways",
+      "name": "Zombie School Megaways",
+      "publicUrl": "https://www.pragmaticplay.com/en/games/zombie-school-megaways/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

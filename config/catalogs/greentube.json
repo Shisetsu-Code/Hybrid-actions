@@ -1,0 +1,4513 @@
+{
+  "provider": "greentube",
+  "name": "Greentube / Novomatic",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 750,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "1-2-3-bingo",
+      "name": "1-2-3 Bingo!™",
+      "publicUrl": "https://www.greentube.com/game/1-2-3-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100-magnificent-crown-no-pot",
+      "name": "100 Magnificent Crown",
+      "publicUrl": "https://www.greentube.com/game/100-magnificent-crown-no-pot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-red-hot-7-clover-link-adapted",
+      "name": "25 Red Hot 7 Clover Link™",
+      "publicUrl": "https://www.greentube.com/game/25-red-hot-7-clover-link-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-red-hot-7-clover-link",
+      "name": "25 Red Hot 7 Clover Link™",
+      "publicUrl": "https://www.greentube.com/game/25-red-hot-7-clover-link/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-red-hot-burning-clover-link",
+      "name": "25 Red Hot Burning Clover Link™",
+      "publicUrl": "https://www.greentube.com/game/25-red-hot-burning-clover-link/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-red-hot-burning-clover-link-cc-new",
+      "name": "25 Red Hot Burning Clover Link™ CC",
+      "publicUrl": "https://www.greentube.com/game/25-red-hot-burning-clover-link-cc-new/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-fortune-wishes",
+      "name": "3 Fortune Wishes",
+      "publicUrl": "https://www.greentube.com/game/3-fortune-wishes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-mystic-lamps",
+      "name": "3 Mystic Lamps",
+      "publicUrl": "https://www.greentube.com/game/3-mystic-lamps/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-mystic-lamps-buy-bonus",
+      "name": "3 Mystic Lamps Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/3-mystic-lamps-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4-reel-kings",
+      "name": "4 Reel Kings",
+      "publicUrl": "https://www.greentube.com/game/4-reel-kings/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-fortune-fruits-6",
+      "name": "40 Fortune Fruits 6™",
+      "publicUrl": "https://www.greentube.com/game/40-fortune-fruits-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-jokers",
+      "name": "5 Line Jokers™",
+      "publicUrl": "https://www.greentube.com/game/5-line-jokers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-mystery-gold",
+      "name": "5 Line Mystery Gold",
+      "publicUrl": "https://www.greentube.com/game/5-line-mystery-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-mystery",
+      "name": "5 Line Mystery™",
+      "publicUrl": "https://www.greentube.com/game/5-line-mystery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-bonus-21",
+      "name": "5-Line Bonus 21",
+      "publicUrl": "https://www.greentube.com/game/5-line-bonus-21/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-fortune",
+      "name": "5-Line Fortune™",
+      "publicUrl": "https://www.greentube.com/game/5-line-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-line-hold-spin",
+      "name": "5-Line Hold & Spin",
+      "publicUrl": "https://www.greentube.com/game/5-line-hold-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-fortune-dice",
+      "name": "50 Fortune Dice™",
+      "publicUrl": "https://www.greentube.com/game/50-fortune-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-fortune-fruits",
+      "name": "50 FORTUNE FRUITS™",
+      "publicUrl": "https://www.greentube.com/game/50-fortune-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-joker-frenzy",
+      "name": "50 Joker Frenzy",
+      "publicUrl": "https://www.greentube.com/game/50-joker-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-red-hot-7-clover-link-adapted",
+      "name": "50 Red Hot 7 Clover Link™",
+      "publicUrl": "https://www.greentube.com/game/50-red-hot-7-clover-link-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-red-hot-burning-clover-link-2",
+      "name": "50 Red Hot 7 Clover Link™",
+      "publicUrl": "https://www.greentube.com/game/50-red-hot-burning-clover-link-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-red-hot-burning-clover-link-cc-new",
+      "name": "50 Red Hot Burning Clover Link™ CC",
+      "publicUrl": "https://www.greentube.com/game/50-red-hot-burning-clover-link-cc-new/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-gold-casino",
+      "name": "7’s Gold Casino",
+      "publicUrl": "https://www.greentube.com/game/7s-gold-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-hearts",
+      "name": "9 Hearts",
+      "publicUrl": "https://www.greentube.com/game/9-hearts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-line-fortune-%c2%a7%c2%a7",
+      "name": "9-Line Fortune™",
+      "publicUrl": "https://www.greentube.com/game/9-line-fortune-%c2%a7%c2%a7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "a-christmas-full-of-wilds",
+      "name": "A Christmas Full of Wilds™",
+      "publicUrl": "https://www.greentube.com/game/a-christmas-full-of-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "a-christmas-full-of-wilds-adapted",
+      "name": "A Christmas Full of Wilds™ (MYNT)",
+      "publicUrl": "https://www.greentube.com/game/a-christmas-full-of-wilds-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "a-fistful-of-wilds-%c2%a7",
+      "name": "A Fistful of Wilds™",
+      "publicUrl": "https://www.greentube.com/game/a-fistful-of-wilds-%c2%a7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "a-fistful-of-wilds-adapted",
+      "name": "A Fistful of Wilds™",
+      "publicUrl": "https://www.greentube.com/game/a-fistful-of-wilds-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "a-mummy-full-of-wilds",
+      "name": "A Mummy Full of Wilds™",
+      "publicUrl": "https://www.greentube.com/game/a-mummy-full-of-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "action-dice",
+      "name": "Action Dice™",
+      "publicUrl": "https://www.greentube.com/game/action-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "action-joker",
+      "name": "Action Joker",
+      "publicUrl": "https://www.greentube.com/game/action-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "african-simba",
+      "name": "African Simba™",
+      "publicUrl": "https://www.greentube.com/game/african-simba/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "age-of-privateers",
+      "name": "Age of Privateers",
+      "publicUrl": "https://www.greentube.com/game/age-of-privateers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-jackpots-garden-persephone",
+      "name": "ALMIGHTY JACKPOTS – Garden of Persephone™",
+      "publicUrl": "https://www.greentube.com/game/almighty-jackpots-garden-persephone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-jackpots-realm-poseidon",
+      "name": "ALMIGHTY JACKPOTS – Realm of Poseidon™",
+      "publicUrl": "https://www.greentube.com/game/almighty-jackpots-realm-poseidon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-reels-garden-persephone",
+      "name": "ALMIGHTY REELS – Garden of Persephone",
+      "publicUrl": "https://www.greentube.com/game/almighty-reels-garden-persephone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-reels-power-zeus",
+      "name": "ALMIGHTY REELS – Power of Zeus ™",
+      "publicUrl": "https://www.greentube.com/game/almighty-reels-power-zeus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "almighty-reels-realm-poseidon",
+      "name": "ALMIGHTY REELS™ – Realm of Poseidon",
+      "publicUrl": "https://www.greentube.com/game/almighty-reels-realm-poseidon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alotta-lobsters",
+      "name": "Alotta Lobsters",
+      "publicUrl": "https://www.greentube.com/game/alotta-lobsters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "always-hot-cubes",
+      "name": "Always Hot™ Cubes",
+      "publicUrl": "https://www.greentube.com/game/always-hot-cubes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "always-hot-deluxe-2",
+      "name": "Always Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/always-hot-deluxe-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "always-hottm-deluxe",
+      "name": "Always Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/always-hottm-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazing-sevens",
+      "name": "Amazing Sevens",
+      "publicUrl": "https://www.greentube.com/game/amazing-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazing-stars",
+      "name": "Amazing Stars",
+      "publicUrl": "https://www.greentube.com/game/amazing-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazons-diamonds",
+      "name": "Amazon´s Diamonds",
+      "publicUrl": "https://www.greentube.com/game/amazons-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "american-poker-ii",
+      "name": "American Poker™ II",
+      "publicUrl": "https://www.greentube.com/game/american-poker-ii/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "american-respin",
+      "name": "American Respin",
+      "publicUrl": "https://www.greentube.com/game/american-respin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-goddess",
+      "name": "Ancient Goddess",
+      "publicUrl": "https://www.greentube.com/game/ancient-goddess/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apollo-god-of-the-sun-mynt",
+      "name": "Apollo God of The Sun™",
+      "publicUrl": "https://www.greentube.com/game/apollo-god-of-the-sun-mynt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apollo-god-of-the-sun",
+      "name": "Apollo God of The Sun™",
+      "publicUrl": "https://www.greentube.com/game/apollo-god-of-the-sun/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apollo-god-of-the-sun-10-win-ways-adapted",
+      "name": "Apollo God Of The Sun™ 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/apollo-god-of-the-sun-10-win-ways-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apollo-god-sun-10-win-ways",
+      "name": "Apollo God Of The Sun™ 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/apollo-god-sun-10-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apollo-god-of-the-sun-10-win-ways-bonus-edition",
+      "name": "Apollo God of the Sun™ 10: Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/apollo-god-of-the-sun-10-win-ways-bonus-edition/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "artic-race",
+      "name": "Arctic Race",
+      "publicUrl": "https://www.greentube.com/game/artic-race/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "asian-diamonds",
+      "name": "Asian Diamonds™",
+      "publicUrl": "https://www.greentube.com/game/asian-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "asian-fortunes",
+      "name": "Asian Fortunes™",
+      "publicUrl": "https://www.greentube.com/game/asian-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "autodromo-bingo",
+      "name": "Autodromo Bingo™",
+      "publicUrl": "https://www.greentube.com/game/autodromo-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "autodromo",
+      "name": "Autodromo™",
+      "publicUrl": "https://www.greentube.com/game/autodromo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "autumn-queen",
+      "name": "Autumn Queen™",
+      "publicUrl": "https://www.greentube.com/game/autumn-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "awesome-stars",
+      "name": "Awesome Stars™",
+      "publicUrl": "https://www.greentube.com/game/awesome-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "actec-powertm",
+      "name": "Aztec Power™",
+      "publicUrl": "https://www.greentube.com/game/actec-powertm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "backgammon",
+      "name": "Backgammon",
+      "publicUrl": "https://www.greentube.com/game/backgammon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bambu-bingo",
+      "name": "Bambu Bingo",
+      "publicUrl": "https://www.greentube.com/game/bambu-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "barkin-clusters-ante-bet",
+      "name": "Barkin’ Clusters",
+      "publicUrl": "https://www.greentube.com/game/barkin-clusters-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bayou-queen",
+      "name": "Bayou Queen",
+      "publicUrl": "https://www.greentube.com/game/bayou-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beach-party",
+      "name": "Beach Party Bingo",
+      "publicUrl": "https://www.greentube.com/game/beach-party/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beauty-of-cleopatra",
+      "name": "Beauty of Cleopatra",
+      "publicUrl": "https://www.greentube.com/game/beauty-of-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bankin-bonanza",
+      "name": "Big Bankin Bonanza™",
+      "publicUrl": "https://www.greentube.com/game/big-bankin-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-five",
+      "name": "Big Five™",
+      "publicUrl": "https://www.greentube.com/game/big-five/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-runner",
+      "name": "Big Runner™",
+      "publicUrl": "https://www.greentube.com/game/big-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bikers-bounty",
+      "name": "Biker’s Bounty",
+      "publicUrl": "https://www.greentube.com/game/bikers-bounty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingo-10",
+      "name": "Bingo 10™",
+      "publicUrl": "https://www.greentube.com/game/bingo-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-power-bingo-staxx",
+      "name": "BINGO STAXX™ Thunder Power",
+      "publicUrl": "https://www.greentube.com/game/thunder-power-bingo-staxx/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingo-staxx-amazon-fury",
+      "name": "BINGO STAXX™ – Amazon Fury",
+      "publicUrl": "https://www.greentube.com/game/bingo-staxx-amazon-fury/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingo-staxx-rudolphs-reign",
+      "name": "BINGO STAXX™ – Rudolphs Reign",
+      "publicUrl": "https://www.greentube.com/game/bingo-staxx-rudolphs-reign/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingo-triplo",
+      "name": "Bingo Triplo",
+      "publicUrl": "https://www.greentube.com/game/bingo-triplo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-volcano-pots",
+      "name": "Blazing Volcano Pots",
+      "publicUrl": "https://www.greentube.com/game/blazing-volcano-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-volcano-pots-buy-bonus",
+      "name": "Blazing Volcano Pots Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/blazing-volcano-pots-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonus-dice",
+      "name": "Bonus Dice™",
+      "publicUrl": "https://www.greentube.com/game/bonus-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-maya",
+      "name": "Book of Maya™",
+      "publicUrl": "https://www.greentube.com/game/book-of-maya/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-2",
+      "name": "Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra",
+      "name": "Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-10-dice",
+      "name": "Book of Ra™ 10 Dice",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-10-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-2",
+      "name": "Book of Ra™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe",
+      "name": "Book of Ra™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-mynt",
+      "name": "Book of Ra™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-mynt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-10-2",
+      "name": "Book of Ra™ deluxe 10",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-10-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-ra-deluxe-10",
+      "name": "Book of Ra™ deluxe 10",
+      "publicUrl": "https://www.greentube.com/game/book-ra-deluxe-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-10-win-ways",
+      "name": "Book of Ra™ deluxe 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-10-win-ways-bb",
+      "name": "Book of Ra™ deluxe 10: Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways-bb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-6-2-2",
+      "name": "Book of Ra™ deluxe 6",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-6-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-6",
+      "name": "Book of Ra™ deluxe 6",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-bingo",
+      "name": "Book of Ra™ deluxe Bingo",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-buy-bonus",
+      "name": "Book of Ra™ deluxe Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-win-ways",
+      "name": "Book of Ra™ deluxe Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-bonus-spins",
+      "name": "Book of Ra™ deluxe – Bonus Spins",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-bonus-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-win-ways-ante-bet",
+      "name": "Book of Ra™ deluxe: Win Ways™ Ante Bet",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-deluxe-win-ways-ante-bet-bb",
+      "name": "Book of Ra™ deluxe: Win Ways™ Ante Bet + Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways-ante-bet-bb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-ra-dice",
+      "name": "Book of Ra™ Dice",
+      "publicUrl": "https://www.greentube.com/game/book-ra-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-magic-2",
+      "name": "Book of Ra™ Magic",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-magic-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-ra-magic",
+      "name": "Book of Ra™ Magic",
+      "publicUrl": "https://www.greentube.com/game/book-ra-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-ra-bingo-multicard-deluxe",
+      "name": "Book of Ra™ Multi Card Bingo Deluxe",
+      "publicUrl": "https://www.greentube.com/game/book-of-ra-bingo-multicard-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-ra-mystic-fortunes",
+      "name": "Book of Ra™ Mystic Fortunes",
+      "publicUrl": "https://www.greentube.com/game/book-ra-mystic-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-ra-temple-gold",
+      "name": "Book of Ra™ – Temple of Gold™",
+      "publicUrl": "https://www.greentube.com/game/book-ra-temple-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-stars",
+      "name": "Book of Stars",
+      "publicUrl": "https://www.greentube.com/game/book-of-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brilliant-pots-100-magnificent-crown",
+      "name": "Brilliant Pots – 100 Magnificent Crown",
+      "publicUrl": "https://www.greentube.com/game/brilliant-pots-100-magnificent-crown/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brilliant-pots-50-joker-frenzy",
+      "name": "Brilliant Pots – 50 Joker Frenzy",
+      "publicUrl": "https://www.greentube.com/game/brilliant-pots-50-joker-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brilliant-pots-fortune-flows-ante-bet",
+      "name": "Brilliant Pots – Fortune Flows",
+      "publicUrl": "https://www.greentube.com/game/brilliant-pots-fortune-flows-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brilliant-pots-jesters-gift",
+      "name": "Brilliant Pots – Jester’s Gift",
+      "publicUrl": "https://www.greentube.com/game/brilliant-pots-jesters-gift/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "brilliant-pots-tumbling-joker",
+      "name": "Brilliant Pots – Tumbling Joker",
+      "publicUrl": "https://www.greentube.com/game/brilliant-pots-tumbling-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bruno-bingo",
+      "name": "Bruno Bingo™",
+      "publicUrl": "https://www.greentube.com/game/bruno-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-wild",
+      "name": "Burning Wild™",
+      "publicUrl": "https://www.greentube.com/game/burning-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bursting-buffalo-pots",
+      "name": "Bursting Buffalo Pots",
+      "publicUrl": "https://www.greentube.com/game/bursting-buffalo-pots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bursting-buffalo-pots-buy-bonus",
+      "name": "Bursting Buffalo Pots Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/bursting-buffalo-pots-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caichen-triple-blossom",
+      "name": "CAICHEN TRIPLE BLOSSOM",
+      "publicUrl": "https://www.greentube.com/game/caichen-triple-blossom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "calacas-cash",
+      "name": "Calacas Cash™",
+      "publicUrl": "https://www.greentube.com/game/calacas-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "calacas-cash-buy-bonus",
+      "name": "Calacas Cash™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/calacas-cash-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-monster",
+      "name": "Candy Monster",
+      "publicUrl": "https://www.greentube.com/game/candy-monster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-monster-buy-bonus",
+      "name": "Candy Monster Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/candy-monster-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-splasher",
+      "name": "Candy Splasher",
+      "publicUrl": "https://www.greentube.com/game/candy-splasher/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-splasherbuy-bonus",
+      "name": "Candy Splasher Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/candy-splasherbuy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-venture",
+      "name": "Captain Venture™",
+      "publicUrl": "https://www.greentube.com/game/captain-venture/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-venture-treasures-sea",
+      "name": "Captain Venture™: Treasures of the Sea",
+      "publicUrl": "https://www.greentube.com/game/captain-venture-treasures-sea/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "carribean-holidays",
+      "name": "Caribbean Holidays",
+      "publicUrl": "https://www.greentube.com/game/carribean-holidays/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-300-casino",
+      "name": "Cash 300™ Casino",
+      "publicUrl": "https://www.greentube.com/game/cash-300-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-cascade-100-charming-7s",
+      "name": "Cash Cascade – 100 Charming 7’s",
+      "publicUrl": "https://www.greentube.com/game/cash-cascade-100-charming-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-cascade-40-wild-fire-6",
+      "name": "Cash Cascade – 40 Wild Fire 6™",
+      "publicUrl": "https://www.greentube.com/game/cash-cascade-40-wild-fire-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "imperial-crown-cash-cascade",
+      "name": "Cash Cascade – Imperial Crown",
+      "publicUrl": "https://www.greentube.com/game/imperial-crown-cash-cascade/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-charming-lady",
+      "name": "Cash Connection™ Charming Lady™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-charming-lady/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-book-ra",
+      "name": "Cash Connection™ – Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-book-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-candelas-de-los-muertos-senor-muerte",
+      "name": "Cash Connection™ – Candelas de Los Muertos™ – Señor Muerte",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-candelas-de-los-muertos-senor-muerte/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candelas-de-los-muertos-promo",
+      "name": "Cash Connection™ – Candelas de Los Muertos™ – Señorita Suerte",
+      "publicUrl": "https://www.greentube.com/game/candelas-de-los-muertos-promo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-charming-ladys-boom-coins",
+      "name": "Cash Connection™ – Charming Lady’s Boom™ Coins",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-charming-ladys-boom-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-charming-ladys-boom-coins-dice",
+      "name": "Cash Connection™ – Charming Lady’s Boom™ Coins Dice",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-charming-ladys-boom-coins-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-dolphins-pearl-0s23",
+      "name": "Cash Connection™ – Dolphin’s Pearl™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-dolphins-pearl-0s23/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-golden-book-of-ra",
+      "name": "Cash Connection™ – Golden Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-golden-book-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-golden-sizzling-hot",
+      "name": "Cash Connection™ – Golden Sizzling Hot™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-golden-sizzling-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-golden-voodoo-magic",
+      "name": "Cash Connection™ – Golden Voodoo Magic™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-golden-voodoo-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-moonlight-safari",
+      "name": "Cash Connection™ – Moonlight Safari",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-moonlight-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-sizzling-hot",
+      "name": "Cash Connection™ – Sizzling Hot™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-sizzling-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-solid-sevens",
+      "name": "Cash Connection™ – Solid Sevens™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-solid-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-swiss-magic",
+      "name": "Cash Connection™ – Swiss Magic",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-swiss-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-connection-voodoo-magic",
+      "name": "Cash Connection™ – Voodoo Magic™",
+      "publicUrl": "https://www.greentube.com/game/cash-connection-voodoo-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charming-ladys-boom",
+      "name": "Charming Lady’s Boom™",
+      "publicUrl": "https://www.greentube.com/game/charming-ladys-boom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charming-ladys-boom-dice",
+      "name": "Charming Lady’s Boom™ Dice",
+      "publicUrl": "https://www.greentube.com/game/charming-ladys-boom-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charming-lady-deluxe-10-win-ways-ante-bet-buy-bonus",
+      "name": "Charming Lady™ deluxe 10: Win Ways™ Ante Bet + Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/charming-lady-deluxe-10-win-ways-ante-bet-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charming-lady-win-ways",
+      "name": "Charming Lady™ Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/charming-lady-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cherry-surprise-ii1jeapr-xxypo",
+      "name": "Cherry Surprise™",
+      "publicUrl": "https://www.greentube.com/game/cherry-surprise-ii1jeapr-xxypo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cherry-surprise-buy-bonus",
+      "name": "Cherry Surprise™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/cherry-surprise-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cherrylicious",
+      "name": "Cherrylicious™",
+      "publicUrl": "https://www.greentube.com/game/cherrylicious/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cherrylicious-bb",
+      "name": "Cherrylicious™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/cherrylicious-bb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago™",
+      "publicUrl": "https://www.greentube.com/game/chicago/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chili-bomba",
+      "name": "Chili Bomba™",
+      "publicUrl": "https://www.greentube.com/game/chili-bomba/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chilli-el-toro",
+      "name": "Chilli El Toro™",
+      "publicUrl": "https://www.greentube.com/game/chilli-el-toro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clash-of-legends-battle-lines-antebet-buybonus",
+      "name": "Clash of Legends™ Battle Lines™ Ante + Bet Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/clash-of-legends-battle-lines-antebet-buybonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clash-of-legends-battle-lines-ante-bet",
+      "name": "Clash of Legends™ Battle Lines™ Ante Bet",
+      "publicUrl": "https://www.greentube.com/game/clash-of-legends-battle-lines-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-jackpot-random-runner-ante-bet",
+      "name": "Classic Jackpot Random Runner™ Ante bet",
+      "publicUrl": "https://www.greentube.com/game/classic-jackpot-random-runner-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-jackpot-simply-wild-ante-bet",
+      "name": "Classic Jackpot Simply Wild Ante bet",
+      "publicUrl": "https://www.greentube.com/game/classic-jackpot-simply-wild-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-jackpot-hot-shot",
+      "name": "Classic Jackpot: Hot Shot",
+      "publicUrl": "https://www.greentube.com/game/classic-jackpot-hot-shot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-jackpot-topspinner",
+      "name": "Classic Jackpot: TopSpinner™",
+      "publicUrl": "https://www.greentube.com/game/classic-jackpot-topspinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-link-club-2000",
+      "name": "Classic Link™ Club 2000™",
+      "publicUrl": "https://www.greentube.com/game/classic-link-club-2000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-link-random-runner",
+      "name": "Classic Link™ Random Runner™",
+      "publicUrl": "https://www.greentube.com/game/classic-link-random-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "classic-link-simply-wild",
+      "name": "Classic Link™ Simply Wild™",
+      "publicUrl": "https://www.greentube.com/game/classic-link-simply-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "club-2000",
+      "name": "Club 2000™",
+      "publicUrl": "https://www.greentube.com/game/club-2000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "club-2000-casino",
+      "name": "Club 2000™ Casino",
+      "publicUrl": "https://www.greentube.com/game/club-2000-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-blast",
+      "name": "Coin Blast",
+      "publicUrl": "https://www.greentube.com/game/coin-blast/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-frenzy",
+      "name": "Coin Frenzy",
+      "publicUrl": "https://www.greentube.com/game/coin-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-fury",
+      "name": "Coin Fury",
+      "publicUrl": "https://www.greentube.com/game/coin-fury/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-runner-classic",
+      "name": "Coin Runner Classic",
+      "publicUrl": "https://www.greentube.com/game/coin-runner-classic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin-spinner",
+      "name": "Coin Spinner",
+      "publicUrl": "https://www.greentube.com/game/coin-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "columbus-deluxe-2-2",
+      "name": "Columbus deluxe™",
+      "publicUrl": "https://www.greentube.com/game/columbus-deluxe-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "columbus-deluxe",
+      "name": "Columbus deluxe™",
+      "publicUrl": "https://www.greentube.com/game/columbus-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cops-nrobbers-millionaries-row",
+      "name": "Cops ‘n’ Robbers Millionaries Row",
+      "publicUrl": "https://www.greentube.com/game/cops-nrobbers-millionaries-row/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cobsn-robbers",
+      "name": "Cops ‘n’ Robbers™",
+      "publicUrl": "https://www.greentube.com/game/cobsn-robbers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cops-n-robbers-drop-shot-deluxe",
+      "name": "Cops ‘n’ Robbers™ Drop Shot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/cops-n-robbers-drop-shot-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cops-n-robbers-vegas-nights",
+      "name": "Cops ‘n’ Robbers™ Vegas Nights",
+      "publicUrl": "https://www.greentube.com/game/cops-n-robbers-vegas-nights/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cow-abduction-tapper",
+      "name": "Cow Abduction- Tapper",
+      "publicUrl": "https://www.greentube.com/game/cow-abduction-tapper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-cactus",
+      "name": "Crazy Cactus Bingo",
+      "publicUrl": "https://www.greentube.com/game/crazy-cactus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-hot-slots",
+      "name": "Crazy Hot Slots™",
+      "publicUrl": "https://www.greentube.com/game/crazy-hot-slots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-slots-3",
+      "name": "Crazy Slots",
+      "publicUrl": "https://www.greentube.com/game/crazy-slots-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "creepy-candy",
+      "name": "Creepy Candy",
+      "publicUrl": "https://www.greentube.com/game/creepy-candy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "creepy-candy-buy-bonus",
+      "name": "Creepy Candy Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/creepy-candy-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyber-wildz",
+      "name": "Cyber Wildz",
+      "publicUrl": "https://www.greentube.com/game/cyber-wildz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyber-wildz-buy-bonus",
+      "name": "Cyber Wildz Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/cyber-wildz-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dessert-kingdom",
+      "name": "Dessert Kingdom",
+      "publicUrl": "https://www.greentube.com/game/dessert-kingdom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dessert-kingdom-buy-bonus",
+      "name": "Dessert Kingdom Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/dessert-kingdom-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deuces-wild",
+      "name": "Deuces Wild",
+      "publicUrl": "https://www.greentube.com/game/deuces-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-lotto",
+      "name": "Diamond Cash Lotto",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-lotto/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-stampede",
+      "name": "Diamond Cash: Mighty Stampede",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-almighty-kraken-v2",
+      "name": "Diamond Cash™ : Almighty Kraken",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-almighty-kraken-v2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-dwarves-inc-2",
+      "name": "Diamond Cash™ Mighty Dwarves Inc.",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-dwarves-inc-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-viking",
+      "name": "Diamond Cash™ Mighty Viking",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-viking/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-aztec",
+      "name": "Diamond Cash™ – Mighty Aztec",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-aztec/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-cleopatra",
+      "name": "Diamond Cash™ – Mighty Cleopatra",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-almighty-wolf",
+      "name": "Diamond Cash™: Almighty Wolf ™",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-almighty-wolf/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-cops-n-robbers-3",
+      "name": "Diamond Cash™: Cops ‘n’ Robbers™",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-cops-n-robbers-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-buffalo",
+      "name": "Diamond Cash™: Mighty Buffalo",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-buffalo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-elephant-win-ways",
+      "name": "Diamond Cash™: Mighty Elephant Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-elephant-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-santa",
+      "name": "Diamond Cash™: Mighty Santa",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-santa/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-santa-boarded-up",
+      "name": "Diamond Cash™: Mighty Santa Boarded Up",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-santa-boarded-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-cash-mighty-sevens-win-ways",
+      "name": "Diamond Cash™: Mighty Sevens Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/diamond-cash-mighty-sevens-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-almighty-kraken-v2-2",
+      "name": "Diamond Link™ : Almighty Kraken",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-almighty-kraken-v2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-viking",
+      "name": "Diamond Link™ Mighty Viking",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-viking/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-aztec",
+      "name": "Diamond Link™ – Mighty Aztec",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-aztec/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-cleopatra",
+      "name": "Diamond Link™ – Mighty Cleopatra",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-elephant-dice",
+      "name": "Diamond Link™ – Mighty Elephant Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-elephant-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-santa-boarded",
+      "name": "Diamond Link™ – Mighty Santa: Boarded Up",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-santa-boarded/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-almighty-wolf-no-pot",
+      "name": "Diamond Link™: Almighty Wolf (no pot)",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-almighty-wolf-no-pot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-almighty-wolf",
+      "name": "Diamond Link™: Almighty Wolf ™",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-almighty-wolf/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "d-link-cops-n-robbers",
+      "name": "Diamond Link™: Cops ‘n’ Robbers™",
+      "publicUrl": "https://www.greentube.com/game/d-link-cops-n-robbers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-buffalo",
+      "name": "Diamond Link™: Mighty Buffalo",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-buffalo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-buffalo-dice",
+      "name": "Diamond Link™: Mighty Buffalo Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-buffalo-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-cleopatra-dice",
+      "name": "Diamond Link™: Mighty Cleopatra Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-cleopatra-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-dwarves-inc",
+      "name": "Diamond Link™: Mighty Dwarves Inc.",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-dwarves-inc/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-elephant",
+      "name": "Diamond Link™: Mighty Elephant",
+      "publicUrl": "https://www.greentube.com/game/mighty-elephant/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-elephant-win-ways",
+      "name": "Diamond Link™: Mighty Elephant Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-elephant-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-emperor",
+      "name": "Diamond Link™: Mighty Emperor",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-emperor/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-samurai",
+      "name": "Diamond Link™: Mighty Samurai",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-samurai/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-santa",
+      "name": "Diamond Link™: Mighty Santa",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-santa/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-sevens",
+      "name": "Diamond Link™: Mighty Sevens",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-sevens-dice",
+      "name": "Diamond Link™: Mighty Sevens Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-sevens-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-sevens-win-ways",
+      "name": "Diamond Link™: Mighty Sevens Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-sevens-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-stampede",
+      "name": "Diamond Link™: Mighty Stampede™",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-mighty-viking-dice",
+      "name": "Diamond Link™: Mighty Viking Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-mighty-viking-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-link-oasis-riches",
+      "name": "Diamond Link™: Oasis Riches",
+      "publicUrl": "https://www.greentube.com/game/diamond-link-oasis-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-fortune-streaks-fixed-jp",
+      "name": "Diamond Mystery™ Fortune Streaks",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-fortune-streaks-fixed-jp/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-fruitilicious-deluxe",
+      "name": "Diamond Mystery™ Fruitilicious deluxe",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-fruitilicious-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-rising-joker-dice",
+      "name": "Diamond Mystery™ Rising Joker Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-rising-joker-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10-imperial-crown-del",
+      "name": "Diamond Mystery™ – 10 Imperial Crown™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/10-imperial-crown-del/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-100-charming-7s",
+      "name": "Diamond Mystery™ – 100 Charming 7’s",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-100-charming-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-100-imperial-crown-deluxe-2",
+      "name": "Diamond Mystery™ – 100 Imperial Crown™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-100-imperial-crown-deluxe-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-100-imperial-crown-deluxe-adapted",
+      "name": "Diamond Mystery™ – 100 Imperial Crown™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-100-imperial-crown-deluxe-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-100-wild-fire",
+      "name": "Diamond Mystery™ – 100 Wild Fire",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-100-wild-fire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twenty-imperial-crown-deluxe",
+      "name": "Diamond Mystery™ – 20 Imperial Crown™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/twenty-imperial-crown-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-40-charming-7s",
+      "name": "Diamond Mystery™ – 40 Charming 7’s",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-40-charming-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-40-charming-7s-6reels",
+      "name": "Diamond Mystery™ – 40 Charming 7’s 6reels",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-40-charming-7s-6reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-40-ferocious-fruits-dice",
+      "name": "Diamond Mystery™ – 40 Ferocious Fruits Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-40-ferocious-fruits-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-ferocious-fruits",
+      "name": "Diamond Mystery™ – 40 Ferocious Fruits™",
+      "publicUrl": "https://www.greentube.com/game/40-ferocious-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-imperial-crown-2",
+      "name": "Diamond Mystery™ – 40 Imperial Crown deluxe",
+      "publicUrl": "https://www.greentube.com/game/40-imperial-crown-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-40-imperial-crown-adapted",
+      "name": "Diamond Mystery™ – 40 Imperial Crown™",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-40-imperial-crown-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-imperial-crown",
+      "name": "Diamond Mystery™ – 40 Imperial Crown™",
+      "publicUrl": "https://www.greentube.com/game/40-imperial-crown/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-supreme-fruits",
+      "name": "Diamond Mystery™ – 40 Supreme Fruits™",
+      "publicUrl": "https://www.greentube.com/game/40-supreme-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-wild-fire-6",
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™",
+      "publicUrl": "https://www.greentube.com/game/40-wild-fire-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-40-wild-fire-6-adapted",
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-40-wild-fire-6-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "40-wild-fire-6-dice",
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™ Dice",
+      "publicUrl": "https://www.greentube.com/game/40-wild-fire-6-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-extreme-hot-456",
+      "name": "Diamond Mystery™ – 50 Extreme Hot™",
+      "publicUrl": "https://www.greentube.com/game/50-extreme-hot-456/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50-extreme-hot-dice",
+      "name": "Diamond Mystery™ – 50 Extreme Hot™ Dice",
+      "publicUrl": "https://www.greentube.com/game/50-extreme-hot-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-81-boosting-jokers",
+      "name": "Diamond Mystery™ – 81 Boosting Jokers",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-81-boosting-jokers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forever-hot",
+      "name": "Diamond Mystery™ – Forever Hot",
+      "publicUrl": "https://www.greentube.com/game/forever-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forever-hot-dice",
+      "name": "Diamond Mystery™ – Forever Hot™ Dice",
+      "publicUrl": "https://www.greentube.com/game/forever-hot-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-fruitful-frenzy-cash-accumulator",
+      "name": "Diamond Mystery™ – Fruitful Frenzy – Cash Accumulator",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-fruitful-frenzy-cash-accumulator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "imperial-crown-35",
+      "name": "Diamond Mystery™ – Imperial Crown™",
+      "publicUrl": "https://www.greentube.com/game/imperial-crown-35/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-imperial-crown-adapted",
+      "name": "Diamond Mystery™ – Imperial Crown™",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-imperial-crown-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "about-diamond-mystery-imperial-crown-dice",
+      "name": "Diamond Mystery™ – Imperial Crown™ Dice",
+      "publicUrl": "https://www.greentube.com/game/about-diamond-mystery-imperial-crown-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-joker-party-6-dice",
+      "name": "Diamond Mystery™ – Joker Party 6 Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-joker-party-6-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-party-6",
+      "name": "Diamond Mystery™ – Joker Party™ 6",
+      "publicUrl": "https://www.greentube.com/game/joker-party-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-blaze-diamond-mystery",
+      "name": "Diamond Mystery™ – Mega Blaze",
+      "publicUrl": "https://www.greentube.com/game/mega-blaze-diamond-mystery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-mega-blaze-dice",
+      "name": "Diamond Mystery™ – Mega Blaze Dice",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-mega-blaze-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rising-joker",
+      "name": "Diamond Mystery™ – Rising Joker™",
+      "publicUrl": "https://www.greentube.com/game/rising-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smoking-hot-7s",
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™",
+      "publicUrl": "https://www.greentube.com/game/smoking-hot-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-mystery-smoking-hot-7s-adapted",
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™",
+      "publicUrl": "https://www.greentube.com/game/diamond-mystery-smoking-hot-7s-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smoking-hot-7s-dice",
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™ Dice",
+      "publicUrl": "https://www.greentube.com/game/smoking-hot-7s-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stars-inferno",
+      "name": "Diamond Mystery™ – Stars Inferno™",
+      "publicUrl": "https://www.greentube.com/game/stars-inferno/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-emperors-new-clothes",
+      "name": "Diamond Tales™: The Emperor’s New Clothes",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-emperors-new-clothes-buy",
+      "name": "Diamond Tales™: The Emperor’s New Clothes Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes-buy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-little-mermaid",
+      "name": "Diamond Tales™: The Little Mermaid",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-little-mermaid/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-little-mermaid-buy-bonus",
+      "name": "Diamond Tales™: The Little Mermaid Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-little-mermaid-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-princess-and-the-pea-original",
+      "name": "Diamond Tales™: The Princess and the Pea",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-princess-and-the-pea-original/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-princess-and-the-pea-buy-bonus-2",
+      "name": "Diamond Tales™: The Princess and the Pea Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-princess-and-the-pea-buy-bonus-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-ugly-duckling",
+      "name": "Diamond Tales™: The Ugly Duckling",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-ugly-duckling/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-tales-the-ugly-duckling-bb",
+      "name": "Diamond Tales™: The Ugly Duckling Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/diamond-tales-the-ugly-duckling-bb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-king",
+      "name": "Dice King™",
+      "publicUrl": "https://www.greentube.com/game/dice-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-winner",
+      "name": "Dice Winner",
+      "publicUrl": "https://www.greentube.com/game/dice-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-dog",
+      "name": "DJ Dog",
+      "publicUrl": "https://www.greentube.com/game/dj-dog/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-dog-buy-bonus",
+      "name": "DJ Dog Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/dj-dog-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl",
+      "name": "Dolphin’s Pearl™",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl-22",
+      "name": "Dolphin’s Pearl™",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl-22/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl-deluxe-2-2",
+      "name": "Dolphin’s Pearl™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl-deluxe-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl-deluxe",
+      "name": "Dolphin’s Pearl™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl-deluxe-10",
+      "name": "Dolphin’s Pearl™ deluxe 10",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl-deluxe-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dolphins-pearl-deluxe-bonus-spins-2",
+      "name": "Dolphin’s Pearl™ deluxe Bonus Spins",
+      "publicUrl": "https://www.greentube.com/game/dolphins-pearl-deluxe-bonus-spins-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "double-dice-2",
+      "name": "Double Dice™",
+      "publicUrl": "https://www.greentube.com/game/double-dice-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-blitz",
+      "name": "Dragon Blitz™",
+      "publicUrl": "https://www.greentube.com/game/dragon-blitz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-pays-2nd-chance-respin",
+      "name": "Dragon Pays – 2nd Chance Respin",
+      "publicUrl": "https://www.greentube.com/game/dragon-pays-2nd-chance-respin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-warrior",
+      "name": "Dragon Warrior™",
+      "publicUrl": "https://www.greentube.com/game/dragon-warrior/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-bingo",
+      "name": "Dynamite Bingo",
+      "publicUrl": "https://www.greentube.com/game/dynamite-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-fortunes",
+      "name": "Dynamite Fortunes™",
+      "publicUrl": "https://www.greentube.com/game/dynamite-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynasty-of-ra",
+      "name": "Dynasty of Ra™",
+      "publicUrl": "https://www.greentube.com/game/dynasty-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-boom",
+      "name": "Easter BOOM",
+      "publicUrl": "https://www.greentube.com/game/easter-boom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egyptian-underworld-deluxe",
+      "name": "Egyptian Underworld deluxe™",
+      "publicUrl": "https://www.greentube.com/game/egyptian-underworld-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egyptian-underworld",
+      "name": "Egyptian Underworld™",
+      "publicUrl": "https://www.greentube.com/game/egyptian-underworld/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "electric-flamingo",
+      "name": "Electric Flamingo™",
+      "publicUrl": "https://www.greentube.com/game/electric-flamingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "empire-of-dead",
+      "name": "Empire of Dead",
+      "publicUrl": "https://www.greentube.com/game/empire-of-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "enchanted-pegasus-boom",
+      "name": "Enchanted Pegasus™ BOOM",
+      "publicUrl": "https://www.greentube.com/game/enchanted-pegasus-boom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulette-european",
+      "name": "European Roulette",
+      "publicUrl": "https://www.greentube.com/game/roulette-european/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "express-bonus-game",
+      "name": "Express Bonus Bingo",
+      "publicUrl": "https://www.greentube.com/game/express-bonus-game/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extreme-riches",
+      "name": "Extreme Riches",
+      "publicUrl": "https://www.greentube.com/game/extreme-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-the-dragon-mynt",
+      "name": "Eye of the Dragon",
+      "publicUrl": "https://www.greentube.com/game/eye-of-the-dragon-mynt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-the-dragon",
+      "name": "Eye of the Dragon",
+      "publicUrl": "https://www.greentube.com/game/eye-of-the-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-the-queen",
+      "name": "Eye of the Queen™",
+      "publicUrl": "https://www.greentube.com/game/eye-of-the-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fairy-queen",
+      "name": "Fairy Queen™",
+      "publicUrl": "https://www.greentube.com/game/fairy-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "faust-adapted",
+      "name": "Faust™",
+      "publicUrl": "https://www.greentube.com/game/faust-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "faust",
+      "name": "Faust™",
+      "publicUrl": "https://www.greentube.com/game/faust/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fazidrops-wild-hot-40",
+      "name": "FaziDrops – Wild Hot 40",
+      "publicUrl": "https://www.greentube.com/game/fazidrops-wild-hot-40/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "feather-frenzy",
+      "name": "Feather Frenzy™",
+      "publicUrl": "https://www.greentube.com/game/feather-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "feelin-fruity-10",
+      "name": "Feelin’ Fruity™ 10",
+      "publicUrl": "https://www.greentube.com/game/feelin-fruity-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "feelin-fruity-win-ways",
+      "name": "Feelin’ Fruity™: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/feelin-fruity-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "feeling-fruity-win-ways",
+      "name": "Feelin’ Fruity™: Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/feeling-fruity-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-empress-wealth",
+      "name": "Firecracker Frenzy™ Empress Wealth™",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-empress-wealth/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-empress-wealth-buy-bonus",
+      "name": "Firecracker Frenzy™ Empress Wealth™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-empress-wealth-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-roar-of-riches",
+      "name": "Firecracker Frenzy™ Roar of Riches™",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-roar-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-roar-of-riches-buy-bonus",
+      "name": "Firecracker Frenzy™ Roar of Riches™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-roar-of-riches-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-money-toad",
+      "name": "Firecracker Frenzy™ – Money Toad™",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-money-toad/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firecracker-frenzy-money-toad-buy-bonus",
+      "name": "Firecracker Frenzy™ – Money Toad™  Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/firecracker-frenzy-money-toad-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flame-dancer",
+      "name": "Flame Dancer™",
+      "publicUrl": "https://www.greentube.com/game/flame-dancer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flame-queen",
+      "name": "Flame Queen",
+      "publicUrl": "https://www.greentube.com/game/flame-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flamenco-roses",
+      "name": "Flamenco Roses™",
+      "publicUrl": "https://www.greentube.com/game/flamenco-roses/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flaming-devil",
+      "name": "Flaming Devil",
+      "publicUrl": "https://www.greentube.com/game/flaming-devil/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fluffy-bingo",
+      "name": "Fluffy Bingo™",
+      "publicUrl": "https://www.greentube.com/game/fluffy-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-fishing",
+      "name": "Fortune Fishing™",
+      "publicUrl": "https://www.greentube.com/game/fortune-fishing/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-flows",
+      "name": "Fortune Flows",
+      "publicUrl": "https://www.greentube.com/game/fortune-flows/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-runner",
+      "name": "Fortune Runner",
+      "publicUrl": "https://www.greentube.com/game/fortune-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "free-spinner",
+      "name": "Free Spinner",
+      "publicUrl": "https://www.greentube.com/game/free-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "freibier",
+      "name": "Freibier!™",
+      "publicUrl": "https://www.greentube.com/game/freibier/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dusk-till-dawn",
+      "name": "From Dusk Till Dawn™",
+      "publicUrl": "https://www.greentube.com/game/dusk-till-dawn/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dusk-till-dawn-10",
+      "name": "From Dusk Till Dawn™ 10",
+      "publicUrl": "https://www.greentube.com/game/dusk-till-dawn-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-fest",
+      "name": "Fruit Fest™",
+      "publicUrl": "https://www.greentube.com/game/fruit-fest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-king-super-cash",
+      "name": "Fruit King Super Cash",
+      "publicUrl": "https://www.greentube.com/game/fruit-king-super-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-king",
+      "name": "Fruit King™",
+      "publicUrl": "https://www.greentube.com/game/fruit-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-magic",
+      "name": "Fruit Magic",
+      "publicUrl": "https://www.greentube.com/game/fruit-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruitilicious",
+      "name": "Fruitilicious™",
+      "publicUrl": "https://www.greentube.com/game/fruitilicious/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruitsn-sevens",
+      "name": "Fruits’n Sevens",
+      "publicUrl": "https://www.greentube.com/game/fruitsn-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruity-splasher-fdhjsijsa",
+      "name": "Fruity Splasher",
+      "publicUrl": "https://www.greentube.com/game/fruity-splasher-fdhjsijsa/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruity-splasher-buy-bonus",
+      "name": "Fruity Splasher Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/fruity-splasher-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruchteparadies-10",
+      "name": "Früchteparadies™ 10",
+      "publicUrl": "https://www.greentube.com/game/fruchteparadies-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fuzanglong-fire-wilds",
+      "name": "Fuzanglong Fire Wilds™",
+      "publicUrl": "https://www.greentube.com/game/fuzanglong-fire-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fangbaozhu",
+      "name": "Fàngbàozhú™",
+      "publicUrl": "https://www.greentube.com/game/fangbaozhu/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gang-wars",
+      "name": "Gang Wars",
+      "publicUrl": "https://www.greentube.com/game/gang-wars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gang-wars-buy-bonus",
+      "name": "Gang Wars Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/gang-wars-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "garden-of-riches",
+      "name": "Garden of Riches",
+      "publicUrl": "https://www.greentube.com/game/garden-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemini-twin",
+      "name": "Gemini Twin",
+      "publicUrl": "https://www.greentube.com/game/gemini-twin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-of-giza",
+      "name": "Gems of Giza™",
+      "publicUrl": "https://www.greentube.com/game/gems-of-giza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goddess-of-egypt",
+      "name": "Goddess of Egypt™",
+      "publicUrl": "https://www.greentube.com/game/goddess-of-egypt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-runner",
+      "name": "Gold Runner™",
+      "publicUrl": "https://www.greentube.com/game/gold-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-star-fruits",
+      "name": "Gold Star Fruits™",
+      "publicUrl": "https://www.greentube.com/game/gold-star-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-ark",
+      "name": "Golden Ark™",
+      "publicUrl": "https://www.greentube.com/game/golden-ark/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-flaming-dragon",
+      "name": "Golden Flaming Dragon",
+      "publicUrl": "https://www.greentube.com/game/golden-flaming-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-flaming-dragon-buy-bonus",
+      "name": "Golden Flaming Dragon Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/golden-flaming-dragon-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-jokers",
+      "name": "Golden Jokers",
+      "publicUrl": "https://www.greentube.com/game/golden-jokers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-roar-boom",
+      "name": "Golden Roar BOOM",
+      "publicUrl": "https://www.greentube.com/game/golden-roar-boom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-safari",
+      "name": "Golden Safari",
+      "publicUrl": "https://www.greentube.com/game/golden-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-sevens",
+      "name": "Golden Sevens",
+      "publicUrl": "https://www.greentube.com/game/golden-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-sevens-deluxe",
+      "name": "Golden Sevens deluxe",
+      "publicUrl": "https://www.greentube.com/game/golden-sevens-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gorilla-cash",
+      "name": "Gorilla Cash™",
+      "publicUrl": "https://www.greentube.com/game/gorilla-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gorilla-cash-buy-bonus",
+      "name": "Gorilla Cash™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/gorilla-cash-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gorilla",
+      "name": "Gorilla™",
+      "publicUrl": "https://www.greentube.com/game/gorilla/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-blackjack",
+      "name": "Grand Blackjack",
+      "publicUrl": "https://www.greentube.com/game/grand-blackjack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-holdem",
+      "name": "Grand Hold’em",
+      "publicUrl": "https://www.greentube.com/game/grand-holdem/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-jester",
+      "name": "Grand Jester",
+      "publicUrl": "https://www.greentube.com/game/grand-jester/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-slam-casino",
+      "name": "Grand Slam™ Casino",
+      "publicUrl": "https://www.greentube.com/game/grand-slam-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-american-wilds",
+      "name": "Great American Wilds™",
+      "publicUrl": "https://www.greentube.com/game/great-american-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-emperor",
+      "name": "Great Emperor™",
+      "publicUrl": "https://www.greentube.com/game/great-emperor/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-fortune",
+      "name": "Great Fortune™",
+      "publicUrl": "https://www.greentube.com/game/great-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greedy-joker",
+      "name": "Greedy Joker",
+      "publicUrl": "https://www.greentube.com/game/greedy-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gryphons-gold-deluxe",
+      "name": "Gryphon´s Gold™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/gryphons-gold-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haul-hades-super-spinner",
+      "name": "Haul of Hades – Super Spinner™",
+      "publicUrl": "https://www.greentube.com/game/haul-hades-super-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haul-of-hades",
+      "name": "Haul of Hades™",
+      "publicUrl": "https://www.greentube.com/game/haul-of-hades/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "high-seas-jackpots",
+      "name": "High Seas Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/high-seas-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highway-to-bell-stack-collect",
+      "name": "Highway to Bell Stack & Collect™",
+      "publicUrl": "https://www.greentube.com/game/highway-to-bell-stack-collect/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highway-to-bell-stack-collect-buy-bonus",
+      "name": "Highway to Bell Stack & Collect™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/highway-to-bell-stack-collect-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit-me-baby",
+      "name": "Hit ME Baby!",
+      "publicUrl": "https://www.greentube.com/game/hit-me-baby/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hoffmeister",
+      "name": "Hoffmeister™",
+      "publicUrl": "https://www.greentube.com/game/hoffmeister/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hold-it-casino",
+      "name": "Hold it Casino™",
+      "publicUrl": "https://www.greentube.com/game/hold-it-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "honey-touch",
+      "name": "Honey Touch",
+      "publicUrl": "https://www.greentube.com/game/honey-touch/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-chance",
+      "name": "Hot Chance™",
+      "publicUrl": "https://www.greentube.com/game/hot-chance/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-cherry-deluxe",
+      "name": "Hot Cherry™ Deluxe",
+      "publicUrl": "https://www.greentube.com/game/hot-cherry-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-cubes-adapted",
+      "name": "Hot Cubes",
+      "publicUrl": "https://www.greentube.com/game/hot-cubes-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-cubes",
+      "name": "Hot Cubes",
+      "publicUrl": "https://www.greentube.com/game/hot-cubes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-shot",
+      "name": "Hot Shot",
+      "publicUrl": "https://www.greentube.com/game/hot-shot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "howdy-cupid",
+      "name": "Howdy, Cupid!",
+      "publicUrl": "https://www.greentube.com/game/howdy-cupid/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hu-wants-money",
+      "name": "Hu Wants Money",
+      "publicUrl": "https://www.greentube.com/game/hu-wants-money/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hu-wants-a-vacation",
+      "name": "Hǔ Wants a Vacation",
+      "publicUrl": "https://www.greentube.com/game/hu-wants-a-vacation/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hu-wants-a-vacation-buy-bonus",
+      "name": "Hǔ Wants a Vacation Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/hu-wants-a-vacation-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "indian-spirit-deluxe",
+      "name": "Indian Spirit™ Deluxe",
+      "publicUrl": "https://www.greentube.com/game/indian-spirit-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-coins",
+      "name": "Irish Coins™",
+      "publicUrl": "https://www.greentube.com/game/irish-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "island-heat",
+      "name": "Island Heat™",
+      "publicUrl": "https://www.greentube.com/game/island-heat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-in-the-box",
+      "name": "Jack in the Box™",
+      "publicUrl": "https://www.greentube.com/game/jack-in-the-box/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-crown",
+      "name": "Jackpot Crown™",
+      "publicUrl": "https://www.greentube.com/game/jackpot-crown/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-dice",
+      "name": "Jackpot Dice",
+      "publicUrl": "https://www.greentube.com/game/jackpot-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-joker",
+      "name": "Jackpot Joker",
+      "publicUrl": "https://www.greentube.com/game/jackpot-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jacks-or-better",
+      "name": "Jacks or Better",
+      "publicUrl": "https://www.greentube.com/game/jacks-or-better/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewels-and-gems",
+      "name": "Jewels and Gems",
+      "publicUrl": "https://www.greentube.com/game/jewels-and-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-2000",
+      "name": "Joker 2000",
+      "publicUrl": "https://www.greentube.com/game/joker-2000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-5000-wild",
+      "name": "Joker 5000 Wild",
+      "publicUrl": "https://www.greentube.com/game/joker-5000-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-action-6",
+      "name": "Joker Action 6™",
+      "publicUrl": "https://www.greentube.com/game/joker-action-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-winner",
+      "name": "Joker Winner",
+      "publicUrl": "https://www.greentube.com/game/joker-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-casino",
+      "name": "Jokers Casino™",
+      "publicUrl": "https://www.greentube.com/game/jokers-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokers-bonanza",
+      "name": "Joker’s Bonanza™",
+      "publicUrl": "https://www.greentube.com/game/jokers-bonanza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jolly-fruits",
+      "name": "Jolly Fruits™",
+      "publicUrl": "https://www.greentube.com/game/jolly-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "juicy-riches",
+      "name": "Juicy Riches™",
+      "publicUrl": "https://www.greentube.com/game/juicy-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jumping-jesters-100",
+      "name": "Jumping Jesters 100",
+      "publicUrl": "https://www.greentube.com/game/jumping-jesters-100/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "just-jewels-deluxe",
+      "name": "Just Jewels™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/just-jewels-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "katana",
+      "name": "Katana™",
+      "publicUrl": "https://www.greentube.com/game/katana/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-cards-2-2",
+      "name": "King of Cards™",
+      "publicUrl": "https://www.greentube.com/game/king-of-cards-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-cards",
+      "name": "King of Cards™",
+      "publicUrl": "https://www.greentube.com/game/king-of-cards/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lamp-of-wonders-tapper",
+      "name": "Lamp Of Wonders – Tapper",
+      "publicUrl": "https://www.greentube.com/game/lamp-of-wonders-tapper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legends-of-huntsman-against-the-darkness",
+      "name": "Legends of Huntsman – Against the Darkness™",
+      "publicUrl": "https://www.greentube.com/game/legends-of-huntsman-against-the-darkness/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tale-of-lightning-lion",
+      "name": "Lightning Lion",
+      "publicUrl": "https://www.greentube.com/game/tale-of-lightning-lion/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "little-cluckers",
+      "name": "Little Cluckers™",
+      "publicUrl": "https://www.greentube.com/game/little-cluckers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lock-breakers-goblin-bros",
+      "name": "Lock Breakers – Goblin Bros.",
+      "publicUrl": "https://www.greentube.com/game/lock-breakers-goblin-bros/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lock-breakers-goblin-bros-buy-bonus",
+      "name": "Lock Breakers – Goblin Bros. Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lock-breakers-goblin-bros-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lock-breakers-golden-nuts",
+      "name": "Lock Breakers – Golden Nuts",
+      "publicUrl": "https://www.greentube.com/game/lock-breakers-golden-nuts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lock-breakers-golden-nuts-buy-bonus",
+      "name": "Lock Breakers – Golden Nuts Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lock-breakers-golden-nuts-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lone-star-jackpots-adapted",
+      "name": "Lone Star Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/lone-star-jackpots-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lone-star-jackpots",
+      "name": "Lone Star Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/lone-star-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lone-star-link-eagle-wins",
+      "name": "Lone Star Link™: Eagle Wins",
+      "publicUrl": "https://www.greentube.com/game/lone-star-link-eagle-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lone-star-link-grizzly-wins",
+      "name": "Lone Star Link™: Grizzly Wins",
+      "publicUrl": "https://www.greentube.com/game/lone-star-link-grizzly-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lone-star-link-sizzling-wins",
+      "name": "Lone Star Link™: Sizzling Wins",
+      "publicUrl": "https://www.greentube.com/game/lone-star-link-sizzling-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean-2-2",
+      "name": "Lord of the Ocean™",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean",
+      "name": "Lord of the Ocean™",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-ocean-10-win-ways",
+      "name": "Lord of the Ocean™ 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/lord-ocean-10-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean-10-win-ways-bb",
+      "name": "Lord of the Ocean™ 10: Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean-10-win-ways-bb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean-bingo",
+      "name": "Lord of the Ocean™ Bingo CCJ",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean-bonus-spins",
+      "name": "Lord of the Ocean™ Bonus Spins",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean-bonus-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-of-the-ocean-magic-adapted",
+      "name": "Lord of the Ocean™ Magic",
+      "publicUrl": "https://www.greentube.com/game/lord-of-the-ocean-magic-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-ocean-magic",
+      "name": "Lord of the Ocean™ Magic",
+      "publicUrl": "https://www.greentube.com/game/lord-ocean-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lotus-flower",
+      "name": "Lotus Flower™",
+      "publicUrl": "https://www.greentube.com/game/lotus-flower/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "love-and-rage-olympus",
+      "name": "Love and Rage – Olympus",
+      "publicUrl": "https://www.greentube.com/game/love-and-rage-olympus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "love-and-rage-olympus-buy-bonus",
+      "name": "Love and Rage – Olympus Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/love-and-rage-olympus-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luck-of-the-dead",
+      "name": "Luck of the Dead",
+      "publicUrl": "https://www.greentube.com/game/luck-of-the-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-cards-on-reels",
+      "name": "Lucky Cards on Reels",
+      "publicUrl": "https://www.greentube.com/game/lucky-cards-on-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-lady-bingo",
+      "name": "Lucky Lady Bingo™",
+      "publicUrl": "https://www.greentube.com/game/lucky-lady-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-cubes",
+      "name": "Lucky Lady’s Charm™ Cubes",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-cubes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-2-2",
+      "name": "Lucky Lady’s Charm™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe",
+      "name": "Lucky Lady’s Charm™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-10-2-2",
+      "name": "Lucky Lady’s Charm™ deluxe 10",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-10",
+      "name": "Lucky Lady’s Charm™ deluxe 10",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-10-win-ways",
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-ten-win-ways-ante-bet",
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™  Ante Bet",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-ten-win-ways-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-10-win-ways-bb-antebet",
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™ Ante Bet + Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-win-ways-bb-antebet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-deluxe-6",
+      "name": "Lucky Lady’s Charm™ deluxe 6",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-bonus-spins",
+      "name": "Lucky Lady’s Charm™ deluxe Bonus Spins",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-bonus-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-charm-win-ways",
+      "name": "Lucky Lady’s Charm™ Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-charm-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-ladys-roulette",
+      "name": "Lucky Lady’s™ Roulette",
+      "publicUrl": "https://www.greentube.com/game/lucky-ladys-roulette/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-luchadoras",
+      "name": "Lucky Luchadoras",
+      "publicUrl": "https://www.greentube.com/game/lucky-luchadoras/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-luchadoras-buy-bonus",
+      "name": "Lucky Luchadoras Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lucky-luchadoras-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-spin-jackpots-adapted",
+      "name": "Lucky Spin Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/lucky-spin-jackpots-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-spin-jackpots",
+      "name": "Lucky Spin Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/lucky-spin-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-sword-tapper",
+      "name": "Lucky Sword – Tapper",
+      "publicUrl": "https://www.greentube.com/game/lucky-sword-tapper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-tuts-tomb-of-riches",
+      "name": "Lucky Tut’s Tomb of Riches",
+      "publicUrl": "https://www.greentube.com/game/lucky-tuts-tomb-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-tuts-tomb-of-riches-buy-bonus",
+      "name": "Lucky Tut’s Tomb of Riches Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/lucky-tuts-tomb-of-riches-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luckycapi",
+      "name": "Luckycapi",
+      "publicUrl": "https://www.greentube.com/game/luckycapi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luckycapi-buy-bonus",
+      "name": "Luckycapi Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/luckycapi-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lux-blackjack",
+      "name": "Lux Blackjack 6-Decks™",
+      "publicUrl": "https://www.greentube.com/game/lux-blackjack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lux-roulette",
+      "name": "Lux Roulette",
+      "publicUrl": "https://www.greentube.com/game/lux-roulette/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "madly-wild",
+      "name": "Madly Wild™",
+      "publicUrl": "https://www.greentube.com/game/madly-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic27",
+      "name": "Magic 27",
+      "publicUrl": "https://www.greentube.com/game/magic27/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-81-lines-2",
+      "name": "Magic 81 Lines™",
+      "publicUrl": "https://www.greentube.com/game/magic-81-lines-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-luck-casino",
+      "name": "Magic Luck Casino",
+      "publicUrl": "https://www.greentube.com/game/magic-luck-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magnificent-merlin",
+      "name": "Magnificent Merlin™",
+      "publicUrl": "https://www.greentube.com/game/magnificent-merlin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "manic-potions",
+      "name": "Manic Potions™",
+      "publicUrl": "https://www.greentube.com/game/manic-potions/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-bayou-queen",
+      "name": "Match More: Bayou Queen",
+      "publicUrl": "https://www.greentube.com/game/match-more-bayou-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-bikers-bounty",
+      "name": "Match More: Biker’s Bounty",
+      "publicUrl": "https://www.greentube.com/game/match-more-bikers-bounty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-flame-queen",
+      "name": "Match More: Flame Queen",
+      "publicUrl": "https://www.greentube.com/game/match-more-flame-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-golden-safari",
+      "name": "Match More: Golden Safari",
+      "publicUrl": "https://www.greentube.com/game/match-more-golden-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-honey-touch",
+      "name": "Match More: Honey Touch",
+      "publicUrl": "https://www.greentube.com/game/match-more-honey-touch/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-jewels-gems",
+      "name": "Match More: Jewels and Gems",
+      "publicUrl": "https://www.greentube.com/game/match-jewels-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "match-more-luck-of-the-dead",
+      "name": "Match More: Luck of the Dead",
+      "publicUrl": "https://www.greentube.com/game/match-more-luck-of-the-dead/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayan-moons",
+      "name": "Mayan Moons™",
+      "publicUrl": "https://www.greentube.com/game/mayan-moons/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-joker-2-2",
+      "name": "Mega Joker™",
+      "publicUrl": "https://www.greentube.com/game/mega-joker-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-joker",
+      "name": "Mega Joker™",
+      "publicUrl": "https://www.greentube.com/game/mega-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-slam-casino",
+      "name": "Mega Slam™ Casino",
+      "publicUrl": "https://www.greentube.com/game/mega-slam-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mermaids-pearl",
+      "name": "Mermaid’s Pearl",
+      "publicUrl": "https://www.greentube.com/game/mermaids-pearl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-buffalo-round-em-up-buy-bonus",
+      "name": "Mighty Buffalo Round ‘em Up! Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/mighty-buffalo-round-em-up-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-buffalo-round-em-up",
+      "name": "Mighty Buffalo: Round ‘Em Up!",
+      "publicUrl": "https://www.greentube.com/game/mighty-buffalo-round-em-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-maker",
+      "name": "Money Maker",
+      "publicUrl": "https://www.greentube.com/game/money-maker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-maker-2",
+      "name": "Money Maker 2",
+      "publicUrl": "https://www.greentube.com/game/money-maker-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-maker-buy-bonus",
+      "name": "Money Maker 2 Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/money-maker-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkeys-ahoy",
+      "name": "Monkeys Ahoy",
+      "publicUrl": "https://www.greentube.com/game/monkeys-ahoy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkeys-ahoy-buy-bonus",
+      "name": "Monkeys Ahoy Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/monkeys-ahoy-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-coins",
+      "name": "Multi Coins",
+      "publicUrl": "https://www.greentube.com/game/multi-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-coins-joker",
+      "name": "Multi Coins Joker",
+      "publicUrl": "https://www.greentube.com/game/multi-coins-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-coins-joker-buy-bonus",
+      "name": "Multi Coins Joker Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/multi-coins-joker-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-coins-pro",
+      "name": "Multi Coins Pro",
+      "publicUrl": "https://www.greentube.com/game/multi-coins-pro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-dice",
+      "name": "Multi Dice™",
+      "publicUrl": "https://www.greentube.com/game/multi-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-reels-grand-slam",
+      "name": "Multi Reels™ – Grand Slam",
+      "publicUrl": "https://www.greentube.com/game/multi-reels-grand-slam/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multi-runner",
+      "name": "Multi Runner",
+      "publicUrl": "https://www.greentube.com/game/multi-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mustang-dreaming",
+      "name": "Mustang Dreaming™",
+      "publicUrl": "https://www.greentube.com/game/mustang-dreaming/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mustang-dreaming-buy-bonus",
+      "name": "Mustang Dreaming™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/mustang-dreaming-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-secrets",
+      "name": "Mystic Secrets™",
+      "publicUrl": "https://www.greentube.com/game/mystic-secrets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7837",
+      "name": "Myth of Medusa™ Gold",
+      "publicUrl": "https://www.greentube.com/game/7837/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nineballs",
+      "name": "Nineballs Bingo",
+      "publicUrl": "https://www.greentube.com/game/nineballs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "novo-pick-a-poker-jacks-draw-poker",
+      "name": "Novo Pick a Poker – Jack’s Draw Poker ™",
+      "publicUrl": "https://www.greentube.com/game/novo-pick-a-poker-jacks-draw-poker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orange-trio",
+      "name": "Orange Trio",
+      "publicUrl": "https://www.greentube.com/game/orange-trio/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orange-trio-buy-bonus",
+      "name": "Orange Trio Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/orange-trio-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "panda-pearls",
+      "name": "Panda Pearls",
+      "publicUrl": "https://www.greentube.com/game/panda-pearls/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "party-gods",
+      "name": "Party Gods",
+      "publicUrl": "https://www.greentube.com/game/party-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "party-gods-buy-bonus",
+      "name": "Party Gods Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/party-gods-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "party-parrots",
+      "name": "Party Parrots™",
+      "publicUrl": "https://www.greentube.com/game/party-parrots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pay-day",
+      "name": "Pay Day",
+      "publicUrl": "https://www.greentube.com/game/pay-day/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pepper-mania-casino",
+      "name": "Pepper Mania Casino",
+      "publicUrl": "https://www.greentube.com/game/pepper-mania-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pharaohs-ring",
+      "name": "Pharaoh’s Ring™",
+      "publicUrl": "https://www.greentube.com/game/pharaohs-ring/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pharaohs-tomb",
+      "name": "Pharaoh’s Tomb™",
+      "publicUrl": "https://www.greentube.com/game/pharaohs-tomb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pharaohs-bingo",
+      "name": "Pharao´s Bingo",
+      "publicUrl": "https://www.greentube.com/game/pharaohs-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-fortune",
+      "name": "Phoenix Fortune™",
+      "publicUrl": "https://www.greentube.com/game/phoenix-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-coins-o-plenty",
+      "name": "Piggy Prizes™ Coins O’ Plenty™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-coins-o-plenty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-coins-o-plenty-buy-bonus",
+      "name": "Piggy Prizes™ Coins O’ Plenty™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-coins-o-plenty-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-jingle-jackpots",
+      "name": "Piggy Prizes™ Jingle Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-jingle-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-jingle-jackpots-buy-bonus",
+      "name": "Piggy Prizes™ Jingle Jackpots™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-jingle-jackpots-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-lawless-loot",
+      "name": "Piggy Prizes™ Lawless Loot™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-lawless-loot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-lawless-loot-buy-bonus",
+      "name": "Piggy Prizes™ Lawless Loot™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-lawless-loot-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-railroad-rumble",
+      "name": "Piggy Prizes™ Railroad Rumble™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-railroad-rumble/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-railroad-rumble-buy-bonus",
+      "name": "Piggy Prizes™ Railroad Rumble™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-railroad-rumble-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wand-of-riches",
+      "name": "Piggy Prizes™ Wand of Riches™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wand-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wand-of-riches-buy-bonus",
+      "name": "Piggy Prizes™ Wand of Riches™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wish-of-riches-2",
+      "name": "Piggy Prizes™ Wish of Riches 2™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wish-of-riches-2-buy-bonus",
+      "name": "Piggy Prizes™ Wish of Riches 2™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-2-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wish-of-riches",
+      "name": "Piggy Prizes™ Wish of Riches™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wish-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wish-of-riches-buy-bonus",
+      "name": "Piggy Prizes™ Wish of Riches™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-ghost-of-gambini",
+      "name": "Piggy Prizes™ – Ghost of Gambini™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-ghost-of-gambini/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-ghost-of-gambini-buy-bonus",
+      "name": "Piggy Prizes™ – Ghost of Gambini™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-ghost-of-gambini-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wand-of-riches-2",
+      "name": "Piggy Prizes™: Wand Of Riches 2™",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-prizes-wand-of-riches-2-buy-bonus",
+      "name": "Piggy Prizes™: Wand Of Riches 2™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-2-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pinata-blast-tapper",
+      "name": "Piñata Blast- Tapper",
+      "publicUrl": "https://www.greentube.com/game/pinata-blast-tapper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-of-fruit-20-hot",
+      "name": "Plenty of Fruit 20 Hot™",
+      "publicUrl": "https://www.greentube.com/game/plenty-of-fruit-20-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-of-fruit-20",
+      "name": "Plenty of Fruit 20™",
+      "publicUrl": "https://www.greentube.com/game/plenty-of-fruit-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-of-fruit-40",
+      "name": "Plenty of Fruit 40™",
+      "publicUrl": "https://www.greentube.com/game/plenty-of-fruit-40/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-on-twenty",
+      "name": "Plenty on Twenty™",
+      "publicUrl": "https://www.greentube.com/game/plenty-on-twenty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plenty-on-twenty-ii-hot",
+      "name": "Plenty on Twenty™ II hot",
+      "publicUrl": "https://www.greentube.com/game/plenty-on-twenty-ii-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pots-of-treasure-win-ways",
+      "name": "Pots of Treasure™: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/pots-of-treasure-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pots-of-treasure-win-ways-ante-bet",
+      "name": "Pots of Treasure™: Win Ways™ Ante Bet",
+      "publicUrl": "https://www.greentube.com/game/pots-of-treasure-win-ways-ante-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pots-of-treasure-win-ways-ante-bet-b-b",
+      "name": "Pots of Treasure™: Win Ways™ Ante Bet + Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/pots-of-treasure-win-ways-ante-bet-b-b/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-joker",
+      "name": "Power Joker™",
+      "publicUrl": "https://www.greentube.com/game/power-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-prizes-eternal-mandarin-ducks-2",
+      "name": "POWER PRIZES™ – Eternal Mandarin Ducks™",
+      "publicUrl": "https://www.greentube.com/game/power-prizes-eternal-mandarin-ducks-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-prizes-noble-peacock-89%c2%a7",
+      "name": "POWER PRIZES™ – Noble Peacock™",
+      "publicUrl": "https://www.greentube.com/game/power-prizes-noble-peacock-89%c2%a7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-prizes-royal-crane",
+      "name": "POWER PRIZES™ – Royal Crane™",
+      "publicUrl": "https://www.greentube.com/game/power-prizes-royal-crane/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-stars-2-2",
+      "name": "Power Stars™",
+      "publicUrl": "https://www.greentube.com/game/power-stars-2-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-stars",
+      "name": "Power Stars™",
+      "publicUrl": "https://www.greentube.com/game/power-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prize-of-the-nile",
+      "name": "Prize Of The Nile™",
+      "publicUrl": "https://www.greentube.com/game/prize-of-the-nile/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prized-panda",
+      "name": "Prized Panda™",
+      "publicUrl": "https://www.greentube.com/game/prized-panda/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pyramid-fortunes",
+      "name": "Pyramid Fortunes™",
+      "publicUrl": "https://www.greentube.com/game/pyramid-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-cleopatra-mynt-ported",
+      "name": "Queen Cleopatra",
+      "publicUrl": "https://www.greentube.com/game/queen-cleopatra-mynt-ported/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-cleopatra",
+      "name": "Queen Cleopatra",
+      "publicUrl": "https://www.greentube.com/game/queen-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-of-coins",
+      "name": "Queen of Coins",
+      "publicUrl": "https://www.greentube.com/game/queen-of-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen-of-hearts-deluxe",
+      "name": "Queen of Hearts™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/queen-of-hearts-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-bonus-winner",
+      "name": "Random Bonus Winner",
+      "publicUrl": "https://www.greentube.com/game/random-bonus-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-flashback",
+      "name": "Random Flashback",
+      "publicUrl": "https://www.greentube.com/game/random-flashback/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-free-winner",
+      "name": "Random Free Winner",
+      "publicUrl": "https://www.greentube.com/game/random-free-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-vip",
+      "name": "Random Runner® VIP",
+      "publicUrl": "https://www.greentube.com/game/random-runner-vip/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-vip-plus",
+      "name": "Random Runner® VIP+",
+      "publicUrl": "https://www.greentube.com/game/random-runner-vip-plus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-awp",
+      "name": "Random Runner™",
+      "publicUrl": "https://www.greentube.com/game/random-runner-awp/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-15",
+      "name": "Random Runner™ 15",
+      "publicUrl": "https://www.greentube.com/game/random-runner-15/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-20",
+      "name": "Random Runner™ 20",
+      "publicUrl": "https://www.greentube.com/game/random-runner-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-4ortune",
+      "name": "Random Runner™ 4ortune",
+      "publicUrl": "https://www.greentube.com/game/random-runner-4ortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-holdrun",
+      "name": "Random Runner™ Hold & Run",
+      "publicUrl": "https://www.greentube.com/game/random-runner-holdrun/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-rad-van-geluk-2",
+      "name": "Random Runner™ Rad van Geluk",
+      "publicUrl": "https://www.greentube.com/game/random-runner-rad-van-geluk-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "about-random-runner-super-wild",
+      "name": "Random Runner™ Super Wild",
+      "publicUrl": "https://www.greentube.com/game/about-random-runner-super-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-runner-twin",
+      "name": "Random Runner™ Twin",
+      "publicUrl": "https://www.greentube.com/game/random-runner-twin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "random-wild-winner",
+      "name": "Random Wild Winner",
+      "publicUrl": "https://www.greentube.com/game/random-wild-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-20",
+      "name": "Red Hot 20",
+      "publicUrl": "https://www.greentube.com/game/red-hot-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-40",
+      "name": "Red Hot 40",
+      "publicUrl": "https://www.greentube.com/game/red-hot-40/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-burning",
+      "name": "Red Hot Burning",
+      "publicUrl": "https://www.greentube.com/game/red-hot-burning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-lady",
+      "name": "Red Lady",
+      "publicUrl": "https://www.greentube.com/game/red-lady/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king-potty",
+      "name": "Reel King Potty™",
+      "publicUrl": "https://www.greentube.com/game/reel-king-potty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king",
+      "name": "Reel King™",
+      "publicUrl": "https://www.greentube.com/game/reel-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reeling-in-cash",
+      "name": "Reeling in Cash",
+      "publicUrl": "https://www.greentube.com/game/reeling-in-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reeling-in-cash-buy-bonus",
+      "name": "Reeling in Cash Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/reeling-in-cash-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riches-of-babylon",
+      "name": "Riches of Babylon™",
+      "publicUrl": "https://www.greentube.com/game/riches-of-babylon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-tut-magic-2",
+      "name": "Rise of Tut™ Magic",
+      "publicUrl": "https://www.greentube.com/game/rise-of-tut-magic-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-tut-magic-buy-bonus",
+      "name": "Rise of Tut™ Magic Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/rise-of-tut-magic-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rising-tiger-sheng-qi-de-laohu",
+      "name": "Rising Tiger – Shēng qǐ de Lǎohǔ™",
+      "publicUrl": "https://www.greentube.com/game/rising-tiger-sheng-qi-de-laohu/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rising-treasures",
+      "name": "Rising Treasures™",
+      "publicUrl": "https://www.greentube.com/game/rising-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "risk-4-reward",
+      "name": "Risk 4 Reward",
+      "publicUrl": "https://www.greentube.com/game/risk-4-reward/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "river-queen",
+      "name": "River Queen™",
+      "publicUrl": "https://www.greentube.com/game/river-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roaring-forties-22",
+      "name": "Roaring Forties™",
+      "publicUrl": "https://www.greentube.com/game/roaring-forties-22/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roaring-forties",
+      "name": "Roaring Forties™",
+      "publicUrl": "https://www.greentube.com/game/roaring-forties/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roaring-wilds",
+      "name": "Roaring Wilds™",
+      "publicUrl": "https://www.greentube.com/game/roaring-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "romeo-juliet-sealed-kiss",
+      "name": "Romeo & Juliet – Sealed with a Kiss™",
+      "publicUrl": "https://www.greentube.com/game/romeo-juliet-sealed-kiss/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulettes",
+      "name": "RouletteS",
+      "publicUrl": "https://www.greentube.com/game/roulettes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-crown-blackjack",
+      "name": "Royal Crown Blackjack",
+      "publicUrl": "https://www.greentube.com/game/royal-crown-blackjack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-crown-roulette",
+      "name": "Royal Crown European Roulette",
+      "publicUrl": "https://www.greentube.com/game/royal-crown-roulette/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-flush-trophy-spins",
+      "name": "Royal Flush™ Trophy Spins™",
+      "publicUrl": "https://www.greentube.com/game/royal-flush-trophy-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-flush-trophy-spins-buy-bonus",
+      "name": "Royal Flush™ Trophy Spins™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/royal-flush-trophy-spins-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-roulette",
+      "name": "Royal Roulette",
+      "publicUrl": "https://www.greentube.com/game/royal-roulette/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble-riches-haulin-gold",
+      "name": "Rumble Riches™ – Haulin’ Gold™",
+      "publicUrl": "https://www.greentube.com/game/rumble-riches-haulin-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble-riches-haulin-gold-buy-bonus",
+      "name": "Rumble Riches™ – Haulin’ Gold™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/rumble-riches-haulin-gold-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble-riches-santas-sleigh-of-gold",
+      "name": "Rumble Riches™ – Santa’s Sleigh of Gold™",
+      "publicUrl": "https://www.greentube.com/game/rumble-riches-santas-sleigh-of-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble-riches-santas-sleigh-of-gold-buy-bonus",
+      "name": "Rumble Riches™ – Santa’s Sleigh of Gold™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/rumble-riches-santas-sleigh-of-gold-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumpel-wildspins",
+      "name": "Rumpel Wildspins™",
+      "publicUrl": "https://www.greentube.com/game/rumpel-wildspins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "runner-unlimited-cascading-wins",
+      "name": "Runner Unlimited Cascading Wins (Ante Bet)",
+      "publicUrl": "https://www.greentube.com/game/runner-unlimited-cascading-wins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "running-wild-super",
+      "name": "Running Wild Super",
+      "publicUrl": "https://www.greentube.com/game/running-wild-super/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-riches",
+      "name": "Santa’s Riches™",
+      "publicUrl": "https://www.greentube.com/game/santas-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-wild-ride",
+      "name": "Santa’s Wild Ride",
+      "publicUrl": "https://www.greentube.com/game/santas-wild-ride/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scat-cat-fortune",
+      "name": "Scat Cat Fortune™",
+      "publicUrl": "https://www.greentube.com/game/scat-cat-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "seven-seas-jackpots",
+      "name": "Seven Seas Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/seven-seas-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sevens-bonus",
+      "name": "Sevens Bonus",
+      "publicUrl": "https://www.greentube.com/game/sevens-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sevens-staxx",
+      "name": "Sevens Staxx™",
+      "publicUrl": "https://www.greentube.com/game/sevens-staxx/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sharkys-choices-win-ways",
+      "name": "Sharky’s Choices Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/sharkys-choices-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sharkys-choices-win-ways-buy-bonus",
+      "name": "Sharky’s Choices Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/sharkys-choices-win-ways-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sharky",
+      "name": "Sharky™",
+      "publicUrl": "https://www.greentube.com/game/sharky/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shooting-stars-supernova",
+      "name": "Shooting Stars Supernova™",
+      "publicUrl": "https://www.greentube.com/game/shooting-stars-supernova/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shooting-stars",
+      "name": "Shooting Stars™",
+      "publicUrl": "https://www.greentube.com/game/shooting-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shrimp-on-the-barbie",
+      "name": "Shrimp on the Barbie",
+      "publicUrl": "https://www.greentube.com/game/shrimp-on-the-barbie/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shrimp-on-the-barbie-buy-bonus",
+      "name": "Shrimp on the Barbie Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/shrimp-on-the-barbie-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-big-win-spinner",
+      "name": "Silver Lux – Big Win Spinner",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-big-win-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-coin-run",
+      "name": "Silver Lux – Coin Run",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-coin-run/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-coin-stacks",
+      "name": "Silver Lux – Coin Stacks",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-coin-stacks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-extra-dice",
+      "name": "Silver Lux – Extra Dice",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-extra-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-magic-sevens",
+      "name": "Silver Lux – Magic Sevens",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-magic-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-sevens-holdem-respin",
+      "name": "Silver Lux – Sevens Hold’em Respin",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-sevens-holdem-respin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-lux-triple-bonus-gems",
+      "name": "Silver Lux- Triple Bonus Gems",
+      "publicUrl": "https://www.greentube.com/game/silver-lux-triple-bonus-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silver-trails",
+      "name": "Silver Trails™",
+      "publicUrl": "https://www.greentube.com/game/silver-trails/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silverball",
+      "name": "Silverball",
+      "publicUrl": "https://www.greentube.com/game/silverball/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-cash-coins",
+      "name": "Simply Cash Coins",
+      "publicUrl": "https://www.greentube.com/game/simply-cash-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-holdem",
+      "name": "Simply Hold’em",
+      "publicUrl": "https://www.greentube.com/game/simply-holdem/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wilder",
+      "name": "Simply Wilder™",
+      "publicUrl": "https://www.greentube.com/game/simply-wilder/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild",
+      "name": "Simply Wild™",
+      "publicUrl": "https://www.greentube.com/game/simply-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild-20",
+      "name": "Simply Wild™ 20",
+      "publicUrl": "https://www.greentube.com/game/simply-wild-20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild-4ortune",
+      "name": "Simply Wild™ 4ortune",
+      "publicUrl": "https://www.greentube.com/game/simply-wild-4ortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild-supergame",
+      "name": "Simply Wild™ SuperGame",
+      "publicUrl": "https://www.greentube.com/game/simply-wild-supergame/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild-superstars",
+      "name": "Simply Wild™ SuperStars",
+      "publicUrl": "https://www.greentube.com/game/simply-wild-superstars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "simply-wild-twin",
+      "name": "Simply Wild™ Twin",
+      "publicUrl": "https://www.greentube.com/game/simply-wild-twin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sinderella",
+      "name": "Sinderella",
+      "publicUrl": "https://www.greentube.com/game/sinderella/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-gems",
+      "name": "Sizzling Gems™",
+      "publicUrl": "https://www.greentube.com/game/sizzling-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-6-extra-gold-adapted",
+      "name": "Sizzling Hot 6 extra gold™",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-6-extra-gold-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-6-extra-gold",
+      "name": "Sizzling Hot 6 extra gold™",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-6-extra-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-quattro",
+      "name": "Sizzling Hot Quattro™",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-quattro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-deluxe-22",
+      "name": "Sizzling Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-deluxe-22/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-deluxe",
+      "name": "Sizzling Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-deluxe-win",
+      "name": "Sizzling Hot™ deluxe 10: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-deluxe-win/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-hot-deluxe-bonus-spins",
+      "name": "Sizzling Hot™ deluxe Bonus Spins",
+      "publicUrl": "https://www.greentube.com/game/sizzling-hot-deluxe-bonus-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smashing-sevens-win-ways-adapted",
+      "name": "Smashing Sevens™: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/smashing-sevens-win-ways-adapted/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smashing-sevens-win-ways",
+      "name": "Smashing Sevens™: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/smashing-sevens-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "smashing-sevens-win-ways-dice",
+      "name": "Smashing Sevens™: Win Ways™ Dice",
+      "publicUrl": "https://www.greentube.com/game/smashing-sevens-win-ways-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snake-rattle-roll",
+      "name": "Snake Rattle & Roll™",
+      "publicUrl": "https://www.greentube.com/game/snake-rattle-roll/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spooky-house",
+      "name": "Spooky House",
+      "publicUrl": "https://www.greentube.com/game/spooky-house/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spooky-spells",
+      "name": "Spooky Spells™",
+      "publicUrl": "https://www.greentube.com/game/spooky-spells/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spring-queen",
+      "name": "Spring Queen™",
+      "publicUrl": "https://www.greentube.com/game/spring-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stairway-to-sevens-stack-collect",
+      "name": "Stairway to Sevens Stack & Collect™",
+      "publicUrl": "https://www.greentube.com/game/stairway-to-sevens-stack-collect/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stairway-to-sevens-stack-collect-buy-bonus",
+      "name": "Stairway to Sevens Stack & Collect™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/stairway-to-sevens-stack-collect-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-candy",
+      "name": "Star Candy",
+      "publicUrl": "https://www.greentube.com/game/star-candy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-candy-buy-bonus",
+      "name": "Star Candy Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/star-candy-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-hit-jackpots",
+      "name": "Star Hit Jackpots™",
+      "publicUrl": "https://www.greentube.com/game/star-hit-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-lotto",
+      "name": "Star Lotto",
+      "publicUrl": "https://www.greentube.com/game/star-lotto/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-nova",
+      "name": "Star Nova™",
+      "publicUrl": "https://www.greentube.com/game/star-nova/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-supreme",
+      "name": "Star Supreme™",
+      "publicUrl": "https://www.greentube.com/game/star-supreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-athena-goddess-of-war-2",
+      "name": "Starlight Jackpots™ Athena Goddess of War™",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-athena-goddess-of-war-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-athena-goddess-of-war-xtreme-bet",
+      "name": "Starlight Jackpots™ Athena Goddess of War™ Xtreme Bet",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-athena-goddess-of-war-xtreme-bet/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-bison-rush",
+      "name": "Starlight Jackpots™ Bison Rush™",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-bison-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-chances-des-dieux-2",
+      "name": "Starlight Jackpots™ Chances Des Dieux 2",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-chances-des-dieux-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-mighty-mayans",
+      "name": "Starlight Jackpots™ Mighty Mayans™",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-mighty-mayans/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-odds-of-the-gods-2",
+      "name": "Starlight Jackpots™ Odds of the Gods 2",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-odds-of-the-gods-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starlight-jackpots-captains-catch",
+      "name": "Starlight Jackpots™ – Captain’s Catch™",
+      "publicUrl": "https://www.greentube.com/game/starlight-jackpots-captains-catch/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starliner-1-%c2%a74-%c2%a7",
+      "name": "Starliner",
+      "publicUrl": "https://www.greentube.com/game/starliner-1-%c2%a74-%c2%a7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starliner-ii",
+      "name": "Starliner II",
+      "publicUrl": "https://www.greentube.com/game/starliner-ii/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stein-haus",
+      "name": "Stein Haus™",
+      "publicUrl": "https://www.greentube.com/game/stein-haus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stellar-joker",
+      "name": "Stellar Joker",
+      "publicUrl": "https://www.greentube.com/game/stellar-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "strike-gold-win-ways",
+      "name": "Strike It Gold™: Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/strike-gold-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "summer-queen",
+      "name": "Summer Queen™",
+      "publicUrl": "https://www.greentube.com/game/summer-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-dice-2",
+      "name": "Super 2 Dice™",
+      "publicUrl": "https://www.greentube.com/game/super-dice-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-cherry-1000",
+      "name": "Super Cherry 1000",
+      "publicUrl": "https://www.greentube.com/game/super-cherry-1000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-cherry-2000",
+      "name": "Super Cherry 2000",
+      "publicUrl": "https://www.greentube.com/game/super-cherry-2000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-cherry-5000",
+      "name": "Super Cherry 5000",
+      "publicUrl": "https://www.greentube.com/game/super-cherry-5000/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-cherry-locknwin",
+      "name": "Super Cherry Lock’N’Win",
+      "publicUrl": "https://www.greentube.com/game/super-cherry-locknwin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-circus",
+      "name": "Super Circus™",
+      "publicUrl": "https://www.greentube.com/game/super-circus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-dice",
+      "name": "SUPER DICE™",
+      "publicUrl": "https://www.greentube.com/game/super-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-random-flashback",
+      "name": "Super Random Flashback™",
+      "publicUrl": "https://www.greentube.com/game/super-random-flashback/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-random-runner-hold-run",
+      "name": "Super Random Runner™ Hold & Run",
+      "publicUrl": "https://www.greentube.com/game/super-random-runner-hold-run/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-scatter-x",
+      "name": "Super Scatter X",
+      "publicUrl": "https://www.greentube.com/game/super-scatter-x/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-topspinner",
+      "name": "Super TopSpinner™",
+      "publicUrl": "https://www.greentube.com/game/super-topspinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-triple-fortune-mynt",
+      "name": "Super Triple Fortune",
+      "publicUrl": "https://www.greentube.com/game/super-triple-fortune-mynt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-triple-fortune",
+      "name": "Super Triple Fortune",
+      "publicUrl": "https://www.greentube.com/game/super-triple-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "supra-hot",
+      "name": "Supra Hot",
+      "publicUrl": "https://www.greentube.com/game/supra-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "supra-hot-cubes",
+      "name": "Supra Hot Cubes",
+      "publicUrl": "https://www.greentube.com/game/supra-hot-cubes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sushi-fruits",
+      "name": "Sushi Fruits™",
+      "publicUrl": "https://www.greentube.com/game/sushi-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-darknessbreak-dawn",
+      "name": "Tales of Darkness™ Break of Dawn",
+      "publicUrl": "https://www.greentube.com/game/tales-darknessbreak-dawn/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-darkness-full-moon",
+      "name": "Tales of Darkness™ Full Moon",
+      "publicUrl": "https://www.greentube.com/game/tales-darkness-full-moon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-darkness-lunar-eclipse",
+      "name": "Tales of Darkness™ Lunar Eclipse",
+      "publicUrl": "https://www.greentube.com/game/tales-darkness-lunar-eclipse/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnight-heat",
+      "name": "Tales of Darkness™ – Midnight Heat",
+      "publicUrl": "https://www.greentube.com/game/midnight-heat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-secrets",
+      "name": "Temple of Secrets",
+      "publicUrl": "https://www.greentube.com/game/temple-of-secrets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-gambinis-night-magic",
+      "name": "The Great Gambini’s Night Magic",
+      "publicUrl": "https://www.greentube.com/game/great-gambinis-night-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-jungle-house",
+      "name": "The Jungle House™ Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/the-jungle-house/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-jungle-house-win-ways-buy-bonus",
+      "name": "The Jungle House™ Win Ways™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/the-jungle-house-win-ways-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-bandits-shoot-n-spin",
+      "name": "Three Bandits: Shoot ’n’ Spin",
+      "publicUrl": "https://www.greentube.com/game/three-bandits-shoot-n-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-bandits-shoot-n-spin-buy-bonus",
+      "name": "Three Bandits: Shoot ’n’ Spin Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/three-bandits-shoot-n-spin-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-book-of-ra",
+      "name": "Thunder Cash™ – Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-book-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-candelas-de-los-muertos-senor-muerte",
+      "name": "Thunder Cash™ – Candelas de los Muertos™ – Señor Muerte",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-candelas-de-los-muertos-senor-muerte/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-senorita-suerte",
+      "name": "Thunder Cash™ – Candelas de Los Muertos™ – Señorita Suerte",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-senorita-suerte/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-charming-ladys-boom-coins",
+      "name": "Thunder Cash™ – Charming Lady’s Boom™ Coins",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-charming-ladys-boom-coins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-charming-lady",
+      "name": "Thunder Cash™ – Charming Lady™ – U.S.A",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-charming-lady/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-dolphins-pearl-2",
+      "name": "Thunder Cash™ – Dolphin’s Pearl™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-dolphins-pearl-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-fruity-fruity",
+      "name": "THUNDER CASH™ – Fruity Fruity",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-fruity-fruity/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-golden-book-of-ra-2",
+      "name": "Thunder Cash™ – Golden Book of Ra™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-golden-book-of-ra-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-golden-sizzling-hot",
+      "name": "Thunder Cash™ – Golden Sizzling Hot™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-golden-sizzling-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-golden-voodoo-magic",
+      "name": "Thunder Cash™ – Golden Voodoo Magic™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-golden-voodoo-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-juicy-juicy",
+      "name": "THUNDER CASH™ – Juicy Juicy",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-juicy-juicy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-moonlight-safari",
+      "name": "Thunder Cash™ – Moonlight Safari",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-moonlight-safari/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-sizzling-hot",
+      "name": "Thunder Cash™ – Sizzling Hot™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-sizzling-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-solid-sevens",
+      "name": "Thunder Cash™ – Solid Sevens™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-solid-sevens/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-swiss-magic-2",
+      "name": "Thunder Cash™ – Swiss Magic",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-swiss-magic-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-cash-voodoo-magic",
+      "name": "Thunder Cash™ – Voodoo Magic™",
+      "publicUrl": "https://www.greentube.com/game/thunder-cash-voodoo-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tidal-riches",
+      "name": "Tidal Riches",
+      "publicUrl": "https://www.greentube.com/game/tidal-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiger-jewel",
+      "name": "Tiger & Jewel™",
+      "publicUrl": "https://www.greentube.com/game/tiger-jewel/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "top-o-the-money",
+      "name": "Top o´the Money™",
+      "publicUrl": "https://www.greentube.com/game/top-o-the-money/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "top-o-money-pots-wealth-e-%c2%a7",
+      "name": "Top o’ the Money™ – Pots of Wealth",
+      "publicUrl": "https://www.greentube.com/game/top-o-money-pots-wealth-e-%c2%a7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "top-runner-xl",
+      "name": "Top Runner™ XL",
+      "publicUrl": "https://www.greentube.com/game/top-runner-xl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "topspinner",
+      "name": "TopSpinner™",
+      "publicUrl": "https://www.greentube.com/game/topspinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "totally-wild",
+      "name": "Totally Wild™",
+      "publicUrl": "https://www.greentube.com/game/totally-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "toxic-tides",
+      "name": "Toxic Tides™",
+      "publicUrl": "https://www.greentube.com/game/toxic-tides/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trinity-treasures-wukong",
+      "name": "Trinity Treasures™ Wukong",
+      "publicUrl": "https://www.greentube.com/game/trinity-treasures-wukong/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trinity-treasures-buy-bonus",
+      "name": "Trinity Treasures™ Wukong Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/trinity-treasures-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tumbling-joker",
+      "name": "Tumbling Joker",
+      "publicUrl": "https://www.greentube.com/game/tumbling-joker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-player-pepper-mania",
+      "name": "Twin Player™ – Pepper Mania",
+      "publicUrl": "https://www.greentube.com/game/twin-player-pepper-mania/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-bells-extra-twin",
+      "name": "Twin Player™ – Super Bells Extra",
+      "publicUrl": "https://www.greentube.com/game/super-bells-extra-twin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spinner",
+      "name": "Twin Spinner",
+      "publicUrl": "https://www.greentube.com/game/twin-spinner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spinner-book-of-ra-deluxe",
+      "name": "Twin Spinner Book of Ra™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/twin-spinner-book-of-ra-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spinner-sizzling-hot-deluxe",
+      "name": "Twin Spinner Sizzling Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/twin-spinner-sizzling-hot-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-winner",
+      "name": "Twin Winner™",
+      "publicUrl": "https://www.greentube.com/game/twin-winner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-blitz-chilli-el-toro",
+      "name": "Ultra Blitz™ – Chilli El Toro",
+      "publicUrl": "https://www.greentube.com/game/ultra-blitz-chilli-el-toro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-blitz-chilli-el-toro-buy-bonus",
+      "name": "Ultra Blitz™ – Chilli El Toro Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/ultra-blitz-chilli-el-toro-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-hot-deluxe-222",
+      "name": "Ultra Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/ultra-hot-deluxe-222/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-hot-deluxe",
+      "name": "Ultra Hot™ deluxe",
+      "publicUrl": "https://www.greentube.com/game/ultra-hot-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vampire-fortunes",
+      "name": "Vampire Fortunes™",
+      "publicUrl": "https://www.greentube.com/game/vampire-fortunes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "welcome-fortune",
+      "name": "Welcome Fortune™",
+      "publicUrl": "https://www.greentube.com/game/welcome-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheeler-dealer",
+      "name": "Wheeler Dealer",
+      "publicUrl": "https://www.greentube.com/game/wheeler-dealer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheeler-dealer-buy-bonus",
+      "name": "Wheeler Dealer Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/wheeler-dealer-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-country",
+      "name": "Wild Country™",
+      "publicUrl": "https://www.greentube.com/game/wild-country/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-lines-american-eagle",
+      "name": "Wild Lines: American Eagle™",
+      "publicUrl": "https://www.greentube.com/game/wild-lines-american-eagle/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-ranger",
+      "name": "Wild Ranger™",
+      "publicUrl": "https://www.greentube.com/game/wild-ranger/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-runner",
+      "name": "Wild Runner™",
+      "publicUrl": "https://www.greentube.com/game/wild-runner/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-spinner-casino",
+      "name": "Wild Spinner™ casino",
+      "publicUrl": "https://www.greentube.com/game/wild-spinner-casino/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wings-of-fortune",
+      "name": "Wings of Fortune™",
+      "publicUrl": "https://www.greentube.com/game/wings-of-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winter-queen",
+      "name": "Winter Queen™",
+      "publicUrl": "https://www.greentube.com/game/winter-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wish-upon-star",
+      "name": "Wish Upon a Star™",
+      "publicUrl": "https://www.greentube.com/game/wish-upon-star/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wish-upon-a-star-2",
+      "name": "Wish Upon a Star™ 2",
+      "publicUrl": "https://www.greentube.com/game/wish-upon-a-star-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wish-upon-a-star-2-buy-bonus",
+      "name": "Wish Upon a Star™ 2 Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/wish-upon-a-star-2-buy-bonus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "witch-tricks-win-ways",
+      "name": "Witch Tricks™ Win Ways™",
+      "publicUrl": "https://www.greentube.com/game/witch-tricks-win-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wizard-bingo",
+      "name": "Wizard Bingo",
+      "publicUrl": "https://www.greentube.com/game/wizard-bingo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "woonsters",
+      "name": "Woonsters™",
+      "publicUrl": "https://www.greentube.com/game/woonsters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xmas-bells",
+      "name": "Xmas Bells™",
+      "publicUrl": "https://www.greentube.com/game/xmas-bells/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtension-link-golden-book-of-ra-xl",
+      "name": "Xtension Link™ – Golden Book of Ra™ XL",
+      "publicUrl": "https://www.greentube.com/game/xtension-link-golden-book-of-ra-xl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtension-link-golden-book-of-ra",
+      "name": "Xtension Link™ – Golden Book of Ra™ XL",
+      "publicUrl": "https://www.greentube.com/game/xtension-link-golden-book-of-ra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtension-link-golden-chicago-xl-linked",
+      "name": "Xtension Link™ – Golden Chicago™ XL",
+      "publicUrl": "https://www.greentube.com/game/xtension-link-golden-chicago-xl-linked/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtension-link-golden-chicago-xl-mynt",
+      "name": "Xtension Link™ – Golden Chicago™ XL",
+      "publicUrl": "https://www.greentube.com/game/xtension-link-golden-chicago-xl-mynt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtension-link-stars-up",
+      "name": "Xtension Link™ – Stars Up™",
+      "publicUrl": "https://www.greentube.com/game/xtension-link-stars-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtra-hot",
+      "name": "Xtra Hot™",
+      "publicUrl": "https://www.greentube.com/game/xtra-hot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtreme-3-wish-of-riches",
+      "name": "Xtreme 3™ – Wish of Riches™",
+      "publicUrl": "https://www.greentube.com/game/xtreme-3-wish-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xtreme-3-wish-of-riches-buy-bonus",
+      "name": "Xtreme 3™ – Wish of Riches™ Buy Bonus",
+      "publicUrl": "https://www.greentube.com/game/xtreme-3-wish-of-riches-buy-bonus/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

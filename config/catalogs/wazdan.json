@@ -1,0 +1,1603 @@
+{
+  "provider": "wazdan",
+  "name": "Wazdan",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 265,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "12-bells",
+      "name": "12 Bells",
+      "publicUrl": "https://wazdan.com/games/12-bells",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "12-coins",
+      "name": "12 Coins",
+      "publicUrl": "https://wazdan.com/games/12-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "12-coins-grand-diamond-edition",
+      "name": "12 Coins Grand Diamond Edition",
+      "publicUrl": "https://wazdan.com/games/12-coins-grand-diamond-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "12-coins-grand-gold-edition",
+      "name": "12 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/12-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "12-coins-grand-platinum-edition",
+      "name": "12 Coins Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/12-coins-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15-coins",
+      "name": "15 Coins",
+      "publicUrl": "https://wazdan.com/games/15-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15-coins-grand-diamond-edition",
+      "name": "15 Coins Grand Diamond Edition",
+      "publicUrl": "https://wazdan.com/games/15-coins-grand-diamond-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15-coins-grand-gold-edition",
+      "name": "15 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/15-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15-coins-grand-platinum-edition",
+      "name": "15 Coins Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/15-coins-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "16-coins",
+      "name": "16 Coins",
+      "publicUrl": "https://wazdan.com/games/16-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "16-coins-diamond-burning-board",
+      "name": "16 Coins Diamond Burning Board",
+      "publicUrl": "https://wazdan.com/games/16-coins-diamond-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "16-coins-grand-gold-edition",
+      "name": "16 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/16-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "16-coins-grand-platinum-edition",
+      "name": "16 Coins Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/16-coins-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "16-coins-x5000",
+      "name": "16 Coins X5000",
+      "publicUrl": "https://wazdan.com/games/16-coins-x5000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-coins",
+      "name": "20 Coins",
+      "publicUrl": "https://wazdan.com/games/20-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-coins-grand-gold-edition",
+      "name": "20 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/20-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "24-coins",
+      "name": "24 Coins",
+      "publicUrl": "https://wazdan.com/games/24-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-coins",
+      "name": "25 Coins",
+      "publicUrl": "https://wazdan.com/games/25-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-coins-grand-gold-edition",
+      "name": "25 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/25-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-coins-x3000",
+      "name": "25 Coins X3000",
+      "publicUrl": "https://wazdan.com/games/25-coins-x3000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25-magic-plums",
+      "name": "25 Magic Plums",
+      "publicUrl": "https://wazdan.com/games/25-magic-plums",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "30-coins",
+      "name": "30 Coins",
+      "publicUrl": "https://wazdan.com/games/30-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "30-coins-grand-gold-edition",
+      "name": "30 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/30-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "36-coins",
+      "name": "36 Coins",
+      "publicUrl": "https://wazdan.com/games/36-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "36-coins-grand-gold-edition",
+      "name": "36 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/36-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "36-coins-x3000",
+      "name": "36 Coins X3000",
+      "publicUrl": "https://wazdan.com/games/36-coins-x3000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-balls",
+      "name": "9 Balls",
+      "publicUrl": "https://wazdan.com/games/9-balls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-bells",
+      "name": "9 Bells",
+      "publicUrl": "https://wazdan.com/games/9-bells",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-burning-dragons",
+      "name": "9 Burning Dragons",
+      "publicUrl": "https://wazdan.com/games/9-burning-dragons",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-burning-stars",
+      "name": "9 Burning Stars",
+      "publicUrl": "https://wazdan.com/games/9-burning-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins",
+      "name": "9 Coins",
+      "publicUrl": "https://wazdan.com/games/9-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-1000-edition",
+      "name": "9 Coins 1000 Edition",
+      "publicUrl": "https://wazdan.com/games/9-coins-1000-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-burning-board",
+      "name": "9 Coins Burning Board",
+      "publicUrl": "https://wazdan.com/games/9-coins-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-extremely-light",
+      "name": "9 Coins Extremely Light",
+      "publicUrl": "https://wazdan.com/games/9-coins-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-gold-burning-board",
+      "name": "9 Coins Gold Burning Board",
+      "publicUrl": "https://wazdan.com/games/9-coins-gold-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-grand-diamond-edition",
+      "name": "9 Coins Grand Diamond Edition",
+      "publicUrl": "https://wazdan.com/games/9-coins-grand-diamond-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-grand-gold-edition",
+      "name": "9 Coins Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/9-coins-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-grand-platinum-edition",
+      "name": "9 Coins Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/9-coins-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-coins-platinum-burning-board",
+      "name": "9 Coins Platinum Burning Board",
+      "publicUrl": "https://wazdan.com/games/9-coins-platinum-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-lions",
+      "name": "9 Lions",
+      "publicUrl": "https://wazdan.com/games/9-lions",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-lions-hold-the-jackpot",
+      "name": "9 Lions Hold The Jackpot",
+      "publicUrl": "https://wazdan.com/games/9-lions-hold-the-jackpot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9-tigers",
+      "name": "9 Tigers",
+      "publicUrl": "https://wazdan.com/games/9-tigers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "american-gold-poker",
+      "name": "American Gold Poker",
+      "publicUrl": "https://wazdan.com/games/american-gold-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "american-poker-v",
+      "name": "American Poker V",
+      "publicUrl": "https://wazdan.com/games/american-poker-v",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "publicUrl": "https://wazdan.com/games/arcade",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "back-to-the-70s",
+      "name": "Back To The 70S",
+      "publicUrl": "https://wazdan.com/games/back-to-the-70s",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bars7s",
+      "name": "Bars7S",
+      "publicUrl": "https://wazdan.com/games/bars7s",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beach-party",
+      "name": "Beach Party",
+      "publicUrl": "https://wazdan.com/games/beach-party",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beach-party-hot",
+      "name": "Beach Party Hot",
+      "publicUrl": "https://wazdan.com/games/beach-party-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beauty-fruity",
+      "name": "Beauty Fruity",
+      "publicUrl": "https://wazdan.com/games/beauty-fruity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bell-wizard",
+      "name": "Bell Wizard",
+      "publicUrl": "https://wazdan.com/games/bell-wizard",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bells-of-fortune",
+      "name": "Bells Of Fortune",
+      "publicUrl": "https://wazdan.com/games/bells-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-hawk",
+      "name": "Black Hawk",
+      "publicUrl": "https://wazdan.com/games/black-hawk",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-hawk-deluxe",
+      "name": "Black Hawk Deluxe",
+      "publicUrl": "https://wazdan.com/games/black-hawk-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-horse",
+      "name": "Black Horse",
+      "publicUrl": "https://wazdan.com/games/black-horse",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-horse-cash-out-edition",
+      "name": "Black Horse Cash Out Edition",
+      "publicUrl": "https://wazdan.com/games/black-horse-cash-out-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-horse-deluxe",
+      "name": "Black Horse Deluxe",
+      "publicUrl": "https://wazdan.com/games/black-horse-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-jack",
+      "name": "Black Jack",
+      "publicUrl": "https://wazdan.com/games/black-jack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-faith",
+      "name": "Book Of Faith",
+      "publicUrl": "https://wazdan.com/games/book-of-faith",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bumba-meu-boi-coin",
+      "name": "Bumba Meu Boi Coin",
+      "publicUrl": "https://wazdan.com/games/bumba-meu-boi-coin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-reels",
+      "name": "Burning Reels",
+      "publicUrl": "https://wazdan.com/games/burning-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-stars",
+      "name": "Burning Stars",
+      "publicUrl": "https://wazdan.com/games/burning-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-stars-3",
+      "name": "Burning Stars 3",
+      "publicUrl": "https://wazdan.com/games/burning-stars-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-sun",
+      "name": "Burning Sun",
+      "publicUrl": "https://wazdan.com/games/burning-sun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "burning-sun-extremely-light",
+      "name": "Burning Sun Extremely Light",
+      "publicUrl": "https://wazdan.com/games/burning-sun-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "butterfly-lovers",
+      "name": "Butterfly Lovers",
+      "publicUrl": "https://wazdan.com/games/butterfly-lovers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-shark",
+      "name": "Captain Shark",
+      "publicUrl": "https://wazdan.com/games/captain-shark",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "caribbean-beach-poker",
+      "name": "Caribbean Beach Poker",
+      "publicUrl": "https://wazdan.com/games/caribbean-beach-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-grotto",
+      "name": "Cash Grotto",
+      "publicUrl": "https://wazdan.com/games/cash-grotto",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-roulette",
+      "name": "Casino Roulette",
+      "publicUrl": "https://wazdan.com/games/casino-roulette",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "choco-reels",
+      "name": "Choco Reels",
+      "publicUrl": "https://wazdan.com/games/choco-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clover-lady",
+      "name": "Clover Lady",
+      "publicUrl": "https://wazdan.com/games/clover-lady",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "colin-the-cat",
+      "name": "Colin The Cat",
+      "publicUrl": "https://wazdan.com/games/colin-the-cat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "corrida-romance",
+      "name": "Corrida Romance",
+      "publicUrl": "https://wazdan.com/games/corrida-romance",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "corrida-romance-deluxe",
+      "name": "Corrida Romance Deluxe",
+      "publicUrl": "https://wazdan.com/games/corrida-romance-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-cars",
+      "name": "Crazy Cars",
+      "publicUrl": "https://wazdan.com/games/crazy-cars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "criss-cross-81",
+      "name": "Criss Cross 81",
+      "publicUrl": "https://wazdan.com/games/criss-cross-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cube-mania",
+      "name": "Cube Mania",
+      "publicUrl": "https://wazdan.com/games/cube-mania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cube-mania-deluxe",
+      "name": "Cube Mania Deluxe",
+      "publicUrl": "https://wazdan.com/games/cube-mania-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "demon-jack-27",
+      "name": "Demon Jack 27",
+      "publicUrl": "https://wazdan.com/games/demon-jack-27",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dino-reels-81",
+      "name": "Dino Reels 81",
+      "publicUrl": "https://wazdan.com/games/dino-reels-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "double-tigers",
+      "name": "Double Tigers",
+      "publicUrl": "https://wazdan.com/games/double-tigers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "draculas-castle",
+      "name": "Draculas Castle",
+      "publicUrl": "https://wazdan.com/games/draculas-castle",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-lucky-8",
+      "name": "Dragons Lucky 8",
+      "publicUrl": "https://wazdan.com/games/dragons-lucky-8",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dwarfs-fortune",
+      "name": "Dwarfs Fortune",
+      "publicUrl": "https://wazdan.com/games/dwarfs-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-coins",
+      "name": "Easter Coins",
+      "publicUrl": "https://wazdan.com/games/easter-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eggs-of-fortune",
+      "name": "Eggs Of Fortune",
+      "publicUrl": "https://wazdan.com/games/eggs-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extra-bingo",
+      "name": "Extra Bingo",
+      "publicUrl": "https://wazdan.com/games/extra-bingo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fenix-play",
+      "name": "Fenix Play",
+      "publicUrl": "https://wazdan.com/games/fenix-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fenix-play-27",
+      "name": "Fenix Play 27",
+      "publicUrl": "https://wazdan.com/games/fenix-play-27",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fenix-play-27-deluxe",
+      "name": "Fenix Play 27 Deluxe",
+      "publicUrl": "https://wazdan.com/games/fenix-play-27-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fenix-play-deluxe",
+      "name": "Fenix Play Deluxe",
+      "publicUrl": "https://wazdan.com/games/fenix-play-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-bird",
+      "name": "Fire Bird",
+      "publicUrl": "https://wazdan.com/games/fire-bird",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishermans-luck",
+      "name": "Fishermans Luck",
+      "publicUrl": "https://wazdan.com/games/fishermans-luck",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "football-mania",
+      "name": "Football Mania",
+      "publicUrl": "https://wazdan.com/games/football-mania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "football-mania-deluxe",
+      "name": "Football Mania Deluxe",
+      "publicUrl": "https://wazdan.com/games/football-mania-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-reels",
+      "name": "Fortune Reels",
+      "publicUrl": "https://wazdan.com/games/fortune-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-fiesta",
+      "name": "Fruit Fiesta",
+      "publicUrl": "https://wazdan.com/games/fruit-fiesta",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-mania",
+      "name": "Fruit Mania",
+      "publicUrl": "https://wazdan.com/games/fruit-mania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-mania-deluxe",
+      "name": "Fruit Mania Deluxe",
+      "publicUrl": "https://wazdan.com/games/fruit-mania-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruits-go-bananas",
+      "name": "Fruits Go Bananas",
+      "publicUrl": "https://wazdan.com/games/fruits-go-bananas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-splitter",
+      "name": "Gem Splitter",
+      "publicUrl": "https://wazdan.com/games/gem-splitter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-roulette",
+      "name": "Gold Roulette",
+      "publicUrl": "https://wazdan.com/games/gold-roulette",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-sphinx",
+      "name": "Golden Sphinx",
+      "publicUrl": "https://wazdan.com/games/golden-sphinx",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "good-luck-40",
+      "name": "Good Luck 40",
+      "publicUrl": "https://wazdan.com/games/good-luck-40",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-book-of-magic",
+      "name": "Great Book Of Magic",
+      "publicUrl": "https://wazdan.com/games/great-book-of-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-book-of-magic-deluxe",
+      "name": "Great Book Of Magic Deluxe",
+      "publicUrl": "https://wazdan.com/games/great-book-of-magic-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haunted-coins-x1000",
+      "name": "Haunted Coins X1000",
+      "publicUrl": "https://wazdan.com/games/haunted-coins-x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haunted-coins-x5000",
+      "name": "Haunted Coins X5000",
+      "publicUrl": "https://wazdan.com/games/haunted-coins-x5000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "haunted-hospital",
+      "name": "Haunted Hospital",
+      "publicUrl": "https://wazdan.com/games/haunted-hospital",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highschool-manga",
+      "name": "Highschool Manga",
+      "publicUrl": "https://wazdan.com/games/highschool-manga",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highway-to-hell",
+      "name": "Highway To Hell",
+      "publicUrl": "https://wazdan.com/games/highway-to-hell",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highway-to-hell-deluxe",
+      "name": "Highway To Hell Deluxe",
+      "publicUrl": "https://wazdan.com/games/highway-to-hell-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-777",
+      "name": "Hot 777",
+      "publicUrl": "https://wazdan.com/games/hot-777",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-777-deluxe",
+      "name": "Hot 777 Deluxe",
+      "publicUrl": "https://wazdan.com/games/hot-777-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-party",
+      "name": "Hot Party",
+      "publicUrl": "https://wazdan.com/games/hot-party",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-party-deluxe",
+      "name": "Hot Party Deluxe",
+      "publicUrl": "https://wazdan.com/games/hot-party-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out",
+      "name": "Hot Slot 777 Cash Out",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out-burning-board",
+      "name": "Hot Slot 777 Cash Out Burning Board",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out-extremely-light",
+      "name": "Hot Slot 777 Cash Out Extremely Light",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out-grand-diamond-edition",
+      "name": "Hot Slot 777 Cash Out Grand Diamond Edition",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out-grand-diamond-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out-grand-gold-edition",
+      "name": "Hot Slot 777 Cash Out Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-cash-out-grand-platinum-edition",
+      "name": "Hot Slot 777 Cash Out Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-cash-out-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-coins",
+      "name": "Hot Slot 777 Coins",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-coins-extremely-light",
+      "name": "Hot Slot 777 Coins Extremely Light",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-coins-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-crown",
+      "name": "Hot Slot 777 Crown",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-diamond-crown",
+      "name": "Hot Slot 777 Diamond Crown",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-diamond-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-gold-crown",
+      "name": "Hot Slot 777 Gold Crown",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-gold-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-hold-the-jackpot",
+      "name": "Hot Slot 777 Hold The Jackpot",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-hold-the-jackpot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-platinum-crown",
+      "name": "Hot Slot 777 Platinum Crown",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-platinum-crown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-rubies",
+      "name": "Hot Slot 777 Rubies",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-rubies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-rubies-extremely-light",
+      "name": "Hot Slot 777 Rubies Extremely Light",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-rubies-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-stars",
+      "name": "Hot Slot 777 Stars",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-777-stars-extremely-light",
+      "name": "Hot Slot 777 Stars Extremely Light",
+      "publicUrl": "https://wazdan.com/games/hot-slot-777-stars-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-diamond-coins",
+      "name": "Hot Slot Diamond Coins",
+      "publicUrl": "https://wazdan.com/games/hot-slot-diamond-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-gold-coins",
+      "name": "Hot Slot Gold Coins",
+      "publicUrl": "https://wazdan.com/games/hot-slot-gold-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-great-book-of-magic",
+      "name": "Hot Slot Great Book Of Magic",
+      "publicUrl": "https://wazdan.com/games/hot-slot-great-book-of-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-magic-bombs",
+      "name": "Hot Slot Magic Bombs",
+      "publicUrl": "https://wazdan.com/games/hot-slot-magic-bombs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-magic-pearls",
+      "name": "Hot Slot Magic Pearls",
+      "publicUrl": "https://wazdan.com/games/hot-slot-magic-pearls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-mystery-jackpot-joker",
+      "name": "Hot Slot Mystery Jackpot Joker",
+      "publicUrl": "https://wazdan.com/games/hot-slot-mystery-jackpot-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-slot-platinum-coins",
+      "name": "Hot Slot Platinum Coins",
+      "publicUrl": "https://wazdan.com/games/hot-slot-platinum-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hungry-shark",
+      "name": "Hungry Shark",
+      "publicUrl": "https://wazdan.com/games/hungry-shark",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "in-the-forest",
+      "name": "In The Forest",
+      "publicUrl": "https://wazdan.com/games/in-the-forest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "infinity-hero",
+      "name": "Infinity Hero",
+      "publicUrl": "https://wazdan.com/games/infinity-hero",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-on-hold",
+      "name": "Jack On Hold",
+      "publicUrl": "https://wazdan.com/games/jack-on-hold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-builders",
+      "name": "Jackpot Builders",
+      "publicUrl": "https://wazdan.com/games/jackpot-builders",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jacks-ride",
+      "name": "Jacks Ride",
+      "publicUrl": "https://wazdan.com/games/jacks-ride",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jelly-reels",
+      "name": "Jelly Reels",
+      "publicUrl": "https://wazdan.com/games/jelly-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-explosion",
+      "name": "Joker Explosion",
+      "publicUrl": "https://wazdan.com/games/joker-explosion",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-poker",
+      "name": "Joker Poker",
+      "publicUrl": "https://wazdan.com/games/joker-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "juicy-reels",
+      "name": "Juicy Reels",
+      "publicUrl": "https://wazdan.com/games/juicy-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jumping-fruits",
+      "name": "Jumping Fruits",
+      "publicUrl": "https://wazdan.com/games/jumping-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kick-off",
+      "name": "Kick Off",
+      "publicUrl": "https://wazdan.com/games/kick-off",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "larry-the-leprechaun",
+      "name": "Larry The Leprechaun",
+      "publicUrl": "https://wazdan.com/games/larry-the-leprechaun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "los-muertos",
+      "name": "Los Muertos",
+      "publicUrl": "https://wazdan.com/games/los-muertos",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "los-muertos-ii",
+      "name": "Los Muertos Ii",
+      "publicUrl": "https://wazdan.com/games/los-muertos-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lost-treasure",
+      "name": "Lost Treasure",
+      "publicUrl": "https://wazdan.com/games/lost-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-9",
+      "name": "Lucky 9",
+      "publicUrl": "https://wazdan.com/games/lucky-9",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fish",
+      "name": "Lucky Fish",
+      "publicUrl": "https://wazdan.com/games/lucky-fish",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fortune",
+      "name": "Lucky Fortune",
+      "publicUrl": "https://wazdan.com/games/lucky-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-queen",
+      "name": "Lucky Queen",
+      "publicUrl": "https://wazdan.com/games/lucky-queen",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-reels",
+      "name": "Lucky Reels",
+      "publicUrl": "https://wazdan.com/games/lucky-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-eggs",
+      "name": "Magic Eggs",
+      "publicUrl": "https://wazdan.com/games/magic-eggs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruit-cherries",
+      "name": "Magic Fruit Cherries",
+      "publicUrl": "https://wazdan.com/games/magic-fruit-cherries",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruit-oranges",
+      "name": "Magic Fruit Oranges",
+      "publicUrl": "https://wazdan.com/games/magic-fruit-oranges",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits",
+      "name": "Magic Fruits",
+      "publicUrl": "https://wazdan.com/games/magic-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-27",
+      "name": "Magic Fruits 27",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-27",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-4",
+      "name": "Magic Fruits 4",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-4-deluxe",
+      "name": "Magic Fruits 4 Deluxe",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-4-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-81",
+      "name": "Magic Fruits 81",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-deluxe",
+      "name": "Magic Fruits Deluxe",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-deluxe-burning-board",
+      "name": "Magic Fruits Deluxe Burning Board",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-deluxe-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-fruits-dice",
+      "name": "Magic Fruits Dice",
+      "publicUrl": "https://wazdan.com/games/magic-fruits-dice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-hot",
+      "name": "Magic Hot",
+      "publicUrl": "https://wazdan.com/games/magic-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-hot-4",
+      "name": "Magic Hot 4",
+      "publicUrl": "https://wazdan.com/games/magic-hot-4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-hot-4-deluxe",
+      "name": "Magic Hot 4 Deluxe",
+      "publicUrl": "https://wazdan.com/games/magic-hot-4-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-of-the-ring",
+      "name": "Magic Of The Ring",
+      "publicUrl": "https://wazdan.com/games/magic-of-the-ring",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-of-the-ring-deluxe",
+      "name": "Magic Of The Ring Deluxe",
+      "publicUrl": "https://wazdan.com/games/magic-of-the-ring-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-poker",
+      "name": "Magic Poker",
+      "publicUrl": "https://wazdan.com/games/magic-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-spins",
+      "name": "Magic Spins",
+      "publicUrl": "https://wazdan.com/games/magic-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-stars",
+      "name": "Magic Stars",
+      "publicUrl": "https://wazdan.com/games/magic-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-stars-3",
+      "name": "Magic Stars 3",
+      "publicUrl": "https://wazdan.com/games/magic-stars-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-stars-5",
+      "name": "Magic Stars 5",
+      "publicUrl": "https://wazdan.com/games/magic-stars-5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-stars-6",
+      "name": "Magic Stars 6",
+      "publicUrl": "https://wazdan.com/games/magic-stars-6",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-stars-9",
+      "name": "Magic Stars 9",
+      "publicUrl": "https://wazdan.com/games/magic-stars-9",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-target",
+      "name": "Magic Target",
+      "publicUrl": "https://wazdan.com/games/magic-target",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-target-deluxe",
+      "name": "Magic Target Deluxe",
+      "publicUrl": "https://wazdan.com/games/magic-target-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayan-ritual",
+      "name": "Mayan Ritual",
+      "publicUrl": "https://wazdan.com/games/mayan-ritual",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "miami-beach",
+      "name": "Miami Beach",
+      "publicUrl": "https://wazdan.com/games/miami-beach",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnight-in-tokyo",
+      "name": "Midnight In Tokyo",
+      "publicUrl": "https://wazdan.com/games/midnight-in-tokyo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-crown-empire-of-gold",
+      "name": "Mighty Crown Empire Of Gold",
+      "publicUrl": "https://wazdan.com/games/mighty-crown-empire-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-crown-legacy-of-mars",
+      "name": "Mighty Crown Legacy Of Mars",
+      "publicUrl": "https://wazdan.com/games/mighty-crown-legacy-of-mars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-fish-blue-marlin",
+      "name": "Mighty Fish Blue Marlin",
+      "publicUrl": "https://wazdan.com/games/mighty-fish-blue-marlin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-fish-blue-marlin-burning-board",
+      "name": "Mighty Fish Blue Marlin Burning Board",
+      "publicUrl": "https://wazdan.com/games/mighty-fish-blue-marlin-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-hot-777",
+      "name": "Mighty Hot 777",
+      "publicUrl": "https://wazdan.com/games/mighty-hot-777",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-hot-amazonia",
+      "name": "Mighty Hot Amazonia",
+      "publicUrl": "https://wazdan.com/games/mighty-hot-amazonia",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-symbols-crowns",
+      "name": "Mighty Symbols Crowns",
+      "publicUrl": "https://wazdan.com/games/mighty-symbols-crowns",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-symbols-diamonds",
+      "name": "Mighty Symbols Diamonds",
+      "publicUrl": "https://wazdan.com/games/mighty-symbols-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-symbols-jokers",
+      "name": "Mighty Symbols Jokers",
+      "publicUrl": "https://wazdan.com/games/mighty-symbols-jokers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-symbols-sevens",
+      "name": "Mighty Symbols Sevens",
+      "publicUrl": "https://wazdan.com/games/mighty-symbols-sevens",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-gorilla",
+      "name": "Mighty Wild Gorilla",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-gorilla",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-jaguar",
+      "name": "Mighty Wild Jaguar",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-jaguar",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther",
+      "name": "Mighty Wild Panther",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther-burning-board",
+      "name": "Mighty Wild Panther Burning Board",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther-diamond-burning-board",
+      "name": "Mighty Wild Panther Diamond Burning Board",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther-diamond-burning-board",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther-grand-diamond-edition",
+      "name": "Mighty Wild Panther Grand Diamond Edition",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther-grand-diamond-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther-grand-gold-edition",
+      "name": "Mighty Wild Panther Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mighty-wild-panther-grand-platinum-edition",
+      "name": "Mighty Wild Panther Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/mighty-wild-panther-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-of-fortune",
+      "name": "Moon Of Fortune",
+      "publicUrl": "https://wazdan.com/games/moon-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-jack",
+      "name": "Mystery Jack",
+      "publicUrl": "https://wazdan.com/games/mystery-jack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-jack-deluxe",
+      "name": "Mystery Jack Deluxe",
+      "publicUrl": "https://wazdan.com/games/mystery-jack-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-kingdom-mystery-bells",
+      "name": "Mystery Kingdom Mystery Bells",
+      "publicUrl": "https://wazdan.com/games/mystery-kingdom-mystery-bells",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-city",
+      "name": "Neon City",
+      "publicUrl": "https://wazdan.com/games/neon-city",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "night-club-81",
+      "name": "Night Club 81",
+      "publicUrl": "https://wazdan.com/games/night-club-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "one-coin",
+      "name": "One Coin",
+      "publicUrl": "https://wazdan.com/games/one-coin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ox-coin",
+      "name": "Ox Coin",
+      "publicUrl": "https://wazdan.com/games/ox-coin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-egypt",
+      "name": "Power Of Gods Egypt",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-hades",
+      "name": "Power Of Gods Hades",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-hades",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-medusa",
+      "name": "Power Of Gods Medusa",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-medusa",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-medusa-extremely-light",
+      "name": "Power Of Gods Medusa Extremely Light",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-medusa-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-the-pantheon",
+      "name": "Power Of Gods The Pantheon",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-the-pantheon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-valhalla",
+      "name": "Power Of Gods Valhalla",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-valhalla",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-gods-valhalla-extremely-light",
+      "name": "Power Of Gods Valhalla Extremely Light",
+      "publicUrl": "https://wazdan.com/games/power-of-gods-valhalla-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-of-sun-svarog",
+      "name": "Power Of Sun Svarog",
+      "publicUrl": "https://wazdan.com/games/power-of-sun-svarog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prosperity-pearls",
+      "name": "Prosperity Pearls",
+      "publicUrl": "https://wazdan.com/games/prosperity-pearls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prosperity-reels",
+      "name": "Prosperity Reels",
+      "publicUrl": "https://wazdan.com/games/prosperity-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-hero",
+      "name": "Reel Hero",
+      "publicUrl": "https://wazdan.com/games/reel-hero",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-joke",
+      "name": "Reel Joke",
+      "publicUrl": "https://wazdan.com/games/reel-joke",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "relic-hunters-and-the-book-of-faith",
+      "name": "Relic Hunters And The Book Of Faith",
+      "publicUrl": "https://wazdan.com/games/relic-hunters-and-the-book-of-faith",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santas-gifts-frenzy",
+      "name": "Santas Gifts Frenzy",
+      "publicUrl": "https://wazdan.com/games/santas-gifts-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sic-bo-dragons",
+      "name": "Sic Bo Dragons",
+      "publicUrl": "https://wazdan.com/games/sic-bo-dragons",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-777",
+      "name": "Sizzling 777",
+      "publicUrl": "https://wazdan.com/games/sizzling-777",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-777-deluxe",
+      "name": "Sizzling 777 Deluxe",
+      "publicUrl": "https://wazdan.com/games/sizzling-777-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-bells",
+      "name": "Sizzling Bells",
+      "publicUrl": "https://wazdan.com/games/sizzling-bells",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-eggs",
+      "name": "Sizzling Eggs",
+      "publicUrl": "https://wazdan.com/games/sizzling-eggs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-eggs-extremely-light",
+      "name": "Sizzling Eggs Extremely Light",
+      "publicUrl": "https://wazdan.com/games/sizzling-eggs-extremely-light",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-eggs-grand-gold-edition",
+      "name": "Sizzling Eggs Grand Gold Edition",
+      "publicUrl": "https://wazdan.com/games/sizzling-eggs-grand-gold-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-eggs-grand-platinum-edition",
+      "name": "Sizzling Eggs Grand Platinum Edition",
+      "publicUrl": "https://wazdan.com/games/sizzling-eggs-grand-platinum-edition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-kingdom-bison",
+      "name": "Sizzling Kingdom Bison",
+      "publicUrl": "https://wazdan.com/games/sizzling-kingdom-bison",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-moon",
+      "name": "Sizzling Moon",
+      "publicUrl": "https://wazdan.com/games/sizzling-moon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slot-jam",
+      "name": "Slot Jam",
+      "publicUrl": "https://wazdan.com/games/slot-jam",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sonic-reels",
+      "name": "Sonic Reels",
+      "publicUrl": "https://wazdan.com/games/sonic-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-gem",
+      "name": "Space Gem",
+      "publicUrl": "https://wazdan.com/games/space-gem",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-spins",
+      "name": "Space Spins",
+      "publicUrl": "https://wazdan.com/games/space-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spectrum",
+      "name": "Spectrum",
+      "publicUrl": "https://wazdan.com/games/spectrum",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun-of-fortune",
+      "name": "Sun Of Fortune",
+      "publicUrl": "https://wazdan.com/games/sun-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-hot",
+      "name": "Super Hot",
+      "publicUrl": "https://wazdan.com/games/super-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "telly-reels",
+      "name": "Telly Reels",
+      "publicUrl": "https://wazdan.com/games/telly-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-cards",
+      "name": "Three Cards",
+      "publicUrl": "https://wazdan.com/games/three-cards",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "throne-of-elements-platinum",
+      "name": "Throne Of Elements Platinum",
+      "publicUrl": "https://wazdan.com/games/throne-of-elements-platinum",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-star",
+      "name": "Triple Star",
+      "publicUrl": "https://wazdan.com/games/triple-star",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "turbo-play",
+      "name": "Turbo Play",
+      "publicUrl": "https://wazdan.com/games/turbo-play",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "turbo-poker",
+      "name": "Turbo Poker",
+      "publicUrl": "https://wazdan.com/games/turbo-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "unicorn-reels",
+      "name": "Unicorn Reels",
+      "publicUrl": "https://wazdan.com/games/unicorn-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valentines-coins",
+      "name": "Valentines Coins",
+      "publicUrl": "https://wazdan.com/games/valentines-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valhalla",
+      "name": "Valhalla",
+      "publicUrl": "https://wazdan.com/games/valhalla",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-hot",
+      "name": "Vegas Hot",
+      "publicUrl": "https://wazdan.com/games/vegas-hot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-hot-81",
+      "name": "Vegas Hot 81",
+      "publicUrl": "https://wazdan.com/games/vegas-hot-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-reels-ii",
+      "name": "Vegas Reels Ii",
+      "publicUrl": "https://wazdan.com/games/vegas-reels-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "welcome-to-hell-81",
+      "name": "Welcome To Hell 81",
+      "publicUrl": "https://wazdan.com/games/welcome-to-hell-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-girls",
+      "name": "Wild Girls",
+      "publicUrl": "https://wazdan.com/games/wild-girls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-guns",
+      "name": "Wild Guns",
+      "publicUrl": "https://wazdan.com/games/wild-guns",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-jack",
+      "name": "Wild Jack",
+      "publicUrl": "https://wazdan.com/games/wild-jack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-jack-81",
+      "name": "Wild Jack 81",
+      "publicUrl": "https://wazdan.com/games/wild-jack-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "win-replay",
+      "name": "Win Replay",
+      "publicUrl": "https://wazdan.com/games/win-replay",
+      "launchUrlOmitted": false
+    }
+  ]
+}

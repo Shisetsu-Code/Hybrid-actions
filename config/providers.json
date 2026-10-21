@@ -1,4 +1,835 @@
 {
   "runId": "hybrid-actions-20261020",
-  "providers": []
+  "providers": [
+    {
+      "id": "pragmatic",
+      "name": "Pragmatic Play",
+      "enabled": false,
+      "approved": true,
+      "catalogFile": "config/catalogs/pragmatic.json",
+      "games": [],
+      "sources": [
+        {
+          "id": "pragmatic-public",
+          "enabled": true,
+          "approved": true,
+          "verifiedDemo": true,
+          "indexUrls": [
+            "https://www.pragmaticplay.fun/en/slots/"
+          ],
+          "gameUrlPrefix": "https://www.pragmaticplay.fun/en/slots/",
+          "gamePathPattern": "^/en/slots/[a-z0-9-]+/$",
+          "maxGames": 100
+        }
+      ],
+      "preparationStatus": "disabled-awaiting-operator-pacing-policy",
+      "allowlist": [
+        {
+          "origin": "https://www.pragmaticplay.fun",
+          "pathPrefix": "/en/slots/"
+        }
+      ]
+    },
+    {
+      "id": "1spin4win",
+      "name": "1Spin4Win",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/1spin4win.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "launcher-query-or-port-not-supported-by-current-config"
+    },
+    {
+      "id": "belatra",
+      "name": "Belatra",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/belatra.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "bgaming",
+      "name": "BGaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/bgaming.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "per-game-demo-redirect-or-query-validation-required"
+    },
+    {
+      "id": "ka_gaming",
+      "name": "KA Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/ka_gaming.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "launcher-query-or-port-not-supported-by-current-config"
+    },
+    {
+      "id": "rubyplay",
+      "name": "RubyPlay",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/rubyplay.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "partial-catalogue-and-demo-launch-validation-required"
+    },
+    {
+      "id": "redtiger",
+      "name": "Red Tiger",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/redtiger.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "3oaks",
+      "name": "3 Oaks",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/3oaks.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "yggdrasil",
+      "name": "Yggdrasil",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/yggdrasil.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "hacksaw",
+      "name": "Hacksaw Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/hacksaw.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "nolimit_city",
+      "name": "Nolimit City",
+      "enabled": false,
+      "approved": true,
+      "catalogFile": "config/catalogs/nolimit_city.json",
+      "games": [
+        {
+          "id": "airportsecurity",
+          "url": "https://playin.com/embed/v1/demo/AirportSecurity"
+        },
+        {
+          "id": "apocalypse",
+          "url": "https://playin.com/embed/v1/demo/Apocalypse"
+        },
+        {
+          "id": "bangkokhilton",
+          "url": "https://playin.com/embed/v1/demo/BangkokHilton"
+        },
+        {
+          "id": "barbarianfury",
+          "url": "https://playin.com/embed/v1/demo/BarbarianFury"
+        },
+        {
+          "id": "beheaded",
+          "url": "https://playin.com/embed/v1/demo/Beheaded"
+        },
+        {
+          "id": "benjikilledinvegas",
+          "url": "https://playin.com/embed/v1/demo/BenjiKilledInVegas"
+        },
+        {
+          "id": "bizarre",
+          "url": "https://playin.com/embed/v1/demo/Bizarre"
+        },
+        {
+          "id": "bloodandshadow",
+          "url": "https://playin.com/embed/v1/demo/BloodAndShadow"
+        },
+        {
+          "id": "bloodandshadow2",
+          "url": "https://playin.com/embed/v1/demo/BloodAndShadow2"
+        },
+        {
+          "id": "blooddiamond",
+          "url": "https://playin.com/embed/v1/demo/BloodDiamond"
+        },
+        {
+          "id": "bonusbunnies",
+          "url": "https://playin.com/embed/v1/demo/BonusBunnies"
+        },
+        {
+          "id": "bookofshadows",
+          "url": "https://playin.com/embed/v1/demo/BookOfShadows"
+        },
+        {
+          "id": "bountyhunters",
+          "url": "https://playin.com/embed/v1/demo/BountyHunters"
+        },
+        {
+          "id": "breakout",
+          "url": "https://playin.com/embed/v1/demo/Breakout"
+        },
+        {
+          "id": "bricksnake2000",
+          "url": "https://playin.com/embed/v1/demo/BrickSnake2000"
+        },
+        {
+          "id": "bruteforce",
+          "url": "https://playin.com/embed/v1/demo/BruteForce"
+        },
+        {
+          "id": "bruteforcealienonslaught",
+          "url": "https://playin.com/embed/v1/demo/BruteForceAlienOnslaught"
+        },
+        {
+          "id": "buffalohunter",
+          "url": "https://playin.com/embed/v1/demo/BuffaloHunter"
+        },
+        {
+          "id": "bushidoways",
+          "url": "https://playin.com/embed/v1/demo/BushidoWays"
+        },
+        {
+          "id": "casinowinspin",
+          "url": "https://playin.com/embed/v1/demo/CasinoWinSpin"
+        },
+        {
+          "id": "catfishhunters",
+          "url": "https://playin.com/embed/v1/demo/CatfishHunters"
+        },
+        {
+          "id": "coinsoffortune",
+          "url": "https://playin.com/embed/v1/demo/CoinsOfFortune"
+        },
+        {
+          "id": "crazyexgirlfriend",
+          "url": "https://playin.com/embed/v1/demo/CrazyExGirlfriend"
+        },
+        {
+          "id": "dday",
+          "url": "https://playin.com/embed/v1/demo/DDay"
+        },
+        {
+          "id": "dasxboot",
+          "url": "https://playin.com/embed/v1/demo/DasxBoot"
+        },
+        {
+          "id": "dasxboot2",
+          "url": "https://playin.com/embed/v1/demo/DasxBoot2"
+        },
+        {
+          "id": "deadcanary",
+          "url": "https://playin.com/embed/v1/demo/DeadCanary"
+        },
+        {
+          "id": "deadmenwalking",
+          "url": "https://playin.com/embed/v1/demo/DeadMenWalking"
+        },
+        {
+          "id": "deaddeadordeader",
+          "url": "https://playin.com/embed/v1/demo/DeadDeadOrDeader"
+        },
+        {
+          "id": "deadwoodrip",
+          "url": "https://playin.com/embed/v1/demo/DeadwoodRip"
+        },
+        {
+          "id": "deadwood",
+          "url": "https://playin.com/embed/v1/demo/Deadwood"
+        },
+        {
+          "id": "devilscrossroad",
+          "url": "https://playin.com/embed/v1/demo/DevilsCrossroad"
+        },
+        {
+          "id": "dingdongdeath",
+          "url": "https://playin.com/embed/v1/demo/DingDongDeath"
+        },
+        {
+          "id": "disorder",
+          "url": "https://playin.com/embed/v1/demo/Disorder"
+        },
+        {
+          "id": "disturbed",
+          "url": "https://playin.com/embed/v1/demo/Disturbed"
+        },
+        {
+          "id": "djpsycho",
+          "url": "https://playin.com/embed/v1/demo/DjPsycho"
+        },
+        {
+          "id": "dragontribe",
+          "url": "https://playin.com/embed/v1/demo/DragonTribe"
+        },
+        {
+          "id": "duckhunters",
+          "url": "https://playin.com/embed/v1/demo/DuckHunters"
+        },
+        {
+          "id": "duckhunters2",
+          "url": "https://playin.com/embed/v1/demo/DuckHunters2"
+        },
+        {
+          "id": "duckhuntershappyhour",
+          "url": "https://playin.com/embed/v1/demo/DuckHuntersHappyHour"
+        },
+        {
+          "id": "dungeonquest",
+          "url": "https://playin.com/embed/v1/demo/DungeonQuest"
+        },
+        {
+          "id": "eastvswest",
+          "url": "https://playin.com/embed/v1/demo/EastVsWest"
+        },
+        {
+          "id": "elpaso",
+          "url": "https://playin.com/embed/v1/demo/ElPaso"
+        },
+        {
+          "id": "evilgoblins",
+          "url": "https://playin.com/embed/v1/demo/EvilGoblins"
+        },
+        {
+          "id": "fireinthehole",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole"
+        },
+        {
+          "id": "fireinthehole2",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole2"
+        },
+        {
+          "id": "fireinthehole3",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole3"
+        },
+        {
+          "id": "flightmode",
+          "url": "https://playin.com/embed/v1/demo/FlightMode"
+        },
+        {
+          "id": "folsomprison",
+          "url": "https://playin.com/embed/v1/demo/FolsomPrison"
+        },
+        {
+          "id": "fruits",
+          "url": "https://playin.com/embed/v1/demo/Fruits"
+        },
+        {
+          "id": "gaelicgold",
+          "url": "https://playin.com/embed/v1/demo/GaelicGold"
+        },
+        {
+          "id": "gatorhunters",
+          "url": "https://playin.com/embed/v1/demo/GatorHunters"
+        },
+        {
+          "id": "gatorhunters2",
+          "url": "https://playin.com/embed/v1/demo/GatorHunters2"
+        },
+        {
+          "id": "gluttony",
+          "url": "https://playin.com/embed/v1/demo/Gluttony"
+        },
+        {
+          "id": "goldengenie",
+          "url": "https://playin.com/embed/v1/demo/GoldenGenie"
+        },
+        {
+          "id": "goldenshower",
+          "url": "https://playin.com/embed/v1/demo/GoldenShower"
+        },
+        {
+          "id": "harlequin",
+          "url": "https://playin.com/embed/v1/demo/Harlequin"
+        },
+        {
+          "id": "highwaytohell",
+          "url": "https://playin.com/embed/v1/demo/HighwayToHell"
+        },
+        {
+          "id": "homeofthebrave",
+          "url": "https://playin.com/embed/v1/demo/HomeOfTheBrave"
+        },
+        {
+          "id": "hot4cash",
+          "url": "https://playin.com/embed/v1/demo/Hot4Cash"
+        },
+        {
+          "id": "hotnudge",
+          "url": "https://playin.com/embed/v1/demo/HotNudge"
+        },
+        {
+          "id": "iceiceyeti",
+          "url": "https://playin.com/embed/v1/demo/IceIceYeti"
+        },
+        {
+          "id": "immortalfruits",
+          "url": "https://playin.com/embed/v1/demo/ImmortalFruits"
+        },
+        {
+          "id": "infectious5",
+          "url": "https://playin.com/embed/v1/demo/Infectious5"
+        },
+        {
+          "id": "jingleballs",
+          "url": "https://playin.com/embed/v1/demo/JingleBalls"
+        },
+        {
+          "id": "karen",
+          "url": "https://playin.com/embed/v1/demo/Karen"
+        },
+        {
+          "id": "kennethmustdie",
+          "url": "https://playin.com/embed/v1/demo/KennethMustDie"
+        },
+        {
+          "id": "killemall",
+          "url": "https://playin.com/embed/v1/demo/KillEmAll"
+        },
+        {
+          "id": "kissmychainsaw",
+          "url": "https://playin.com/embed/v1/demo/KissMyChainsaw"
+        },
+        {
+          "id": "kitchendramasushimania",
+          "url": "https://playin.com/embed/v1/demo/KitchenDramaSushiMania"
+        },
+        {
+          "id": "landofthefree",
+          "url": "https://playin.com/embed/v1/demo/LandOfTheFree"
+        },
+        {
+          "id": "legionx",
+          "url": "https://playin.com/embed/v1/demo/LegionX"
+        },
+        {
+          "id": "littlebighorn",
+          "url": "https://playin.com/embed/v1/demo/LittleBighorn"
+        },
+        {
+          "id": "loner",
+          "url": "https://playin.com/embed/v1/demo/Loner"
+        },
+        {
+          "id": "manhattangoeswild",
+          "url": "https://playin.com/embed/v1/demo/ManhattanGoesWild"
+        },
+        {
+          "id": "mayanmagic",
+          "url": "https://playin.com/embed/v1/demo/MayanMagic"
+        },
+        {
+          "id": "mental",
+          "url": "https://playin.com/embed/v1/demo/Mental"
+        },
+        {
+          "id": "mental2",
+          "url": "https://playin.com/embed/v1/demo/Mental2"
+        },
+        {
+          "id": "milkyways",
+          "url": "https://playin.com/embed/v1/demo/MilkyWays"
+        },
+        {
+          "id": "miserymining",
+          "url": "https://playin.com/embed/v1/demo/MiseryMining"
+        },
+        {
+          "id": "monkeysgold",
+          "url": "https://playin.com/embed/v1/demo/MonkeysGold"
+        },
+        {
+          "id": "munchies",
+          "url": "https://playin.com/embed/v1/demo/Munchies"
+        },
+        {
+          "id": "ninetofive",
+          "url": "https://playin.com/embed/v1/demo/NineToFive"
+        },
+        {
+          "id": "oktoberfest",
+          "url": "https://playin.com/embed/v1/demo/Oktoberfest"
+        },
+        {
+          "id": "outsourced",
+          "url": "https://playin.com/embed/v1/demo/Outsourced"
+        },
+        {
+          "id": "outsourced2",
+          "url": "https://playin.com/embed/v1/demo/Outsourced2"
+        },
+        {
+          "id": "payday",
+          "url": "https://playin.com/embed/v1/demo/Payday"
+        },
+        {
+          "id": "owls",
+          "url": "https://playin.com/embed/v1/demo/Owls"
+        },
+        {
+          "id": "pearlharbor",
+          "url": "https://playin.com/embed/v1/demo/PearlHarbor"
+        },
+        {
+          "id": "pixiesvspirates",
+          "url": "https://playin.com/embed/v1/demo/PixiesVsPirates"
+        },
+        {
+          "id": "poisoneve",
+          "url": "https://playin.com/embed/v1/demo/PoisonEve"
+        },
+        {
+          "id": "possessed",
+          "url": "https://playin.com/embed/v1/demo/Possessed"
+        },
+        {
+          "id": "punkrocker",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker"
+        },
+        {
+          "id": "punkrocker2",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker2"
+        },
+        {
+          "id": "punkrocker3",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker3"
+        },
+        {
+          "id": "punktoilet",
+          "url": "https://playin.com/embed/v1/demo/PunkToilet"
+        },
+        {
+          "id": "remembergulag",
+          "url": "https://playin.com/embed/v1/demo/RememberGulag"
+        },
+        {
+          "id": "roadrage",
+          "url": "https://playin.com/embed/v1/demo/RoadRage"
+        },
+        {
+          "id": "roadkill",
+          "url": "https://playin.com/embed/v1/demo/RoadKill"
+        },
+        {
+          "id": "rockbottom",
+          "url": "https://playin.com/embed/v1/demo/RockBottom"
+        },
+        {
+          "id": "sanquentin2",
+          "url": "https://playin.com/embed/v1/demo/SanQuentin2"
+        },
+        {
+          "id": "sanquentinmanhunt",
+          "url": "https://playin.com/embed/v1/demo/SanQuentinManhunt"
+        },
+        {
+          "id": "sanquentin",
+          "url": "https://playin.com/embed/v1/demo/SanQuentin"
+        },
+        {
+          "id": "seamen",
+          "url": "https://playin.com/embed/v1/demo/Seamen"
+        },
+        {
+          "id": "serial",
+          "url": "https://playin.com/embed/v1/demo/Serial"
+        },
+        {
+          "id": "sixfeetunder",
+          "url": "https://playin.com/embed/v1/demo/SixFeetUnder"
+        },
+        {
+          "id": "skateordie",
+          "url": "https://playin.com/embed/v1/demo/SkateOrDie"
+        },
+        {
+          "id": "soakedbyseamen",
+          "url": "https://playin.com/embed/v1/demo/SoakedBySeamen"
+        },
+        {
+          "id": "spacedonkey",
+          "url": "https://playin.com/embed/v1/demo/SpaceDonkey"
+        },
+        {
+          "id": "starstruck",
+          "url": "https://playin.com/embed/v1/demo/Starstruck"
+        },
+        {
+          "id": "stockholmsyndrome",
+          "url": "https://playin.com/embed/v1/demo/StockholmSyndrome"
+        },
+        {
+          "id": "supersized",
+          "url": "https://playin.com/embed/v1/demo/Supersized"
+        },
+        {
+          "id": "tanked",
+          "url": "https://playin.com/embed/v1/demo/Tanked"
+        },
+        {
+          "id": "tanked3",
+          "url": "https://playin.com/embed/v1/demo/Tanked3"
+        },
+        {
+          "id": "teslajolt",
+          "url": "https://playin.com/embed/v1/demo/TeslaJolt"
+        },
+        {
+          "id": "theborder",
+          "url": "https://playin.com/embed/v1/demo/TheBorder"
+        },
+        {
+          "id": "thecage",
+          "url": "https://playin.com/embed/v1/demo/TheCage"
+        },
+        {
+          "id": "thecreepycarnival",
+          "url": "https://playin.com/embed/v1/demo/TheCreepyCarnival"
+        },
+        {
+          "id": "thecrypt",
+          "url": "https://playin.com/embed/v1/demo/TheCrypt"
+        },
+        {
+          "id": "thecrypt2",
+          "url": "https://playin.com/embed/v1/demo/TheCrypt2"
+        },
+        {
+          "id": "therave",
+          "url": "https://playin.com/embed/v1/demo/TheRave"
+        },
+        {
+          "id": "thor",
+          "url": "https://playin.com/embed/v1/demo/Thor"
+        },
+        {
+          "id": "tombofakhenaten",
+          "url": "https://playin.com/embed/v1/demo/TombOfAkhenaten"
+        },
+        {
+          "id": "tombofnefertiti",
+          "url": "https://playin.com/embed/v1/demo/TombOfNefertiti"
+        },
+        {
+          "id": "tombstone",
+          "url": "https://playin.com/embed/v1/demo/Tombstone"
+        },
+        {
+          "id": "tombstonebegins",
+          "url": "https://playin.com/embed/v1/demo/TombstoneBegins"
+        },
+        {
+          "id": "tombstonerip",
+          "url": "https://playin.com/embed/v1/demo/TombstoneRip"
+        },
+        {
+          "id": "tombstoneslaughter",
+          "url": "https://playin.com/embed/v1/demo/TombstoneSlaughter"
+        },
+        {
+          "id": "tombstonenomercy",
+          "url": "https://playin.com/embed/v1/demo/TombstoneNoMercy"
+        },
+        {
+          "id": "tractorbeam",
+          "url": "https://playin.com/embed/v1/demo/TractorBeam"
+        },
+        {
+          "id": "truegrit",
+          "url": "https://playin.com/embed/v1/demo/TrueGrit"
+        },
+        {
+          "id": "truegrit2",
+          "url": "https://playin.com/embed/v1/demo/TrueGrit2"
+        },
+        {
+          "id": "truekult",
+          "url": "https://playin.com/embed/v1/demo/TrueKult"
+        },
+        {
+          "id": "tsarwars",
+          "url": "https://playin.com/embed/v1/demo/TsarWars"
+        },
+        {
+          "id": "ugliestcatch",
+          "url": "https://playin.com/embed/v1/demo/UgliestCatch"
+        },
+        {
+          "id": "walkofshame",
+          "url": "https://playin.com/embed/v1/demo/WalkOfShame"
+        },
+        {
+          "id": "warriorgraveyard",
+          "url": "https://playin.com/embed/v1/demo/WarriorGraveyard"
+        },
+        {
+          "id": "whacked",
+          "url": "https://playin.com/embed/v1/demo/Whacked"
+        },
+        {
+          "id": "wixx",
+          "url": "https://playin.com/embed/v1/demo/Wixx"
+        },
+        {
+          "id": "xwayshoarder2",
+          "url": "https://playin.com/embed/v1/demo/XwaysHoarder2"
+        },
+        {
+          "id": "xwayshoarder",
+          "url": "https://playin.com/embed/v1/demo/XwaysHoarder"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "disabled-awaiting-runtime-validation-and-operator-pacing-policy",
+      "allowlist": [
+        {
+          "origin": "https://playin.com",
+          "pathPrefix": "/embed/v1/demo/"
+        }
+      ]
+    },
+    {
+      "id": "playtech",
+      "name": "Playtech",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/playtech.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "games_global",
+      "name": "Games Global",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/games_global.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "amusnet",
+      "name": "Amusnet",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/amusnet.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "playngo",
+      "name": "Play’n GO",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/playngo.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "greentube",
+      "name": "Greentube / Novomatic",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/greentube.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "netent",
+      "name": "NetEnt",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/netent.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "pgsoft",
+      "name": "PG Soft",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/pgsoft.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/blueprint.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "relax",
+      "name": "Relax Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/relax.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "playson",
+      "name": "Playson",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/playson.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "wazdan",
+      "name": "Wazdan",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/wazdan.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "elk",
+      "name": "ELK Studios",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/elk.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    },
+    {
+      "id": "pushgaming",
+      "name": "Push Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/pushgaming.json",
+      "games": [],
+      "sources": [],
+      "preparationStatus": "public-demo-launch-validation-required"
+    }
+  ]
 }

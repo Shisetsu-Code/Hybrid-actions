@@ -1,0 +1,1075 @@
+{
+  "provider": "relax",
+  "name": "Relax Gaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 177,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "agroculture",
+      "name": "AgroCulture",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/agroculture",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancienttumble",
+      "name": "Ancient Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/ancienttumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "atlantiscrush",
+      "name": "Atlantis Crush",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/atlantiscrush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "attila",
+      "name": "Attila The Hun",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/attila",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "auragod",
+      "name": "Aura God",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/auragod",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aussiesvsemus",
+      "name": "Aussies vs Emus",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/aussiesvsemus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "baconbankroll",
+      "name": "Bacon Bankroll",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/baconbankroll",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bananatown",
+      "name": "Banana Town",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bananatown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bananatowndd",
+      "name": "Banana Town Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bananatowndd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beastgains",
+      "name": "Beast Gains",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/beastgains",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beastmode",
+      "name": "Beast Mode",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/beastmode",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beellionairesdd",
+      "name": "Beellionaires Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/beellionairesdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "billandcoin",
+      "name": "Bill & Coin",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/billandcoin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "billandcoin2",
+      "name": "Bill & Coin 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/billandcoin2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "billandcoin2dd",
+      "name": "Bill & Coin 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/billandcoin2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "billandcoindd",
+      "name": "Bill & Coin Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/billandcoindd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blackjackneo",
+      "name": "Blackjack Neo",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/blackjackneo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blenderblitz",
+      "name": "Blender Blitz",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/blenderblitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boneraiders",
+      "name": "Bone Raiders",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/boneraiders",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonsaidragonblitz",
+      "name": "Bonsai Dragon Blitz",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bonsaidragonblitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonsaidragonblitzdd",
+      "name": "Bonsai Dragon Blitz Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bonsaidragonblitzdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bookof99",
+      "name": "Book of 99",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bookof99",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bookofpower",
+      "name": "Book of Power",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bookofpower",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bountycounty",
+      "name": "Bounty County",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/bountycounty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "camelotcash",
+      "name": "Camelot Cash",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/camelotcash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cashintransit",
+      "name": "Cash in Transit",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/cashintransit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cavemanbob",
+      "name": "Caveman Bob",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/cavemanbob",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chipspin",
+      "name": "Chip Spin",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/chipspin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cloudforge",
+      "name": "Cloudforge",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/cloudforge",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clustertumble",
+      "name": "Cluster Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/clustertumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clustertumbledd",
+      "name": "Cluster Tumble Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/clustertumbledd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "codofthunderdd",
+      "name": "Cod of Thunder Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/codofthunderdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "conquerbabylon",
+      "name": "Conquer Babylon",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/conquerbabylon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cowabungadd",
+      "name": "Cowabunga Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/cowabungadd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "curseofthemummies",
+      "name": "Curse of the Mummies",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/curseofthemummies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadmanstrail",
+      "name": "Dead Man's Trail",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/deadmanstrail",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadmanstraildd",
+      "name": "Dead Mans Trail Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/deadmanstraildd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadriderstrail",
+      "name": "Dead Riders Trail",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/deadriderstrail",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deepdescent",
+      "name": "Deep Descent",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/deepdescent",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragonsawakening",
+      "name": "Dragons Awakening",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/dragonsawakening",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamondsdd",
+      "name": "Dream Drop Diamonds",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/diamondsdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emeraldsinfinityreels",
+      "name": "Emerald's Infinity Reels",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/emeraldsinfinityreels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "epicdreams",
+      "name": "Epic Dreams",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/epicdreams",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "epicjoker",
+      "name": "Epic Joker",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/epicjoker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "erikthered",
+      "name": "Erik the Red",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/erikthered",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fangsinferno",
+      "name": "Fang's Inferno",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/fangsinferno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fangsinfernodd",
+      "name": "Fang's Inferno Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/fangsinfernodd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "featherfury",
+      "name": "Feather Fury",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/featherfury",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firewinsfactory",
+      "name": "FireWins Factory",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/firewinsfactory",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flycatsdd",
+      "name": "Fly Cat$ Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/flycatsdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "franksdiner",
+      "name": "Frank's Diner",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/franksdiner",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "freakedoutfish",
+      "name": "Freaked out Fish",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/freakedoutfish",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frequentflyer",
+      "name": "Frequent Flyer",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/frequentflyer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "galacticracersdd",
+      "name": "Galactic Racers Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/galacticracersdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giantsandsheep",
+      "name": "Giants & Sheep",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/giantsandsheep",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "glyphofgods",
+      "name": "Glyph of Gods",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/glyphofgods",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grimthesplitterdd",
+      "name": "Grim The Splitter Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/grimthesplitterdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "groovyknightsdd",
+      "name": "Groovy Knights Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/groovyknightsdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "guitarquest",
+      "name": "Guitar Quest",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/guitarquest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hazakuraways",
+      "name": "Hazakura Ways",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/hazakuraways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heliosfury",
+      "name": "Helios Fury",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/heliosfury",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hellcatraz",
+      "name": "Hellcatraz",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/hellcatraz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hellcatraz2dd",
+      "name": "Hellcatraz 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/hellcatraz2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "herculesunleasheddd",
+      "name": "Hercules Unleashed Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/herculesunleasheddd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heroesgathering",
+      "name": "Heroes' Gathering",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/heroesgathering",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/hex",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "horrorhotel",
+      "name": "Horror Hotel",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/horrorhotel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hotrodracers",
+      "name": "Hot Rod Racers",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/hotrodracers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ignitethenight",
+      "name": "Ignite The Night",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/ignitethenight",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal5",
+      "name": "Immortal 5",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/immortal5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ironbank",
+      "name": "Iron Bank",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/ironbank",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ironbank2",
+      "name": "Iron Bank 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/ironbank2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "itstime",
+      "name": "It's Time",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/itstime",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jokersplit",
+      "name": "Joker Split",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/jokersplit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jumbojuicy",
+      "name": "Jumbo Juicy",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/jumbojuicy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jurassicparty",
+      "name": "Jurassic Party",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/jurassicparty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kingofkings",
+      "name": "King of Kings",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/kingofkings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "klusterkrystalsmegaclusters",
+      "name": "Kluster Krystals Megaclusters",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/klusterkrystalsmegaclusters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "krakenscove",
+      "name": "Kraken's Cove",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/krakenscove",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lafiesta",
+      "name": "La Fiesta",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/lafiesta",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legendofodysseus",
+      "name": "Legend Of Odysseus",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/legendofodysseus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble",
+      "name": "Let's get ready to Rumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/rumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "linebustersdd",
+      "name": "Line Busters Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/linebustersdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lureoffortune",
+      "name": "Lure of Fortune",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/lureoffortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magawavsmines",
+      "name": "Magawa vs Mines",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/magawavsmines",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "marchinglegions",
+      "name": "Marching Legions",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/marchinglegions",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "maskedtreasures",
+      "name": "Masked Treasures",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/maskedtreasures",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megaflip",
+      "name": "Mega Flip",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/megaflip",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megaheist",
+      "name": "Mega Heist",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/megaheist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megamasks",
+      "name": "Mega Masks",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/megamasks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megamine",
+      "name": "Mega Mine",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/megamine",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnightmarauder",
+      "name": "Midnight Marauder",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/midnightmarauder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnightmarauderclusterbreaker",
+      "name": "Midnight Marauder - ClusterBreaker",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/midnightmarauderclusterbreaker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnightmarauderdd",
+      "name": "Midnight Marauder Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/midnightmarauderdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneycart",
+      "name": "Money Cart",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneycart",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneycart2",
+      "name": "Money Cart 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneycart2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneycart3",
+      "name": "Money Cart 3",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneycart3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneycart4",
+      "name": "Money Cart 4",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneycart4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneyplane",
+      "name": "Money Plane",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneyplane",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneysleigh",
+      "name": "Money Sleigh",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneysleigh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrain",
+      "name": "Money Train",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrain",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrain2",
+      "name": "Money Train 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrain2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrain3",
+      "name": "Money Train 3",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrain3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrain4",
+      "name": "Money Train 4",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrain4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrain5",
+      "name": "Money Train 5",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrain5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneytrainoriginsdd",
+      "name": "Money Train Origins Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/moneytrainoriginsdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkeygodsoftheinca",
+      "name": "Monkey Gods of the Inca",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/monkeygodsoftheinca",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multiplierodyssey",
+      "name": "Multiplier Odyssey",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/multiplierodyssey",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mysticmultipliers",
+      "name": "Mystic Multipliers",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/mysticmultipliers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "napoleonvsrabbits",
+      "name": "Napoleon vs Rabbits",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/napoleonvsrabbits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "necromancersgate",
+      "name": "Necromancer’s Gate",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/necromancersgate",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nekonightdd",
+      "name": "Neko Night Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/nekonightdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "netgains",
+      "name": "Net Gains",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/netgains",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "netgainsdd",
+      "name": "Net Gains Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/netgainsdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nucleartumble",
+      "name": "Nuclear Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/nucleartumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nuggetridge",
+      "name": "Nugget Ridge",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/nuggetridge",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "olympus7sdd",
+      "name": "Olympus 7s Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/olympus7sdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pharaohslastwish",
+      "name": "Pharaoh's Last Wish",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/pharaohslastwish",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pinatapopperdd",
+      "name": "Pinata Popper Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/pinatapopperdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plunderland",
+      "name": "Plunderland",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/plunderland",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "powerspin",
+      "name": "Powerspin",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/powerspin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "purrrminator",
+      "name": "Purrrminator",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/purrrminator",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "purrrminatordd",
+      "name": "Purrrminator Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/purrrminatordd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "quackinreels",
+      "name": "Quackin' Reels",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/quackinreels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ramsesrevenge",
+      "name": "Ramses Revenge",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/ramsesrevenge",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulettenouveau",
+      "name": "Roulette Nouveau",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/roulettenouveau",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sailsoffortune",
+      "name": "Sails of Fortune",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/sailsoffortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santasstack",
+      "name": "Santa's Stack",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/santasstack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santasstackdd",
+      "name": "Santa's Stack Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/santasstackdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sharkwash",
+      "name": "Shark Wash",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/sharkwash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slothtumble",
+      "name": "Sloth Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/slothtumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakearena",
+      "name": "Snake Arena",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/snakearena",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakearena2",
+      "name": "Snake Arena 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/snakearena2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakearenadd",
+      "name": "Snake Arena Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/snakearenadd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snakesgolddd",
+      "name": "Snake's Gold Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/snakesgolddd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spaceattacksdd",
+      "name": "Space Attacks Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/spaceattacksdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spaceminers",
+      "name": "Space Miners",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/spaceminers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spaceminersdd",
+      "name": "Space Miners Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/spaceminersdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spiritofthebeast",
+      "name": "Spirit of The Beast",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/spiritofthebeast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stlouis1904",
+      "name": "St Louis 1904",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/stlouis1904",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sultanspins",
+      "name": "Sultan Spins",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/sultanspins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweetopiaroyale",
+      "name": "Sweetopia Royale",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/sweetopiaroyale",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "templartumble",
+      "name": "Templar Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/templartumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "templartumble2dd",
+      "name": "Templar Tumble 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/templartumble2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "templartumbledd",
+      "name": "Templar Tumble Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/templartumbledd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "templetumble",
+      "name": "Temple Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/templetumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "templetumble2dd",
+      "name": "Temple Tumble 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/templetumble2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thegreatpigsby",
+      "name": "The Great Pigsby",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/thegreatpigsby",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thegreatpigsbydd",
+      "name": "The Great Pigsby Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/thegreatpigsbydd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greatpigsbymegapays",
+      "name": "The Great Pigsby Megapays",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/greatpigsbymegapays",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "greatpigsbymegaways",
+      "name": "The Great Pigsby Megaways",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/greatpigsbymegaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thetumbles",
+      "name": "The Tumbles",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/thetumbles",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tigerkingdom",
+      "name": "Tiger Kingdom Infinity Reels",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/tigerkingdom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tigershrine",
+      "name": "Tiger Shrine",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/tigershrine",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "titanstrike",
+      "name": "Titan Strike",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/titanstrike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tnttumble",
+      "name": "TNT Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/tnttumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tnttumbledd",
+      "name": "TNT Tumble Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/tnttumbledd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "topdawg",
+      "name": "Top Dawg$",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/topdawg",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "toriitumble",
+      "name": "Torii Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/toriitumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "totemguardiansdd",
+      "name": "Totem Guardians Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/totemguardiansdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "towertumble",
+      "name": "Tower Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/towertumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasuretumble",
+      "name": "Treasure Tumble",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/treasuretumble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasuretumbledd",
+      "name": "Treasure Tumble Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/treasuretumbledd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trollsgold",
+      "name": "Troll's Gold",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/trollsgold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "volatilevikings",
+      "name": "Volatile Vikings",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/volatilevikings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "volatilevikings2dd",
+      "name": "Volatile Vikings 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/volatilevikings2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildchapo",
+      "name": "Wild Chapo",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildchapo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildchapo2",
+      "name": "Wild Chapo 2",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildchapo2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildchapo2dd",
+      "name": "Wild Chapo 2 Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildchapo2dd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildchapodd",
+      "name": "Wild Chapo Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildchapodd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildhike",
+      "name": "Wild Hike",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildhike",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildyield",
+      "name": "Wild Yield",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildyield",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildchemy",
+      "name": "Wildchemy",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/wildchemy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winterchampions",
+      "name": "Winter Champions",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/winterchampions",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "worldclasskickoff",
+      "name": "World Class Kick Off",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/worldclasskickoff",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "worldclasskickoffdd",
+      "name": "World Class Kick Off Dream Drop",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/worldclasskickoffdd",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zombiecircus",
+      "name": "Zombie Circus",
+      "publicUrl": "https://www.relax-gaming.com/products/casino/zombiecircus",
+      "launchUrlOmitted": false
+    }
+  ]
+}

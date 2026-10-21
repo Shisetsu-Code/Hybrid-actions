@@ -1,0 +1,943 @@
+{
+  "provider": "pgsoft",
+  "name": "PG Soft",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 155,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "125",
+      "name": "Alchemy Gold",
+      "publicUrl": "https://www.pgsoft.com/games/125/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "184",
+      "name": "Alibaba's Cave of Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/184/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "155",
+      "name": "Anubis Wrath",
+      "publicUrl": "https://www.pgsoft.com/games/155/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "27",
+      "name": "Baccarat Deluxe",
+      "publicUrl": "https://www.pgsoft.com/games/27/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "88",
+      "name": "Bali Vacation",
+      "publicUrl": "https://www.pgsoft.com/games/88/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "116",
+      "name": "Battleground Royale",
+      "publicUrl": "https://www.pgsoft.com/games/116/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "59",
+      "name": "Bikini Paradise",
+      "publicUrl": "https://www.pgsoft.com/games/59/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "102",
+      "name": "Buffalo Win",
+      "publicUrl": "https://www.pgsoft.com/games/102/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "113",
+      "name": "Butterfly Blossom",
+      "publicUrl": "https://www.pgsoft.com/games/113/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "58",
+      "name": "Candy Burst",
+      "publicUrl": "https://www.pgsoft.com/games/58/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "91",
+      "name": "Candy Superwin",
+      "publicUrl": "https://www.pgsoft.com/games/91/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "43",
+      "name": "Captain’s Bounty",
+      "publicUrl": "https://www.pgsoft.com/games/43/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "151",
+      "name": "Cash Mania",
+      "publicUrl": "https://www.pgsoft.com/games/151/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "157",
+      "name": "Chicky Run",
+      "publicUrl": "https://www.pgsoft.com/games/157/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "166",
+      "name": "Chocolate Deluxe",
+      "publicUrl": "https://www.pgsoft.com/games/166/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "71",
+      "name": "Circus Delight",
+      "publicUrl": "https://www.pgsoft.com/games/71/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "138",
+      "name": "Cruise Royale",
+      "publicUrl": "https://www.pgsoft.com/games/138/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "174",
+      "name": "Dead Man's Riches",
+      "publicUrl": "https://www.pgsoft.com/games/174/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "112",
+      "name": "Destiny of Sun & Moon",
+      "publicUrl": "https://www.pgsoft.com/games/112/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "126",
+      "name": "Diner Delights",
+      "publicUrl": "https://www.pgsoft.com/games/126/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "176",
+      "name": "Diner Frenzy Spins",
+      "publicUrl": "https://www.pgsoft.com/games/176/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "172",
+      "name": "Doomsday Rampage",
+      "publicUrl": "https://www.pgsoft.com/games/172/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "39",
+      "name": "Double Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/39/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "52",
+      "name": "Dragon Hatch",
+      "publicUrl": "https://www.pgsoft.com/games/52/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "148",
+      "name": "Dragon Hatch 2",
+      "publicUrl": "https://www.pgsoft.com/games/148/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "19",
+      "name": "Dragon Legend",
+      "publicUrl": "https://www.pgsoft.com/games/19/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "49",
+      "name": "Dragon Tiger Luck",
+      "publicUrl": "https://www.pgsoft.com/games/49/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "177",
+      "name": "Dragon's Treasure Quest",
+      "publicUrl": "https://www.pgsoft.com/games/177/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "106",
+      "name": "Emoji Riches",
+      "publicUrl": "https://www.pgsoft.com/games/106/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "38",
+      "name": "Emperor's Favour",
+      "publicUrl": "https://www.pgsoft.com/games/38/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "199",
+      "name": "Farmstead Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/199/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "46",
+      "name": "Flirting Scholar",
+      "publicUrl": "https://www.pgsoft.com/games/46/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "187",
+      "name": "Forbidden Alchemy",
+      "publicUrl": "https://www.pgsoft.com/games/187/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "144",
+      "name": "Forge of Wealth",
+      "publicUrl": "https://www.pgsoft.com/games/144/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "149",
+      "name": "Fortune Dragon",
+      "publicUrl": "https://www.pgsoft.com/games/149/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3",
+      "name": "Fortune Gods",
+      "publicUrl": "https://www.pgsoft.com/games/3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "188",
+      "name": "Fortune Horse",
+      "publicUrl": "https://www.pgsoft.com/games/188/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "53",
+      "name": "Fortune Mouse",
+      "publicUrl": "https://www.pgsoft.com/games/53/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "83",
+      "name": "Fortune Ox",
+      "publicUrl": "https://www.pgsoft.com/games/83/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "129",
+      "name": "Fortune Rabbit",
+      "publicUrl": "https://www.pgsoft.com/games/129/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "169",
+      "name": "Fortune Snake",
+      "publicUrl": "https://www.pgsoft.com/games/169/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "110",
+      "name": "Fortune Tiger",
+      "publicUrl": "https://www.pgsoft.com/games/110/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "137",
+      "name": "Fruity Candy",
+      "publicUrl": "https://www.pgsoft.com/games/137/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "192",
+      "name": "Funky Fortunez",
+      "publicUrl": "https://www.pgsoft.com/games/192/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "158",
+      "name": "Futebol Fever",
+      "publicUrl": "https://www.pgsoft.com/games/158/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "81",
+      "name": "Galactic Gems",
+      "publicUrl": "https://www.pgsoft.com/games/81/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "178",
+      "name": "Galaxy Miner",
+      "publicUrl": "https://www.pgsoft.com/games/178/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "33",
+      "name": "Ganesha Gold",
+      "publicUrl": "https://www.pgsoft.com/games/33/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "111",
+      "name": "Garuda Gems",
+      "publicUrl": "https://www.pgsoft.com/games/111/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "167",
+      "name": "Geisha’s Revenge",
+      "publicUrl": "https://www.pgsoft.com/games/167/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15",
+      "name": "Gem Saviour",
+      "publicUrl": "https://www.pgsoft.com/games/15/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "28",
+      "name": "Gem Saviour Sword",
+      "publicUrl": "https://www.pgsoft.com/games/28/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "150",
+      "name": "Gemstones Gold",
+      "publicUrl": "https://www.pgsoft.com/games/150/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "70",
+      "name": "Genie's 3 Wishes",
+      "publicUrl": "https://www.pgsoft.com/games/70/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "140",
+      "name": "Gladiator's Glory",
+      "publicUrl": "https://www.pgsoft.com/games/140/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "171",
+      "name": "Graffiti Rush",
+      "publicUrl": "https://www.pgsoft.com/games/171/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "179",
+      "name": "Grimms' Bounty: Hansel & Gretel",
+      "publicUrl": "https://www.pgsoft.com/games/179/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "203",
+      "name": "Grimms’ Bounty: Princess & the Frog",
+      "publicUrl": "https://www.pgsoft.com/games/203/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "82",
+      "name": "Guardians of Ice & Fire",
+      "publicUrl": "https://www.pgsoft.com/games/82/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "131",
+      "name": "Hawaiian Tiki",
+      "publicUrl": "https://www.pgsoft.com/games/131/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "94",
+      "name": "Heist Stakes",
+      "publicUrl": "https://www.pgsoft.com/games/94/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "25",
+      "name": "Hip Hop Panda",
+      "publicUrl": "https://www.pgsoft.com/games/25/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1",
+      "name": "Honey Trap of Diao Chan",
+      "publicUrl": "https://www.pgsoft.com/games/1/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "18",
+      "name": "Hood vs Wolf",
+      "publicUrl": "https://www.pgsoft.com/games/18/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20",
+      "name": "Hotpot",
+      "publicUrl": "https://www.pgsoft.com/games/20/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "168",
+      "name": "Incan Wonders",
+      "publicUrl": "https://www.pgsoft.com/games/168/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "189",
+      "name": "Inferno Mayhem",
+      "publicUrl": "https://www.pgsoft.com/games/189/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "80",
+      "name": "Jack Frost's Winter",
+      "publicUrl": "https://www.pgsoft.com/games/80/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "175",
+      "name": "Jack the Giant Hunter",
+      "publicUrl": "https://www.pgsoft.com/games/175/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "77",
+      "name": "Jewels of Prosperity",
+      "publicUrl": "https://www.pgsoft.com/games/77/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "42",
+      "name": "Journey To The Wealth",
+      "publicUrl": "https://www.pgsoft.com/games/42/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "36",
+      "name": "Jungle Delight",
+      "publicUrl": "https://www.pgsoft.com/games/36/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "173",
+      "name": "Knockout Riches",
+      "publicUrl": "https://www.pgsoft.com/games/173/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "181",
+      "name": "Kraken Gold Rush",
+      "publicUrl": "https://www.pgsoft.com/games/181/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "22",
+      "name": "Legend of Hou Yi",
+      "publicUrl": "https://www.pgsoft.com/games/22/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "120",
+      "name": "Legend of Perseus",
+      "publicUrl": "https://www.pgsoft.com/games/120/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "104",
+      "name": "Legendary Monkey King",
+      "publicUrl": "https://www.pgsoft.com/games/104/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "45",
+      "name": "Leprechaun Riches",
+      "publicUrl": "https://www.pgsoft.com/games/45/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "136",
+      "name": "Lucky Clover Riches",
+      "publicUrl": "https://www.pgsoft.com/games/136/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "202",
+      "name": "Lucky Mischief",
+      "publicUrl": "https://www.pgsoft.com/games/202/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "118",
+      "name": "Lucky Piggy",
+      "publicUrl": "https://www.pgsoft.com/games/118/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "145",
+      "name": "Mafia Mayhem",
+      "publicUrl": "https://www.pgsoft.com/games/145/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "50",
+      "name": "Mahjong Ways",
+      "publicUrl": "https://www.pgsoft.com/games/50/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "60",
+      "name": "Mahjong Ways 2",
+      "publicUrl": "https://www.pgsoft.com/games/60/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "180",
+      "name": "Majestic Empire",
+      "publicUrl": "https://www.pgsoft.com/games/180/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "90",
+      "name": "Majestic Treasures",
+      "publicUrl": "https://www.pgsoft.com/games/90/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "108",
+      "name": "Mask Carnival",
+      "publicUrl": "https://www.pgsoft.com/games/108/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "190",
+      "name": "Mayan Destiny",
+      "publicUrl": "https://www.pgsoft.com/games/190/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10",
+      "name": "Medusa",
+      "publicUrl": "https://www.pgsoft.com/games/10/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "6",
+      "name": "Medusa II",
+      "publicUrl": "https://www.pgsoft.com/games/6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "98",
+      "name": "Mermaid Riches",
+      "publicUrl": "https://www.pgsoft.com/games/98/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "128",
+      "name": "Midas Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/128/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "194",
+      "name": "Mighty Mania",
+      "publicUrl": "https://www.pgsoft.com/games/194/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "197",
+      "name": "Monkeys Wild Party",
+      "publicUrl": "https://www.pgsoft.com/games/197/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "21",
+      "name": "Mr. Hallow-Jackpot!",
+      "publicUrl": "https://www.pgsoft.com/games/21/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "170",
+      "name": "Mr. Treasure's Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/170/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "48",
+      "name": "Muay Thai Champion",
+      "publicUrl": "https://www.pgsoft.com/games/48/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "164",
+      "name": "Museum Wonders",
+      "publicUrl": "https://www.pgsoft.com/games/164/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "154",
+      "name": "Mystic Potion",
+      "publicUrl": "https://www.pgsoft.com/games/154/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "134",
+      "name": "Mystical Spirits",
+      "publicUrl": "https://www.pgsoft.com/games/134/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "186",
+      "name": "Mythical Guardians",
+      "publicUrl": "https://www.pgsoft.com/games/186/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "141",
+      "name": "Ninja Raccoon Frenzy",
+      "publicUrl": "https://www.pgsoft.com/games/141/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "47",
+      "name": "Ninja vs Samurai",
+      "publicUrl": "https://www.pgsoft.com/games/47/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "163",
+      "name": "Oishi Delights",
+      "publicUrl": "https://www.pgsoft.com/games/163/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "191",
+      "name": "Perfect Strike",
+      "publicUrl": "https://www.pgsoft.com/games/191/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "182",
+      "name": "Pharaoh Royals",
+      "publicUrl": "https://www.pgsoft.com/games/182/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "64",
+      "name": "Phoenix Rises",
+      "publicUrl": "https://www.pgsoft.com/games/64/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "29",
+      "name": "Piggy Gold",
+      "publicUrl": "https://www.pgsoft.com/games/29/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "153",
+      "name": "Pinata Wins",
+      "publicUrl": "https://www.pgsoft.com/games/153/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "14",
+      "name": "Plushie Frenzy",
+      "publicUrl": "https://www.pgsoft.com/games/14/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "185",
+      "name": "Poker Kingdom Win",
+      "publicUrl": "https://www.pgsoft.com/games/185/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "123",
+      "name": "Prosperity Fortune Tree",
+      "publicUrl": "https://www.pgsoft.com/games/123/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "24",
+      "name": "Prosperity Lion",
+      "publicUrl": "https://www.pgsoft.com/games/24/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "76",
+      "name": "Queen of Bounty",
+      "publicUrl": "https://www.pgsoft.com/games/76/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "101",
+      "name": "Raider Jane's Crypt of Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/101/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "130",
+      "name": "Rave Party Fever",
+      "publicUrl": "https://www.pgsoft.com/games/130/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "54",
+      "name": "Reel Love",
+      "publicUrl": "https://www.pgsoft.com/games/54/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "193",
+      "name": "Reel Royale Showdown",
+      "publicUrl": "https://www.pgsoft.com/games/193/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "165",
+      "name": "Rio Fantasia",
+      "publicUrl": "https://www.pgsoft.com/games/165/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "114",
+      "name": "Rooster Rumble",
+      "publicUrl": "https://www.pgsoft.com/games/114/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "139",
+      "name": "Safari Wilds",
+      "publicUrl": "https://www.pgsoft.com/games/139/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "26",
+      "name": "Santa’s Gift Rush",
+      "publicUrl": "https://www.pgsoft.com/games/26/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "75",
+      "name": "Secrets of Cleopatra",
+      "publicUrl": "https://www.pgsoft.com/games/75/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "56",
+      "name": "Shaolin Soccer",
+      "publicUrl": "https://www.pgsoft.com/games/56/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "159",
+      "name": "Shark Bounty",
+      "publicUrl": "https://www.pgsoft.com/games/159/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "183",
+      "name": "Skylight Wonders",
+      "publicUrl": "https://www.pgsoft.com/games/183/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "133",
+      "name": "Songkran Splash",
+      "publicUrl": "https://www.pgsoft.com/games/133/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "119",
+      "name": "Speed Winner",
+      "publicUrl": "https://www.pgsoft.com/games/119/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "103",
+      "name": "Spirited Wonders",
+      "publicUrl": "https://www.pgsoft.com/games/103/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "135",
+      "name": "Super Golf Drive",
+      "publicUrl": "https://www.pgsoft.com/games/135/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "195",
+      "name": "Super Wildrix",
+      "publicUrl": "https://www.pgsoft.com/games/195/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "100",
+      "name": "Supermarket Spree",
+      "publicUrl": "https://www.pgsoft.com/games/100/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "30",
+      "name": "Symbols of Egypt",
+      "publicUrl": "https://www.pgsoft.com/games/30/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "41",
+      "name": "The Great Icescape",
+      "publicUrl": "https://www.pgsoft.com/games/41/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "162",
+      "name": "Three Crazy Piggies",
+      "publicUrl": "https://www.pgsoft.com/games/162/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "204",
+      "name": "Thunder Reckoning",
+      "publicUrl": "https://www.pgsoft.com/games/204/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "198",
+      "name": "Tornado Rampage",
+      "publicUrl": "https://www.pgsoft.com/games/198/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "124",
+      "name": "Totem Wonders",
+      "publicUrl": "https://www.pgsoft.com/games/124/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "200",
+      "name": "Touchdown Wins",
+      "publicUrl": "https://www.pgsoft.com/games/200/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4",
+      "name": "Tree Of Fortune",
+      "publicUrl": "https://www.pgsoft.com/games/4/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "146",
+      "name": "Tsar Treasures",
+      "publicUrl": "https://www.pgsoft.com/games/146/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "74",
+      "name": "Vampire's Charm",
+      "publicUrl": "https://www.pgsoft.com/games/74/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "147",
+      "name": "Werewolf's Hunt",
+      "publicUrl": "https://www.pgsoft.com/games/147/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "152",
+      "name": "Wild Ape #3258",
+      "publicUrl": "https://www.pgsoft.com/games/152/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "92",
+      "name": "Wild Bandito",
+      "publicUrl": "https://www.pgsoft.com/games/92/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "122",
+      "name": "Wild Bounty Showdown",
+      "publicUrl": "https://www.pgsoft.com/games/122/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "121",
+      "name": "Wild Coaster",
+      "publicUrl": "https://www.pgsoft.com/games/121/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "68",
+      "name": "Wild Fireworks",
+      "publicUrl": "https://www.pgsoft.com/games/68/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "143",
+      "name": "Wild Heist Cashout",
+      "publicUrl": "https://www.pgsoft.com/games/143/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "117",
+      "name": "Win Win Fish Prawn Crab",
+      "publicUrl": "https://www.pgsoft.com/games/117/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9",
+      "name": "Win Win Won",
+      "publicUrl": "https://www.pgsoft.com/games/9/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "161",
+      "name": "Wings of Iguazu",
+      "publicUrl": "https://www.pgsoft.com/games/161/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "160",
+      "name": "Yakuza Honor",
+      "publicUrl": "https://www.pgsoft.com/games/160/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "196",
+      "name": "Zombie Blasters",
+      "publicUrl": "https://www.pgsoft.com/games/196/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "156",
+      "name": "Zombie Outbreak",
+      "publicUrl": "https://www.pgsoft.com/games/156/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

@@ -1,0 +1,2869 @@
+{
+  "provider": "playngo",
+  "name": "Play’n GO",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 476,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "nsync-pop",
+      "name": "*NSYNC Pop",
+      "publicUrl": "https://www.playngo.com/games/nsync-pop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1001-mystery-genie-fortunes",
+      "name": "1001 Mystery Genie Fortunes",
+      "publicUrl": "https://www.playngo.com/games/1001-mystery-genie-fortunes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "13th-trial-hercules-abyssways",
+      "name": "13th Trial Hercules Abyssways",
+      "publicUrl": "https://www.playngo.com/games/13th-trial-hercules-abyssways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "15-crystal-roses-a-tale-of-love",
+      "name": "15 Crystal Roses: A Tale of Love",
+      "publicUrl": "https://www.playngo.com/games/15-crystal-roses-a-tale-of-love",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "24k-dragon",
+      "name": "24k Dragon",
+      "publicUrl": "https://www.playngo.com/games/24k-dragon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-blades-blessings",
+      "name": "3 Blades & Blessings",
+      "publicUrl": "https://www.playngo.com/games/3-blades-blessings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-clown-monty",
+      "name": "3 Clown Monty",
+      "publicUrl": "https://www.playngo.com/games/3-clown-monty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-clown-monty-ii",
+      "name": "3 Clown Monty II",
+      "publicUrl": "https://www.playngo.com/games/3-clown-monty-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3-hand-casino-hold'em",
+      "name": "3-Hand Casino Hold'em",
+      "publicUrl": "https://www.playngo.com/games/3-hand-casino-hold'em",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5x-magic",
+      "name": "5x Magic",
+      "publicUrl": "https://www.playngo.com/games/5x-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-sins",
+      "name": "7 Sins",
+      "publicUrl": "https://www.playngo.com/games/7-sins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ace-of-spades",
+      "name": "Ace of Spades",
+      "publicUrl": "https://www.playngo.com/games/ace-of-spades",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "agent-destiny",
+      "name": "Agent Destiny",
+      "publicUrl": "https://www.playngo.com/games/agent-destiny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "agent-of-hearts",
+      "name": "Agent of Hearts",
+      "publicUrl": "https://www.playngo.com/games/agent-of-hearts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alice-cooper-and-the-tome-of-madness",
+      "name": "Alice Cooper and the Tome of Madness",
+      "publicUrl": "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "animal-madness",
+      "name": "Animal Madness",
+      "publicUrl": "https://www.playngo.com/games/animal-madness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ankh-of-anubis",
+      "name": "Ankh of Anubis",
+      "publicUrl": "https://www.playngo.com/games/ankh-of-anubis",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ankh-of-anubis-awakening",
+      "name": "Ankh of Anubis Awakening",
+      "publicUrl": "https://www.playngo.com/games/ankh-of-anubis-awakening",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "annihilator",
+      "name": "Annihilator",
+      "publicUrl": "https://www.playngo.com/games/annihilator",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "athena-ascending",
+      "name": "Athena Ascending",
+      "publicUrl": "https://www.playngo.com/games/athena-ascending",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-idols",
+      "name": "Aztec Idols",
+      "publicUrl": "https://www.playngo.com/games/aztec-idols",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-warrior-princess",
+      "name": "Aztec Warrior Princess",
+      "publicUrl": "https://www.playngo.com/games/aztec-warrior-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "baker's-treat",
+      "name": "Baker's Treat",
+      "publicUrl": "https://www.playngo.com/games/baker's-treat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "banana-rock",
+      "name": "Banana Rock",
+      "publicUrl": "https://www.playngo.com/games/banana-rock",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "banana-rush",
+      "name": "Banana Rush",
+      "publicUrl": "https://www.playngo.com/games/banana-rush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "banquet-of-dead",
+      "name": "Banquet of Dead",
+      "publicUrl": "https://www.playngo.com/games/banquet-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bao-shi",
+      "name": "Bao Shi",
+      "publicUrl": "https://www.playngo.com/games/bao-shi",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "barn-busters",
+      "name": "Barn Busters",
+      "publicUrl": "https://www.playngo.com/games/barn-busters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "baron-lord-of-saturday",
+      "name": "Baron: Lord of Saturday",
+      "publicUrl": "https://www.playngo.com/games/baron-lord-of-saturday",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "battle-royal",
+      "name": "Battle Royal",
+      "publicUrl": "https://www.playngo.com/games/battle-royal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beasts-of-fire",
+      "name": "Beasts of Fire",
+      "publicUrl": "https://www.playngo.com/games/beasts-of-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beasts-of-fire-maximum",
+      "name": "Beasts of Fire Maximum",
+      "publicUrl": "https://www.playngo.com/games/beasts-of-fire-maximum",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-win-777",
+      "name": "Big Win 777",
+      "publicUrl": "https://www.playngo.com/games/big-win-777",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-win-cat",
+      "name": "Big Win Cat",
+      "publicUrl": "https://www.playngo.com/games/big-win-cat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-win-cat-pawsperity",
+      "name": "Big Win Cat Pawsperity",
+      "publicUrl": "https://www.playngo.com/games/big-win-cat-pawsperity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-mamba",
+      "name": "Black Mamba",
+      "publicUrl": "https://www.playngo.com/games/black-mamba",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blackjack-mh",
+      "name": "BlackJack MH",
+      "publicUrl": "https://www.playngo.com/games/blackjack-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazin'-bullfrog",
+      "name": "Blazin' Bullfrog",
+      "publicUrl": "https://www.playngo.com/games/blazin'-bullfrog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blinged",
+      "name": "Blinged",
+      "publicUrl": "https://www.playngo.com/games/blinged",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boat-bonanza",
+      "name": "Boat Bonanza",
+      "publicUrl": "https://www.playngo.com/games/boat-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boat-bonanza-christmas",
+      "name": "Boat Bonanza Christmas",
+      "publicUrl": "https://www.playngo.com/games/boat-bonanza-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boat-bonanza-colossal-catch",
+      "name": "Boat Bonanza Colossal Catch",
+      "publicUrl": "https://www.playngo.com/games/boat-bonanza-colossal-catch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boat-bonanza-croconile",
+      "name": "Boat Bonanza CrocoNile!",
+      "publicUrl": "https://www.playngo.com/games/boat-bonanza-croconile",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boat-bonanza-down-under",
+      "name": "Boat Bonanza Down Under",
+      "publicUrl": "https://www.playngo.com/games/boat-bonanza-down-under",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-dead",
+      "name": "Book of Dead",
+      "publicUrl": "https://www.playngo.com/games/book-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-dead-go-collect",
+      "name": "Book of Dead GO Collect",
+      "publicUrl": "https://www.playngo.com/games/book-of-dead-go-collect",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bubblin'-riches",
+      "name": "Bubblin' Riches",
+      "publicUrl": "https://www.playngo.com/games/bubblin'-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buildin'-bucks",
+      "name": "Buildin' Bucks",
+      "publicUrl": "https://www.playngo.com/games/buildin'-bucks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buildin'-even-more-bucks",
+      "name": "Buildin' Even More Bucks",
+      "publicUrl": "https://www.playngo.com/games/buildin'-even-more-bucks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buildin'-more-bucks",
+      "name": "Buildin' More Bucks",
+      "publicUrl": "https://www.playngo.com/games/buildin'-more-bucks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bull-in-a-china-shop",
+      "name": "Bull in a China Shop",
+      "publicUrl": "https://www.playngo.com/games/bull-in-a-china-shop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bull-in-a-rodeo",
+      "name": "Bull in a Rodeo",
+      "publicUrl": "https://www.playngo.com/games/bull-in-a-rodeo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bullion-xpress",
+      "name": "Bullion Xpress",
+      "publicUrl": "https://www.playngo.com/games/bullion-xpress",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "candy-island-princess",
+      "name": "Candy Island Princess",
+      "publicUrl": "https://www.playngo.com/games/candy-island-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "canine-carnage",
+      "name": "Canine Carnage",
+      "publicUrl": "https://www.playngo.com/games/canine-carnage",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-glum-pirate-hunter",
+      "name": "Captain Glum: Pirate Hunter",
+      "publicUrl": "https://www.playngo.com/games/captain-glum-pirate-hunter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "captain-xeno's-earth-adventure",
+      "name": "Captain Xeno's Earth Adventure",
+      "publicUrl": "https://www.playngo.com/games/captain-xeno's-earth-adventure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-of-command",
+      "name": "Cash of Command",
+      "publicUrl": "https://www.playngo.com/games/cash-of-command",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-pump",
+      "name": "Cash Pump",
+      "publicUrl": "https://www.playngo.com/games/cash-pump",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-vandal",
+      "name": "Cash Vandal",
+      "publicUrl": "https://www.playngo.com/games/cash-vandal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-a-cabana",
+      "name": "Cash-a-Cabana",
+      "publicUrl": "https://www.playngo.com/games/cash-a-cabana",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cashin'-joker",
+      "name": "Cashin' Joker",
+      "publicUrl": "https://www.playngo.com/games/cashin'-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-hold'em",
+      "name": "Casino Hold'em",
+      "publicUrl": "https://www.playngo.com/games/casino-hold'em",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cat-wilde-and-the-doom-of-dead",
+      "name": "Cat Wilde and the Doom of Dead",
+      "publicUrl": "https://www.playngo.com/games/cat-wilde-and-the-doom-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cat-wilde-and-the-incan-quest",
+      "name": "Cat Wilde and the Incan Quest",
+      "publicUrl": "https://www.playngo.com/games/cat-wilde-and-the-incan-quest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cat-wilde-and-the-lost-chapter",
+      "name": "Cat Wilde and the Lost Chapter",
+      "publicUrl": "https://www.playngo.com/games/cat-wilde-and-the-lost-chapter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cat-wilde-and-the-pyramids-of-dead",
+      "name": "Cat Wilde and the Pyramids of Dead",
+      "publicUrl": "https://www.playngo.com/games/cat-wilde-and-the-pyramids-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cat-wilde-in-the-eclipse-of-the-sun-god",
+      "name": "Cat Wilde in the Eclipse of the Sun God",
+      "publicUrl": "https://www.playngo.com/games/cat-wilde-in-the-eclipse-of-the-sun-god",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cats-and-cash",
+      "name": "Cats and Cash",
+      "publicUrl": "https://www.playngo.com/games/cats-and-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chambers-of-ancients",
+      "name": "Chambers of Ancients",
+      "publicUrl": "https://www.playngo.com/games/chambers-of-ancients",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "champions-of-mithrune",
+      "name": "Champions of Mithrune",
+      "publicUrl": "https://www.playngo.com/games/champions-of-mithrune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charlie-chance",
+      "name": "Charlie Chance",
+      "publicUrl": "https://www.playngo.com/games/charlie-chance",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charlie-chance-and-the-curse-of-cleopatra",
+      "name": "Charlie Chance and the Curse of Cleopatra",
+      "publicUrl": "https://www.playngo.com/games/charlie-chance-and-the-curse-of-cleopatra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "charlie-chance-in-hell-to-pay",
+      "name": "Charlie Chance in Hell to Pay",
+      "publicUrl": "https://www.playngo.com/games/charlie-chance-in-hell-to-pay",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chinese-new-year",
+      "name": "Chinese New Year",
+      "publicUrl": "https://www.playngo.com/games/chinese-new-year",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chronos-joker",
+      "name": "Chronos Joker",
+      "publicUrl": "https://www.playngo.com/games/chronos-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chunky-carlo's-money-mania",
+      "name": "Chunky Carlo's Money Mania",
+      "publicUrl": "https://www.playngo.com/games/chunky-carlo's-money-mania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "city-of-sound",
+      "name": "City of Sound",
+      "publicUrl": "https://www.playngo.com/games/city-of-sound",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clash-of-camelot",
+      "name": "Clash of Camelot",
+      "publicUrl": "https://www.playngo.com/games/clash-of-camelot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cloud-quest",
+      "name": "Cloud Quest",
+      "publicUrl": "https://www.playngo.com/games/cloud-quest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coils-of-cash",
+      "name": "Coils of Cash",
+      "publicUrl": "https://www.playngo.com/games/coils-of-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "colt-lightning",
+      "name": "Colt Lightning",
+      "publicUrl": "https://www.playngo.com/games/colt-lightning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "colt-lightning-firestorm",
+      "name": "Colt Lightning Firestorm",
+      "publicUrl": "https://www.playngo.com/games/colt-lightning-firestorm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "colt-lightning-inferno",
+      "name": "Colt Lightning Inferno",
+      "publicUrl": "https://www.playngo.com/games/colt-lightning-inferno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "publicUrl": "https://www.playngo.com/games/contact",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cops-'n'-robbers",
+      "name": "Cops 'n' Robbers",
+      "publicUrl": "https://www.playngo.com/games/cops-'n'-robbers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "count-jokula",
+      "name": "Count Jokula",
+      "publicUrl": "https://www.playngo.com/games/count-jokula",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coywolf-cash",
+      "name": "Coywolf Cash",
+      "publicUrl": "https://www.playngo.com/games/coywolf-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crabby's-gold",
+      "name": "Crabby's Gold",
+      "publicUrl": "https://www.playngo.com/games/crabby's-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crabby's-gold-ii",
+      "name": "Crabby's Gold II",
+      "publicUrl": "https://www.playngo.com/games/crabby's-gold-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-cows",
+      "name": "Crazy Cows",
+      "publicUrl": "https://www.playngo.com/games/crazy-cows",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-hall",
+      "name": "Crystal Hall",
+      "publicUrl": "https://www.playngo.com/games/crystal-hall",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-sun",
+      "name": "Crystal Sun",
+      "publicUrl": "https://www.playngo.com/games/crystal-sun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cursed-moon-power-collection",
+      "name": "Cursed Moon Power Collection",
+      "publicUrl": "https://www.playngo.com/games/cursed-moon-power-collection",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dansband-pa-turna",
+      "name": "Dansband På Turné",
+      "publicUrl": "https://www.playngo.com/games/dansband-pa-turna",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dawn-of-egypt",
+      "name": "Dawn of Egypt",
+      "publicUrl": "https://www.playngo.com/games/dawn-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "def-leppard-hysteria",
+      "name": "Def Leppard: Hysteria",
+      "publicUrl": "https://www.playngo.com/games/def-leppard-hysteria",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "demon",
+      "name": "Demon",
+      "publicUrl": "https://www.playngo.com/games/demon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "derby-wheel",
+      "name": "Derby Wheel",
+      "publicUrl": "https://www.playngo.com/games/derby-wheel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "detroit-red-wings-winged-reelers",
+      "name": "Detroit Red Wings Winged Reelers",
+      "publicUrl": "https://www.playngo.com/games/detroit-red-wings-winged-reelers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deuces-wild-mh",
+      "name": "Deuces Wild MH",
+      "publicUrl": "https://www.playngo.com/games/deuces-wild-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-vortex",
+      "name": "Diamond Vortex",
+      "publicUrl": "https://www.playngo.com/games/diamond-vortex",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamonds-of-the-realm",
+      "name": "Diamonds of the Realm",
+      "publicUrl": "https://www.playngo.com/games/diamonds-of-the-realm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dio-killing-the-dragon",
+      "name": "Dio Killing the Dragon",
+      "publicUrl": "https://www.playngo.com/games/dio-killing-the-dragon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "disco-diamonds",
+      "name": "Disco Diamonds",
+      "publicUrl": "https://www.playngo.com/games/disco-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divina-commedia-i-nove-cerchi",
+      "name": "Divina Commedia I Nove Cerchi",
+      "publicUrl": "https://www.playngo.com/games/divina-commedia-i-nove-cerchi",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-showdown",
+      "name": "Divine Showdown",
+      "publicUrl": "https://www.playngo.com/games/divine-showdown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "doom-of-egypt",
+      "name": "Doom of Egypt",
+      "publicUrl": "https://www.playngo.com/games/doom-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "double-exposure-blackjack-mh",
+      "name": "Double Exposure BlackJack MH",
+      "publicUrl": "https://www.playngo.com/games/double-exposure-blackjack-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dr-toonz",
+      "name": "Dr. Toonz",
+      "publicUrl": "https://www.playngo.com/games/dr-toonz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-maiden",
+      "name": "Dragon Maiden",
+      "publicUrl": "https://www.playngo.com/games/dragon-maiden",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-ship",
+      "name": "Dragon Ship",
+      "publicUrl": "https://www.playngo.com/games/dragon-ship",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragonfate's-favor",
+      "name": "Dragonfate's Favor",
+      "publicUrl": "https://www.playngo.com/games/dragonfate's-favor",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-eggs",
+      "name": "Easter Eggs",
+      "publicUrl": "https://www.playngo.com/games/easter-eggs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easter-eggspedition",
+      "name": "Easter Eggspedition",
+      "publicUrl": "https://www.playngo.com/games/easter-eggspedition",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "enchanted-crystals",
+      "name": "Enchanted Crystals",
+      "publicUrl": "https://www.playngo.com/games/enchanted-crystals",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "enchanted-meadow",
+      "name": "Enchanted Meadow",
+      "publicUrl": "https://www.playngo.com/games/enchanted-meadow",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "energoonz",
+      "name": "Energoonz",
+      "publicUrl": "https://www.playngo.com/games/energoonz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "european-blackjack-mh",
+      "name": "European BlackJack MH",
+      "publicUrl": "https://www.playngo.com/games/european-blackjack-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "european-roulette-pro",
+      "name": "European Roulette Pro",
+      "publicUrl": "https://www.playngo.com/games/european-roulette-pro",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-atum",
+      "name": "Eye of Atum",
+      "publicUrl": "https://www.playngo.com/games/eye-of-atum",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eye-of-the-kraken",
+      "name": "Eye of the Kraken",
+      "publicUrl": "https://www.playngo.com/games/eye-of-the-kraken",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fangs-fire",
+      "name": "Fangs & Fire",
+      "publicUrl": "https://www.playngo.com/games/fangs-fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fat-frankies",
+      "name": "Fat Frankies",
+      "publicUrl": "https://www.playngo.com/games/fat-frankies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fate-of-dead-blitzways",
+      "name": "Fate of Dead Blitzways",
+      "publicUrl": "https://www.playngo.com/games/fate-of-dead-blitzways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fate's-fortune",
+      "name": "Fate's Fortune",
+      "publicUrl": "https://www.playngo.com/games/fate's-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "feline-fury",
+      "name": "Feline Fury",
+      "publicUrl": "https://www.playngo.com/games/feline-fury",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-joker",
+      "name": "Fire Joker",
+      "publicUrl": "https://www.playngo.com/games/fire-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-joker-100",
+      "name": "Fire Joker 100",
+      "publicUrl": "https://www.playngo.com/games/fire-joker-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-joker-blitz",
+      "name": "Fire Joker Blitz",
+      "publicUrl": "https://www.playngo.com/games/fire-joker-blitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-joker-freeze",
+      "name": "Fire Joker Freeze",
+      "publicUrl": "https://www.playngo.com/games/fire-joker-freeze",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-toad",
+      "name": "Fire Toad",
+      "publicUrl": "https://www.playngo.com/games/fire-toad",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fire-toad-2",
+      "name": "Fire Toad 2",
+      "publicUrl": "https://www.playngo.com/games/fire-toad-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "firefly-frenzy",
+      "name": "Firefly Frenzy",
+      "publicUrl": "https://www.playngo.com/games/firefly-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forge-of-fortunes",
+      "name": "Forge of Fortunes",
+      "publicUrl": "https://www.playngo.com/games/forge-of-fortunes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forge-of-gems",
+      "name": "Forge of Gems",
+      "publicUrl": "https://www.playngo.com/games/forge-of-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-teller",
+      "name": "Fortune Teller",
+      "publicUrl": "https://www.playngo.com/games/fortune-teller",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortunes-of-ali-baba",
+      "name": "Fortunes of Ali Baba",
+      "publicUrl": "https://www.playngo.com/games/fortunes-of-ali-baba",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fox-mayhem",
+      "name": "Fox Mayhem",
+      "publicUrl": "https://www.playngo.com/games/fox-mayhem",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "free-reelin'-joker",
+      "name": "Free Reelin' Joker",
+      "publicUrl": "https://www.playngo.com/games/free-reelin'-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "free-reelin'-joker-1000",
+      "name": "Free Reelin' Joker 1000",
+      "publicUrl": "https://www.playngo.com/games/free-reelin'-joker-1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frozen-gems",
+      "name": "Frozen Gems",
+      "publicUrl": "https://www.playngo.com/games/frozen-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fu-er-dai",
+      "name": "FU ER DAI",
+      "publicUrl": "https://www.playngo.com/games/fu-er-dai",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fulong-88",
+      "name": "Fulong 88",
+      "publicUrl": "https://www.playngo.com/games/fulong-88",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-of-gladiators",
+      "name": "Game of Gladiators",
+      "publicUrl": "https://www.playngo.com/games/game-of-gladiators",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-of-gladiators-uprising",
+      "name": "Game of Gladiators: Uprising",
+      "publicUrl": "https://www.playngo.com/games/game-of-gladiators-uprising",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gargantoonz",
+      "name": "Gargantoonz",
+      "publicUrl": "https://www.playngo.com/games/gargantoonz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gates-of-troy",
+      "name": "Gates of Troy",
+      "publicUrl": "https://www.playngo.com/games/gates-of-troy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemix",
+      "name": "Gemix",
+      "publicUrl": "https://www.playngo.com/games/gemix",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemix-100",
+      "name": "Gemix 100",
+      "publicUrl": "https://www.playngo.com/games/gemix-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemix-2",
+      "name": "Gemix 2",
+      "publicUrl": "https://www.playngo.com/games/gemix-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gerard's-gambit",
+      "name": "Gerard's Gambit",
+      "publicUrl": "https://www.playngo.com/games/gerard's-gambit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ghost-booster-go-guaranteed",
+      "name": "Ghost Booster! GO Guaranteed",
+      "publicUrl": "https://www.playngo.com/games/ghost-booster-go-guaranteed",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ghost-of-dead",
+      "name": "Ghost of Dead",
+      "publicUrl": "https://www.playngo.com/games/ghost-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gigantoonz",
+      "name": "Gigantoonz",
+      "publicUrl": "https://www.playngo.com/games/gigantoonz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gnaw'n-gold",
+      "name": "Gnaw'n Gold",
+      "publicUrl": "https://www.playngo.com/games/gnaw'n-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-craps",
+      "name": "GO CRAPS",
+      "publicUrl": "https://www.playngo.com/games/go-craps",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-king",
+      "name": "Gold King",
+      "publicUrl": "https://www.playngo.com/games/gold-king",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-of-fortune-god",
+      "name": "Gold of Fortune God",
+      "publicUrl": "https://www.playngo.com/games/gold-of-fortune-god",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-trophy-2",
+      "name": "Gold Trophy 2",
+      "publicUrl": "https://www.playngo.com/games/gold-trophy-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-volcano",
+      "name": "Gold Volcano",
+      "publicUrl": "https://www.playngo.com/games/gold-volcano",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-caravan",
+      "name": "Golden Caravan",
+      "publicUrl": "https://www.playngo.com/games/golden-caravan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-colts",
+      "name": "Golden Colts",
+      "publicUrl": "https://www.playngo.com/games/golden-colts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-legend",
+      "name": "Golden Legend",
+      "publicUrl": "https://www.playngo.com/games/golden-legend",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-osiris",
+      "name": "Golden Osiris",
+      "publicUrl": "https://www.playngo.com/games/golden-osiris",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-ticket",
+      "name": "Golden Ticket",
+      "publicUrl": "https://www.playngo.com/games/golden-ticket",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-ticket-2",
+      "name": "Golden Ticket 2",
+      "publicUrl": "https://www.playngo.com/games/golden-ticket-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "granny's-wild",
+      "name": "Granny's Wild",
+      "publicUrl": "https://www.playngo.com/games/granny's-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grim-muerto",
+      "name": "Grim Muerto",
+      "publicUrl": "https://www.playngo.com/games/grim-muerto",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hammerfall",
+      "name": "HammerFall",
+      "publicUrl": "https://www.playngo.com/games/hammerfall",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-halloween",
+      "name": "Happy Halloween",
+      "publicUrl": "https://www.playngo.com/games/happy-halloween",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "helloween",
+      "name": "Helloween",
+      "publicUrl": "https://www.playngo.com/games/helloween",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "highway-legends",
+      "name": "Highway Legends",
+      "publicUrl": "https://www.playngo.com/games/highway-legends",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "holiday-season",
+      "name": "Holiday Season",
+      "publicUrl": "https://www.playngo.com/games/holiday-season",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "holiday-spirits",
+      "name": "Holiday Spirits",
+      "publicUrl": "https://www.playngo.com/games/holiday-spirits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "holy-moo-extreme-power",
+      "name": "Holy Moo! Extreme Power",
+      "publicUrl": "https://www.playngo.com/games/holy-moo-extreme-power",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "honey-rush",
+      "name": "Honey Rush",
+      "publicUrl": "https://www.playngo.com/games/honey-rush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "honey-rush-100",
+      "name": "Honey Rush 100",
+      "publicUrl": "https://www.playngo.com/games/honey-rush-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "honey-rush-black-and-yellow",
+      "name": "Honey Rush Black and Yellow",
+      "publicUrl": "https://www.playngo.com/games/honey-rush-black-and-yellow",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hooligan-hustle",
+      "name": "Hooligan Hustle",
+      "publicUrl": "https://www.playngo.com/games/hooligan-hustle",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hope-unleashed-fortune-rises",
+      "name": "Hope Unleashed Fortune Rises",
+      "publicUrl": "https://www.playngo.com/games/hope-unleashed-fortune-rises",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-dog-heist",
+      "name": "Hot Dog Heist",
+      "publicUrl": "https://www.playngo.com/games/hot-dog-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hotel-yeti-way",
+      "name": "Hotel Yeti-Way",
+      "publicUrl": "https://www.playngo.com/games/hotel-yeti-way",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "house-of-doom",
+      "name": "House of Doom",
+      "publicUrl": "https://www.playngo.com/games/house-of-doom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "house-of-doom-2-the-crypt",
+      "name": "House of Doom 2: The Crypt",
+      "publicUrl": "https://www.playngo.com/games/house-of-doom-2-the-crypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo",
+      "name": "Hugo",
+      "publicUrl": "https://www.playngo.com/games/hugo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo-2",
+      "name": "Hugo 2",
+      "publicUrl": "https://www.playngo.com/games/hugo-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo-carts",
+      "name": "Hugo Carts",
+      "publicUrl": "https://www.playngo.com/games/hugo-carts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo-goal",
+      "name": "Hugo Goal",
+      "publicUrl": "https://www.playngo.com/games/hugo-goal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo-legacy",
+      "name": "Hugo Legacy",
+      "publicUrl": "https://www.playngo.com/games/hugo-legacy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hugo's-adventure",
+      "name": "Hugo's Adventure",
+      "publicUrl": "https://www.playngo.com/games/hugo's-adventure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-joker",
+      "name": "Ice Joker",
+      "publicUrl": "https://www.playngo.com/games/ice-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "idol-of-fortune",
+      "name": "Idol of Fortune",
+      "publicUrl": "https://www.playngo.com/games/idol-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortails-of-egypt",
+      "name": "ImmorTails of Egypt",
+      "publicUrl": "https://www.playngo.com/games/immortails-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "imperial-opera",
+      "name": "Imperial Opera",
+      "publicUrl": "https://www.playngo.com/games/imperial-opera",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "infernal-trinity-go-guaranteed",
+      "name": "Infernal Trinity GO Guaranteed",
+      "publicUrl": "https://www.playngo.com/games/infernal-trinity-go-guaranteed",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "inferno-joker",
+      "name": "Inferno Joker",
+      "publicUrl": "https://www.playngo.com/games/inferno-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "inferno-star",
+      "name": "Inferno Star",
+      "publicUrl": "https://www.playngo.com/games/inferno-star",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "invading-vegas",
+      "name": "Invading Vegas",
+      "publicUrl": "https://www.playngo.com/games/invading-vegas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "invading-vegas-revenge-on-mars",
+      "name": "Invading Vegas Revenge on Mars",
+      "publicUrl": "https://www.playngo.com/games/invading-vegas-revenge-on-mars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "invading-vegas-las-christmas",
+      "name": "Invading Vegas: Las Christmas",
+      "publicUrl": "https://www.playngo.com/games/invading-vegas-las-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-gold",
+      "name": "Irish Gold",
+      "publicUrl": "https://www.playngo.com/games/irish-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "iron-girl",
+      "name": "Iron Girl",
+      "publicUrl": "https://www.playngo.com/games/iron-girl",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jacks-or-better-mh",
+      "name": "Jacks or Better MH",
+      "publicUrl": "https://www.playngo.com/games/jacks-or-better-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jade-magician",
+      "name": "Jade Magician",
+      "publicUrl": "https://www.playngo.com/games/jade-magician",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewel-box",
+      "name": "Jewel Box",
+      "publicUrl": "https://www.playngo.com/games/jewel-box",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-flip",
+      "name": "Joker Flip",
+      "publicUrl": "https://www.playngo.com/games/joker-flip",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-poker-mh",
+      "name": "Joker Poker MH",
+      "publicUrl": "https://www.playngo.com/games/joker-poker-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jolly-roger",
+      "name": "Jolly Roger",
+      "publicUrl": "https://www.playngo.com/games/jolly-roger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jolly-roger-2",
+      "name": "Jolly Roger 2",
+      "publicUrl": "https://www.playngo.com/games/jolly-roger-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jolly-roger-wild-kraken",
+      "name": "Jolly Roger Wild Kraken",
+      "publicUrl": "https://www.playngo.com/games/jolly-roger-wild-kraken",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "journey-to-paris",
+      "name": "Journey to Paris",
+      "publicUrl": "https://www.playngo.com/games/journey-to-paris",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "keno",
+      "name": "Keno",
+      "publicUrl": "https://www.playngo.com/games/keno",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-sweets",
+      "name": "King of Sweets",
+      "publicUrl": "https://www.playngo.com/games/king-of-sweets",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king's-mask",
+      "name": "King's Mask",
+      "publicUrl": "https://www.playngo.com/games/king's-mask",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king's-mask-eclipse-of-gods",
+      "name": "King's Mask Eclipse of Gods",
+      "publicUrl": "https://www.playngo.com/games/king's-mask-eclipse-of-gods",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kingdom-below",
+      "name": "Kingdom Below",
+      "publicUrl": "https://www.playngo.com/games/kingdom-below",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kiss-reels-of-rock",
+      "name": "Kiss Reels of Rock",
+      "publicUrl": "https://www.playngo.com/games/kiss-reels-of-rock",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lab-of-madness-it's-a-wild",
+      "name": "Lab of Madness It's A-Wild!",
+      "publicUrl": "https://www.playngo.com/games/lab-of-madness-it's-a-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady-of-fortune",
+      "name": "Lady of Fortune",
+      "publicUrl": "https://www.playngo.com/games/lady-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady-of-fortune-destiny-spins",
+      "name": "Lady of Fortune Destiny Spins",
+      "publicUrl": "https://www.playngo.com/games/lady-of-fortune-destiny-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady-of-fortune-remastered",
+      "name": "Lady of Fortune Remastered",
+      "publicUrl": "https://www.playngo.com/games/lady-of-fortune-remastered",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lawn-n'-complete-disorder",
+      "name": "Lawn n' Complete Disorder",
+      "publicUrl": "https://www.playngo.com/games/lawn-n'-complete-disorder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lawn-n'-disorder",
+      "name": "Lawn n' Disorder",
+      "publicUrl": "https://www.playngo.com/games/lawn-n'-disorder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-dead",
+      "name": "Legacy of Dead",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-dynasties",
+      "name": "Legacy of Dynasties",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-dynasties",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-egypt",
+      "name": "Legacy of Egypt",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-gems-blitzways",
+      "name": "Legacy of Gems Blitzways",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-gems-blitzways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-inca",
+      "name": "Legacy of Inca",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-inca",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-undead-dragon-abyssways",
+      "name": "Legacy of Undead Dragon ABYSSWAYS",
+      "publicUrl": "https://www.playngo.com/games/legacy-of-undead-dragon-abyssways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legend-of-the-ice-dragon",
+      "name": "Legend of the Ice Dragon",
+      "publicUrl": "https://www.playngo.com/games/legend-of-the-ice-dragon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold",
+      "name": "Legion Gold",
+      "publicUrl": "https://www.playngo.com/games/legion-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold-and-the-sphinx-of-dead",
+      "name": "Legion Gold and the Sphinx of Dead",
+      "publicUrl": "https://www.playngo.com/games/legion-gold-and-the-sphinx-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold-and-the-throne-of-dead",
+      "name": "Legion Gold and the Throne of Dead",
+      "publicUrl": "https://www.playngo.com/games/legion-gold-and-the-throne-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold-reckoning",
+      "name": "Legion Gold Reckoning",
+      "publicUrl": "https://www.playngo.com/games/legion-gold-reckoning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold-unleashed",
+      "name": "Legion Gold Unleashed",
+      "publicUrl": "https://www.playngo.com/games/legion-gold-unleashed",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legion-gold-victory",
+      "name": "Legion Gold Victory!",
+      "publicUrl": "https://www.playngo.com/games/legion-gold-victory",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun-goes-egypt",
+      "name": "Leprechaun goes Egypt",
+      "publicUrl": "https://www.playngo.com/games/leprechaun-goes-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun-goes-wild",
+      "name": "Leprechaun Goes Wild",
+      "publicUrl": "https://www.playngo.com/games/leprechaun-goes-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun's-diamond-dig",
+      "name": "Leprechaun's Diamond Dig",
+      "publicUrl": "https://www.playngo.com/games/leprechaun's-diamond-dig",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun's-vault",
+      "name": "Leprechaun's Vault",
+      "publicUrl": "https://www.playngo.com/games/leprechaun's-vault",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lion-saga-odyssey",
+      "name": "Lion Saga Odyssey",
+      "publicUrl": "https://www.playngo.com/games/lion-saga-odyssey",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "loot-labyrinths",
+      "name": "Loot & Labyrinths",
+      "publicUrl": "https://www.playngo.com/games/loot-labyrinths",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord-merlin-and-the-lady-of-the-lake",
+      "name": "Lord Merlin and The Lady of The Lake",
+      "publicUrl": "https://www.playngo.com/games/lord-merlin-and-the-lady-of-the-lake",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lordi-reel-monsters",
+      "name": "Lordi Reel Monsters",
+      "publicUrl": "https://www.playngo.com/games/lordi-reel-monsters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "love-is-in-the-fair",
+      "name": "Love is in the Fair",
+      "publicUrl": "https://www.playngo.com/games/love-is-in-the-fair",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "love-joker",
+      "name": "Love Joker",
+      "publicUrl": "https://www.playngo.com/games/love-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "luchamigos",
+      "name": "Luchamigos",
+      "publicUrl": "https://www.playngo.com/games/luchamigos",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-diamonds",
+      "name": "Lucky Diamonds",
+      "publicUrl": "https://www.playngo.com/games/lucky-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "madame-ink",
+      "name": "Madame Ink",
+      "publicUrl": "https://www.playngo.com/games/madame-ink",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mafia-gold",
+      "name": "Mafia Gold",
+      "publicUrl": "https://www.playngo.com/games/mafia-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mahjong-88",
+      "name": "Mahjong 88",
+      "publicUrl": "https://www.playngo.com/games/mahjong-88",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "manta-mayhem",
+      "name": "Manta Mayhem",
+      "publicUrl": "https://www.playngo.com/games/manta-mayhem",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "matsuri",
+      "name": "Matsuri",
+      "publicUrl": "https://www.playngo.com/games/matsuri",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "medusa's-madness",
+      "name": "Medusa's Madness",
+      "publicUrl": "https://www.playngo.com/games/medusa's-madness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-don",
+      "name": "Mega Don",
+      "publicUrl": "https://www.playngo.com/games/mega-don",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-don-triple-threat",
+      "name": "Mega Don Triple Threat",
+      "publicUrl": "https://www.playngo.com/games/mega-don-triple-threat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-don-feeding-frenzy",
+      "name": "Mega Don: Feeding Frenzy",
+      "publicUrl": "https://www.playngo.com/games/mega-don-feeding-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merlin-and-the-ice-queen-morgana",
+      "name": "Merlin and the Ice Queen Morgana",
+      "publicUrl": "https://www.playngo.com/games/merlin-and-the-ice-queen-morgana",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merlin-realm-of-charm",
+      "name": "Merlin Realm of Charm",
+      "publicUrl": "https://www.playngo.com/games/merlin-realm-of-charm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merlin's-grimoire",
+      "name": "Merlin's Grimoire",
+      "publicUrl": "https://www.playngo.com/games/merlin's-grimoire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merlin-journey-of-flame",
+      "name": "Merlin: Journey of Flame",
+      "publicUrl": "https://www.playngo.com/games/merlin-journey-of-flame",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mermaid's-diamond",
+      "name": "Mermaid's Diamond",
+      "publicUrl": "https://www.playngo.com/games/mermaid's-diamond",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merry-xmas",
+      "name": "Merry Xmas",
+      "publicUrl": "https://www.playngo.com/games/merry-xmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnight-gold",
+      "name": "Midnight Gold",
+      "publicUrl": "https://www.playngo.com/games/midnight-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "miner-donkey-trouble",
+      "name": "Miner Donkey Trouble",
+      "publicUrl": "https://www.playngo.com/games/miner-donkey-trouble",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mini-baccarat",
+      "name": "Mini Baccarat",
+      "publicUrl": "https://www.playngo.com/games/mini-baccarat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mirror-joker",
+      "name": "Mirror Joker",
+      "publicUrl": "https://www.playngo.com/games/mirror-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mission-cash",
+      "name": "Mission Cash",
+      "publicUrl": "https://www.playngo.com/games/mission-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "money-wheel",
+      "name": "Money Wheel",
+      "publicUrl": "https://www.playngo.com/games/money-wheel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkey-battle-for-the-scrolls",
+      "name": "Monkey: Battle for the Scrolls",
+      "publicUrl": "https://www.playngo.com/games/monkey-battle-for-the-scrolls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess",
+      "name": "Moon Princess",
+      "publicUrl": "https://www.playngo.com/games/moon-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-100",
+      "name": "Moon Princess 100",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-extreme",
+      "name": "Moon Princess Extreme",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-extreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-origins",
+      "name": "Moon Princess Origins",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-origins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-power-of-love",
+      "name": "Moon Princess Power of Love",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-power-of-love",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-stargazing",
+      "name": "Moon Princess Stargazing",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-stargazing",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-trinity",
+      "name": "Moon Princess Trinity",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-trinity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-princess-christmas-kingdom",
+      "name": "Moon Princess: Christmas Kingdom",
+      "publicUrl": "https://www.playngo.com/games/moon-princess-christmas-kingdom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mount-m",
+      "name": "Mount M",
+      "publicUrl": "https://www.playngo.com/games/mount-m",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "muerto-en-mictla-a-a-n",
+      "name": "Muerto en MictlÃƒÆ’Ã‚Â¡n",
+      "publicUrl": "https://www.playngo.com/games/muerto-en-mictla-a-a-n",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multifruit-81",
+      "name": "Multifruit 81",
+      "publicUrl": "https://www.playngo.com/games/multifruit-81",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-egg-surprise",
+      "name": "Mystery Egg Surprise",
+      "publicUrl": "https://www.playngo.com/games/mystery-egg-surprise",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-genie-fortunes-of-the-lamp",
+      "name": "Mystery Genie  Fortunes of the Lamp",
+      "publicUrl": "https://www.playngo.com/games/mystery-genie-fortunes-of-the-lamp",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-joker",
+      "name": "Mystery Joker",
+      "publicUrl": "https://www.playngo.com/games/mystery-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-joker-6000",
+      "name": "Mystery Joker 6000",
+      "publicUrl": "https://www.playngo.com/games/mystery-joker-6000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "myth",
+      "name": "Myth",
+      "publicUrl": "https://www.playngo.com/games/myth",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "myth-of-dead",
+      "name": "Myth of Dead",
+      "publicUrl": "https://www.playngo.com/games/myth-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ma-a-tley-cra-a1-4e",
+      "name": "Mötley Crüe",
+      "publicUrl": "https://www.playngo.com/games/ma-a-tley-cra-a1-4e",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "naughty-nick's-book",
+      "name": "Naughty Nick's Book",
+      "publicUrl": "https://www.playngo.com/games/naughty-nick's-book",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "new-year-riches",
+      "name": "New Year Riches",
+      "publicUrl": "https://www.playngo.com/games/new-year-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ninja-fruits",
+      "name": "Ninja Fruits",
+      "publicUrl": "https://www.playngo.com/games/ninja-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nugget-n-nonsense",
+      "name": "Nugget n’ Nonsense",
+      "publicUrl": "https://www.playngo.com/games/nugget-n-nonsense",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oasis-of-dead",
+      "name": "Oasis of Dead",
+      "publicUrl": "https://www.playngo.com/games/oasis-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "octopus-treasure",
+      "name": "Octopus Treasure",
+      "publicUrl": "https://www.playngo.com/games/octopus-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "odin-protector-of-realms",
+      "name": "Odin Protector of Realms",
+      "publicUrl": "https://www.playngo.com/games/odin-protector-of-realms",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pack-cash",
+      "name": "Pack & Cash",
+      "publicUrl": "https://www.playngo.com/games/pack-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pandastic-adventure",
+      "name": "Pandastic Adventure",
+      "publicUrl": "https://www.playngo.com/games/pandastic-adventure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pandora's-box-of-evil",
+      "name": "Pandora's Box of Evil",
+      "publicUrl": "https://www.playngo.com/games/pandora's-box-of-evil",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pearl-lagoon",
+      "name": "Pearl Lagoon",
+      "publicUrl": "https://www.playngo.com/games/pearl-lagoon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pearls-of-india",
+      "name": "Pearls of India",
+      "publicUrl": "https://www.playngo.com/games/pearls-of-india",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "perfect-gems",
+      "name": "Perfect Gems",
+      "publicUrl": "https://www.playngo.com/games/perfect-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-reborn",
+      "name": "Phoenix Reborn",
+      "publicUrl": "https://www.playngo.com/games/phoenix-reborn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "photo-safari",
+      "name": "Photo Safari",
+      "publicUrl": "https://www.playngo.com/games/photo-safari",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-bank-farm",
+      "name": "Piggy Bank Farm",
+      "publicUrl": "https://www.playngo.com/games/piggy-bank-farm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-blitz",
+      "name": "Piggy Blitz",
+      "publicUrl": "https://www.playngo.com/games/piggy-blitz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-blitz-casino-gold",
+      "name": "Piggy Blitz Casino Gold",
+      "publicUrl": "https://www.playngo.com/games/piggy-blitz-casino-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-blitz-disco-gold",
+      "name": "Piggy Blitz Disco Gold",
+      "publicUrl": "https://www.playngo.com/games/piggy-blitz-disco-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-heist",
+      "name": "Piggy Heist",
+      "publicUrl": "https://www.playngo.com/games/piggy-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pilgrim-of-dead",
+      "name": "Pilgrim of Dead",
+      "publicUrl": "https://www.playngo.com/games/pilgrim-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pimped",
+      "name": "Pimped",
+      "publicUrl": "https://www.playngo.com/games/pimped",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piranha-pays",
+      "name": "Piranha Pays",
+      "publicUrl": "https://www.playngo.com/games/piranha-pays",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "planet-fortune",
+      "name": "Planet Fortune",
+      "publicUrl": "https://www.playngo.com/games/planet-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "play'n-go-buffalo-of-wealth",
+      "name": "Play'n GO Buffalo of Wealth",
+      "publicUrl": "https://www.playngo.com/games/play'n-go-buffalo-of-wealth",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "play'n-go-mole-digger",
+      "name": "Play'n GO Mole Digger",
+      "publicUrl": "https://www.playngo.com/games/play'n-go-mole-digger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "potion-of-madness",
+      "name": "Potion of Madness",
+      "publicUrl": "https://www.playngo.com/games/potion-of-madness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "primal-rampage",
+      "name": "Primal Rampage",
+      "publicUrl": "https://www.playngo.com/games/primal-rampage",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prism-of-gems",
+      "name": "Prism of Gems",
+      "publicUrl": "https://www.playngo.com/games/prism-of-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prissy-princess",
+      "name": "Prissy Princess",
+      "publicUrl": "https://www.playngo.com/games/prissy-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prosperity-palace",
+      "name": "Prosperity Palace",
+      "publicUrl": "https://www.playngo.com/games/prosperity-palace",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "puebla-parade",
+      "name": "Puebla Parade",
+      "publicUrl": "https://www.playngo.com/games/puebla-parade",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queen's-day-tilt",
+      "name": "Queen's Day Tilt",
+      "publicUrl": "https://www.playngo.com/games/queen's-day-tilt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ra's-reckoning",
+      "name": "Ra's Reckoning",
+      "publicUrl": "https://www.playngo.com/games/ra's-reckoning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabbit-hole-riches",
+      "name": "Rabbit Hole Riches",
+      "publicUrl": "https://www.playngo.com/games/rabbit-hole-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabbit-hole-riches-court-of-hearts",
+      "name": "Rabbit Hole Riches - Court of Hearts",
+      "publicUrl": "https://www.playngo.com/games/rabbit-hole-riches-court-of-hearts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rage-to-riches",
+      "name": "Rage to Riches",
+      "publicUrl": "https://www.playngo.com/games/rage-to-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raging-rex",
+      "name": "Raging Rex",
+      "publicUrl": "https://www.playngo.com/games/raging-rex",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raging-rex-2",
+      "name": "Raging Rex 2",
+      "publicUrl": "https://www.playngo.com/games/raging-rex-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "raging-rex-3",
+      "name": "Raging Rex 3",
+      "publicUrl": "https://www.playngo.com/games/raging-rex-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainforest-magic",
+      "name": "Rainforest Magic",
+      "publicUrl": "https://www.playngo.com/games/rainforest-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rally-4-riches",
+      "name": "Rally 4 Riches",
+      "publicUrl": "https://www.playngo.com/games/rally-4-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rascal-riches",
+      "name": "Rascal Riches",
+      "publicUrl": "https://www.playngo.com/games/rascal-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reactoonz",
+      "name": "Reactoonz",
+      "publicUrl": "https://www.playngo.com/games/reactoonz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reactoonz-100",
+      "name": "Reactoonz 100",
+      "publicUrl": "https://www.playngo.com/games/reactoonz-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reactoonz-2",
+      "name": "Reactoonz 2",
+      "publicUrl": "https://www.playngo.com/games/reactoonz-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reactoonz-blitzways",
+      "name": "Reactoonz Blitzways",
+      "publicUrl": "https://www.playngo.com/games/reactoonz-blitzways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "redtail-robber-cash-vault-heist",
+      "name": "Redtail Robber Cash Vault Heist",
+      "publicUrl": "https://www.playngo.com/games/redtail-robber-cash-vault-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "return-of-the-green-knight",
+      "name": "Return of The Green Knight",
+      "publicUrl": "https://www.playngo.com/games/return-of-the-green-knight",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-amulet-of-dead",
+      "name": "Rich Wilde and the Amulet of Dead",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-amulet-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-pearls-of-vishnu",
+      "name": "Rich Wilde and the Pearls of Vishnu",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-pearls-of-vishnu",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-shield-of-athena",
+      "name": "Rich Wilde and the Shield of Athena",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-shield-of-athena",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-tome-of-dead",
+      "name": "Rich Wilde and the Tome of Dead",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-tome-of-insanity",
+      "name": "Rich Wilde and the Tome of Insanity",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-insanity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rich-wilde-and-the-wandering-city",
+      "name": "Rich Wilde and the Wandering City",
+      "publicUrl": "https://www.playngo.com/games/rich-wilde-and-the-wandering-city",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riches-of-ra",
+      "name": "Riches of RA",
+      "publicUrl": "https://www.playngo.com/games/riches-of-ra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riches-of-robin",
+      "name": "Riches of Robin",
+      "publicUrl": "https://www.playngo.com/games/riches-of-robin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riddle-reels-a-case-of-riches",
+      "name": "Riddle Reels: A Case of Riches",
+      "publicUrl": "https://www.playngo.com/games/riddle-reels-a-case-of-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ring-of-odin",
+      "name": "Ring of Odin",
+      "publicUrl": "https://www.playngo.com/games/ring-of-odin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rings-of-prosperity",
+      "name": "Rings of Prosperity",
+      "publicUrl": "https://www.playngo.com/games/rings-of-prosperity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-athena",
+      "name": "Rise of Athena",
+      "publicUrl": "https://www.playngo.com/games/rise-of-athena",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-dead",
+      "name": "Rise of Dead",
+      "publicUrl": "https://www.playngo.com/games/rise-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-gods-reckoning",
+      "name": "Rise of Gods: Reckoning",
+      "publicUrl": "https://www.playngo.com/games/rise-of-gods-reckoning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-merlin",
+      "name": "Rise of Merlin",
+      "publicUrl": "https://www.playngo.com/games/rise-of-merlin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-olympus",
+      "name": "Rise of Olympus",
+      "publicUrl": "https://www.playngo.com/games/rise-of-olympus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-olympus-100",
+      "name": "Rise of Olympus 100",
+      "publicUrl": "https://www.playngo.com/games/rise-of-olympus-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-olympus-1000",
+      "name": "Rise of Olympus 1000",
+      "publicUrl": "https://www.playngo.com/games/rise-of-olympus-1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-olympus-extreme",
+      "name": "Rise of Olympus Extreme",
+      "publicUrl": "https://www.playngo.com/games/rise-of-olympus-extreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-olympus-origins",
+      "name": "Rise of Olympus Origins",
+      "publicUrl": "https://www.playngo.com/games/rise-of-olympus-origins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-orpheus",
+      "name": "Rise of Orpheus",
+      "publicUrl": "https://www.playngo.com/games/rise-of-orpheus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rocco-gallo",
+      "name": "Rocco Gallo",
+      "publicUrl": "https://www.playngo.com/games/rocco-gallo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ronin's-honour",
+      "name": "Ronin's Honour",
+      "publicUrl": "https://www.playngo.com/games/ronin's-honour",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rosy-orbit-treasure-turn",
+      "name": "Rosy Orbit Treasure Turn",
+      "publicUrl": "https://www.playngo.com/games/rosy-orbit-treasure-turn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rotiki",
+      "name": "Rotiki",
+      "publicUrl": "https://www.playngo.com/games/rotiki",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-masquerade",
+      "name": "Royal Masquerade",
+      "publicUrl": "https://www.playngo.com/games/royal-masquerade",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ruff-heist",
+      "name": "Ruff Heist",
+      "publicUrl": "https://www.playngo.com/games/ruff-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sabaton",
+      "name": "Sabaton",
+      "publicUrl": "https://www.playngo.com/games/sabaton",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "safari-of-wealth",
+      "name": "Safari of Wealth",
+      "publicUrl": "https://www.playngo.com/games/safari-of-wealth",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sails-of-gold",
+      "name": "Sails of Gold",
+      "publicUrl": "https://www.playngo.com/games/sails-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sails-of-riches",
+      "name": "Sails of Riches",
+      "publicUrl": "https://www.playngo.com/games/sails-of-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "samba-carnival",
+      "name": "Samba Carnival",
+      "publicUrl": "https://www.playngo.com/games/samba-carnival",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "saxon",
+      "name": "Saxon",
+      "publicUrl": "https://www.playngo.com/games/saxon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scales-of-dead",
+      "name": "Scales of Dead",
+      "publicUrl": "https://www.playngo.com/games/scales-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scourge-of-rome",
+      "name": "Scourge of Rome",
+      "publicUrl": "https://www.playngo.com/games/scourge-of-rome",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scroll-of-dead",
+      "name": "Scroll of Dead",
+      "publicUrl": "https://www.playngo.com/games/scroll-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scroll-of-seth",
+      "name": "Scroll of Seth",
+      "publicUrl": "https://www.playngo.com/games/scroll-of-seth",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sea-hunter",
+      "name": "Sea Hunter",
+      "publicUrl": "https://www.playngo.com/games/sea-hunter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secret-of-dead",
+      "name": "Secret of Dead",
+      "publicUrl": "https://www.playngo.com/games/secret-of-dead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shamrock-miner",
+      "name": "Shamrock Miner",
+      "publicUrl": "https://www.playngo.com/games/shamrock-miner",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shark-feast",
+      "name": "Shark Feast",
+      "publicUrl": "https://www.playngo.com/games/shark-feast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sherwood-gold",
+      "name": "Sherwood Gold",
+      "publicUrl": "https://www.playngo.com/games/sherwood-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "single-deck-blackjack-mh",
+      "name": "Single Deck BlackJack MH",
+      "publicUrl": "https://www.playngo.com/games/single-deck-blackjack-mh",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sisters-of-the-sun",
+      "name": "Sisters of the Sun",
+      "publicUrl": "https://www.playngo.com/games/sisters-of-the-sun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sizzling-spins",
+      "name": "Sizzling Spins",
+      "publicUrl": "https://www.playngo.com/games/sizzling-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slashimi",
+      "name": "Slashimi",
+      "publicUrl": "https://www.playngo.com/games/slashimi",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sobek's-godly-spins",
+      "name": "Sobek's Godly Spins",
+      "publicUrl": "https://www.playngo.com/games/sobek's-godly-spins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-race",
+      "name": "Space Race",
+      "publicUrl": "https://www.playngo.com/games/space-race",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spark-of-genius",
+      "name": "Spark of Genius",
+      "publicUrl": "https://www.playngo.com/games/spark-of-genius",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sparky-shortz",
+      "name": "Sparky & Shortz",
+      "publicUrl": "https://www.playngo.com/games/sparky-shortz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sparky-shortz-hidden-joules",
+      "name": "Sparky&Shortz Hidden Joules",
+      "publicUrl": "https://www.playngo.com/games/sparky-shortz-hidden-joules",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spice-spice-baby",
+      "name": "Spice Spice Baby!",
+      "publicUrl": "https://www.playngo.com/games/spice-spice-baby",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spin-party",
+      "name": "Spin Party",
+      "publicUrl": "https://www.playngo.com/games/spin-party",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spinnin'-records-into-the-beat",
+      "name": "Spinnin' Records Into the Beat",
+      "publicUrl": "https://www.playngo.com/games/spinnin'-records-into-the-beat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spinnin-records-raving-reels",
+      "name": "Spinnin' Records: Raving Reels",
+      "publicUrl": "https://www.playngo.com/games/spinnin-records-raving-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stadium-of-riches",
+      "name": "Stadium of Riches",
+      "publicUrl": "https://www.playngo.com/games/stadium-of-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "star-joker",
+      "name": "Star Joker",
+      "publicUrl": "https://www.playngo.com/games/star-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "static-nightmare-abyssways",
+      "name": "Static Nightmare ABYSSWAYS",
+      "publicUrl": "https://www.playngo.com/games/static-nightmare-abyssways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stepping-diamonds",
+      "name": "Stepping Diamonds",
+      "publicUrl": "https://www.playngo.com/games/stepping-diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sticky-joker",
+      "name": "Sticky Joker",
+      "publicUrl": "https://www.playngo.com/games/sticky-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stompin-gold",
+      "name": "Stompin’ Gold",
+      "publicUrl": "https://www.playngo.com/games/stompin-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "street-magic",
+      "name": "Street Magic",
+      "publicUrl": "https://www.playngo.com/games/street-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-flip",
+      "name": "Super Flip",
+      "publicUrl": "https://www.playngo.com/games/super-flip",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-flip-deluxe",
+      "name": "Super Flip Deluxe",
+      "publicUrl": "https://www.playngo.com/games/super-flip-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-wheel",
+      "name": "Super Wheel",
+      "publicUrl": "https://www.playngo.com/games/super-wheel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-27",
+      "name": "Sweet 27",
+      "publicUrl": "https://www.playngo.com/games/sweet-27",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-alchemy",
+      "name": "Sweet Alchemy",
+      "publicUrl": "https://www.playngo.com/games/sweet-alchemy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-alchemy-100",
+      "name": "Sweet Alchemy 100",
+      "publicUrl": "https://www.playngo.com/games/sweet-alchemy-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-alchemy-2",
+      "name": "Sweet Alchemy 2",
+      "publicUrl": "https://www.playngo.com/games/sweet-alchemy-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tale-of-kyubiko",
+      "name": "Tale of Kyubiko",
+      "publicUrl": "https://www.playngo.com/games/tale-of-kyubiko",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-of-asgard-freya's-wedding",
+      "name": "Tales of Asgard: Freya's Wedding",
+      "publicUrl": "https://www.playngo.com/games/tales-of-asgard-freya's-wedding",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-of-asgard-loki's-fortune",
+      "name": "Tales of Asgard: Loki's Fortune",
+      "publicUrl": "https://www.playngo.com/games/tales-of-asgard-loki's-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tales-of-mithrune-syn's-fortune",
+      "name": "Tales of Mithrune Syn's Fortune",
+      "publicUrl": "https://www.playngo.com/games/tales-of-mithrune-syn's-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-prosperity",
+      "name": "Temple of Prosperity",
+      "publicUrl": "https://www.playngo.com/games/temple-of-prosperity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-three",
+      "name": "Temple of Three",
+      "publicUrl": "https://www.playngo.com/games/temple-of-three",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-tollan",
+      "name": "Temple of Tollan",
+      "publicUrl": "https://www.playngo.com/games/temple-of-tollan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ternion",
+      "name": "Ternion",
+      "publicUrl": "https://www.playngo.com/games/ternion",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "testament",
+      "name": "TESTament BINGO",
+      "publicUrl": "https://www.playngo.com/games/testament",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "that's-rich",
+      "name": "That's Rich",
+      "publicUrl": "https://www.playngo.com/games/that's-rich",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-faces-of-freya",
+      "name": "The Faces of Freya",
+      "publicUrl": "https://www.playngo.com/games/the-faces-of-freya",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-green-knight",
+      "name": "The Green Knight",
+      "publicUrl": "https://www.playngo.com/games/the-green-knight",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-green-knight-oath-of-thorns",
+      "name": "The Green Knight Oath of Thorns",
+      "publicUrl": "https://www.playngo.com/games/the-green-knight-oath-of-thorns",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-last-sundown",
+      "name": "The Last Sundown",
+      "publicUrl": "https://www.playngo.com/games/the-last-sundown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-paying-piano-club",
+      "name": "The Paying Piano Club",
+      "publicUrl": "https://www.playngo.com/games/the-paying-piano-club",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-shimmering-woods",
+      "name": "The Shimmering Woods",
+      "publicUrl": "https://www.playngo.com/games/the-shimmering-woods",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-sword-and-the-grail",
+      "name": "The Sword and The Grail",
+      "publicUrl": "https://www.playngo.com/games/the-sword-and-the-grail",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-sword-and-the-grail-excalibur",
+      "name": "The Sword and the Grail Excalibur",
+      "publicUrl": "https://www.playngo.com/games/the-sword-and-the-grail-excalibur",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wild-class",
+      "name": "The Wild Class",
+      "publicUrl": "https://www.playngo.com/games/the-wild-class",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-pots-of-the-genie",
+      "name": "Three Pots of the Genie",
+      "publicUrl": "https://www.playngo.com/games/three-pots-of-the-genie",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder-screech",
+      "name": "Thunder Screech",
+      "publicUrl": "https://www.playngo.com/games/thunder-screech",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tomb-of-gold",
+      "name": "Tomb of Gold",
+      "publicUrl": "https://www.playngo.com/games/tomb-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tomb-of-gold-ii",
+      "name": "Tomb of Gold II",
+      "publicUrl": "https://www.playngo.com/games/tomb-of-gold-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tomb-of-gold-reimagined",
+      "name": "Tomb of Gold Reimagined",
+      "publicUrl": "https://www.playngo.com/games/tomb-of-gold-reimagined",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tome-of-madness",
+      "name": "Tome of Madness",
+      "publicUrl": "https://www.playngo.com/games/tome-of-madness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tome-of-the-lost",
+      "name": "Tome of the Lost",
+      "publicUrl": "https://www.playngo.com/games/tome-of-the-lost",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tower-quest",
+      "name": "Tower Quest",
+      "publicUrl": "https://www.playngo.com/games/tower-quest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tower-quest-legacy",
+      "name": "Tower Quest Legacy",
+      "publicUrl": "https://www.playngo.com/games/tower-quest-legacy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tower-run-treasure-steps",
+      "name": "Tower Run Treasure Steps",
+      "publicUrl": "https://www.playngo.com/games/tower-run-treasure-steps",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "track-n'-gold",
+      "name": "Track n' Gold",
+      "publicUrl": "https://www.playngo.com/games/track-n'-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasures-of-kongar",
+      "name": "Treasures of Kongar",
+      "publicUrl": "https://www.playngo.com/games/treasures-of-kongar",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treats-of-terror",
+      "name": "Treats of Terror",
+      "publicUrl": "https://www.playngo.com/games/treats-of-terror",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treats-of-terror-ii",
+      "name": "Treats of Terror II",
+      "publicUrl": "https://www.playngo.com/games/treats-of-terror-ii",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trinity-impact",
+      "name": "Trinity Impact",
+      "publicUrl": "https://www.playngo.com/games/trinity-impact",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-beasts-of-fortune",
+      "name": "Triple Beasts of Fortune",
+      "publicUrl": "https://www.playngo.com/games/triple-beasts-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-launch-fortune-wild",
+      "name": "Triple Launch Fortune Wild",
+      "publicUrl": "https://www.playngo.com/games/triple-launch-fortune-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "troll-hunters",
+      "name": "Troll Hunters",
+      "publicUrl": "https://www.playngo.com/games/troll-hunters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "troll-hunters-2",
+      "name": "Troll Hunters 2",
+      "publicUrl": "https://www.playngo.com/games/troll-hunters-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twisted-sister",
+      "name": "Twisted Sister",
+      "publicUrl": "https://www.playngo.com/games/twisted-sister",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "undefeated-xerxes",
+      "name": "Undefeated Xerxes",
+      "publicUrl": "https://www.playngo.com/games/undefeated-xerxes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "unigoat",
+      "name": "Unigoat",
+      "publicUrl": "https://www.playngo.com/games/unigoat",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "usa-flip",
+      "name": "USA Flip",
+      "publicUrl": "https://www.playngo.com/games/usa-flip",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valhalluck",
+      "name": "ValhalLuck",
+      "publicUrl": "https://www.playngo.com/games/valhalluck",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-runecraft",
+      "name": "Viking Runecraft",
+      "publicUrl": "https://www.playngo.com/games/viking-runecraft",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-runecraft-100",
+      "name": "Viking Runecraft 100",
+      "publicUrl": "https://www.playngo.com/games/viking-runecraft-100",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-runecraft-1000",
+      "name": "Viking Runecraft 1000",
+      "publicUrl": "https://www.playngo.com/games/viking-runecraft-1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viking-runecraft-apocalypse",
+      "name": "Viking Runecraft: Apocalypse",
+      "publicUrl": "https://www.playngo.com/games/viking-runecraft-apocalypse",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viper-city-heist",
+      "name": "Viper City Heist",
+      "publicUrl": "https://www.playngo.com/games/viper-city-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheel-of-mictlan",
+      "name": "Wheel of Mictlan",
+      "publicUrl": "https://www.playngo.com/games/wheel-of-mictlan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "whispering-winds",
+      "name": "Whispering Winds",
+      "publicUrl": "https://www.playngo.com/games/whispering-winds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-bandolier",
+      "name": "Wild Bandolier",
+      "publicUrl": "https://www.playngo.com/games/wild-bandolier",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-blood",
+      "name": "Wild Blood",
+      "publicUrl": "https://www.playngo.com/games/wild-blood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-blood-2",
+      "name": "Wild Blood 2",
+      "publicUrl": "https://www.playngo.com/games/wild-blood-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-falls",
+      "name": "Wild Falls",
+      "publicUrl": "https://www.playngo.com/games/wild-falls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-falls-2",
+      "name": "Wild Falls 2",
+      "publicUrl": "https://www.playngo.com/games/wild-falls-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-frames",
+      "name": "Wild Frames",
+      "publicUrl": "https://www.playngo.com/games/wild-frames",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-melon",
+      "name": "Wild Melon",
+      "publicUrl": "https://www.playngo.com/games/wild-melon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-north",
+      "name": "Wild North",
+      "publicUrl": "https://www.playngo.com/games/wild-north",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-north-radiant-skies-go-collect",
+      "name": "Wild North Radiant Skies GO Collect",
+      "publicUrl": "https://www.playngo.com/games/wild-north-radiant-skies-go-collect",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-rails",
+      "name": "Wild Rails",
+      "publicUrl": "https://www.playngo.com/games/wild-rails",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-survivor",
+      "name": "Wild Survivor",
+      "publicUrl": "https://www.playngo.com/games/wild-survivor",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-trigger",
+      "name": "Wild Trigger",
+      "publicUrl": "https://www.playngo.com/games/wild-trigger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildest-gambit",
+      "name": "Wildest Gambit",
+      "publicUrl": "https://www.playngo.com/games/wildest-gambit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildhound-derby",
+      "name": "Wildhound Derby",
+      "publicUrl": "https://www.playngo.com/games/wildhound-derby",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "win-a-beest",
+      "name": "Win-A-Beest",
+      "publicUrl": "https://www.playngo.com/games/win-a-beest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wizard-of-gems",
+      "name": "Wizard of Gems",
+      "publicUrl": "https://www.playngo.com/games/wizard-of-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wrappin'-gold",
+      "name": "Wrappin' Gold",
+      "publicUrl": "https://www.playngo.com/games/wrappin'-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xmas-joker",
+      "name": "Xmas Joker",
+      "publicUrl": "https://www.playngo.com/games/xmas-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xmas-magic",
+      "name": "Xmas Magic",
+      "publicUrl": "https://www.playngo.com/games/xmas-magic",
+      "launchUrlOmitted": false
+    }
+  ]
+}

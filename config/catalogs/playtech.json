@@ -1,0 +1,3187 @@
+{
+  "provider": "playtech",
+  "name": "Playtech",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 529,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "game-gpas_1reeler_pop",
+      "name": "1 of a Kind™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_15dmd_pop",
+      "name": "15 Diamonds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_15hom_pop",
+      "name": "15 Stars Ablaze™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hom_pop",
+      "name": "20 Stars Ablaze™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_3chken_pop",
+      "name": "4 Crazy Cluckers™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fccppj_pop",
+      "name": "4 Crazy Cluckers™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ffve_pop",
+      "name": "5 Boom: Frog Frenzy™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eigoldcd_pop",
+      "name": "81 Gold Cascade™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jokerhr_pop",
+      "name": "81 Joker Hot Reels™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_b9fjp_pop",
+      "name": "9 Buffalo Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_b9fl_pop",
+      "name": "9 Buffalo™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_9hom_pop",
+      "name": "9 Stars Ablaze™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_anightout_pop",
+      "name": "A Night Out™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_amammoth_pop",
+      "name": "Absolutely Mammoth!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_amammothpp_pop",
+      "name": "Absolutely Mammoth™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashabw",
+      "name": "Adventures Beyond Wonderland",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashadv",
+      "name": "Adventures In Wonderland",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoegypt_pop",
+      "name": "Age of Egypt™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_adogs_pop",
+      "name": "Age of the Dogs™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gogold_pop",
+      "name": "Age of the Gods Norse: Book of Dwarves™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoggagiants_pop",
+      "name": "Age of the Gods Norse: Gods and Giants™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogkasgard_pop",
+      "name": "Age of the Gods Norse: King of Asgard™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aognwot_pop",
+      "name": "Age of the Gods Norse: Ways of Thunder",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aognnl_pop",
+      "name": "Age of The Gods Norse™ Norse Legends",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogaogs_pop",
+      "name": "Age of the Gods: Age of the Gods™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_olwilds_pop",
+      "name": "Age of the Gods: Amazon Wild™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_appower_pop",
+      "name": "Age of the Gods: Apollo Power™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogbooracle_pop",
+      "name": "Age of the Gods: Book of Oracle™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogetroy_pop",
+      "name": "Age of the Gods: Epic Troy",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ftsis",
+      "name": "Age of the Gods: Fate sisters",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogfurfour_pop",
+      "name": "Age of the Gods: Furious 4™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogggriffin_pop",
+      "name": "Age of the Gods: Glorious Griffin™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoggstorm_pop",
+      "name": "Age of the Gods: God of Storms™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoggosfb_pop",
+      "name": "Age of the Gods: God of Storms™ Fire Blaze",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoggt_pop",
+      "name": "Age of the Gods: Gold Trio™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aoggosuna1_pop",
+      "name": "Age of the Gods: Helios™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogkol_pop",
+      "name": "Age of the Gods: King of Olympus™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogkofbx_pop",
+      "name": "Age of the Gods: King of Olympus™ Fire Blaze Xtreme",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mkeeper_pop",
+      "name": "Age of the Gods: Maze Keeper™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-aogmt",
+      "name": "Age of the Gods: Mighty Midas™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogrotu_pop",
+      "name": "Age of the Gods: Ruler of the Dead™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogrotsea_pop",
+      "name": "Age of the Gods: Ruler of the Seas",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogrotsk_pop",
+      "name": "Age of the Gods: Ruler of the Sky™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-aogroo",
+      "name": "Age of the Gods: Rulers of Olympus",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gstorm2_pop",
+      "name": "Age of the Gods™ God of Storms 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_agstorm3_pop",
+      "name": "Age of the Gods™ God of Storms 3™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mgaogkol_pop",
+      "name": "Age of the Gods™ King of Olympus Megaways™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogww_pop",
+      "name": "Age of the Gods™ Wonder Warriors™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aogwfot_pop",
+      "name": "Age of the Gods™: Wheels of Olympus",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_alohacc_pop",
+      "name": "Alohawaii: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashamw",
+      "name": "Amazon WIld",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_auncoil_pop",
+      "name": "Anaconda Uncoiled™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-anwild",
+      "name": "Anaconda Wild",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_awild2_pop",
+      "name": "Anaconda Wild 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_awild2pp_pop",
+      "name": "Anaconda Wild 2™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_big5_pop",
+      "name": "Animal Instinct™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-tmccoy",
+      "name": "AP McCoy Sporting Legends™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_archer_pop",
+      "name": "Archer™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ccskingofa_pop",
+      "name": "Atlantis Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtsatq",
+      "name": "Atlantis Queen",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aexpedition_pop",
+      "name": "Aztec Expedition™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_azfruit_pop",
+      "name": "Aztec Fruits™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_azboli_pop",
+      "name": "Azteca Bonus Lines™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_azbolipp_pop",
+      "name": "Azteca Bonus Lines™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_aztecwfb_pop",
+      "name": "Azteca: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_baba_pop",
+      "name": "Baa, Baa, Baa™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-bs",
+      "name": "Bai Shi",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-bl",
+      "name": "Beach Life",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbuzz_pop",
+      "name": "Bear Buzz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bfrenzy_pop",
+      "name": "Bee Frenzy™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-bt",
+      "name": "Bermuda Triangle",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_berrybon_pop",
+      "name": "Berry Berry Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_betwilds_pop",
+      "name": "Better Wilds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_betwildspp_pop",
+      "name": "Better Wilds™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbt_pop",
+      "name": "Big Bad Towers™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbcbb_pop",
+      "name": "Big Bad Wolf: Cash Collect & Link - Bacon Beach™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bwolfccl_pop",
+      "name": "Big Bad Wolf: Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbwhs_pop",
+      "name": "Big Bad Wolf: High Steaks™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-bigsh",
+      "name": "Big Shots",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bisu_pop",
+      "name": "Big Sumo™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbhcs_pop",
+      "name": "Blackbeard’s Hoard Cash Sacks™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbells_pop",
+      "name": "Blazing Bells™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbellspp_pop",
+      "name": "Blazing Bells™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bwizccl_pop",
+      "name": "Blue Wizard: Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbears_pop",
+      "name": "Bonus Bears™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_btbandit_pop",
+      "name": "Bonus Train Bandits",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bokings2pp_pop",
+      "name": "Book of Kings 2™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_boking_pop",
+      "name": "Book of Kings™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bokingpp_pop",
+      "name": "Book of Kings™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_boskr_pop",
+      "name": "Book of Sakura™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_boom_pop",
+      "name": "Boom™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashbob",
+      "name": "Bounty of the Beanstalk",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_brwcc_pop",
+      "name": "Brawler's Bar Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bvault_pop",
+      "name": "Breach the Vault™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_brkbad_pop",
+      "name": "Breaking Bad™: Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbob_pop",
+      "name": "Breakout Bob™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pblast_pop",
+      "name": "Buccaneer Blast™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-bup",
+      "name": "Buckle Up",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bflbz3_pop",
+      "name": "Buffalo Blitz III™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bblitz2_pop",
+      "name": "Buffalo Blitz II™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bufbcc_pop",
+      "name": "Buffalo Blitz: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bblitzmm_pop",
+      "name": "Buffalo Blitz: Mega Merge™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bblitz_pop",
+      "name": "Buffalo Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bbmways_pop",
+      "name": "Buffalo Blitz™ Megaways™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bullea_pop",
+      "name": "Bulls Eye Alice™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bebells_pop",
+      "name": "Bulls Eye Bells™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sweroll_pop",
+      "name": "Candy Roll™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cpgln_pop",
+      "name": "Capitano Galliano™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cpteye_pop",
+      "name": "Captain Eye™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_captres_pop",
+      "name": "Captain's Treasure™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ccave_pop",
+      "name": "Cascading Cave™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cfts2_pop",
+      "name": "Cash Fortress: Valkyrie™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cfts_pop",
+      "name": "Cash Fortress™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cashrl_pop",
+      "name": "Cash Reveal™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cascharms_pop",
+      "name": "Casino Charms™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-catqc",
+      "name": "Cat Queen",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_caco_pop",
+      "name": "Cats Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ceruption_pop",
+      "name": "Chili Eruption: Thundershots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cxtreme_pop",
+      "name": "Chilli Xtreme™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cxtremepp_pop",
+      "name": "Chilli Xtreme™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-cm",
+      "name": "Chinese Kitchen",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-cbells",
+      "name": "Christmas Jackpot Bells",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cish_pop",
+      "name": "Circuit Shock™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cflip_pop",
+      "name": "Clover Flip™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ccccny",
+      "name": "Coin! Coin! Coin!",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_coft_pop",
+      "name": "CollectOrbs: Fox’s Trail™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_trgems_pop",
+      "name": "CollectOrbs: Wild West Wilds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cgrbz_pop",
+      "name": "Cougar Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-c7",
+      "name": "Crazy 7",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cblitzfb_pop",
+      "name": "Crocodile Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_crylo_pop",
+      "name": "Crystal Lotuses™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_soanubis_pop",
+      "name": "Curse of Anubis™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-dvncvnoptpp",
+      "name": "Da Vinci's Vault",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_deadctch_pop",
+      "name": "Deadliest Catch™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-mobdt",
+      "name": "Desert Treasure",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_devwilds_pop",
+      "name": "Devil Wilds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_diamdlux_pop",
+      "name": "Diamond Match Deluxe™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dmatch_pop",
+      "name": "Diamond Match™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_drise_pop",
+      "name": "Diamond Rise™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_divine_pop",
+      "name": "Divine 9™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dostormspp_pop",
+      "name": "Djinn of Storms™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dreef_pop",
+      "name": "Dolphin Reef™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dwpfb_pop",
+      "name": "Double Digger™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_diamdhrbf_pop",
+      "name": "Double Heat: Crown™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dragonc_pop",
+      "name": "Dragon Champions™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dsparks_pop",
+      "name": "Dragon Spark™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-nian",
+      "name": "Dragon: Nian Nian You Yu",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dhall_pop",
+      "name": "Dragons Hall™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eccl_pop",
+      "name": "Eagle: Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eemeralds_pop",
+      "name": "Egyptian Emeralds",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eemeraldspp_pop",
+      "name": "Egyptian Emeralds™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_elphrich_pop",
+      "name": "Elephant Riches™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eape2_pop",
+      "name": "Epic Ape 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_epacc_pop",
+      "name": "Epic Ape: Blitz Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eape_pop",
+      "name": "Epic Ape™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_efmms_pop",
+      "name": "Epic Fish: Marlin Madness™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_efnof_pop",
+      "name": "Epic Fish: Net of Fortune™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-esm",
+      "name": "Esmeralda",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-evj",
+      "name": "Everybody's Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_extrfruits_pop",
+      "name": "Extreme Fruits Ultimate Deluxe™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sscarab_pop",
+      "name": "Eye of Anubis™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fgather_pop",
+      "name": "Fairy Gathering™: Thundershots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fcgz",
+      "name": "Fei Cui Gong Zhu",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_flztian_pop",
+      "name": "Fei Long Zai Tian™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fsflip_pop",
+      "name": "Feng Shui Flip™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_f4ccd_pop",
+      "name": "Fire 4: Cash Collect Quattro™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_afactory_pop",
+      "name": "Fire Blaze Golden: Amazing Factory™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fbgbb_pop",
+      "name": "Fire Blaze Golden: Buccaneer Bells™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_qccharm_pop",
+      "name": "Fire Blaze Quattro: Celtic Charm™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_atrail_pop",
+      "name": "Fire Blaze: Adventure Trail™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bwizard_pop",
+      "name": "Fire Blaze: Blue Wizard™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bwizardpp_pop",
+      "name": "Fire Blaze: Blue Wizard™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_elady_pop",
+      "name": "Fire Blaze: Eternal Lady™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ffighter_pop",
+      "name": "Fire Blaze: Fire Fighter™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gmacaque_pop",
+      "name": "Fire Blaze: Golden Macaque™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gwizard_pop",
+      "name": "Fire Blaze: Green Wizard™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jmoon_pop",
+      "name": "Fire Blaze: Jinns Moon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fbxmas_pop",
+      "name": "Fire Blaze: Merry Christmas™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fboink_pop",
+      "name": "Fire Blaze: Oink Oink Oink™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pppearls_pop",
+      "name": "Fire Blaze: Pearls Pearls Pearls™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_scqueen_pop",
+      "name": "Fire Blaze: Pharaoh's Daughter™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rwizard_pop",
+      "name": "Fire Blaze: Red Wizard™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sqmways_pop",
+      "name": "Fire Blaze: Sky Queen Megaways™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_squeen_pop",
+      "name": "Fire Blaze: Sky Queen™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_qctoblo_pop",
+      "name": "Fire Blaze: Toltec Blocks™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tsgift_pop",
+      "name": "Fire Blaze: Tsai Shen's Gift™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fbww_pop",
+      "name": "Fire Blaze: White Witch™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mgbwizard_pop",
+      "name": "Fire Blaze™ Blue Wizard™ Megaways™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_twolf_pop",
+      "name": "Fire Blaze™: Tundra Wolf™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_phapo_pop",
+      "name": "Fish Trio™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ffever_pop",
+      "name": "Fishin' Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fbars_pop",
+      "name": "Flaming Bars™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_blitz10_pop",
+      "name": "Flaming Stallion Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fluffycc_pop",
+      "name": "Fluffy Favourites: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fluffyf_pop",
+      "name": "Fluffy Favourites™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_flfish_pop",
+      "name": "Fluffy Fishin'™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtsfc",
+      "name": "Football Carnival",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fbr",
+      "name": "Football Rules",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_focashco_pop",
+      "name": "Football! Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fprince_pop",
+      "name": "Forest Prince",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ffortune_pop",
+      "name": "Fortune Fortune Thundershots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fxf",
+      "name": "Foxy Fortunes",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fdtsl",
+      "name": "Frankie Dettori Sporting Legends™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fdtjg",
+      "name": "Frankie Dettori's™ Magic 7 JP",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fdt",
+      "name": "Frankie Dettori's™ Magic Seven",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ftdamsel_pop",
+      "name": "Free the Dragon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fgift_pop",
+      "name": "Frog's Gift™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fharvest_pop",
+      "name": "Fruit Harvest™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fcascade_pop",
+      "name": "Fruity Showers™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fmwtdr_pop",
+      "name": "Full Moon White Thunder™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fmwking_pop",
+      "name": "Full Moon: White King™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fmwkingjp_pop",
+      "name": "Full Moon: White King™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wpanda_pop",
+      "name": "Full Moon: White Panda™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wpandapp_pop",
+      "name": "Full Moon: White Panda™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wtrack_pop",
+      "name": "Full Moon: Wild Track™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fnfrj",
+      "name": "Funky Fruits",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fm",
+      "name": "Funky Monkey",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-fmjp",
+      "name": "Funky Monkey Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gluck_pop",
+      "name": "Gaelic Luck™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-galst",
+      "name": "Galactic Streak",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goc_pop",
+      "name": "Gates of Camelot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ges",
+      "name": "Geisha Story",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gemheat",
+      "name": "Gem Heat",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gskc_pop",
+      "name": "Gem Splash: Kings Court™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rgift_pop",
+      "name": "Gem Splash: Rainbows Gift™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_grtr_pop",
+      "name": "Gladiator Road to Rome™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gldrmcc_pop",
+      "name": "Gladiator: Mega Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gladjack_pop",
+      "name": "Gladiator™ Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gguardians_pop",
+      "name": "Glorious Guardians™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jokjac_pop",
+      "name": "Go Joker Go™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goalmsnjp_pop",
+      "name": "Goal Goal Goal Mines™ NJP",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wcupcc_pop",
+      "name": "Goal Goal Goal: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pcgoal_pop",
+      "name": "Goal Goal Goal: Pachin-Goal™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goldh4_pop",
+      "name": "Gold Hit & Link: JP Bacon & Co™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ghlink2_pop",
+      "name": "Gold Hit & Link: Tiger Jones™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goldhit3_pop",
+      "name": "Gold Hit: Dragon Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ghitdevfba1_pop",
+      "name": "Gold Hit: Lil Demon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ghgranny_pop",
+      "name": "Gold Hit: Lucky Granny™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_orwifefb_pop",
+      "name": "Gold Hit: O'Reilly's Charms™ FB",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goldhit2_pop",
+      "name": "Gold Hit: Shrine of Anubis™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ghvivalr_pop",
+      "name": "Gold Hit: Viva Las Robot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bcash_pop",
+      "name": "Gold Hit™: O'Reilly's Riches",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gporang_pop",
+      "name": "Gold Pile: Orangutan!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goldr_pop",
+      "name": "Gold Rush™: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goldstf_pop",
+      "name": "Gold Splash: Toots Froots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtr10k_pop",
+      "name": "Gold Trio 10000™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtdbonza_pop",
+      "name": "Gold Trio Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hoga_pop",
+      "name": "Gold Trio: Leprechaun's Luck Race Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtriollbf_pop",
+      "name": "Gold Trio: Leprechaun's Luck™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtdemon_pop",
+      "name": "Gold Trio: Lil Demon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtsanta_pop",
+      "name": "Gold Trio: Santa Surprise™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ctrplfb_pop",
+      "name": "Gold Trio: Sinbad’s Riches™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gotzon_pop",
+      "name": "Gold Trio: Zones™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtfb_pop",
+      "name": "Gold Trio™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ttreasure_pop",
+      "name": "Golden Pile: Toltec Treasure™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_goltour_pop",
+      "name": "Golden Tour™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gdhvns_pop",
+      "name": "Goood Heavens™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eninca_pop",
+      "name": "Grand Junction: Enchanted Inca™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ggun_pop",
+      "name": "Grand Junction: Golden Guns™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mountexp_pop",
+      "name": "Grand Junction: Mountain Express™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gbluejp_pop",
+      "name": "Great Blue Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gblue_pop",
+      "name": "Great Blue™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_grzbz_pop",
+      "name": "Grizzly Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hice_pop",
+      "name": "Hainan Ice™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hfortune2_pop",
+      "name": "Halloween Fortune 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hfortune_pop",
+      "name": "Halloween Fortune™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashhof",
+      "name": "Heart of the Frontier",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashhotj",
+      "name": "Heart of the Jungle",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_harrow_pop",
+      "name": "Heroes Arrow™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_highkings_pop",
+      "name": "Highway Kings™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hitbargl_pop",
+      "name": "Hit Bar: Gold™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hitbarglpp_pop",
+      "name": "Hit Bar: Gold™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fmhitbar_pop",
+      "name": "Hit Bar™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_fmhitbarpp_pop",
+      "name": "Hit Bar™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hongem_pop",
+      "name": "Honey Gems™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hongempp_pop",
+      "name": "Honey Gems™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hcdelux_pop",
+      "name": "Hot Crown Deluxe™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hgextreme_pop",
+      "name": "Hot Gems Xtreme",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hotgcc_pop",
+      "name": "Hot Gems: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hgems_pop",
+      "name": "Hot Gems™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hgextremepp_pop",
+      "name": "Hot Gems™ Xtreme PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_icave_pop",
+      "name": "Ice Cave™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_iluckcw_pop",
+      "name": "Irish Click-A-Win™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-irl",
+      "name": "Irish Luck",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-jbells",
+      "name": "Jackpot Bells",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jb10k_pop",
+      "name": "Jackpot Bells 10000™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-jpgt",
+      "name": "Jackpot Giant™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_nalight_pop",
+      "name": "Jane Jones in Book of Kings 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_joblitz_pop",
+      "name": "Jo Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jhreels_pop",
+      "name": "Joker Hot Reels™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jrushcc_pop",
+      "name": "Joker Rush: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jrush_pop",
+      "name": "Joker Rush™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jrushpp_pop",
+      "name": "Joker Rush™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jdice_pop",
+      "name": "Joker Spin & Roll™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-jdlo",
+      "name": "Juego De La Oca",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jgiant_pop",
+      "name": "Jungle Giants™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashjut",
+      "name": "Jungle trouble",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashjid",
+      "name": "Jurassic Island",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jisland2_pop",
+      "name": "Jurassic Island 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kaching_pop",
+      "name": "Ka Ching Boom",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bprog_pop",
+      "name": "King Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kgmccl_pop",
+      "name": "King of Giza: Mega Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_korch_pop",
+      "name": "King of Olympus™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kobrl_pop",
+      "name": "King of the Barrels™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krchw_pop",
+      "name": "King Richwin™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krhiddent_pop",
+      "name": "Kingdoms Rise: Captains Treasure™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krcofear_pop",
+      "name": "Kingdoms Rise: Chasm of Fear™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krloestone_pop",
+      "name": "Kingdoms Rise: Legend of Elvenstone™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krluprising_pop",
+      "name": "Kingdoms Rise: Legion Uprising™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krsroice_pop",
+      "name": "Kingdoms Rise: Reign of Ice",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krsqueen_pop",
+      "name": "Kingdoms Rise: Shadow Queen™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krfforest_pop",
+      "name": "Kingdoms Rise™: Forbidden Forest",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gotabyss_pop",
+      "name": "Kingdoms Rise™: Guardians of the Abyss",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_krsofury_pop",
+      "name": "Kingdoms Rise™:Sands of Fury",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kraken_pop",
+      "name": "Kraken Spins™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lotwild2_pop",
+      "name": "Legacy of the Wilds 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lotwild_pop",
+      "name": "Legacy of the Wild™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashlcl",
+      "name": "Leprechaun's Luck",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_llmcca1_pop",
+      "name": "Leprechaun's Luck: Mega Cash Collect™ A1",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lluckmcc_pop",
+      "name": "Leprechaun’s Luck: Cash Collect: Megaways™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lluckmccpp_pop",
+      "name": "Leprechaun’s Luck: Cash Collect: Megaways™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ccluck_pop",
+      "name": "Leprechaun’s Luck: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ght_a",
+      "name": "Lie Yan Zuan Shi",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_loluck_pop",
+      "name": "Lights of Luck™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ldblava_pop",
+      "name": "Lil Demon: Blazing Lava™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gpotld_pop",
+      "name": "Lil Demon: Double Heat™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ldmcashc_pop",
+      "name": "Lil Demon: Mega Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ldragon_pop",
+      "name": "Lil Greedy™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jokerf_pop",
+      "name": "Lil Sphinx™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_monreelsa1_pop",
+      "name": "Lock & Hit: Red Knight™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pbreak_pop",
+      "name": "Lockdown Loot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lotcc_pop",
+      "name": "Loteria Don Clemente™: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lotmad_pop",
+      "name": "Lotto Madness™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_scupid_pop",
+      "name": "Lovefool™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lbmcc_pop",
+      "name": "Lucky Bass: Mega Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lemeralds_pop",
+      "name": "Lucky Emeralds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lgcc_pop",
+      "name": "Lucky Gift: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-lumli",
+      "name": "Luminous Life",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_llnm_pop",
+      "name": "Lunar Link: Nile Moon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pmoonsll_pop",
+      "name": "Lunar Link: Phoenix Moons™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_llsking_pop",
+      "name": "Lunar Link: Sky King™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_llkingart_pop",
+      "name": "Lunar Link: The Legend of King Arthur™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mabralinx_pop",
+      "name": "Macabra Linx™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mcblnixpp_pop",
+      "name": "Macabra Linx™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-mgstk",
+      "name": "Magical Stacks",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mhmac_pop",
+      "name": "Mahjong Magic™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-mwilds",
+      "name": "Maji Wilds",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mblocks_pop",
+      "name": "Mayan Blocks™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mblockspp_pop",
+      "name": "Mayan Blocks™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_3wizards_pop",
+      "name": "Mega Fire Blaze: 3 Wizards™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mfbax_pop",
+      "name": "Mega Fire Blaze: Axoloco™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_bcircus_pop",
+      "name": "Mega Fire Blaze: Big Circus!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mfbbrbad_pop",
+      "name": "Mega Fire Blaze: Breaking Bad™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mfbdag_pop",
+      "name": "Mega Fire Blaze: Dwarves and Goblins™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_eofromebf_pop",
+      "name": "Mega Fire Blaze: Emperor of Rome™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kgomoon_pop",
+      "name": "Mega Fire Blaze: Khonsu God of Moon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_kgomoonpp_pop",
+      "name": "Mega Fire Blaze: Khonsu God of Moon™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_lottiger_pop",
+      "name": "Mega Fire Blaze: Legacy of the Tiger™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mfbbass_pop",
+      "name": "Mega Fire Blaze: Lucky Bass™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_engage_pop",
+      "name": "Mega Fire Blaze: Piggies and the Bank™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_engageppjp_pop",
+      "name": "Mega Fire Blaze: Piggies and the Bank™ PPJP",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mfbkhan_pop",
+      "name": "Mega Fire Blaze: The Khan™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wpisto_pop",
+      "name": "Mega Fire Blaze™ Wild Pistolero™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mwilds_pop",
+      "name": "Midnight Wilds",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gwish_pop",
+      "name": "Mighty Hat: Lamp of Gold™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_grush_pop",
+      "name": "Mighty Hat: Mine O' Mine™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mforest_pop",
+      "name": "Mighty Hat: Mystic Tales™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-mfrt",
+      "name": "Miss Fortune",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mmania_pop",
+      "name": "Monkey Mania 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sking_pop",
+      "name": "Monster Multipliers™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mooo_pop",
+      "name": "Moo Moo Moo™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-mcb",
+      "name": "Mr.Cashback",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mmines_pop",
+      "name": "Mystic Mines™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-nk",
+      "name": "Neptunes Kingdom",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_nyslot_pop",
+      "name": "New Year’s Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mmyhm_pop",
+      "name": "Nigel of Ra™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ocfrnz_pop",
+      "name": "Ocean Frenzy™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_oooas_pop",
+      "name": "Oink Oink Oink: Astrosnouts™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ooop_pop",
+      "name": "Oink Oink Oink: Pharaohs™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_oink_pop",
+      "name": "Oink Oink Oink™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_okco_pop",
+      "name": "Oktober Cash™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ocmn_pop",
+      "name": "Onça Mania™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_dncftnt_pop",
+      "name": "Oriana's Orbs™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pandabz_pop",
+      "name": "Panda Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pmoonbl_pop",
+      "name": "Panther Moon: Bonus Lines™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pmoon_pop",
+      "name": "Panther Moon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_panthpays_pop",
+      "name": "Panther Pays™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ppayspp_pop",
+      "name": "Panther Pays™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-pgv",
+      "name": "Penguin Vacation",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-pst",
+      "name": "Pharaoh's Secrets",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-phtd",
+      "name": "Pharaoh's Treasure Deluxe",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pigeonfs_pop",
+      "name": "Pigeons From Space!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_patbccl_pop",
+      "name": "Piggies and the Bank: Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-paw",
+      "name": "Piggies and The Wolf",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_3reel_pop",
+      "name": "Piggy Mania™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-pisa",
+      "name": "Pixel Samurai",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pffortune_pop",
+      "name": "Plenty O'Fortune™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pahoy_pop",
+      "name": "Plunder Ahoy!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_hydra_pop",
+      "name": "Power Zones: Legend of Hydra™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ishtar_pop",
+      "name": "Power Zones™ Ishtar",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tbirds_pop",
+      "name": "Power Zones™ Thunder Birds",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sstrike_pop",
+      "name": "PowerZones: Stallion Strike",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_etpop_pop",
+      "name": "Pride of Persia: Empire Treasures™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pumpkinb_pop",
+      "name": "Pumpkin Bonanza™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-phot",
+      "name": "Purple Hot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_plink_pop",
+      "name": "Pyramid LinX™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_pstrike_pop",
+      "name": "Pyramid Valley™: Power Zones™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ctemple_pop",
+      "name": "Qin's Empire: Caishen's Temple™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_scount_pop",
+      "name": "Quad Link Count™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_quadlsr_pop",
+      "name": "Quad Link Red™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_qpyr3_pop",
+      "name": "Queen of the 3 Pyramids: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_queenotp_pop",
+      "name": "Queen of the Pyramids: Mega Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_qumy_pop",
+      "name": "Queen's Mystery™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rbitfox_pop",
+      "name": "Rabbit and the Fox™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_retoblow_pop",
+      "name": "Ready to Blow: Thundershots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rsrobo_pop",
+      "name": "Ready, Steady, Robo™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rwizw_pop",
+      "name": "Red Wizard: Bank It Up™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rrider_pop",
+      "name": "Retro Rush™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rslot_pop",
+      "name": "Rhino Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rrlustforg_pop",
+      "name": "Rich Roll: Lust for Gold!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rcarlos_pop",
+      "name": "Roberto Carlos Sporting Legends™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_robocopcc_pop",
+      "name": "Robocop™: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rogue_pop",
+      "name": "Rogues Draw™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_romfruit_pop",
+      "name": "Roman Fruits™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-rng2",
+      "name": "Rome and Glory",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-roos",
+      "name": "Ronnie O'Sullivan: Sporting Legends™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rstfr_pop",
+      "name": "Rooster's Farm Riches™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mwild_pop",
+      "name": "Roving Clover™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-rrd",
+      "name": "Royal Respin Deluxe",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-scrdstns",
+      "name": "Sacred Stones",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_safarih_pop",
+      "name": "Safari Heat™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_mgccsahara_pop",
+      "name": "Sahara Riches MegaWays™: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_srcci_pop",
+      "name": "Sahara Riches: Cash Collect Max™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ccsahara_pop",
+      "name": "Sahara Riches: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtssmbr",
+      "name": "Samba Brazil",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_samufur_pop",
+      "name": "Samurai Fury™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_santasurp_pop",
+      "name": "Santa Surprise™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sjungle_pop",
+      "name": "Savage Jungle™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-samz",
+      "name": "Secrets of the Amazon",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sharks_pop",
+      "name": "Sharks Blitz™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sorome_pop",
+      "name": "Shields of Rome",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ssammct_pop",
+      "name": "Silent Samurai: Mega Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-sib",
+      "name": "Silver Bullet",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sbullet_pop",
+      "name": "Silver Bullet Bandit: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sgvoyage_pop",
+      "name": "Sinbad's Golden Voyage™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sedt_pop",
+      "name": "Solar Eclipse: Desert Treasure™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_jlair_pop",
+      "name": "Solar Eclipse: Jaguar's Lair™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_nwinds_pop",
+      "name": "Solar Eclipse: Northern Winds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sgomagic_pop",
+      "name": "Sorcerer's Guild of Magic™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_woluck_pop",
+      "name": "Spin ‘Em Round!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sstrikepp_pop",
+      "name": "Stallion Strike™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_shrl_pop",
+      "name": "Star Hot Reels™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_starsablaze_pop",
+      "name": "Stars Ablaze™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-strsawk",
+      "name": "Stars Awakening",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_stlrdm_pop",
+      "name": "Stellar Diamonds™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_soicepp_pop",
+      "name": "Storms of Ice™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-sol",
+      "name": "Streak of Luck",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtsswk",
+      "name": "Sun Wukong",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sstepper_pop",
+      "name": "Super Stepper™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_swnj_pop",
+      "name": "Sweet N Juicy™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-cnpr",
+      "name": "Sweet Party",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tcjpcc_pop",
+      "name": "Taco Libre Jackpot: Cash Collect Max™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tccc_pop",
+      "name": "Taco Libre: Cash Collect Max™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-tpd2",
+      "name": "Thai Paradise",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gegenie_pop",
+      "name": "The Great Genie™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtsgme",
+      "name": "The Great Ming Empire",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_js10k_pop",
+      "name": "The Jokeress 10000™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ladyjj_pop",
+      "name": "The Jokeress™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tqcempt_pop",
+      "name": "The Queen's Curse: Empire Treasures™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rcn2jp_pop",
+      "name": "The Racaroon 2 Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rcn2_pop",
+      "name": "The Racaroon 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rach_pop",
+      "name": "The Racaroon Christmas™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_racrns_pop",
+      "name": "The Racaroon™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_sweetcc_pop",
+      "name": "The Sweetest: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wdead2_pop",
+      "name": "The Walking Dead 2™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wdeadowl_pop",
+      "name": "The Walking Dead: The Ones Who Live™ Game",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wdead_pop",
+      "name": "The Walking Dead™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wdead3_pop",
+      "name": "The Walking Dead™: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tigclaw_pop",
+      "name": "Tiger Claw™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tstacks_pop",
+      "name": "Tiger Stacks™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tigertdp_pop",
+      "name": "Tiger Turtle Dragon Phoenix™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tttotems_pop",
+      "name": "Tip Top Totems",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tttotemspp_pop",
+      "name": "Tip Top Totem™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_oxmni_pop",
+      "name": "Toro Mania™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-tor",
+      "name": "Torrente",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_torragain_pop",
+      "name": "Torrente Again",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tmania_pop",
+      "name": "Toucan Mania",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-totl",
+      "name": "Treasures of the Lamps",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_trwish_pop",
+      "name": "Tree Wishes™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_trimer_pop",
+      "name": "Triple Meow Riches™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tmjpbell_pop",
+      "name": "Triple Money Jackpot Bells™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_reelstrk_pop",
+      "name": "Triple Money Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_trpmjpg_pop",
+      "name": "Triple Money Jackpot™ Gold!",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_tmjspcy_pop",
+      "name": "Triple Money Jackpot™ Spicy!",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_merfind_pop",
+      "name": "Triple Stop: Mermaids Find™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ub",
+      "name": "Ugga Bugga",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_uace_pop",
+      "name": "Ultra Ace™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-er",
+      "name": "Vacation Station",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-vcstd",
+      "name": "Vacation Station Deluxe",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_vampirep_pop",
+      "name": "Vampire Princess of Darkness™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_ftv2vd_pop",
+      "name": "Vault of the Deep™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_venemasks_pop",
+      "name": "Veils of Venice™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_vemptr_pop",
+      "name": "Vikings Empire Treasures™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wotgenie_pop",
+      "name": "Ways of the Genie Thundershots™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-wotp",
+      "name": "Ways of the Phoenix",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wotrn_pop",
+      "name": "Wheel of the Titan™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wofire_pop",
+      "name": "Wheels of Flame™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_whlsflmppj_pop",
+      "name": "Wheels of Flame™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-whk2",
+      "name": "White King II",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wkbcc_pop",
+      "name": "White King: Blitz Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wking_pop",
+      "name": "White King™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wcrusade_pop",
+      "name": "Wild Crusade Empire Treasures™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gtswg",
+      "name": "Wild Gambler",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wlava_pop",
+      "name": "Wild Lava™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wlinx_pop",
+      "name": "Wild LinX™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wlinxpp_pop",
+      "name": "Wild LinX™ PowerPlay Jackpot",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wlroll_pop",
+      "name": "Wild Roll™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wwd_pop",
+      "name": "Wild West Wilds!™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-ashwnoz",
+      "name": "Winnings of Oz",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_cchfortune_pop",
+      "name": "Witches: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_witr_pop",
+      "name": "Wizzy Trix™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wolcc_pop",
+      "name": "Wolves! Cash Collect & Link™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-www",
+      "name": "Wolves! Wolves! Wolves!",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-wlg",
+      "name": "Wu Long",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_wpunch_pop",
+      "name": "Wushu Punch™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-xufe",
+      "name": "Xuan Pu Lian Huan",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_rabbitcash_pop",
+      "name": "Yu Tu Jin Cai: Cash Collect™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-yclong",
+      "name": "Yun Cong Long",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-zcjb",
+      "name": "Zhao Cai Jin Bao",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    }
+  ]
+}
