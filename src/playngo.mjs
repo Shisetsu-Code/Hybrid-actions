@@ -1,6 +1,7 @@
 // Official Play'n GO catalogue and read-only mobile practice DEMO adapter.
 // Never infer GID from a title/slug; use the official detail-page mobileUrl.
 import {providerForUrl} from './config.mjs';
+import {acceptKnownPublicDemoOverlays} from './consent.mjs';
 const origin='https://www.playngo.com',launcherHost='released.playngonetwork.com';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const sku=/^\d{1,12}$/,slugPattern=/^[a-z0-9][a-z0-9'-]{0,120}$/i;
@@ -69,7 +70,7 @@ export function officialMobileLauncher(html){
  url.searchParams.set('channel','mobile');
  return url;
 }
-export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=3500,runnerId='runner'}={}){
+export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=3500,confirmAdult=true,runnerId='runner'}={}){
  const game=job.payload?.game;
  if(job.provider!=='playngo'||game?.provider!=='playngo'||game.id!==job.subject)
   throw Error('invalid Playngo ticket');
@@ -84,6 +85,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   const detail=await page.goto(game.url,{waitUntil:'domcontentloaded',timeout:45000});
   if(detail?.status()!==200||new URL(page.url()).origin!==origin)
    throw Error('official game detail unavailable');
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,requireClear:true});
   const launcher=officialMobileLauncher(await page.content());
   const assets={configMobile:0,mobileUI:0,configV2:0,errors:0};let canvases=0;
   page.on('response',r=>{
@@ -94,6 +96,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
    if(u.pathname==='/configuration/v2')assets.configV2++;
   });
   const res=await page.goto(launcher.href,{waitUntil:'domcontentloaded',timeout:45000});
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,graceMs:600,requireClear:true});
   if(res?.status()!==200)throw Error('mobile DEMO launcher HTTP error');
   const deadline=Date.now()+45000;
   while(Date.now()<deadline){
@@ -104,6 +107,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   if(!(canvases>0&&assets.configMobile>0&&assets.mobileUI>0&&assets.configV2>0))
    throw Error('mobile game not initialized; not uploading a misleading screenshot');
   await sleep(Math.max(500,Math.min(waitMs,7000)));
+  await acceptKnownPublicDemoOverlays(page,{confirmAdult,requireClear:true});
   const image=Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false}));
   if(image.length<1200)throw Error('screenshot unexpectedly small');
   const viewport=page.viewportSize();
