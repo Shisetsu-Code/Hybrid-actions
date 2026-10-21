@@ -72,14 +72,14 @@ function mockPage({age=false,cookies=false}={}){
  };
  const locator=kind=>({
   first(){return this;},
-  isVisible:async()=>kind==='age'?ageVisible:kind==='cookies'?cookieVisible:true,
+  isVisible:async()=>kind==='age'?ageVisible:kind==='cookies'?cookieVisible:kind==='unused'?false:true,
   waitFor:async()=>{},
-  getByRole(){return locator('confirm');},
-  getByText(){return locator('confirm');},
-  locator(){return locator('confirm');},
+  getByRole(){return locator(kind==='cookies'?'accept':'confirm');},
+  getByText(){return locator(kind==='cookies'?'accept':'confirm');},
+  locator(){return locator(kind==='cookies'?'accept':'confirm');},
   click:async()=>{
    if(kind==='confirm')ageVisible=false;
-   if(kind==='reject')cookieVisible=false;
+   if(kind==='accept')cookieVisible=false;
    if(kind==='play'){
     pageEvents.request?.({url:()=> 'https://amusnet.com/api/lobby',method:()=> 'POST'});
     pageEvents.response?.({url:()=> 'https://amusnet.com/api/lobby',status:()=>200});
@@ -96,8 +96,8 @@ function mockPage({age=false,cookies=false}={}){
   on:(event,cb)=>{pageEvents[event]=cb;},
   locator:selector=>selector.includes('cookiescript_injected_wrapper')?locator('cookies'):
    selector.includes('age-conf-container')?locator('age'):
-   selector.includes('cookiescript_reject')?locator('reject'):
-   selector.includes('play-demo-btn')?locator('play'):locator('iframe'),
+   selector.includes('play-demo-btn')?locator('play'):
+   selector.includes('play-popup iframe')?locator('iframe'):locator('unused'),
   waitForLoadState:async()=>{},
  };
  return {page,ageStill:()=>ageVisible};
