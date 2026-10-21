@@ -1,0 +1,38 @@
+name: Probe Integrated Amusnet Public DEMO Adapter
+on:
+  push:
+    branches: [feat/integrate-amusnet-and-playngo-providers-20261021]
+    paths:
+      - '.github/workflows/amusnet-integrated-probe.yml'
+      - 'test/amusnet-integrated-live.mjs'
+  workflow_dispatch:
+    inputs:
+      confirm_adult:
+        type: boolean
+        required: true
+        default: false
+permissions:
+  contents: read
+jobs:
+  test-adapter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Read approved catalogue and screenshot one public DEMO (no D1 upload)
+        env:
+          AMUSNET_ADULT_CONFIRMED: ${{ github.event_name == 'push' || inputs.confirm_adult }}
+        run: node test/amusnet-integrated-live.mjs

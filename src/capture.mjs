@@ -2,6 +2,7 @@
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
 import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
+import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 export async function capturePublicDemo(browser,engine,job,{
  config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
@@ -11,6 +12,7 @@ export async function capturePublicDemo(browser,engine,job,{
   throw Error('catalogue ticket identity mismatch');
  providerForUrl(config,job.provider,game.url);
  if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId});
+ if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId});
  const expectedOrigin=new URL(game.url).origin;
  const context=await browser.newContext({
   viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
@@ -66,6 +68,8 @@ export async function discoverCatalogue(browser,engine,job,{config,cloud,runId}=
  const source=engine.discover.validateDiscoveryTicket(job);
  const discovered=job.provider==='playngo'?
   await discoverPlayngo(browser,source,{config}):
+  job.provider==='amusnet'?
+  await discoverAmusnet(browser,source,{config}):
   await engine.discover.discoverPublicDemos(browser,source);
  const batch=[];
  let queued=0,skipped=0;

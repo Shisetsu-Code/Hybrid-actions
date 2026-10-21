@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node --test test/*.test.mjs",
-    "check": "node --check src/config.mjs && node --check src/client.mjs && node --check src/engine.mjs && node --check src/capture.mjs && node --check src/execute.mjs && node --check src/scheduler.mjs && node --check src/seed.mjs && node --check src/cli.mjs && node --check src/readiness.mjs && node --check src/playngo.mjs",
+    "check": "node --check src/config.mjs && node --check src/client.mjs && node --check src/engine.mjs && node --check src/capture.mjs && node --check src/execute.mjs && node --check src/scheduler.mjs && node --check src/seed.mjs && node --check src/cli.mjs && node --check src/readiness.mjs && node --check src/playngo.mjs && node --check src/amusnet.mjs",
     "seed": "node src/cli.mjs seed --config=config/providers.json",
     "report": "node src/cli.mjs report --config=config/providers.json"
   }

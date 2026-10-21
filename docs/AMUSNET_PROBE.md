@@ -41,8 +41,18 @@ El workflow `.github/workflows/amusnet-probe.yml` se ejecuta **manualmente**, me
 
 El registro `AMUSNET_PROBE_RESULT` separa los estados del catálogo y la demo. No se imprimen ni conservan URLs completas con tokens de lanzamiento.
 
-## Próxima integración
+## Adaptador de catálogo y captura integrado
 
-Falta integrar un adaptador propio para convertir la paginación JSON:API de Amusnet a tickets de D1, abrir cada demo mediante la UI legítima y capturar pantallas con una política de límites por proveedor. Debe realizarse un piloto antes de habilitar ocho runners.
+El código integrado de Amusnet está en src/amusnet.mjs y se conecta a src/capture.mjs para convertir JSON:API a tickets D1 y capturar la pantalla del iframe en modo visual. El botón Play Demo se pulsa solamente después de rechazar cookies opcionales y contar con autorización explícita para la puerta 18+. Los URL de iframe con tokens no se guardan en D1. La [guía de proveedores](PROVIDER_ADAPTERS.md) explica cómo activarlo con rate limiting por proveedor.
+
+## Límites de validación
+
+El adaptador ya implementa la paginación y el circuito de captura; falta validar el nuevo adaptador integrado en un piloto con D1/R2, no solamente el script de diagnóstico anterior. Debe realizarse un piloto antes de habilitar ocho runners.
 
 Los controles del adaptador Pragmatic no deben aplicarse automáticamente a Amusnet. Sus controles no verificados requieren clasificación visual/híbrida mediante MCP. Que el catálogo y una demo funcionen no implica que estén clasificados.
+
+## Prueba de extremo a extremo del adaptador Amusnet
+
+La ejecución real [GitHub Actions #39644855246](https://github.com/Shisetsu-Code/Hybrid-actions/actions/runs/39644855246), ejecutada en el runner Linux con Chromium, confirmó **10 páginas / 490 registros publicados**, **485 GIN únicos con botón Play Demo** (se deduplicó una variante de alias compartiendo GIN), y una captura real de **Rise of RA** (GIN 806). Evidencia: rechazo de cookies, confirmación de mayoría de edad expresamente autorizada, POST /api/lobby HTTP 200, iframe de free-pod.games.amusnet.io, screenshot JPEG de **22.222 bytes**, resolución **1152 × 800**, mode=visual. La prueba conservó el JPEG en memoria y no modificó D1/R2.
+
+El resultado demuestra que el adaptador integrado funciona contra el catálogo y una demo, no que todos los registros admitan cargas exitosas ni que estén clasificados sus botones.
