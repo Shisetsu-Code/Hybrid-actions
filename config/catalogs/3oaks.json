@@ -1,0 +1,625 @@
+{
+  "provider": "3oaks",
+  "name": "3 Oaks",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 102,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "15_dragon_pearls",
+      "name": "15 Dragon Pearls",
+      "publicUrl": "https://3oaks.com/game/15_dragon_pearls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_african_drums",
+      "name": "3 African Drums",
+      "publicUrl": "https://3oaks.com/game/3_african_drums",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_aztec_temples",
+      "name": "3 Aztec Temples",
+      "publicUrl": "https://3oaks.com/game/3_aztec_temples",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_china_pots",
+      "name": "3 China Pots",
+      "publicUrl": "https://3oaks.com/game/3_china_pots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_clover_pots",
+      "name": "3 Clover Pots",
+      "publicUrl": "https://3oaks.com/game/3_clover_pots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_clover_pots_extra",
+      "name": "3 Clover Pots Extra",
+      "publicUrl": "https://3oaks.com/game/3_clover_pots_extra",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_coin_volcanoes",
+      "name": "3 Coin Volcanoes",
+      "publicUrl": "https://3oaks.com/game/3_coin_volcanoes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_coins",
+      "name": "3 Coins",
+      "publicUrl": "https://3oaks.com/game/3_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_egypt_chests",
+      "name": "3 Egypt Chests",
+      "publicUrl": "https://3oaks.com/game/3_egypt_chests",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_hot_chillies",
+      "name": "3 Hot Chillies",
+      "publicUrl": "https://3oaks.com/game/3_hot_chillies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_hot_teapots",
+      "name": "3 Hot Teapots",
+      "publicUrl": "https://3oaks.com/game/3_hot_teapots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_lucky_sparks",
+      "name": "3 Lucky Sparks",
+      "publicUrl": "https://3oaks.com/game/3_lucky_sparks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_olymp_fortunes",
+      "name": "3 Olymp Fortunes",
+      "publicUrl": "https://3oaks.com/game/3_olymp_fortunes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_pots_of_egypt",
+      "name": "3 Pots of Egypt",
+      "publicUrl": "https://3oaks.com/game/3_pots_of_egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_super_coin_volcanoes",
+      "name": "3 Super Coin Volcanoes",
+      "publicUrl": "https://3oaks.com/game/3_super_coin_volcanoes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_super_hot_chillies",
+      "name": "3 Super Hot Chillies",
+      "publicUrl": "https://3oaks.com/game/3_super_hot_chillies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_super_hot_teapots",
+      "name": "3 Super Hot Teapots",
+      "publicUrl": "https://3oaks.com/game/3_super_hot_teapots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3_superpower_diamonds",
+      "name": "3 SuperPower Diamonds",
+      "publicUrl": "https://3oaks.com/game/3_superpower_diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_african_drums",
+      "name": "4 African Drums",
+      "publicUrl": "https://3oaks.com/game/4_african_drums",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_clover_pots",
+      "name": "4 Clover Pots",
+      "publicUrl": "https://3oaks.com/game/4_clover_pots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_dragon_pearls",
+      "name": "4 Dragon Pearls",
+      "publicUrl": "https://3oaks.com/game/4_dragon_pearls",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_fairy_flowers",
+      "name": "4 Fairy Flowers",
+      "publicUrl": "https://3oaks.com/game/4_fairy_flowers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_fortune_clovers",
+      "name": "4 Fortune Clovers",
+      "publicUrl": "https://3oaks.com/game/4_fortune_clovers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_pots_of_egypt",
+      "name": "4 Pots of Egypt",
+      "publicUrl": "https://3oaks.com/game/4_pots_of_egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_super_clover_pots",
+      "name": "4 Super Clover Pots",
+      "publicUrl": "https://3oaks.com/game/4_super_clover_pots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4_wolf_drums",
+      "name": "4 Wolf Drums",
+      "publicUrl": "https://3oaks.com/game/4_wolf_drums",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777_coins",
+      "name": "777 Coins",
+      "publicUrl": "https://3oaks.com/game/777_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777_fruity_coins",
+      "name": "777 Fruity Coins",
+      "publicUrl": "https://3oaks.com/game/777_fruity_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazonia_wins",
+      "name": "Amazonia Wins",
+      "publicUrl": "https://3oaks.com/game/amazonia_wins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec_fire",
+      "name": "Aztec Fire",
+      "publicUrl": "https://3oaks.com/game/aztec_fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec_fire_2",
+      "name": "Aztec Fire 2",
+      "publicUrl": "https://3oaks.com/game/aztec_fire_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec_sun",
+      "name": "Aztec Sun",
+      "publicUrl": "https://3oaks.com/game/aztec_sun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big_heist",
+      "name": "Big Heist",
+      "publicUrl": "https://3oaks.com/game/big_heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black_wolf_2",
+      "name": "Black Wolf 2",
+      "publicUrl": "https://3oaks.com/game/black_wolf_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book_of_sun_multichance",
+      "name": "Book of Sun: Multichance",
+      "publicUrl": "https://3oaks.com/game/book_of_sun_multichance",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chili_coins",
+      "name": "Chili Coins",
+      "publicUrl": "https://3oaks.com/game/chili_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chili_coins_xxxl",
+      "name": "Chili Coins XXXL",
+      "publicUrl": "https://3oaks.com/game/chili_coins_xxxl",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_express",
+      "name": "Coin Express",
+      "publicUrl": "https://3oaks.com/game/coin_express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_princess_x1000",
+      "name": "Coin Princess x1000",
+      "publicUrl": "https://3oaks.com/game/coin_princess_x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coinup_volcano",
+      "name": "Coin UP Volcano",
+      "publicUrl": "https://3oaks.com/game/coinup_volcano",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_up",
+      "name": "Coin UP: Hot Fire",
+      "publicUrl": "https://3oaks.com/game/coin_up",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_lightning",
+      "name": "Coin UP: Lightning",
+      "publicUrl": "https://3oaks.com/game/coin_lightning",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_volcano",
+      "name": "Coin Volcano",
+      "publicUrl": "https://3oaks.com/game/coin_volcano",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coin_volcano_2",
+      "name": "Coin Volcano 2",
+      "publicUrl": "https://3oaks.com/game/coin_volcano_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dancing_joker",
+      "name": "Dancing Joker",
+      "publicUrl": "https://3oaks.com/game/dancing_joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj_tiger_x1000",
+      "name": "DJ Tiger x1000",
+      "publicUrl": "https://3oaks.com/game/dj_tiger_x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egypt_fire",
+      "name": "Egypt Fire",
+      "publicUrl": "https://3oaks.com/game/egypt_fire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egypt_fire_2",
+      "name": "Egypt Fire 2",
+      "publicUrl": "https://3oaks.com/game/egypt_fire_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egypt_power_x1000",
+      "name": "Egypt Power x1000",
+      "publicUrl": "https://3oaks.com/game/egypt_power_x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishing_bear",
+      "name": "Fishin' Bear",
+      "publicUrl": "https://3oaks.com/game/fishing_bear",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune_globe",
+      "name": "Fortune Globe",
+      "publicUrl": "https://3oaks.com/game/fortune_globe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold_express",
+      "name": "Gold Express",
+      "publicUrl": "https://3oaks.com/game/gold_express",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold_nuggets",
+      "name": "Gold Nuggets",
+      "publicUrl": "https://3oaks.com/game/gold_nuggets",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden_teapot",
+      "name": "Golden Teapot",
+      "publicUrl": "https://3oaks.com/game/golden_teapot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grab_more_gold",
+      "name": "Grab more Gold!",
+      "publicUrl": "https://3oaks.com/game/grab_more_gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grab_the_gold",
+      "name": "Grab the Gold!",
+      "publicUrl": "https://3oaks.com/game/grab_the_gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand",
+      "name": "Grand",
+      "publicUrl": "https://3oaks.com/game/grand",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "green_chilli",
+      "name": "Green Chilli",
+      "publicUrl": "https://3oaks.com/game/green_chilli",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "green_chilli_2",
+      "name": "Green Chilli 2",
+      "publicUrl": "https://3oaks.com/game/green_chilli_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit_more_gold",
+      "name": "Hit more Gold!",
+      "publicUrl": "https://3oaks.com/game/hit_more_gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit_the_gold",
+      "name": "Hit the Gold!",
+      "publicUrl": "https://3oaks.com/game/hit_the_gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot_fire_fruits",
+      "name": "Hot Fire Fruits",
+      "publicUrl": "https://3oaks.com/game/hot_fire_fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker_glitz_x1000",
+      "name": "Joker Glitz x1000",
+      "publicUrl": "https://3oaks.com/game/joker_glitz_x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jungle_volcano",
+      "name": "Jungle Volcano",
+      "publicUrl": "https://3oaks.com/game/jungle_volcano",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lady_fortune",
+      "name": "Lady Fortune",
+      "publicUrl": "https://3oaks.com/game/lady_fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lava_coins",
+      "name": "Lava Coins",
+      "publicUrl": "https://3oaks.com/game/lava_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lava_coins_2",
+      "name": "Lava Coins 2",
+      "publicUrl": "https://3oaks.com/game/lava_coins_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "little_farm",
+      "name": "Little Farm",
+      "publicUrl": "https://3oaks.com/game/little_farm",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lord_of_thunder",
+      "name": "Lord of Thunder",
+      "publicUrl": "https://3oaks.com/game/lord_of_thunder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_apple_x1000",
+      "name": "Lucky Apple x1000",
+      "publicUrl": "https://3oaks.com/game/lucky_apple_x1000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_apple_x2500",
+      "name": "Lucky Apple x2500",
+      "publicUrl": "https://3oaks.com/game/lucky_apple_x2500",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_penny",
+      "name": "Lucky Penny",
+      "publicUrl": "https://3oaks.com/game/lucky_penny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_penny_2",
+      "name": "Lucky Penny 2",
+      "publicUrl": "https://3oaks.com/game/lucky_penny_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_penny_3_pots_super_wheel",
+      "name": "Lucky Penny 3 Pots: Super Wheel",
+      "publicUrl": "https://3oaks.com/game/lucky_penny_3_pots_super_wheel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky_penny_powerscatter",
+      "name": "Lucky Penny Power Scatter",
+      "publicUrl": "https://3oaks.com/game/lucky_penny_powerscatter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic_apple",
+      "name": "Magic Apple",
+      "publicUrl": "https://3oaks.com/game/magic_apple",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic_apple_2",
+      "name": "Magic Apple 2",
+      "publicUrl": "https://3oaks.com/game/magic_apple_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic_clovers",
+      "name": "Magic Clovers",
+      "publicUrl": "https://3oaks.com/game/magic_clovers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon_sisters",
+      "name": "Moon Sisters",
+      "publicUrl": "https://3oaks.com/game/moon_sisters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "more_magic_apple",
+      "name": "More Magic Apple",
+      "publicUrl": "https://3oaks.com/game/more_magic_apple",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power_sun",
+      "name": "Power Sun",
+      "publicUrl": "https://3oaks.com/game/power_sun",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power_sun_xxl",
+      "name": "Power Sun XXL",
+      "publicUrl": "https://3oaks.com/game/power_sun_xxl",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "purple_diamond",
+      "name": "Purple Diamond",
+      "publicUrl": "https://3oaks.com/game/purple_diamond",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rio_gems",
+      "name": "Rio Gems",
+      "publicUrl": "https://3oaks.com/game/rio_gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scarab_temple",
+      "name": "Scarab Temple",
+      "publicUrl": "https://3oaks.com/game/scarab_temple",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space_coins",
+      "name": "Space Coins",
+      "publicUrl": "https://3oaks.com/game/space_coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun_of_egypt",
+      "name": "Sun of Egypt",
+      "publicUrl": "https://3oaks.com/game/sun_of_egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun_of_egypt_2",
+      "name": "Sun of Egypt 2",
+      "publicUrl": "https://3oaks.com/game/sun_of_egypt_2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun_of_egypt_3",
+      "name": "Sun of Egypt 3",
+      "publicUrl": "https://3oaks.com/game/sun_of_egypt_3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun_of_egypt_4",
+      "name": "Sun of Egypt 4",
+      "publicUrl": "https://3oaks.com/game/sun_of_egypt_4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sun_of_egypt_5",
+      "name": "Sun of Egypt 5",
+      "publicUrl": "https://3oaks.com/game/sun_of_egypt_5",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sunlight_princess",
+      "name": "Sunlight Princess",
+      "publicUrl": "https://3oaks.com/game/sunlight_princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super_china_pots",
+      "name": "Super China Pots",
+      "publicUrl": "https://3oaks.com/game/super_china_pots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super_hot_chilli",
+      "name": "Super Hot Chilli",
+      "publicUrl": "https://3oaks.com/game/super_hot_chilli",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super_hot_teapots",
+      "name": "Super Hot Teapots",
+      "publicUrl": "https://3oaks.com/game/super_hot_teapots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super_hotfire_diamonds",
+      "name": "Super Hotfire Diamonds",
+      "publicUrl": "https://3oaks.com/game/super_hotfire_diamonds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super_sticky_piggy",
+      "name": "Super Sticky Piggy",
+      "publicUrl": "https://3oaks.com/game/super_sticky_piggy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "supreme_diamond_xxl",
+      "name": "Supreme Diamond XXL",
+      "publicUrl": "https://3oaks.com/game/supreme_diamond_xxl",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunder_tiger",
+      "name": "Thunder Tiger",
+      "publicUrl": "https://3oaks.com/game/thunder_tiger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiger_gems",
+      "name": "Tiger Gems",
+      "publicUrl": "https://3oaks.com/game/tiger_gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiger_jungle",
+      "name": "Tiger Jungle",
+      "publicUrl": "https://3oaks.com/game/tiger_jungle",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf_night",
+      "name": "Wolf Night",
+      "publicUrl": "https://3oaks.com/game/wolf_night",
+      "launchUrlOmitted": false
+    }
+  ]
+}

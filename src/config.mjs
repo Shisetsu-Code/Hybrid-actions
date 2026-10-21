@@ -1,6 +1,7 @@
 // No implicit provider rates: every enabled provider supplies its own policy
 // and allowlisted public DEMO origins. No credentials or personal sessions.
 import fs from 'node:fs/promises';
+import {TESTER_SPIN_LAUNCHER,importedEntryUrl,importedOrigin,importedRuntimeOrigin,testerSpinProviders} from './tester-spin.mjs';
 
 const id=/^[a-z0-9][a-z0-9_.-]{0,99}$/i;
 const privateHost=/^(?:localhost|0\.0\.0\.0|127\.\d+\.\d+\.\d+|10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|169\.254\.\d+\.\d+|172\.(?:1[6-9]|2\d|3[01])\.\d+\.\d+)$/i;
@@ -21,6 +22,8 @@ export function validateConfig(raw){
   must(!seen.has(p.id),'duplicate provider '+p.id);seen.add(p.id);
   if(p.enabled!==true)continue;
   must(p.approved===true,'explicit public-demo approval required: '+p.id);
+  const imported=p.launcher===TESTER_SPIN_LAUNCHER;
+  must(!p.launcher||imported&&testerSpinProviders.has(p.id),'unsupported provider launcher');
   const rate=p.pacing||{};
   must(Number.isSafeInteger(rate.minStartIntervalMs)&&rate.minStartIntervalMs>=1000&&rate.minStartIntervalMs<=300000,
    'provider-specific minStartIntervalMs required: '+p.id);
@@ -30,17 +33,23 @@ export function validateConfig(raw){
    'allowlisted DEMO origins required: '+p.id);
   const allowlist=p.allowlist.map(row=>{
    must(row&&typeof row.origin==='string'&&typeof row.pathPrefix==='string','allowlist origin/pathPrefix required');
-   let origin=demoUrl(row.origin+'/').origin;
+   let origin=imported?importedOrigin(p.id,row.origin):demoUrl(row.origin+'/').origin;
    must(row.origin===origin,'allowlist entry must be a canonical HTTPS origin');
    must(row.pathPrefix.startsWith('/')&&row.pathPrefix.endsWith('/')&&!row.pathPrefix.includes('..'),'allowlist pathPrefix must be a directory');
    return {origin,pathPrefix:row.pathPrefix};
   });
   const validateGame=(game)=>{
    must(game&&id.test(game.id||''),'invalid DEMO game ID');
-   const url=demoUrl(game.url);
+   const url=imported?importedEntryUrl(p.id,game.url):demoUrl(game.url);
    must(allowlist.some(x=>url.origin===x.origin&&url.pathname.startsWith(x.pathPrefix)),
     'game outside provider allowlist: '+p.id+'/'+game.id);
-   return {id:game.id,url:url.href};
+   if(imported)must(!game.symbol||/^[A-Za-z0-9_.-]{1,120}$/.test(game.symbol),'invalid provider game symbol');
+   const runtimeOrigins=game.runtimeOrigins||[];
+   if(imported){
+    must(Array.isArray(runtimeOrigins)&&runtimeOrigins.length<=4,'invalid runtime origin list');
+    for(const origin of runtimeOrigins)must(importedRuntimeOrigin(p.id,origin+'/')===origin,'noncanonical runtime origin');
+   }
+   return {id:game.id,url:url.href,...(imported?{symbol:game.symbol||'',...(runtimeOrigins.length?{runtimeOrigins}:{} )}:{})};
   };
   const games=Array.isArray(p.games)?p.games.map(validateGame):[];
   const sources=Array.isArray(p.sources)?p.sources.filter(x=>x.enabled===true).map(s=>{
@@ -56,7 +65,7 @@ export function validateConfig(raw){
    }
    return {...s,provider:p.id,enabled:true,approved:true,verifiedDemo:true};
   }):[];
-  providers.push({id:p.id,pacing:{minStartIntervalMs:rate.minStartIntervalMs,
+  providers.push({id:p.id,...(imported?{launcher:TESTER_SPIN_LAUNCHER}:{}),pacing:{minStartIntervalMs:rate.minStartIntervalMs,
    maxActive:rate.maxActive,enabled:true},allowlist,games,sources});
  }
  return {runId:raw.runId,providers};
@@ -67,7 +76,7 @@ export async function loadConfig(file){
 export function providerForUrl(config,providerId,gameUrl){
  const entry=config.providers.find(p=>p.id===providerId);
  if(!entry)throw Error('unknown or disabled provider '+providerId);
- const url=demoUrl(gameUrl);
+ const url=entry.launcher===TESTER_SPIN_LAUNCHER?importedEntryUrl(providerId,gameUrl):demoUrl(gameUrl);
  if(!entry.allowlist.some(x=>url.origin===x.origin&&url.pathname.startsWith(x.pathPrefix)))
   throw Error('game outside approved provider origin/path: '+providerId);
  return entry;

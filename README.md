@@ -102,3 +102,10 @@ La CI comprueba configuración, límites, reparto entre seis proveedores, permis
 - No inicia giros, compras ni confirmaciones de apuestas. La exploración de ramas con controles ya clasificados es responsabilidad del motor principal y necesita coordinación distribuida propia antes de paralelizarse entre runners.
 - Los secretos, el origen de los catálogos y las políticas de rate limit deben estar configurados antes de ejecutar la primera tanda real.
 
+
+
+### Estado integrado de proveedores
+
+Hay 13 proveedores con apertura/captura implementada en el despachador: Amusnet y Play’n GO mediante adaptadores nativos, y Pragmatic Play, 1Spin4Win, Belatra, BGaming, KA Gaming, RubyPlay, Red Tiger, 3 Oaks, Yggdrasil, Nolimit City y Playtech mediante los contratos de Tester Spin. El inventario contiene 24 proveedores; todos permanecen desactivados. Integración de código no equivale a ejecución ni validación en vivo de todo el catálogo.
+
+Véanse [adaptadores y estado operativo](docs/PROVIDER_ADAPTERS.md) y [contratos Tester Spin](docs/TESTER_SPIN_LAUNCHERS.md).

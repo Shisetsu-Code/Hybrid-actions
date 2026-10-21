@@ -1,0 +1,709 @@
+{
+  "provider": "belatra",
+  "name": "Belatra",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 116,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "20-icy-fruits",
+      "name": "20 Icy Fruits",
+      "publicUrl": "https://belatragames.com/es/games/game/20-icy-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "20-super-stars",
+      "name": "20 Super Stars",
+      "publicUrl": "https://belatragames.com/es/games/game/20-super-stars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3x-super-peppers",
+      "name": "3x Super Peppers",
+      "publicUrl": "https://belatragames.com/es/games/game/3x-super-peppers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4-secrets-of-aladdin",
+      "name": "4 Secrets of Aladdin",
+      "publicUrl": "https://belatragames.com/es/games/game/4-secrets-of-aladdin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-wild-wild-peppers",
+      "name": "5 Wild Wild Peppers",
+      "publicUrl": "https://belatragames.com/es/games/game/5-wild-wild-peppers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "500-juicy-fruits",
+      "name": "500 Juicy Fruits",
+      "publicUrl": "https://belatragames.com/es/games/game/500-juicy-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-days-anotherland",
+      "name": "7 Days Anotherland",
+      "publicUrl": "https://belatragames.com/es/games/game/7-days-anotherland",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-days-the-spanish-armada",
+      "name": "7 Days The Spanish Armada",
+      "publicUrl": "https://belatragames.com/es/games/game/7-days-the-spanish-armada",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7-fruits",
+      "name": "7 Fruits",
+      "publicUrl": "https://belatragames.com/es/games/game/7-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "88-dragons-bounty",
+      "name": "88 Dragons Bounty",
+      "publicUrl": "https://belatragames.com/es/games/game/88-dragons-bounty",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "88-golden",
+      "name": "88 Golden",
+      "publicUrl": "https://belatragames.com/es/games/game/88-golden",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "africa-gold",
+      "name": "Africa Gold",
+      "publicUrl": "https://belatragames.com/es/games/game/africa-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "africa-gold-2",
+      "name": "Africa Gold 2",
+      "publicUrl": "https://belatragames.com/es/games/game/africa-gold-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "an-escape-from-alcatraz",
+      "name": "An Escape from Alcatraz",
+      "publicUrl": "https://belatragames.com/es/games/game/an-escape-from-alcatraz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-temple-gems",
+      "name": "Ancient Temple Gems",
+      "publicUrl": "https://belatragames.com/es/games/game/ancient-temple-gems",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bear's-tricks",
+      "name": "Bear's Tricks",
+      "publicUrl": "https://belatragames.com/es/games/game/bear's-tricks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beauty-and-the-beast",
+      "name": "Beauty and the Beast",
+      "publicUrl": "https://belatragames.com/es/games/game/beauty-and-the-beast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bang",
+      "name": "Big Bang",
+      "publicUrl": "https://belatragames.com/es/games/game/big-bang",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bang-2",
+      "name": "Big Bang 2",
+      "publicUrl": "https://belatragames.com/es/games/game/big-bang-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-wild-buffalo",
+      "name": "Big Wild Buffalo",
+      "publicUrl": "https://belatragames.com/es/games/game/big-wild-buffalo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-wild-buffalo-2",
+      "name": "Big Wild Buffalo 2",
+      "publicUrl": "https://belatragames.com/es/games/game/big-wild-buffalo-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blast-the-bass",
+      "name": "Blast the Bass",
+      "publicUrl": "https://belatragames.com/es/games/game/blast-the-bass",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blue-beard",
+      "name": "Blue Beard",
+      "publicUrl": "https://belatragames.com/es/games/game/blue-beard",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-doom",
+      "name": "Book of Doom",
+      "publicUrl": "https://belatragames.com/es/games/game/book-of-doom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buybonus-of-maya",
+      "name": "BuyBonus of Maya",
+      "publicUrl": "https://belatragames.com/es/games/game/buybonus-of-maya",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cafe-50's",
+      "name": "Cafe 50's",
+      "publicUrl": "https://belatragames.com/es/games/game/cafe-50's",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "carousel",
+      "name": "Carousel",
+      "publicUrl": "https://belatragames.com/es/games/game/carousel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "catch-and-snatch",
+      "name": "Catch & Snatch",
+      "publicUrl": "https://belatragames.com/es/games/game/catch-and-snatch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chef's-sticky-fruits",
+      "name": "Chef's Sticky Fruits",
+      "publicUrl": "https://belatragames.com/es/games/game/chef's-sticky-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicago-bang-bang!",
+      "name": "Chicago Bang, Bang!",
+      "publicUrl": "https://belatragames.com/es/games/game/chicago-bang-bang!",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-jackpot",
+      "name": "Christmas Jackpot",
+      "publicUrl": "https://belatragames.com/es/games/game/christmas-jackpot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cleo's-book",
+      "name": "Cleo's Book",
+      "publicUrl": "https://belatragames.com/es/games/game/cleo's-book",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coins-blast",
+      "name": "Coins Blast",
+      "publicUrl": "https://belatragames.com/es/games/game/coins-blast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cops-vs-robs",
+      "name": "Cops vs Robs",
+      "publicUrl": "https://belatragames.com/es/games/game/cops-vs-robs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystals-digger",
+      "name": "Crystals Digger",
+      "publicUrl": "https://belatragames.com/es/games/game/crystals-digger",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyber-gypsies",
+      "name": "Cyber Gypsies",
+      "publicUrl": "https://belatragames.com/es/games/game/cyber-gypsies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "danludan's-fortune-bass",
+      "name": "DanLudan's Fortune Bass",
+      "publicUrl": "https://belatragames.com/es/games/game/danludan's-fortune-bass",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "digger's-fortune",
+      "name": "Digger's Fortune",
+      "publicUrl": "https://belatragames.com/es/games/game/digger's-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dracula-riches",
+      "name": "Dracula Riches",
+      "publicUrl": "https://belatragames.com/es/games/game/dracula-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon's-bonanza",
+      "name": "Dragon's Bonanza",
+      "publicUrl": "https://belatragames.com/es/games/game/dragon's-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-craft",
+      "name": "Fortune Craft",
+      "publicUrl": "https://belatragames.com/es/games/game/fortune-craft",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-mummy",
+      "name": "Fortune Mummy",
+      "publicUrl": "https://belatragames.com/es/games/game/fortune-mummy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "foxy-eggs",
+      "name": "Foxy Eggs",
+      "publicUrl": "https://belatragames.com/es/games/game/foxy-eggs",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frog-creek",
+      "name": "Frog Creek",
+      "publicUrl": "https://belatragames.com/es/games/game/frog-creek",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frozen-barrel-tavern",
+      "name": "Frozen Barrel Tavern",
+      "publicUrl": "https://belatragames.com/es/games/game/frozen-barrel-tavern",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "full-moon-magic",
+      "name": "Full Moon Magic",
+      "publicUrl": "https://belatragames.com/es/games/game/full-moon-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-lantern",
+      "name": "Golden Lantern",
+      "publicUrl": "https://belatragames.com/es/games/game/golden-lantern",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-lemon",
+      "name": "Golden Lemon",
+      "publicUrl": "https://belatragames.com/es/games/game/golden-lemon",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-lemon-deluxe",
+      "name": "Golden Lemon DeLuxe",
+      "publicUrl": "https://belatragames.com/es/games/game/golden-lemon-deluxe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-oks",
+      "name": "Golden øks",
+      "publicUrl": "https://belatragames.com/es/games/game/golden-oks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "green-grocery",
+      "name": "Green Grocery",
+      "publicUrl": "https://belatragames.com/es/games/game/green-grocery",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "publicUrl": "https://belatragames.com/es/games/game/halloween",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "halloween-crystals",
+      "name": "Halloween Crystals",
+      "publicUrl": "https://belatragames.com/es/games/game/halloween-crystals",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "halloween-jackpot",
+      "name": "Halloween Jackpot",
+      "publicUrl": "https://belatragames.com/es/games/game/halloween-jackpot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-wild-pepper",
+      "name": "Hot Wild Pepper",
+      "publicUrl": "https://belatragames.com/es/games/game/hot-wild-pepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hunt-the-bucks",
+      "name": "Hunt the Bucks",
+      "publicUrl": "https://belatragames.com/es/games/game/hunt-the-bucks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-bass",
+      "name": "Ice Bass",
+      "publicUrl": "https://belatragames.com/es/games/game/ice-bass",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-princess",
+      "name": "Ice Princess",
+      "publicUrl": "https://belatragames.com/es/games/game/ice-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-thunder",
+      "name": "Irish Thunder",
+      "publicUrl": "https://belatragames.com/es/games/game/irish-thunder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "j-monsters",
+      "name": "J-Monsters",
+      "publicUrl": "https://belatragames.com/es/games/game/j-monsters",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-pagoda",
+      "name": "Jackpot Pagoda",
+      "publicUrl": "https://belatragames.com/es/games/game/jackpot-pagoda",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewels",
+      "name": "Jewels",
+      "publicUrl": "https://belatragames.com/es/games/game/jewels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lavish-joker",
+      "name": "Lavish Joker",
+      "publicUrl": "https://belatragames.com/es/games/game/lavish-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lazy-monkey",
+      "name": "Lazy Monkey",
+      "publicUrl": "https://belatragames.com/es/games/game/lazy-monkey",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legacy-of-doom",
+      "name": "Legacy of Doom",
+      "publicUrl": "https://belatragames.com/es/games/game/legacy-of-doom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "long-neck-fortune",
+      "name": "Long Neck Fortune",
+      "publicUrl": "https://belatragames.com/es/games/game/long-neck-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "love-magic",
+      "name": "Love Magic",
+      "publicUrl": "https://belatragames.com/es/games/game/love-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucie's-cats",
+      "name": "Lucie's cats",
+      "publicUrl": "https://belatragames.com/es/games/game/lucie's-cats",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-bandits",
+      "name": "Lucky Bandits",
+      "publicUrl": "https://belatragames.com/es/games/game/lucky-bandits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-bank-robbers",
+      "name": "Lucky Bank Robbers",
+      "publicUrl": "https://belatragames.com/es/games/game/lucky-bank-robbers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-barrel-tavern",
+      "name": "Lucky Barrel Tavern",
+      "publicUrl": "https://belatragames.com/es/games/game/lucky-barrel-tavern",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-drink",
+      "name": "Lucky Drink",
+      "publicUrl": "https://belatragames.com/es/games/game/lucky-drink",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-drink-in-egypt",
+      "name": "Lucky Drink in Egypt",
+      "publicUrl": "https://belatragames.com/es/games/game/lucky-drink-in-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "make-it-gold",
+      "name": "Make It Gold",
+      "publicUrl": "https://belatragames.com/es/games/game/make-it-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "master-of-gold",
+      "name": "Master of Gold",
+      "publicUrl": "https://belatragames.com/es/games/game/master-of-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "master-of-xmas",
+      "name": "Master of Xmas",
+      "publicUrl": "https://belatragames.com/es/games/game/master-of-xmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayan-book",
+      "name": "Mayan Book",
+      "publicUrl": "https://belatragames.com/es/games/game/mayan-book",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "merry-hog",
+      "name": "Merry Hog",
+      "publicUrl": "https://belatragames.com/es/games/game/merry-hog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mix-fruits",
+      "name": "Mix Fruits",
+      "publicUrl": "https://belatragames.com/es/games/game/mix-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monkey-jackpot",
+      "name": "Monkey Jackpot",
+      "publicUrl": "https://belatragames.com/es/games/game/monkey-jackpot",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mummyland-treasures",
+      "name": "Mummyland Treasures",
+      "publicUrl": "https://belatragames.com/es/games/game/mummyland-treasures",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "publicUrl": "https://belatragames.com/es/games/game/new-york",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "northern-boom",
+      "name": "Northern Boom",
+      "publicUrl": "https://belatragames.com/es/games/game/northern-boom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "penalty-blast",
+      "name": "Penalty Blast",
+      "publicUrl": "https://belatragames.com/es/games/game/penalty-blast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-bank",
+      "name": "Piggy Bank",
+      "publicUrl": "https://belatragames.com/es/games/game/piggy-bank",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirate-jackpots",
+      "name": "Pirate Jackpots",
+      "publicUrl": "https://belatragames.com/es/games/game/pirate-jackpots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "prehistoric-story",
+      "name": "Prehistoric Story",
+      "publicUrl": "https://belatragames.com/es/games/game/prehistoric-story",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "princess-of-swamp",
+      "name": "Princess of Swamp",
+      "publicUrl": "https://belatragames.com/es/games/game/princess-of-swamp",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "princess-suki",
+      "name": "Princess Suki",
+      "publicUrl": "https://belatragames.com/es/games/game/princess-suki",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "richy-hog",
+      "name": "Richy Hog",
+      "publicUrl": "https://belatragames.com/es/games/game/richy-hog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-zeus",
+      "name": "Rise of Zeus",
+      "publicUrl": "https://belatragames.com/es/games/game/rise-of-zeus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rockets",
+      "name": "Rockets",
+      "publicUrl": "https://belatragames.com/es/games/game/rockets",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santa-mummy",
+      "name": "Santa Mummy",
+      "publicUrl": "https://belatragames.com/es/games/game/santa-mummy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sevens",
+      "name": "Sevens",
+      "publicUrl": "https://belatragames.com/es/games/game/sevens",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slattors-battle-orcs-vs-elves",
+      "name": "Slattors Battle - Orcs vs Elves",
+      "publicUrl": "https://belatragames.com/es/games/game/slattors-battle-orcs-vs-elves",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slime-bonanza",
+      "name": "Slime Bonanza",
+      "publicUrl": "https://belatragames.com/es/games/game/slime-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stars-blast",
+      "name": "Stars Blast",
+      "publicUrl": "https://belatragames.com/es/games/game/stars-blast",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-sevens",
+      "name": "Super Sevens",
+      "publicUrl": "https://belatragames.com/es/games/game/super-sevens",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-elusive-gonzales",
+      "name": "The Elusive Gonzales",
+      "publicUrl": "https://belatragames.com/es/games/game/the-elusive-gonzales",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-ghost-walks",
+      "name": "The Ghost Walks",
+      "publicUrl": "https://belatragames.com/es/games/game/the-ghost-walks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-moneymania",
+      "name": "The Moneymania",
+      "publicUrl": "https://belatragames.com/es/games/game/the-moneymania",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-night-racing",
+      "name": "The Night Racing",
+      "publicUrl": "https://belatragames.com/es/games/game/the-night-racing",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-smart-rabbit",
+      "name": "The Smart Rabbit",
+      "publicUrl": "https://belatragames.com/es/games/game/the-smart-rabbit",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tony-gambler",
+      "name": "Tony Gambler",
+      "publicUrl": "https://belatragames.com/es/games/game/tony-gambler",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tortuga-codex",
+      "name": "Tortuga CodeX",
+      "publicUrl": "https://belatragames.com/es/games/game/tortuga-codex",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "triple-x-hot-pepper",
+      "name": "Triple X Hot Pepper",
+      "publicUrl": "https://belatragames.com/es/games/game/triple-x-hot-pepper",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "voodoo-coins",
+      "name": "Voodoo Coins",
+      "publicUrl": "https://belatragames.com/es/games/game/voodoo-coins",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-fruit-jam",
+      "name": "Wild Fruit Jam",
+      "publicUrl": "https://belatragames.com/es/games/game/wild-fruit-jam",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winter-thunder",
+      "name": "Winter Thunder",
+      "publicUrl": "https://belatragames.com/es/games/game/winter-thunder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "witch-school",
+      "name": "Witch School",
+      "publicUrl": "https://belatragames.com/es/games/game/witch-school",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-thunder",
+      "name": "Wolf Thunder",
+      "publicUrl": "https://belatragames.com/es/games/game/wolf-thunder",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "x-mas-buffalo",
+      "name": "X-Mas Buffalo",
+      "publicUrl": "https://belatragames.com/es/games/game/x-mas-buffalo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "x-mas-gifts",
+      "name": "X-Mas Gifts",
+      "publicUrl": "https://belatragames.com/es/games/game/x-mas-gifts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "xing-fu-panda",
+      "name": "Xing Fu Panda",
+      "publicUrl": "https://belatragames.com/es/games/game/xing-fu-panda",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yo-ho-ho-2048",
+      "name": "Yo-ho-ho 2048",
+      "publicUrl": "https://belatragames.com/es/games/game/yo-ho-ho-2048",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zombie-town",
+      "name": "Zombie Town",
+      "publicUrl": "https://belatragames.com/es/games/game/zombie-town",
+      "launchUrlOmitted": false
+    }
+  ]
+}

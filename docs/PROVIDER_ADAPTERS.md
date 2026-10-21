@@ -1,4 +1,4 @@
-# Proveedores integrados: Play'n GO y Amusnet
+# Proveedores integrados
 
 Ambos proveedores tienen adaptadores independientes en el mismo despachador de GitHub Actions y usan las colas existentes de Cloudflare D1/R2. No se modifican los juegos ni las decisiones históricas de Pragmatic.
 
@@ -29,7 +29,7 @@ El descubridor de Amusnet solo encola fichas que anuncian Play Demo; no supone q
 
 ## Activación prudente
 
-config/providers.json continúa con proveedores=[] deliberadamente. Evita que un ejemplo lance una corrida automática de casi mil demos en los ocho runners.
+config/providers.json contiene 24 proveedores deshabilitados. No se inicia ninguna corrida al incorporar estos adaptadores.
 
 Después de verificar Cloudflare /health con schemaVersion>=4, workforceReady y pacingReady, configurar secretos existentes HYBRID_REVIEW_TOKEN/HYBRID_INGEST_TOKEN, y realizar un piloto de 1–2 juegos por proveedor con intervalos conservadores antes de habilitarlos en la configuración operativa. Los ejemplos usan 20 segundos entre aperturas y una sesión por proveedor: son parámetros iniciales de prueba, NO límites declarados por los proveedores.
 
@@ -43,3 +43,14 @@ Referencias:
 La ejecución real [GitHub Actions #39644855246](https://github.com/Shisetsu-Code/Hybrid-actions/actions/runs/39644855246), ejecutada en el runner Linux con Chromium, confirmó **10 páginas / 490 registros publicados**, **485 GIN únicos con botón Play Demo** (se deduplicó una variante de alias compartiendo GIN), y una captura real de **Rise of RA** (GIN 806). Evidencia: rechazo de cookies, confirmación de mayoría de edad expresamente autorizada, POST /api/lobby HTTP 200, iframe de free-pod.games.amusnet.io, screenshot JPEG de **22.222 bytes**, resolución **1152 × 800**, mode=visual. La prueba conservó el JPEG en memoria y no modificó D1/R2.
 
 El resultado demuestra que el adaptador integrado funciona contra el catálogo y una demo, no que todos los registros admitan cargas exitosas ni que estén clasificados sus botones.
+
+
+## Lanzadores de Tester Spin incorporados
+
+Además de Amusnet y Play’n GO, el mismo despachador integra 11 lanzadores: Pragmatic Play, 1Spin4Win, Belatra, BGaming, KA Gaming, RubyPlay, Red Tiger, 3 Oaks, Yggdrasil, Nolimit City y Playtech. Sus 3.433 enlaces preparados conservan identidad y parámetros públicos de DEMO; los tickets se validan contra la configuración y las navegaciones se limitan al contrato del proveedor. No se copian sesiones guardadas.
+
+En total son 13 proveedores con implementación de apertura/captura. Los 11 importados se verificaron con Chromium y páginas simuladas; esa prueba no certifica disponibilidad en vivo de todos los juegos. Amusnet y Play’n GO tienen además los pilotos reales documentados arriba. Todos permanecen desactivados y la recurrencia continúa sin habilitarse.
+
+Los otros 11 proveedores del inventario siguen sin lanzador gráfico integrado: Games Global, Greentube / Novomatic, NetEnt, PG Soft, Blueprint Gaming, Relax Gaming, Playson, Wazdan, ELK Studios, Push Gaming y Hacksaw Gaming (este último dispone de protocolo en Tester Spin).
+
+Consulte [contratos, importación y limitaciones de Tester Spin](TESTER_SPIN_LAUNCHERS.md). La importacion de Tester Spin conserva las fuentes y alcances configurados de Amusnet y Play'n GO; ambos quedan deshabilitados, sin aprobacion ni ritmo operativo.

@@ -1,0 +1,1459 @@
+{
+  "provider": "bgaming",
+  "name": "BGaming",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 241,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 190,
+  "games": [
+    {
+      "id": "3-lucky-monkeys-hold-win",
+      "name": "3 Lucky Monkeys Hold & Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "adventures",
+      "name": "Adventures",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alchemist-bonanza",
+      "name": "Alchemist Bonanza",
+      "publicUrl": "https://bgaming.com/games/alchemist-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alice-wonderluck",
+      "name": "Alice WonderLuck",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alien-fruits",
+      "name": "Alien Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alien-fruits-2",
+      "name": "Alien Fruits 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "alien-fruits-3",
+      "name": "Alien Fruits 3",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "all-lucky-clover",
+      "name": "All Lucky Clovers",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "all-star-fruits",
+      "name": "All-Star Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aloha-king-elvis",
+      "name": "Aloha King Elvis",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "always-up",
+      "name": "Always Up!",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "always-up-x10000",
+      "name": "Always Up! x10000",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "arrow-slot",
+      "name": "Arrow Slot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "avalon-the-lost-kingdom",
+      "name": "Avalon: The Lost Kingdom",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztec-clusters",
+      "name": "Aztec Clusters",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztec-irwin",
+      "name": "Aztec Irwin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztec-magic-bonanza",
+      "name": "Aztec Magic Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztec-magic-deluxe",
+      "name": "Aztec Magic Deluxe",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elden-ring",
+      "name": "Aztec magic megaways™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztec-magic-megaways",
+      "name": "Aztec Magic MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "aztecs-claw-wild-dice",
+      "name": "Aztec's Claw Wild Dice",
+      "publicUrl": "https://demo.bgaming-network.com/play/AztecsClawWildDice/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "backyard-grill",
+      "name": "Backyard Grill",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beast-band",
+      "name": "Beast Band",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beer-bonanza",
+      "name": "Beer Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "big-atlantis-frenzy",
+      "name": "Big Atlantis Frenzy",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "big-boat-big-catch",
+      "name": "Big Boat \nBig catch",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "big-bucks-saloon",
+      "name": "Big Bucks Saloon",
+      "publicUrl": "https://demo.bgaming-network.com/play/BigBucksSaloon/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bitcoin-million",
+      "name": "Bitcoin Million",
+      "publicUrl": "https://bgaming.com/games/bitcoin-million",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blackbeards-bounty",
+      "name": "Blackbeard's Bounty",
+      "publicUrl": "https://demo.bgaming-network.com/play/BlackbeardsBounty/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-fire-pots-hold-spin",
+      "name": "Blazing Fire Pots Hold & Spin",
+      "publicUrl": "https://demo.bgaming-network.com/play/BlazingFirepots/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bling-blitz-diamond-drop",
+      "name": "Bling Blitz Diamond Drop",
+      "publicUrl": "https://demo.bgaming-network.com/play/BlingBlitzDiamondDrop/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonanza-billion",
+      "name": "Bonanza Billion",
+      "publicUrl": "https://bgaming.com/games/bonanza-billion",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonanza-billion-merge-up",
+      "name": "Bonanza Billion Merge Up™+",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonanza-billion-xtreme",
+      "name": "Bonanza Billion Xtreme",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "bonanza-trillion",
+      "name": "Bonanza Trillion",
+      "publicUrl": "https://bgaming.com/games/bonanza-trillion",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bone-bonanza",
+      "name": "Bone Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-cats",
+      "name": "Book Of Cats",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-cats-megaways",
+      "name": "Book of Cats MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-hidden-tombs",
+      "name": "Book of Hidden Tombs",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-kemet",
+      "name": "Book of Kemet",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-panda-megaways-tm",
+      "name": "Book of Panda MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-pyramids",
+      "name": "Book of Pyramids",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "burning-chilli-243",
+      "name": "Burning Chilli 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "burning-chilli-x",
+      "name": "Burning Chilli X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "candy-monsta",
+      "name": "Candy Monsta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "carnival-bonanza",
+      "name": "Carnival Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cats-soup",
+      "name": "Cat's Soup",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "catch-the-gold-hold-and-win",
+      "name": "Catch the Gold Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "catdiana",
+      "name": "Catdiana",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cats-love-yummy",
+      "name": "Cats Love Yummy",
+      "publicUrl": "https://demo.bgaming-network.com/play/CatsLoveYummy/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicken-fire",
+      "name": "Chicken Fire",
+      "publicUrl": "https://demo.bgaming-network.com/play/ChickenFire/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chicken-rush",
+      "name": "Chicken Rush",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "clash-of-gods-power-duel",
+      "name": "Clash of Gods Power Duel",
+      "publicUrl": "https://demo.bgaming-network.com/play/ClashofGodsAnubisvsHades/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clover-bonanza",
+      "name": "Clover Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "clucking-hell",
+      "name": "Clucking Hell",
+      "publicUrl": "https://demo.bgaming-network.com/play/CluckingHell/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-clusters",
+      "name": "Crystal Clusters",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "deep-sea",
+      "name": "Deep Sea",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "derby-rush",
+      "name": "Derby Rush",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "diamond-of-jungle",
+      "name": "Diamond of Jungle",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dice-bonanza",
+      "name": "Dice Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dice-million",
+      "name": "Dice Million",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dig-dig-digger",
+      "name": "Dig Dig Digger",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "disco-party",
+      "name": "Disco Party",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "divine-queen-heart-of-ice",
+      "name": "Divine Queen: Heart of Ice",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "divine-queen-power-of-sun",
+      "name": "Divine Queen: Power of Sun",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doddy-and-haddzy-bonanza",
+      "name": "Doddy And Haddzy Bonanza",
+      "publicUrl": "https://bgaming.com/games/doddy-and-haddzy-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "domnitors-treasure",
+      "name": "Domnitor's Treasure",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doomsday-saloon",
+      "name": "Doomsday Saloon",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "doors-of-sol",
+      "name": "Doors of Sol",
+      "publicUrl": "https://bgaming.com/games/doors-of-sol",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-age-hold-win",
+      "name": "Dragon Age Hold & Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragon-queen-megaways-tm",
+      "name": "Dragon Queen MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dragons-gold-100",
+      "name": "Dragon's Gold 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dusty-duel",
+      "name": "Dusty Duel",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "easter-heist",
+      "name": "Easter Heist",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elvis-frog-in-playamo",
+      "name": "Elvis Frog In PlayAmo",
+      "publicUrl": "https://bgaming.com/games/elvis-frog-in-playamo",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elvis-frog-in-vegas",
+      "name": "Elvis Frog in Vegas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "elvis-frog-trueways",
+      "name": "Elvis Frog TRUEWAYS",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "face-off",
+      "name": "Face Off",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fiesta-blaze-bonanza",
+      "name": "Fiesta Blaze Bonanza",
+      "publicUrl": "https://bgaming.com/games/fiesta-blaze-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fiesta-clusters",
+      "name": "Fiesta Clusters",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fire-lightning",
+      "name": "Fire Lightning",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "forgotten",
+      "name": "Forgotten",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortune-bells",
+      "name": "Fortune Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fortune-trio-minions-of-fu",
+      "name": "Fortune Trio: Minions Of Fu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "forty-fruity-million",
+      "name": "Forty Fruity Million",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "four-lucky-clover",
+      "name": "Four Lucky Clover",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "four-lucky-diamonds",
+      "name": "Four Lucky Diamonds",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frenzy-clusters",
+      "name": "Frenzy Clusters",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frozen-fruit",
+      "name": "Frozen Fruit",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruit-million",
+      "name": "Fruit Million",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruit-million-respin",
+      "name": "Fruit Million Respin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gangsterz",
+      "name": "Gangsterz",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gemhalla",
+      "name": "Gemhalla",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gemhalla-xtreme",
+      "name": "Gemhalla Xtreme",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gemza",
+      "name": "Gemza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gift-rush",
+      "name": "Gift Rush",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "god-of-wealth-hold-and-win",
+      "name": "God of Wealth Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldmagnate",
+      "name": "Gold Magnate",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "goldofminos",
+      "name": "Gold Of Minos",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gold-rush-with-johnny-cash",
+      "name": "Gold Rush - Johnny Cash",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gold-rush-frog",
+      "name": "Gold Rush Frog",
+      "publicUrl": "https://bgaming.com/games/gold-rush-frog",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-avalon-hold-and-win",
+      "name": "Golden Avalon Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-paw-hold-win",
+      "name": "Golden Paw: Hold & Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-pride",
+      "name": "Golden Pride",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "grand-buffalo-hold-and-win",
+      "name": "Grand Buffalo Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "grand-mustang",
+      "name": "Grand Mustang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "grand-patron",
+      "name": "Grand Patron",
+      "publicUrl": "https://demo.bgaming-network.com/play/GrandPatron7rst/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "halloween-bonanza",
+      "name": "Halloween Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "haunted-reels",
+      "name": "Haunted Reels",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "heart-of-tiki",
+      "name": "Heart of Tiki",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hit-the-route",
+      "name": "Hit The Route",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-chilli-bells-100",
+      "name": "Hot Chilli \nBells 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-chilli-bells",
+      "name": "Hot Chilli Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-rocket-5x-3x-2x",
+      "name": "HOT ROCKET 5x 3x 2x",
+      "publicUrl": "https://demo.bgaming-network.com/play/HotRocket532/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-rocket-mega-potz",
+      "name": "Hot Rocket Mega Potz",
+      "publicUrl": "https://bgaming.com/games/hot-rocket-mega-potz",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hottest-666",
+      "name": "Hottest 666",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "izzi-art",
+      "name": "Izzi Art",
+      "publicUrl": "https://bgaming.com/games/izzi-art",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewel-boom-super-drop",
+      "name": "Jewel Boom Super Drop",
+      "publicUrl": "https://demo.bgaming-network.com/play/JewelBoom/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "johnny-cash",
+      "name": "Johnny Cash",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "johnny-vs-chicken",
+      "name": "Johnny vs Chicken",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "joker-queen",
+      "name": "Joker Queen",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "joker-vs-joker",
+      "name": "Joker vs Joker",
+      "publicUrl": "https://demo.bgaming-network.com/play/JokerVsJoker/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-x-love",
+      "name": "Joker X Love",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jokers-million",
+      "name": "Joker's Million",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jungle-queen",
+      "name": "Jungle Queen",
+      "publicUrl": "https://demo.bgaming-network.com/play/JungleQueen/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "keepers-of-the-secret",
+      "name": "Keepers Of The Secret",
+      "publicUrl": "https://demo.bgaming-network.com/play/KeepersOfTheSecret7rst/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "khonsu-merge-up",
+      "name": "Khonsu Merge Up™",
+      "publicUrl": "https://bgaming.com/games/khonsu-merge-up",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-cash",
+      "name": "King of Cash",
+      "publicUrl": "https://bgaming.com/games/king-of-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "krakens-hunger",
+      "name": "Kraken's Hunger",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lady-lucky-gun",
+      "name": "Lady Lucky Gun",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lady-wolf-moon",
+      "name": "Lady Wolf Moon",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lady-wolf-moon-megaways",
+      "name": "Lady Wolf Moon MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "loki-loot",
+      "name": "Loki Loot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luck-magic",
+      "name": "Luck & Magic",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-8-merge-up-tm",
+      "name": "Lucky 8 Merge Up™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crew",
+      "name": "Lucky Crew",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-dama-muerta",
+      "name": "Lucky Dama Muerta",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-dragon-multidice-x",
+      "name": "Lucky Dragon MultiDice X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-ducky",
+      "name": "Lucky Ducky",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-farm-bonanza",
+      "name": "Lucky Farm Bonanza",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-lady-clover",
+      "name": "Lucky Lady's Clover",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-lager-x9990",
+      "name": "Lucky Lager x9990",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-lu",
+      "name": "Lucky Lu",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-oak",
+      "name": "Lucky Oak",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-pack-2026-cup",
+      "name": "Lucky Pack: 2026 Cup",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-turkey",
+      "name": "Lucky Turkey",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "luxury-feasthold-and-win",
+      "name": "Luxury FeastHold and Win",
+      "publicUrl": "https://bgaming.com/games/luxury-feasthold-and-win",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-mummy-megaways",
+      "name": "Magic Mummy MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "maneki-88-fortunes",
+      "name": "Maneki 88 Fortunes",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "maneki-88-gold",
+      "name": "Maneki 88 Gold",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mechanical-clover",
+      "name": "Mechanical Clover",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "merge-up-tm",
+      "name": "Merge Up™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "merge-up-2",
+      "name": "Merge Up™ 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mice-magic-wonder-spin",
+      "name": "Mice & Magic Wonder Spin",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mirax-circus-queen",
+      "name": "Mirax Circus Queen",
+      "publicUrl": "https://bgaming.com/games/mirax-circus-queen",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "miss-cherry-fruits",
+      "name": "Miss Cherry Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "miss-cherry-wild-frames",
+      "name": "Miss Cherry Wild Frames",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "money-maker",
+      "name": "Money Maker",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "monster-hunt",
+      "name": "Monster Hunt",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "multi-rush",
+      "name": "Multi Rush",
+      "publicUrl": "https://demo.bgaming-network.com/play/MultiRush/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mummys-gold",
+      "name": "Mummy's Gold",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystery-garden",
+      "name": "Mystery Garden",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystery-heist",
+      "name": "Mystery Heist",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystic-reels",
+      "name": "Mystic Reels",
+      "publicUrl": "https://demo.bgaming-network.com/play/MysticReels/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "noche-de-almas",
+      "name": "Noche de Almas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "olympustrueways",
+      "name": "Olympus TRUEWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "oof",
+      "name": "OOF The Goldmine Planet",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "panda-luck",
+      "name": "Panda Luck",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pandas-wealth",
+      "name": "Panda's Wealth",
+      "publicUrl": "https://bgaming.com/games/pandas-wealth",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "penny-pelican",
+      "name": "Penny Pelican",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "piggy-bank-holdwin",
+      "name": "Piggy Bank Hold&Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pin-up-bonanza",
+      "name": "Pin-up Bonanza",
+      "publicUrl": "https://bgaming.com/games/pin-up-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "platinum-lightning-deluxe",
+      "name": "Platinum Lightning Deluxe",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "pop-zen",
+      "name": "Pop Zen",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "potion-spells",
+      "name": "Potion Spells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "princess-of-sky",
+      "name": "Princess of Sky",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "princess-royal",
+      "name": "Princess Royal",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "recycle-riches",
+      "name": "Recycle Riches",
+      "publicUrl": "https://demo.bgaming-network.com/play/RecycleRiches/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-and-hot-chilli",
+      "name": "Red and Hot Chilli",
+      "publicUrl": "https://demo.bgaming-network.com/play/RedAndHotChilli/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-chilli-chickens",
+      "name": "Red Hot Chilli Chickens",
+      "publicUrl": "https://demo.bgaming-network.com/play/RedHotChilliChickens/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-of-ra",
+      "name": "Reel of Ra",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "road-2-riches",
+      "name": "Road 2 Riches",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "rocket-eruption-triple-blast",
+      "name": "Rocket Eruption: Triple Blast",
+      "publicUrl": "https://demo.bgaming-network.com/play/RocketEruptionTripleBlast/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rotating-element",
+      "name": "Rotating Element",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "royal-beellion-hold-win",
+      "name": "Royal Beellion Hold & Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "royal-easter",
+      "name": "Royal Easter",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "royal-fruits-multilines",
+      "name": "Royal Fruits MultiLines",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "royal-high-road",
+      "name": "Royal High-Road",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sakura-riches-60",
+      "name": "Sakura Riches 60",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "savage-buffalo-spirit",
+      "name": "Savage Buffalo Spirit",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "savage-buffalo-spirit-megaways-tm",
+      "name": "Savage Buffalo Spirit MEGAWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "scroll-of-adventure",
+      "name": "Scroll of Adventure new",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "secret-bar-multidice-x",
+      "name": "Secret Bar Multidice X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "shark-spark-hold-win",
+      "name": "Shark & Spark Hold & Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "slot-machine-2",
+      "name": "Slot Machine",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "snoop-dogg-dollars",
+      "name": "Snoop Dogg Dollars",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "soccermania",
+      "name": "Soccermania",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spider-circus-hold-and-win",
+      "name": "Spider Circus Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spin-and-spell",
+      "name": "Spin And Spell",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "st-patricks-pots-hold-and-win",
+      "name": "St. Patrick's Pots Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "star-trek-the-next-generation",
+      "name": "Star Trek™: \nThe Next Generation",
+      "publicUrl": "https://demo.bgaming-network.com/play/StarTrekNextGen/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stars-stripes-hold-and-win",
+      "name": "Stars & Stripes Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sugar-merge-up",
+      "name": "Sugar Merge Up™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sugar-mix",
+      "name": "Sugar Mix",
+      "publicUrl": "https://demo.bgaming-network.com/play/SugarMix/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-royale-megaways",
+      "name": "Sweet Royale MEGAWAYS™",
+      "publicUrl": "https://bgaming.com/games/sweet-royale-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweet-samurai",
+      "name": "Sweet Samurai",
+      "publicUrl": "https://demo.bgaming-network.com/play/SweetSamurai/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-power",
+      "name": "Temple of Power",
+      "publicUrl": "https://demo.bgaming-network.com/play/GatesOfPower/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-godfather-3-pillars-of-power",
+      "name": "The Godfather: 3 Pillars of Power",
+      "publicUrl": "https://demo.bgaming-network.com/play/TheGodfather3PillarsOfPower/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "totally-hot-2",
+      "name": "Totally Hot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "train-heist-johnny-cash",
+      "name": "Train Heist Johnny Cash",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "train-to-rio-grande",
+      "name": "Train to Rio Grande",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tramp-day",
+      "name": "Tramp Day",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tramp-day-trueways-tm",
+      "name": "Tramp Day TRUEWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "treasure-explorer",
+      "name": "Treasure Explorer",
+      "publicUrl": "https://demo.bgaming-network.com/play/TreasureExplorer/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasure-of-anubis",
+      "name": "Treasure of Anubis",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ufo-pyramids",
+      "name": "UFO Pyramids",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "ultras",
+      "name": "Ultras",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "voodoo-people",
+      "name": "Voodoo People",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wbc-ring-of-riches",
+      "name": "WBC Ring Of Riches",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "west-town",
+      "name": "West Town",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-card-gang",
+      "name": "Wild Card Gang",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-cash",
+      "name": "Wild Cash",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-cash-dice",
+      "name": "Wild Cash Dice",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-cash-gold",
+      "name": "Wild Cash Gold",
+      "publicUrl": "https://bgaming.com/games/wild-cash-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-cash-x9990",
+      "name": "Wild Cash x9990",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-chicago",
+      "name": "Wild Chicago",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-clusters",
+      "name": "Wild Clusters",
+      "publicUrl": "https://demo.bgaming-network.com/play/WildClustersP/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-heart",
+      "name": "Wild Heart",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-million",
+      "name": "Wild Million",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-moon-thieves",
+      "name": "Wild Moon Thieves",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-tiger",
+      "name": "Wild Tiger",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-tiger-2",
+      "name": "Wild Tiger 2",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-west-bonanza",
+      "name": "Wild West Bonanza",
+      "publicUrl": "https://bgaming.com/games/wild-west-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-west-trueways",
+      "name": "Wild West TRUEWAYS™",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-wick",
+      "name": "Wild Wick",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wincent-wolf",
+      "name": "Wincent Wolf",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "winter-trophy-hold-and-win",
+      "name": "Winter Trophy Hold and Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yokai",
+      "name": "Yokai",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "yommi-rush",
+      "name": "Yommi Rush",
+      "publicUrl": "https://demo.bgaming-network.com/play/YommiRush/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-goes-wild",
+      "name": "Zeus Goes Wild",
+      "publicUrl": "https://demo.bgaming-network.com/play/ZeusGoesWild/FUN",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-sanctuary",
+      "name": "ZEUS' SANCTUARY",
+      "publicUrl": "https://bgaming.com/games/zeus-sanctuary",
+      "launchUrlOmitted": false
+    }
+  ]
+}

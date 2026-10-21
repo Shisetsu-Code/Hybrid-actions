@@ -1,0 +1,1453 @@
+{
+  "provider": "netent",
+  "name": "NetEnt",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 240,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "101-candies",
+      "name": "101 Candies",
+      "publicUrl": "https://netent.com/games/101-candies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aftermath",
+      "name": "Aftermath",
+      "publicUrl": "https://netent.com/games/aftermath",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aloha-christmas",
+      "name": "Aloha! Christmas",
+      "publicUrl": "https://netent.com/games/aloha-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aloha-cluster-pays",
+      "name": "Aloha! Cluster Pays",
+      "publicUrl": "https://netent.com/games/aloha-cluster-pays",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "american-roulette",
+      "name": "American Roulette",
+      "publicUrl": "https://netent.com/games/american-roulette",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arabian-nights",
+      "name": "Arabian Nights",
+      "publicUrl": "https://netent.com/games/arabian-nights",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arcane-reel-chaos",
+      "name": "Arcane: Reel Chaos",
+      "publicUrl": "https://netent.com/games/arcane-reel-chaos",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "archangels-salvation",
+      "name": "Archangels: Salvation",
+      "publicUrl": "https://netent.com/games/archangels-salvation",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "asgardian-stones",
+      "name": "Asgardian Stones",
+      "publicUrl": "https://netent.com/games/asgardian-stones",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "babylon-riches",
+      "name": "Babylon Riches",
+      "publicUrl": "https://netent.com/games/babylon-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "baccarat-professional-series-1",
+      "name": "Baccarat professional series",
+      "publicUrl": "https://netent.com/games/baccarat-professional-series-1",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beach-invaders",
+      "name": "Beach Invaders",
+      "publicUrl": "https://netent.com/games/beach-invaders",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bee-hive-bonanza",
+      "name": "Bee Hive Bonanza",
+      "publicUrl": "https://netent.com/games/bee-hive-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "berryburst",
+      "name": "Berryburst",
+      "publicUrl": "https://netent.com/games/berryburst",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "berryburst-max",
+      "name": "Berryburst MAX",
+      "publicUrl": "https://netent.com/games/berryburst-max",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-bang-boom",
+      "name": "Big Bang Boom",
+      "publicUrl": "https://netent.com/games/big-bang-boom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-money-wheel",
+      "name": "Big Money Wheel",
+      "publicUrl": "https://netent.com/games/big-money-wheel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blackjack",
+      "name": "Blackjack",
+      "publicUrl": "https://netent.com/games/blackjack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blood-suckers",
+      "name": "Blood Suckers",
+      "publicUrl": "https://netent.com/games/blood-suckers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blood-suckers-2",
+      "name": "Blood Suckers 2",
+      "publicUrl": "https://netent.com/games/blood-suckers-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buckshot-wilds",
+      "name": "Buckshot Wilds",
+      "publicUrl": "https://netent.com/games/buckshot-wilds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "busters-bones",
+      "name": "Buster’s Bones",
+      "publicUrl": "https://netent.com/games/busters-bones",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "butterfly-staxx",
+      "name": "Butterfly Staxx",
+      "publicUrl": "https://netent.com/games/butterfly-staxx",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "butterfly-staxx-2",
+      "name": "Butterfly Staxx 2",
+      "publicUrl": "https://netent.com/games/butterfly-staxx-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-noire",
+      "name": "Cash Noire",
+      "publicUrl": "https://netent.com/games/cash-noire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-o-matic",
+      "name": "Cashomatic",
+      "publicUrl": "https://netent.com/games/cash-o-matic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-hold-em-poker",
+      "name": "Casino Hold'em Poker",
+      "publicUrl": "https://netent.com/games/casino-hold-em-poker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-night",
+      "name": "Casino Night",
+      "publicUrl": "https://netent.com/games/casino-night",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "codex-of-fortune",
+      "name": "Codex of Fortune",
+      "publicUrl": "https://netent.com/games/codex-of-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coins-of-egypt",
+      "name": "Coins of Egypt",
+      "publicUrl": "https://netent.com/games/coins-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "conan",
+      "name": "Conan",
+      "publicUrl": "https://netent.com/games/conan",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cornelius",
+      "name": "Cornelius",
+      "publicUrl": "https://netent.com/games/cornelius",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cornelius-milk-hunter-megaways",
+      "name": "Cornelius Milk Hunter Megaways™",
+      "publicUrl": "https://netent.com/games/cornelius-milk-hunter-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crab-trap",
+      "name": "Crab Trap",
+      "publicUrl": "https://netent.com/games/crab-trap",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cupcakes",
+      "name": "Cupcakes",
+      "publicUrl": "https://netent.com/games/cupcakes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cursed-treasure",
+      "name": "Cursed Treasure",
+      "publicUrl": "https://netent.com/games/cursed-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dark-king-forbidden-riches",
+      "name": "Dark King: Forbidden Riches™",
+      "publicUrl": "https://netent.com/games/dark-king-forbidden-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dazzle-me",
+      "name": "Dazzle Me",
+      "publicUrl": "https://netent.com/games/dazzle-me",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dazzle-me-christmas",
+      "name": "Dazzle Me Christmas",
+      "publicUrl": "https://netent.com/games/dazzle-me-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dazzle-me-megaways",
+      "name": "Dazzle Me™ Megaways™",
+      "publicUrl": "https://netent.com/games/dazzle-me-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dead-or-alive",
+      "name": "Dead or Alive",
+      "publicUrl": "https://netent.com/games/dead-or-alive",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dead-or-alive-2",
+      "name": "Dead or Alive 2",
+      "publicUrl": "https://netent.com/games/dead-or-alive-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dead-or-alive-3-wanted",
+      "name": "Dead or Alive™ 3: Wanted",
+      "publicUrl": "https://netent.com/games/dead-or-alive-3-wanted",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dead-west",
+      "name": "Dead West",
+      "publicUrl": "https://netent.com/games/dead-west",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "demon-beats",
+      "name": "Demon Beats",
+      "publicUrl": "https://netent.com/games/demon-beats",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "disco-danny",
+      "name": "Disco Danny",
+      "publicUrl": "https://netent.com/games/disco-danny",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-fortune",
+      "name": "Divine Fortune",
+      "publicUrl": "https://netent.com/games/divine-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-fortune-black",
+      "name": "Divine Fortune Black",
+      "publicUrl": "https://netent.com/games/divine-fortune-black",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-fortune-gold",
+      "name": "Divine Fortune Gold",
+      "publicUrl": "https://netent.com/games/divine-fortune-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-fortune-gold-christmas",
+      "name": "Divine Fortune Gold Christmas",
+      "publicUrl": "https://netent.com/games/divine-fortune-gold-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-fortune-megaways",
+      "name": "Divine Fortune Megaways",
+      "publicUrl": "https://netent.com/games/divine-fortune-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dont-eat-the-candy",
+      "name": "Don’t Eat the Candy",
+      "publicUrl": "https://netent.com/games/dont-eat-the-candy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "double-stacks",
+      "name": "Double Stacks",
+      "publicUrl": "https://netent.com/games/double-stacks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-playground",
+      "name": "Dragons Playground",
+      "publicUrl": "https://netent.com/games/dragons-playground",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "drive",
+      "name": "Drive: Multiplier Mayhem",
+      "publicUrl": "https://netent.com/games/drive",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "druids-dream",
+      "name": "Druids' Dream",
+      "publicUrl": "https://netent.com/games/druids-dream",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "druids-magic",
+      "name": "Druid’s Magic",
+      "publicUrl": "https://netent.com/games/druids-magic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eggomatic",
+      "name": "EggOMatic",
+      "publicUrl": "https://netent.com/games/eggomatic",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elements-the-awakening",
+      "name": "Elements: The Awakening",
+      "publicUrl": "https://netent.com/games/elements-the-awakening",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elk-hunter",
+      "name": "Elk Hunter",
+      "publicUrl": "https://netent.com/games/elk-hunter",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "excalibur",
+      "name": "Excalibur",
+      "publicUrl": "https://netent.com/games/excalibur",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fairytale-legends-hansel-and-gretel",
+      "name": "Fairytale Legends: Hansel and Gretel",
+      "publicUrl": "https://netent.com/games/fairytale-legends-hansel-and-gretel",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fairytale-legends-mirror-mirror",
+      "name": "Fairytale Legends: Mirror Mirror™",
+      "publicUrl": "https://netent.com/games/fairytale-legends-mirror-mirror",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fairytale-legends-red-riding-hood",
+      "name": "Fairytale Legends: Red Riding Hood™",
+      "publicUrl": "https://netent.com/games/fairytale-legends-red-riding-hood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "finn-and-the-candy-spin",
+      "name": "Finn and the Candy Spin",
+      "publicUrl": "https://netent.com/games/finn-and-the-candy-spin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "finn-and-the-dragon-tales",
+      "name": "Finn and the Dragon Tales",
+      "publicUrl": "https://netent.com/games/finn-and-the-dragon-tales",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "finn-and-the-swirly-spin",
+      "name": "Finn and the Swirly Spin",
+      "publicUrl": "https://netent.com/games/finn-and-the-swirly-spin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "finns-golden-tavern",
+      "name": "Finn's Golden Tavern",
+      "publicUrl": "https://netent.com/games/finns-golden-tavern",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flock-me",
+      "name": "Flock Me",
+      "publicUrl": "https://netent.com/games/flock-me",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "publicUrl": "https://netent.com/games/flowers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flowers-christmas",
+      "name": "Flowers Christmas",
+      "publicUrl": "https://netent.com/games/flowers-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "football-champions-cup",
+      "name": "Football: Champions Cup",
+      "publicUrl": "https://netent.com/games/football-champions-cup",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-rangers",
+      "name": "Fortune Rangers™",
+      "publicUrl": "https://netent.com/games/fortune-rangers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-blaze",
+      "name": "Fruit Blaze",
+      "publicUrl": "https://netent.com/games/fruit-blaze",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-case",
+      "name": "Fruit Case",
+      "publicUrl": "https://netent.com/games/fruit-case",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-shop",
+      "name": "Fruit Shop",
+      "publicUrl": "https://netent.com/games/fruit-shop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-shop-christmas",
+      "name": "Fruit Shop Christmas",
+      "publicUrl": "https://netent.com/games/fruit-shop-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-shop-grand-re-opening",
+      "name": "Fruit Shop Grand Re-Opening",
+      "publicUrl": "https://netent.com/games/fruit-shop-grand-re-opening",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-shop-frenzy",
+      "name": "Fruit Shop™ Frenzy",
+      "publicUrl": "https://netent.com/games/fruit-shop-frenzy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-shop-megaways",
+      "name": "Fruit Shop™ Megaways™",
+      "publicUrl": "https://netent.com/games/fruit-shop-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-spin",
+      "name": "Fruit Spin™",
+      "publicUrl": "https://netent.com/games/fruit-spin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "funk-master",
+      "name": "Funk Master™",
+      "publicUrl": "https://netent.com/games/funk-master",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gem-crush",
+      "name": "Gem Crush™",
+      "publicUrl": "https://netent.com/games/gem-crush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ghost-pirates",
+      "name": "Ghost Pirates™",
+      "publicUrl": "https://netent.com/games/ghost-pirates",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gladiator-clash",
+      "name": "Gladiator Clash",
+      "publicUrl": "https://netent.com/games/gladiator-clash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "go-bananas",
+      "name": "Go Bananas!™",
+      "publicUrl": "https://netent.com/games/go-bananas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "godbreaker",
+      "name": "Godbreaker",
+      "publicUrl": "https://netent.com/games/godbreaker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gods-of-gold-infini-reels",
+      "name": "Gods of Gold: InfiniReels™",
+      "publicUrl": "https://netent.com/games/gods-of-gold-infini-reels",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-egg-invaders",
+      "name": "Golden Egg Invaders",
+      "publicUrl": "https://netent.com/games/golden-egg-invaders",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-grimoire",
+      "name": "Golden Grimoire™",
+      "publicUrl": "https://netent.com/games/golden-grimoire",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-realms",
+      "name": "Golden Realms",
+      "publicUrl": "https://netent.com/games/golden-realms",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-wheels-of-egypt",
+      "name": "Golden Wheels of Egypt",
+      "publicUrl": "https://netent.com/games/golden-wheels-of-egypt",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzo-goes-mental",
+      "name": "Gonzo Goes Mental",
+      "publicUrl": "https://netent.com/games/gonzo-goes-mental",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzos-gold",
+      "name": "Gonzo's Gold",
+      "publicUrl": "https://netent.com/games/gonzos-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzos-quest",
+      "name": "Gonzo's Quest",
+      "publicUrl": "https://netent.com/games/gonzos-quest",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzo-s-quest-ii-return-to-el-dorado",
+      "name": "Gonzo's Quest II: Return to El Dorado",
+      "publicUrl": "https://netent.com/games/gonzo-s-quest-ii-return-to-el-dorado",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "good-old-7s",
+      "name": "Good Old 7’s™",
+      "publicUrl": "https://netent.com/games/good-old-7s",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gorilla-kingdom",
+      "name": "Gorilla Kingdom™",
+      "publicUrl": "https://netent.com/games/gorilla-kingdom",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-spinn",
+      "name": "Grand Spinn™",
+      "publicUrl": "https://netent.com/games/grand-spinn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hall-of-gods",
+      "name": "Hall of Gods™",
+      "publicUrl": "https://netent.com/games/hall-of-gods",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "halloween-jack",
+      "name": "Halloween Jack™",
+      "publicUrl": "https://netent.com/games/halloween-jack",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-riches",
+      "name": "Happy Riches™",
+      "publicUrl": "https://netent.com/games/happy-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hooks-heroes",
+      "name": "Hook's Heroes",
+      "publicUrl": "https://netent.com/games/hooks-heroes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hotline-2",
+      "name": "Hotline 2™",
+      "publicUrl": "https://netent.com/games/hotline-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hotline",
+      "name": "Hotline™",
+      "publicUrl": "https://netent.com/games/hotline",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "imperial-riches",
+      "name": "Imperial Riches™",
+      "publicUrl": "https://netent.com/games/imperial-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "in-and-out",
+      "name": "In and Out",
+      "publicUrl": "https://netent.com/games/in-and-out",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "irish-pot-luck",
+      "name": "Irish Pot Luck™",
+      "publicUrl": "https://netent.com/games/irish-pot-luck",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-and-the-beanstalk-2",
+      "name": "Jack and the Beanstalk 2",
+      "publicUrl": "https://netent.com/games/jack-and-the-beanstalk-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-and-the-beanstalk",
+      "name": "Jack and the Beanstalk™",
+      "publicUrl": "https://netent.com/games/jack-and-the-beanstalk",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-and-the-beanstalk-remastered",
+      "name": "Jack and the Beanstalk™ Remastered",
+      "publicUrl": "https://netent.com/games/jack-and-the-beanstalk-remastered",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-hammer",
+      "name": "Jack Hammer",
+      "publicUrl": "https://netent.com/games/jack-hammer",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-hammer-2",
+      "name": "Jack Hammer 2: Fishy Business",
+      "publicUrl": "https://netent.com/games/jack-hammer-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-hammer-3",
+      "name": "Jack Hammer 3: Diamond Affair",
+      "publicUrl": "https://netent.com/games/jack-hammer-3",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-hammer-4",
+      "name": "Jack Hammer 4: Chasing the Dragon",
+      "publicUrl": "https://netent.com/games/jack-hammer-4",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-6000",
+      "name": "Jackpot 6000",
+      "publicUrl": "https://netent.com/games/jackpot-6000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jacks-or-better-double-up",
+      "name": "Jacks or Better Double Up",
+      "publicUrl": "https://netent.com/games/jacks-or-better-double-up",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jelly-belly-megaways",
+      "name": "Jelly Belly Megaways™",
+      "publicUrl": "https://netent.com/games/jelly-belly-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jimi-hendrix",
+      "name": "Jimi Hendrix Online Slot™",
+      "publicUrl": "https://netent.com/games/jimi-hendrix",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-bells-bonanza",
+      "name": "Jingle Bells Bonanza",
+      "publicUrl": "https://netent.com/games/jingle-bells-bonanza",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-spin",
+      "name": "Jingle Spin",
+      "publicUrl": "https://netent.com/games/jingle-spin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-pro",
+      "name": "Joker Pro",
+      "publicUrl": "https://netent.com/games/joker-pro",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "judgemental",
+      "name": "Judgemental",
+      "publicUrl": "https://netent.com/games/judgemental",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jumanji",
+      "name": "Jumanji",
+      "publicUrl": "https://netent.com/games/jumanji",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jungle-spirit-megaways",
+      "name": "Jungle Spirit Megaways™",
+      "publicUrl": "https://netent.com/games/jungle-spirit-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jungle-spirit-call-of-the-wild",
+      "name": "Jungle Spirit: Call of the Wild",
+      "publicUrl": "https://netent.com/games/jungle-spirit-call-of-the-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-3-kingdoms",
+      "name": "King of 3 Kingdoms",
+      "publicUrl": "https://netent.com/games/king-of-3-kingdoms",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "king-of-slots",
+      "name": "King of Slots™",
+      "publicUrl": "https://netent.com/games/king-of-slots",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "koi-princess",
+      "name": "Koi Princess™",
+      "publicUrl": "https://netent.com/games/koi-princess",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechaun-joy",
+      "name": "Leprechaun Joy",
+      "publicUrl": "https://netent.com/games/leprechaun-joy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "let-it-burn",
+      "name": "Let It Burn™",
+      "publicUrl": "https://netent.com/games/let-it-burn",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lights-camera-cash",
+      "name": "Lights, Camera, Cash!",
+      "publicUrl": "https://netent.com/games/lights-camera-cash",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lights",
+      "name": "Lights™",
+      "publicUrl": "https://netent.com/games/lights",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lock-and-pop",
+      "name": "Lock and Pop",
+      "publicUrl": "https://netent.com/games/lock-and-pop",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "long-pao",
+      "name": "Long Pao™",
+      "publicUrl": "https://netent.com/games/long-pao",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lost-relics",
+      "name": "Lost Relics™",
+      "publicUrl": "https://netent.com/games/lost-relics",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-angler-a-snowy-catch",
+      "name": "Lucky Angler: A Snowy Catch",
+      "publicUrl": "https://netent.com/games/lucky-angler-a-snowy-catch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-lab",
+      "name": "Magic Lab™",
+      "publicUrl": "https://netent.com/games/magic-lab",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-maid-cafe",
+      "name": "Magic Maid Cafe™",
+      "publicUrl": "https://netent.com/games/magic-maid-cafe",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-fortune",
+      "name": "Mega Fortune™",
+      "publicUrl": "https://netent.com/games/mega-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-joker",
+      "name": "Mega Joker",
+      "publicUrl": "https://netent.com/games/mega-joker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mercy-of-the-gods",
+      "name": "Mercy of the Gods™",
+      "publicUrl": "https://netent.com/games/mercy-of-the-gods",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mermaids",
+      "name": "Mermaids™",
+      "publicUrl": "https://netent.com/games/mermaids",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mexican-standoff",
+      "name": "Mexican Standoff",
+      "publicUrl": "https://netent.com/games/mexican-standoff",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "milkshake-xxxtreme",
+      "name": "Milkshake™ XXXtreme",
+      "publicUrl": "https://netent.com/games/milkshake-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mine-blown",
+      "name": "Mine Blown™",
+      "publicUrl": "https://netent.com/games/mine-blown",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monopoly-money-line",
+      "name": "MONOPOLY Money Line",
+      "publicUrl": "https://netent.com/games/monopoly-money-line",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "motorhead",
+      "name": "Motörhead™",
+      "publicUrl": "https://netent.com/games/motorhead",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ms-robin-hood",
+      "name": "Ms Robin Hood",
+      "publicUrl": "https://netent.com/games/ms-robin-hood",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mummy-megaways",
+      "name": "Mummy™ Megaways™",
+      "publicUrl": "https://netent.com/games/mummy-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mythic-maiden",
+      "name": "Mythic Maiden™",
+      "publicUrl": "https://netent.com/games/mythic-maiden",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "narcos",
+      "name": "Narcos™",
+      "publicUrl": "https://netent.com/games/narcos",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-staxx",
+      "name": "Neon Staxx™",
+      "publicUrl": "https://netent.com/games/neon-staxx",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nunchucks",
+      "name": "Nunchucks",
+      "publicUrl": "https://netent.com/games/nunchucks",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oceans-treasure",
+      "name": "Ocean's Treasure™",
+      "publicUrl": "https://netent.com/games/oceans-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ozzy-osbourne",
+      "name": "Ozzy Osbourne™",
+      "publicUrl": "https://netent.com/games/ozzy-osbourne",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pandoras-treasure",
+      "name": "Pandora’s Treasure™",
+      "publicUrl": "https://netent.com/games/pandoras-treasure",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "parthenon-2-feast-of-olympus",
+      "name": "Parthenon 2: Feast of Olympus",
+      "publicUrl": "https://netent.com/games/parthenon-2-feast-of-olympus",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "parthenon-quest-for-immortality",
+      "name": "Parthenon: Quest For Immortality™",
+      "publicUrl": "https://netent.com/games/parthenon-quest-for-immortality",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-riches-3-hog-heaven",
+      "name": "Piggy Riches 3: Hog Heaven",
+      "publicUrl": "https://netent.com/games/piggy-riches-3-hog-heaven",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-riches",
+      "name": "Piggy Riches™",
+      "publicUrl": "https://netent.com/games/piggy-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-party",
+      "name": "Pirates Party™",
+      "publicUrl": "https://netent.com/games/pirates-party",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pyramid-quest-for-immortality",
+      "name": "Pyramid: Quest for Immortality™",
+      "publicUrl": "https://netent.com/games/pyramid-quest-for-immortality",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabid-randy",
+      "name": "Rabid Randy",
+      "publicUrl": "https://netent.com/games/rabid-randy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabid-randy-dark-trails",
+      "name": "Rabid Randy Dark Trails",
+      "publicUrl": "https://netent.com/games/rabid-randy-dark-trails",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabid-randy-gone-fishing",
+      "name": "Rabid Randy Gone Fishing",
+      "publicUrl": "https://netent.com/games/rabid-randy-gone-fishing",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rage",
+      "name": "RAGE",
+      "publicUrl": "https://netent.com/games/rage",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rage-of-the-seas",
+      "name": "Rage of the Seas™",
+      "publicUrl": "https://netent.com/games/rage-of-the-seas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainforest-gold",
+      "name": "Rainforest Gold™",
+      "publicUrl": "https://netent.com/games/rainforest-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reef-raider",
+      "name": "Reef Raider™",
+      "publicUrl": "https://netent.com/games/reef-raider",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-rush-2",
+      "name": "Reel Rush 2™",
+      "publicUrl": "https://netent.com/games/reel-rush-2",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-rush-xxxtreme",
+      "name": "Reel Rush XXXtreme",
+      "publicUrl": "https://netent.com/games/reel-rush-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-rush",
+      "name": "Reel Rush™",
+      "publicUrl": "https://netent.com/games/reel-rush",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riches-of-midgard-land-and-expand",
+      "name": "Riches of Midgard: Land and Expand",
+      "publicUrl": "https://netent.com/games/riches-of-midgard-land-and-expand",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-maya",
+      "name": "Rise of Maya™",
+      "publicUrl": "https://netent.com/games/rise-of-maya",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "robin-hood-shifting-riches",
+      "name": "Robin Hood: Shifting Riches",
+      "publicUrl": "https://netent.com/games/robin-hood-shifting-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rome-the-golden-age",
+      "name": "Rome: The Golden Age",
+      "publicUrl": "https://netent.com/games/rome-the-golden-age",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulette-advanced",
+      "name": "Roulette Advanced",
+      "publicUrl": "https://netent.com/games/roulette-advanced",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulette-touch",
+      "name": "Roulette Touch",
+      "publicUrl": "https://netent.com/games/roulette-touch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-nuts",
+      "name": "Royal Nuts",
+      "publicUrl": "https://netent.com/games/royal-nuts",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santa-vs-rudolf",
+      "name": "Santa vs Rudolf",
+      "publicUrl": "https://netent.com/games/santa-vs-rudolf",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scruffy-duck",
+      "name": "Scruffy Duck",
+      "publicUrl": "https://netent.com/games/scruffy-duck",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "scudamores-super-stakes",
+      "name": "Scudamore’s Super Stakes",
+      "publicUrl": "https://netent.com/games/scudamores-super-stakes",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secret-of-the-stones-max",
+      "name": "Secret of the Stones MAX™",
+      "publicUrl": "https://netent.com/games/secret-of-the-stones-max",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secrets-of-atlantis",
+      "name": "Secrets of Atlantis",
+      "publicUrl": "https://netent.com/games/secrets-of-atlantis",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "secrets-of-christmas",
+      "name": "Secrets of Christmas™",
+      "publicUrl": "https://netent.com/games/secrets-of-christmas",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "serengeti-kings",
+      "name": "Serengeti Kings",
+      "publicUrl": "https://netent.com/games/serengeti-kings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "silverback-gold",
+      "name": "Silverback Gold™",
+      "publicUrl": "https://netent.com/games/silverback-gold",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-wars-2-powerpoints",
+      "name": "Space Wars 2™ Powerpoints™",
+      "publicUrl": "https://netent.com/games/space-wars-2-powerpoints",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-wars",
+      "name": "Space Wars™",
+      "publicUrl": "https://netent.com/games/space-wars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "space-wars-megaways-xxxtreme",
+      "name": "Space Wars™ Megaways™ XXXtreme",
+      "publicUrl": "https://netent.com/games/space-wars-megaways-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spice",
+      "name": "Spice",
+      "publicUrl": "https://netent.com/games/spice",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spinsane",
+      "name": "Spinsane™",
+      "publicUrl": "https://netent.com/games/spinsane",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spinata-grande",
+      "name": "Spiñata Grande",
+      "publicUrl": "https://netent.com/games/spinata-grande",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starburst-galaxy",
+      "name": "Starburst Galaxy™",
+      "publicUrl": "https://netent.com/games/starburst-galaxy",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starburst",
+      "name": "Starburst™",
+      "publicUrl": "https://netent.com/games/starburst",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "starburst-xxxtreme",
+      "name": "Starburst™ XXXtreme",
+      "publicUrl": "https://netent.com/games/starburst-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "steam-tower",
+      "name": "Steam Tower™",
+      "publicUrl": "https://netent.com/games/steam-tower",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stickers",
+      "name": "Stickers™",
+      "publicUrl": "https://netent.com/games/stickers",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "street-fighter-2-the-world-warrior",
+      "name": "Street Fighter™ II: The World Warrior Slot is NetEnt™",
+      "publicUrl": "https://netent.com/games/street-fighter-2-the-world-warrior",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "strolling-staxx-cubic-fruits",
+      "name": "Strolling Staxx: Cubic Fruits™",
+      "publicUrl": "https://netent.com/games/strolling-staxx-cubic-fruits",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "super-striker",
+      "name": "Super Striker™",
+      "publicUrl": "https://netent.com/games/super-striker",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "superstars",
+      "name": "Superstars™",
+      "publicUrl": "https://netent.com/games/superstars",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sweety-honey-fruity",
+      "name": "Sweety Honey Fruity™",
+      "publicUrl": "https://netent.com/games/sweety-honey-fruity",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "taco-fury-xxxtreme",
+      "name": "Taco Fury™ XXXtreme",
+      "publicUrl": "https://netent.com/games/taco-fury-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "temple-of-nudges",
+      "name": "Temple of Nudges™",
+      "publicUrl": "https://netent.com/games/temple-of-nudges",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-legend-of-shangri-la-cluster-pays",
+      "name": "The Legend of Shangri-La: Cluster Pays™",
+      "publicUrl": "https://netent.com/games/the-legend-of-shangri-la-cluster-pays",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-reel-steal",
+      "name": "The Reel Steal™",
+      "publicUrl": "https://netent.com/games/the-reel-steal",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wish-master",
+      "name": "The Wish Master™",
+      "publicUrl": "https://netent.com/games/the-wish-master",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wish-master-megaways",
+      "name": "The Wish Master™ Megaways™",
+      "publicUrl": "https://netent.com/games/the-wish-master-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wolfs-bane",
+      "name": "The Wolf's Bane™",
+      "publicUrl": "https://netent.com/games/the-wolfs-bane",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "theme-park-tickets-of-fortune-touch",
+      "name": "Theme Park: Tickets of Fortune™",
+      "publicUrl": "https://netent.com/games/theme-park-tickets-of-fortune-touch",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thrill-to-grill",
+      "name": "Thrill to Grill",
+      "publicUrl": "https://netent.com/games/thrill-to-grill",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ticket-to-wild",
+      "name": "Ticket to Wild™",
+      "publicUrl": "https://netent.com/games/ticket-to-wild",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trollpot-5000",
+      "name": "Trollpot 5000™",
+      "publicUrl": "https://netent.com/games/trollpot-5000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "turn-your-fortune",
+      "name": "Turn Your Fortune™",
+      "publicUrl": "https://netent.com/games/turn-your-fortune",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-happiness",
+      "name": "Twin Happiness™",
+      "publicUrl": "https://netent.com/games/twin-happiness",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spin",
+      "name": "Twin Spin™",
+      "publicUrl": "https://netent.com/games/twin-spin",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spin-megaways",
+      "name": "Twin Spin™ Megaways™",
+      "publicUrl": "https://netent.com/games/twin-spin-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twin-spin-xxxtreme",
+      "name": "Twin Spin™ XXXtreme",
+      "publicUrl": "https://netent.com/games/twin-spin-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "twister",
+      "name": "Twister",
+      "publicUrl": "https://netent.com/games/twister",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-night-life",
+      "name": "Vegas Night Life™",
+      "publicUrl": "https://netent.com/games/vegas-night-life",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "victorious",
+      "name": "Victorious MAX™",
+      "publicUrl": "https://netent.com/games/victorious",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings",
+      "name": "Vikings Video Slot™",
+      "publicUrl": "https://netent.com/games/vikings",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "warlords-crystals-of-power",
+      "name": "Warlords - Crystals of Power™",
+      "publicUrl": "https://netent.com/games/warlords-crystals-of-power",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "what-s-up-witches",
+      "name": "What's Up? Witches",
+      "publicUrl": "https://netent.com/games/what-s-up-witches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "whos-the-bride",
+      "name": "Who's the Bride™",
+      "publicUrl": "https://netent.com/games/whos-the-bride",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-bazaar",
+      "name": "Wild Bazaar™",
+      "publicUrl": "https://netent.com/games/wild-bazaar",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-mining-xxxtreme",
+      "name": "Wild Mining™ XXXtreme",
+      "publicUrl": "https://netent.com/games/wild-mining-xxxtreme",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-turkey",
+      "name": "Wild Turkey™",
+      "publicUrl": "https://netent.com/games/wild-turkey",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-turkey-megaways",
+      "name": "Wild Turkey™ Megaways™",
+      "publicUrl": "https://netent.com/games/wild-turkey-megaways",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-water",
+      "name": "Wild Water™",
+      "publicUrl": "https://netent.com/games/wild-water",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-west-the-great-train-heist",
+      "name": "Wild Wild West: The Great Train Heist™",
+      "publicUrl": "https://netent.com/games/wild-wild-west-the-great-train-heist",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-worlds",
+      "name": "Wild Worlds™",
+      "publicUrl": "https://netent.com/games/wild-worlds",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-o-tron-3000",
+      "name": "Wild-O-Tron 3000™",
+      "publicUrl": "https://netent.com/games/wild-o-tron-3000",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wilderland",
+      "name": "Wilderland™",
+      "publicUrl": "https://netent.com/games/wilderland",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "willys-hot-chillies",
+      "name": "Willy's Hot Chillies™",
+      "publicUrl": "https://netent.com/games/willys-hot-chillies",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wings-of-riches",
+      "name": "Wings of Riches™",
+      "publicUrl": "https://netent.com/games/wings-of-riches",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-cub",
+      "name": "Wolf Cub™",
+      "publicUrl": "https://netent.com/games/wolf-cub",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wonders-of-christmas",
+      "name": "Wonders of Christmas™",
+      "publicUrl": "https://netent.com/games/wonders-of-christmas",
+      "launchUrlOmitted": false
+    }
+  ]
+}

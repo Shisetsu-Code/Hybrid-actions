@@ -1,0 +1,577 @@
+{
+  "provider": "games_global",
+  "name": "Games Global",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 94,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "12masksoffiredrums",
+      "name": "12 Masks of Fire Drums™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "3luckyrainbowsactionboostmax",
+      "name": "3 Lucky Rainbows Action Boost Max",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "333boombankspowercombo",
+      "name": "333 Boom Banks POWER COMBO",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9blazingdiamondswowpot",
+      "name": "9 Blazing Diamonds WOWPOT",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9masksoffire",
+      "name": "9 Masks of Fire",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9maskoffirekingmillions",
+      "name": "9 Masks of Fire™ King Millions™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9masksoffirelandwin",
+      "name": "9 Masks of Fire™ Land & Win™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9potsofgoldlandwin",
+      "name": "9 Pots of Gold Land & Win™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "9potsofgoldroulette",
+      "name": "9 Pots of Gold Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "actionboostamberisland",
+      "name": "Action Boost™ Amber Island",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "actionboostgladiator",
+      "name": "Action Boost™ Gladiator",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "actionboostgorillagems",
+      "name": "Action Boost™ Gorilla Gems",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkmedusa",
+      "name": "Amazing Link Medusa",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkriches",
+      "name": "Amazing Link Riches",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkzeus",
+      "name": "Amazing Link Zeus",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkzeusepic4",
+      "name": "Amazing Link Zeus Epic 4™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkapollo",
+      "name": "Amazing Link™ Apollo",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkbounty",
+      "name": "Amazing Link™ Bounty",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkcatalleros",
+      "name": "Amazing Link™ Catalleros",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkfates",
+      "name": "Amazing Link™ Fates",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazinglinkfrenzy",
+      "name": "Amazing Link™ Frenzy",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "americangoldfever",
+      "name": "American Gold Fever",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancientfortunesposeidonwowpotmegaways",
+      "name": "Ancient Fortunes: Poseidon™ WowPot! MEGAWAYS™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arealinkdragon",
+      "name": "Area Link Dragon",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arealinkphoenix",
+      "name": "Area Link™ Phoenix",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "atlanteantreasuresmegamoolah",
+      "name": "Atlantean Treasures Mega Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "switchbaccarat",
+      "name": "Baccarat",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ballsgalorelightningdrop",
+      "name": "Balls Galore Lightning Drop™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bingote",
+      "name": "Bingote",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazingbisongoldblitz",
+      "name": "Blazing Bison™ Gold Blitz™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonuspokerpowerpoker",
+      "name": "Bonus Poker - Power Poker",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bookofatemwowpot",
+      "name": "Book of Atem WowPot",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "carnavallinkwin",
+      "name": "Carnaval Link&Win™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "catrina",
+      "name": "Catrina",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cerberusgold",
+      "name": "Cerberus Gold",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "darkwaterspowercombo",
+      "name": "Dark Waters Power Combo™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deucesjokerpowerpoker",
+      "name": "Deuces & Joker - Power Poker",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diceoriginals",
+      "name": "Dice - Originals",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "doubledoublebonuspowerpoker",
+      "name": "Double Double Bonus - Power Poker",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dungeonsdragonspowercombo",
+      "name": "DUNGEONS & DRAGONS POWER COMBO™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "europeanblackjack",
+      "name": "European Blackjack",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "switcheuropeanroulette",
+      "name": "European Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "extrememultifireroulette",
+      "name": "Extreme Multifire Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fireandrosesjoker",
+      "name": "Fire and Roses Joker™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishinpotsofgold",
+      "name": "Fishin' Pots Of Gold",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flyx",
+      "name": "FlyX",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flyxcashboosta",
+      "name": "FlyX™ Cash Booster™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fu88",
+      "name": "Fu 88",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "givemegoldrisingrewardskingmillions",
+      "name": "Give Me Gold Rising Rewards King Millions",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldblitzextreme",
+      "name": "Gold Blitz Extreme™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldblitzultimate",
+      "name": "Gold Blitz Ultimate",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldblitz",
+      "name": "Gold Blitz™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldblitzkingmillions",
+      "name": "Gold Blitz™ King Millions™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldfactoryjackpots",
+      "name": "Gold Factory Jackpots Maple Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldrushexpress",
+      "name": "Gold Rush Express",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "goldentigerjackpotfortunes",
+      "name": "Golden Tiger: Jackpot Fortunes™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortalromancemegamoolah",
+      "name": "Immortal Romance Mega Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortalromancevideobingo",
+      "name": "Immortal Romance Video Bingo",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortalromanceii",
+      "name": "Immortal Romance™ II",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jacksorbetterpowerpoker",
+      "name": "Jacks or Better Power Poker",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "laracrofttombofthesun",
+      "name": "Lara Croft®: Tomb of the Sun™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "limbooriginals",
+      "name": "LaunchX™ - Originals",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lowstakesroulette",
+      "name": "Low Stakes Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megamoneywheel",
+      "name": "Mega Money Wheel",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "megamoolah",
+      "name": "Mega Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "minesoriginals",
+      "name": "Mines Originals",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moneymayweather",
+      "name": "Money Mayweather",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multifireroulette",
+      "name": "Multifire Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multihandclassicblackjack",
+      "name": "Multihand Classic Blackjack",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pachinko",
+      "name": "Pachinko",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "playboyfortunes",
+      "name": "Playboy Fortunes",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "playboyfortuneskingmillions",
+      "name": "Playboy® Fortunes™ King Millions™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "plinkooriginals",
+      "name": "Plinball™ - Originals",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "premierblackjackwithsidebets",
+      "name": "Premier Blackjack with Side Bets",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "queenofalexandriawowpot",
+      "name": "Queen of Alexandria WOWPOT",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "risingrewards",
+      "name": "Rising Rewards",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rockpaperscissorsoriginals",
+      "name": "Rock Paper Scissors - Originals",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "romefightforgolddeluxe",
+      "name": "Rome Fight For Gold Deluxe",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulettemegamoolah",
+      "name": "Roulette Mega Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roulettewithrachael",
+      "name": "Roulette with Rachael",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sicbo",
+      "name": "Sic Bo",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sistersofozwowpot",
+      "name": "Sisters of Oz WowPot",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "threewheelroulette",
+      "name": "Three Wheel Roulette",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunderstruckiivideobingo",
+      "name": "Thunderstruck II Video Bingo",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunderstruckwildlightningmegamoolah",
+      "name": "Thunderstruck Wild Lightning Mega Moolah",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thunderstruckflyx",
+      "name": "Thunderstruck™ FlyX™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ufcgoldblitzextreme",
+      "name": "UFC Gold Blitz Extreme™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vinniejonesblackjack",
+      "name": "Vinnie Jones Blackjack",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "whackthebelltapncash",
+      "name": "Whack the Bell - Tap n Cash™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheelofwinners",
+      "name": "Wheel of Winners",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wheelofwishes",
+      "name": "Wheel of Wishes",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildlinkfrenzy",
+      "name": "Wild Link Frenzy",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wildscoopstapncash",
+      "name": "Wild Scoops - Tap n Cash™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wwebonusrumblegoldblitz",
+      "name": "WWE Bonus Rumble™: Gold Blitz™",
+      "publicUrl": "https://www.gamesglobal.com/Products",
+      "launchUrlOmitted": false
+    }
+  ]
+}

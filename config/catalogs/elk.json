@@ -1,0 +1,961 @@
+{
+  "provider": "elk",
+  "name": "ELK Studios",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 158,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "arcanum",
+      "name": "Arcanum",
+      "publicUrl": "https://www.elk-studios.com/games/arcanum/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ashoka",
+      "name": "Ashoka",
+      "publicUrl": "https://www.elk-studios.com/games/ashoka/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ashoka-eternal",
+      "name": "Ashoka Eternal",
+      "publicUrl": "https://www.elk-studios.com/games/ashoka-eternal/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "avalon-gold",
+      "name": "Avalon Gold",
+      "publicUrl": "https://www.elk-studios.com/games/avalon-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "avalon-x",
+      "name": "Avalon X",
+      "publicUrl": "https://www.elk-studios.com/games/avalon-x/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bamboo-pandits",
+      "name": "Bamboo Pandits",
+      "publicUrl": "https://www.elk-studios.com/games/bamboo-pandits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "birthday",
+      "name": "Birthday",
+      "publicUrl": "https://www.elk-studios.com/games/birthday/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "black-river-gold",
+      "name": "Black River Gold",
+      "publicUrl": "https://www.elk-studios.com/games/black-river-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blood-lust",
+      "name": "Blood Lust",
+      "publicUrl": "https://www.elk-studios.com/games/blood-lust/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bloopers",
+      "name": "Bloopers",
+      "publicUrl": "https://www.elk-studios.com/games/bloopers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bompers",
+      "name": "Bompers",
+      "publicUrl": "https://www.elk-studios.com/games/bompers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bonzos-bananza",
+      "name": "Bonzos Bananza",
+      "publicUrl": "https://www.elk-studios.com/games/bonzos-bananza/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-sam",
+      "name": "Book Of Sam",
+      "publicUrl": "https://www.elk-studios.com/games/book-of-sam/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-toro",
+      "name": "Book Of Toro",
+      "publicUrl": "https://www.elk-studios.com/games/book-of-toro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "boomberries",
+      "name": "Boomberries",
+      "publicUrl": "https://www.elk-studios.com/games/boomberries/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-toro",
+      "name": "Buffalo Toro",
+      "publicUrl": "https://www.elk-studios.com/games/buffalo-toro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buggin",
+      "name": "Buggin",
+      "publicUrl": "https://www.elk-studios.com/games/buggin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bushido-gold",
+      "name": "Bushido Gold",
+      "publicUrl": "https://www.elk-studios.com/games/bushido-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "catemple",
+      "name": "Catemple",
+      "publicUrl": "https://www.elk-studios.com/games/catemple/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cathedral-9",
+      "name": "Cathedral 9",
+      "publicUrl": "https://www.elk-studios.com/games/cathedral-9/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chi",
+      "name": "Chi",
+      "publicUrl": "https://www.elk-studios.com/games/chi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cluster-kingdom",
+      "name": "Cluster Kingdom",
+      "publicUrl": "https://www.elk-studios.com/games/cluster-kingdom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cluster-slide",
+      "name": "Cluster Slide",
+      "publicUrl": "https://www.elk-studios.com/games/cluster-slide/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coba",
+      "name": "Coba",
+      "publicUrl": "https://www.elk-studios.com/games/coba/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "coba-reborn",
+      "name": "Coba Reborn",
+      "publicUrl": "https://www.elk-studios.com/games/coba-reborn/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "concrete-cowboys",
+      "name": "Concrete Cowboys",
+      "publicUrl": "https://www.elk-studios.com/games/concrete-cowboys/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crescendo",
+      "name": "Crescendo",
+      "publicUrl": "https://www.elk-studios.com/games/crescendo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crusader",
+      "name": "Crusader",
+      "publicUrl": "https://www.elk-studios.com/games/crusader/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus",
+      "name": "Cygnus",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus-2",
+      "name": "Cygnus 2",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus-3",
+      "name": "Cygnus 3",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus-4",
+      "name": "Cygnus 4",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus-4/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus-5",
+      "name": "Cygnus 5",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cygnus-6",
+      "name": "Cygnus 6",
+      "publicUrl": "https://www.elk-studios.com/games/cygnus-6/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dam-beavers",
+      "name": "Dam Beavers",
+      "publicUrl": "https://www.elk-studios.com/games/dam-beavers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dead-mans-gold",
+      "name": "Dead Mans Gold",
+      "publicUrl": "https://www.elk-studios.com/games/dead-mans-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadcode",
+      "name": "Deadcode",
+      "publicUrl": "https://www.elk-studios.com/games/deadcode/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "deadeye",
+      "name": "Deadeye",
+      "publicUrl": "https://www.elk-studios.com/games/deadeye/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diablo-reels",
+      "name": "Diablo Reels",
+      "publicUrl": "https://www.elk-studios.com/games/diablo-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dirty-dawgs-of-nitropolis",
+      "name": "Dirty Dawgs Of Nitropolis",
+      "publicUrl": "https://www.elk-studios.com/games/dirty-dawgs-of-nitropolis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dj-wild",
+      "name": "Dj Wild",
+      "publicUrl": "https://www.elk-studios.com/games/dj-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dream-diver",
+      "name": "Dream Diver",
+      "publicUrl": "https://www.elk-studios.com/games/dream-diver/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dreamzone",
+      "name": "Dreamzone",
+      "publicUrl": "https://www.elk-studios.com/games/dreamzone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dropz",
+      "name": "Dropz",
+      "publicUrl": "https://www.elk-studios.com/games/dropz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ecuador-gold",
+      "name": "Ecuador Gold",
+      "publicUrl": "https://www.elk-studios.com/games/ecuador-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "electric-sam",
+      "name": "Electric Sam",
+      "publicUrl": "https://www.elk-studios.com/games/electric-sam/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fate-of-fortune",
+      "name": "Fate Of Fortune",
+      "publicUrl": "https://www.elk-studios.com/games/fate-of-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fish-and-bird",
+      "name": "Fish And Bird",
+      "publicUrl": "https://www.elk-studios.com/games/fish-and-bird/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "freeway-7",
+      "name": "Freeway 7",
+      "publicUrl": "https://www.elk-studios.com/games/freeway-7/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "frogblox",
+      "name": "Frogblox",
+      "publicUrl": "https://www.elk-studios.com/games/frogblox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giraffalot",
+      "name": "Giraffalot",
+      "publicUrl": "https://www.elk-studios.com/games/giraffalot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gladiatoro",
+      "name": "Gladiatoro",
+      "publicUrl": "https://www.elk-studios.com/games/gladiatoro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gritty-kitty",
+      "name": "Gritty Kitty",
+      "publicUrl": "https://www.elk-studios.com/games/gritty-kitty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grizzly-stampede",
+      "name": "Grizzly Stampede",
+      "publicUrl": "https://www.elk-studios.com/games/grizzly-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heist-guys",
+      "name": "Heist Guys",
+      "publicUrl": "https://www.elk-studios.com/games/heist-guys/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "heist-guys-2",
+      "name": "Heist Guys 2",
+      "publicUrl": "https://www.elk-studios.com/games/heist-guys-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hidden",
+      "name": "Hidden",
+      "publicUrl": "https://www.elk-studios.com/games/hidden/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit-it-big",
+      "name": "Hit It Big",
+      "publicUrl": "https://www.elk-studios.com/games/hit-it-big/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit-it-hard",
+      "name": "Hit It Hard",
+      "publicUrl": "https://www.elk-studios.com/games/hit-it-hard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ho-ho-tower",
+      "name": "Ho Ho Tower",
+      "publicUrl": "https://www.elk-studios.com/games/ho-ho-tower/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hong-kong-tower",
+      "name": "Hong Kong Tower",
+      "publicUrl": "https://www.elk-studios.com/games/hong-kong-tower/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "huff-n-puff-collectr",
+      "name": "Huff N Puff Collectr",
+      "publicUrl": "https://www.elk-studios.com/games/huff-n-puff-collectr/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hula-balua",
+      "name": "Hula Balua",
+      "publicUrl": "https://www.elk-studios.com/games/hula-balua/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-wolf",
+      "name": "Ice Wolf",
+      "publicUrl": "https://www.elk-studios.com/games/ice-wolf/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ice-wolf-2",
+      "name": "Ice Wolf 2",
+      "publicUrl": "https://www.elk-studios.com/games/ice-wolf-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "illogicool",
+      "name": "Illogicool",
+      "publicUrl": "https://www.elk-studios.com/games/illogicool/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "in-the-zone",
+      "name": "In The Zone",
+      "publicUrl": "https://www.elk-studios.com/games/in-the-zone/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "io",
+      "name": "Io",
+      "publicUrl": "https://www.elk-studios.com/games/io/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ivanhoe",
+      "name": "Ivanhoe",
+      "publicUrl": "https://www.elk-studios.com/games/ivanhoe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "j-pop",
+      "name": "J Pop",
+      "publicUrl": "https://www.elk-studios.com/games/j-pop/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jeff-scully",
+      "name": "Jeff Scully",
+      "publicUrl": "https://www.elk-studios.com/games/jeff-scully/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joker-gems",
+      "name": "Joker Gems",
+      "publicUrl": "https://www.elk-studios.com/games/joker-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "kaiju",
+      "name": "Kaiju",
+      "publicUrl": "https://www.elk-studios.com/games/kaiju/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "katmandu-gold",
+      "name": "Katmandu Gold",
+      "publicUrl": "https://www.elk-studios.com/games/katmandu-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "katmandu-x",
+      "name": "Katmandu X",
+      "publicUrl": "https://www.elk-studios.com/games/katmandu-x/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knight-fight",
+      "name": "Knight Fight",
+      "publicUrl": "https://www.elk-studios.com/games/knight-fight/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knockout-diamonds",
+      "name": "Knockout Diamonds",
+      "publicUrl": "https://www.elk-studios.com/games/knockout-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lakes-five",
+      "name": "Lakes Five",
+      "publicUrl": "https://www.elk-studios.com/games/lakes-five/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "langley-street-23",
+      "name": "Langley Street 23",
+      "publicUrl": "https://www.elk-studios.com/games/langley-street-23/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "man-vs-gator",
+      "name": "Man Vs Gator",
+      "publicUrl": "https://www.elk-studios.com/games/man-vs-gator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "micro-knights",
+      "name": "Micro Knights",
+      "publicUrl": "https://www.elk-studios.com/games/micro-knights/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mine-defender",
+      "name": "Mine Defender",
+      "publicUrl": "https://www.elk-studios.com/games/mine-defender/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "miss-wildfire",
+      "name": "Miss Wildfire",
+      "publicUrl": "https://www.elk-studios.com/games/miss-wildfire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-orbs",
+      "name": "Mystic Orbs",
+      "publicUrl": "https://www.elk-studios.com/games/mystic-orbs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "night-trax",
+      "name": "Night Trax",
+      "publicUrl": "https://www.elk-studios.com/games/night-trax/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nightmaker",
+      "name": "Nightmaker",
+      "publicUrl": "https://www.elk-studios.com/games/nightmaker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis",
+      "name": "Nitropolis",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis-2",
+      "name": "Nitropolis 2",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis-3",
+      "name": "Nitropolis 3",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis-4",
+      "name": "Nitropolis 4",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis-4/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis-5",
+      "name": "Nitropolis 5",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nitropolis-tv",
+      "name": "Nitropolis Tv",
+      "publicUrl": "https://www.elk-studios.com/games/nitropolis-tv/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "orbitfall",
+      "name": "Orbitfall",
+      "publicUrl": "https://www.elk-studios.com/games/orbitfall/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oxygen",
+      "name": "Oxygen",
+      "publicUrl": "https://www.elk-studios.com/games/oxygen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oxygen-2",
+      "name": "Oxygen 2",
+      "publicUrl": "https://www.elk-studios.com/games/oxygen-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "oxygen-3",
+      "name": "Oxygen 3",
+      "publicUrl": "https://www.elk-studios.com/games/oxygen-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pacific-gold",
+      "name": "Pacific Gold",
+      "publicUrl": "https://www.elk-studios.com/games/pacific-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-graveyard",
+      "name": "Phoenix Graveyard",
+      "publicUrl": "https://www.elk-studios.com/games/phoenix-graveyard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-graveyard-ii",
+      "name": "Phoenix Graveyard Ii",
+      "publicUrl": "https://www.elk-studios.com/games/phoenix-graveyard-ii/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots",
+      "name": "Pirots",
+      "publicUrl": "https://www.elk-studios.com/games/pirots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-2",
+      "name": "Pirots 2",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-4",
+      "name": "Pirots 4",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-4/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-4-frozen-fury",
+      "name": "Pirots 4 Frozen Fury",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-4-frozen-fury/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-4-inferno",
+      "name": "Pirots 4 Inferno",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-4-inferno/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-5",
+      "name": "Pirots 5",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots-x",
+      "name": "Pirots X",
+      "publicUrl": "https://www.elk-studios.com/games/pirots-x/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirots3",
+      "name": "Pirots3",
+      "publicUrl": "https://www.elk-studios.com/games/pirots3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "platooners",
+      "name": "Platooners",
+      "publicUrl": "https://www.elk-studios.com/games/platooners/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "poltava",
+      "name": "Poltava",
+      "publicUrl": "https://www.elk-studios.com/games/poltava/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "propaganda",
+      "name": "Propaganda",
+      "publicUrl": "https://www.elk-studios.com/games/propaganda/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "propaganda-2",
+      "name": "Propaganda 2",
+      "publicUrl": "https://www.elk-studios.com/games/propaganda-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pug-thugs-of-nitropolis",
+      "name": "Pug Thugs Of Nitropolis",
+      "publicUrl": "https://www.elk-studios.com/games/pug-thugs-of-nitropolis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "quackers",
+      "name": "Quackers",
+      "publicUrl": "https://www.elk-studios.com/games/quackers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rabbit-royale",
+      "name": "Rabbit Royale",
+      "publicUrl": "https://www.elk-studios.com/games/rabbit-royale/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reindeer-royale",
+      "name": "Reindeer Royale",
+      "publicUrl": "https://www.elk-studios.com/games/reindeer-royale/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "respin-circus",
+      "name": "Respin Circus",
+      "publicUrl": "https://www.elk-studios.com/games/respin-circus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rex-stampede",
+      "name": "Rex Stampede",
+      "publicUrl": "https://www.elk-studios.com/games/rex-stampede/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rogue-rats",
+      "name": "Rogue Rats",
+      "publicUrl": "https://www.elk-studios.com/games/rogue-rats/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "route-777",
+      "name": "Route 777",
+      "publicUrl": "https://www.elk-studios.com/games/route-777/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "publicUrl": "https://www.elk-studios.com/games/ryze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ryze-2",
+      "name": "Ryze 2",
+      "publicUrl": "https://www.elk-studios.com/games/ryze-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sam-on-the-beach",
+      "name": "Sam On The Beach",
+      "publicUrl": "https://www.elk-studios.com/games/sam-on-the-beach/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shadow-shifter",
+      "name": "Shadow Shifter",
+      "publicUrl": "https://www.elk-studios.com/games/shadow-shifter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "skibblings",
+      "name": "Skibblings",
+      "publicUrl": "https://www.elk-studios.com/games/skibblings/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "slurpy",
+      "name": "Slurpy",
+      "publicUrl": "https://www.elk-studios.com/games/slurpy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spark-of-creation",
+      "name": "Spark Of Creation",
+      "publicUrl": "https://www.elk-studios.com/games/spark-of-creation/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "squeeze",
+      "name": "Squeeze",
+      "publicUrl": "https://www.elk-studios.com/games/squeeze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stars-of-orion",
+      "name": "Stars Of Orion",
+      "publicUrl": "https://www.elk-studios.com/games/stars-of-orion/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sumo-sumo",
+      "name": "Sumo Sumo",
+      "publicUrl": "https://www.elk-studios.com/games/sumo-sumo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "taco-brothers",
+      "name": "Taco Brothers",
+      "publicUrl": "https://www.elk-studios.com/games/taco-brothers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "taco-brothers-deralied",
+      "name": "Taco Brothers Deralied",
+      "publicUrl": "https://www.elk-studios.com/games/taco-brothers-deralied/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "taco-brothers-saving-christmas",
+      "name": "Taco Brothers Saving Christmas",
+      "publicUrl": "https://www.elk-studios.com/games/taco-brothers-saving-christmas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tahiti-gold",
+      "name": "Tahiti Gold",
+      "publicUrl": "https://www.elk-studios.com/games/tahiti-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-grand-galore",
+      "name": "The Grand Galore",
+      "publicUrl": "https://www.elk-studios.com/games/the-grand-galore/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wiz",
+      "name": "The Wiz",
+      "publicUrl": "https://www.elk-studios.com/games/the-wiz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thoro",
+      "name": "Thoro",
+      "publicUrl": "https://www.elk-studios.com/games/thoro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tinkerbot",
+      "name": "Tinkerbot",
+      "publicUrl": "https://www.elk-studios.com/games/tinkerbot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "toro-7s",
+      "name": "Toro 7S",
+      "publicUrl": "https://www.elk-studios.com/games/toro-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "toro-shogun",
+      "name": "Toro Shogun",
+      "publicUrl": "https://www.elk-studios.com/games/toro-shogun/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "toro911",
+      "name": "Toro911",
+      "publicUrl": "https://www.elk-studios.com/games/toro911/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropicool",
+      "name": "Tropicool",
+      "publicUrl": "https://www.elk-studios.com/games/tropicool/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropicool-2",
+      "name": "Tropicool 2",
+      "publicUrl": "https://www.elk-studios.com/games/tropicool-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropicool-3",
+      "name": "Tropicool 3",
+      "publicUrl": "https://www.elk-studios.com/games/tropicool-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropicool-4",
+      "name": "Tropicool 4",
+      "publicUrl": "https://www.elk-studios.com/games/tropicool-4/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tropicool-5",
+      "name": "Tropicool 5",
+      "publicUrl": "https://www.elk-studios.com/games/tropicool-5/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valhall-gold",
+      "name": "Valhall Gold",
+      "publicUrl": "https://www.elk-studios.com/games/valhall-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "publicUrl": "https://www.elk-studios.com/games/valkyrie/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vegas-diamonds",
+      "name": "Vegas Diamonds",
+      "publicUrl": "https://www.elk-studios.com/games/vegas-diamonds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "visitors",
+      "name": "Visitors",
+      "publicUrl": "https://www.elk-studios.com/games/visitors/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "voodoo-gold",
+      "name": "Voodoo Gold",
+      "publicUrl": "https://www.elk-studios.com/games/voodoo-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-toro",
+      "name": "Wild Toro",
+      "publicUrl": "https://www.elk-studios.com/games/wild-toro/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-toro-2",
+      "name": "Wild Toro 2",
+      "publicUrl": "https://www.elk-studios.com/games/wild-toro-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-toro-3",
+      "name": "Wild Toro 3",
+      "publicUrl": "https://www.elk-studios.com/games/wild-toro-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "win-win",
+      "name": "Win Win",
+      "publicUrl": "https://www.elk-studios.com/games/win-win/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wonder-train",
+      "name": "Wonder Train",
+      "publicUrl": "https://www.elk-studios.com/games/wonder-train/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "world-eaters",
+      "name": "World Eaters",
+      "publicUrl": "https://www.elk-studios.com/games/world-eaters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zaplab",
+      "name": "Zaplab",
+      "publicUrl": "https://www.elk-studios.com/games/zaplab/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zulu-gold",
+      "name": "Zulu Gold",
+      "publicUrl": "https://www.elk-studios.com/games/zulu-gold/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

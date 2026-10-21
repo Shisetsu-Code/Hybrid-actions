@@ -1,0 +1,2389 @@
+{
+  "provider": "redtiger",
+  "name": "Red Tiger",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 396,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 0,
+  "games": [
+    {
+      "id": "10001-nights",
+      "name": "10,001 Nights",
+      "publicUrl": "https://games.evolution.com/slots/10001-nights/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "10001-nights-megaways",
+      "name": "10,001 Nights Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/10001-nights-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "1942-sky-warrior",
+      "name": "1942: Sky Warrior",
+      "publicUrl": "https://games.evolution.com/slots/1942-sky-warrior/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "24-hour-grand-prix",
+      "name": "24 Hour Grand Prix",
+      "publicUrl": "https://games.evolution.com/slots/24-hour-grand-prix/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "4squad",
+      "name": "4Squad",
+      "publicUrl": "https://games.evolution.com/slots/4squad/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "5-families",
+      "name": "5 Families",
+      "publicUrl": "https://games.evolution.com/slots/5-families/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-diamond-strike",
+      "name": "777 Diamond Strike",
+      "publicUrl": "https://games.evolution.com/slots/777-diamond-strike/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-strike",
+      "name": "777 Strike",
+      "publicUrl": "https://games.evolution.com/slots/777-strike/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "777-super-strike",
+      "name": "777 Super Strike",
+      "publicUrl": "https://games.evolution.com/slots/777-super-strike/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "7s-luck",
+      "name": "7’s Luck",
+      "publicUrl": "https://games.evolution.com/slots/7s-luck/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "80s-spins",
+      "name": "80’s Spins",
+      "publicUrl": "https://games.evolution.com/slots/80s-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "age-of-akkadia",
+      "name": "Age of Akkadia",
+      "publicUrl": "https://games.evolution.com/slots/age-of-akkadia/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "agent-royale",
+      "name": "Agent Royale",
+      "publicUrl": "https://games.evolution.com/slots/agent-royale/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "alexander-the-great-world-conqueror",
+      "name": "Alexander The Great: World Conqueror",
+      "publicUrl": "https://games.evolution.com/slots/alexander-the-great-world-conqueror/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ali-babas-luck",
+      "name": "Ali Baba’s Luck",
+      "publicUrl": "https://games.evolution.com/slots/ali-babas-luck/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ali-babas-luck-megaways",
+      "name": "Ali Baba’s Luck Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/ali-babas-luck-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ali-babas-luck-power-reels",
+      "name": "Ali Baba’s Luck Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/ali-babas-luck-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "amazon-island-megaways",
+      "name": "Amazon Island Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/amazon-island-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-disco",
+      "name": "Ancient Disco",
+      "publicUrl": "https://games.evolution.com/slots/ancient-disco/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancient-script",
+      "name": "Ancient Script",
+      "publicUrl": "https://games.evolution.com/slots/ancient-script/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ancients-blessing",
+      "name": "Ancients’ Blessing",
+      "publicUrl": "https://games.evolution.com/slots/ancients-blessing/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "apache-way",
+      "name": "Apache Way",
+      "publicUrl": "https://games.evolution.com/slots/apache-way/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arc-of-zeus",
+      "name": "Arc of Zeus",
+      "publicUrl": "https://games.evolution.com/slots/arc-of-zeus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "arcade-bomb",
+      "name": "Arcade Bomb",
+      "publicUrl": "https://games.evolution.com/slots/arcade-bomb/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "archdragon-king",
+      "name": "Archdragon King",
+      "publicUrl": "https://games.evolution.com/slots/archdragon-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "asian-fortune",
+      "name": "Asian Fortune",
+      "publicUrl": "https://games.evolution.com/slots/asian-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "astronaut",
+      "name": "Astronaut",
+      "publicUrl": "https://games.evolution.com/slots/astronaut/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "astros",
+      "name": "Astros",
+      "publicUrl": "https://games.evolution.com/slots/astros/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "publicUrl": "https://games.evolution.com/slots/atlantis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aurum-codex",
+      "name": "Aurum Codex",
+      "publicUrl": "https://games.evolution.com/slots/aurum-codex/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-legends-spins",
+      "name": "Aztec Legends Spins",
+      "publicUrl": "https://games.evolution.com/slots/aztec-legends-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-shamans-megaways",
+      "name": "Aztec Shamans Megaways",
+      "publicUrl": "https://games.evolution.com/slots/aztec-shamans-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-spins",
+      "name": "Aztec Spins",
+      "publicUrl": "https://games.evolution.com/slots/aztec-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "aztec-tribute",
+      "name": "Aztec Tribute",
+      "publicUrl": "https://games.evolution.com/slots/aztec-tribute/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bandit-gambit",
+      "name": "Bandit Gambit",
+      "publicUrl": "https://games.evolution.com/slots/bandit-gambit/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bass-boss",
+      "name": "Bass Boss",
+      "publicUrl": "https://games.evolution.com/slots/bass-boss/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bass-boss-megaways",
+      "name": "Bass Boss Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/bass-boss-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "beriched",
+      "name": "Beriched",
+      "publicUrl": "https://games.evolution.com/slots/beriched/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "betty-boris-and-boo",
+      "name": "Betty, Boris and Boo",
+      "publicUrl": "https://games.evolution.com/slots/betty-boris-and-boo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-cat-rescue-megaways",
+      "name": "Big Cat Rescue Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/big-cat-rescue-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-gains",
+      "name": "Big Gains",
+      "publicUrl": "https://games.evolution.com/slots/big-gains/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "big-rich-turkeys",
+      "name": "Big Rich Turkeys",
+      "publicUrl": "https://games.evolution.com/slots/big-rich-turkeys/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "biggest-vault",
+      "name": "Biggest Vault",
+      "publicUrl": "https://games.evolution.com/slots/biggest-vault/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blazing-clusters",
+      "name": "Blazing Clusters",
+      "publicUrl": "https://games.evolution.com/slots/blazing-clusters/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blobsters-clusterbuster",
+      "name": "Blobsters Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/blobsters-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blood-suckers-megaways",
+      "name": "Blood Suckers™ Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/blood-suckers-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bloody-murder",
+      "name": "Bloody Murder",
+      "publicUrl": "https://games.evolution.com/slots/bloody-murder/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "blue-diamond",
+      "name": "Blue Diamond",
+      "publicUrl": "https://games.evolution.com/slots/blue-diamond/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bombuster",
+      "name": "Bombuster",
+      "publicUrl": "https://games.evolution.com/slots/bombuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "book-of-desert-legends",
+      "name": "Book Of Desert Legends",
+      "publicUrl": "https://games.evolution.com/slots/book-of-desert-legends/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bounty-cove",
+      "name": "Bounty Cove",
+      "publicUrl": "https://games.evolution.com/slots/bounty-cove/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bounty-raid",
+      "name": "Bounty Raid",
+      "publicUrl": "https://games.evolution.com/slots/bounty-raid/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bounty-raid-2",
+      "name": "Bounty Raid 2",
+      "publicUrl": "https://games.evolution.com/slots/bounty-raid-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-collector",
+      "name": "Buffalo Collector",
+      "publicUrl": "https://games.evolution.com/slots/buffalo-collector/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "buffalo-mania-megaways",
+      "name": "Buffalo Mania Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/buffalo-mania-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "bugsys-bar",
+      "name": "Bugsy’s Bar",
+      "publicUrl": "https://games.evolution.com/slots/bugsys-bar/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cai-shen-168",
+      "name": "Cai Shen 168",
+      "publicUrl": "https://games.evolution.com/slots/cai-shen-168/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cake-ice-cream",
+      "name": "Cake & Ice Cream",
+      "publicUrl": "https://games.evolution.com/slots/cake-ice-cream/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cannonball-cash",
+      "name": "Cannonball Cash",
+      "publicUrl": "https://games.evolution.com/slots/cannonball-cash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "case-closed",
+      "name": "Case Closed",
+      "publicUrl": "https://games.evolution.com/slots/case-closed/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-explorer",
+      "name": "Cash Explorer",
+      "publicUrl": "https://games.evolution.com/slots/cash-explorer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-goddess",
+      "name": "Cash Goddess",
+      "publicUrl": "https://games.evolution.com/slots/cash-goddess/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-lamps",
+      "name": "Cash Lamps",
+      "publicUrl": "https://games.evolution.com/slots/cash-lamps/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-or-nothing",
+      "name": "Cash or Nothing",
+      "publicUrl": "https://games.evolution.com/slots/cash-or-nothing/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-ultimate",
+      "name": "Cash Ultimate",
+      "publicUrl": "https://games.evolution.com/slots/cash-ultimate/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-volt",
+      "name": "Cash Volt",
+      "publicUrl": "https://games.evolution.com/slots/cash-volt/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cash-volt-supercharged",
+      "name": "Cash Volt Supercharged",
+      "publicUrl": "https://games.evolution.com/slots/cash-volt-supercharged/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "casino-spin",
+      "name": "Casino Spin",
+      "publicUrl": "https://games.evolution.com/slots/casino-spin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chinese-treasures",
+      "name": "Chinese Treasures",
+      "publicUrl": "https://games.evolution.com/slots/chinese-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "chinese-wilds",
+      "name": "Chinese Wilds",
+      "publicUrl": "https://games.evolution.com/slots/chinese-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-morning",
+      "name": "Christmas Morning",
+      "publicUrl": "https://games.evolution.com/slots/christmas-morning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "christmas-multihops",
+      "name": "Christmas Multihops™",
+      "publicUrl": "https://games.evolution.com/slots/christmas-multihops/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cinderellas-ball",
+      "name": "Cinderella’s Ball",
+      "publicUrl": "https://games.evolution.com/slots/cinderellas-ball/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cirque-de-la-fortune",
+      "name": "Cirque de la Fortune",
+      "publicUrl": "https://games.evolution.com/slots/cirque-de-la-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clash-of-the-beasts",
+      "name": "Clash of the Beasts",
+      "publicUrl": "https://games.evolution.com/slots/clash-of-the-beasts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "clover-craze",
+      "name": "Clover Craze",
+      "publicUrl": "https://games.evolution.com/slots/clover-craze/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cobra-queen",
+      "name": "Cobra Queen",
+      "publicUrl": "https://games.evolution.com/slots/cobra-queen/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cocks-and-robbers",
+      "name": "Cocks and Robbers",
+      "publicUrl": "https://games.evolution.com/slots/cocks-and-robbers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cotton-gang-affair",
+      "name": "Cotton Gang Affair",
+      "publicUrl": "https://games.evolution.com/slots/cotton-gang-affair/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crazy-genie",
+      "name": "Crazy Genie",
+      "publicUrl": "https://games.evolution.com/slots/crazy-genie/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "crystal-mirror",
+      "name": "Crystal Mirror",
+      "publicUrl": "https://games.evolution.com/slots/crystal-mirror/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "cyber-attack",
+      "name": "Cyber Attack™",
+      "publicUrl": "https://games.evolution.com/slots/cyber-attack/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "da-vincis-mystery",
+      "name": "Da Vinci’s Mystery",
+      "publicUrl": "https://games.evolution.com/slots/da-vincis-mystery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dear-santa",
+      "name": "Dear Santa",
+      "publicUrl": "https://games.evolution.com/slots/dear-santa/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "desert-legends-spins",
+      "name": "Desert Legends Spins",
+      "publicUrl": "https://games.evolution.com/slots/desert-legends-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "devils-number",
+      "name": "Devil’s Number",
+      "publicUrl": "https://games.evolution.com/slots/devils-number/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-blitz",
+      "name": "Diamond Blitz",
+      "publicUrl": "https://games.evolution.com/slots/diamond-blitz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-blitz-2",
+      "name": "Diamond Blitz 2",
+      "publicUrl": "https://games.evolution.com/slots/diamond-blitz-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-blitz-3",
+      "name": "Diamond Blitz 3",
+      "publicUrl": "https://games.evolution.com/slots/diamond-blitz-3/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamond-doggies",
+      "name": "Diamond Doggies",
+      "publicUrl": "https://games.evolution.com/slots/diamond-doggies/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "diamonds-up",
+      "name": "Diamonds Up",
+      "publicUrl": "https://games.evolution.com/slots/diamonds-up/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dice-dice-dice",
+      "name": "Dice Dice Dice",
+      "publicUrl": "https://games.evolution.com/slots/dice-dice-dice/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "digging-for-wilds",
+      "name": "Digging for Wilds",
+      "publicUrl": "https://games.evolution.com/slots/digging-for-wilds/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "disco-inferno",
+      "name": "Disco Inferno",
+      "publicUrl": "https://games.evolution.com/slots/disco-inferno/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "divine-ways",
+      "name": "Divine Ways",
+      "publicUrl": "https://games.evolution.com/slots/divine-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dont-hit-plz",
+      "name": "Don’t Hit PLZ!",
+      "publicUrl": "https://games.evolution.com/slots/dont-hit-plz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dr-francashstein-multihops",
+      "name": "Dr. Francashstein MULTIHOPS ™",
+      "publicUrl": "https://games.evolution.com/slots/dr-francashstein-multihops/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dracula-awakening",
+      "name": "Dracula Awakening",
+      "publicUrl": "https://games.evolution.com/slots/dracula-awakening/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-boyz",
+      "name": "Dragon Boyz",
+      "publicUrl": "https://games.evolution.com/slots/dragon-boyz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-duo",
+      "name": "Dragon Duo",
+      "publicUrl": "https://games.evolution.com/slots/dragon-duo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-king-legend-of-the-seas",
+      "name": "Dragon King: Legend Of The Seas",
+      "publicUrl": "https://games.evolution.com/slots/dragon-king-legend-of-the-seas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragon-pearl",
+      "name": "Dragon Pearl",
+      "publicUrl": "https://games.evolution.com/slots/dragon-pearl/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-clusterbuster",
+      "name": "Dragons Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/dragons-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-lock",
+      "name": "Dragons’ Lock",
+      "publicUrl": "https://games.evolution.com/slots/dragons-lock/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-fire",
+      "name": "Dragon’s Fire",
+      "publicUrl": "https://games.evolution.com/slots/dragons-fire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-fire-megaways",
+      "name": "Dragon’s Fire Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/dragons-fire-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-fire-infinireels",
+      "name": "Dragon’s Fire: INFINIREELS™",
+      "publicUrl": "https://games.evolution.com/slots/dragons-fire-infinireels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-luck",
+      "name": "Dragon’s Luck",
+      "publicUrl": "https://games.evolution.com/slots/dragons-luck/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-luck-deluxe",
+      "name": "Dragon’s Luck Deluxe",
+      "publicUrl": "https://games.evolution.com/slots/dragons-luck-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-luck-megaways",
+      "name": "Dragon’s Luck Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/dragons-luck-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-luck-power-reels",
+      "name": "Dragon’s Luck Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/dragons-luck-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dragons-mirror",
+      "name": "Dragon’s Mirror",
+      "publicUrl": "https://games.evolution.com/slots/dragons-mirror/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dream-destiny",
+      "name": "Dream Destiny",
+      "publicUrl": "https://games.evolution.com/slots/dream-destiny/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-riches-megaways",
+      "name": "Dynamite Riches Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/dynamite-riches-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-riches-the-mother-lode",
+      "name": "Dynamite Riches The Mother Lode",
+      "publicUrl": "https://games.evolution.com/slots/dynamite-riches-the-mother-lode/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "dynamite-riches",
+      "name": "Dynamite Riches™",
+      "publicUrl": "https://games.evolution.com/slots/dynamite-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "eagle-riches",
+      "name": "Eagle Riches",
+      "publicUrl": "https://games.evolution.com/slots/eagle-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "easy-gold",
+      "name": "Easy Gold",
+      "publicUrl": "https://games.evolution.com/slots/easy-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egypt-clusterbuster",
+      "name": "Egypt Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/egypt-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "egypt-megaways",
+      "name": "Egypt Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/egypt-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elephant-treasure",
+      "name": "Elephant Treasure",
+      "publicUrl": "https://games.evolution.com/slots/elephant-treasure/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "elven-magic",
+      "name": "Elven Magic",
+      "publicUrl": "https://games.evolution.com/slots/elven-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emerald-diamond",
+      "name": "Emerald Diamond",
+      "publicUrl": "https://games.evolution.com/slots/emerald-diamond/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "emperor-of-india",
+      "name": "Emperor of India",
+      "publicUrl": "https://games.evolution.com/slots/emperor-of-india/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "epic-journey",
+      "name": "Epic Journey",
+      "publicUrl": "https://games.evolution.com/slots/epic-journey/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "epic-treasure",
+      "name": "Epic Treasure",
+      "publicUrl": "https://games.evolution.com/slots/epic-treasure/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "epic-treasure-2",
+      "name": "Epic Treasure 2",
+      "publicUrl": "https://games.evolution.com/slots/epic-treasure-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "esqueleto-mariachi",
+      "name": "Esqueleto Mariachi",
+      "publicUrl": "https://games.evolution.com/slots/esqueleto-mariachi/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fa-fa-babies",
+      "name": "Fa Fa Babies",
+      "publicUrl": "https://games.evolution.com/slots/fa-fa-babies/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fa-fa-babies-2",
+      "name": "Fa Fa Babies 2",
+      "publicUrl": "https://games.evolution.com/slots/fa-fa-babies-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "farmtastic",
+      "name": "Farmtastic",
+      "publicUrl": "https://games.evolution.com/slots/farmtastic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fish-n-fish",
+      "name": "Fish N Fish",
+      "publicUrl": "https://games.evolution.com/slots/fish-n-fish/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fishtastic",
+      "name": "Fishtastic",
+      "publicUrl": "https://games.evolution.com/slots/fishtastic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "five-star",
+      "name": "Five Star",
+      "publicUrl": "https://games.evolution.com/slots/five-star/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "five-star-power-reels",
+      "name": "Five Star Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/five-star-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flaming-fox",
+      "name": "Flaming Fox",
+      "publicUrl": "https://games.evolution.com/slots/flaming-fox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "flodder",
+      "name": "Flodder",
+      "publicUrl": "https://games.evolution.com/slots/flodder/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "forever-7s",
+      "name": "Forever 7’s",
+      "publicUrl": "https://games.evolution.com/slots/forever-7s/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-charm",
+      "name": "Fortune Charm",
+      "publicUrl": "https://games.evolution.com/slots/fortune-charm/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-fest",
+      "name": "Fortune Fest",
+      "publicUrl": "https://games.evolution.com/slots/fortune-fest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fortune-house-power-reels",
+      "name": "Fortune House Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/fortune-house-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-blox",
+      "name": "Fruit Blox",
+      "publicUrl": "https://games.evolution.com/slots/fruit-blox/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-flash",
+      "name": "Fruit Flash",
+      "publicUrl": "https://games.evolution.com/slots/fruit-flash/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "fruit-snap",
+      "name": "Fruit Snap",
+      "publicUrl": "https://games.evolution.com/slots/fruit-snap/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-gone-wild",
+      "name": "Gems Gone Wild",
+      "publicUrl": "https://games.evolution.com/slots/gems-gone-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-gone-wild-power-reels",
+      "name": "Gems Gone Wild Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/gems-gone-wild-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gems-inferno-megaways",
+      "name": "Gems Inferno Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/gems-inferno-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gemtastic",
+      "name": "Gemtastic",
+      "publicUrl": "https://games.evolution.com/slots/gemtastic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "genie-nights",
+      "name": "Genie Nights",
+      "publicUrl": "https://games.evolution.com/slots/genie-nights/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "get-the-gold-infinireels",
+      "name": "Get The Gold INFINIREELS™",
+      "publicUrl": "https://games.evolution.com/slots/get-the-gold-infinireels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "giga-blast",
+      "name": "Giga Blast",
+      "publicUrl": "https://games.evolution.com/slots/giga-blast/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gladiator-ways",
+      "name": "Gladiator Ways",
+      "publicUrl": "https://games.evolution.com/slots/gladiator-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "glow-dig",
+      "name": "Glow Dig",
+      "publicUrl": "https://games.evolution.com/slots/glow-dig/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "god-of-wealth",
+      "name": "God of Wealth",
+      "publicUrl": "https://games.evolution.com/slots/god-of-wealth/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gods-of-troy",
+      "name": "Gods of Troy",
+      "publicUrl": "https://games.evolution.com/slots/gods-of-troy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gods-of-troy-megaways",
+      "name": "Gods of Troy Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/gods-of-troy-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-digger-clusterbuster",
+      "name": "Gold Digger Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/gold-digger-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-mine-mistress",
+      "name": "Gold Mine Mistress",
+      "publicUrl": "https://games.evolution.com/slots/gold-mine-mistress/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gold-star",
+      "name": "Gold Star",
+      "publicUrl": "https://games.evolution.com/slots/gold-star/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-cryptex",
+      "name": "Golden Cryptex",
+      "publicUrl": "https://games.evolution.com/slots/golden-cryptex/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-lamps",
+      "name": "Golden Lamps",
+      "publicUrl": "https://games.evolution.com/slots/golden-lamps/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-leprechaun-megaways",
+      "name": "Golden Leprechaun Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/golden-leprechaun-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-lotus",
+      "name": "Golden Lotus",
+      "publicUrl": "https://games.evolution.com/slots/golden-lotus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-offer",
+      "name": "Golden Offer",
+      "publicUrl": "https://games.evolution.com/slots/golden-offer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-temple",
+      "name": "Golden Temple",
+      "publicUrl": "https://games.evolution.com/slots/golden-temple/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-toad",
+      "name": "Golden Toad",
+      "publicUrl": "https://games.evolution.com/slots/golden-toad/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "golden-tsar",
+      "name": "Golden Tsar",
+      "publicUrl": "https://games.evolution.com/slots/golden-tsar/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzitas-quest",
+      "name": "Gonzita’s Quest",
+      "publicUrl": "https://games.evolution.com/slots/gonzitas-quest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "gonzos-quest-megaways",
+      "name": "Gonzo’s Quest™ Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/gonzos-quest-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "good-luck-clusterbuster",
+      "name": "Good Luck Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/good-luck-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "grand-wheel",
+      "name": "Grand Wheel",
+      "publicUrl": "https://games.evolution.com/slots/grand-wheel/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "great-gold",
+      "name": "Great Gold",
+      "publicUrl": "https://games.evolution.com/slots/great-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hammer-gods",
+      "name": "Hammer Gods",
+      "publicUrl": "https://games.evolution.com/slots/hammer-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hansel-gretel-candyhouse",
+      "name": "Hansel & Gretel Candyhouse",
+      "publicUrl": "https://games.evolution.com/slots/hansel-gretel-candyhouse/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-apples",
+      "name": "Happy Apples",
+      "publicUrl": "https://games.evolution.com/slots/happy-apples/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "happy-cappy",
+      "name": "Happy Cappy",
+      "publicUrl": "https://games.evolution.com/slots/happy-cappy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "harlecoin",
+      "name": "HarleCoin",
+      "publicUrl": "https://games.evolution.com/slots/harlecoin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "here-kitty-kitty",
+      "name": "Here Kitty Kitty",
+      "publicUrl": "https://games.evolution.com/slots/here-kitty-kitty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hit-the-jungle",
+      "name": "Hit The Jungle",
+      "publicUrl": "https://games.evolution.com/slots/hit-the-jungle/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hoard-of-poseidon",
+      "name": "Hoard of Poseidon",
+      "publicUrl": "https://games.evolution.com/slots/hoard-of-poseidon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hot-hot-chilli-pot",
+      "name": "Hot Hot Chilli Pot",
+      "publicUrl": "https://games.evolution.com/slots/hot-hot-chilli-pot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "hustling",
+      "name": "Hustling",
+      "publicUrl": "https://games.evolution.com/slots/hustling/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "imperial-palace",
+      "name": "Imperial Palace",
+      "publicUrl": "https://games.evolution.com/slots/imperial-palace/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "in-the-rabbit-hole",
+      "name": "In The Rabbit Hole",
+      "publicUrl": "https://games.evolution.com/slots/in-the-rabbit-hole/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jack-in-a-pot",
+      "name": "Jack In A Pot",
+      "publicUrl": "https://games.evolution.com/slots/jack-in-a-pot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-quest",
+      "name": "Jackpot Quest",
+      "publicUrl": "https://games.evolution.com/slots/jackpot-quest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackpot-train",
+      "name": "Jackpot Train",
+      "publicUrl": "https://games.evolution.com/slots/jackpot-train/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jackrabbit-jackpots",
+      "name": "Jackrabbit Jackpots",
+      "publicUrl": "https://games.evolution.com/slots/jackrabbit-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jade-charms",
+      "name": "Jade Charms",
+      "publicUrl": "https://games.evolution.com/slots/jade-charms/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jelly-multihops",
+      "name": "Jelly Multihops™",
+      "publicUrl": "https://games.evolution.com/slots/jelly-multihops/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jester-spins",
+      "name": "Jester Spins",
+      "publicUrl": "https://games.evolution.com/slots/jester-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jewel-scarabs",
+      "name": "Jewel Scarabs",
+      "publicUrl": "https://games.evolution.com/slots/jewel-scarabs/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-bells",
+      "name": "Jingle Bells",
+      "publicUrl": "https://games.evolution.com/slots/jingle-bells/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-bells-bonanza-2",
+      "name": "Jingle Bells Bonanza 2",
+      "publicUrl": "https://games.evolution.com/slots/jingle-bells-bonanza-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-bells-power-reels",
+      "name": "Jingle Bells Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/jingle-bells-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "jingle-ways-megaways",
+      "name": "Jingle Ways Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/jingle-ways-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "joe-exotic",
+      "name": "Joe Exotic",
+      "publicUrl": "https://games.evolution.com/slots/joe-exotic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "judgement-day-megaways",
+      "name": "Judgement Day Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/judgement-day-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "knights-of-avalon",
+      "name": "Knights of Avalon",
+      "publicUrl": "https://games.evolution.com/slots/knights-of-avalon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "land-of-riches",
+      "name": "Land of Riches",
+      "publicUrl": "https://games.evolution.com/slots/land-of-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "laser-fruit",
+      "name": "Laser Fruit",
+      "publicUrl": "https://games.evolution.com/slots/laser-fruit/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "last-chance-saloon",
+      "name": "Last Chance Saloon",
+      "publicUrl": "https://games.evolution.com/slots/last-chance-saloon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legend-of-athena",
+      "name": "Legend of Athena",
+      "publicUrl": "https://games.evolution.com/slots/legend-of-athena/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "legendary-excalibur",
+      "name": "Legendary Excalibur",
+      "publicUrl": "https://games.evolution.com/slots/legendary-excalibur/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechauns-magic",
+      "name": "Leprechaun’s Magic",
+      "publicUrl": "https://games.evolution.com/slots/leprechauns-magic/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechauns-magic-megaways",
+      "name": "Leprechaun’s Magic Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/leprechauns-magic-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "leprechauns-magic-power-reels",
+      "name": "Leprechaun’s Magic Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/leprechauns-magic-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lion-dance",
+      "name": "Lion Dance",
+      "publicUrl": "https://games.evolution.com/slots/lion-dance/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lions-hoard",
+      "name": "Lion’s Hoard",
+      "publicUrl": "https://games.evolution.com/slots/lions-hoard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lokis-descendants",
+      "name": "Loki’s Descendants",
+      "publicUrl": "https://games.evolution.com/slots/lokis-descendants/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "london-tube",
+      "name": "London Tube™",
+      "publicUrl": "https://games.evolution.com/slots/london-tube/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "los-muertos-locos",
+      "name": "Los Muertos Locos",
+      "publicUrl": "https://games.evolution.com/slots/los-muertos-locos/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-carnival",
+      "name": "Lucky Carnival",
+      "publicUrl": "https://games.evolution.com/slots/lucky-carnival/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-easter",
+      "name": "Lucky Easter",
+      "publicUrl": "https://games.evolution.com/slots/lucky-easter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fortune-cat",
+      "name": "Lucky Fortune Cat",
+      "publicUrl": "https://games.evolution.com/slots/lucky-fortune-cat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-fridays",
+      "name": "Lucky Fridays",
+      "publicUrl": "https://games.evolution.com/slots/lucky-fridays/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-halloween",
+      "name": "Lucky Halloween",
+      "publicUrl": "https://games.evolution.com/slots/lucky-halloween/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-little-devil",
+      "name": "Lucky Little Devil",
+      "publicUrl": "https://games.evolution.com/slots/lucky-little-devil/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-oktoberfest",
+      "name": "Lucky Oktoberfest",
+      "publicUrl": "https://games.evolution.com/slots/lucky-oktoberfest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-valentine",
+      "name": "Lucky Valentine",
+      "publicUrl": "https://games.evolution.com/slots/lucky-valentine/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "lucky-wizard",
+      "name": "Lucky Wizard",
+      "publicUrl": "https://games.evolution.com/slots/lucky-wizard/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "macau-racing",
+      "name": "Macau Racing",
+      "publicUrl": "https://games.evolution.com/slots/macau-racing/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-gate",
+      "name": "Magic Gate",
+      "publicUrl": "https://games.evolution.com/slots/magic-gate/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-powers-megaways",
+      "name": "Magic Powers Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/magic-powers-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "magic-tricks",
+      "name": "Magic Tricks™",
+      "publicUrl": "https://games.evolution.com/slots/magic-tricks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "majestic-mysteries-power-reels",
+      "name": "Majestic Mysteries Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/majestic-mysteries-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "masquerade",
+      "name": "Masquerade",
+      "publicUrl": "https://games.evolution.com/slots/masquerade/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayan-gods",
+      "name": "Mayan Gods",
+      "publicUrl": "https://games.evolution.com/slots/mayan-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mayhem",
+      "name": "Mayhem",
+      "publicUrl": "https://games.evolution.com/slots/mayhem/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-dragon",
+      "name": "Mega Dragon",
+      "publicUrl": "https://games.evolution.com/slots/mega-dragon/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-jade",
+      "name": "Mega Jade",
+      "publicUrl": "https://games.evolution.com/slots/mega-jade/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-pyramid",
+      "name": "Mega Pyramid",
+      "publicUrl": "https://games.evolution.com/slots/mega-pyramid/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mega-rise",
+      "name": "Mega Rise",
+      "publicUrl": "https://games.evolution.com/slots/mega-rise/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "miami-rise",
+      "name": "Miami Rise",
+      "publicUrl": "https://games.evolution.com/slots/miami-rise/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midas-gold",
+      "name": "Midas Gold",
+      "publicUrl": "https://games.evolution.com/slots/midas-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnight-romance",
+      "name": "Midnight Romance",
+      "publicUrl": "https://games.evolution.com/slots/midnight-romance/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "midnight-thirst",
+      "name": "Midnight Thirst",
+      "publicUrl": "https://games.evolution.com/slots/midnight-thirst/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monopoly-cash-is-king",
+      "name": "MONOPOLY Cash Is King",
+      "publicUrl": "https://games.evolution.com/slots/monopoly-cash-is-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monopoly-money-magnate",
+      "name": "MONOPOLY Money Magnate",
+      "publicUrl": "https://games.evolution.com/slots/monopoly-money-magnate/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monopoly-rent-rush",
+      "name": "MONOPOLY Rent Rush",
+      "publicUrl": "https://games.evolution.com/slots/monopoly-rent-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "monsters-unchained",
+      "name": "Monsters Unchained",
+      "publicUrl": "https://games.evolution.com/slots/monsters-unchained/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "moon-spell",
+      "name": "Moon Spell",
+      "publicUrl": "https://games.evolution.com/slots/moon-spell/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "multiplier-riches",
+      "name": "Multiplier Riches",
+      "publicUrl": "https://games.evolution.com/slots/multiplier-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-reels",
+      "name": "Mystery Reels",
+      "publicUrl": "https://games.evolution.com/slots/mystery-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-reels-deluxe",
+      "name": "Mystery Reels Deluxe",
+      "publicUrl": "https://games.evolution.com/slots/mystery-reels-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-reels-megaways",
+      "name": "Mystery Reels Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/mystery-reels-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystery-reels-power-reels",
+      "name": "Mystery Reels Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/mystery-reels-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-staxx",
+      "name": "Mystic Staxx",
+      "publicUrl": "https://games.evolution.com/slots/mystic-staxx/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mystic-wheel",
+      "name": "Mystic Wheel",
+      "publicUrl": "https://games.evolution.com/slots/mystic-wheel/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "narcos-mexico",
+      "name": "Narcos Mexico",
+      "publicUrl": "https://games.evolution.com/slots/narcos-mexico/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "neon-links",
+      "name": "Neon Links",
+      "publicUrl": "https://games.evolution.com/slots/neon-links/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nft-megaways",
+      "name": "NFT Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/nft-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "night-roller",
+      "name": "Night Roller",
+      "publicUrl": "https://games.evolution.com/slots/night-roller/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "nightmare-family-megaways",
+      "name": "Nightmare Family Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/nightmare-family-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ninja-ways",
+      "name": "Ninja Ways",
+      "publicUrl": "https://games.evolution.com/slots/ninja-ways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ocean-fortune",
+      "name": "Ocean Fortune",
+      "publicUrl": "https://games.evolution.com/slots/ocean-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "panda-goes-boom",
+      "name": "Panda Goes Boom",
+      "publicUrl": "https://games.evolution.com/slots/panda-goes-boom/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "path-of-destiny-slot",
+      "name": "Path of Destiny",
+      "publicUrl": "https://games.evolution.com/slots/path-of-destiny-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "peggy-sweets",
+      "name": "Peggy Sweets",
+      "publicUrl": "https://games.evolution.com/slots/peggy-sweets/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "persian-fortune",
+      "name": "Persian Fortune",
+      "publicUrl": "https://games.evolution.com/slots/persian-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "publicUrl": "https://games.evolution.com/slots/phoenix/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "phoenix-fire-power-reels",
+      "name": "Phoenix Fire Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/phoenix-fire-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-pirates",
+      "name": "Piggy Pirates",
+      "publicUrl": "https://games.evolution.com/slots/piggy-pirates/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-riches-2-megaways",
+      "name": "Piggy Riches 2 Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/piggy-riches-2-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-riches-begins",
+      "name": "Piggy Riches Begins",
+      "publicUrl": "https://games.evolution.com/slots/piggy-riches-begins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "piggy-riches-megaways",
+      "name": "Piggy Riches™ Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/piggy-riches-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pinatas-and-ponies",
+      "name": "Pinatas & Ponies",
+      "publicUrl": "https://games.evolution.com/slots/pinatas-and-ponies/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-plenty-megaways",
+      "name": "Pirates’ Plenty Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/pirates-plenty-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-plenty-battle-for-gold",
+      "name": "Pirates’ Plenty: Battle for Gold",
+      "publicUrl": "https://games.evolution.com/slots/pirates-plenty-battle-for-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-plenty",
+      "name": "Pirates’ Plenty: The Sunken Treasure",
+      "publicUrl": "https://games.evolution.com/slots/pirates-plenty/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "pirates-plenty-treasures-of-the-sea",
+      "name": "Pirates’ Plenty: Treasures of the Sea",
+      "publicUrl": "https://games.evolution.com/slots/pirates-plenty-treasures-of-the-sea/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "play-with-the-devil",
+      "name": "Play with the Devil",
+      "publicUrl": "https://games.evolution.com/slots/play-with-the-devil/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "play-with-the-devil-megaways",
+      "name": "Play With the Devil Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/play-with-the-devil-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "power-puff",
+      "name": "Power Puff",
+      "publicUrl": "https://games.evolution.com/slots/power-puff/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "primate-king",
+      "name": "Primate King",
+      "publicUrl": "https://games.evolution.com/slots/primate-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "primate-king-megaways",
+      "name": "Primate King Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/primate-king-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "purr-power",
+      "name": "Purr Power",
+      "publicUrl": "https://games.evolution.com/slots/purr-power/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "puss-n-boots",
+      "name": "Puss’n Boots",
+      "publicUrl": "https://games.evolution.com/slots/puss-n-boots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-jackpots",
+      "name": "Rainbow Jackpots",
+      "publicUrl": "https://games.evolution.com/slots/rainbow-jackpots/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-jackpots-megaways",
+      "name": "Rainbow Jackpots Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/rainbow-jackpots-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rainbow-jackpots-power-lines",
+      "name": "Rainbow Jackpots Power Lines",
+      "publicUrl": "https://games.evolution.com/slots/rainbow-jackpots-power-lines/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ras-legend",
+      "name": "Ra’s Legend",
+      "publicUrl": "https://games.evolution.com/slots/ras-legend/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reactor",
+      "name": "Reactor",
+      "publicUrl": "https://games.evolution.com/slots/reactor/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-diamond",
+      "name": "Red Diamond",
+      "publicUrl": "https://games.evolution.com/slots/red-diamond/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-bbq",
+      "name": "Red Hot BBQ",
+      "publicUrl": "https://games.evolution.com/slots/red-hot-bbq/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "red-hot-slot",
+      "name": "Red Hot Slot",
+      "publicUrl": "https://games.evolution.com/slots/red-hot-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "redline-rush",
+      "name": "Redline Rush",
+      "publicUrl": "https://games.evolution.com/slots/redline-rush/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-heist",
+      "name": "Reel Heist",
+      "publicUrl": "https://games.evolution.com/slots/reel-heist/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-keeper",
+      "name": "Reel Keeper",
+      "publicUrl": "https://games.evolution.com/slots/reel-keeper/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-keeper-power-reels",
+      "name": "Reel Keeper Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/reel-keeper-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reel-king-mega",
+      "name": "Reel King Mega",
+      "publicUrl": "https://games.evolution.com/slots/reel-king-mega/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "regal-beasts",
+      "name": "Regal Beasts",
+      "publicUrl": "https://games.evolution.com/slots/regal-beasts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "regal-streak",
+      "name": "Regal Streak",
+      "publicUrl": "https://games.evolution.com/slots/regal-streak/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "reptizillions-power-reels",
+      "name": "Reptizillions Power Reels™",
+      "publicUrl": "https://games.evolution.com/slots/reptizillions-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "revolvero",
+      "name": "Revolvero",
+      "publicUrl": "https://games.evolution.com/slots/revolvero/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "riddle-of-the-sphinx",
+      "name": "Riddle Of The Sphinx",
+      "publicUrl": "https://games.evolution.com/slots/riddle-of-the-sphinx/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rio-stars",
+      "name": "Rio Stars",
+      "publicUrl": "https://games.evolution.com/slots/rio-stars/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rise-of-cleopatra",
+      "name": "Rise of Cleopatra",
+      "publicUrl": "https://games.evolution.com/slots/rise-of-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "robin-hoods-wild-forest",
+      "name": "Robin Hood’s Wild Forest",
+      "publicUrl": "https://games.evolution.com/slots/robin-hoods-wild-forest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "robolab",
+      "name": "ROBOLab",
+      "publicUrl": "https://games.evolution.com/slots/robolab/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rocket-men",
+      "name": "Rocket Men",
+      "publicUrl": "https://games.evolution.com/slots/rocket-men/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rock-n-lock",
+      "name": "Rock’n’Lock",
+      "publicUrl": "https://games.evolution.com/slots/rock-n-lock/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "roman-emperors",
+      "name": "Roman Emperors",
+      "publicUrl": "https://games.evolution.com/slots/roman-emperors/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "royal-gems",
+      "name": "Royal Gems",
+      "publicUrl": "https://games.evolution.com/slots/royal-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "rumble-mutts",
+      "name": "Rumble Mutts",
+      "publicUrl": "https://games.evolution.com/slots/rumble-mutts/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sakura-masks",
+      "name": "Sakura Masks",
+      "publicUrl": "https://games.evolution.com/slots/sakura-masks/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "samurai-wildz",
+      "name": "Samurai Wildz",
+      "publicUrl": "https://games.evolution.com/slots/samurai-wildz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "santa-spins",
+      "name": "Santa Spins",
+      "publicUrl": "https://games.evolution.com/slots/santa-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "savannah-pride",
+      "name": "Savannah Pride",
+      "publicUrl": "https://games.evolution.com/slots/savannah-pride/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sea-boat-adventure",
+      "name": "Sea Boat Adventure",
+      "publicUrl": "https://games.evolution.com/slots/sea-boat-adventure/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sea-boat-adventure-megaways",
+      "name": "Sea Boat Adventure Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/sea-boat-adventure-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "serpent-king",
+      "name": "Serpent King",
+      "publicUrl": "https://games.evolution.com/slots/serpent-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shadow-society",
+      "name": "Shadow Society",
+      "publicUrl": "https://games.evolution.com/slots/shadow-society/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shah-mat",
+      "name": "Shah Mat",
+      "publicUrl": "https://games.evolution.com/slots/shah-mat/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "shark-boss",
+      "name": "Shark Boss",
+      "publicUrl": "https://games.evolution.com/slots/shark-boss/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sheep-gone-wild",
+      "name": "Sheep Gone Wild",
+      "publicUrl": "https://games.evolution.com/slots/sheep-gone-wild/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sirens-riches",
+      "name": "Sirens’ Riches",
+      "publicUrl": "https://games.evolution.com/slots/sirens-riches/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "snow-wild-and-the-7-features",
+      "name": "Snow Wild and the 7 Features",
+      "publicUrl": "https://games.evolution.com/slots/snow-wild-and-the-7-features/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spartan-wildz",
+      "name": "Spartan Wildz",
+      "publicUrl": "https://games.evolution.com/slots/spartan-wildz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spin-town",
+      "name": "Spin Town",
+      "publicUrl": "https://games.evolution.com/slots/spin-town/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "spooky-carnival",
+      "name": "Spooky Carnival",
+      "publicUrl": "https://games.evolution.com/slots/spooky-carnival/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stage-888",
+      "name": "Stage 888",
+      "publicUrl": "https://games.evolution.com/slots/stage-888/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "steam-squad",
+      "name": "Steam Squad",
+      "publicUrl": "https://games.evolution.com/slots/steam-squad/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "steve-larry-and-gogo",
+      "name": "Steve, Larry and Gogo",
+      "publicUrl": "https://games.evolution.com/slots/steve-larry-and-gogo/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stolen-treasures",
+      "name": "Stolen Treasures",
+      "publicUrl": "https://games.evolution.com/slots/stolen-treasures/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "stormfire",
+      "name": "Stormfire",
+      "publicUrl": "https://games.evolution.com/slots/stormfire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugar-monster",
+      "name": "Sugar Monster",
+      "publicUrl": "https://games.evolution.com/slots/sugar-monster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sugarlicious-everyway",
+      "name": "Sugarlicious EveryWay™",
+      "publicUrl": "https://games.evolution.com/slots/sugarlicious-everyway/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sumo-spins",
+      "name": "Sumo Spins",
+      "publicUrl": "https://games.evolution.com/slots/sumo-spins/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sword-stomp",
+      "name": "Sword Stomp",
+      "publicUrl": "https://games.evolution.com/slots/sword-stomp/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "sylvan-spirits",
+      "name": "Sylvan Spirits",
+      "publicUrl": "https://games.evolution.com/slots/sylvan-spirits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "take-the-money",
+      "name": "Take the Money",
+      "publicUrl": "https://games.evolution.com/slots/take-the-money/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ten-elements",
+      "name": "Ten Elements",
+      "publicUrl": "https://games.evolution.com/slots/ten-elements/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-equalizer",
+      "name": "The Equalizer",
+      "publicUrl": "https://games.evolution.com/slots/the-equalizer/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-good-the-bad-and-the-rich",
+      "name": "The Good, The Bad and The Rich",
+      "publicUrl": "https://games.evolution.com/slots/the-good-the-bad-and-the-rich/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-greatest-train-robbery",
+      "name": "The Greatest Train Robbery",
+      "publicUrl": "https://games.evolution.com/slots/the-greatest-train-robbery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wild-hatter",
+      "name": "The Wild Hatter",
+      "publicUrl": "https://games.evolution.com/slots/the-wild-hatter/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wild-kiss",
+      "name": "The Wild Kiss",
+      "publicUrl": "https://games.evolution.com/slots/the-wild-kiss/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "the-wisecracker-lightning",
+      "name": "The Wisecracker Lightning",
+      "publicUrl": "https://games.evolution.com/slots/the-wisecracker-lightning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thors-lightning",
+      "name": "Thor’s Lightning",
+      "publicUrl": "https://games.evolution.com/slots/thors-lightning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thors-rage",
+      "name": "Thor’s Rage",
+      "publicUrl": "https://games.evolution.com/slots/thors-rage/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thors-rage-2",
+      "name": "Thor’s Rage 2",
+      "publicUrl": "https://games.evolution.com/slots/thors-rage-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "thors-vengeance",
+      "name": "Thor’s Vengeance",
+      "publicUrl": "https://games.evolution.com/slots/thors-vengeance/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-kingdoms",
+      "name": "Three Kingdoms",
+      "publicUrl": "https://games.evolution.com/slots/three-kingdoms/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "three-musketeers",
+      "name": "Three Musketeers",
+      "publicUrl": "https://games.evolution.com/slots/three-musketeers/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiki-fruits",
+      "name": "Tiki Fruits",
+      "publicUrl": "https://games.evolution.com/slots/tiki-fruits/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tiki-fruits-totem-frenzy",
+      "name": "Tiki Fruits Totem Frenzy",
+      "publicUrl": "https://games.evolution.com/slots/tiki-fruits-totem-frenzy/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "totem-lightning",
+      "name": "Totem Lightning",
+      "publicUrl": "https://games.evolution.com/slots/totem-lightning/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "totem-lightning-power-reels",
+      "name": "Totem Lightning Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/totem-lightning-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "transylvania-night-of-blood",
+      "name": "Transylvania Night of Blood",
+      "publicUrl": "https://games.evolution.com/slots/transylvania-night-of-blood/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasure-mine",
+      "name": "Treasure Mine",
+      "publicUrl": "https://games.evolution.com/slots/treasure-mine/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "treasure-mine-power-reels",
+      "name": "Treasure Mine Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/treasure-mine-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "tricks-and-treats",
+      "name": "Tricks and Treats",
+      "publicUrl": "https://games.evolution.com/slots/tricks-and-treats/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trillionaire",
+      "name": "Trillionaire",
+      "publicUrl": "https://games.evolution.com/slots/trillionaire/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trillionaire-megaways",
+      "name": "Trillionaire Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/trillionaire-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "trophy-fish",
+      "name": "Trophy Fish",
+      "publicUrl": "https://games.evolution.com/slots/trophy-fish/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "turtle-paradise",
+      "name": "Turtle Paradise",
+      "publicUrl": "https://games.evolution.com/slots/turtle-paradise/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "ultra-rich",
+      "name": "Ultra Rich",
+      "publicUrl": "https://games.evolution.com/slots/ultra-rich/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vault-cracker",
+      "name": "Vault Cracker",
+      "publicUrl": "https://games.evolution.com/slots/vault-cracker/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vault-cracker-megaways",
+      "name": "Vault Cracker Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/vault-cracker-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vault-of-anubis",
+      "name": "Vault of Anubis",
+      "publicUrl": "https://games.evolution.com/slots/vault-of-anubis/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vicky-ventura",
+      "name": "Vicky Ventura",
+      "publicUrl": "https://games.evolution.com/slots/vicky-ventura/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "vikings-legacy-everyway",
+      "name": "Viking’s Legacy EveryWay™",
+      "publicUrl": "https://games.evolution.com/slots/vikings-legacy-everyway/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "viral-spiral",
+      "name": "Viral Spiral",
+      "publicUrl": "https://games.evolution.com/slots/viral-spiral/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wanted-wildz",
+      "name": "Wanted Wildz",
+      "publicUrl": "https://games.evolution.com/slots/wanted-wildz/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wanted-wildz-extreme",
+      "name": "Wanted Wildz Extreme",
+      "publicUrl": "https://games.evolution.com/slots/wanted-wildz-extreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "war-of-gods",
+      "name": "War Of Gods",
+      "publicUrl": "https://games.evolution.com/slots/war-of-gods/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "well-of-wilds-megaways",
+      "name": "Well of Wilds Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/well-of-wilds-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "well-of-wishes",
+      "name": "Well of Wishes",
+      "publicUrl": "https://games.evolution.com/slots/well-of-wishes/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "what-the-fox-megaways",
+      "name": "What the Fox Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/what-the-fox-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-cats-multiline",
+      "name": "Wild Cats Multiline",
+      "publicUrl": "https://games.evolution.com/slots/wild-cats-multiline/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-circus",
+      "name": "Wild Circus",
+      "publicUrl": "https://games.evolution.com/slots/wild-circus/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-elements",
+      "name": "Wild Elements",
+      "publicUrl": "https://games.evolution.com/slots/wild-elements/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-expedition",
+      "name": "Wild Expedition",
+      "publicUrl": "https://games.evolution.com/slots/wild-expedition/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-fight",
+      "name": "Wild Fight",
+      "publicUrl": "https://games.evolution.com/slots/wild-fight/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-hot-chilli-reels",
+      "name": "Wild Hot Chilli Reels",
+      "publicUrl": "https://games.evolution.com/slots/wild-hot-chilli-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-hot-chilli-reels-2",
+      "name": "Wild Hot Chilli Reels 2",
+      "publicUrl": "https://games.evolution.com/slots/wild-hot-chilli-reels-2/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-nords",
+      "name": "Wild Nords",
+      "publicUrl": "https://games.evolution.com/slots/wild-nords/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-oclock",
+      "name": "Wild O’Clock",
+      "publicUrl": "https://games.evolution.com/slots/wild-oclock/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-spartans",
+      "name": "Wild Spartans",
+      "publicUrl": "https://games.evolution.com/slots/wild-spartans/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-tundra",
+      "name": "Wild Tundra",
+      "publicUrl": "https://games.evolution.com/slots/wild-tundra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wild-wild-chest",
+      "name": "Wild Wild Chest",
+      "publicUrl": "https://games.evolution.com/slots/wild-wild-chest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "win-escalator",
+      "name": "Win Escalator",
+      "publicUrl": "https://games.evolution.com/slots/win-escalator/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wings-of-ra-slot",
+      "name": "Wings Of Ra",
+      "publicUrl": "https://games.evolution.com/slots/wings-of-ra-slot/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wings-of-ra-megaways",
+      "name": "Wings of Ra Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/wings-of-ra-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "winter-wonders",
+      "name": "Winter Wonders",
+      "publicUrl": "https://games.evolution.com/slots/winter-wonders/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolf-stacks-megaways",
+      "name": "Wolf Stacks Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/wolf-stacks-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wolfkin",
+      "name": "Wolfkin",
+      "publicUrl": "https://games.evolution.com/slots/wolfkin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "wrigleys-world",
+      "name": "Wrigley’s World",
+      "publicUrl": "https://games.evolution.com/slots/wrigleys-world/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "year-round-riches-clusterbuster",
+      "name": "Year-Round Riches Clusterbuster™",
+      "publicUrl": "https://games.evolution.com/slots/year-round-riches-clusterbuster/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "yucatans-mystery",
+      "name": "Yucatan’s Mystery",
+      "publicUrl": "https://games.evolution.com/slots/yucatans-mystery/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zaidas-fortune",
+      "name": "Zaida’s Fortune",
+      "publicUrl": "https://games.evolution.com/slots/zaidas-fortune/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-lightning-megaways",
+      "name": "Zeus Lightning Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/zeus-lightning-megaways/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zeus-lightning-power-reels",
+      "name": "Zeus Lightning Power Reels",
+      "publicUrl": "https://games.evolution.com/slots/zeus-lightning-power-reels/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zillard-king",
+      "name": "Zillard King",
+      "publicUrl": "https://games.evolution.com/slots/zillard-king/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "zillard-king-megaways",
+      "name": "Zillard King Megaways™",
+      "publicUrl": "https://games.evolution.com/slots/zillard-king-megaways/",
+      "launchUrlOmitted": false
+    }
+  ]
+}

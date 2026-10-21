@@ -1,0 +1,1387 @@
+{
+  "provider": "1spin4win",
+  "name": "1Spin4Win",
+  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "count": 229,
+  "refreshStatus": "updated",
+  "partialReported": false,
+  "fallbackReported": false,
+  "completeness": "not-certified",
+  "omittedLaunchUrls": 229,
+  "games": [
+    {
+      "id": "10-lucky-spins",
+      "name": "10 Lucky Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "all-ways-egypt",
+      "name": "All Ways Egypt",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "allways-lucky-spins",
+      "name": "All Ways Lucky Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "allways-egypt-fortune",
+      "name": "Allways Egypt Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "allways-lucky-pot",
+      "name": "Allways Lucky Pot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "beersburg-fest-hold-and-win",
+      "name": "Beersburg Fest Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-all-ways",
+      "name": "Book Of All Ways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-armour",
+      "name": "Book of Armour",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-corsairs",
+      "name": "Book of Corsairs",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-money",
+      "name": "Book Of Money",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-nibiru",
+      "name": "Book of Nibiru",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "book-of-wild",
+      "name": "Book Of Wild",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-10",
+      "name": "Booming Fruits 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-100",
+      "name": "Booming Fruits 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-20",
+      "name": "Booming Fruits 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-243",
+      "name": "Booming Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-256",
+      "name": "Booming Fruits 256",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-27",
+      "name": "Booming Fruits 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-40",
+      "name": "Booming Fruits 40",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-81x",
+      "name": "Booming Fruits 81x",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-fruits-x",
+      "name": "Booming Fruits X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "booming-spins-243",
+      "name": "Booming Spins 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "brumbys-243",
+      "name": "Brumby's 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "buffalos-wealth-win-spins",
+      "name": "Buffalo's Wealth Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "buffalos-wealth",
+      "name": "Buffalo’s Wealth",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "buffalos-wealth-fortune",
+      "name": "Buffalo’s Wealth Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "buffalos-wealth-hold-and-win",
+      "name": "Buffalo’s Wealth Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "burning-spins-243",
+      "name": "Burning Spins 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cash-amplifier-243",
+      "name": "Cash Amplifier 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cash-the-gold",
+      "name": "Cash The Gold",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cash-the-gold-hold-and-win",
+      "name": "Cash The Gold Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cash-spins-243",
+      "name": "Cash&Spins 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashnfruits-100",
+      "name": "Cash'n Fruits 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-100-hold-and-win",
+      "name": "Cash'n Fruits 100 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashnfruits-243",
+      "name": "Cash'n Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-243-x",
+      "name": "Cash'n Fruits 243 X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-256",
+      "name": "Cash'n Fruits 256",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-256-hold-and-win",
+      "name": "Cash'n Fruits 256 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-27",
+      "name": "Cash'n Fruits 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-27-hold-and-win",
+      "name": "Cash'n Fruits 27 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-fortune",
+      "name": "Cash'n Fruits Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-fortune-100",
+      "name": "Cash'n Fruits Fortune 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-fortune-243",
+      "name": "Cash'n Fruits Fortune 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-fortune-27",
+      "name": "Cash'n Fruits Fortune 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-hold-and-win",
+      "name": "Cash'n Fruits Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-fruits-x",
+      "name": "Cash'n Fruits X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-spins-243-plus",
+      "name": "Cash'n Spins 243 Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashn-spins-27-plus",
+      "name": "Cash'n Spins 27 Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "chinese-luck",
+      "name": "Chinese Luck",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "christmas-gems-hold-and-win",
+      "name": "Christmas Gems Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-chili-243",
+      "name": "Classic Chili 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-chilli-101",
+      "name": "Classic Chilli",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-chilli-100",
+      "name": "Classic Chilli 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-chilli-hold-and-win",
+      "name": "Classic Chilli Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-chilli-plus",
+      "name": "Classic Chilli Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "classic-christmas-hold-and-win",
+      "name": "Classic Christmas Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "clover-fest-256",
+      "name": "Clover Fest 256",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "clover-fest-hold-and-win",
+      "name": "Clover Fest Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coins-sniffer-hold-and-win",
+      "name": "Coins Sniffer Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coinsn-diamonds-fortune",
+      "name": "Coins'n Diamonds Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coinsn-diamonds-x",
+      "name": "Coins'n Diamonds X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coinsn-fruits-100",
+      "name": "Coins'n Fruits 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coins-and-fruits-243",
+      "name": "Coins'n Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "coinsn-fruits-spins",
+      "name": "Coins'n Fruits Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "diamond-easter",
+      "name": "Diamond Easter",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "diamond-luck-243",
+      "name": "Diamond Luck 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dolphins-wealth",
+      "name": "Dolphin's Wealth",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dolphins-wealth-fortune",
+      "name": "Dolphin's Wealth Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dolphins-wealh-hold-and-win",
+      "name": "Dolphin's Wealth Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "dolphins-wealth-win-spins",
+      "name": "Dolphin’s Wealth Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "don-cat-leone-hold-and-win",
+      "name": "Don Catleone Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "don-cat-leone-win-spins",
+      "name": "Don Catleone Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "easter-prize-hold-and-win",
+      "name": "Easter Prize Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "flat-hot-fruits-20",
+      "name": "Flat&Hot Fruits 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "frozen-coins-243",
+      "name": "Frozen Coins 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruit-cafe-20",
+      "name": "Fruit Cafe 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruit-dealers",
+      "name": "Fruit Dealers",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "fruity-christmas",
+      "name": "Fruity Christmas",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gems-and-cash-hold-and-win",
+      "name": "Gems And Cash Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gems-and-cash-win-spins",
+      "name": "Gems And Cash Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gems-of-love-hold-and-win",
+      "name": "Gems Of Love Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gentle-fox-hold-and-win",
+      "name": "Gentle Fox Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "gold-oceanica-hold-and-win",
+      "name": "Gold Oceanica Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-100",
+      "name": "Golden Joker 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-100-hold-and-win",
+      "name": "Golden Joker 100 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-243",
+      "name": "Golden Joker 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-243-fortune",
+      "name": "Golden Joker 243 Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-243-hold-and-win",
+      "name": "Golden Joker 243 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-27",
+      "name": "Golden Joker 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-27-hold-and-win",
+      "name": "Golden Joker 27 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-fortune",
+      "name": "Golden Joker Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-halloween",
+      "name": "Golden Joker Halloween",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "golden-joker-plus",
+      "name": "Golden Joker Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "great-hook-hold-and-win",
+      "name": "Great Hook Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hold-the-gold",
+      "name": "Hold The Gold",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hold-the-gold-fortune",
+      "name": "Hold The Gold Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-coins-fruits-100",
+      "name": "Hot Coins & Fruits 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-coins-fruits-243",
+      "name": "Hot Coins & Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-coins-fortune",
+      "name": "Hot Coins Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "hot-coins-fortune-10",
+      "name": "Hot Coins Fortune 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "juicy-splash-10",
+      "name": "Juicy Splash 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "jungle-wealth-hold-and-win",
+      "name": "Jungle Wealth Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lady-firedrake",
+      "name": "Lady & Firedrake",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lady-wild-10",
+      "name": "Lady Wild 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "landy-candy",
+      "name": "Landy-Candy",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "landy-candy-100",
+      "name": "Landy-Candy 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "landy-candy-spins-100",
+      "name": "Landy-Candy Spins 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "leonardos-secret",
+      "name": "Leonardo's Secret",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "love-gems-hold-and-win",
+      "name": "Love Gems Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucknpower",
+      "name": "Luck'n'Power",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-brave-hold-and-win",
+      "name": "Lucky & Brave Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-10-bells",
+      "name": "Lucky 10 Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-100-bells",
+      "name": "Lucky 100 Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-1spin4win-hold-and-win",
+      "name": "Lucky 1spin4win Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-2-ways",
+      "name": "Lucky 2 Ways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-20-bells",
+      "name": "Lucky 20 Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-3-cherries",
+      "name": "Lucky 3 Cherries",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-432-ways",
+      "name": "Lucky 432 Ways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-5-bells",
+      "name": "Lucky 5 Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-and-brave-fortune",
+      "name": "Lucky And Brave Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-and-brave-win-spins",
+      "name": "Lucky And Brave Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-arena-hold-and-win",
+      "name": "Lucky Arena Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-band-hold-and-win",
+      "name": "Lucky Band Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-bro-hold-and-win",
+      "name": "Lucky Bro Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-cash-and-spins",
+      "name": "Lucky Cash And Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-cashn-fruits",
+      "name": "Lucky Cash'n Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-cashn-fruits-243",
+      "name": "Lucky Cash'n Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-christmas-243",
+      "name": "Lucky Christmas 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-clover-243",
+      "name": "Lucky Clover 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-clover-27",
+      "name": "Lucky Clover 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-clover-spins",
+      "name": "Lucky Clover Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-coin-wins",
+      "name": "Lucky Coin Wins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crown-20",
+      "name": "Lucky Crown 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crown-81x",
+      "name": "Lucky Crown 81x",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crown-hold-and-win",
+      "name": "Lucky Crown Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crown-plus",
+      "name": "Lucky Crown Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-crown-spins",
+      "name": "Lucky Crown Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-easter-10",
+      "name": "Lucky Easter 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-easter-243",
+      "name": "Lucky Easter 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-easter-27-hold-and-win",
+      "name": "Lucky Easter 27 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-eve-100",
+      "name": "Lucky Eve 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-fest-hold-and-win",
+      "name": "Lucky Fest Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-foxilian-hold-and-win",
+      "name": "Lucky Foxilian Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-fruit-wins-100",
+      "name": "Lucky Fruit Wins 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-fruit-x",
+      "name": "Lucky Fruit X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-goal",
+      "name": "Lucky Goal",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-gold-miner",
+      "name": "Lucky Gold Miner",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-hell-o-win",
+      "name": "Lucky Hell-o-win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-hercules-hold-and-win",
+      "name": "Lucky Hercules Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-honey",
+      "name": "Lucky Honey",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-jane-aztec-book",
+      "name": "Lucky Jane & Aztec Book",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-jane-in-egypt",
+      "name": "Lucky Jane in Egypt",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-jane-in-egypt-fortune",
+      "name": "Lucky Jane In Egypt Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-jane-in-egypt-hold-and-win",
+      "name": "Lucky Jane In Egypt Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-jane-in-egypt-win-spins",
+      "name": "Lucky Jane In Egypt Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-lady-bug",
+      "name": "Lucky Lady Bug",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-legion-fortune",
+      "name": "Lucky Legion Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-legion-hold-and-win",
+      "name": "Lucky Legion Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-retro-fruits",
+      "name": "Lucky Retro Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-retro-fruits-243",
+      "name": "Lucky Retro Fruits 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-retro-fruits-hold-and-win",
+      "name": "Lucky Retro Fruits Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-robbery",
+      "name": "Lucky Robbery",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-robbery-fortune",
+      "name": "Lucky Robbery Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-robbery-win-spins",
+      "name": "Lucky Robbery Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-safari-hold-and-win",
+      "name": "Lucky Safari Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-sakura",
+      "name": "Lucky Sakura",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-sakura-hold-and-win",
+      "name": "Lucky Sakura Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-sakura-win-spins",
+      "name": "Lucky Sakura Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-selva-hold-and-win",
+      "name": "Lucky Selva Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-snowlight",
+      "name": "Lucky Snowlight",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-tribe-20",
+      "name": "Lucky Tribe 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-win-spins",
+      "name": "Lucky Win Spins",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-win-spins-x",
+      "name": "Lucky Win Spins X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-x-bells",
+      "name": "Lucky X Bells",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-xmas-20",
+      "name": "Lucky Xmas 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "lucky-xmas-box",
+      "name": "Lucky Xmas Box",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mad-jack-hold-and-win",
+      "name": "Mad Jack Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-booming-diamonds",
+      "name": "Mega Booming Diamonds",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-booming-fruits",
+      "name": "Mega Booming Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-cash-amplifier",
+      "name": "Mega Cash Amplifier",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-cash-the-gold",
+      "name": "Mega Cash The Gold",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-cashn-fruits",
+      "name": "Mega Cash'n Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-diamond-x",
+      "name": "Mega Diamond X",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-diamonds-luck",
+      "name": "Mega Diamonds Luck",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-100",
+      "name": "Mega Lucky 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-243",
+      "name": "Mega Lucky 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-27",
+      "name": "Mega Lucky 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-576",
+      "name": "Mega Lucky 576",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-81x",
+      "name": "Mega Lucky 81x",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-cashout",
+      "name": "Mega Lucky Cashout",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-diamonds",
+      "name": "Mega Lucky Diamonds",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-diamonds-hold-and-win",
+      "name": "Mega Lucky Diamonds Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mega-lucky-pot",
+      "name": "Mega Lucky Pot",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mighty-red",
+      "name": "Mighty Red",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystery-coin-243",
+      "name": "Mystery Coin 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystery-coin-27",
+      "name": "Mystery Coin 27",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "mystical-luck-hold-and-win",
+      "name": "Mystical Luck Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "northern-gold-rush",
+      "name": "Northern Gold Rush",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "queen-of-diamonds-20",
+      "name": "Queen of Diamonds 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "retro-432-ways",
+      "name": "Retro 432 Ways",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "retro-fruits-243-fortune",
+      "name": "Retro Fruits 243 Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "retro-mega-fruits",
+      "name": "Retro Mega Fruits",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "retro-wins-100",
+      "name": "Retro Wins 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "roll-the-pearls-hold-and-win",
+      "name": "Roll The Pearls Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "seven-wild",
+      "name": "Seven&Wild",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sound-of-steel-hold-and-win",
+      "name": "Sound Of Steel Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "spartans-luck-hold-and-win",
+      "name": "Spartans Luck Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sun-treasure",
+      "name": "Sun Treasure",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "sweet-spins-20",
+      "name": "Sweet Spins 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "tigers-steps-hold-and-win",
+      "name": "Tiger's Steps Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "very-lucky",
+      "name": "Very Lucky",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "very-lucky-1024",
+      "name": "Very Lucky 1024",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "very-lucky-243",
+      "name": "Very Lucky 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "very-lucky-256",
+      "name": "Very Lucky 256",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "very-lucky-27-hold-and-win",
+      "name": "Very Lucky 27 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "warriors-luck",
+      "name": "Warrior's Luck",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "way-of-honor-hold-and-win",
+      "name": "Way Of Honor Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "welcome-to-octoberfest",
+      "name": "Welcome To Oktoberfest",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "werewolfs-night",
+      "name": "Werewolf's Night",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-bells-100",
+      "name": "Wild Bells 100",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-lady-cash",
+      "name": "Wild Lady Cash",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-lady-cash-10",
+      "name": "Wild Lady Cash 10",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wild-lucky-chance",
+      "name": "Wild Lucky Chance",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wildn-luck-20",
+      "name": "Wild'n Luck 20",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wish-and-spin-fortune",
+      "name": "Wish And Spin Fortune",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wish-and-spin-hold-and-win",
+      "name": "Wish And Spin Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wish-and-spin-plus",
+      "name": "Wish And Spin Plus",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "wolf-spins-243",
+      "name": "Wolf Spins 243",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "xmas-lucky-time-hold-and-win",
+      "name": "Xmas Lucky Time Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    }
+  ]
+}

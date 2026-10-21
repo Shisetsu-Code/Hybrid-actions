@@ -12,7 +12,7 @@ export async function seedCatalogues({cloud,config,at=Date.now(),log=()=>{}}){
   await cloud.configurePolicy(provider.id,provider.pacing);
   const jobs=[
    ...provider.games.map(game=>({role:'catalog',provider:provider.id,subject:game.id,
-    priority:15,payload:{game:{provider:provider.id,id:game.id,url:game.url}}})),
+    priority:15,payload:{game:{provider:provider.id,...game}}})),
    ...provider.sources.map(source=>({role:'discovery',provider:provider.id,
     subject:discoverySubject(source.id,at),priority:20,payload:{source}}))
   ];
