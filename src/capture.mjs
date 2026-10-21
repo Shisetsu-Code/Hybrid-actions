@@ -1,6 +1,7 @@
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
+import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 export async function capturePublicDemo(browser,engine,job,{
  config,runId,waitMs=3500,confirmAdult=false,runnerId='runner'
@@ -9,6 +10,7 @@ export async function capturePublicDemo(browser,engine,job,{
  if(!game||game.provider!==job.provider||game.id!==job.subject)
   throw Error('catalogue ticket identity mismatch');
  providerForUrl(config,job.provider,game.url);
+ if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId});
  const expectedOrigin=new URL(game.url).origin;
  const context=await browser.newContext({
   viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
@@ -62,7 +64,9 @@ export async function capturePublicDemo(browser,engine,job,{
 export async function discoverCatalogue(browser,engine,job,{config,cloud,runId}={}){
  if(job.role!=='discovery')throw Error('expected a discovery ticket');
  const source=engine.discover.validateDiscoveryTicket(job);
- const discovered=await engine.discover.discoverPublicDemos(browser,source);
+ const discovered=job.provider==='playngo'?
+  await discoverPlayngo(browser,source,{config}):
+  await engine.discover.discoverPublicDemos(browser,source);
  const batch=[];
  let queued=0,skipped=0;
  for(const game of discovered.games){
