@@ -94,3 +94,31 @@ test('mobile capture has a real frame and mobile assets before emitting visual J
  assert.ok(visits[1].includes('channel=mobile'));
  assert.ok(!JSON.stringify(result.info).includes('ticket='));
 });
+
+
+test('real Playngo terminal page can omit nextOffset after 20 entries',async()=>{
+ const calls=[];
+ const browser={newContext:async()=>({request:{get:async url=>{
+  const offset=Number(new URL(url).searchParams.get('offset'));calls.push(offset);
+  if(offset===0)return {status:()=>200,json:async()=>({
+   games:Array.from({length:24},(_,i)=>({sku:String(i+1),slug:'demo-'+(i+1)})),
+   nextOffset:24
+  })};
+  return {status:()=>200,json:async()=>({
+   games:Array.from({length:20},(_,i)=>({sku:String(25+i),slug:'demo-'+(25+i)}))
+   // Deliberately no nextOffset, matching live API 2026-10-21
+  })};
+ }},close:async()=>{}})};
+ const out=await discoverPlayngo(browser,source,{config,maxPages:3,pauseMs:0});
+ assert.deepEqual(calls,[0,24]);
+ assert.equal(out.complete,true);
+ assert.equal(out.games.length,44);
+});
+test('an omitted nextOffset on a full 24-game page cannot claim completion',async()=>{
+ const browser={newContext:async()=>({request:{get:async()=>({
+  status:()=>200,json:async()=>({
+   games:Array.from({length:24},(_,i)=>({sku:String(i+1),slug:'demo-'+(i+1)}))
+  })
+ })},close:async()=>{}})};
+ await assert.rejects(()=>discoverPlayngo(browser,source,{config,maxPages:2,pauseMs:0}),/missing nextOffset/);
+});
