@@ -90,6 +90,7 @@ function mockPage({age=false,cookies=false}={}){
   screenshot:async()=>Buffer.alloc(4500,42)
  });
  const page={
+  setDefaultNavigationTimeout:()=>{},
   goto:async()=>({status:()=>200}),
   url:()=>origin,
   on:(event,cb)=>{pageEvents[event]=cb;},
