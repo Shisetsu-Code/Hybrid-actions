@@ -32,7 +32,14 @@ export async function discoverPlayngo(browser,source,{config,maxPages=45,pauseMs
     games.set(game.gameId,game);
    }
    pages++;
-   if(data.nextOffset===null){complete=true;break;}
+   // The real public API omits nextOffset entirely on the final page
+   // (offset=456, count=20 in the verified 476-game catalogue).
+   // Never call an omitted nextOffset a cycle; a full page without nextOffset
+   // is ambiguous, so fail safely rather than claiming completeness.
+   if(data.nextOffset==null){
+    if(data.games.length===48)throw Error('missing nextOffset on full catalogue page');
+    complete=true;break;
+   }
    const next=Number(data.nextOffset);
    if(!Number.isSafeInteger(next)||next<=offset||next>5000)throw Error('cyclic pagination');
    offset=next;
