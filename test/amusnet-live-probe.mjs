@@ -7,7 +7,7 @@ const catalogue='https://amusnet.com/online-casino#online-casino-games';
 const apiOrigin='https://backend.careers-amusnet.com';
 const expectedHosts=new Set(['free-pod.games.amusnet.io','free.games.amusnet.io']);
 const out={runner:'github-actions',catalogue:{},api:{},game:{},demo:{state:'not_attempted'}};
-const message=(x)=>String(x?.message||x).slice(0,200);
+const message=(x)=>String(x?.message||x).replace(/token=[^&\\s]+/gi,'token=REDACTED').slice(0,650);
 const emit=()=>console.log('AMUSNET_PROBE_RESULT '+JSON.stringify(out));
 const browser=await chromium.launch({headless:true});
 try {
@@ -94,6 +94,19 @@ try {
    out.game.catalogueButtonCount=await page.locator('.play-demo-btn').count();
    out.game.detailButtonCount=await page.locator('.bttn').count();
    out.game.demoControlVisible=await play.isVisible().catch(()=>false);
+   out.game.buttonCenter=await play.evaluate(el=>{
+    const r=el.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);
+    return {buttonWidth:Math.round(r.width),buttonHeight:Math.round(r.height),
+      topTag:top?.tagName||null,topId:String(top?.id||'').slice(0,70),
+      topClass:String(top?.className||'').slice(0,120),
+      topText:String(top?.textContent||'').replace(/\\s+/g,' ').slice(0,100)};
+   }).catch(()=>null);
+   out.game.agePromptVisible=await page.getByText(/Please confirm that you are 18/i)
+    .first().isVisible().catch(()=>false);
+   out.game.overlayCandidates=await page.locator('[role=dialog], #cookiescript_injected, [class*=cookie], [class*=age]')
+    .evaluateAll(els=>els.filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0;})
+     .slice(0,8).map(e=>({id:String(e.id||'').slice(0,40),
+       cl:String(e.className||'').slice(0,80)}))).catch(()=>[]);
    if(!out.game.demoControlVisible){
     out.demo={state:'no_visible_play_demo_control'};
    }else{
@@ -106,7 +119,11 @@ try {
      const u=new URL(r.url());
      if(u.hostname==='amusnet.com'&&u.pathname==='/api/lobby')lobbyHttp=r.status();
     });
-    await play.click({timeout:10000});
+    try { await play.click({timeout:8000}); }
+    catch(e) {
+      out.demo={state:'click_blocked',lobbyRequested,error:message(e)};
+      throw Error('demo click was blocked by page overlay or noninteractive control');
+    }
     const frame=page.locator('.play-popup iframe').first();
     try{
      await frame.waitFor({state:'attached',timeout:25000});
