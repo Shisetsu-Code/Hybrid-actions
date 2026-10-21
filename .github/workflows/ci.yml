@@ -48,4 +48,4 @@ jobs:
       - name: Run local-only Chromium DEMO integration test
         env:
           INTEGRATION_BROWSER: '1'
-        run: node --test test/browser-smoke.test.mjs
+        run: npm test
