@@ -1,0 +1,33 @@
+name: Probe Play'n GO Mobile Demo
+on:
+  push:
+    branches: [test/playngo-mobile-launch-20261021]
+    paths:
+      - '.github/workflows/playngo-mobile-probe.yml'
+      - 'test/playngo-mobile-probe.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mobile-demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install locked engine dependencies
+        run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium including Linux dependencies
+        run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Compare production launcher mobile and desktop, then mobile preview
+        run: node test/playngo-mobile-probe.mjs
