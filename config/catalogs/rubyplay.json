@@ -1,10 +1,10 @@
 {
   "provider": "rubyplay",
   "name": "RubyPlay",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
-  "count": 49,
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
+  "count": 66,
   "refreshStatus": "updated",
-  "partialReported": true,
+  "partialReported": false,
   "fallbackReported": false,
   "completeness": "not-certified",
   "omittedLaunchUrls": 0,
@@ -31,18 +31,6 @@
       "id": "gummy-giga-match",
       "name": "Gummy Giga Match® Max Win: 18,997x",
       "publicUrl": "https://rubyplay.com/games/gummy-giga-match/",
-      "launchUrlOmitted": false
-    },
-    {
-      "id": "mad-hit-diamonds-extreme",
-      "name": "Mad Hit Diamonds Extreme",
-      "publicUrl": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
-      "launchUrlOmitted": false
-    },
-    {
-      "id": "mad-hit-mr-coin-se",
-      "name": "Mad Hit Mr Coin Se",
-      "publicUrl": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
       "launchUrlOmitted": false
     },
     {
@@ -118,6 +106,54 @@
       "launchUrlOmitted": false
     },
     {
+      "id": "immortal-ways-buffalo-se",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-buffalo-se/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-cleopatra",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-cleopatra/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-diamonds-se",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-diamonds-se/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-gallina-harvest",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-gallina-harvest/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-volcano",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-volcano/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-magic-gems",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-magic-gems/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-heart-to-heart",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-heart-to-heart/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "immortal-ways-3-fates",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/immortal-ways-3-fates/",
+      "launchUrlOmitted": false
+    },
+    {
       "id": "mad-hit-oasis",
       "name": "Read More",
       "publicUrl": "https://rubyplay.com/games/mad-hit-oasis/",
@@ -169,6 +205,72 @@
       "id": "mad-hit-gorillatron",
       "name": "Read More",
       "publicUrl": "https://rubyplay.com/games/mad-hit-gorillatron/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-jokester",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-jokester/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-devil",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-devil/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-mr-coin",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-mr-coin/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-slippery-soap",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-slippery-soap/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-ho-ho-hot-pudding",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-ho-ho-hot-pudding/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-easter-eggsplosion",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-easter-eggsplosion/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-gold",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-gold/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-diamonds-deluxe",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-diamonds-deluxe/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-vegas",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-vegas/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-diamonds-extreme",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "mad-hit-mr-coin-se",
+      "name": "Read More",
+      "publicUrl": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
       "launchUrlOmitted": false
     },
     {

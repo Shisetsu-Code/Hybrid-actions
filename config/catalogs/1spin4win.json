@@ -1,13 +1,13 @@
 {
   "provider": "1spin4win",
   "name": "1Spin4Win",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
-  "count": 229,
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
+  "count": 230,
   "refreshStatus": "updated",
   "partialReported": false,
   "fallbackReported": false,
   "completeness": "not-certified",
-  "omittedLaunchUrls": 229,
+  "omittedLaunchUrls": 230,
   "games": [
     {
       "id": "10-lucky-spins",
@@ -246,6 +246,12 @@
     {
       "id": "cashn-fruits-27-hold-and-win",
       "name": "Cash'n Fruits 27 Hold And Win",
+      "publicUrl": null,
+      "launchUrlOmitted": true
+    },
+    {
+      "id": "cashnfruits-40",
+      "name": "Cash'n Fruits 40",
       "publicUrl": null,
       "launchUrlOmitted": true
     },

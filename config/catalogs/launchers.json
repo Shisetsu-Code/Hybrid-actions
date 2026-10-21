@@ -1,7 +1,7 @@
 {
   "source": "Tester Spin local metadata and launch contracts",
   "sourceRevision": "644d422989116c6725e3c8d9fbff03298388f36d",
-  "importedAt": "2026-10-21T06:40:25.770Z",
+  "importedAt": "2026-10-21T20:15:24.792Z",
   "executionEnabled": false,
   "providers": [
     {
@@ -13,8 +13,8 @@
     },
     {
       "provider": "1spin4win",
-      "sourceGames": 229,
-      "launchableGames": 228,
+      "sourceGames": 230,
+      "launchableGames": 229,
       "omittedGames": 1,
       "status": "tester-spin-launcher-imported-disabled"
     },
@@ -28,8 +28,8 @@
     {
       "provider": "bgaming",
       "sourceGames": 241,
-      "launchableGames": 220,
-      "omittedGames": 21,
+      "launchableGames": 221,
+      "omittedGames": 20,
       "status": "tester-spin-launcher-imported-disabled"
     },
     {
@@ -41,8 +41,8 @@
     },
     {
       "provider": "rubyplay",
-      "sourceGames": 49,
-      "launchableGames": 49,
+      "sourceGames": 66,
+      "launchableGames": 66,
       "omittedGames": 0,
       "status": "tester-spin-launcher-imported-disabled"
     },
@@ -69,7 +69,7 @@
     },
     {
       "provider": "hacksaw",
-      "sourceGames": 187,
+      "sourceGames": 188,
       "launchableGames": 0,
       "omittedGames": 0,
       "status": "tester-spin-protocol-only-no-browser-launcher"
@@ -83,8 +83,8 @@
     },
     {
       "provider": "playtech",
-      "sourceGames": 529,
-      "launchableGames": 529,
+      "sourceGames": 531,
+      "launchableGames": 531,
       "omittedGames": 0,
       "status": "tester-spin-launcher-imported-disabled"
     },
@@ -100,14 +100,14 @@
       "sourceGames": 192,
       "launchableGames": 0,
       "omittedGames": 0,
-      "status": "tester-spin-catalogue-only"
+      "status": "native-adapter-preserved-disabled"
     },
     {
       "provider": "playngo",
       "sourceGames": 476,
       "launchableGames": 0,
       "omittedGames": 0,
-      "status": "tester-spin-catalogue-only"
+      "status": "native-adapter-preserved-disabled"
     },
     {
       "provider": "greentube",

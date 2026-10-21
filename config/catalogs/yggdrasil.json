@@ -1,11 +1,11 @@
 {
   "provider": "yggdrasil",
   "name": "Yggdrasil",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
   "count": 159,
   "refreshStatus": "updated",
   "partialReported": true,
-  "fallbackReported": false,
+  "fallbackReported": true,
   "completeness": "not-certified",
   "omittedLaunchUrls": 0,
   "games": [

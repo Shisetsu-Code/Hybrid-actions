@@ -1,8 +1,8 @@
 {
   "provider": "playtech",
   "name": "Playtech",
-  "refreshedAt": "2026-10-21T06:13:10+00:00",
-  "count": 529,
+  "refreshedAt": "2026-10-21T20:15:15+00:00",
+  "count": 531,
   "refreshStatus": "updated",
   "partialReported": false,
   "fallbackReported": false,
@@ -1488,6 +1488,18 @@
     {
       "id": "game-gpas_gtdbonza_pop",
       "name": "Gold Trio Jackpot™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtff_pop",
+      "name": "Gold Trio: Fluffy Favourites 10000™",
+      "publicUrl": "https://www.playtechone.com/",
+      "launchUrlOmitted": false
+    },
+    {
+      "id": "game-gpas_gtffj_pop",
+      "name": "Gold Trio: Fluffy Favourites Jackpot™",
       "publicUrl": "https://www.playtechone.com/",
       "launchUrlOmitted": false
     },

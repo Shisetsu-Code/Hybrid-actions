@@ -5,7 +5,7 @@
       "id": "pragmatic",
       "name": "Pragmatic Play",
       "enabled": false,
-      "approved": true,
+      "approved": false,
       "catalogFile": "config/catalogs/pragmatic.json",
       "games": [
         {
@@ -3527,6 +3527,11 @@
           "symbol": "CashnFruits27HoldAndWin"
         },
         {
+          "id": "cashnfruits-40",
+          "url": "https://gs.1spin4win.com:10443/gmh5/cashnfruits40.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "cashnfruits40"
+        },
+        {
           "id": "cashn-fruits-fortune",
           "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruitsFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
           "symbol": "CashnFruitsFortune"
@@ -5226,6 +5231,11 @@
           "id": "bling-blitz-diamond-drop",
           "url": "https://demo.bgaming-network.com/play/BlingBlitzDiamondDrop/FUN",
           "symbol": "BlingBlitzDiamondDrop"
+        },
+        {
+          "id": "bonanza-billion",
+          "url": "https://demo.bgaming-network.com/play/BonanzaBillion/FUN?server=demo",
+          "symbol": "BonanzaBillion"
         },
         {
           "id": "bonanza-billion-merge-up",
@@ -10408,16 +10418,6 @@
           "symbol": "rp_125"
         },
         {
-          "id": "mad-hit-diamonds-extreme",
-          "url": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
-          "symbol": "rp_222"
-        },
-        {
-          "id": "mad-hit-mr-coin-se",
-          "url": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
-          "symbol": ""
-        },
-        {
           "id": "mad-hit-marlin-bonanza",
           "url": "https://rubyplay.com/games/mad-hit-marlin-bonanza/",
           "symbol": "rp_102"
@@ -10478,6 +10478,46 @@
           "symbol": "rp_126"
         },
         {
+          "id": "immortal-ways-buffalo-se",
+          "url": "https://rubyplay.com/games/immortal-ways-buffalo-se/",
+          "symbol": "rp_141"
+        },
+        {
+          "id": "immortal-ways-cleopatra",
+          "url": "https://rubyplay.com/games/immortal-ways-cleopatra/",
+          "symbol": "rp_143"
+        },
+        {
+          "id": "immortal-ways-diamonds-se",
+          "url": "https://rubyplay.com/games/immortal-ways-diamonds-se/",
+          "symbol": "rp_145"
+        },
+        {
+          "id": "immortal-ways-gallina-harvest",
+          "url": "https://rubyplay.com/games/immortal-ways-gallina-harvest/",
+          "symbol": "rp_161"
+        },
+        {
+          "id": "immortal-ways-volcano",
+          "url": "https://rubyplay.com/games/immortal-ways-volcano/",
+          "symbol": "rp_162"
+        },
+        {
+          "id": "immortal-ways-magic-gems",
+          "url": "https://rubyplay.com/games/immortal-ways-magic-gems/",
+          "symbol": "rp_189"
+        },
+        {
+          "id": "immortal-ways-heart-to-heart",
+          "url": "https://rubyplay.com/games/immortal-ways-heart-to-heart/",
+          "symbol": "rp_173"
+        },
+        {
+          "id": "immortal-ways-3-fates",
+          "url": "https://rubyplay.com/games/immortal-ways-3-fates/",
+          "symbol": "rp_206"
+        },
+        {
           "id": "mad-hit-oasis",
           "url": "https://rubyplay.com/games/mad-hit-oasis/",
           "symbol": "rp_96"
@@ -10521,6 +10561,61 @@
           "id": "mad-hit-gorillatron",
           "url": "https://rubyplay.com/games/mad-hit-gorillatron/",
           "symbol": "rp_169"
+        },
+        {
+          "id": "mad-hit-jokester",
+          "url": "https://rubyplay.com/games/mad-hit-jokester/",
+          "symbol": "rp_167"
+        },
+        {
+          "id": "mad-hit-devil",
+          "url": "https://rubyplay.com/games/mad-hit-devil/",
+          "symbol": "rp_186"
+        },
+        {
+          "id": "mad-hit-mr-coin",
+          "url": "https://rubyplay.com/games/mad-hit-mr-coin/",
+          "symbol": "rp_180"
+        },
+        {
+          "id": "mad-hit-slippery-soap",
+          "url": "https://rubyplay.com/games/mad-hit-slippery-soap/",
+          "symbol": "rp_188"
+        },
+        {
+          "id": "mad-hit-ho-ho-hot-pudding",
+          "url": "https://rubyplay.com/games/mad-hit-ho-ho-hot-pudding/",
+          "symbol": "rp_190"
+        },
+        {
+          "id": "mad-hit-easter-eggsplosion",
+          "url": "https://rubyplay.com/games/mad-hit-easter-eggsplosion/",
+          "symbol": "rp_210"
+        },
+        {
+          "id": "mad-hit-gold",
+          "url": "https://rubyplay.com/games/mad-hit-gold/",
+          "symbol": "rp_215"
+        },
+        {
+          "id": "mad-hit-diamonds-deluxe",
+          "url": "https://rubyplay.com/games/mad-hit-diamonds-deluxe/",
+          "symbol": "rp_211"
+        },
+        {
+          "id": "mad-hit-vegas",
+          "url": "https://rubyplay.com/games/mad-hit-vegas/",
+          "symbol": "rp_235"
+        },
+        {
+          "id": "mad-hit-diamonds-extreme",
+          "url": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
+          "symbol": "rp_222"
+        },
+        {
+          "id": "mad-hit-mr-coin-se",
+          "url": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
+          "symbol": ""
         },
         {
           "id": "elephant-stampede",
@@ -15151,7 +15246,7 @@
       "id": "nolimit_city",
       "name": "Nolimit City",
       "enabled": false,
-      "approved": true,
+      "approved": false,
       "catalogFile": "config/catalogs/nolimit_city.json",
       "games": [
         {
@@ -17113,6 +17208,16 @@
           "symbol": "gpas_gtdbonza_pop"
         },
         {
+          "id": "game-gpas_gtff_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_gtff_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_gtff_pop"
+        },
+        {
+          "id": "game-gpas_gtffj_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_gtffj_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_gtffj_pop"
+        },
+        {
           "id": "game-gpas_hoga_pop",
           "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_hoga_pop&preferedmode=offline&real=0",
           "symbol": "gpas_hoga_pop"
@@ -18549,7 +18654,1948 @@
       "enabled": false,
       "approved": false,
       "catalogFile": "config/catalogs/amusnet.json",
-      "games": [],
+      "games": [
+        {
+          "id": "806",
+          "url": "https://amusnet.com/games/online-casino/rise-of-ra"
+        },
+        {
+          "id": "596",
+          "url": "https://amusnet.com/games/online-casino/viking-rising"
+        },
+        {
+          "id": "437",
+          "url": "https://amusnet.com/games/online-casino/dancing-dead"
+        },
+        {
+          "id": "858",
+          "url": "https://amusnet.com/games/online-casino/dark-queen"
+        },
+        {
+          "id": "402",
+          "url": "https://amusnet.com/games/online-casino/diamond-plus"
+        },
+        {
+          "id": "489",
+          "url": "https://amusnet.com/games/online-casino/diamond-plus-valentines-edition"
+        },
+        {
+          "id": "444",
+          "url": "https://amusnet.com/games/online-casino/dice-of-sherwood"
+        },
+        {
+          "id": "824",
+          "url": "https://amusnet.com/games/online-casino/dice-and-roll"
+        },
+        {
+          "id": "454",
+          "url": "https://amusnet.com/games/online-casino/dice-ways"
+        },
+        {
+          "id": "613",
+          "url": "https://amusnet.com/games/online-casino/dice-roll-christmas-edition"
+        },
+        {
+          "id": "439",
+          "url": "https://amusnet.com/games/online-casino/dice-deco"
+        },
+        {
+          "id": "438",
+          "url": "https://amusnet.com/games/online-casino/dice-plus"
+        },
+        {
+          "id": "579",
+          "url": "https://amusnet.com/games/online-casino/dorothys-fairyland"
+        },
+        {
+          "id": "508",
+          "url": "https://amusnet.com/games/online-casino/dragon-reborn"
+        },
+        {
+          "id": "813",
+          "url": "https://amusnet.com/games/online-casino/dragon-reels"
+        },
+        {
+          "id": "447",
+          "url": "https://amusnet.com/games/online-casino/easter-frog"
+        },
+        {
+          "id": "825",
+          "url": "https://amusnet.com/games/online-casino/egypt-sky"
+        },
+        {
+          "id": "578",
+          "url": "https://amusnet.com/games/online-casino/emperors-palace"
+        },
+        {
+          "id": "599",
+          "url": "https://amusnet.com/games/online-casino/empress-charm"
+        },
+        {
+          "id": "492",
+          "url": "https://amusnet.com/games/online-casino/extra-crown-classic"
+        },
+        {
+          "id": "533",
+          "url": "https://amusnet.com/games/online-casino/10-burning-heart"
+        },
+        {
+          "id": "491",
+          "url": "https://amusnet.com/games/online-casino/10-power-hot"
+        },
+        {
+          "id": "548",
+          "url": "https://amusnet.com/games/online-casino/100-burning-hot"
+        },
+        {
+          "id": "847",
+          "url": "https://amusnet.com/games/online-casino/100-cats"
+        },
+        {
+          "id": "470",
+          "url": "https://amusnet.com/games/online-casino/100-golden-coins"
+        },
+        {
+          "id": "434",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot"
+        },
+        {
+          "id": "882",
+          "url": "https://amusnet.com/games/online-casino/2-dragons"
+        },
+        {
+          "id": "527",
+          "url": "https://amusnet.com/games/online-casino/100-super-hot"
+        },
+        {
+          "id": "822",
+          "url": "https://amusnet.com/games/online-casino/extra-stars"
+        },
+        {
+          "id": "880",
+          "url": "https://amusnet.com/games/online-casino/extremely-hot"
+        },
+        {
+          "id": "501",
+          "url": "https://amusnet.com/games/online-casino/fast-money"
+        },
+        {
+          "id": "432",
+          "url": "https://amusnet.com/games/online-casino/flaming-hot-6-reels"
+        },
+        {
+          "id": "568",
+          "url": "https://amusnet.com/games/online-casino/flaming-hot-extreme"
+        },
+        {
+          "id": "805",
+          "url": "https://amusnet.com/games/online-casino/flaming-hot"
+        },
+        {
+          "id": "835",
+          "url": "https://amusnet.com/games/online-casino/forest-band"
+        },
+        {
+          "id": "876",
+          "url": "https://amusnet.com/games/online-casino/forest-tale"
+        },
+        {
+          "id": "820",
+          "url": "https://amusnet.com/games/online-casino/fortune-spells"
+        },
+        {
+          "id": "407",
+          "url": "https://amusnet.com/games/online-casino/fruity-time"
+        },
+        {
+          "id": "811",
+          "url": "https://amusnet.com/games/online-casino/fruits-kingdom"
+        },
+        {
+          "id": "417",
+          "url": "https://amusnet.com/games/online-casino/fruits-and-gold"
+        },
+        {
+          "id": "853",
+          "url": "https://amusnet.com/games/online-casino/frog-story"
+        },
+        {
+          "id": "823",
+          "url": "https://amusnet.com/games/online-casino/game-of-luck"
+        },
+        {
+          "id": "872",
+          "url": "https://amusnet.com/games/online-casino/genius-of-leonardo"
+        },
+        {
+          "id": "817",
+          "url": "https://amusnet.com/games/online-casino/grace-of-cleopatra"
+        },
+        {
+          "id": "555",
+          "url": "https://amusnet.com/games/online-casino/great-27"
+        },
+        {
+          "id": "864",
+          "url": "https://amusnet.com/games/online-casino/great-empire"
+        },
+        {
+          "id": "837",
+          "url": "https://amusnet.com/games/online-casino/great-adventure"
+        },
+        {
+          "id": "416",
+          "url": "https://amusnet.com/games/online-casino/greek-fortune"
+        },
+        {
+          "id": "411",
+          "url": "https://amusnet.com/games/online-casino/hot-deco"
+        },
+        {
+          "id": "704",
+          "url": "https://amusnet.com/games/online-casino/hot-keno"
+        },
+        {
+          "id": "866",
+          "url": "https://amusnet.com/games/online-casino/hot-and-cash"
+        },
+        {
+          "id": "456",
+          "url": "https://amusnet.com/games/online-casino/20-bulky-dice"
+        },
+        {
+          "id": "530",
+          "url": "https://amusnet.com/games/online-casino/20-burning-hot"
+        },
+        {
+          "id": "544",
+          "url": "https://amusnet.com/games/online-casino/20-dazzling-hot"
+        },
+        {
+          "id": "854",
+          "url": "https://amusnet.com/games/online-casino/20-diamonds"
+        },
+        {
+          "id": "608",
+          "url": "https://amusnet.com/games/online-casino/20-glossy-hot"
+        },
+        {
+          "id": "8025",
+          "url": "https://amusnet.com/games/online-casino/20-glossy-hot-golden-coins-link-vip"
+        },
+        {
+          "id": "592",
+          "url": "https://amusnet.com/games/online-casino/20-golden-coins"
+        },
+        {
+          "id": "622",
+          "url": "https://amusnet.com/games/online-casino/20-golden-coins-christmas-edition"
+        },
+        {
+          "id": "558",
+          "url": "https://amusnet.com/games/online-casino/20-hot-blast"
+        },
+        {
+          "id": "554",
+          "url": "https://amusnet.com/games/online-casino/20-joker-reels"
+        },
+        {
+          "id": "435",
+          "url": "https://amusnet.com/games/online-casino/20-power-hot"
+        },
+        {
+          "id": "476",
+          "url": "https://amusnet.com/games/online-casino/20-power-hot-dice"
+        },
+        {
+          "id": "571",
+          "url": "https://amusnet.com/games/online-casino/ice-valley"
+        },
+        {
+          "id": "874",
+          "url": "https://amusnet.com/games/online-casino/imperial-dice"
+        },
+        {
+          "id": "865",
+          "url": "https://amusnet.com/games/online-casino/inca-gold-ii"
+        },
+        {
+          "id": "841",
+          "url": "https://amusnet.com/games/online-casino/imperial-wars"
+        },
+        {
+          "id": "901",
+          "url": "https://amusnet.com/games/online-casino/jacks-or-better-poker"
+        },
+        {
+          "id": "902",
+          "url": "https://amusnet.com/games/online-casino/joker-poker"
+        },
+        {
+          "id": "597",
+          "url": "https://amusnet.com/games/online-casino/kamakura"
+        },
+        {
+          "id": "836",
+          "url": "https://amusnet.com/games/online-casino/kangaroo-land"
+        },
+        {
+          "id": "846",
+          "url": "https://amusnet.com/games/online-casino/kashmir-gold"
+        },
+        {
+          "id": "452",
+          "url": "https://amusnet.com/games/online-casino/kemets-treasures"
+        },
+        {
+          "id": "574",
+          "url": "https://amusnet.com/games/online-casino/knights-heart"
+        },
+        {
+          "id": "510",
+          "url": "https://amusnet.com/games/online-casino/legendary-rome"
+        },
+        {
+          "id": "515",
+          "url": "https://amusnet.com/games/online-casino/like-a-diamond"
+        },
+        {
+          "id": "803",
+          "url": "https://amusnet.com/games/online-casino/20-super-hot"
+        },
+        {
+          "id": "868",
+          "url": "https://amusnet.com/games/online-casino/lucky-and-wild"
+        },
+        {
+          "id": "881",
+          "url": "https://amusnet.com/games/online-casino/lucky-buzz"
+        },
+        {
+          "id": "849",
+          "url": "https://amusnet.com/games/online-casino/lucky-hot"
+        },
+        {
+          "id": "573",
+          "url": "https://amusnet.com/games/online-casino/lucky-wood"
+        },
+        {
+          "id": "409",
+          "url": "https://amusnet.com/games/online-casino/27-dice"
+        },
+        {
+          "id": "556",
+          "url": "https://amusnet.com/games/online-casino/27-wins"
+        },
+        {
+          "id": "528",
+          "url": "https://amusnet.com/games/online-casino/30-spicy-fruits"
+        },
+        {
+          "id": "581",
+          "url": "https://amusnet.com/games/online-casino/30-summer-bliss"
+        },
+        {
+          "id": "561",
+          "url": "https://amusnet.com/games/online-casino/40-almighty-ramses-ii"
+        },
+        {
+          "id": "8026",
+          "url": "https://amusnet.com/games/online-casino/40-art-of-gold-dice-edition-golden-coins-link-vip"
+        },
+        {
+          "id": "903",
+          "url": "https://amusnet.com/games/online-casino/4-of-a-kind-bonus-poker"
+        },
+        {
+          "id": "445",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-fruits-6-reels"
+        },
+        {
+          "id": "8027",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-dice-golden-coins-link-vip"
+        },
+        {
+          "id": "428",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-fruits"
+        },
+        {
+          "id": "8028",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-fruits-golden-coins-link-vip"
+        },
+        {
+          "id": "529",
+          "url": "https://amusnet.com/games/online-casino/40-burning-hot"
+        },
+        {
+          "id": "566",
+          "url": "https://amusnet.com/games/online-casino/40-burning-hot-6-reels"
+        },
+        {
+          "id": "8029",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-classic-dice-golden-coins-link-vip"
+        },
+        {
+          "id": "8030",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-golden-coins-link-vip"
+        },
+        {
+          "id": "468",
+          "url": "https://amusnet.com/games/online-casino/40-golden-coins"
+        },
+        {
+          "id": "502",
+          "url": "https://amusnet.com/games/online-casino/magellan"
+        },
+        {
+          "id": "598",
+          "url": "https://amusnet.com/games/online-casino/magic-guardians"
+        },
+        {
+          "id": "830",
+          "url": "https://amusnet.com/games/online-casino/majestic-forest"
+        },
+        {
+          "id": "898",
+          "url": "https://amusnet.com/games/online-casino/mayan-spirit"
+        },
+        {
+          "id": "404",
+          "url": "https://amusnet.com/games/online-casino/mighty-sparta"
+        },
+        {
+          "id": "446",
+          "url": "https://amusnet.com/games/online-casino/extra-crown"
+        },
+        {
+          "id": "875",
+          "url": "https://amusnet.com/games/online-casino/more-dice-and-roll"
+        },
+        {
+          "id": "516",
+          "url": "https://amusnet.com/games/online-casino/more-like-a-diamond"
+        },
+        {
+          "id": "869",
+          "url": "https://amusnet.com/games/online-casino/more-lucky-wild"
+        },
+        {
+          "id": "577",
+          "url": "https://amusnet.com/games/online-casino/mythical-treasure"
+        },
+        {
+          "id": "861",
+          "url": "https://amusnet.com/games/online-casino/neon-dice"
+        },
+        {
+          "id": "5107",
+          "url": "https://amusnet.com/games/online-casino/ocean-dice"
+        },
+        {
+          "id": "839",
+          "url": "https://amusnet.com/games/online-casino/ocean-rush"
+        },
+        {
+          "id": "848",
+          "url": "https://amusnet.com/games/online-casino/oil-company-ii"
+        },
+        {
+          "id": "819",
+          "url": "https://amusnet.com/games/online-casino/olympus-glory"
+        },
+        {
+          "id": "593",
+          "url": "https://amusnet.com/games/online-casino/orient-story"
+        },
+        {
+          "id": "545",
+          "url": "https://amusnet.com/games/online-casino/40-hot-and-cash"
+        },
+        {
+          "id": "546",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-king"
+        },
+        {
+          "id": "408",
+          "url": "https://amusnet.com/games/online-casino/40-luxury-dice"
+        },
+        {
+          "id": "547",
+          "url": "https://amusnet.com/games/online-casino/40-mega-clover"
+        },
+        {
+          "id": "426",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot"
+        },
+        {
+          "id": "804",
+          "url": "https://amusnet.com/games/online-casino/40-super-hot"
+        },
+        {
+          "id": "531",
+          "url": "https://amusnet.com/games/online-casino/40-ultra-respin"
+        },
+        {
+          "id": "532",
+          "url": "https://amusnet.com/games/online-casino/5-burning-heart"
+        },
+        {
+          "id": "810",
+          "url": "https://amusnet.com/games/online-casino/5-dazzling-hot"
+        },
+        {
+          "id": "553",
+          "url": "https://amusnet.com/games/online-casino/5-great-star"
+        },
+        {
+          "id": "451",
+          "url": "https://amusnet.com/games/online-casino/5-glossy-hot"
+        },
+        {
+          "id": "557",
+          "url": "https://amusnet.com/games/online-casino/5-juggle-fruits"
+        },
+        {
+          "id": "563",
+          "url": "https://amusnet.com/games/online-casino/50-amazons-battle"
+        },
+        {
+          "id": "879",
+          "url": "https://amusnet.com/games/online-casino/50-horses"
+        },
+        {
+          "id": "480",
+          "url": "https://amusnet.com/games/online-casino/7-and-crystals"
+        },
+        {
+          "id": "625",
+          "url": "https://amusnet.com/games/online-casino/7-crystals-dice"
+        },
+        {
+          "id": "5031",
+          "url": "https://amusnet.com/games/online-casino/7-fire-dice"
+        },
+        {
+          "id": "549",
+          "url": "https://amusnet.com/games/online-casino/81-wins"
+        },
+        {
+          "id": "851",
+          "url": "https://amusnet.com/games/online-casino/action-money"
+        },
+        {
+          "id": "812",
+          "url": "https://amusnet.com/games/online-casino/age-of-troy"
+        },
+        {
+          "id": "520",
+          "url": "https://amusnet.com/games/online-casino/almighty-ramses-ii"
+        },
+        {
+          "id": "884",
+          "url": "https://amusnet.com/games/online-casino/aloha-party"
+        },
+        {
+          "id": "808",
+          "url": "https://amusnet.com/games/online-casino/amazing-amazonia"
+        },
+        {
+          "id": "859",
+          "url": "https://amusnet.com/games/online-casino/amazons-battle"
+        },
+        {
+          "id": "567",
+          "url": "https://amusnet.com/games/online-casino/ancient-dynasty"
+        },
+        {
+          "id": "449",
+          "url": "https://amusnet.com/games/online-casino/art-of-gold"
+        },
+        {
+          "id": "457",
+          "url": "https://amusnet.com/games/online-casino/aztec-dice"
+        },
+        {
+          "id": "443",
+          "url": "https://amusnet.com/games/online-casino/aztec-forest"
+        },
+        {
+          "id": "511",
+          "url": "https://amusnet.com/games/online-casino/aztec-glory"
+        },
+        {
+          "id": "814",
+          "url": "https://amusnet.com/games/online-casino/blue-heart"
+        },
+        {
+          "id": "594",
+          "url": "https://amusnet.com/games/online-casino/blue-oceans"
+        },
+        {
+          "id": "525",
+          "url": "https://amusnet.com/games/online-casino/brave-cat"
+        },
+        {
+          "id": "433",
+          "url": "https://amusnet.com/games/online-casino/bulky-dice"
+        },
+        {
+          "id": "410",
+          "url": "https://amusnet.com/games/online-casino/bulky-fruits"
+        },
+        {
+          "id": "801",
+          "url": "https://amusnet.com/games/online-casino/burning-hot"
+        },
+        {
+          "id": "565",
+          "url": "https://amusnet.com/games/online-casino/burning-hot-6-reels"
+        },
+        {
+          "id": "201",
+          "url": "https://amusnet.com/games/online-casino/burning-keno"
+        },
+        {
+          "id": "405",
+          "url": "https://amusnet.com/games/online-casino/candy-palace"
+        },
+        {
+          "id": "621",
+          "url": "https://amusnet.com/games/online-casino/candy-palace-christmas-edition"
+        },
+        {
+          "id": "506",
+          "url": "https://amusnet.com/games/online-casino/caramel-hot"
+        },
+        {
+          "id": "616",
+          "url": "https://amusnet.com/games/online-casino/caramel-hot-christmas-edition"
+        },
+        {
+          "id": "850",
+          "url": "https://amusnet.com/games/online-casino/casino-mania"
+        },
+        {
+          "id": "871",
+          "url": "https://amusnet.com/games/online-casino/cats-royal"
+        },
+        {
+          "id": "829",
+          "url": "https://amusnet.com/games/online-casino/circus-brilliant"
+        },
+        {
+          "id": "486",
+          "url": "https://amusnet.com/games/online-casino/cocktail-dice"
+        },
+        {
+          "id": "514",
+          "url": "https://amusnet.com/games/online-casino/coral-island"
+        },
+        {
+          "id": "518",
+          "url": "https://amusnet.com/games/online-casino/crazy-bugs-ii"
+        },
+        {
+          "id": "852",
+          "url": "https://amusnet.com/games/online-casino/penguin-style"
+        },
+        {
+          "id": "440",
+          "url": "https://amusnet.com/games/online-casino/phoenix-star"
+        },
+        {
+          "id": "576",
+          "url": "https://amusnet.com/games/online-casino/pin-up-queens"
+        },
+        {
+          "id": "431",
+          "url": "https://amusnet.com/games/online-casino/power-hot"
+        },
+        {
+          "id": "512",
+          "url": "https://amusnet.com/games/online-casino/queen-of-rio"
+        },
+        {
+          "id": "889",
+          "url": "https://amusnet.com/games/online-casino/retro-style"
+        },
+        {
+          "id": "899",
+          "url": "https://amusnet.com/games/online-casino/rich-world"
+        },
+        {
+          "id": "572",
+          "url": "https://amusnet.com/games/online-casino/rainbow-luck"
+        },
+        {
+          "id": "575",
+          "url": "https://amusnet.com/games/online-casino/retro-cabaret"
+        },
+        {
+          "id": "860",
+          "url": "https://amusnet.com/games/online-casino/rolling-dice"
+        },
+        {
+          "id": "614",
+          "url": "https://amusnet.com/games/online-casino/rolling-dice-christmas-edition"
+        },
+        {
+          "id": "504",
+          "url": "https://amusnet.com/games/online-casino/route-of-mexico"
+        },
+        {
+          "id": "809",
+          "url": "https://amusnet.com/games/online-casino/royal-secrets"
+        },
+        {
+          "id": "401",
+          "url": "https://amusnet.com/games/online-casino/secrets-of-sherwood"
+        },
+        {
+          "id": "828",
+          "url": "https://amusnet.com/games/online-casino/secrets-of-alchemy"
+        },
+        {
+          "id": "831",
+          "url": "https://amusnet.com/games/online-casino/shining-crown"
+        },
+        {
+          "id": "895",
+          "url": "https://amusnet.com/games/online-casino/spanish-passion"
+        },
+        {
+          "id": "855",
+          "url": "https://amusnet.com/games/online-casino/summer-bliss"
+        },
+        {
+          "id": "897",
+          "url": "https://amusnet.com/games/online-casino/super-20"
+        },
+        {
+          "id": "703",
+          "url": "https://amusnet.com/games/online-casino/superb-keno"
+        },
+        {
+          "id": "821",
+          "url": "https://amusnet.com/games/online-casino/supreme-hot"
+        },
+        {
+          "id": "845",
+          "url": "https://amusnet.com/games/online-casino/supreme-dice"
+        },
+        {
+          "id": "513",
+          "url": "https://amusnet.com/games/online-casino/the-big-journey"
+        },
+        {
+          "id": "834",
+          "url": "https://amusnet.com/games/online-casino/the-explorers"
+        },
+        {
+          "id": "885",
+          "url": "https://amusnet.com/games/online-casino/the-great-egypt"
+        },
+        {
+          "id": "873",
+          "url": "https://amusnet.com/games/online-casino/the-secrets-of-london"
+        },
+        {
+          "id": "896",
+          "url": "https://amusnet.com/games/online-casino/the-story-of-alexander"
+        },
+        {
+          "id": "863",
+          "url": "https://amusnet.com/games/online-casino/the-white-wolf"
+        },
+        {
+          "id": "580",
+          "url": "https://amusnet.com/games/online-casino/the-story-of-alexander-2"
+        },
+        {
+          "id": "595",
+          "url": "https://amusnet.com/games/online-casino/tirol-fest"
+        },
+        {
+          "id": "562",
+          "url": "https://amusnet.com/games/online-casino/vampire-night"
+        },
+        {
+          "id": "832",
+          "url": "https://amusnet.com/games/online-casino/venezia-doro"
+        },
+        {
+          "id": "818",
+          "url": "https://amusnet.com/games/online-casino/versailles-gold"
+        },
+        {
+          "id": "564",
+          "url": "https://amusnet.com/games/online-casino/volcano-wealth"
+        },
+        {
+          "id": "479",
+          "url": "https://amusnet.com/games/online-casino/wild-traces"
+        },
+        {
+          "id": "815",
+          "url": "https://amusnet.com/games/online-casino/witches-charm"
+        },
+        {
+          "id": "505",
+          "url": "https://amusnet.com/games/online-casino/wonder-tree"
+        },
+        {
+          "id": "523",
+          "url": "https://amusnet.com/games/online-casino/wonderheart"
+        },
+        {
+          "id": "807",
+          "url": "https://amusnet.com/games/online-casino/zodiac-wheel"
+        },
+        {
+          "id": "5005",
+          "url": "https://amusnet.com/games/online-casino/easter-frog-dice"
+        },
+        {
+          "id": "421",
+          "url": "https://amusnet.com/games/online-casino/27-eternal-hot"
+        },
+        {
+          "id": "560",
+          "url": "https://amusnet.com/games/online-casino/shining-dice"
+        },
+        {
+          "id": "441",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-fruits"
+        },
+        {
+          "id": "623",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-6-reels"
+        },
+        {
+          "id": "8031",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-wilds-hot-golden-coins-link-vip"
+        },
+        {
+          "id": "8040",
+          "url": "https://amusnet.com/games/online-casino/pandas-gold-golden-coins-link-vip"
+        },
+        {
+          "id": "638",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-dice"
+        },
+        {
+          "id": "418",
+          "url": "https://amusnet.com/games/online-casino/20-golden-coins-dice-edition"
+        },
+        {
+          "id": "467",
+          "url": "https://amusnet.com/games/online-casino/water-dice"
+        },
+        {
+          "id": "485",
+          "url": "https://amusnet.com/games/online-casino/5-glossy-dice"
+        },
+        {
+          "id": "478",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-dice-edition"
+        },
+        {
+          "id": "497",
+          "url": "https://amusnet.com/games/online-casino/20-diamond-plus"
+        },
+        {
+          "id": "610",
+          "url": "https://amusnet.com/games/online-casino/100-extra-crown"
+        },
+        {
+          "id": "619",
+          "url": "https://amusnet.com/games/online-casino/10-bulky-fruits"
+        },
+        {
+          "id": "8000",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-golden-coins-link"
+        },
+        {
+          "id": "8005",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-fruits-golden-coins-link"
+        },
+        {
+          "id": "8006",
+          "url": "https://amusnet.com/games/online-casino/art-of-gold-golden-coins-link"
+        },
+        {
+          "id": "8004",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-fruits-golden-coins-link"
+        },
+        {
+          "id": "8002",
+          "url": "https://amusnet.com/games/online-casino/40-mystic-gem-golden-coins-link"
+        },
+        {
+          "id": "8007",
+          "url": "https://amusnet.com/games/online-casino/20-glossy-hot-golden-coins-link"
+        },
+        {
+          "id": "607",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown"
+        },
+        {
+          "id": "632",
+          "url": "https://amusnet.com/games/online-casino/extra-crown-deluxe"
+        },
+        {
+          "id": "461",
+          "url": "https://amusnet.com/games/online-casino/vampire-beast"
+        },
+        {
+          "id": "5056",
+          "url": "https://amusnet.com/games/online-casino/caramelo-sortudo"
+        },
+        {
+          "id": "463",
+          "url": "https://amusnet.com/games/online-casino/secrets-of-cairo"
+        },
+        {
+          "id": "498",
+          "url": "https://amusnet.com/games/online-casino/40-diamond-plus"
+        },
+        {
+          "id": "630",
+          "url": "https://amusnet.com/games/online-casino/100-extra-crown-6-reels"
+        },
+        {
+          "id": "459",
+          "url": "https://amusnet.com/games/online-casino/clover-islands"
+        },
+        {
+          "id": "430",
+          "url": "https://amusnet.com/games/online-casino/gold-crystals"
+        },
+        {
+          "id": "645",
+          "url": "https://amusnet.com/games/online-casino/sparta-legend"
+        },
+        {
+          "id": "375",
+          "url": "https://amusnet.com/games/online-casino/tiki-tiki-boo-boo"
+        },
+        {
+          "id": "637",
+          "url": "https://amusnet.com/games/online-casino/100-golden-coins-dice-edition"
+        },
+        {
+          "id": "639",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-dice-6-reels"
+        },
+        {
+          "id": "911",
+          "url": "https://amusnet.com/games/online-casino/coin-gobbler-christmas-edition"
+        },
+        {
+          "id": "460",
+          "url": "https://amusnet.com/games/online-casino/bier-ometer"
+        },
+        {
+          "id": "5069",
+          "url": "https://amusnet.com/games/online-casino/20-wild-goals-dice"
+        },
+        {
+          "id": "661",
+          "url": "https://amusnet.com/games/online-casino/10-vampire-beast"
+        },
+        {
+          "id": "662",
+          "url": "https://amusnet.com/games/online-casino/20-vampire-beast"
+        },
+        {
+          "id": "826",
+          "url": "https://amusnet.com/games/online-casino/book-of-magic"
+        },
+        {
+          "id": "833",
+          "url": "https://amusnet.com/games/online-casino/halloween"
+        },
+        {
+          "id": "8001",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-golden-coins-link"
+        },
+        {
+          "id": "8034",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-golden-coins-link-vip"
+        },
+        {
+          "id": "8033",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-dice-edition-golden-coins-link-vip"
+        },
+        {
+          "id": "8032",
+          "url": "https://amusnet.com/games/online-casino/40-mystic-gem-golden-coins-link-vip"
+        },
+        {
+          "id": "8035",
+          "url": "https://amusnet.com/games/online-casino/art-of-gold-golden-coins-link-vip"
+        },
+        {
+          "id": "8021",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-dice-golden-coins-link-vip"
+        },
+        {
+          "id": "8023",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-dice-edition-golden-coins-link-vip"
+        },
+        {
+          "id": "8024",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-golden-coins-link-vip"
+        },
+        {
+          "id": "609",
+          "url": "https://amusnet.com/games/online-casino/5-extra-crown"
+        },
+        {
+          "id": "635",
+          "url": "https://amusnet.com/games/online-casino/wenshi-lion"
+        },
+        {
+          "id": "641",
+          "url": "https://amusnet.com/games/online-casino/20-pirate-bombs"
+        },
+        {
+          "id": "8037",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-triple-boost-golden-coins-link-vip"
+        },
+        {
+          "id": "477",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-dice-edition"
+        },
+        {
+          "id": "471",
+          "url": "https://amusnet.com/games/online-casino/fruits-and-gold-dice"
+        },
+        {
+          "id": "663",
+          "url": "https://amusnet.com/games/online-casino/dice-dinosaurs"
+        },
+        {
+          "id": "5178",
+          "url": "https://amusnet.com/games/online-casino/burning-hot-buy-bonus"
+        },
+        {
+          "id": "5082",
+          "url": "https://amusnet.com/games/online-casino/extra-crown-classic-buy-bonus"
+        },
+        {
+          "id": "5108",
+          "url": "https://amusnet.com/games/online-casino/40-fruits-gold"
+        },
+        {
+          "id": "5012",
+          "url": "https://amusnet.com/games/online-casino/27-wild-shots"
+        },
+        {
+          "id": "5088",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-fruits-buy-bonus"
+        },
+        {
+          "id": "424",
+          "url": "https://amusnet.com/games/online-casino/latin-heart"
+        },
+        {
+          "id": "5085",
+          "url": "https://amusnet.com/games/online-casino/100-extra-crown-buy-bonus"
+        },
+        {
+          "id": "5063",
+          "url": "https://amusnet.com/games/online-casino/100-art-of-gold-dice-edition"
+        },
+        {
+          "id": "5075",
+          "url": "https://amusnet.com/games/online-casino/27-wild-shots-dice"
+        },
+        {
+          "id": "5113",
+          "url": "https://amusnet.com/games/online-casino/40-art-of-gold-dice-edition"
+        },
+        {
+          "id": "777",
+          "url": "https://amusnet.com/games/online-casino/extra-crown-dice"
+        },
+        {
+          "id": "5123",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-classic-dice"
+        },
+        {
+          "id": "5120",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-dice"
+        },
+        {
+          "id": "5172",
+          "url": "https://amusnet.com/games/online-casino/cairo-dice"
+        },
+        {
+          "id": "612",
+          "url": "https://amusnet.com/games/online-casino/dice-of-magic-easter-edition"
+        },
+        {
+          "id": "5064",
+          "url": "https://amusnet.com/games/online-casino/40-art-of-gold-6-reels-dice-edition"
+        },
+        {
+          "id": "5070",
+          "url": "https://amusnet.com/games/online-casino/extra-crown-classic-dice"
+        },
+        {
+          "id": "5068",
+          "url": "https://amusnet.com/games/online-casino/latin-heart-dice"
+        },
+        {
+          "id": "5074",
+          "url": "https://amusnet.com/games/online-casino/bier-ometer-dice"
+        },
+        {
+          "id": "5173",
+          "url": "https://amusnet.com/games/online-casino/sparta-dice"
+        },
+        {
+          "id": "5089",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-fruits-buy-bonus"
+        },
+        {
+          "id": "5169",
+          "url": "https://amusnet.com/games/online-casino/40-golden-coins-reel-fishing"
+        },
+        {
+          "id": "5180",
+          "url": "https://amusnet.com/games/online-casino/40-burning-hot-buy-bonus"
+        },
+        {
+          "id": "5117",
+          "url": "https://amusnet.com/games/online-casino/40-mystic-gem"
+        },
+        {
+          "id": "620",
+          "url": "https://amusnet.com/games/online-casino/10-glossy-hot"
+        },
+        {
+          "id": "606",
+          "url": "https://amusnet.com/games/online-casino/20-extra-crown"
+        },
+        {
+          "id": "490",
+          "url": "https://amusnet.com/games/online-casino/5-power-hot"
+        },
+        {
+          "id": "464",
+          "url": "https://amusnet.com/games/online-casino/orient-story-deluxe"
+        },
+        {
+          "id": "910",
+          "url": "https://amusnet.com/games/online-casino/coin-gobbler"
+        },
+        {
+          "id": "629",
+          "url": "https://amusnet.com/games/online-casino/20-wild-goals"
+        },
+        {
+          "id": "496",
+          "url": "https://amusnet.com/games/online-casino/5-diamond-plus"
+        },
+        {
+          "id": "8044",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-triple-boost-golden-coins-link-vip"
+        },
+        {
+          "id": "425",
+          "url": "https://amusnet.com/games/online-casino/drops-of-water"
+        },
+        {
+          "id": "627",
+          "url": "https://amusnet.com/games/online-casino/art-of-gold-6-reels"
+        },
+        {
+          "id": "893",
+          "url": "https://amusnet.com/games/online-casino/100-dice"
+        },
+        {
+          "id": "534",
+          "url": "https://amusnet.com/games/online-casino/100-super-dice"
+        },
+        {
+          "id": "537",
+          "url": "https://amusnet.com/games/online-casino/20-burning-dice"
+        },
+        {
+          "id": "559",
+          "url": "https://amusnet.com/games/online-casino/20-joker-dice"
+        },
+        {
+          "id": "843",
+          "url": "https://amusnet.com/games/online-casino/20-super-dice"
+        },
+        {
+          "id": "535",
+          "url": "https://amusnet.com/games/online-casino/30-spicy-dice"
+        },
+        {
+          "id": "536",
+          "url": "https://amusnet.com/games/online-casino/40-burning-dice"
+        },
+        {
+          "id": "844",
+          "url": "https://amusnet.com/games/online-casino/40-super-dice"
+        },
+        {
+          "id": "569",
+          "url": "https://amusnet.com/games/online-casino/40-king"
+        },
+        {
+          "id": "888",
+          "url": "https://amusnet.com/games/online-casino/dragon-hot"
+        },
+        {
+          "id": "522",
+          "url": "https://amusnet.com/games/online-casino/amazons-story"
+        },
+        {
+          "id": "877",
+          "url": "https://amusnet.com/games/online-casino/dragon-spirit"
+        },
+        {
+          "id": "857",
+          "url": "https://amusnet.com/games/online-casino/extra-joker"
+        },
+        {
+          "id": "883",
+          "url": "https://amusnet.com/games/online-casino/royal-gardens"
+        },
+        {
+          "id": "886",
+          "url": "https://amusnet.com/games/online-casino/5-hot-dice"
+        },
+        {
+          "id": "570",
+          "url": "https://amusnet.com/games/online-casino/81-dice"
+        },
+        {
+          "id": "400",
+          "url": "https://amusnet.com/games/online-casino/book-of-dice"
+        },
+        {
+          "id": "589",
+          "url": "https://amusnet.com/games/online-casino/brilliant-dice"
+        },
+        {
+          "id": "842",
+          "url": "https://amusnet.com/games/online-casino/burning-dice"
+        },
+        {
+          "id": "521",
+          "url": "https://amusnet.com/games/online-casino/caramel-dice"
+        },
+        {
+          "id": "615",
+          "url": "https://amusnet.com/games/online-casino/caramel-dice-christmas-edition"
+        },
+        {
+          "id": "894",
+          "url": "https://amusnet.com/games/online-casino/dice-of-magic"
+        },
+        {
+          "id": "856",
+          "url": "https://amusnet.com/games/online-casino/dice-of-ra"
+        },
+        {
+          "id": "588",
+          "url": "https://amusnet.com/games/online-casino/egypt-dice"
+        },
+        {
+          "id": "406",
+          "url": "https://amusnet.com/games/online-casino/extreme-dice"
+        },
+        {
+          "id": "509",
+          "url": "https://amusnet.com/games/online-casino/flaming-dice"
+        },
+        {
+          "id": "403",
+          "url": "https://amusnet.com/games/online-casino/froggy-dice"
+        },
+        {
+          "id": "590",
+          "url": "https://amusnet.com/games/online-casino/halloween-dice"
+        },
+        {
+          "id": "867",
+          "url": "https://amusnet.com/games/online-casino/ice-dice"
+        },
+        {
+          "id": "487",
+          "url": "https://amusnet.com/games/online-casino/cocktail-rush-easter-edition"
+        },
+        {
+          "id": "412",
+          "url": "https://amusnet.com/games/online-casino/cocktail-rush"
+        },
+        {
+          "id": "5030",
+          "url": "https://amusnet.com/games/online-casino/wild-fortune"
+        },
+        {
+          "id": "427",
+          "url": "https://amusnet.com/games/online-casino/20-bulky-fruits"
+        },
+        {
+          "id": "8022",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-fruits-golden-coins-link-vip"
+        },
+        {
+          "id": "636",
+          "url": "https://amusnet.com/games/online-casino/40-golden-coins-dice-edition"
+        },
+        {
+          "id": "640",
+          "url": "https://amusnet.com/games/online-casino/kemets-dice"
+        },
+        {
+          "id": "450",
+          "url": "https://amusnet.com/games/online-casino/richness-dice"
+        },
+        {
+          "id": "8018",
+          "url": "https://amusnet.com/games/online-casino/100-bulky-dice-golden-coins-link"
+        },
+        {
+          "id": "8017",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-dice-edition-golden-coins-link"
+        },
+        {
+          "id": "8020",
+          "url": "https://amusnet.com/games/online-casino/40-art-of-gold-dice-edition-golden-coins-link"
+        },
+        {
+          "id": "8016",
+          "url": "https://amusnet.com/games/online-casino/40-bulky-dice-golden-coins-link"
+        },
+        {
+          "id": "8019",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-classic-dice-golden-coins-link"
+        },
+        {
+          "id": "8015",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-dice-edition-golden-coins-link"
+        },
+        {
+          "id": "5354",
+          "url": "https://amusnet.com/games/online-casino/fortune-spells-buy-bonus"
+        },
+        {
+          "id": "5337",
+          "url": "https://amusnet.com/games/online-casino/golden-tiger"
+        },
+        {
+          "id": "5344",
+          "url": "https://amusnet.com/games/online-casino/100-extra-crown-coin-boost"
+        },
+        {
+          "id": "5000",
+          "url": "https://amusnet.com/games/online-casino/shining-crown-buy-bonus"
+        },
+        {
+          "id": "484",
+          "url": "https://amusnet.com/games/online-casino/dice-vikings"
+        },
+        {
+          "id": "5091",
+          "url": "https://amusnet.com/games/online-casino/vampire-dice"
+        },
+        {
+          "id": "455",
+          "url": "https://amusnet.com/games/online-casino/candy-dice"
+        },
+        {
+          "id": "5079",
+          "url": "https://amusnet.com/games/online-casino/coin-gobbler-dice-edition"
+        },
+        {
+          "id": "5346",
+          "url": "https://amusnet.com/games/online-casino/100-fruits-gold-coin-boost"
+        },
+        {
+          "id": "5179",
+          "url": "https://amusnet.com/games/online-casino/20-burning-hot-buy-bonus"
+        },
+        {
+          "id": "624",
+          "url": "https://amusnet.com/games/online-casino/100-art-of-gold"
+        },
+        {
+          "id": "442",
+          "url": "https://amusnet.com/games/online-casino/cavemen-and-dinosaurs"
+        },
+        {
+          "id": "475",
+          "url": "https://amusnet.com/games/online-casino/stoichkov-8"
+        },
+        {
+          "id": "5087",
+          "url": "https://amusnet.com/games/online-casino/20-bulky-fruits-buy-bonus"
+        },
+        {
+          "id": "495",
+          "url": "https://amusnet.com/games/online-casino/diamond-plus-football-edition"
+        },
+        {
+          "id": "5115",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-wilds-hot"
+        },
+        {
+          "id": "5112",
+          "url": "https://amusnet.com/games/online-casino/40-fruits-gold-coin-boost"
+        },
+        {
+          "id": "5352",
+          "url": "https://amusnet.com/games/online-casino/versailles-gold-buy-bonus"
+        },
+        {
+          "id": "5343",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-coin-boost"
+        },
+        {
+          "id": "626",
+          "url": "https://amusnet.com/games/online-casino/40-wild-gobbler"
+        },
+        {
+          "id": "5357",
+          "url": "https://amusnet.com/games/online-casino/olympus-glory-buy-bonus"
+        },
+        {
+          "id": "8011",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-wilds-hot-golden-coins-link"
+        },
+        {
+          "id": "8036",
+          "url": "https://amusnet.com/games/online-casino/pandas-gold-golden-coins-link"
+        },
+        {
+          "id": "5090",
+          "url": "https://amusnet.com/games/online-casino/cocktail-rush-buy-bonus"
+        },
+        {
+          "id": "8010",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-triple-boost-golden-coins-link"
+        },
+        {
+          "id": "8008",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-triple-boost-golden-coins-link"
+        },
+        {
+          "id": "5059",
+          "url": "https://amusnet.com/games/online-casino/hot-deco-super-pot"
+        },
+        {
+          "id": "5174",
+          "url": "https://amusnet.com/games/online-casino/10-alebrijes-eternal"
+        },
+        {
+          "id": "5094",
+          "url": "https://amusnet.com/games/online-casino/40-vampire-beast"
+        },
+        {
+          "id": "5029",
+          "url": "https://amusnet.com/games/online-casino/mystic-tiger"
+        },
+        {
+          "id": "5015",
+          "url": "https://amusnet.com/games/online-casino/great-sparta"
+        },
+        {
+          "id": "5016",
+          "url": "https://amusnet.com/games/online-casino/book-of-waka-waka"
+        },
+        {
+          "id": "5103",
+          "url": "https://amusnet.com/games/online-casino/crazy-octopus"
+        },
+        {
+          "id": "5121",
+          "url": "https://amusnet.com/games/online-casino/phoenix-star-super-pot"
+        },
+        {
+          "id": "5043",
+          "url": "https://amusnet.com/games/online-casino/ancient-coins"
+        },
+        {
+          "id": "5042",
+          "url": "https://amusnet.com/games/online-casino/roman-coins"
+        },
+        {
+          "id": "5197",
+          "url": "https://amusnet.com/games/online-casino/porko-collect-super-pot"
+        },
+        {
+          "id": "5156",
+          "url": "https://amusnet.com/games/online-casino/pandas-gold"
+        },
+        {
+          "id": "5086",
+          "url": "https://amusnet.com/games/online-casino/bulky-fruits-buy-bonus"
+        },
+        {
+          "id": "5170",
+          "url": "https://amusnet.com/games/online-casino/100-golden-coins-reel-fishing"
+        },
+        {
+          "id": "414",
+          "url": "https://amusnet.com/games/online-casino/richness-factory"
+        },
+        {
+          "id": "5014",
+          "url": "https://amusnet.com/games/online-casino/asian-palace"
+        },
+        {
+          "id": "5084",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-buy-bonus"
+        },
+        {
+          "id": "5109",
+          "url": "https://amusnet.com/games/online-casino/40-glossy-hot"
+        },
+        {
+          "id": "5168",
+          "url": "https://amusnet.com/games/online-casino/20-golden-coins-reel-fishing"
+        },
+        {
+          "id": "5297",
+          "url": "https://amusnet.com/games/online-casino/hot-deco-nonstop-super-pot"
+        },
+        {
+          "id": "5164",
+          "url": "https://amusnet.com/games/online-casino/golden-ox"
+        },
+        {
+          "id": "5111",
+          "url": "https://amusnet.com/games/online-casino/40-glossy-hot-coin-boost"
+        },
+        {
+          "id": "5355",
+          "url": "https://amusnet.com/games/online-casino/royal-gardens-buy-bonus"
+        },
+        {
+          "id": "5353",
+          "url": "https://amusnet.com/games/online-casino/majestic-forest-buy-bonus"
+        },
+        {
+          "id": "5021",
+          "url": "https://amusnet.com/games/online-casino/20-golden-bass"
+        },
+        {
+          "id": "802",
+          "url": "https://amusnet.com/games/online-casino/ultimate-hot"
+        },
+        {
+          "id": "5157",
+          "url": "https://amusnet.com/games/online-casino/kebab-super-pot"
+        },
+        {
+          "id": "5356",
+          "url": "https://amusnet.com/games/online-casino/grace-of-cleopatra-buy-bonus"
+        },
+        {
+          "id": "5057",
+          "url": "https://amusnet.com/games/online-casino/porko-wins"
+        },
+        {
+          "id": "5347",
+          "url": "https://amusnet.com/games/online-casino/100-lucky-wilds-hot-coin-boost"
+        },
+        {
+          "id": "5282",
+          "url": "https://amusnet.com/games/online-casino/crazy-red-nest-quest"
+        },
+        {
+          "id": "5359",
+          "url": "https://amusnet.com/games/online-casino/book-of-waka-waka-buy-bonus"
+        },
+        {
+          "id": "8003",
+          "url": "https://amusnet.com/games/online-casino/100-power-hot-golden-coins-link"
+        },
+        {
+          "id": "5181",
+          "url": "https://amusnet.com/games/online-casino/100-burning-hot-buy-bonus"
+        },
+        {
+          "id": "5013",
+          "url": "https://amusnet.com/games/online-casino/20-aztec-coins"
+        },
+        {
+          "id": "5083",
+          "url": "https://amusnet.com/games/online-casino/20-extra-crown-buy-bonus"
+        },
+        {
+          "id": "5284",
+          "url": "https://amusnet.com/games/online-casino/40-alebrijes-eternal"
+        },
+        {
+          "id": "5345",
+          "url": "https://amusnet.com/games/online-casino/100-glossy-hot-coin-boost"
+        },
+        {
+          "id": "5365",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-mystery-pot"
+        },
+        {
+          "id": "5415",
+          "url": "https://amusnet.com/games/online-casino/crystal-dice"
+        },
+        {
+          "id": "5176",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-wilds-hot-coin-boost"
+        },
+        {
+          "id": "5020",
+          "url": "https://amusnet.com/games/online-casino/cherry-cherry-baby"
+        },
+        {
+          "id": "5308",
+          "url": "https://amusnet.com/games/online-casino/100-wild-gobbler"
+        },
+        {
+          "id": "5358",
+          "url": "https://amusnet.com/games/online-casino/aztec-glory-buy-bonus"
+        },
+        {
+          "id": "5215",
+          "url": "https://amusnet.com/games/online-casino/hippo-splash"
+        },
+        {
+          "id": "5213",
+          "url": "https://amusnet.com/games/online-casino/hot-racing"
+        },
+        {
+          "id": "5214",
+          "url": "https://amusnet.com/games/online-casino/falling-coins"
+        },
+        {
+          "id": "5045",
+          "url": "https://amusnet.com/games/online-casino/caramelo-sortudo-crash-edition"
+        },
+        {
+          "id": "5218",
+          "url": "https://amusnet.com/games/online-casino/cashybara-boxing-edition"
+        },
+        {
+          "id": "5038",
+          "url": "https://amusnet.com/games/online-casino/cashybara-ski-edition"
+        },
+        {
+          "id": "5216",
+          "url": "https://amusnet.com/games/online-casino/cashybara-football-edition"
+        },
+        {
+          "id": "5033",
+          "url": "https://amusnet.com/games/online-casino/stoichkov-8-crash-edition"
+        },
+        {
+          "id": "5217",
+          "url": "https://amusnet.com/games/online-casino/cashybara-athletics-edition"
+        },
+        {
+          "id": "5037",
+          "url": "https://amusnet.com/games/online-casino/cashybara-golf-edition"
+        },
+        {
+          "id": "5119",
+          "url": "https://amusnet.com/games/online-casino/golden-rabbit"
+        },
+        {
+          "id": "5283",
+          "url": "https://amusnet.com/games/online-casino/cheeky-cherry"
+        },
+        {
+          "id": "5301",
+          "url": "https://amusnet.com/games/online-casino/27-eternal-hot-buy-bonus"
+        },
+        {
+          "id": "5110",
+          "url": "https://amusnet.com/games/online-casino/40-extra-crown-coin-boost"
+        },
+        {
+          "id": "617",
+          "url": "https://amusnet.com/games/online-casino/crime-king-1000"
+        },
+        {
+          "id": "5305",
+          "url": "https://amusnet.com/games/online-casino/super-crazy-red-x1000"
+        },
+        {
+          "id": "5076",
+          "url": "https://amusnet.com/games/online-casino/amaterasus-treasures-1000"
+        },
+        {
+          "id": "5165",
+          "url": "https://amusnet.com/games/online-casino/golden-mouse"
+        },
+        {
+          "id": "5105",
+          "url": "https://amusnet.com/games/online-casino/40-power-hot-coin-boost"
+        },
+        {
+          "id": "5116",
+          "url": "https://amusnet.com/games/online-casino/football-palace-1000"
+        },
+        {
+          "id": "5163",
+          "url": "https://amusnet.com/games/online-casino/golden-snake"
+        },
+        {
+          "id": "5198",
+          "url": "https://amusnet.com/games/online-casino/porko-boost-super-pot"
+        },
+        {
+          "id": "5054",
+          "url": "https://amusnet.com/games/online-casino/clover-super-pot"
+        },
+        {
+          "id": "8038",
+          "url": "https://amusnet.com/games/online-casino/trophy-rush-triple-boost"
+        },
+        {
+          "id": "499",
+          "url": "https://amusnet.com/games/online-casino/bison-charge"
+        },
+        {
+          "id": "5366",
+          "url": "https://amusnet.com/games/online-casino/100-extra-crown-mystery-pot"
+        },
+        {
+          "id": "5417",
+          "url": "https://amusnet.com/games/online-casino/5-alebrijes-eternal"
+        },
+        {
+          "id": "5418",
+          "url": "https://amusnet.com/games/online-casino/20-alebrijes-eternal"
+        },
+        {
+          "id": "5419",
+          "url": "https://amusnet.com/games/online-casino/100-alebrijes-eternal"
+        },
+        {
+          "id": "5339",
+          "url": "https://amusnet.com/games/online-casino/20-lucky-wilds-hot"
+        },
+        {
+          "id": "5361",
+          "url": "https://amusnet.com/games/online-casino/clover-dice-super-pot"
+        },
+        {
+          "id": "5389",
+          "url": "https://amusnet.com/games/online-casino/amoosenet-run"
+        },
+        {
+          "id": "8009",
+          "url": "https://amusnet.com/games/online-casino/40-vampire-beast-triple-boost-golden-coins-link"
+        },
+        {
+          "id": "5309",
+          "url": "https://amusnet.com/games/online-casino/candy-palace-1000"
+        },
+        {
+          "id": "611",
+          "url": "https://amusnet.com/games/online-casino/crazy-red"
+        },
+        {
+          "id": "5161",
+          "url": "https://amusnet.com/games/online-casino/golden-tiger-1000"
+        },
+        {
+          "id": "482",
+          "url": "https://amusnet.com/games/online-casino/gorgons-luck"
+        },
+        {
+          "id": "5279",
+          "url": "https://amusnet.com/games/online-casino/el-dogiachi-1000"
+        },
+        {
+          "id": "5071",
+          "url": "https://amusnet.com/games/online-casino/vizier-of-the-north-x1000"
+        },
+        {
+          "id": "5196",
+          "url": "https://amusnet.com/games/online-casino/triple-fortune-festival"
+        },
+        {
+          "id": "5124",
+          "url": "https://amusnet.com/games/online-casino/toad-super-pot"
+        },
+        {
+          "id": "5072",
+          "url": "https://amusnet.com/games/online-casino/dice-deco-super-pot"
+        },
+        {
+          "id": "5049",
+          "url": "https://amusnet.com/games/online-casino/treasure-dive"
+        },
+        {
+          "id": "5051",
+          "url": "https://amusnet.com/games/online-casino/space-chase"
+        },
+        {
+          "id": "5047",
+          "url": "https://amusnet.com/games/online-casino/cocktail-splash"
+        },
+        {
+          "id": "5048",
+          "url": "https://amusnet.com/games/online-casino/rocket-trail"
+        },
+        {
+          "id": "9025",
+          "url": "https://amusnet.com/games/online-casino/stoichkov-8-egypt-quest"
+        },
+        {
+          "id": "5367",
+          "url": "https://amusnet.com/games/online-casino/40-lucky-wilds-hot-mystery-pot"
+        },
+        {
+          "id": "9028",
+          "url": "https://amusnet.com/games/online-casino/kemets-treasures-egypt-quest"
+        },
+        {
+          "id": "5341",
+          "url": "https://amusnet.com/games/online-casino/100-glossy-hot"
+        },
+        {
+          "id": "5342",
+          "url": "https://amusnet.com/games/online-casino/100-fruits-gold"
+        },
+        {
+          "id": "8052",
+          "url": "https://amusnet.com/games/online-casino/tesoro-doro-triple-boost-golden-coins-link"
+        },
+        {
+          "id": "5003",
+          "url": "https://amusnet.com/games/online-casino/alpha-instinct"
+        },
+        {
+          "id": "5183",
+          "url": "https://amusnet.com/games/online-casino/chicao-sortudo-super-pot"
+        },
+        {
+          "id": "5375",
+          "url": "https://amusnet.com/games/online-casino/5-lucky-wilds-hot"
+        },
+        {
+          "id": "5009",
+          "url": "https://amusnet.com/games/online-casino/power-of-triton-book-of-water"
+        },
+        {
+          "id": "5295",
+          "url": "https://amusnet.com/games/online-casino/seker-baklava"
+        },
+        {
+          "id": "5080",
+          "url": "https://amusnet.com/games/online-casino/mystic-urns"
+        },
+        {
+          "id": "5307",
+          "url": "https://amusnet.com/games/online-casino/20-wild-gobbler"
+        },
+        {
+          "id": "5368",
+          "url": "https://amusnet.com/games/online-casino/100-lucky-wilds-hot-mystery-pot"
+        },
+        {
+          "id": "9026",
+          "url": "https://amusnet.com/games/online-casino/20-lucky-wilds-hot-egypt-quest"
+        },
+        {
+          "id": "5166",
+          "url": "https://amusnet.com/games/online-casino/golden-dragon"
+        },
+        {
+          "id": "5011",
+          "url": "https://amusnet.com/games/online-casino/caramel-drops"
+        },
+        {
+          "id": "9027",
+          "url": "https://amusnet.com/games/online-casino/20-power-hot-egypt-quest"
+        },
+        {
+          "id": "5374",
+          "url": "https://amusnet.com/games/online-casino/10-lucky-wilds-hot"
+        },
+        {
+          "id": "5376",
+          "url": "https://amusnet.com/games/online-casino/40-golden-bass"
+        },
+        {
+          "id": "5377",
+          "url": "https://amusnet.com/games/online-casino/100-golden-bass"
+        },
+        {
+          "id": "5058",
+          "url": "https://amusnet.com/games/online-casino/pot-opumpkins"
+        },
+        {
+          "id": "8039",
+          "url": "https://amusnet.com/games/online-casino/pyramid-gold-triple-boost-golden-coins-link"
+        },
+        {
+          "id": "9001",
+          "url": "https://amusnet.com/games/online-casino/20-super-hot-egypt-quest"
+        },
+        {
+          "id": "9010",
+          "url": "https://amusnet.com/games/online-casino/halloween-egypt-quest"
+        },
+        {
+          "id": "9006",
+          "url": "https://amusnet.com/games/online-casino/rise-of-ra-egypt-quest"
+        },
+        {
+          "id": "9003",
+          "url": "https://amusnet.com/games/online-casino/20-super-dice-egypt-quest"
+        },
+        {
+          "id": "9011",
+          "url": "https://amusnet.com/games/online-casino/halloween-dice-egypt-quest"
+        },
+        {
+          "id": "9007",
+          "url": "https://amusnet.com/games/online-casino/dice-of-ra-egypt-quest"
+        },
+        {
+          "id": "9000",
+          "url": "https://amusnet.com/games/online-casino/burning-hot-egypt-quest"
+        },
+        {
+          "id": "9008",
+          "url": "https://amusnet.com/games/online-casino/circus-brilliant-egypt-quest"
+        },
+        {
+          "id": "9002",
+          "url": "https://amusnet.com/games/online-casino/egypt-sky-egypt-quest"
+        },
+        {
+          "id": "9004",
+          "url": "https://amusnet.com/games/online-casino/burning-dice-egypt-quest"
+        },
+        {
+          "id": "9009",
+          "url": "https://amusnet.com/games/online-casino/brilliant-dice-egypt-quest"
+        },
+        {
+          "id": "9005",
+          "url": "https://amusnet.com/games/online-casino/egypt-dice-egypt-quest"
+        },
+        {
+          "id": "5022",
+          "url": "https://amusnet.com/games/online-casino/legend-of-zeus"
+        },
+        {
+          "id": "5340",
+          "url": "https://amusnet.com/games/online-casino/100-lucky-wilds-hot"
+        }
+      ],
       "sources": [
         {
           "id": "amusnet-official-catalogue",
@@ -18578,7 +20624,1912 @@
       "enabled": false,
       "approved": false,
       "catalogFile": "config/catalogs/playngo.json",
-      "games": [],
+      "games": [
+        {
+          "id": "1098",
+          "url": "https://www.playngo.com/games/tower-run-treasure-steps"
+        },
+        {
+          "id": "1084",
+          "url": "https://www.playngo.com/games/redtail-robber-cash-vault-heist"
+        },
+        {
+          "id": "975",
+          "url": "https://www.playngo.com/games/ghost-booster-go-guaranteed"
+        },
+        {
+          "id": "1113",
+          "url": "https://www.playngo.com/games/three-pots-of-the-genie"
+        },
+        {
+          "id": "1083",
+          "url": "https://www.playngo.com/games/chunky-carlo's-money-mania"
+        },
+        {
+          "id": "1000",
+          "url": "https://www.playngo.com/games/lawn-n'-complete-disorder"
+        },
+        {
+          "id": "1095",
+          "url": "https://www.playngo.com/games/triple-beasts-of-fortune"
+        },
+        {
+          "id": "1096",
+          "url": "https://www.playngo.com/games/infernal-trinity-go-guaranteed"
+        },
+        {
+          "id": "1073",
+          "url": "https://www.playngo.com/games/unigoat"
+        },
+        {
+          "id": "1109",
+          "url": "https://www.playngo.com/games/viking-runecraft-1000"
+        },
+        {
+          "id": "1082",
+          "url": "https://www.playngo.com/games/cursed-moon-power-collection"
+        },
+        {
+          "id": "1074",
+          "url": "https://www.playngo.com/games/holy-moo-extreme-power"
+        },
+        {
+          "id": "1075",
+          "url": "https://www.playngo.com/games/stompin-gold"
+        },
+        {
+          "id": "1101",
+          "url": "https://www.playngo.com/games/moon-princess-extreme"
+        },
+        {
+          "id": "1077",
+          "url": "https://www.playngo.com/games/temple-of-three"
+        },
+        {
+          "id": "1062",
+          "url": "https://www.playngo.com/games/reactoonz-blitzways"
+        },
+        {
+          "id": "1072",
+          "url": "https://www.playngo.com/games/fate's-fortune"
+        },
+        {
+          "id": "1085",
+          "url": "https://www.playngo.com/games/legion-gold-and-the-throne-of-dead"
+        },
+        {
+          "id": "998",
+          "url": "https://www.playngo.com/games/crabby's-gold-ii"
+        },
+        {
+          "id": "1100",
+          "url": "https://www.playngo.com/games/triple-launch-fortune-wild"
+        },
+        {
+          "id": "1002",
+          "url": "https://www.playngo.com/games/gnaw'n-gold"
+        },
+        {
+          "id": "1069",
+          "url": "https://www.playngo.com/games/shark-feast"
+        },
+        {
+          "id": "992",
+          "url": "https://www.playngo.com/games/buildin'-even-more-bucks"
+        },
+        {
+          "id": "1065",
+          "url": "https://www.playngo.com/games/primal-rampage"
+        },
+        {
+          "id": "1003",
+          "url": "https://www.playngo.com/games/track-n'-gold"
+        },
+        {
+          "id": "1068",
+          "url": "https://www.playngo.com/games/granny's-wild"
+        },
+        {
+          "id": "1071",
+          "url": "https://www.playngo.com/games/treats-of-terror-ii"
+        },
+        {
+          "id": "1070",
+          "url": "https://www.playngo.com/games/manta-mayhem"
+        },
+        {
+          "id": "1061",
+          "url": "https://www.playngo.com/games/colt-lightning-inferno"
+        },
+        {
+          "id": "991",
+          "url": "https://www.playngo.com/games/wrappin'-gold"
+        },
+        {
+          "id": "1066",
+          "url": "https://www.playngo.com/games/spice-spice-baby"
+        },
+        {
+          "id": "1005",
+          "url": "https://www.playngo.com/games/legion-gold-reckoning"
+        },
+        {
+          "id": "1078",
+          "url": "https://www.playngo.com/games/nugget-n-nonsense"
+        },
+        {
+          "id": "1022",
+          "url": "https://www.playngo.com/games/valhalluck"
+        },
+        {
+          "id": "922",
+          "url": "https://www.playngo.com/games/honey-rush-black-and-yellow"
+        },
+        {
+          "id": "993",
+          "url": "https://www.playngo.com/games/tomb-of-gold-reimagined"
+        },
+        {
+          "id": "1059",
+          "url": "https://www.playngo.com/games/hope-unleashed-fortune-rises"
+        },
+        {
+          "id": "1051",
+          "url": "https://www.playngo.com/games/wheel-of-mictlan"
+        },
+        {
+          "id": "1054",
+          "url": "https://www.playngo.com/games/wild-north-radiant-skies-go-collect"
+        },
+        {
+          "id": "1049",
+          "url": "https://www.playngo.com/games/mega-don-triple-threat"
+        },
+        {
+          "id": "1021",
+          "url": "https://www.playngo.com/games/book-of-dead-go-collect"
+        },
+        {
+          "id": "1063",
+          "url": "https://www.playngo.com/games/sails-of-riches"
+        },
+        {
+          "id": "1058",
+          "url": "https://www.playngo.com/games/3-blades-blessings"
+        },
+        {
+          "id": "1044",
+          "url": "https://www.playngo.com/games/rise-of-olympus-1000"
+        },
+        {
+          "id": "994",
+          "url": "https://www.playngo.com/games/piggy-blitz-casino-gold"
+        },
+        {
+          "id": "1067",
+          "url": "https://www.playngo.com/games/barn-busters"
+        },
+        {
+          "id": "1036",
+          "url": "https://www.playngo.com/games/legacy-of-undead-dragon-abyssways"
+        },
+        {
+          "id": "1029",
+          "url": "https://www.playngo.com/games/play'n-go-mole-digger"
+        },
+        {
+          "id": "1060",
+          "url": "https://www.playngo.com/games/piggy-heist"
+        },
+        {
+          "id": "918",
+          "url": "https://www.playngo.com/games/buildin'-more-bucks"
+        },
+        {
+          "id": "1041",
+          "url": "https://www.playngo.com/games/ra's-reckoning"
+        },
+        {
+          "id": "1047",
+          "url": "https://www.playngo.com/games/fangs-fire"
+        },
+        {
+          "id": "1057",
+          "url": "https://www.playngo.com/games/banana-rush"
+        },
+        {
+          "id": "1015",
+          "url": "https://www.playngo.com/games/tome-of-the-lost"
+        },
+        {
+          "id": "1052",
+          "url": "https://www.playngo.com/games/stadium-of-riches"
+        },
+        {
+          "id": "1039",
+          "url": "https://www.playngo.com/games/rings-of-prosperity"
+        },
+        {
+          "id": "995",
+          "url": "https://www.playngo.com/games/lawn-n'-disorder"
+        },
+        {
+          "id": "1035",
+          "url": "https://www.playngo.com/games/static-nightmare-abyssways"
+        },
+        {
+          "id": "910",
+          "url": "https://www.playngo.com/games/divina-commedia-i-nove-cerchi"
+        },
+        {
+          "id": "873",
+          "url": "https://www.playngo.com/games/reactoonz-100"
+        },
+        {
+          "id": "1055",
+          "url": "https://www.playngo.com/games/bubblin'-riches"
+        },
+        {
+          "id": "1048",
+          "url": "https://www.playngo.com/games/bao-shi"
+        },
+        {
+          "id": "1042",
+          "url": "https://www.playngo.com/games/fate-of-dead-blitzways"
+        },
+        {
+          "id": "926",
+          "url": "https://www.playngo.com/games/bullion-xpress"
+        },
+        {
+          "id": "1037",
+          "url": "https://www.playngo.com/games/lab-of-madness-it's-a-wild"
+        },
+        {
+          "id": "1033",
+          "url": "https://www.playngo.com/games/rosy-orbit-treasure-turn"
+        },
+        {
+          "id": "1016",
+          "url": "https://www.playngo.com/games/rise-of-olympus-extreme"
+        },
+        {
+          "id": "1017",
+          "url": "https://www.playngo.com/games/fire-toad-2"
+        },
+        {
+          "id": "1026",
+          "url": "https://www.playngo.com/games/fire-joker-blitz"
+        },
+        {
+          "id": "1038",
+          "url": "https://www.playngo.com/games/leprechaun's-diamond-dig"
+        },
+        {
+          "id": "1014",
+          "url": "https://www.playngo.com/games/spinnin-records-raving-reels"
+        },
+        {
+          "id": "1025",
+          "url": "https://www.playngo.com/games/13th-trial-hercules-abyssways"
+        },
+        {
+          "id": "1024",
+          "url": "https://www.playngo.com/games/lady-of-fortune-destiny-spins"
+        },
+        {
+          "id": "996",
+          "url": "https://www.playngo.com/games/play'n-go-buffalo-of-wealth"
+        },
+        {
+          "id": "1032",
+          "url": "https://www.playngo.com/games/super-flip-deluxe"
+        },
+        {
+          "id": "964",
+          "url": "https://www.playngo.com/games/the-green-knight-oath-of-thorns"
+        },
+        {
+          "id": "1023",
+          "url": "https://www.playngo.com/games/cashin'-joker"
+        },
+        {
+          "id": "702",
+          "url": "https://www.playngo.com/games/rise-of-orpheus"
+        },
+        {
+          "id": "623",
+          "url": "https://www.playngo.com/games/moon-princess-stargazing"
+        },
+        {
+          "id": "914",
+          "url": "https://www.playngo.com/games/tomb-of-gold-ii"
+        },
+        {
+          "id": "1028",
+          "url": "https://www.playngo.com/games/big-win-cat-pawsperity"
+        },
+        {
+          "id": "741",
+          "url": "https://www.playngo.com/games/viper-city-heist"
+        },
+        {
+          "id": "1020",
+          "url": "https://www.playngo.com/games/king-of-sweets"
+        },
+        {
+          "id": "1031",
+          "url": "https://www.playngo.com/games/city-of-sound"
+        },
+        {
+          "id": "1007",
+          "url": "https://www.playngo.com/games/fire-joker-100"
+        },
+        {
+          "id": "1018",
+          "url": "https://www.playngo.com/games/dragonfate's-favor"
+        },
+        {
+          "id": "1019",
+          "url": "https://www.playngo.com/games/treats-of-terror"
+        },
+        {
+          "id": "920",
+          "url": "https://www.playngo.com/games/crabby's-gold"
+        },
+        {
+          "id": "908",
+          "url": "https://www.playngo.com/games/boat-bonanza-croconile"
+        },
+        {
+          "id": "1013",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-dead"
+        },
+        {
+          "id": "1008",
+          "url": "https://www.playngo.com/games/moon-princess-origins"
+        },
+        {
+          "id": "985",
+          "url": "https://www.playngo.com/games/1001-mystery-genie-fortunes"
+        },
+        {
+          "id": "698",
+          "url": "https://www.playngo.com/games/loot-labyrinths"
+        },
+        {
+          "id": "986",
+          "url": "https://www.playngo.com/games/spinnin'-records-into-the-beat"
+        },
+        {
+          "id": "1006",
+          "url": "https://www.playngo.com/games/mystery-egg-surprise"
+        },
+        {
+          "id": "716",
+          "url": "https://www.playngo.com/games/go-craps"
+        },
+        {
+          "id": "742",
+          "url": "https://www.playngo.com/games/trinity-impact"
+        },
+        {
+          "id": "989",
+          "url": "https://www.playngo.com/games/medusa's-madness"
+        },
+        {
+          "id": "965",
+          "url": "https://www.playngo.com/games/legion-gold-victory"
+        },
+        {
+          "id": "987",
+          "url": "https://www.playngo.com/games/myth-of-dead"
+        },
+        {
+          "id": "973",
+          "url": "https://www.playngo.com/games/crystal-hall"
+        },
+        {
+          "id": "984",
+          "url": "https://www.playngo.com/games/invading-vegas-revenge-on-mars"
+        },
+        {
+          "id": "977",
+          "url": "https://www.playngo.com/games/potion-of-madness"
+        },
+        {
+          "id": "732",
+          "url": "https://www.playngo.com/games/legacy-of-gems-blitzways"
+        },
+        {
+          "id": "738",
+          "url": "https://www.playngo.com/games/tower-quest-legacy"
+        },
+        {
+          "id": "743",
+          "url": "https://www.playngo.com/games/treasures-of-kongar"
+        },
+        {
+          "id": "983",
+          "url": "https://www.playngo.com/games/midnight-gold"
+        },
+        {
+          "id": "694",
+          "url": "https://www.playngo.com/games/jolly-roger-wild-kraken"
+        },
+        {
+          "id": "938",
+          "url": "https://www.playngo.com/games/hot-dog-heist"
+        },
+        {
+          "id": "906",
+          "url": "https://www.playngo.com/games/lion-saga-odyssey"
+        },
+        {
+          "id": "904",
+          "url": "https://www.playngo.com/games/sobek's-godly-spins"
+        },
+        {
+          "id": "871",
+          "url": "https://www.playngo.com/games/wildest-gambit"
+        },
+        {
+          "id": "981",
+          "url": "https://www.playngo.com/games/boat-bonanza-christmas"
+        },
+        {
+          "id": "912",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-pearls-of-vishnu"
+        },
+        {
+          "id": "924",
+          "url": "https://www.playngo.com/games/piggy-blitz-disco-gold"
+        },
+        {
+          "id": "970",
+          "url": "https://www.playngo.com/games/legion-gold-and-the-sphinx-of-dead"
+        },
+        {
+          "id": "930",
+          "url": "https://www.playngo.com/games/beasts-of-fire-maximum"
+        },
+        {
+          "id": "699",
+          "url": "https://www.playngo.com/games/baron-lord-of-saturday"
+        },
+        {
+          "id": "753",
+          "url": "https://www.playngo.com/games/stepping-diamonds"
+        },
+        {
+          "id": "976",
+          "url": "https://www.playngo.com/games/lady-of-fortune-remastered"
+        },
+        {
+          "id": "972",
+          "url": "https://www.playngo.com/games/kingdom-below"
+        },
+        {
+          "id": "673",
+          "url": "https://www.playngo.com/games/buildin'-bucks"
+        },
+        {
+          "id": "928",
+          "url": "https://www.playngo.com/games/mirror-joker"
+        },
+        {
+          "id": "734",
+          "url": "https://www.playngo.com/games/gemix-100"
+        },
+        {
+          "id": "692",
+          "url": "https://www.playngo.com/games/ankh-of-anubis-awakening"
+        },
+        {
+          "id": "730",
+          "url": "https://www.playngo.com/games/scourge-of-rome"
+        },
+        {
+          "id": "974",
+          "url": "https://www.playngo.com/games/joker-flip"
+        },
+        {
+          "id": "815",
+          "url": "https://www.playngo.com/games/mafia-gold"
+        },
+        {
+          "id": "707",
+          "url": "https://www.playngo.com/games/rise-of-olympus-origins"
+        },
+        {
+          "id": "851",
+          "url": "https://www.playngo.com/games/king's-mask-eclipse-of-gods"
+        },
+        {
+          "id": "962",
+          "url": "https://www.playngo.com/games/whispering-winds"
+        },
+        {
+          "id": "966",
+          "url": "https://www.playngo.com/games/dansband-pa-turna"
+        },
+        {
+          "id": "932",
+          "url": "https://www.playngo.com/games/oasis-of-dead"
+        },
+        {
+          "id": "936",
+          "url": "https://www.playngo.com/games/journey-to-paris"
+        },
+        {
+          "id": "733",
+          "url": "https://www.playngo.com/games/temple-of-tollan"
+        },
+        {
+          "id": "902",
+          "url": "https://www.playngo.com/games/merlin-realm-of-charm"
+        },
+        {
+          "id": "736",
+          "url": "https://www.playngo.com/games/gold-of-fortune-god"
+        },
+        {
+          "id": "745",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-insanity"
+        },
+        {
+          "id": "739",
+          "url": "https://www.playngo.com/games/colt-lightning-firestorm"
+        },
+        {
+          "id": "688",
+          "url": "https://www.playngo.com/games/spark-of-genius"
+        },
+        {
+          "id": "724",
+          "url": "https://www.playngo.com/games/wild-survivor"
+        },
+        {
+          "id": "852",
+          "url": "https://www.playngo.com/games/fulong-88"
+        },
+        {
+          "id": "677",
+          "url": "https://www.playngo.com/games/the-sword-and-the-grail-excalibur"
+        },
+        {
+          "id": "676",
+          "url": "https://www.playngo.com/games/boat-bonanza-down-under"
+        },
+        {
+          "id": "594",
+          "url": "https://www.playngo.com/games/tomb-of-gold"
+        },
+        {
+          "id": "704",
+          "url": "https://www.playngo.com/games/mystery-genie-fortunes-of-the-lamp"
+        },
+        {
+          "id": "934",
+          "url": "https://www.playngo.com/games/easter-eggspedition"
+        },
+        {
+          "id": "850",
+          "url": "https://www.playngo.com/games/piranha-pays"
+        },
+        {
+          "id": "722",
+          "url": "https://www.playngo.com/games/chambers-of-ancients"
+        },
+        {
+          "id": "728",
+          "url": "https://www.playngo.com/games/banquet-of-dead"
+        },
+        {
+          "id": "678",
+          "url": "https://www.playngo.com/games/legion-gold-unleashed"
+        },
+        {
+          "id": "705",
+          "url": "https://www.playngo.com/games/undefeated-xerxes"
+        },
+        {
+          "id": "744",
+          "url": "https://www.playngo.com/games/cat-wilde-and-the-incan-quest"
+        },
+        {
+          "id": "869",
+          "url": "https://www.playngo.com/games/love-is-in-the-fair"
+        },
+        {
+          "id": "731",
+          "url": "https://www.playngo.com/games/moon-princess-power-of-love"
+        },
+        {
+          "id": "691",
+          "url": "https://www.playngo.com/games/3-clown-monty-ii"
+        },
+        {
+          "id": "697",
+          "url": "https://www.playngo.com/games/pandastic-adventure"
+        },
+        {
+          "id": "682",
+          "url": "https://www.playngo.com/games/tales-of-mithrune-syn's-fortune"
+        },
+        {
+          "id": "695",
+          "url": "https://www.playngo.com/games/viking-runecraft-100"
+        },
+        {
+          "id": "740",
+          "url": "https://www.playngo.com/games/mega-don-feeding-frenzy"
+        },
+        {
+          "id": "721",
+          "url": "https://www.playngo.com/games/gargantoonz"
+        },
+        {
+          "id": "901",
+          "url": "https://www.playngo.com/games/detroit-red-wings-winged-reelers"
+        },
+        {
+          "id": "701",
+          "url": "https://www.playngo.com/games/invading-vegas-las-christmas"
+        },
+        {
+          "id": "593",
+          "url": "https://www.playngo.com/games/legacy-of-dynasties"
+        },
+        {
+          "id": "681",
+          "url": "https://www.playngo.com/games/sherwood-gold"
+        },
+        {
+          "id": "672",
+          "url": "https://www.playngo.com/games/monkey-battle-for-the-scrolls"
+        },
+        {
+          "id": "816",
+          "url": "https://www.playngo.com/games/ruff-heist"
+        },
+        {
+          "id": "729",
+          "url": "https://www.playngo.com/games/raging-rex-3"
+        },
+        {
+          "id": "680",
+          "url": "https://www.playngo.com/games/return-of-the-green-knight"
+        },
+        {
+          "id": "853",
+          "url": "https://www.playngo.com/games/piggy-blitz"
+        },
+        {
+          "id": "700",
+          "url": "https://www.playngo.com/games/temple-of-prosperity"
+        },
+        {
+          "id": "643",
+          "url": "https://www.playngo.com/games/scales-of-dead"
+        },
+        {
+          "id": "675",
+          "url": "https://www.playngo.com/games/boat-bonanza-colossal-catch"
+        },
+        {
+          "id": "714",
+          "url": "https://www.playngo.com/games/honey-rush-100"
+        },
+        {
+          "id": "727",
+          "url": "https://www.playngo.com/games/hugo-legacy"
+        },
+        {
+          "id": "713",
+          "url": "https://www.playngo.com/games/sweet-alchemy-100"
+        },
+        {
+          "id": "807",
+          "url": "https://www.playngo.com/games/scroll-of-seth"
+        },
+        {
+          "id": "696",
+          "url": "https://www.playngo.com/games/merlin-journey-of-flame"
+        },
+        {
+          "id": "649",
+          "url": "https://www.playngo.com/games/fox-mayhem"
+        },
+        {
+          "id": "671",
+          "url": "https://www.playngo.com/games/sparky-shortz-hidden-joules"
+        },
+        {
+          "id": "674",
+          "url": "https://www.playngo.com/games/rascal-riches"
+        },
+        {
+          "id": "710",
+          "url": "https://www.playngo.com/games/sweet-alchemy-2"
+        },
+        {
+          "id": "726",
+          "url": "https://www.playngo.com/games/ternion"
+        },
+        {
+          "id": "648",
+          "url": "https://www.playngo.com/games/viking-runecraft-apocalypse"
+        },
+        {
+          "id": "737",
+          "url": "https://www.playngo.com/games/free-reelin'-joker-1000"
+        },
+        {
+          "id": "808",
+          "url": "https://www.playngo.com/games/highway-legends"
+        },
+        {
+          "id": "735",
+          "url": "https://www.playngo.com/games/luchamigos"
+        },
+        {
+          "id": "640",
+          "url": "https://www.playngo.com/games/captain-glum-pirate-hunter"
+        },
+        {
+          "id": "642",
+          "url": "https://www.playngo.com/games/gerard's-gambit"
+        },
+        {
+          "id": "595",
+          "url": "https://www.playngo.com/games/ronin's-honour"
+        },
+        {
+          "id": "709",
+          "url": "https://www.playngo.com/games/slashimi"
+        },
+        {
+          "id": "661",
+          "url": "https://www.playngo.com/games/wild-bandolier"
+        },
+        {
+          "id": "712",
+          "url": "https://www.playngo.com/games/moon-princess-trinity"
+        },
+        {
+          "id": "690",
+          "url": "https://www.playngo.com/games/pandora's-box-of-evil"
+        },
+        {
+          "id": "787",
+          "url": "https://www.playngo.com/games/colt-lightning"
+        },
+        {
+          "id": "660",
+          "url": "https://www.playngo.com/games/legion-gold"
+        },
+        {
+          "id": "755",
+          "url": "https://www.playngo.com/games/legacy-of-inca"
+        },
+        {
+          "id": "693",
+          "url": "https://www.playngo.com/games/game-of-gladiators-uprising"
+        },
+        {
+          "id": "684",
+          "url": "https://www.playngo.com/games/pilgrim-of-dead"
+        },
+        {
+          "id": "689",
+          "url": "https://www.playngo.com/games/invading-vegas"
+        },
+        {
+          "id": "686",
+          "url": "https://www.playngo.com/games/cash-a-cabana"
+        },
+        {
+          "id": "662",
+          "url": "https://www.playngo.com/games/shamrock-miner"
+        },
+        {
+          "id": "644",
+          "url": "https://www.playngo.com/games/ma-a-tley-cra-a1-4e"
+        },
+        {
+          "id": "647",
+          "url": "https://www.playngo.com/games/wild-falls-2"
+        },
+        {
+          "id": "754",
+          "url": "https://www.playngo.com/games/naughty-nick's-book"
+        },
+        {
+          "id": "708",
+          "url": "https://www.playngo.com/games/athena-ascending"
+        },
+        {
+          "id": "591",
+          "url": "https://www.playngo.com/games/clash-of-camelot"
+        },
+        {
+          "id": "659",
+          "url": "https://www.playngo.com/games/usa-flip"
+        },
+        {
+          "id": "670",
+          "url": "https://www.playngo.com/games/rise-of-olympus-100"
+        },
+        {
+          "id": "590",
+          "url": "https://www.playngo.com/games/canine-carnage"
+        },
+        {
+          "id": "685",
+          "url": "https://www.playngo.com/games/count-jokula"
+        },
+        {
+          "id": "664",
+          "url": "https://www.playngo.com/games/boat-bonanza"
+        },
+        {
+          "id": "653",
+          "url": "https://www.playngo.com/games/dio-killing-the-dragon"
+        },
+        {
+          "id": "641",
+          "url": "https://www.playngo.com/games/immortails-of-egypt"
+        },
+        {
+          "id": "618",
+          "url": "https://www.playngo.com/games/gates-of-troy"
+        },
+        {
+          "id": "645",
+          "url": "https://www.playngo.com/games/mount-m"
+        },
+        {
+          "id": "588",
+          "url": "https://www.playngo.com/games/champions-of-mithrune"
+        },
+        {
+          "id": "646",
+          "url": "https://www.playngo.com/games/bull-in-a-rodeo"
+        },
+        {
+          "id": "622",
+          "url": "https://www.playngo.com/games/forge-of-fortunes"
+        },
+        {
+          "id": "656",
+          "url": "https://www.playngo.com/games/leprechaun's-vault"
+        },
+        {
+          "id": "625",
+          "url": "https://www.playngo.com/games/mega-don"
+        },
+        {
+          "id": "587",
+          "url": "https://www.playngo.com/games/cash-of-command"
+        },
+        {
+          "id": "624",
+          "url": "https://www.playngo.com/games/rotiki"
+        },
+        {
+          "id": "620",
+          "url": "https://www.playngo.com/games/merlin's-grimoire"
+        },
+        {
+          "id": "629",
+          "url": "https://www.playngo.com/games/nsync-pop"
+        },
+        {
+          "id": "613",
+          "url": "https://www.playngo.com/games/cat-wilde-and-the-pyramids-of-dead"
+        },
+        {
+          "id": "586",
+          "url": "https://www.playngo.com/games/rocco-gallo"
+        },
+        {
+          "id": "476",
+          "url": "https://www.playngo.com/games/derby-wheel"
+        },
+        {
+          "id": "616",
+          "url": "https://www.playngo.com/games/wild-trigger"
+        },
+        {
+          "id": "639",
+          "url": "https://www.playngo.com/games/king's-mask"
+        },
+        {
+          "id": "617",
+          "url": "https://www.playngo.com/games/animal-madness"
+        },
+        {
+          "id": "633",
+          "url": "https://www.playngo.com/games/idol-of-fortune"
+        },
+        {
+          "id": "584",
+          "url": "https://www.playngo.com/games/rise-of-gods-reckoning"
+        },
+        {
+          "id": "608",
+          "url": "https://www.playngo.com/games/lordi-reel-monsters"
+        },
+        {
+          "id": "619",
+          "url": "https://www.playngo.com/games/puebla-parade"
+        },
+        {
+          "id": "609",
+          "url": "https://www.playngo.com/games/forge-of-gems"
+        },
+        {
+          "id": "603",
+          "url": "https://www.playngo.com/games/moon-princess-100"
+        },
+        {
+          "id": "612",
+          "url": "https://www.playngo.com/games/def-leppard-hysteria"
+        },
+        {
+          "id": "638",
+          "url": "https://www.playngo.com/games/eye-of-atum"
+        },
+        {
+          "id": "607",
+          "url": "https://www.playngo.com/games/raging-rex-2"
+        },
+        {
+          "id": "614",
+          "url": "https://www.playngo.com/games/fat-frankies"
+        },
+        {
+          "id": "632",
+          "url": "https://www.playngo.com/games/safari-of-wealth"
+        },
+        {
+          "id": "606",
+          "url": "https://www.playngo.com/games/secret-of-dead"
+        },
+        {
+          "id": "596",
+          "url": "https://www.playngo.com/games/tales-of-asgard-freya's-wedding"
+        },
+        {
+          "id": "456",
+          "url": "https://www.playngo.com/games/cat-wilde-and-the-lost-chapter"
+        },
+        {
+          "id": "574",
+          "url": "https://www.playngo.com/games/gigantoonz"
+        },
+        {
+          "id": "610",
+          "url": "https://www.playngo.com/games/love-joker"
+        },
+        {
+          "id": "567",
+          "url": "https://www.playngo.com/games/15-crystal-roses-a-tale-of-love"
+        },
+        {
+          "id": "570",
+          "url": "https://www.playngo.com/games/tale-of-kyubiko"
+        },
+        {
+          "id": "585",
+          "url": "https://www.playngo.com/games/captain-xeno's-earth-adventure"
+        },
+        {
+          "id": "579",
+          "url": "https://www.playngo.com/games/beasts-of-fire"
+        },
+        {
+          "id": "568",
+          "url": "https://www.playngo.com/games/hooligan-hustle"
+        },
+        {
+          "id": "553",
+          "url": "https://www.playngo.com/games/kiss-reels-of-rock"
+        },
+        {
+          "id": "600",
+          "url": "https://www.playngo.com/games/moon-princess-christmas-kingdom"
+        },
+        {
+          "id": "581",
+          "url": "https://www.playngo.com/games/merlin-and-the-ice-queen-morgana"
+        },
+        {
+          "id": "563",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-wandering-city"
+        },
+        {
+          "id": "583",
+          "url": "https://www.playngo.com/games/the-last-sundown"
+        },
+        {
+          "id": "564",
+          "url": "https://www.playngo.com/games/legend-of-the-ice-dragon"
+        },
+        {
+          "id": "565",
+          "url": "https://www.playngo.com/games/tales-of-asgard-loki's-fortune"
+        },
+        {
+          "id": "566",
+          "url": "https://www.playngo.com/games/sparky-shortz"
+        },
+        {
+          "id": "545",
+          "url": "https://www.playngo.com/games/muerto-en-mictla-a-a-n"
+        },
+        {
+          "id": "531",
+          "url": "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness"
+        },
+        {
+          "id": "539",
+          "url": "https://www.playngo.com/games/charlie-chance-and-the-curse-of-cleopatra"
+        },
+        {
+          "id": "554",
+          "url": "https://www.playngo.com/games/the-wild-class"
+        },
+        {
+          "id": "549",
+          "url": "https://www.playngo.com/games/ghost-of-dead"
+        },
+        {
+          "id": "538",
+          "url": "https://www.playngo.com/games/dr-toonz"
+        },
+        {
+          "id": "547",
+          "url": "https://www.playngo.com/games/sisters-of-the-sun"
+        },
+        {
+          "id": "548",
+          "url": "https://www.playngo.com/games/hugo-carts"
+        },
+        {
+          "id": "542",
+          "url": "https://www.playngo.com/games/agent-of-hearts"
+        },
+        {
+          "id": "535",
+          "url": "https://www.playngo.com/games/diamonds-of-the-realm"
+        },
+        {
+          "id": "537",
+          "url": "https://www.playngo.com/games/odin-protector-of-realms"
+        },
+        {
+          "id": "479",
+          "url": "https://www.playngo.com/games/hotel-yeti-way"
+        },
+        {
+          "id": "468",
+          "url": "https://www.playngo.com/games/gemix-2"
+        },
+        {
+          "id": "533",
+          "url": "https://www.playngo.com/games/blazin'-bullfrog"
+        },
+        {
+          "id": "478",
+          "url": "https://www.playngo.com/games/pack-cash"
+        },
+        {
+          "id": "540",
+          "url": "https://www.playngo.com/games/free-reelin'-joker"
+        },
+        {
+          "id": "534",
+          "url": "https://www.playngo.com/games/charlie-chance"
+        },
+        {
+          "id": "536",
+          "url": "https://www.playngo.com/games/candy-island-princess"
+        },
+        {
+          "id": "532",
+          "url": "https://www.playngo.com/games/prism-of-gems"
+        },
+        {
+          "id": "530",
+          "url": "https://www.playngo.com/games/scroll-of-dead"
+        },
+        {
+          "id": "474",
+          "url": "https://www.playngo.com/games/3-clown-monty"
+        },
+        {
+          "id": "469",
+          "url": "https://www.playngo.com/games/hammerfall"
+        },
+        {
+          "id": "477",
+          "url": "https://www.playngo.com/games/rabbit-hole-riches-court-of-hearts"
+        },
+        {
+          "id": "473",
+          "url": "https://www.playngo.com/games/fire-joker-freeze"
+        },
+        {
+          "id": "466",
+          "url": "https://www.playngo.com/games/fire-toad"
+        },
+        {
+          "id": "475",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-amulet-of-dead"
+        },
+        {
+          "id": "472",
+          "url": "https://www.playngo.com/games/the-shimmering-woods"
+        },
+        {
+          "id": "467",
+          "url": "https://www.playngo.com/games/house-of-doom-2-the-crypt"
+        },
+        {
+          "id": "471",
+          "url": "https://www.playngo.com/games/the-green-knight"
+        },
+        {
+          "id": "462",
+          "url": "https://www.playngo.com/games/the-faces-of-freya"
+        },
+        {
+          "id": "465",
+          "url": "https://www.playngo.com/games/the-paying-piano-club"
+        },
+        {
+          "id": "463",
+          "url": "https://www.playngo.com/games/thunder-screech"
+        },
+        {
+          "id": "460",
+          "url": "https://www.playngo.com/games/cat-wilde-in-the-eclipse-of-the-sun-god"
+        },
+        {
+          "id": "470",
+          "url": "https://www.playngo.com/games/lord-merlin-and-the-lady-of-the-lake"
+        },
+        {
+          "id": "459",
+          "url": "https://www.playngo.com/games/bull-in-a-china-shop"
+        },
+        {
+          "id": "461",
+          "url": "https://www.playngo.com/games/miner-donkey-trouble"
+        },
+        {
+          "id": "452",
+          "url": "https://www.playngo.com/games/coils-of-cash"
+        },
+        {
+          "id": "458",
+          "url": "https://www.playngo.com/games/piggy-bank-farm"
+        },
+        {
+          "id": "447",
+          "url": "https://www.playngo.com/games/golden-osiris"
+        },
+        {
+          "id": "453",
+          "url": "https://www.playngo.com/games/frozen-gems"
+        },
+        {
+          "id": "454",
+          "url": "https://www.playngo.com/games/ice-joker"
+        },
+        {
+          "id": "457",
+          "url": "https://www.playngo.com/games/new-year-riches"
+        },
+        {
+          "id": "450",
+          "url": "https://www.playngo.com/games/24k-dragon"
+        },
+        {
+          "id": "451",
+          "url": "https://www.playngo.com/games/rise-of-athena"
+        },
+        {
+          "id": "464",
+          "url": "https://www.playngo.com/games/holiday-spirits"
+        },
+        {
+          "id": "449",
+          "url": "https://www.playngo.com/games/disco-diamonds"
+        },
+        {
+          "id": "435",
+          "url": "https://www.playngo.com/games/madame-ink"
+        },
+        {
+          "id": "423",
+          "url": "https://www.playngo.com/games/helloween"
+        },
+        {
+          "id": "445",
+          "url": "https://www.playngo.com/games/rabbit-hole-riches"
+        },
+        {
+          "id": "429",
+          "url": "https://www.playngo.com/games/reactoonz-2"
+        },
+        {
+          "id": "415",
+          "url": "https://www.playngo.com/games/feline-fury"
+        },
+        {
+          "id": "441",
+          "url": "https://www.playngo.com/games/octopus-treasure"
+        },
+        {
+          "id": "436",
+          "url": "https://www.playngo.com/games/golden-ticket-2"
+        },
+        {
+          "id": "442",
+          "url": "https://www.playngo.com/games/jolly-roger-2"
+        },
+        {
+          "id": "428",
+          "url": "https://www.playngo.com/games/diamond-vortex"
+        },
+        {
+          "id": "422",
+          "url": "https://www.playngo.com/games/saxon"
+        },
+        {
+          "id": "446",
+          "url": "https://www.playngo.com/games/blinged"
+        },
+        {
+          "id": "430",
+          "url": "https://www.playngo.com/games/riddle-reels-a-case-of-riches"
+        },
+        {
+          "id": "426",
+          "url": "https://www.playngo.com/games/win-a-beest"
+        },
+        {
+          "id": "424",
+          "url": "https://www.playngo.com/games/gold-volcano"
+        },
+        {
+          "id": "427",
+          "url": "https://www.playngo.com/games/cat-wilde-and-the-doom-of-dead"
+        },
+        {
+          "id": "396",
+          "url": "https://www.playngo.com/games/troll-hunters-2"
+        },
+        {
+          "id": "420",
+          "url": "https://www.playngo.com/games/rally-4-riches"
+        },
+        {
+          "id": "421",
+          "url": "https://www.playngo.com/games/twisted-sister"
+        },
+        {
+          "id": "425",
+          "url": "https://www.playngo.com/games/charlie-chance-in-hell-to-pay"
+        },
+        {
+          "id": "405",
+          "url": "https://www.playngo.com/games/agent-destiny"
+        },
+        {
+          "id": "413",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-shield-of-athena"
+        },
+        {
+          "id": "418",
+          "url": "https://www.playngo.com/games/annihilator"
+        },
+        {
+          "id": "411",
+          "url": "https://www.playngo.com/games/ring-of-odin"
+        },
+        {
+          "id": "414",
+          "url": "https://www.playngo.com/games/that's-rich"
+        },
+        {
+          "id": "384",
+          "url": "https://www.playngo.com/games/riches-of-robin"
+        },
+        {
+          "id": "412",
+          "url": "https://www.playngo.com/games/sticky-joker"
+        },
+        {
+          "id": "406",
+          "url": "https://www.playngo.com/games/testament"
+        },
+        {
+          "id": "410",
+          "url": "https://www.playngo.com/games/fortunes-of-ali-baba"
+        },
+        {
+          "id": "407",
+          "url": "https://www.playngo.com/games/dawn-of-egypt"
+        },
+        {
+          "id": "408",
+          "url": "https://www.playngo.com/games/leprechaun-goes-wild"
+        },
+        {
+          "id": "395",
+          "url": "https://www.playngo.com/games/coywolf-cash"
+        },
+        {
+          "id": "393",
+          "url": "https://www.playngo.com/games/wildhound-derby"
+        },
+        {
+          "id": "404",
+          "url": "https://www.playngo.com/games/wild-blood-2"
+        },
+        {
+          "id": "416",
+          "url": "https://www.playngo.com/games/legacy-of-dead"
+        },
+        {
+          "id": "398",
+          "url": "https://www.playngo.com/games/wild-frames"
+        },
+        {
+          "id": "360",
+          "url": "https://www.playngo.com/games/divine-showdown"
+        },
+        {
+          "id": "389",
+          "url": "https://www.playngo.com/games/chronos-joker"
+        },
+        {
+          "id": "390",
+          "url": "https://www.playngo.com/games/xmas-magic"
+        },
+        {
+          "id": "386",
+          "url": "https://www.playngo.com/games/black-mamba"
+        },
+        {
+          "id": "417",
+          "url": "https://www.playngo.com/games/doom-of-egypt"
+        },
+        {
+          "id": "375",
+          "url": "https://www.playngo.com/games/honey-rush"
+        },
+        {
+          "id": "374",
+          "url": "https://www.playngo.com/games/big-win-777"
+        },
+        {
+          "id": "397",
+          "url": "https://www.playngo.com/games/cash-pump"
+        },
+        {
+          "id": "388",
+          "url": "https://www.playngo.com/games/rainforest-magic"
+        },
+        {
+          "id": "394",
+          "url": "https://www.playngo.com/games/demon"
+        },
+        {
+          "id": "379",
+          "url": "https://www.playngo.com/games/mission-cash"
+        },
+        {
+          "id": "409",
+          "url": "https://www.playngo.com/games/3-hand-casino-hold'em"
+        },
+        {
+          "id": "399",
+          "url": "https://www.playngo.com/games/inferno-joker"
+        },
+        {
+          "id": "392",
+          "url": "https://www.playngo.com/games/hugo's-adventure"
+        },
+        {
+          "id": "367",
+          "url": "https://www.playngo.com/games/rise-of-dead"
+        },
+        {
+          "id": "376",
+          "url": "https://www.playngo.com/games/the-sword-and-the-grail"
+        },
+        {
+          "id": "364",
+          "url": "https://www.playngo.com/games/firefly-frenzy"
+        },
+        {
+          "id": "385",
+          "url": "https://www.playngo.com/games/wild-rails"
+        },
+        {
+          "id": "365",
+          "url": "https://www.playngo.com/games/tome-of-madness"
+        },
+        {
+          "id": "377",
+          "url": "https://www.playngo.com/games/rise-of-merlin"
+        },
+        {
+          "id": "369",
+          "url": "https://www.playngo.com/games/game-of-gladiators"
+        },
+        {
+          "id": "373",
+          "url": "https://www.playngo.com/games/perfect-gems"
+        },
+        {
+          "id": "366",
+          "url": "https://www.playngo.com/games/inferno-star"
+        },
+        {
+          "id": "387",
+          "url": "https://www.playngo.com/games/ankh-of-anubis"
+        },
+        {
+          "id": "378",
+          "url": "https://www.playngo.com/games/sabaton"
+        },
+        {
+          "id": "362",
+          "url": "https://www.playngo.com/games/mahjong-88"
+        },
+        {
+          "id": "372",
+          "url": "https://www.playngo.com/games/crystal-sun"
+        },
+        {
+          "id": "371",
+          "url": "https://www.playngo.com/games/phoenix-reborn"
+        },
+        {
+          "id": "359",
+          "url": "https://www.playngo.com/games/contact"
+        },
+        {
+          "id": "370",
+          "url": "https://www.playngo.com/games/cash-vandal"
+        },
+        {
+          "id": "344",
+          "url": "https://www.playngo.com/games/golden-colts"
+        },
+        {
+          "id": "363",
+          "url": "https://www.playngo.com/games/queen's-day-tilt"
+        },
+        {
+          "id": "350",
+          "url": "https://www.playngo.com/games/wild-falls"
+        },
+        {
+          "id": "361",
+          "url": "https://www.playngo.com/games/raging-rex"
+        },
+        {
+          "id": "340",
+          "url": "https://www.playngo.com/games/star-joker"
+        },
+        {
+          "id": "356",
+          "url": "https://www.playngo.com/games/battle-royal"
+        },
+        {
+          "id": "347",
+          "url": "https://www.playngo.com/games/banana-rock"
+        },
+        {
+          "id": "355",
+          "url": "https://www.playngo.com/games/dragon-maiden"
+        },
+        {
+          "id": "306",
+          "url": "https://www.playngo.com/games/iron-girl"
+        },
+        {
+          "id": "351",
+          "url": "https://www.playngo.com/games/street-magic"
+        },
+        {
+          "id": "352",
+          "url": "https://www.playngo.com/games/rise-of-olympus"
+        },
+        {
+          "id": "357",
+          "url": "https://www.playngo.com/games/sizzling-spins"
+        },
+        {
+          "id": "193",
+          "url": "https://www.playngo.com/games/cats-and-cash"
+        },
+        {
+          "id": "31",
+          "url": "https://www.playngo.com/games/european-roulette-pro"
+        },
+        {
+          "id": "354",
+          "url": "https://www.playngo.com/games/hugo-goal"
+        },
+        {
+          "id": "194",
+          "url": "https://www.playngo.com/games/cops-'n'-robbers"
+        },
+        {
+          "id": "339",
+          "url": "https://www.playngo.com/games/legacy-of-egypt"
+        },
+        {
+          "id": "349",
+          "url": "https://www.playngo.com/games/baker's-treat"
+        },
+        {
+          "id": "336",
+          "url": "https://www.playngo.com/games/sweet-alchemy"
+        },
+        {
+          "id": "666",
+          "url": "https://www.playngo.com/games/house-of-doom"
+        },
+        {
+          "id": "348",
+          "url": "https://www.playngo.com/games/imperial-opera"
+        },
+        {
+          "id": "341",
+          "url": "https://www.playngo.com/games/gold-king"
+        },
+        {
+          "id": "345",
+          "url": "https://www.playngo.com/games/planet-fortune"
+        },
+        {
+          "id": "338",
+          "url": "https://www.playngo.com/games/mystery-joker-6000"
+        },
+        {
+          "id": "331",
+          "url": "https://www.playngo.com/games/sea-hunter"
+        },
+        {
+          "id": "346",
+          "url": "https://www.playngo.com/games/hugo-2"
+        },
+        {
+          "id": "342",
+          "url": "https://www.playngo.com/games/big-win-cat"
+        },
+        {
+          "id": "337",
+          "url": "https://www.playngo.com/games/fu-er-dai"
+        },
+        {
+          "id": "333",
+          "url": "https://www.playngo.com/games/reactoonz"
+        },
+        {
+          "id": "328",
+          "url": "https://www.playngo.com/games/prosperity-palace"
+        },
+        {
+          "id": "329",
+          "url": "https://www.playngo.com/games/mermaid's-diamond"
+        },
+        {
+          "id": "334",
+          "url": "https://www.playngo.com/games/moon-princess"
+        },
+        {
+          "id": "335",
+          "url": "https://www.playngo.com/games/sweet-27"
+        },
+        {
+          "id": "330",
+          "url": "https://www.playngo.com/games/multifruit-81"
+        },
+        {
+          "id": "332",
+          "url": "https://www.playngo.com/games/aztec-warrior-princess"
+        },
+        {
+          "id": "319",
+          "url": "https://www.playngo.com/games/viking-runecraft"
+        },
+        {
+          "id": "320",
+          "url": "https://www.playngo.com/games/matsuri"
+        },
+        {
+          "id": "325",
+          "url": "https://www.playngo.com/games/prissy-princess"
+        },
+        {
+          "id": "326",
+          "url": "https://www.playngo.com/games/jade-magician"
+        },
+        {
+          "id": "321",
+          "url": "https://www.playngo.com/games/7-sins"
+        },
+        {
+          "id": "327",
+          "url": "https://www.playngo.com/games/holiday-season"
+        },
+        {
+          "id": "324",
+          "url": "https://www.playngo.com/games/super-wheel"
+        },
+        {
+          "id": "322",
+          "url": "https://www.playngo.com/games/hugo"
+        },
+        {
+          "id": "303",
+          "url": "https://www.playngo.com/games/grim-muerto"
+        },
+        {
+          "id": "307",
+          "url": "https://www.playngo.com/games/fire-joker"
+        },
+        {
+          "id": "318",
+          "url": "https://www.playngo.com/games/money-wheel"
+        },
+        {
+          "id": "312",
+          "url": "https://www.playngo.com/games/golden-caravan"
+        },
+        {
+          "id": "311",
+          "url": "https://www.playngo.com/games/sails-of-gold"
+        },
+        {
+          "id": "300",
+          "url": "https://www.playngo.com/games/cloud-quest"
+        },
+        {
+          "id": "304",
+          "url": "https://www.playngo.com/games/samba-carnival"
+        },
+        {
+          "id": "310",
+          "url": "https://www.playngo.com/games/book-of-dead"
+        },
+        {
+          "id": "302",
+          "url": "https://www.playngo.com/games/wizard-of-gems"
+        },
+        {
+          "id": "309",
+          "url": "https://www.playngo.com/games/xmas-joker"
+        },
+        {
+          "id": "305",
+          "url": "https://www.playngo.com/games/happy-halloween"
+        },
+        {
+          "id": "297",
+          "url": "https://www.playngo.com/games/eye-of-the-kraken"
+        },
+        {
+          "id": "294",
+          "url": "https://www.playngo.com/games/wild-north"
+        },
+        {
+          "id": "292",
+          "url": "https://www.playngo.com/games/spin-party"
+        },
+        {
+          "id": "298",
+          "url": "https://www.playngo.com/games/royal-masquerade"
+        },
+        {
+          "id": "295",
+          "url": "https://www.playngo.com/games/super-flip"
+        },
+        {
+          "id": "290",
+          "url": "https://www.playngo.com/games/golden-legend"
+        },
+        {
+          "id": "287",
+          "url": "https://www.playngo.com/games/tower-quest"
+        },
+        {
+          "id": "293",
+          "url": "https://www.playngo.com/games/easter-eggs"
+        },
+        {
+          "id": "54",
+          "url": "https://www.playngo.com/games/double-exposure-blackjack-mh"
+        },
+        {
+          "id": "291",
+          "url": "https://www.playngo.com/games/pimped"
+        },
+        {
+          "id": "286",
+          "url": "https://www.playngo.com/games/gemix"
+        },
+        {
+          "id": "288",
+          "url": "https://www.playngo.com/games/merry-xmas"
+        },
+        {
+          "id": "284",
+          "url": "https://www.playngo.com/games/crazy-cows"
+        },
+        {
+          "id": "285",
+          "url": "https://www.playngo.com/games/golden-ticket"
+        },
+        {
+          "id": "282",
+          "url": "https://www.playngo.com/games/pearls-of-india"
+        },
+        {
+          "id": "283",
+          "url": "https://www.playngo.com/games/mystery-joker"
+        },
+        {
+          "id": "259",
+          "url": "https://www.playngo.com/games/enchanted-crystals"
+        },
+        {
+          "id": "277",
+          "url": "https://www.playngo.com/games/chinese-new-year"
+        },
+        {
+          "id": "278",
+          "url": "https://www.playngo.com/games/lady-of-fortune"
+        },
+        {
+          "id": "271",
+          "url": "https://www.playngo.com/games/joker-poker-mh"
+        },
+        {
+          "id": "270",
+          "url": "https://www.playngo.com/games/deuces-wild-mh"
+        },
+        {
+          "id": "269",
+          "url": "https://www.playngo.com/games/jacks-or-better-mh"
+        },
+        {
+          "id": "246",
+          "url": "https://www.playngo.com/games/gold-trophy-2"
+        },
+        {
+          "id": "57",
+          "url": "https://www.playngo.com/games/casino-hold'em"
+        },
+        {
+          "id": "55",
+          "url": "https://www.playngo.com/games/single-deck-blackjack-mh"
+        },
+        {
+          "id": "262",
+          "url": "https://www.playngo.com/games/energoonz"
+        },
+        {
+          "id": "257",
+          "url": "https://www.playngo.com/games/rage-to-riches"
+        },
+        {
+          "id": "237",
+          "url": "https://www.playngo.com/games/riches-of-ra"
+        },
+        {
+          "id": "254",
+          "url": "https://www.playngo.com/games/troll-hunters"
+        },
+        {
+          "id": "253",
+          "url": "https://www.playngo.com/games/ninja-fruits"
+        },
+        {
+          "id": "251",
+          "url": "https://www.playngo.com/games/leprechaun-goes-egypt"
+        },
+        {
+          "id": "250",
+          "url": "https://www.playngo.com/games/wild-blood"
+        },
+        {
+          "id": "200",
+          "url": "https://www.playngo.com/games/irish-gold"
+        },
+        {
+          "id": "199",
+          "url": "https://www.playngo.com/games/5x-magic"
+        },
+        {
+          "id": "11",
+          "url": "https://www.playngo.com/games/mini-baccarat"
+        },
+        {
+          "id": "99",
+          "url": "https://www.playngo.com/games/ace-of-spades"
+        },
+        {
+          "id": "5",
+          "url": "https://www.playngo.com/games/lucky-diamonds"
+        },
+        {
+          "id": "4",
+          "url": "https://www.playngo.com/games/wild-melon"
+        },
+        {
+          "id": "245",
+          "url": "https://www.playngo.com/games/myth"
+        },
+        {
+          "id": "242",
+          "url": "https://www.playngo.com/games/jewel-box"
+        },
+        {
+          "id": "198",
+          "url": "https://www.playngo.com/games/space-race"
+        },
+        {
+          "id": "197",
+          "url": "https://www.playngo.com/games/photo-safari"
+        },
+        {
+          "id": "196",
+          "url": "https://www.playngo.com/games/fortune-teller"
+        },
+        {
+          "id": "52",
+          "url": "https://www.playngo.com/games/blackjack-mh"
+        },
+        {
+          "id": "239",
+          "url": "https://www.playngo.com/games/keno"
+        },
+        {
+          "id": "238",
+          "url": "https://www.playngo.com/games/dragon-ship"
+        },
+        {
+          "id": "241",
+          "url": "https://www.playngo.com/games/pearl-lagoon"
+        },
+        {
+          "id": "225",
+          "url": "https://www.playngo.com/games/enchanted-meadow"
+        },
+        {
+          "id": "53",
+          "url": "https://www.playngo.com/games/european-blackjack-mh"
+        },
+        {
+          "id": "243",
+          "url": "https://www.playngo.com/games/aztec-idols"
+        },
+        {
+          "id": "40",
+          "url": "https://www.playngo.com/games/jolly-roger"
+        }
+      ],
       "sources": [
         {
           "id": "playngo-official-catalogue",
