@@ -1,4 +1,4 @@
-import {randomUUID} from 'node:crypto';
+import {randomUUID,createHash} from 'node:crypto';
 import {setTimeout as sleep} from 'node:timers/promises';
 // GPT owns quality decisions. No OCR/model, balance vocabulary or automatic
 // approval. Keep this browser and batch alive while waiting for feedback.
@@ -9,6 +9,12 @@ export async function reviewedScreenshot(snapshot,cloud,identity,{click,heartbea
   form.set('metadata',JSON.stringify({...identity,sessionId,...(revision?{revision,commandId}:{})}));
   form.set('image',new Blob([image],{type:'image/jpeg'}),'review.jpg');
   let review=(await cloud.call('/v1/capture-reviews',{method:'POST',role:'ingest',body:form})).review;
+  if(review.status==='approved'){
+   const response=await cloud.fetcher(cloud.baseUrl+'/v1/capture-review-images/'+encodeURIComponent(review.id),{headers:{Authorization:'Bearer '+cloud.reviewToken},signal:AbortSignal.timeout(40000)});
+   if(!response.ok)throw Error('Approved review image unavailable');
+   const approved=Buffer.from(await response.arrayBuffer());if(createHash('sha256').update(approved).digest('hex')!==review.imageSha256)throw Error('Approved review image hash mismatch');
+   return {image:approved,validation:{status:'ready',reviewId:review.id,revision:review.revision,sourceImageSha256:review.imageSha256,validatorVersion:'gpt-review-1',recovered:true}};
+  }
   console.log('CAPTURE_REVIEW '+JSON.stringify({id:review.id,revision:review.revision,status:review.status}));
   while(now()<deadline){
    await heartbeat();
