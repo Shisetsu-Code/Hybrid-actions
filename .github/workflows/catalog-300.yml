@@ -91,7 +91,7 @@ jobs:
           path: batch-reports
       - name: Disable batch policies and summarize the classification queue
         if: always()
-        run: node scripts/batch-summary.mjs
+        run: node scripts/batch-summary-300.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
