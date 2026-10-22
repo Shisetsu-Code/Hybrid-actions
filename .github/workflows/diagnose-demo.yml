@@ -17,7 +17,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: hybrid-diagnose-demo
+  group: hybrid-verified-300-batch
   cancel-in-progress: false
 jobs:
   capture:

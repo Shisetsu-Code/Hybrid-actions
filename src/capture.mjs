@@ -26,18 +26,27 @@ export async function capturePublicDemo(browser,engine,job,{
 
  const expectedOrigin=new URL(game.url).origin;
  let kaTransport,context,recorder;
- let recorded=false,phase='navigation';
+ let recorded=false,phase='navigation',blockedStatus=0,failedOaksUrl;
  try{
   kaTransport=imported&&job.provider==='ka_gaming'?await createKATransport():null;
   context=await browser.newContext({...kaTransport?.contextOptions,
    viewport:{width:1280,height:720},serviceWorkers:'block',acceptDownloads:false});
+  if(imported){
+   context.on('response',response=>{
+    if([403,429].includes(response.status())&&isImportedRuntime(job.provider,response.url(),game))blockedStatus=response.status();
+   });
+   context.on('requestfailed',request=>{
+    const u=new URL(request.url());
+    if(job.provider==='3oaks'&&u.protocol==='https:'&&u.hostname==='betman-demo.head.3oaks.com'&&u.pathname.startsWith('/betman-demo/gs/'+game.symbol+'/desktop/')&&u.pathname.endsWith('/demo/'))failedOaksUrl=request.url();
+   });
+  }
   recorder=engine.har.createNetworkRecorder(context,{maxEntries:250,maxFrames:60});
   if(kaTransport)await kaTransport.install(context);
   if(imported)await guardImportedNavigation(context,job.provider,game.url,game);
   let page=await context.newPage();
   page.setDefaultNavigationTimeout(45000);
   const response=await page.goto(game.url,{waitUntil:'domcontentloaded',timeout:45000});
-  if(!response||response.status()>=400)throw Error('public DEMO returned HTTP error');
+  if(!response||response.status()>=400)throw Error('public DEMO HTTP '+(response?.status()||'unavailable'));
   if(imported){
    if(page.url().replace(/\/$/,'')!==game.url.replace(/\/$/,'')&&!isImportedRuntime(job.provider,page.url(),game))throw Error('imported DEMO redirected outside provider contract');
    phase='launch';
@@ -63,6 +72,10 @@ export async function capturePublicDemo(browser,engine,job,{
   inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no frame after removing catalogue overlays');
   if(imported){
+   if(!blockedStatus&&failedOaksUrl){
+    try{const check=await context.request.get(failedOaksUrl,{timeout:10000});if([403,429].includes(check.status()))blockedStatus=check.status();}catch{}
+   }
+   if(blockedStatus)throw Error('Provider DEMO HTTP '+blockedStatus+' (access denied or rate limited)');
    let visible=await selectVisibleImportedSurface(page,engine,job.provider,game);
    if(!visible){
     const extended=job.provider==='yggdrasil'?60000:job.provider==='3oaks'?45000:35000;
