@@ -6,6 +6,10 @@ on:
         description: Separate Cloudflare batch ID (reuse to resume without replacing images)
         required: true
         default: catalog-300-20261021
+      providers:
+        description: JSON array of verified providers to diagnose without overlapping captures
+        required: true
+        default: '["3oaks"]'
       confirm_adult:
         description: Operator authorized adult confirmation
         type: boolean
@@ -25,7 +29,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        provider: [pragmatic, redtiger, 3oaks, rubyplay]
+        provider: ${{ fromJSON(inputs.providers) }}
     env:
       HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
       HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
