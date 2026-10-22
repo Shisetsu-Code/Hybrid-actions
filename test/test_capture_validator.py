@@ -11,6 +11,22 @@ def shot(text):
  draw.multiline_text((100,530),text,font=font,fill='white',spacing=8)
  return image
 class CaptureValidationTests(unittest.TestCase):
+ def test_balance_requires_amount_and_ignores_jackpot(self):
+  for text,expected in [('BALANCE 1000.00    BET 0.20',True),('JACKPOT 1000.00    BET 0.20',False),('BALANCE    BET',False),('BALANCE BET 0.20',False)]:
+   result=validator.analyze(shot(text),provider='sample',game_id='one')
+   self.assertEqual(bool(result.get('balanceEvidence')),expected,text)
+ def test_only_complete_intro_prompts_produce_click_coordinates(self):
+  for text in ['PRESS ANYWHERE TO CONTINUE','CLICK TO START','CONTINUE','TAP ANYWHERE']:
+   result=validator.analyze(shot(text),provider='sample',game_id='one')
+   self.assertEqual(result['status'],'intro',text)
+   self.assertIsNotNone(result.get('introAction'),text+' OCR='+str(validator.read_words(shot(text))))
+  for text in ['START SPIN','CONTINUE PURCHASE','BUY FREE SPINS','CONFIRM BET','START AUTOPLAY']:
+   self.assertIsNone(validator.analyze(shot(text),provider='sample',game_id='one').get('introAction'),text)
+ def test_loaded_base_is_not_compared_to_the_previous_intro_scene(self):
+  before=shot('START');data=io.BytesIO();before.save(data,format='JPEG')
+  ref={'provider':'sample','gameId':'one','stage':'intro','image':base64.b64encode(data.getvalue()).decode(),'anchors':[{'role':'start','rect':[.09,.80,.20,.12]}]}
+  result=validator.analyze(shot('BALANCE 1000    BET 0.20    SPIN'),provider='sample',game_id='one',reference=ref)
+  self.assertEqual(result['status'],'ready');self.assertIsNotNone(result.get('balanceEvidence'))
  def test_loading_and_geoblocks_are_not_ready(self):
   for text,status in [('Loading. Please wait.','loading'),('This game is not available in your country.','blocked')]:
    self.assertEqual(validator.analyze(shot(text),provider='sample',game_id='one')['status'],status)

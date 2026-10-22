@@ -2,6 +2,7 @@ import {selectVisibleImportedSurface} from './imported-surface.mjs';
 import {prepareKAPublicTransport} from './tester-spin-http.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 import {validatedScreenshot} from './capture-validator.mjs';
+import {clearCaptureCookies,clickCaptureIntro} from './capture-cleanup.mjs';
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
@@ -93,9 +94,21 @@ export async function capturePublicDemo(browser,engine,job,{
     throw Error('Tester Spin runtime has no visible game surface');
   }
   phase='screenshot';
-  const shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
-  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await page.screenshot({type:'jpeg',quality:67,
-   ...(shot.clip?{clip:shot.clip}:{})})),validateScreenshot);
+  let shot;
+  const {image,validation}=await validatedScreenshot(async()=>{
+   if(validateScreenshot)await clearCaptureCookies(page);
+   if(imported)await dismissImportedSiteOverlays(page,job.provider);
+   if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
+    await engine.intro.dismissCatalogueOverlays(page,{provider:job.provider,url:game.url,confirmAdult,graceMs:450,requireClear:true});
+   inspected=(imported?await selectVisibleImportedSurface(page,engine,job.provider,game):null)||await engine['select-frame'].bestFrame(page,job.provider);
+   if(!inspected)throw Error('game surface disappeared during cleanup');
+   if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('cleanup selected a foreign game frame');
+   shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
+   return Buffer.from(await page.screenshot({type:'jpeg',quality:67,...(shot.clip?{clip:shot.clip}:{})}));
+  },validateScreenshot,{clean:true,advanceIntro:action=>{
+   if(!shot.aligned)throw Error('intro requires aligned game screenshot');
+   return clickCaptureIntro(page,shot.clip||{x:0,y:0,...page.viewportSize()},action);
+  }});
   const {har,summary}=await recorder.finish();
   recorded=true;
   const cands=shot.aligned?inspected.data.candidates||[]:[];

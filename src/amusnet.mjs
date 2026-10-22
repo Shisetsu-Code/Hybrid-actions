@@ -1,4 +1,5 @@
 import {validatedScreenshot} from './capture-validator.mjs';
+import {clearCaptureCookies,clickCaptureIntro} from './capture-cleanup.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // Amusnet: publicly published English catalogue and read-only Play Demo iframe.
 // No wager/spin, raw HAR, /api/lobby body, session token, or iframe URL in output.
@@ -170,7 +171,10 @@ export async function captureAmusnetDemo(browser,_engine,job,{
   await frameElement.waitFor({state:'visible',timeout:15000});
   const box=await frameElement.boundingBox();
   if(!box||box.width<160||box.height<140)throw Error('Amusnet visible game area too small');
-  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000})),validateScreenshot);
+  const {image,validation}=await validatedScreenshot(async()=>{
+   if(validateScreenshot){await clearCaptureCookies(page);await dismissAmusnetOverlays(page,{confirmAdult});}
+   return Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000}));
+  },validateScreenshot,{clean:true,advanceIntro:async action=>clickCaptureIntro(page,await frameElement.boundingBox(),action)});
   if(image.length<1600)throw Error('Amusnet demo screenshot unexpectedly small');
   return {image,info:{runId,provider:'amusnet',gameId:game.id,shotId:'base',
    state:validation?.status==='intro'?'INTRO':'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',

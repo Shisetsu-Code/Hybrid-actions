@@ -43,7 +43,8 @@ export function requireReady(validation){
   const error=Error('CAPTURE_NOT_READY '+(validation?.status||'unknown')+': '+(validation?.reasons||[]).join(',')+(validation?.reportId?' report='+validation.reportId:''));error.code='CAPTURE_NOT_READY';throw error;
  }
 }
-export async function validatedScreenshot(snapshot,validate,{sleep=ms=>new Promise(done=>setTimeout(done,ms))}={}){
+export async function validatedScreenshot(snapshot,validate,{sleep=ms=>new Promise(done=>setTimeout(done,ms)),clean=false,advanceIntro}={}){
+ if(clean&&validate)return cleanScreenshot(snapshot,validate,{sleep,advanceIntro});
  let image,validation;
  for(let attempt=0;attempt<3;attempt++){
   image=await snapshot();if(!validate)return {image};
@@ -52,4 +53,34 @@ export async function validatedScreenshot(snapshot,validate,{sleep=ms=>new Promi
   if(attempt<2)await sleep(8000);
  }
  requireReady(validation);return {image,validation};
+}
+
+export async function cleanScreenshot(snapshot,validate,{sleep=ms=>new Promise(done=>setTimeout(done,ms)),advanceIntro}={}){
+ let previous=null,validation,image,clicks=0;const prompts=new Set();
+ for(let attempt=0;attempt<8;attempt++){
+  image=await snapshot();validation=await validate(image);
+  if(validation.status==='blocked'||validation.reasons?.includes('validator-unavailable'))break;
+  if(validation.status==='intro'){
+   previous=null;const action=validation.introAction;
+   const key=action&&JSON.stringify([action.text,action.rect.map(n=>Math.round(n*100))]);
+   if(!advanceIntro||!validIntroAction(action)||clicks>=3||prompts.has(key))break;
+   prompts.add(key);clicks++;await advanceIntro(action);await sleep(2000);continue;
+  }
+  const balance=validation.balanceEvidence;
+  if(validation.status==='ready'&&validBalance(balance)){
+   if(previous&&balance.rect.every((n,i)=>Math.abs(n-previous.rect[i])<.025))
+    return {image,validation:{...validation,cleanCapture:{version:'1',stableBalance:true,introClicks:clicks,observations:2}}};
+   previous=balance;await sleep(2000);continue;
+  }
+  previous=null;
+  if(validation.status==='overlay')break;
+  if(attempt<7)await sleep(8000);
+ }
+ const error=Error('CAPTURE_NOT_CLEAN '+(validation?.status||'unknown')+': '+(validation?.reasons||[]).join(',')+'; stable balance and unobstructed interface required'+(validation?.reportId?' report='+validation.reportId:''));
+ error.code='CAPTURE_NOT_READY';throw error;
+}
+function validRect(rect){return Array.isArray(rect)&&rect.length===4&&rect.every(n=>Number.isFinite(n)&&n>=0&&n<=1)&&rect[2]>0&&rect[3]>0&&rect[0]+rect[2]<=1.001&&rect[1]+rect[3]<=1.001;}
+function validBalance(balance){return balance&&validRect(balance.rect)&&/^\d+(?:[.,]\d+)*$/.test(balance.amount||'');}
+export function validIntroAction(action){
+ return action?.kind==='intro'&&validRect(action.rect)&&/^(?:(?:click|tap|press)(?: anywhere)? to (?:continue|start|begin)|(?:click|tap|press) anywhere(?: to (?:continue|start|begin))?|(?:haz clic|pulsa|toca|presiona)(?: en cualquier (?:parte|lugar))? para (?:continuar|comenzar|iniciar)|start|continue|continuar|comenzar|iniciar)$/.test(action.text||'');
 }
