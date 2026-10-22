@@ -12,7 +12,7 @@ def shot(text):
  return image
 class CaptureValidationTests(unittest.TestCase):
  def test_balance_requires_amount_and_ignores_jackpot(self):
-  for text,expected in [('BALANCE 1000.00    BET 0.20',True),('JACKPOT 1000.00    BET 0.20',False),('BALANCE    BET',False)]:
+  for text,expected in [('BALANCE 1000.00    BET 0.20',True),('JACKPOT 1000.00    BET 0.20',False),('BALANCE    BET',False),('BALANCE BET 0.20',False)]:
    result=validator.analyze(shot(text),provider='sample',game_id='one')
    self.assertEqual(bool(result.get('balanceEvidence')),expected,text)
  def test_only_complete_intro_prompts_produce_click_coordinates(self):

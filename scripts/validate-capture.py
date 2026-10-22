@@ -39,10 +39,11 @@ def intro_action(words,image):
            r'(?:haz clic|pulsa|toca|presiona)(?: en cualquier (?:parte|lugar))? para (?:continuar|comenzar|iniciar)',
            r'(?:start|continue|continuar|comenzar|iniciar)']
  for seed in words:
-  line=sorted([w for w in words if abs((w['y']+w['h']/2)-(seed['y']+seed['h']/2))<max(5,min(seed['h'],w['h'])*.55)],key=lambda w:w['x'])
+  line=sorted([w for w in words if abs((w['y']+w['h']/2)-(seed['y']+seed['h']/2))<max(5,min(seed['h'],w['h'])*.55)],key=lambda w:w['confidence'],reverse=True)
   unique=[]
   for w in line:
-   if not any(abs(w['x']-v['x'])<max(8,w['w']*.4) for v in unique):unique.append(w)
+   if not any(max(0,min(w['x']+w['w'],v['x']+v['w'])-max(w['x'],v['x']))/max(1,min(w['w'],v['w']))>.7 for v in unique):unique.append(w)
+  unique.sort(key=lambda w:w['x'])
   text=' '.join(re.sub(r'[^a-z ]','',w['word']).strip() for w in unique).strip()
   if not any(re.fullmatch(p,text) for p in patterns):continue
   if min(w['confidence'] for w in unique)<50:continue
@@ -60,6 +61,7 @@ def balance_evidence(words,image):
    if amount['confidence']<50 or not re.fullmatch(r'\d+(?:[.,]\d+)*',token):continue
    same_line=abs(amount['y']-label['y'])<max(label['h'],amount['h'])*.8 and 0<=amount['x']-label['x']-label['w']<image.width*.18
    below=0<=amount['y']-label['y']<max(label['h']*3,image.height*.055) and abs(amount['x']-label['x'])<image.width*.09
+   if same_line and any(re.sub(r'[^a-z]','',other['word']) in (LABELS['bet']|{'jackpot','win','premio'}) and label['x']<other['x']<amount['x'] and abs(other['y']-label['y'])<max(label['h'],other['h']) for other in words):continue
    if same_line or below:
     return {'rect':[label['x']/image.width,label['y']/image.height,label['w']/image.width,label['h']/image.height], 'amount':token}
  return None
