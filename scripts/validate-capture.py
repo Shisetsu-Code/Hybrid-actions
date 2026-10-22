@@ -1,6 +1,6 @@
 """GitHub-runner image gate. OCR is local to the runner; no image is sent to an AI."""
 import base64, io, json, os, re, sys, unicodedata
-from PIL import Image, ImageDraw, ImageStat, ImageChops
+from PIL import Image, ImageDraw, ImageStat, ImageChops, ImageOps
 import pytesseract
 
 VERSION='1'
@@ -15,32 +15,47 @@ def crop(image,rect):
 def dhash(image):
  pixels=list(image.convert('L').resize((9,8)).getdata())
  return sum((1<<i) for i in range(64) if pixels[(i//8)*9+i%8]>pixels[(i//8)*9+i%8+1])
+def read_words(image):
+ words=[]
+ # Scan the whole image plus enlarged toolbar/action areas. Coordinates always
+ # map back to this game's original JPEG, never to another provider's layout.
+ for region,scale,psm in [((0,0,1,1),1,11),((0,.68,1,.32),2,6),((.12,.56,.76,.42),2,11)]:
+  part=crop(image,region)
+  if scale!=1:part=ImageOps.autocontrast(part.convert('L')).resize((part.width*scale,part.height*scale))
+  data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=10)
+  for i,word in enumerate(data['text']):
+   if not word.strip() or float(data['conf'][i])<25:continue
+   entry={'word':normalized(word.strip()),'x':region[0]*image.width+data['left'][i]/scale,'y':region[1]*image.height+data['top'][i]/scale,'w':data['width'][i]/scale,'h':data['height'][i]/scale,'confidence':float(data['conf'][i])}
+   existing=next((w for w in words if w['word']==entry['word'] and abs(w['x']-entry['x'])<12 and abs(w['y']-entry['y'])<8),None)
+   if existing is None:words.append(entry)
+   elif entry['confidence']>existing['confidence']:existing.update(entry)
+ return words
 def analyze(image,*,provider,game_id,reference=None):
  image=image.convert('RGB')
  result={'validatorVersion':VERSION,'provider':provider,'gameId':game_id,'status':'uncertain','reasons':[],'anchors':[]}
  if image.width<160 or image.height<140 or max(ImageStat.Stat(image.resize((64,64))).stddev)<4:
   result['reasons']=['empty-or-small-image'];return result
- data=pytesseract.image_to_data(image,lang='eng+spa',config='--psm 11',output_type=pytesseract.Output.DICT,timeout=18)
- words=[]
- for i,word in enumerate(data['text']):
-  if word.strip() and float(data['conf'][i])>=40:words.append((i,normalized(word.strip())))
- text=' '.join(w for _,w in words)
+ words=read_words(image)
+ text=' '.join(w['word'] for w in words)
  blockers=[('blocked',r'not available in your country|geograph|access denied|attention required|restricted|no esta disponible|blocked|forbidden'),
            ('loading',r'loading|please wait|cargando|initializ|inicializ'),
            ('overlay',r'accept cookies|reject cookies|cookie settings|aceptar cookies|configurar cookies|legal gambling age|confirm your age|you must be over')]
  for status,pattern in blockers:
   if re.search(pattern,text):result.update(status=status,reasons=[status+'-screen']);return result
- if len(re.findall(r'\b\d+[,.]\d{2}\b',text))>=8 and re.search(r'\b(lineas|lines)\b',text):
+ if len(re.findall(r'\b\d+[,.]\d{2}\b',text))>=8 and re.search(r'\b(lineas|lines|apuesta|bet)\b',text):
   result.update(status='overlay',reasons=['stake-selection-covers-game']);return result
  seen=set()
- for i,word in words:
-  token=re.sub(r'[^a-z]','',word)
+ for word in sorted(words,key=lambda w:w['confidence'],reverse=True):
+  token=re.sub(r'[^a-z]','',word['word'])
   for role,labels in LABELS.items():
    if token not in labels or role in seen:continue
-   x=max(0,data['left'][i]-6);y=max(0,data['top'][i]-6)
-   width=min(image.width-x,data['width'][i]+12);height=min(image.height-y,data['height'][i]+12)
+   x=max(0,word['x']-6);y=max(0,word['y']-6)
+   width=min(image.width-x,word['w']+12);height=min(image.height-y,word['h']+12)
    result['anchors'].append({'role':role,'rect':[x/image.width,y/image.height,width/image.width,height/image.height],'matched':False})
    seen.add(role)
+ if 'start' not in seen and re.search(r'(click|tap)\s+anywhere',text):
+  word=next(w for w in words if re.sub(r'[^a-z]','',w['word']) in ('click','tap'))
+  result['anchors'].append({'role':'start','rect':[word['x']/image.width,word['y']/image.height,min(.4,1-word['x']/image.width),min(.08,1-word['y']/image.height)],'matched':False});seen.add('start')
  if reference:
   if reference.get('provider')!=provider or reference.get('gameId')!=game_id:
    result['reasons']=['reference-game-mismatch'];return result
