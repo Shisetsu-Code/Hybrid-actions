@@ -1,0 +1,101 @@
+name: Capture 300 games (25 per provider)
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Separate Cloudflare batch ID (reuse to resume without replacing images)
+        required: true
+        default: catalog-300-20261021
+      confirm_adult:
+        description: Operator authorized adult confirmation
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: hybrid-verified-300-batch
+  cancel-in-progress: false
+jobs:
+  capture:
+    if: github.ref == 'refs/heads/main'
+    name: 25 games / ${{ matrix.provider }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        provider: [pragmatic, 1spin4win, ka_gaming, bgaming, rubyplay, redtiger, 3oaks, yggdrasil, nolimit_city, playtech, amusnet, playngo]
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+      PILOT_CONFIG: config/batches/catalog-300-20261021.json
+      PILOT_RUN_ID: ${{ inputs.run_id }}
+      PILOT_PROVIDERS: ${{ matrix.provider }}
+      PILOT_LIMIT: '25'
+      PILOT_VERIFIED_ONLY: 'true'
+      PILOT_VISUAL_ONLY: 'true'
+      PILOT_SHOT_ID: base
+      PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_REPORT_FILE: provider-report.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check -r requirements-launchers.txt
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Capture only, verify each D1/R2 image, restore provider policy
+        run: node scripts/provider-pilot.mjs
+      - name: Preserve sanitized report only (images remain private in R2)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch300-${{ matrix.provider }}
+          path: provider-report.json
+          if-no-files-found: warn
+          retention-days: 14
+  report:
+    if: always() && github.ref == 'refs/heads/main'
+    needs: capture
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+      PILOT_RUN_ID: ${{ inputs.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: batch300-*
+          path: batch-reports
+      - name: Disable batch policies and summarize the classification queue
+        if: always()
+        run: node scripts/batch-summary.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: batch300-summary
+          path: batch-summary.json
+          if-no-files-found: warn
+          retention-days: 14
