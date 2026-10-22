@@ -19,7 +19,7 @@ class CaptureValidationTests(unittest.TestCase):
   for text in ['PRESS ANYWHERE TO CONTINUE','CLICK TO START','CONTINUE','TAP ANYWHERE']:
    result=validator.analyze(shot(text),provider='sample',game_id='one')
    self.assertEqual(result['status'],'intro',text)
-   self.assertIsNotNone(result.get('introAction'),text)
+   self.assertIsNotNone(result.get('introAction'),text+' OCR='+str(validator.read_words(shot(text))))
   for text in ['START SPIN','CONTINUE PURCHASE','BUY FREE SPINS','CONFIRM BET','START AUTOPLAY']:
    self.assertIsNone(validator.analyze(shot(text),provider='sample',game_id='one').get('introAction'),text)
  def test_loaded_base_is_not_compared_to_the_previous_intro_scene(self):
