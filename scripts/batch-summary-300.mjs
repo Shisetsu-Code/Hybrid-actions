@@ -13,15 +13,18 @@ for(const provider of verifiedProviders){
  let r;try{r=JSON.parse(await fs.readFile('batch-reports/batch300-'+provider+'/provider-report.json','utf8'));}catch{}
  if(r&&r.runId!==runId){summary.reportErrors.push(provider);r=null;}
  summary.providers.push({provider,attempts:r?.attempts?.length||0,
+  awaitingGpt:r?.attempts?.filter(x=>x.result==='awaiting-gpt').length||0,
   stored:r?.attempts?.filter(x=>x.result==='stored'||x.result==='already-stored').length||0,
   errors:r?.attempts?.filter(x=>x.result==='error').map(x=>({gameId:x.gameId,error:x.error}))||[],
   failures:r?.failures||[],missingReport:!r});
 }
 summary.stored=summary.providers.reduce((n,p)=>n+p.stored,0);
+summary.awaitingGpt=summary.providers.reduce((n,p)=>n+p.awaitingGpt,0);
+summary.capturePassComplete=summary.stored+summary.awaitingGpt===summary.expectedGames;
 summary.stats=await c.stats(runId);summary.finalPolicies=(await c.policies()).policies.filter(p=>verifiedProviders.includes(p.provider)).map(p=>({provider:p.provider,enabled:p.enabled}));
 summary.finishedAt=new Date().toISOString();summary.readyForClassification=summary.stored>0;summary.complete=summary.stored===summary.expectedGames;
 await fs.writeFile('batch-summary.json',JSON.stringify(summary,null,2)+'\n');
-const text='## Classification batch '+runId+'\n\n| Provider | Stored | Attempted | Errors |\n|---|---:|---:|---:|\n'+summary.providers.map(p=>`| ${p.provider} | ${p.stored} | ${p.attempts} | ${p.errors.length} |`).join('\n')+'\n\nImages are pending visual classification in private Cloudflare storage. No automatic classifications were performed.\n';
+const text='## Classification batch '+runId+'\n\n| Provider | Valid stored | Awaiting GPT | Attempted | Errors |\n|---|---:|---:|---:|---:|\n'+summary.providers.map(p=>`| ${p.provider} | ${p.stored} | ${p.awaitingGpt} | ${p.attempts} | ${p.errors.length} |`).join('\n')+'\n\nPending quality screenshots remain in private Cloudflare storage for later GPT review. Runners did not wait for GPT. Only approved screenshots enter the classification queue. No automatic classifications were performed.\n';
 if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,text);
 console.log(text);
 if(summary.cleanupErrors.length||summary.finalPolicies.some(p=>p.enabled)||summary.reportErrors.length)throw Error('Batch cleanup or report verification incomplete');
