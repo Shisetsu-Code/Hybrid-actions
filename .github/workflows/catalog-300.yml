@@ -46,6 +46,7 @@ jobs:
       PILOT_VERIFIED_ONLY: 'true'
       PILOT_VISUAL_ONLY: 'true'
       PILOT_SHOT_ID: base
+      PILOT_GPT_REVIEW: 'true'
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
       PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
       PILOT_REPORT_FILE: provider-report.json
@@ -65,7 +66,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: sudo apt-get update -qq && sudo apt-get install -y tesseract-ocr tesseract-ocr-spa
       - run: python -m pip install --disable-pip-version-check -r requirements-launchers.txt
       - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
       - run: node engine/node_modules/playwright/cli.js install --with-deps chromium

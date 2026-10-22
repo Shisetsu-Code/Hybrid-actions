@@ -74,7 +74,7 @@ export class CloudClient{
  async uploadCapture(info,jpeg){
   let validation=info.metadata?.captureValidation;
   if(validation?.sourceImageSha256!==createHash('sha256').update(jpeg).digest('hex'))validation=await this.captureValidator(this,info,jpeg);
-  requireReady(validation);info={...info,metadata:{...info.metadata,captureValidation:validation}};
+  if(validation?.reviewId){if(validation.status!=='ready')throw Error('GPT capture not approved');}else requireReady(validation);info={...info,metadata:{...info.metadata,captureValidation:validation}};
   const form=new FormData();
   form.set('metadata',JSON.stringify(info));
   form.set('image',new Blob([jpeg],{type:'image/jpeg'}),info.gameId+'.jpg');
