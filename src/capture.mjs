@@ -91,7 +91,7 @@ export async function capturePublicDemo(browser,engine,job,{
   if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
   if(imported){
    const visibleCanvas=await inspected.frame.locator('canvas:visible').count()>0;
-   if(!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
+   if(captureScreenshots===validatedScreenshot&&!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
     throw Error('Tester Spin runtime has no visible game surface');
   }
   phase='screenshot';
