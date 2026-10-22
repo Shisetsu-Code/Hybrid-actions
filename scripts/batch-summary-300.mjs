@@ -5,13 +5,16 @@ const runId=process.env.PILOT_RUN_ID;
 if(!/^[a-z0-9][a-z0-9_.-]{0,99}$/i.test(runId||''))throw Error('Invalid batch run ID');
 const c=new CloudClient({baseUrl:process.env.HYBRID_FUZZER_URL,reviewToken:process.env.HYBRID_REVIEW_TOKEN,ingestToken:process.env.HYBRID_INGEST_TOKEN});
 const perProvider=Number(process.env.PILOT_LIMIT||25);
-if(![10,25].includes(perProvider))throw Error('Unsupported bounded catalogue size');
-const summary={runId,expectedProviders:12,expectedGames:12*perProvider,providers:[],cleanupErrors:[],reportErrors:[]};
+if(![10,25,100].includes(perProvider))throw Error('Unsupported bounded catalogue size');
+const selected=process.env.BATCH_PROVIDERS?JSON.parse(process.env.BATCH_PROVIDERS):verifiedProviders;
+if(!Array.isArray(selected)||!selected.length||new Set(selected).size!==selected.length||selected.some(p=>!verifiedProviders.includes(p)))throw Error('Invalid batch providers');
+const summary={runId,expectedProviders:selected.length,expectedGames:selected.reduce((n,p)=>n+(perProvider===100&&p==='rubyplay'?66:perProvider),0),providers:[],cleanupErrors:[],reportErrors:[]};
 for(const provider of verifiedProviders){
  try{await c.configurePolicy(provider,{enabled:false,minStartIntervalMs:20000,maxActive:1});}
  catch{summary.cleanupErrors.push(provider);}
  let r;try{r=JSON.parse(await fs.readFile('batch-reports/batch300-'+provider+'/provider-report.json','utf8'));}catch{}
  if(r&&r.runId!==runId){summary.reportErrors.push(provider);r=null;}
+ if(!selected.includes(provider))continue;
  summary.providers.push({provider,attempts:r?.attempts?.length||0,
   awaitingGpt:r?.attempts?.filter(x=>x.result==='awaiting-gpt').length||0,
   stored:r?.attempts?.filter(x=>x.result==='stored'||x.result==='already-stored').length||0,
