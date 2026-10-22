@@ -24,4 +24,14 @@ class CaptureValidationTests(unittest.TestCase):
   ref={'provider':'sample','gameId':'one','image':base64.b64encode(data.getvalue()).decode(),'anchors':first['anchors']}
   self.assertEqual(validator.analyze(image,provider='sample',game_id='one',reference=ref)['status'],'ready')
   ref['gameId']='another';self.assertEqual(validator.analyze(image,provider='sample',game_id='one',reference=ref)['status'],'uncertain')
+ def test_valid_intro_remains_actionable_with_a_base_reference(self):
+  image=shot('BALANCE 1000    BET 0.20    SPIN');data=io.BytesIO();image.save(data,format='JPEG')
+  ref={'provider':'sample','gameId':'one','image':base64.b64encode(data.getvalue()).decode(),'anchors':validator.analyze(image,provider='sample',game_id='one')['anchors']}
+  self.assertEqual(validator.analyze(shot('START'),provider='sample',game_id='one',reference=ref)['status'],'intro')
+ def test_dialog_covering_the_game_does_not_pass_unchanged_instrument_labels(self):
+  image=shot('BALANCE 1000    BET 0.20    SPIN');data=io.BytesIO();image.save(data,format='JPEG')
+  ref={'provider':'sample','gameId':'one','image':base64.b64encode(data.getvalue()).decode(),'anchors':validator.analyze(image,provider='sample',game_id='one')['anchors']}
+  changed=image.copy();ImageDraw.Draw(changed).rectangle((180,120,820,500),fill='white')
+  result=validator.analyze(changed,provider='sample',game_id='one',reference=ref)
+  self.assertNotEqual(result['status'],'ready')
 if __name__=='__main__':unittest.main()
