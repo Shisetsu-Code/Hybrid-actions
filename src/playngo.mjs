@@ -1,3 +1,4 @@
+import {validatedScreenshot} from './capture-validator.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // Official Play'n GO catalogue and read-only mobile practice DEMO adapter.
 // Never infer GID from a title/slug; use the official detail-page mobileUrl.
@@ -70,7 +71,7 @@ export function officialMobileLauncher(html){
  url.searchParams.set('channel','mobile');
  return url;
 }
-export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=25000,runnerId='runner',captureWait=waitForGameCapture}={}){
+export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=25000,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot}={}){
  const game=job.payload?.game;
  if(job.provider!=='playngo'||game?.provider!=='playngo'||game.id!==job.subject)
   throw Error('invalid Playngo ticket');
@@ -106,7 +107,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   if(!(canvases>0&&assets.configMobile>0&&assets.mobileUI>0&&assets.configV2>0))
    throw Error('mobile game not initialized; not uploading a misleading screenshot');
   await captureWait(gameStartedAt,{waitMs});
-  const image=Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false}));
+  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false})),validateScreenshot);
   if(image.length<1200)throw Error('screenshot unexpectedly small');
   const viewport=page.viewportSize();
   return {image,info:{runId,provider:'playngo',gameId:game.id,shotId:'base',
@@ -114,7 +115,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
    candidates:[],width:viewport.width,height:viewport.height,
    metadata:{url:game.url,source:'github-actions-catalogue',runnerId:String(runnerId).slice(0,64),
     mobileChannel:'mobile',launcherHost:launcher.hostname,publicGid:launcher.searchParams.get('gid'),
-    frameAligned:true,opaqueCanvas:true,capturedAt:new Date().toISOString(),
+    ...(validation?{captureValidation:validation}:{}),frameAligned:true,opaqueCanvas:true,capturedAt:new Date().toISOString(),
     networkDiagnostics:{format:'summary-v1',summary:{...assets,canvases}}}}};
  }finally{await ctx.close();}
 }

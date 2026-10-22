@@ -1,11 +1,14 @@
+import {validateCapturedImage,requireReady} from './capture-validator.mjs';
+import {createHash} from 'node:crypto';
 // Small typed client for existing Hybrid Cloud Fuzzer REST contracts.
 // Separate REVIEW and INGEST bearer credentials, never logged or persisted.
 export class CloudClient{
- constructor({baseUrl,reviewToken,ingestToken,fetcher=fetch,timeoutMs=40000}={}){
+ constructor({baseUrl,reviewToken,ingestToken,fetcher=fetch,timeoutMs=40000,captureValidator=validateCapturedImage}={}){
   if(!/^https:\/\//.test(baseUrl||''))throw Error('HYBRID_FUZZER_URL must be HTTPS');
   if(!reviewToken||!ingestToken)throw Error('HYBRID_REVIEW_TOKEN and HYBRID_INGEST_TOKEN required');
   this.baseUrl=baseUrl.replace(/\/$/,'');
   this.reviewToken=reviewToken;this.ingestToken=ingestToken;this.fetcher=fetcher;this.timeoutMs=timeoutMs;
+  this.captureValidator=captureValidator;
  }
  async call(path,{method='GET',body=null,role='review'}={}){
   const headers={Authorization:'Bearer '+(role==='ingest'?this.ingestToken:this.reviewToken)};
@@ -69,6 +72,9 @@ export class CloudClient{
   catch(e){if(e.status===404)return null;throw e;}
  }
  async uploadCapture(info,jpeg){
+  let validation=info.metadata?.captureValidation;
+  if(validation?.sourceImageSha256!==createHash('sha256').update(jpeg).digest('hex'))validation=await this.captureValidator(this,info,jpeg);
+  requireReady(validation);info={...info,metadata:{...info.metadata,captureValidation:validation}};
   const form=new FormData();
   form.set('metadata',JSON.stringify(info));
   form.set('image',new Blob([jpeg],{type:'image/jpeg'}),info.gameId+'.jpg');

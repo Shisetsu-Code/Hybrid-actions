@@ -1,6 +1,7 @@
 import {selectVisibleImportedSurface} from './imported-surface.mjs';
 import {prepareKAPublicTransport} from './tester-spin-http.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
+import {validatedScreenshot} from './capture-validator.mjs';
 // One read-only public DEMO capture using a *shared* Chromium instance.
 // Six slots on a runner = six isolated browser contexts, not six Chromium launches.
 import {providerForUrl} from './config.mjs';
@@ -9,7 +10,7 @@ import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport,validateScreenshot
 }={}){
  let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
@@ -21,8 +22,8 @@ export async function capturePublicDemo(browser,engine,job,{
   if(!known||known.url!==game.url||(known.symbol||'')!==(game.symbol||''))throw Error('imported DEMO ticket does not match configured game');
   game={...known,provider:job.provider};
  }
- if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId,captureWait});
- if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait});
+ if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId,captureWait,validateScreenshot});
+ if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait,validateScreenshot});
 
  const expectedOrigin=new URL(game.url).origin;
  let kaTransport,context,recorder;
@@ -93,8 +94,8 @@ export async function capturePublicDemo(browser,engine,job,{
   }
   phase='screenshot';
   const shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
-  const image=Buffer.from(await page.screenshot({type:'jpeg',quality:67,
-   ...(shot.clip?{clip:shot.clip}:{})}));
+  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await page.screenshot({type:'jpeg',quality:67,
+   ...(shot.clip?{clip:shot.clip}:{})})),validateScreenshot);
   const {har,summary}=await recorder.finish();
   recorded=true;
   const cands=shot.aligned?inspected.data.candidates||[]:[];
@@ -107,7 +108,7 @@ export async function capturePublicDemo(browser,engine,job,{
    candidates:cands,width,height,metadata:{url:game.url,
     source:'github-actions-catalogue',...(imported?{launcher:TESTER_SPIN_LAUNCHER}:{}),runnerId:String(runnerId).slice(0,64),
     frameAligned:shot.aligned,opaqueCanvas:Boolean(inspected.data.metadata?.opaqueCanvas),
-    capturedAt:new Date().toISOString(),networkDiagnostics:{format:'sanitized-har-1.2',
+    ...(validation?{captureValidation:validation}:{}),capturedAt:new Date().toISOString(),networkDiagnostics:{format:'sanitized-har-1.2',
      summary}}};
   // Never forward a raw HAR, cookies, accounts, or browser storage. The
   // diagnostics summary contains only redacted routes and action names.
