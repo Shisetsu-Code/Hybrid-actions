@@ -1,3 +1,4 @@
+import {createHash} from 'node:crypto';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {loadEngine} from '../src/engine.mjs';
@@ -10,17 +11,17 @@ import {reviewedScreenshot} from '../src/capture-review.mjs';
 test('async GPT quality loop visits a mocked game twice with no live response wait',
  {skip:process.env.INTEGRATION_BROWSER!=='1',timeout:90000},async()=>{
  const engine=await loadEngine('engine'),browser=await engine.chromium.launch({headless:true});
- const url='https://www.pragmaticplay.fun/en/slots/fixture/';
+ const url='https://www.pragmaticplay.fun/en/slots/fixture/';let reference;const cloud={baseUrl:'https://worker.test',reviewToken:'fixture',fetcher:async()=>new Response(reference)};
  const transport=await fixtureTransport(browser,new Map([
   [url,{body:'<iframe src="https://demogamesfree.pragmaticplay.net/fixture-game" style="width:900px;height:500px;border:0"></iframe>'}],
   ['https://demogamesfree.pragmaticplay.net/fixture-game',{body:`<html><body style="margin:0;background:#224466"><button onclick="this.remove();document.body.style.background='green'" style="position:fixed;inset:0;width:100%;height:100%">CONTINUE</button></body></html>`}]
  ]));
  const config=validateConfig({runId:'fixture-review',providers:[{id:'pragmatic',enabled:true,approved:true,pacing:{minStartIntervalMs:20000,maxActive:1},allowlist:[{origin:'https://www.pragmaticplay.fun',pathPrefix:'/en/slots/'}],games:[{id:'fixture',url}]}]});
  const job={provider:'pragmatic',subject:'fixture',payload:{game:{provider:'pragmatic',id:'fixture',url}}};
- const visit=plan=>capturePublicDemo(transport.browser,engine,job,{config,runId:config.runId,captureWait:async()=>new Promise(r=>setTimeout(r,600)),captureScreenshots:(snapshot,_validate,options)=>reviewedScreenshot(snapshot,{}, {},{plan,click:options.click,verify:async()=>true})});
+ const visit=plan=>capturePublicDemo(transport.browser,engine,job,{config,runId:config.runId,captureWait:async()=>new Promise(r=>setTimeout(r,600)),captureScreenshots:(snapshot,_validate,options)=>reviewedScreenshot(snapshot,cloud, {},{plan,click:options.click})});
  try{
-  const first=await visit(null);assert.equal(first.reviewOutcome.launchPath.length,0);
-  const second=await visit({id:'same-batch',imageSha256:'fixture',launchPath:[],action:{kind:'click',x:.5,y:.5,waitMs:100}});
+  const first=await visit(null);reference=first.image;assert.equal(first.reviewOutcome.launchPath.length,0);
+  const second=await visit({id:'same-batch',imageSha256:createHash('sha256').update(reference).digest('hex'),launchPath:[],action:{kind:'click',x:.5,y:.5,waitMs:100}});
   assert.notDeepEqual(first.image,second.image);assert.equal(second.reviewOutcome.launchPath.length,1);
  }finally{await transport.close();await browser.close();}
 });
