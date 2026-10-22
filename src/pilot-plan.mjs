@@ -3,7 +3,7 @@ export const verifiedProviders=['pragmatic','1spin4win','ka_gaming','bgaming','r
 const supported=new Set([...testerSpinProviders,'amusnet','playngo']);
 export function buildPilotPlan(raw,{providers,limit=2,runId=raw.runId,verifiedOnly=false}={}){
  if(!Array.isArray(providers)||!providers.length||providers.length>13||new Set(providers).size!==providers.length||providers.some(id=>!supported.has(id)))throw Error('Explicit supported pilot providers required');
- if(!Number.isSafeInteger(limit)||limit<1||limit>50)throw Error('Pilot limit must be 1..50');
+ if(!Number.isSafeInteger(limit)||limit<1||limit>100)throw Error('Pilot limit must be 1..100');
  if(!/^[a-z0-9][a-z0-9_.-]{0,99}$/i.test(runId||''))throw Error('Invalid pilot run ID');
  const selected=providers.map(id=>{
   if(verifiedOnly&&!verifiedProviders.includes(id))throw Error('Provider has no verified opening: '+id);

@@ -1,0 +1,4958 @@
+{
+  "runId": "catalog-300-20261021",
+  "providers": [
+    {
+      "id": "pragmatic",
+      "name": "Pragmatic Play",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/pragmatic.json",
+      "games": [
+        {
+          "id": "3-buzzing-wilds",
+          "url": "https://www.pragmaticplay.com/en/games/3-buzzing-wilds/",
+          "symbol": "vs20wildparty"
+        },
+        {
+          "id": "3-dancing-monkeys",
+          "url": "https://www.pragmaticplay.com/en/games/3-dancing-monkeys/",
+          "symbol": "vswaysmonkey"
+        },
+        {
+          "id": "3-genie-wishes-slot",
+          "url": "https://www.pragmaticplay.com/en/games/3-genie-wishes-slot/",
+          "symbol": "vs50aladdin"
+        },
+        {
+          "id": "3-kingdoms-battle-of-red-cliffs-slot",
+          "url": "https://www.pragmaticplay.com/en/games/3-kingdoms-battle-of-red-cliffs-slot/",
+          "symbol": "vs25kingdoms"
+        },
+        {
+          "id": "3-magic-eggs",
+          "url": "https://www.pragmaticplay.com/en/games/3-magic-eggs/",
+          "symbol": "vs25wolfgmm"
+        },
+        {
+          "id": "5-frozen-charms-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/5-frozen-charms-megaways/",
+          "symbol": "vswayscharms"
+        },
+        {
+          "id": "5-lions-dance",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-dance/",
+          "symbol": "vs1024lionsd"
+        },
+        {
+          "id": "5-lions-gold-slot",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-gold-slot/",
+          "symbol": "vs243lionsgold"
+        },
+        {
+          "id": "5-lions-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-megaways/",
+          "symbol": "vswayslions"
+        },
+        {
+          "id": "5-lions-megaways-2",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-megaways-2/",
+          "symbol": "vsways5lions2"
+        },
+        {
+          "id": "5-lions-reborn",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-reborn/",
+          "symbol": "vsways5lionsr"
+        },
+        {
+          "id": "5-lions-slot",
+          "url": "https://www.pragmaticplay.com/en/games/5-lions-slot/",
+          "symbol": "vs243lions"
+        },
+        {
+          "id": "6-jokers",
+          "url": "https://www.pragmaticplay.com/en/games/6-jokers/",
+          "symbol": "vs5magicdoor"
+        },
+        {
+          "id": "7-clovers-of-fortune",
+          "url": "https://www.pragmaticplay.com/en/games/7-clovers-of-fortune/",
+          "symbol": "vswayssevenc"
+        },
+        {
+          "id": "7-monkeys-slot",
+          "url": "https://www.pragmaticplay.com/en/games/7-monkeys-slot/",
+          "symbol": "vs7monkeys"
+        },
+        {
+          "id": "7-piggies-slot",
+          "url": "https://www.pragmaticplay.com/en/games/7-piggies-slot/",
+          "symbol": "vs7pigs"
+        },
+        {
+          "id": "777-rush",
+          "url": "https://www.pragmaticplay.com/en/games/777-rush/",
+          "symbol": "vs5t8goldfp"
+        },
+        {
+          "id": "777-wheel-blitz",
+          "url": "https://www.pragmaticplay.com/en/games/777-wheel-blitz/",
+          "symbol": "vs5wheel7s"
+        },
+        {
+          "id": "8-dragons-slot",
+          "url": "https://www.pragmaticplay.com/en/games/8-dragons-slot/",
+          "symbol": "vs20eightdragons"
+        },
+        {
+          "id": "8-golden-dragon-challenge",
+          "url": "https://www.pragmaticplay.com/en/games/8-golden-dragon-challenge/",
+          "symbol": "vs10gdchalleng"
+        },
+        {
+          "id": "888-dragons-slot",
+          "url": "https://www.pragmaticplay.com/en/games/888-dragons-slot/",
+          "symbol": "vs1dragon8"
+        },
+        {
+          "id": "888-gold-slot",
+          "url": "https://www.pragmaticplay.com/en/games/888-gold-slot/",
+          "symbol": "cs5triple8gold"
+        },
+        {
+          "id": "african-elephant",
+          "url": "https://www.pragmaticplay.com/en/games/african-elephant/",
+          "symbol": "vs20hotzone"
+        },
+        {
+          "id": "aladdin-and-the-sorcerer-slot",
+          "url": "https://www.pragmaticplay.com/en/games/aladdin-and-the-sorcerer-slot/",
+          "symbol": "vs20aladdinsorc"
+        },
+        {
+          "id": "aladdins-treasure-slot",
+          "url": "https://www.pragmaticplay.com/en/games/aladdins-treasure-slot/",
+          "symbol": "vs50amt"
+        },
+        {
+          "id": "alien-invaders",
+          "url": "https://www.pragmaticplay.com/en/games/alien-invaders/",
+          "symbol": "vs20alieninv"
+        },
+        {
+          "id": "anaconda-gold",
+          "url": "https://www.pragmaticplay.com/en/games/anaconda-gold/",
+          "symbol": "vswaysacnd"
+        },
+        {
+          "id": "ancient-egypt-classic-slot",
+          "url": "https://www.pragmaticplay.com/en/games/ancient-egypt-classic-slot/",
+          "symbol": "vs10egyptcls"
+        },
+        {
+          "id": "ancient-egypt-slot",
+          "url": "https://www.pragmaticplay.com/en/games/ancient-egypt-slot/",
+          "symbol": "vs10egypt"
+        },
+        {
+          "id": "ancient-island-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/ancient-island-megaways/",
+          "symbol": "vswaysmodfr"
+        },
+        {
+          "id": "angel-vs-sinner",
+          "url": "https://www.pragmaticplay.com/en/games/angel-vs-sinner/",
+          "symbol": "vs15fghtmultlv"
+        },
+        {
+          "id": "argonauts",
+          "url": "https://www.pragmaticplay.com/en/games/argonauts/",
+          "symbol": "vswaysargonts"
+        },
+        {
+          "id": "asgard-slot",
+          "url": "https://www.pragmaticplay.com/en/games/asgard-slot/",
+          "symbol": "vs25asgard"
+        },
+        {
+          "id": "aztec-blaze",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-blaze/",
+          "symbol": "vs25kfruit"
+        },
+        {
+          "id": "aztec-bonanza-slot",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/",
+          "symbol": "vs7776aztec"
+        },
+        {
+          "id": "aztec-gems-deluxe-slot",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-gems-deluxe-slot/",
+          "symbol": "vs9aztecgemsdx"
+        },
+        {
+          "id": "aztec-gems-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-gems-megaways/",
+          "symbol": "vswaysaztec"
+        },
+        {
+          "id": "aztec-gems-slot",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-gems-slot/",
+          "symbol": "vs5aztecgems"
+        },
+        {
+          "id": "aztec-powernudge",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-powernudge/",
+          "symbol": "vs20sbpnudge"
+        },
+        {
+          "id": "aztec-smash",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-smash/",
+          "symbol": "vs20plsmcannon"
+        },
+        {
+          "id": "aztec-treasure-hunt",
+          "url": "https://www.pragmaticplay.com/en/games/aztec-treasure-hunt/",
+          "symbol": "vs20trswild3"
+        },
+        {
+          "id": "badge-blitz",
+          "url": "https://www.pragmaticplay.com/en/games/badge-blitz/",
+          "symbol": "vs25badge"
+        },
+        {
+          "id": "bandit-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/bandit-megaways/",
+          "symbol": "vswaysbandit"
+        },
+        {
+          "id": "barn-festival",
+          "url": "https://www.pragmaticplay.com/en/games/barn-festival/",
+          "symbol": "vs20farmfest"
+        },
+        {
+          "id": "barnyard-megahays-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/barnyard-megahays-megaways/",
+          "symbol": "vswaysmegahays"
+        },
+        {
+          "id": "bear-crazy",
+          "url": "https://www.pragmaticplay.com/en/games/bear-crazy/",
+          "symbol": "vs20bigbbear"
+        },
+        {
+          "id": "bee-keeper",
+          "url": "https://www.pragmaticplay.com/en/games/bee-keeper/",
+          "symbol": "vs10beekeep"
+        },
+        {
+          "id": "better-barn-house-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/better-barn-house-bonanza/",
+          "symbol": "vswaysbibebarn"
+        },
+        {
+          "id": "beware-the-deep-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/beware-the-deep-megaways/",
+          "symbol": "vswaysbewaretd"
+        },
+        {
+          "id": "big-bass-amazon-xtreme",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-amazon-xtreme/",
+          "symbol": "vs10bbextreme"
+        },
+        {
+          "id": "big-bass-blast",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-blast/",
+          "symbol": "vs10bbasblitz"
+        },
+        {
+          "id": "big-bass-bonanza-1000",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-1000/",
+          "symbol": "vs10bbbnz1000"
+        },
+        {
+          "id": "big-bass-bonanza-3-reeler",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-3-reeler/",
+          "symbol": "vs5bb3reeler"
+        },
+        {
+          "id": "big-bass-bonanza-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-megaways/",
+          "symbol": "vswaysbbb"
+        },
+        {
+          "id": "big-bass-bonanza-reel-action",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-bonanza-reel-action/",
+          "symbol": "vs10bbbrlact"
+        },
+        {
+          "id": "big-bass-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-bonanza/",
+          "symbol": "vs10bbbonanza"
+        },
+        {
+          "id": "big-bass-boxing-bonus-round",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-boxing-bonus-round/",
+          "symbol": "vs10bbbbrnd"
+        },
+        {
+          "id": "big-bass-christmas-bash",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-christmas-bash/",
+          "symbol": "vs10bbsplxmas"
+        },
+        {
+          "id": "big-bass-christmas-frozen-lake",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-christmas-frozen-lake/",
+          "symbol": "vs10bbglxmas"
+        },
+        {
+          "id": "big-bass-day-at-the-races",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-day-at-the-races/",
+          "symbol": "vs10bbbnz"
+        },
+        {
+          "id": "big-bass-floats-my-boat",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-floats-my-boat/",
+          "symbol": "vs10bbfloats"
+        },
+        {
+          "id": "big-bass-football-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-football-bonanza/",
+          "symbol": "vs10bbwcup"
+        },
+        {
+          "id": "big-bass-halloween-2",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-halloween-2/",
+          "symbol": "vs10bhallbnza2"
+        },
+        {
+          "id": "big-bass-halloween-3",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-halloween-3/",
+          "symbol": "vs10bhallbnza3"
+        },
+        {
+          "id": "big-bass-halloween-splash-1000",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-halloween-splash-1000/",
+          "symbol": "vs10bbsplxh"
+        },
+        {
+          "id": "big-bass-halloween",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-halloween/",
+          "symbol": "vs10bhallbnza"
+        },
+        {
+          "id": "big-bass-hold-spinner-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner-megaways/",
+          "symbol": "vswaysbbhas"
+        },
+        {
+          "id": "big-bass-mission-fishin",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-mission-fishin/",
+          "symbol": "vs10bbfmission"
+        },
+        {
+          "id": "big-bass-raceday-repeat",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-raceday-repeat/",
+          "symbol": "vs10bbrcdr"
+        },
+        {
+          "id": "big-bass-reel-repeat",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-reel-repeat/",
+          "symbol": "vs10bbrrp"
+        },
+        {
+          "id": "big-bass-return-to-the-races",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-return-to-the-races/",
+          "symbol": "vs10bbrttr"
+        },
+        {
+          "id": "big-bass-secrets-of-the-golden-lake",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-secrets-of-the-golden-lake/",
+          "symbol": "vs10bblotgl"
+        },
+        {
+          "id": "big-bass-splash",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-splash/",
+          "symbol": "vs10txbigbass"
+        },
+        {
+          "id": "big-bass-splash-1000",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-splash-1000/",
+          "symbol": "vs10bbsplashx"
+        },
+        {
+          "id": "big-bass-trophy-catch",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-trophy-catch/",
+          "symbol": "vs10bbtrphfshn"
+        },
+        {
+          "id": "big-bass-vegas-1000",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-vegas-1000/",
+          "symbol": "vs10bbveg1000"
+        },
+        {
+          "id": "big-bass-double-down-deluxe",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-double-down-deluxe/",
+          "symbol": "vs10bbdoubled"
+        },
+        {
+          "id": "big-bass-xmas-extreme",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-xmas-extreme/",
+          "symbol": "vs10bbxext"
+        },
+        {
+          "id": "big-bass-hold-spinner",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner/",
+          "symbol": "vs10bbhas"
+        },
+        {
+          "id": "big-bass-keeping-it-reel",
+          "url": "https://www.pragmaticplay.com/en/games/big-bass-keeping-it-reel/",
+          "symbol": "vs10bbkir"
+        },
+        {
+          "id": "big-burger-load-it-up-with-xtra-cheese",
+          "url": "https://www.pragmaticplay.com/en/games/big-burger-load-it-up-with-xtra-cheese/",
+          "symbol": "vs10bburger"
+        },
+        {
+          "id": "big-juan",
+          "url": "https://www.pragmaticplay.com/en/games/big-juan/",
+          "symbol": "vs40bigjuan"
+        },
+        {
+          "id": "bigger-barn-house-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/bigger-barn-house-bonanza/",
+          "symbol": "vswaysbbarnh"
+        },
+        {
+          "id": "bigger-bass-blizzard-christmas-catch",
+          "url": "https://www.pragmaticplay.com/en/games/bigger-bass-blizzard-christmas-catch/",
+          "symbol": "vs12bbbxmas"
+        },
+        {
+          "id": "bigger-bass-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/bigger-bass-bonanza/",
+          "symbol": "vs12bbb"
+        },
+        {
+          "id": "bigger-bass-splash",
+          "url": "https://www.pragmaticplay.com/en/games/bigger-bass-splash/",
+          "symbol": "vs12bgrbspl"
+        },
+        {
+          "id": "bingo-mania",
+          "url": "https://www.pragmaticplay.com/en/games/bingo-mania/",
+          "symbol": "vs30bingomania"
+        },
+        {
+          "id": "black-bull",
+          "url": "https://www.pragmaticplay.com/en/games/black-bull/",
+          "symbol": "vs20trswild2"
+        },
+        {
+          "id": "blade-fangs",
+          "url": "https://www.pragmaticplay.com/en/games/blade-fangs/",
+          "symbol": "vs20mergedwndw"
+        },
+        {
+          "id": "blazing-wilds-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/blazing-wilds-megaways/",
+          "symbol": "vswaysfirewmw"
+        },
+        {
+          "id": "blitz-super-wheel",
+          "url": "https://www.pragmaticplay.com/en/games/blitz-super-wheel/",
+          "symbol": "vs20lightblitz"
+        },
+        {
+          "id": "bloody-dawn",
+          "url": "https://www.pragmaticplay.com/en/games/bloody-dawn/",
+          "symbol": "vswayswildb"
+        },
+        {
+          "id": "bomb-bonanza",
+          "url": "https://www.pragmaticplay.com/en/games/bomb-bonanza/",
+          "symbol": "vs25bomb"
+        },
+        {
+          "id": "book-of-golden-sands",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-golden-sands/",
+          "symbol": "vswaysbook"
+        },
+        {
+          "id": "book-of-kingdoms",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-kingdoms/",
+          "symbol": "vs25bkofkngdm"
+        },
+        {
+          "id": "book-of-monsters",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-monsters/",
+          "symbol": "vs20fatbook"
+        },
+        {
+          "id": "book-of-the-fallen",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-the-fallen/",
+          "symbol": "vs10bookfallen"
+        },
+        {
+          "id": "book-of-tut-megaways",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-tut-megaways/",
+          "symbol": "vswaystut"
+        },
+        {
+          "id": "book-of-vikings",
+          "url": "https://www.pragmaticplay.com/en/games/book-of-vikings/",
+          "symbol": "vs10bookviking"
+        },
+        {
+          "id": "bounty-gold",
+          "url": "https://www.pragmaticplay.com/en/games/bounty-gold/",
+          "symbol": "vs25btygold"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://www.pragmaticplay.com",
+          "pathPrefix": "/en/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "1spin4win",
+      "name": "1Spin4Win",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/1spin4win.json",
+      "games": [
+        {
+          "id": "10-lucky-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=TenLuckySpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "TenLuckySpins"
+        },
+        {
+          "id": "all-ways-egypt",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=AllwaysEgypt&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "AllwaysEgypt"
+        },
+        {
+          "id": "allways-lucky-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=AllwaysLuckySpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "AllwaysLuckySpins"
+        },
+        {
+          "id": "allways-egypt-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=AllwaysEgyptFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "AllwaysEgyptFortune"
+        },
+        {
+          "id": "allways-lucky-pot",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=AllwaysLuckyPot&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "AllwaysLuckyPot"
+        },
+        {
+          "id": "beersburg-fest-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BeersburgFestHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BeersburgFestHoldAndWin"
+        },
+        {
+          "id": "book-of-all-ways",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookOfAllWays&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookOfAllWays"
+        },
+        {
+          "id": "book-of-armour",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookofKnights&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookofKnights"
+        },
+        {
+          "id": "book-of-corsairs",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookOfCorsairs&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookOfCorsairs"
+        },
+        {
+          "id": "book-of-money",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookOfMoney&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookOfMoney"
+        },
+        {
+          "id": "book-of-nibiru",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookOfNibiru&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookOfNibiru"
+        },
+        {
+          "id": "book-of-wild",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BookOfWild&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BookOfWild"
+        },
+        {
+          "id": "booming-fruits-10",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BoomingFruits10&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BoomingFruits10"
+        },
+        {
+          "id": "booming-fruits-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BoomingFruits100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BoomingFruits100"
+        },
+        {
+          "id": "booming-fruits-20",
+          "url": "https://gs.1spin4win.com:10443/gmh5/boomingfruits20.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "boomingfruits20"
+        },
+        {
+          "id": "booming-fruits-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/boomingfruits243.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "boomingfruits243"
+        },
+        {
+          "id": "booming-fruits-256",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BoomingFruits256&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BoomingFruits256"
+        },
+        {
+          "id": "booming-fruits-27",
+          "url": "https://gs.1spin4win.com:10443/gmh5/boomingfruits27.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "boomingfruits27"
+        },
+        {
+          "id": "booming-fruits-40",
+          "url": "https://gs.1spin4win.com:10443/gmh5/boomingfruits40.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "boomingfruits40"
+        },
+        {
+          "id": "booming-fruits-81x",
+          "url": "https://gs.1spin4win.com:10443/gmh5/boomingfruits81x.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "boomingfruits81x"
+        },
+        {
+          "id": "booming-fruits-x",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BoomingFruitsX&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BoomingFruitsX"
+        },
+        {
+          "id": "booming-spins-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BoomingSpins243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BoomingSpins243"
+        },
+        {
+          "id": "brumbys-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=Brumbys243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "Brumbys243"
+        },
+        {
+          "id": "buffalos-wealth-win-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BuffalosWealthWinSpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BuffalosWealthWinSpins"
+        },
+        {
+          "id": "buffalos-wealth",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BuffalosWealth&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BuffalosWealth"
+        },
+        {
+          "id": "buffalos-wealth-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BuffalosWealthFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BuffalosWealthFortune"
+        },
+        {
+          "id": "buffalos-wealth-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=BuffalosWealthHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "BuffalosWealthHoldAndWin"
+        },
+        {
+          "id": "burning-spins-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/burningspins243.html?currency=EUR&config=1&freeplay=true&language=en&lnglst=en",
+          "symbol": "burningspins243"
+        },
+        {
+          "id": "cash-amplifier-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashAmplifier243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashAmplifier243"
+        },
+        {
+          "id": "cash-the-gold",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashTheGold&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashTheGold"
+        },
+        {
+          "id": "cash-the-gold-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/cashthegoldholdandwin.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "cashthegoldholdandwin"
+        },
+        {
+          "id": "cash-spins-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashAndSpins243&currency=EUR&config=1&freeplay=true&language=e",
+          "symbol": "CashAndSpins243"
+        },
+        {
+          "id": "cashnfruits-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits100&currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "CashnFruits100"
+        },
+        {
+          "id": "cashn-fruits-100-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits100HoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits100HoldAndWin"
+        },
+        {
+          "id": "cashnfruits-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/cashnfruits243.html?currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "cashnfruits243"
+        },
+        {
+          "id": "cashn-fruits-243-x",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits243x&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits243x"
+        },
+        {
+          "id": "cashn-fruits-256",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits256&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits256"
+        },
+        {
+          "id": "cashn-fruits-256-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits256HoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits256HoldAndWin"
+        },
+        {
+          "id": "cashn-fruits-27",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits27&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits27"
+        },
+        {
+          "id": "cashn-fruits-27-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruits27HoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruits27HoldAndWin"
+        },
+        {
+          "id": "cashnfruits-40",
+          "url": "https://gs.1spin4win.com:10443/gmh5/cashnfruits40.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "cashnfruits40"
+        },
+        {
+          "id": "cashn-fruits-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruitsFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruitsFortune"
+        },
+        {
+          "id": "cashn-fruits-fortune-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruitsFortune100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruitsFortune100"
+        },
+        {
+          "id": "cashn-fruits-fortune-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/cashnfruitsfortune243.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "cashnfruitsfortune243"
+        },
+        {
+          "id": "cashn-fruits-fortune-27",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruitsFortune27&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruitsFortune27"
+        },
+        {
+          "id": "cashn-fruits-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashAndFruitsHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashAndFruitsHoldAndWin"
+        },
+        {
+          "id": "cashn-fruits-x",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnFruitsX&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnFruitsX"
+        },
+        {
+          "id": "cashn-spins-243-plus",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnSpins243Plus&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnSpins243Plus"
+        },
+        {
+          "id": "cashn-spins-27-plus",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CashnSpins27Plus&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CashnSpins27Plus"
+        },
+        {
+          "id": "chinese-luck",
+          "url": "https://gs.1spin4win.com:10443/gmh5/chineseluck.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "chineseluck"
+        },
+        {
+          "id": "christmas-gems-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ChristmasGemsHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ChristmasGemsHoldAndWin"
+        },
+        {
+          "id": "classic-chili-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ClassicChili243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ClassicChili243"
+        },
+        {
+          "id": "classic-chilli-101",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ClassicChilli&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ClassicChilli"
+        },
+        {
+          "id": "classic-chilli-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ClassicChilli100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ClassicChilli100"
+        },
+        {
+          "id": "classic-chilli-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ClassicChilliHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ClassicChilliHoldAndWin"
+        },
+        {
+          "id": "classic-chilli-plus",
+          "url": "https://gs.1spin4win.com:10443/gmh5/classicchilliplus.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "classicchilliplus"
+        },
+        {
+          "id": "classic-christmas-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=ClassicChristmasHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "ClassicChristmasHoldAndWin"
+        },
+        {
+          "id": "clover-fest-256",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CloverFest256&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CloverFest256"
+        },
+        {
+          "id": "clover-fest-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CloverFestHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CloverFestHoldAndWin"
+        },
+        {
+          "id": "coins-sniffer-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CoinsSnifferHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CoinsSnifferHoldAndWin"
+        },
+        {
+          "id": "coinsn-diamonds-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/coinsndiamondsfortune.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "coinsndiamondsfortune"
+        },
+        {
+          "id": "coinsn-diamonds-x",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CoinsnDiamondsX&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CoinsnDiamondsX"
+        },
+        {
+          "id": "coinsn-fruits-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CoinsnFruits100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CoinsnFruits100"
+        },
+        {
+          "id": "coins-and-fruits-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CoinsnFruits243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CoinsnFruits243"
+        },
+        {
+          "id": "coinsn-fruits-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=CoinsnFruitsSpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "CoinsnFruitsSpins"
+        },
+        {
+          "id": "diamond-easter",
+          "url": "https://gs.1spin4win.com:10443/gmh5/diamondeaster.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "diamondeaster"
+        },
+        {
+          "id": "diamond-luck-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DiamondLuck243&currency=EUR&config=1&freeplay=true&language=en",
+          "symbol": "DiamondLuck243"
+        },
+        {
+          "id": "dolphins-wealth",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DolphinsWealth&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "DolphinsWealth"
+        },
+        {
+          "id": "dolphins-wealth-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DolphinsWealthFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "DolphinsWealthFortune"
+        },
+        {
+          "id": "dolphins-wealh-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DolphinsWealthHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "DolphinsWealthHoldAndWin"
+        },
+        {
+          "id": "dolphins-wealth-win-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DolphinsWealthWinSpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "DolphinsWealthWinSpins"
+        },
+        {
+          "id": "don-cat-leone-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=DonCatLeoneHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "DonCatLeoneHoldAndWin"
+        },
+        {
+          "id": "don-cat-leone-win-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/doncatleonewinspins.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "doncatleonewinspins"
+        },
+        {
+          "id": "easter-prize-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=EasterPrizeHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "EasterPrizeHoldAndWin"
+        },
+        {
+          "id": "flat-hot-fruits-20",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=FlatAndHotFruits20&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "FlatAndHotFruits20"
+        },
+        {
+          "id": "frozen-coins-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/frozencoins243.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "frozencoins243"
+        },
+        {
+          "id": "fruit-cafe-20",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=FruitCafe20&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "FruitCafe20"
+        },
+        {
+          "id": "fruit-dealers",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=FruitDealers&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "FruitDealers"
+        },
+        {
+          "id": "fruity-christmas",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=FruityChristmas&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "FruityChristmas"
+        },
+        {
+          "id": "gems-and-cash-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GemsAndCashHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GemsAndCashHoldAndWin"
+        },
+        {
+          "id": "gems-and-cash-win-spins",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GemsAndCashWinSpins&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GemsAndCashWinSpins"
+        },
+        {
+          "id": "gems-of-love-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/gemsofloveholdandwin.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "gemsofloveholdandwin"
+        },
+        {
+          "id": "gentle-fox-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GentleFoxHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GentleFoxHoldAndWin"
+        },
+        {
+          "id": "gold-oceanica-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldOceanicaHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldOceanicaHoldAndWin"
+        },
+        {
+          "id": "golden-joker-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker100"
+        },
+        {
+          "id": "golden-joker-100-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker100HoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker100HoldAndWin"
+        },
+        {
+          "id": "golden-joker-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker243"
+        },
+        {
+          "id": "golden-joker-243-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker243Fortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker243Fortune"
+        },
+        {
+          "id": "golden-joker-243-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker243HoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker243HoldAndWin"
+        },
+        {
+          "id": "golden-joker-27",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GoldenJoker27&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GoldenJoker27"
+        },
+        {
+          "id": "golden-joker-27-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/goldenjoker27holdandwin.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "goldenjoker27holdandwin"
+        },
+        {
+          "id": "golden-joker-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/goldenjokerfortune.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "goldenjokerfortune"
+        },
+        {
+          "id": "golden-joker-halloween",
+          "url": "https://gs.1spin4win.com:10443/gmh5/goldenjokerhalloween.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "goldenjokerhalloween"
+        },
+        {
+          "id": "golden-joker-plus",
+          "url": "https://gs.1spin4win.com:10443/gmh5/goldenjokerplus.html?currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "goldenjokerplus"
+        },
+        {
+          "id": "great-hook-hold-and-win",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=GreatHookHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "GreatHookHoldAndWin"
+        },
+        {
+          "id": "hold-the-gold",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=HoldTheGoldHoldAndWin&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "HoldTheGoldHoldAndWin"
+        },
+        {
+          "id": "hold-the-gold-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=HoldTheGoldFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "HoldTheGoldFortune"
+        },
+        {
+          "id": "hot-coins-fruits-100",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=HotCoinsAndFruits100&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "HotCoinsAndFruits100"
+        },
+        {
+          "id": "hot-coins-fruits-243",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=HotCoinsAndFruits243&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "HotCoinsAndFruits243"
+        },
+        {
+          "id": "hot-coins-fortune",
+          "url": "https://gs.1spin4win.com:10443/gmh5/games.html?game=HotCoinsFortune&currency=EUR&config=1&freeplay=true&language=en&exit=none",
+          "symbol": "HotCoinsFortune"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://gs.1spin4win.com:10443",
+          "pathPrefix": "/gmh5/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "ka_gaming",
+      "name": "KA Gaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/ka_gaming.json",
+      "games": [
+        {
+          "id": "capygo123",
+          "url": "https://gamesdemo.kaga88.com/?g=CapyGo123&p=demo&u=596500136&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CapyGo123"
+        },
+        {
+          "id": "elvisguava1960",
+          "url": "https://gamesdemo.kaga88.com/?g=ElvisGuava1960&p=demo&u=141261189&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ElvisGuava1960"
+        },
+        {
+          "id": "frogsball1xbet",
+          "url": "https://gamesdemo.kaga88.com/?g=FrogsBall1XBET&p=demo&u=406460283&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FrogsBall1XBET"
+        },
+        {
+          "id": "threemonkeys",
+          "url": "https://gamesdemo.kaga88.com/?g=ThreeMonkeys&p=demo&u=175748635&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ThreeMonkeys"
+        },
+        {
+          "id": "fivegodsofwar",
+          "url": "https://gamesdemo.kaga88.com/?g=FiveGodsOfWar&p=demo&u=822362926&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FiveGodsOfWar"
+        },
+        {
+          "id": "fiveheroes",
+          "url": "https://gamesdemo.kaga88.com/?g=FiveHeroes&p=demo&u=535665258&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FiveHeroes"
+        },
+        {
+          "id": "fivebloodlusts",
+          "url": "https://gamesdemo.kaga88.com/?g=FiveBloodlusts&p=demo&u=416411070&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FiveBloodlusts"
+        },
+        {
+          "id": "sevenheroines",
+          "url": "https://gamesdemo.kaga88.com/?g=SevenHeroines&p=demo&u=362945565&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "SevenHeroines"
+        },
+        {
+          "id": "flaming7",
+          "url": "https://gamesdemo.kaga88.com/?g=Flaming7&p=demo&u=71250782&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Flaming7"
+        },
+        {
+          "id": "777vegas",
+          "url": "https://gamesdemo.kaga88.com/?g=777Vegas&p=demo&u=712529244&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "777Vegas"
+        },
+        {
+          "id": "ninemonkey",
+          "url": "https://gamesdemo.kaga88.com/?g=NineMonkey&p=demo&u=304422645&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "NineMonkey"
+        },
+        {
+          "id": "bumblebee",
+          "url": "https://gamesdemo.kaga88.com/?g=BumbleBee&p=demo&u=542909258&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BumbleBee"
+        },
+        {
+          "id": "witchacademy",
+          "url": "https://gamesdemo.kaga88.com/?g=WitchAcademy&p=demo&u=248925430&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "WitchAcademy"
+        },
+        {
+          "id": "redcliff",
+          "url": "https://gamesdemo.kaga88.com/?g=RedCliff&p=demo&u=249824030&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "RedCliff"
+        },
+        {
+          "id": "yummythanksgiving",
+          "url": "https://gamesdemo.kaga88.com/?g=YummyThanksgiving&p=demo&u=891736538&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "YummyThanksgiving"
+        },
+        {
+          "id": "acrobats",
+          "url": "https://gamesdemo.kaga88.com/?g=Acrobats&p=demo&u=34290656&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Acrobats"
+        },
+        {
+          "id": "shoppingfiend",
+          "url": "https://gamesdemo.kaga88.com/?g=ShoppingFiend&p=demo&u=62236018&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ShoppingFiend"
+        },
+        {
+          "id": "bawangbieji",
+          "url": "https://gamesdemo.kaga88.com/?g=BaWangBieJi&p=demo&u=192233045&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BaWangBieJi"
+        },
+        {
+          "id": "secretagent",
+          "url": "https://gamesdemo.kaga88.com/?g=SecretAgent&p=demo&u=591445089&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "SecretAgent"
+        },
+        {
+          "id": "agentangels",
+          "url": "https://gamesdemo.kaga88.com/?g=AgentAngels&p=demo&u=389129258&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AgentAngels"
+        },
+        {
+          "id": "luckyailurus",
+          "url": "https://gamesdemo.kaga88.com/?g=LuckyAilurus&p=demo&u=544178089&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LuckyAilurus"
+        },
+        {
+          "id": "edgeofthestars",
+          "url": "https://gamesdemo.kaga88.com/?g=EdgeOfTheStars&p=demo&u=499635216&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "EdgeOfTheStars"
+        },
+        {
+          "id": "aladdin",
+          "url": "https://gamesdemo.kaga88.com/?g=Aladdin&p=demo&u=104916343&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Aladdin"
+        },
+        {
+          "id": "wildalaska",
+          "url": "https://gamesdemo.kaga88.com/?g=WildAlaska&p=demo&u=97398771&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "WildAlaska"
+        },
+        {
+          "id": "alexanderthegreat",
+          "url": "https://gamesdemo.kaga88.com/?g=AlexanderTheGreat&p=demo&u=91060064&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AlexanderTheGreat"
+        },
+        {
+          "id": "magiccarpet",
+          "url": "https://gamesdemo.kaga88.com/?g=MagicCarpet&p=demo&u=64118641&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MagicCarpet"
+        },
+        {
+          "id": "aliceinwonderland",
+          "url": "https://gamesdemo.kaga88.com/?g=AliceInWonderland&p=demo&u=318582929&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AliceInWonderland"
+        },
+        {
+          "id": "aliceinmegaland",
+          "url": "https://gamesdemo.kaga88.com/?g=AliceInMegaLand&p=demo&u=28624774&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AliceInMegaLand"
+        },
+        {
+          "id": "mysteryalchemy",
+          "url": "https://gamesdemo.kaga88.com/?g=MysteryAlchemy&p=demo&u=475273357&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MysteryAlchemy"
+        },
+        {
+          "id": "butterflylovers",
+          "url": "https://gamesdemo.kaga88.com/?g=ButterflyLovers&p=demo&u=858056886&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ButterflyLovers"
+        },
+        {
+          "id": "sns",
+          "url": "https://gamesdemo.kaga88.com/?g=SNS&p=demo&u=220408639&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "SNS"
+        },
+        {
+          "id": "fluffybuddy",
+          "url": "https://gamesdemo.kaga88.com/?g=FluffyBuddy&p=demo&u=11774863&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FluffyBuddy"
+        },
+        {
+          "id": "millenniumlove",
+          "url": "https://gamesdemo.kaga88.com/?g=MillenniumLove&p=demo&u=301359266&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MillenniumLove"
+        },
+        {
+          "id": "loveinmemory",
+          "url": "https://gamesdemo.kaga88.com/?g=LoveInMemory&p=demo&u=513454859&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LoveInMemory"
+        },
+        {
+          "id": "loveamongstwar",
+          "url": "https://gamesdemo.kaga88.com/?g=LoveAmongstWar&p=demo&u=471911722&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LoveAmongstWar"
+        },
+        {
+          "id": "luckyanimals",
+          "url": "https://gamesdemo.kaga88.com/?g=LuckyAnimals&p=demo&u=384998690&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LuckyAnimals"
+        },
+        {
+          "id": "apolloandartemis",
+          "url": "https://gamesdemo.kaga88.com/?g=ApolloAndArtemis&p=demo&u=808251477&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ApolloAndArtemis"
+        },
+        {
+          "id": "monsterfile",
+          "url": "https://gamesdemo.kaga88.com/?g=MonsterFile&p=demo&u=774695409&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MonsterFile"
+        },
+        {
+          "id": "gladiatorsarena",
+          "url": "https://gamesdemo.kaga88.com/?g=GladiatorsArena&p=demo&u=23791035&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "GladiatorsArena"
+        },
+        {
+          "id": "ares",
+          "url": "https://gamesdemo.kaga88.com/?g=Ares&p=demo&u=216682271&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Ares"
+        },
+        {
+          "id": "shadowaria",
+          "url": "https://gamesdemo.kaga88.com/?g=ShadowAria&p=demo&u=108505413&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ShadowAria"
+        },
+        {
+          "id": "archerrobinhood",
+          "url": "https://gamesdemo.kaga88.com/?g=ArcherRobinHood&p=demo&u=346302545&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ArcherRobinHood"
+        },
+        {
+          "id": "zombiesiege",
+          "url": "https://gamesdemo.kaga88.com/?g=ZombieSiege&p=demo&u=362410934&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ZombieSiege"
+        },
+        {
+          "id": "crazykiller",
+          "url": "https://gamesdemo.kaga88.com/?g=CrazyKiller&p=demo&u=202878591&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CrazyKiller"
+        },
+        {
+          "id": "astrology",
+          "url": "https://gamesdemo.kaga88.com/?g=Astrology&p=demo&u=39405994&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Astrology"
+        },
+        {
+          "id": "attackhugemushroom",
+          "url": "https://gamesdemo.kaga88.com/?g=AttackHugeMushroom&p=demo&u=727600996&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AttackHugeMushroom"
+        },
+        {
+          "id": "atlantide",
+          "url": "https://gamesdemo.kaga88.com/?g=Atlantide&p=demo&u=827610067&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Atlantide"
+        },
+        {
+          "id": "catchthethief",
+          "url": "https://gamesdemo.kaga88.com/?g=CatchTheThief&p=demo&u=590609583&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CatchTheThief"
+        },
+        {
+          "id": "dreamcatcher",
+          "url": "https://gamesdemo.kaga88.com/?g=Dreamcatcher&p=demo&u=706348389&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Dreamcatcher"
+        },
+        {
+          "id": "lunarhowl",
+          "url": "https://gamesdemo.kaga88.com/?g=LunarHowl&p=demo&u=558336301&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LunarHowl"
+        },
+        {
+          "id": "aurora",
+          "url": "https://gamesdemo.kaga88.com/?g=Aurora&p=demo&u=790977382&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Aurora"
+        },
+        {
+          "id": "musclecars",
+          "url": "https://gamesdemo.kaga88.com/?g=MuscleCars&p=demo&u=418997470&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MuscleCars"
+        },
+        {
+          "id": "deepsea",
+          "url": "https://gamesdemo.kaga88.com/?g=DeepSea&p=demo&u=54072986&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "DeepSea"
+        },
+        {
+          "id": "desertislandadventure",
+          "url": "https://gamesdemo.kaga88.com/?g=DesertIslandAdventure&p=demo&u=977132986&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "DesertIslandAdventure"
+        },
+        {
+          "id": "jungleadventure",
+          "url": "https://gamesdemo.kaga88.com/?g=JungleAdventure&p=demo&u=726226949&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "JungleAdventure"
+        },
+        {
+          "id": "volcanoadventure",
+          "url": "https://gamesdemo.kaga88.com/?g=VolcanoAdventure&p=demo&u=521150106&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "VolcanoAdventure"
+        },
+        {
+          "id": "aquaticadventurer",
+          "url": "https://gamesdemo.kaga88.com/?g=AquaticAdventurer&p=demo&u=276286317&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "AquaticAdventurer"
+        },
+        {
+          "id": "formosanbirds",
+          "url": "https://gamesdemo.kaga88.com/?g=FormosanBirds&p=demo&u=403528634&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FormosanBirds"
+        },
+        {
+          "id": "yearoftherabbit",
+          "url": "https://gamesdemo.kaga88.com/?g=YearOfTheRabbit&p=demo&u=350575211&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "YearOfTheRabbit"
+        },
+        {
+          "id": "yearofthetiger",
+          "url": "https://gamesdemo.kaga88.com/?g=YearOfTheTiger&p=demo&u=340320132&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "YearOfTheTiger"
+        },
+        {
+          "id": "whalewild",
+          "url": "https://gamesdemo.kaga88.com/?g=WhaleWild&p=demo&u=650111757&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "WhaleWild"
+        },
+        {
+          "id": "passionatebasketball",
+          "url": "https://gamesdemo.kaga88.com/?g=PassionateBasketball&p=demo&u=761708309&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "PassionateBasketball"
+        },
+        {
+          "id": "goldenball",
+          "url": "https://gamesdemo.kaga88.com/?g=GoldenBall&p=demo&u=878296677&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "GoldenBall"
+        },
+        {
+          "id": "bangbang",
+          "url": "https://gamesdemo.kaga88.com/?g=BangBang&p=demo&u=779899309&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BangBang"
+        },
+        {
+          "id": "chinesefeast",
+          "url": "https://gamesdemo.kaga88.com/?g=ChineseFeast&p=demo&u=19558850&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ChineseFeast"
+        },
+        {
+          "id": "fortunefeast",
+          "url": "https://gamesdemo.kaga88.com/?g=FortuneFeast&p=demo&u=658194312&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FortuneFeast"
+        },
+        {
+          "id": "crazyblackbeard",
+          "url": "https://gamesdemo.kaga88.com/?g=CrazyBlackbeard&p=demo&u=329867237&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CrazyBlackbeard"
+        },
+        {
+          "id": "dragonboat",
+          "url": "https://gamesdemo.kaga88.com/?g=DragonBoat&p=demo&u=120642939&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "DragonBoat"
+        },
+        {
+          "id": "dragonboat2",
+          "url": "https://gamesdemo.kaga88.com/?g=DragonBoat2&p=demo&u=860204127&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "DragonBoat2"
+        },
+        {
+          "id": "stockedbar",
+          "url": "https://gamesdemo.kaga88.com/?g=StockedBar&p=demo&u=569361188&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "StockedBar"
+        },
+        {
+          "id": "footballbaby",
+          "url": "https://gamesdemo.kaga88.com/?g=FootballBaby&p=demo&u=894072132&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "FootballBaby"
+        },
+        {
+          "id": "orientalbeast",
+          "url": "https://gamesdemo.kaga88.com/?g=OrientalBeast&p=demo&u=605123022&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "OrientalBeast"
+        },
+        {
+          "id": "welcomefortune",
+          "url": "https://gamesdemo.kaga88.com/?g=WelcomeFortune&p=demo&u=554921308&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "WelcomeFortune"
+        },
+        {
+          "id": "bigfootyeti",
+          "url": "https://gamesdemo.kaga88.com/?g=BigfootYeti&p=demo&u=925708873&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BigfootYeti"
+        },
+        {
+          "id": "sunnybikini",
+          "url": "https://gamesdemo.kaga88.com/?g=SunnyBikini&p=demo&u=563314&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "SunnyBikini"
+        },
+        {
+          "id": "snowwhite",
+          "url": "https://gamesdemo.kaga88.com/?g=SnowWhite&p=demo&u=178783581&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "SnowWhite"
+        },
+        {
+          "id": "blockyblocks",
+          "url": "https://gamesdemo.kaga88.com/?g=BlockyBlocks&p=demo&u=884150684&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BlockyBlocks"
+        },
+        {
+          "id": "blockyblocks2",
+          "url": "https://gamesdemo.kaga88.com/?g=BlockyBlocks2&p=demo&u=101102545&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BlockyBlocks2"
+        },
+        {
+          "id": "elvesbombs",
+          "url": "https://gamesdemo.kaga88.com/?g=ElvesBombs&p=demo&u=163724213&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ElvesBombs"
+        },
+        {
+          "id": "firefighters",
+          "url": "https://gamesdemo.kaga88.com/?g=Firefighters&p=demo&u=701609755&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "Firefighters"
+        },
+        {
+          "id": "buzzkillbonanza",
+          "url": "https://gamesdemo.kaga88.com/?g=BuzzkillBonanza&p=demo&u=559012508&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BuzzkillBonanza"
+        },
+        {
+          "id": "tangobonanza",
+          "url": "https://gamesdemo.kaga88.com/?g=TangoBonanza&p=demo&u=160899665&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "TangoBonanza"
+        },
+        {
+          "id": "devilbonus",
+          "url": "https://gamesdemo.kaga88.com/?g=DevilBonus&p=demo&u=50907685&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "DevilBonus"
+        },
+        {
+          "id": "bonusmania",
+          "url": "https://gamesdemo.kaga88.com/?g=BonusMania&p=demo&u=819087969&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BonusMania"
+        },
+        {
+          "id": "bonusmaniadeluxe",
+          "url": "https://gamesdemo.kaga88.com/?g=BonusManiaDeluxe&p=demo&u=303259064&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BonusManiaDeluxe"
+        },
+        {
+          "id": "bonusmaniaplinko",
+          "url": "https://gamesdemo.kaga88.com/?g=BonusManiaPlinko&p=demo&u=129526117&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BonusManiaPlinko"
+        },
+        {
+          "id": "primevalforest",
+          "url": "https://gamesdemo.kaga88.com/?g=PrimevalForest&p=demo&u=172346062&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "PrimevalForest"
+        },
+        {
+          "id": "boxingroo",
+          "url": "https://gamesdemo.kaga88.com/?g=BoxingRoo&p=demo&u=64942096&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BoxingRoo"
+        },
+        {
+          "id": "mysteriouswitch",
+          "url": "https://gamesdemo.kaga88.com/?g=MysteriousWitch&p=demo&u=249773143&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MysteriousWitch"
+        },
+        {
+          "id": "twistedjester",
+          "url": "https://gamesdemo.kaga88.com/?g=TwistedJester&p=demo&u=569871604&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "TwistedJester"
+        },
+        {
+          "id": "bubbledouble",
+          "url": "https://gamesdemo.kaga88.com/?g=BubbleDouble&p=demo&u=174886419&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BubbleDouble"
+        },
+        {
+          "id": "blazingbuffalo",
+          "url": "https://gamesdemo.kaga88.com/?g=BlazingBuffalo&p=demo&u=97242214&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "BlazingBuffalo"
+        },
+        {
+          "id": "owlinforest",
+          "url": "https://gamesdemo.kaga88.com/?g=OwlInForest&p=demo&u=939712460&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "OwlInForest"
+        },
+        {
+          "id": "victoryhorse",
+          "url": "https://gamesdemo.kaga88.com/?g=VictoryHorse&p=demo&u=805135498&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "VictoryHorse"
+        },
+        {
+          "id": "lobstercrazyshack",
+          "url": "https://gamesdemo.kaga88.com/?g=LobsterCrazyShack&p=demo&u=695664029&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "LobsterCrazyShack"
+        },
+        {
+          "id": "mexicancactus",
+          "url": "https://gamesdemo.kaga88.com/?g=MexicanCactus&p=demo&u=117784533&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "MexicanCactus"
+        },
+        {
+          "id": "chainofwild",
+          "url": "https://gamesdemo.kaga88.com/?g=ChainOfWild&p=demo&u=273649988&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "ChainOfWild"
+        },
+        {
+          "id": "cafemeow",
+          "url": "https://gamesdemo.kaga88.com/?g=CafeMeow&p=demo&u=810387857&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CafeMeow"
+        },
+        {
+          "id": "coffeewild",
+          "url": "https://gamesdemo.kaga88.com/?g=CoffeeWild&p=demo&u=889495754&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CoffeeWild"
+        },
+        {
+          "id": "caiyuanguangjin",
+          "url": "https://gamesdemo.kaga88.com/?g=CaiYuanGuangJin&p=demo&u=913566185&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F",
+          "symbol": "CaiYuanGuangJin"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://gamesdemo.kaga88.com",
+          "pathPrefix": "/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "bgaming",
+      "name": "BGaming",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/bgaming.json",
+      "games": [
+        {
+          "id": "3-lucky-monkeys-hold-win",
+          "url": "https://demo.bgaming-network.com/play/ThreeLuckyMonkeysHoldAndWin/FUN?server=demo",
+          "symbol": "ThreeLuckyMonkeysHoldAndWin"
+        },
+        {
+          "id": "adventures",
+          "url": "https://bgaming-network.com/play/Adventures/FUN?server=demo",
+          "symbol": "Adventures"
+        },
+        {
+          "id": "alice-wonderluck",
+          "url": "https://demo.bgaming-network.com/play/AliceWonderLuck/FUN?server=demo",
+          "symbol": "AliceWonderLuck"
+        },
+        {
+          "id": "alien-fruits",
+          "url": "https://demo.bgaming-network.com/play/AlienFruits/FUN?server=demo",
+          "symbol": "AlienFruits"
+        },
+        {
+          "id": "alien-fruits-2",
+          "url": "https://demo.bgaming-network.com/play/AlienFruits2/FUN?server=demo",
+          "symbol": "AlienFruits2"
+        },
+        {
+          "id": "alien-fruits-3",
+          "url": "https://demo.bgaming-network.com/play/AlienFruits3/FUN?server=demo",
+          "symbol": "AlienFruits3"
+        },
+        {
+          "id": "all-lucky-clover",
+          "url": "https://demo.bgaming-network.com/play/AllLuckyClover/FUN?server=demo",
+          "symbol": "AllLuckyClover"
+        },
+        {
+          "id": "all-star-fruits",
+          "url": "https://demo.bgaming-network.com/play/AllStarFruits/FUN?server=demo",
+          "symbol": "AllStarFruits"
+        },
+        {
+          "id": "aloha-king-elvis",
+          "url": "https://demo.bgaming-network.com/play/AlohaKingElvis/FUN?server=demo",
+          "symbol": "AlohaKingElvis"
+        },
+        {
+          "id": "always-up",
+          "url": "https://demo.bgaming-network.com/play/AlwaysUp/FUN?server=demo",
+          "symbol": "AlwaysUp"
+        },
+        {
+          "id": "always-up-x10000",
+          "url": "https://demo.bgaming-network.com/play/AlwaysUpX10000/FUN?server=demo",
+          "symbol": "AlwaysUpX10000"
+        },
+        {
+          "id": "arrow-slot",
+          "url": "https://demo.bgaming-network.com/play/ArrowSlot/FUN?server=demo",
+          "symbol": "ArrowSlot"
+        },
+        {
+          "id": "avalon-the-lost-kingdom",
+          "url": "https://demo.bgaming-network.com/play/Avalon/FUN?server=demo",
+          "symbol": "Avalon"
+        },
+        {
+          "id": "aztec-clusters",
+          "url": "https://demo.bgaming-network.com/play/AztecClusters/FUN?server=demo",
+          "symbol": "AztecClusters"
+        },
+        {
+          "id": "aztec-irwin",
+          "url": "https://demo.bgaming-network.com/play/AztecIrwin/FUN?server=demo",
+          "symbol": "AztecIrwin"
+        },
+        {
+          "id": "aztec-magic-bonanza",
+          "url": "https://demo.bgaming-network.com/play/AztecMagicBonanza/FUN?server=demo",
+          "symbol": "AztecMagicBonanza"
+        },
+        {
+          "id": "aztec-magic-deluxe",
+          "url": "https://demo.bgaming-network.com/play/AztecMagicDeluxe/FUN?server=demo",
+          "symbol": "AztecMagicDeluxe"
+        },
+        {
+          "id": "elden-ring",
+          "url": "https://bgaming-network.com/play/AztecMagicMegaways/FUN?server=demo",
+          "symbol": "AztecMagicMegaways"
+        },
+        {
+          "id": "aztec-magic-megaways",
+          "url": "https://demo.bgaming-network.com/play/AztecMagicMegaways/FUN?server=demo",
+          "symbol": "AztecMagicMegaways"
+        },
+        {
+          "id": "aztecs-claw-wild-dice",
+          "url": "https://demo.bgaming-network.com/play/AztecsClawWildDice/FUN",
+          "symbol": "AztecsClawWildDice"
+        },
+        {
+          "id": "backyard-grill",
+          "url": "https://demo.bgaming-network.com/play/BackyardGrill/FUN?server=demo",
+          "symbol": "BackyardGrill"
+        },
+        {
+          "id": "beast-band",
+          "url": "https://demo.bgaming-network.com/play/BeastBand/FUN?server=demo",
+          "symbol": "BeastBand"
+        },
+        {
+          "id": "beer-bonanza",
+          "url": "https://demo.bgaming-network.com/play/BeerBonanza/FUN?server=demo",
+          "symbol": "BeerBonanza"
+        },
+        {
+          "id": "big-atlantis-frenzy",
+          "url": "https://demo.bgaming-network.com/play/BigAtlantisFrenzy/FUN?server=demo",
+          "symbol": "BigAtlantisFrenzy"
+        },
+        {
+          "id": "big-boat-big-catch",
+          "url": "https://demo.bgaming-network.com/play/BigTunaBonanza/FUN?server=demo",
+          "symbol": "BigTunaBonanza"
+        },
+        {
+          "id": "big-bucks-saloon",
+          "url": "https://demo.bgaming-network.com/play/BigBucksSaloon/FUN",
+          "symbol": "BigBucksSaloon"
+        },
+        {
+          "id": "blackbeards-bounty",
+          "url": "https://demo.bgaming-network.com/play/BlackbeardsBounty/FUN",
+          "symbol": "BlackbeardsBounty"
+        },
+        {
+          "id": "blazing-fire-pots-hold-spin",
+          "url": "https://demo.bgaming-network.com/play/BlazingFirepots/FUN",
+          "symbol": "BlazingFirepots"
+        },
+        {
+          "id": "bling-blitz-diamond-drop",
+          "url": "https://demo.bgaming-network.com/play/BlingBlitzDiamondDrop/FUN",
+          "symbol": "BlingBlitzDiamondDrop"
+        },
+        {
+          "id": "bonanza-billion",
+          "url": "https://demo.bgaming-network.com/play/BonanzaBillion/FUN?server=demo",
+          "symbol": "BonanzaBillion"
+        },
+        {
+          "id": "bonanza-billion-merge-up",
+          "url": "https://demo.bgaming-network.com/play/BonanzaBillionMergeUp/FUN?server=demo",
+          "symbol": "BonanzaBillionMergeUp"
+        },
+        {
+          "id": "bonanza-billion-xtreme",
+          "url": "https://demo.bgaming-network.com/play/BonanzaBillionXtreme/FUN?server=demo",
+          "symbol": "BonanzaBillionXtreme"
+        },
+        {
+          "id": "bone-bonanza",
+          "url": "https://demo.bgaming-network.com/play/BoneBonanza/FUN?server=demo",
+          "symbol": "BoneBonanza"
+        },
+        {
+          "id": "book-of-cats",
+          "url": "https://demo.bgaming-network.com/play/BookOfCats/FUN?server=demo",
+          "symbol": "BookOfCats"
+        },
+        {
+          "id": "book-of-cats-megaways",
+          "url": "https://demo.bgaming-network.com/play/BookOfCatsMegaways/FUN?server=demo",
+          "symbol": "BookOfCatsMegaways"
+        },
+        {
+          "id": "book-of-hidden-tombs",
+          "url": "https://demo.bgaming-network.com/play/BookOfHiddenTombs/FUN?server=demo",
+          "symbol": "BookOfHiddenTombs"
+        },
+        {
+          "id": "book-of-kemet",
+          "url": "https://demo.bgaming-network.com/play/BookOfKemet/FUN?server=demo",
+          "symbol": "BookOfKemet"
+        },
+        {
+          "id": "book-of-panda-megaways-tm",
+          "url": "https://demo.bgaming-network.com/play/BookOfPanda/FUN?server=demo",
+          "symbol": "BookOfPanda"
+        },
+        {
+          "id": "book-of-pyramids",
+          "url": "https://demo.bgaming-network.com/play/BookOfPyramids/FUN?server=demo",
+          "symbol": "BookOfPyramids"
+        },
+        {
+          "id": "burning-chilli-243",
+          "url": "https://demo.bgaming-network.com/play/BurningChilli243/FUN?server=demo",
+          "symbol": "BurningChilli243"
+        },
+        {
+          "id": "burning-chilli-x",
+          "url": "https://demo.bgaming-network.com/play/BurningChilliX/FUN?server=demo",
+          "symbol": "BurningChilliX"
+        },
+        {
+          "id": "candy-monsta",
+          "url": "https://demo.bgaming-network.com/play/CandyMonsta/FUN?server=demo",
+          "symbol": "CandyMonsta"
+        },
+        {
+          "id": "carnival-bonanza",
+          "url": "https://demo.bgaming-network.com/play/CarnivalBonanza/FUN?server=demo",
+          "symbol": "CarnivalBonanza"
+        },
+        {
+          "id": "cats-soup",
+          "url": "https://demo.bgaming-network.com/play/CatsSoup/FUN?server=demo",
+          "symbol": "CatsSoup"
+        },
+        {
+          "id": "catch-the-gold-hold-and-win",
+          "url": "https://demo.bgaming-network.com/play/CatchTheGoldHoldAndWin/FUN?server=demo",
+          "symbol": "CatchTheGoldHoldAndWin"
+        },
+        {
+          "id": "catdiana",
+          "url": "https://demo.bgaming-network.com/play/Catdiana/FUN?server=demo",
+          "symbol": "Catdiana"
+        },
+        {
+          "id": "cats-love-yummy",
+          "url": "https://demo.bgaming-network.com/play/CatsLoveYummy/FUN",
+          "symbol": "CatsLoveYummy"
+        },
+        {
+          "id": "chicken-fire",
+          "url": "https://demo.bgaming-network.com/play/ChickenFire/FUN",
+          "symbol": "ChickenFire"
+        },
+        {
+          "id": "chicken-rush",
+          "url": "https://demo.bgaming-network.com/play/ChickenRush/FUN?server=demo",
+          "symbol": "ChickenRush"
+        },
+        {
+          "id": "clash-of-gods-power-duel",
+          "url": "https://demo.bgaming-network.com/play/ClashofGodsAnubisvsHades/FUN",
+          "symbol": "ClashofGodsAnubisvsHades"
+        },
+        {
+          "id": "clover-bonanza",
+          "url": "https://demo.bgaming-network.com/play/CloverBonanza/FUN?server=demo",
+          "symbol": "CloverBonanza"
+        },
+        {
+          "id": "clucking-hell",
+          "url": "https://demo.bgaming-network.com/play/CluckingHell/FUN",
+          "symbol": "CluckingHell"
+        },
+        {
+          "id": "crystal-clusters",
+          "url": "https://demo.bgaming-network.com/play/CrystalClusters/FUN?server=demo",
+          "symbol": "CrystalClusters"
+        },
+        {
+          "id": "deep-sea",
+          "url": "https://demo.bgaming-network.com/play/DeepSea/FUN?server=demo",
+          "symbol": "DeepSea"
+        },
+        {
+          "id": "derby-rush",
+          "url": "https://demo.bgaming-network.com/play/DerbyRush/FUN?server=demo",
+          "symbol": "DerbyRush"
+        },
+        {
+          "id": "diamond-of-jungle",
+          "url": "https://demo.bgaming-network.com/play/DiamondOfJungle/FUN?server=demo",
+          "symbol": "DiamondOfJungle"
+        },
+        {
+          "id": "dice-bonanza",
+          "url": "https://demo.bgaming-network.com/play/DiceBonanza/FUN?server=demo",
+          "symbol": "DiceBonanza"
+        },
+        {
+          "id": "dice-million",
+          "url": "https://demo.bgaming-network.com/play/DiceMillion/FUN?server=demo",
+          "symbol": "DiceMillion"
+        },
+        {
+          "id": "dig-dig-digger",
+          "url": "https://demo.bgaming-network.com/play/DigDigDigger/FUN?server=demo",
+          "symbol": "DigDigDigger"
+        },
+        {
+          "id": "disco-party",
+          "url": "https://demo.bgaming-network.com/play/DiscoParty/FUN?server=demo",
+          "symbol": "DiscoParty"
+        },
+        {
+          "id": "divine-queen-heart-of-ice",
+          "url": "https://demo.bgaming-network.com/play/DivineQueenHeartOfIce/FUN?server=demo",
+          "symbol": "DivineQueenHeartOfIce"
+        },
+        {
+          "id": "divine-queen-power-of-sun",
+          "url": "https://demo.bgaming-network.com/play/DivineQueenPowerOfSun/FUN?server=demo",
+          "symbol": "DivineQueenPowerOfSun"
+        },
+        {
+          "id": "domnitors-treasure",
+          "url": "https://demo.bgaming-network.com/play/DomnitorsTreasure/FUN?server=demo",
+          "symbol": "DomnitorsTreasure"
+        },
+        {
+          "id": "doomsday-saloon",
+          "url": "https://demo.bgaming-network.com/play/DoomsdaySaloon/FUN?server=demo",
+          "symbol": "DoomsdaySaloon"
+        },
+        {
+          "id": "dragon-age-hold-win",
+          "url": "https://demo.bgaming-network.com/play/DragonAge/FUN?server=demo",
+          "symbol": "DragonAge"
+        },
+        {
+          "id": "dragon-queen-megaways-tm",
+          "url": "https://demo.bgaming-network.com/play/DragonQueenMegaways/FUN?server=demo",
+          "symbol": "DragonQueenMegaways"
+        },
+        {
+          "id": "dragons-gold-100",
+          "url": "https://demo.bgaming-network.com/play/DragonsGold100/FUN?server=demo",
+          "symbol": "DragonsGold100"
+        },
+        {
+          "id": "dusty-duel",
+          "url": "https://demo.bgaming-network.com/play/DustyDuel/FUN?server=demo",
+          "symbol": "DustyDuel"
+        },
+        {
+          "id": "easter-heist",
+          "url": "https://demo.bgaming-network.com/play/EasterHeist/FUN?server=demo",
+          "symbol": "EasterHeist"
+        },
+        {
+          "id": "elvis-frog-in-vegas",
+          "url": "https://demo.bgaming-network.com/play/ElvisFrog/FUN?server=demo",
+          "symbol": "ElvisFrog"
+        },
+        {
+          "id": "elvis-frog-trueways",
+          "url": "https://demo.bgaming-network.com/play/ElvisFrogTrueways/FUN?server=demo",
+          "symbol": "ElvisFrogTrueways"
+        },
+        {
+          "id": "face-off",
+          "url": "https://demo.bgaming-network.com/play/FaceOff/FUN?server=demo",
+          "symbol": "FaceOff"
+        },
+        {
+          "id": "fiesta-clusters",
+          "url": "https://demo.bgaming-network.com/play/FiestaClusters/FUN?server=demo",
+          "symbol": "FiestaClusters"
+        },
+        {
+          "id": "fire-lightning",
+          "url": "https://demo.bgaming-network.com/play/FireLightning/FUN?server=demo",
+          "symbol": "FireLightning"
+        },
+        {
+          "id": "forgotten",
+          "url": "https://demo.bgaming-network.com/play/Forgotten/FUN?server=demo",
+          "symbol": "Forgotten"
+        },
+        {
+          "id": "fortune-bells",
+          "url": "https://demo.bgaming-network.com/play/FortuneBells/FUN?server=demo",
+          "symbol": "FortuneBells"
+        },
+        {
+          "id": "fortune-trio-minions-of-fu",
+          "url": "https://bgaming-network.com/play/FortuneTrioMinionsOfFu/FUN?server=demo",
+          "symbol": "FortuneTrioMinionsOfFu"
+        },
+        {
+          "id": "forty-fruity-million",
+          "url": "https://demo.bgaming-network.com/play/FortyFruityMillion/FUN?server=demo",
+          "symbol": "FortyFruityMillion"
+        },
+        {
+          "id": "four-lucky-clover",
+          "url": "https://demo.bgaming-network.com/play/FourLuckyClover/FUN?server=demo",
+          "symbol": "FourLuckyClover"
+        },
+        {
+          "id": "four-lucky-diamonds",
+          "url": "https://demo.bgaming-network.com/play/FourLuckyDiamonds/FUN?server=demo",
+          "symbol": "FourLuckyDiamonds"
+        },
+        {
+          "id": "frenzy-clusters",
+          "url": "https://demo.bgaming-network.com/play/FrenzyClusters/FUN?server=demo",
+          "symbol": "FrenzyClusters"
+        },
+        {
+          "id": "frozen-fruit",
+          "url": "https://demo.bgaming-network.com/play/FrozenFruit/FUN?server=demo",
+          "symbol": "FrozenFruit"
+        },
+        {
+          "id": "fruit-million",
+          "url": "https://demo.bgaming-network.com/play/FruitMillion/FUN?server=demo",
+          "symbol": "FruitMillion"
+        },
+        {
+          "id": "fruit-million-respin",
+          "url": "https://demo.bgaming-network.com/play/FruitMillionRespin/FUN?server=demo",
+          "symbol": "FruitMillionRespin"
+        },
+        {
+          "id": "gangsterz",
+          "url": "https://demo.bgaming-network.com/play/Gangsterz/FUN?server=demo",
+          "symbol": "Gangsterz"
+        },
+        {
+          "id": "gemhalla",
+          "url": "https://demo.bgaming-network.com/play/Gemhalla/FUN?server=demo",
+          "symbol": "Gemhalla"
+        },
+        {
+          "id": "gemhalla-xtreme",
+          "url": "https://demo.bgaming-network.com/play/GemhallaXtreme/FUN?server=demo",
+          "symbol": "GemhallaXtreme"
+        },
+        {
+          "id": "gemza",
+          "url": "https://demo.bgaming-network.com/play/Gemza/FUN?server=demo",
+          "symbol": "Gemza"
+        },
+        {
+          "id": "gift-rush",
+          "url": "https://demo.bgaming-network.com/play/GiftRush/FUN?server=demo",
+          "symbol": "GiftRush"
+        },
+        {
+          "id": "god-of-wealth-hold-and-win",
+          "url": "https://demo.bgaming-network.com/play/GodOfWealthHoldAndWin/FUN?server=demo",
+          "symbol": "GodOfWealthHoldAndWin"
+        },
+        {
+          "id": "goldmagnate",
+          "url": "https://demo.bgaming-network.com/play/GoldMagnate/FUN?server=demo",
+          "symbol": "GoldMagnate"
+        },
+        {
+          "id": "goldofminos",
+          "url": "https://demo.bgaming-network.com/play/GoldOfMinos/FUN?server=demo",
+          "symbol": "GoldOfMinos"
+        },
+        {
+          "id": "gold-rush-with-johnny-cash",
+          "url": "https://demo.bgaming-network.com/play/GoldRushWithJohnny/FUN?server=demo",
+          "symbol": "GoldRushWithJohnny"
+        },
+        {
+          "id": "golden-avalon-hold-and-win",
+          "url": "https://demo.bgaming-network.com/play/GoldenAvalonHoldAndWin/FUN?server=demo",
+          "symbol": "GoldenAvalonHoldAndWin"
+        },
+        {
+          "id": "golden-paw-hold-win",
+          "url": "https://demo.bgaming-network.com/play/GoldenPawHoldAndWin/FUN?server=demo",
+          "symbol": "GoldenPawHoldAndWin"
+        },
+        {
+          "id": "golden-pride",
+          "url": "https://demo.bgaming-network.com/play/GoldenPride/FUN?server=demo",
+          "symbol": "GoldenPride"
+        },
+        {
+          "id": "grand-buffalo-hold-and-win",
+          "url": "https://demo.bgaming-network.com/play/GrandBuffaloHoldAndWin/FUN?server=demo",
+          "symbol": "GrandBuffaloHoldAndWin"
+        },
+        {
+          "id": "grand-mustang",
+          "url": "https://demo.bgaming-network.com/play/GrandMustang/FUN?server=demo",
+          "symbol": "GrandMustang"
+        },
+        {
+          "id": "grand-patron",
+          "url": "https://demo.bgaming-network.com/play/GrandPatron7rst/FUN",
+          "symbol": "GrandPatron7rst"
+        },
+        {
+          "id": "halloween-bonanza",
+          "url": "https://demo.bgaming-network.com/play/HalloweenBonanza/FUN?server=demo",
+          "symbol": "HalloweenBonanza"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://demo.bgaming-network.com",
+          "pathPrefix": "/play/"
+        },
+        {
+          "origin": "https://bgaming-network.com",
+          "pathPrefix": "/play/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "rubyplay",
+      "name": "RubyPlay",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/rubyplay.json",
+      "games": [
+        {
+          "id": "diamond-explosion-7s",
+          "url": "https://rubyplay.com/games/diamond-explosion-7s/",
+          "symbol": "rp_72"
+        },
+        {
+          "id": "frankenstein-triple-volt",
+          "url": "https://rubyplay.com/games/frankenstein-triple-volt/",
+          "symbol": "rp_233"
+        },
+        {
+          "id": "go-high-panda",
+          "url": "https://rubyplay.com/games/go-high-panda/",
+          "symbol": "rp_109"
+        },
+        {
+          "id": "gummy-giga-match",
+          "url": "https://rubyplay.com/games/gummy-giga-match/",
+          "symbol": "rp_125"
+        },
+        {
+          "id": "mad-hit-marlin-bonanza",
+          "url": "https://rubyplay.com/games/mad-hit-marlin-bonanza/",
+          "symbol": "rp_102"
+        },
+        {
+          "id": "mayan-cache",
+          "url": "https://rubyplay.com/games/mayan-cache/",
+          "symbol": "rp_32"
+        },
+        {
+          "id": "immortal-ways-diamonds",
+          "url": "https://rubyplay.com/games/immortal-ways-diamonds/",
+          "symbol": "rp_88"
+        },
+        {
+          "id": "immortal-ways-luva",
+          "url": "https://rubyplay.com/games/immortal-ways-luva/",
+          "symbol": "rp_158"
+        },
+        {
+          "id": "immortal-ways-pinata",
+          "url": "https://rubyplay.com/games/immortal-ways-pinata/",
+          "symbol": "rp_95"
+        },
+        {
+          "id": "immortal-ways-88-charms",
+          "url": "https://rubyplay.com/games/immortal-ways-88-charms/",
+          "symbol": "rp_94"
+        },
+        {
+          "id": "immortal-ways-sweet-coin",
+          "url": "https://rubyplay.com/games/immortal-ways-sweet-coin/",
+          "symbol": "rp_106"
+        },
+        {
+          "id": "immortal-ways-betano",
+          "url": "https://rubyplay.com/games/immortal-ways-betano/",
+          "symbol": "rp_127"
+        },
+        {
+          "id": "immortal-ways-champions",
+          "url": "https://rubyplay.com/games/immortal-ways-champions/",
+          "symbol": "rp_128"
+        },
+        {
+          "id": "immortal-ways-lady-moon",
+          "url": "https://rubyplay.com/games/immortal-ways-lady-moon/",
+          "symbol": "rp_131"
+        },
+        {
+          "id": "immortal-ways-spooktacular",
+          "url": "https://rubyplay.com/games/immortal-ways-spooktacular/",
+          "symbol": "rp_126"
+        },
+        {
+          "id": "immortal-ways-buffalo-se",
+          "url": "https://rubyplay.com/games/immortal-ways-buffalo-se/",
+          "symbol": "rp_141"
+        },
+        {
+          "id": "immortal-ways-cleopatra",
+          "url": "https://rubyplay.com/games/immortal-ways-cleopatra/",
+          "symbol": "rp_143"
+        },
+        {
+          "id": "immortal-ways-diamonds-se",
+          "url": "https://rubyplay.com/games/immortal-ways-diamonds-se/",
+          "symbol": "rp_145"
+        },
+        {
+          "id": "immortal-ways-gallina-harvest",
+          "url": "https://rubyplay.com/games/immortal-ways-gallina-harvest/",
+          "symbol": "rp_161"
+        },
+        {
+          "id": "immortal-ways-volcano",
+          "url": "https://rubyplay.com/games/immortal-ways-volcano/",
+          "symbol": "rp_162"
+        },
+        {
+          "id": "immortal-ways-magic-gems",
+          "url": "https://rubyplay.com/games/immortal-ways-magic-gems/",
+          "symbol": "rp_189"
+        },
+        {
+          "id": "immortal-ways-heart-to-heart",
+          "url": "https://rubyplay.com/games/immortal-ways-heart-to-heart/",
+          "symbol": "rp_173"
+        },
+        {
+          "id": "immortal-ways-3-fates",
+          "url": "https://rubyplay.com/games/immortal-ways-3-fates/",
+          "symbol": "rp_206"
+        },
+        {
+          "id": "mad-hit-oasis",
+          "url": "https://rubyplay.com/games/mad-hit-oasis/",
+          "symbol": "rp_96"
+        },
+        {
+          "id": "mad-hit-wild-alice",
+          "url": "https://rubyplay.com/games/mad-hit-wild-alice/",
+          "symbol": "rp_107"
+        },
+        {
+          "id": "immortal-ways-mr-first",
+          "url": "https://rubyplay.com/games/immortal-ways-mr-first/",
+          "symbol": ""
+        },
+        {
+          "id": "mad-hit-supernova",
+          "url": "https://rubyplay.com/games/mad-hit-supernova/",
+          "symbol": "rp_108"
+        },
+        {
+          "id": "mad-hit-hidden-cities",
+          "url": "https://rubyplay.com/games/mad-hit-hidden-cities/",
+          "symbol": "rp_103"
+        },
+        {
+          "id": "mad-hit-bearhaus",
+          "url": "https://rubyplay.com/games/mad-hit-bearhaus/",
+          "symbol": "rp_133"
+        },
+        {
+          "id": "mad-hit-savannah",
+          "url": "https://rubyplay.com/games/mad-hit-savannah/",
+          "symbol": "rp_155"
+        },
+        {
+          "id": "mad-hit-full-steam",
+          "url": "https://rubyplay.com/games/mad-hit-full-steam/",
+          "symbol": "rp_139"
+        },
+        {
+          "id": "mad-hit-diamonds",
+          "url": "https://rubyplay.com/games/mad-hit-diamonds/",
+          "symbol": "rp_140"
+        },
+        {
+          "id": "mad-hit-gorillatron",
+          "url": "https://rubyplay.com/games/mad-hit-gorillatron/",
+          "symbol": "rp_169"
+        },
+        {
+          "id": "mad-hit-jokester",
+          "url": "https://rubyplay.com/games/mad-hit-jokester/",
+          "symbol": "rp_167"
+        },
+        {
+          "id": "mad-hit-devil",
+          "url": "https://rubyplay.com/games/mad-hit-devil/",
+          "symbol": "rp_186"
+        },
+        {
+          "id": "mad-hit-mr-coin",
+          "url": "https://rubyplay.com/games/mad-hit-mr-coin/",
+          "symbol": "rp_180"
+        },
+        {
+          "id": "mad-hit-slippery-soap",
+          "url": "https://rubyplay.com/games/mad-hit-slippery-soap/",
+          "symbol": "rp_188"
+        },
+        {
+          "id": "mad-hit-ho-ho-hot-pudding",
+          "url": "https://rubyplay.com/games/mad-hit-ho-ho-hot-pudding/",
+          "symbol": "rp_190"
+        },
+        {
+          "id": "mad-hit-easter-eggsplosion",
+          "url": "https://rubyplay.com/games/mad-hit-easter-eggsplosion/",
+          "symbol": "rp_210"
+        },
+        {
+          "id": "mad-hit-gold",
+          "url": "https://rubyplay.com/games/mad-hit-gold/",
+          "symbol": "rp_215"
+        },
+        {
+          "id": "mad-hit-diamonds-deluxe",
+          "url": "https://rubyplay.com/games/mad-hit-diamonds-deluxe/",
+          "symbol": "rp_211"
+        },
+        {
+          "id": "mad-hit-vegas",
+          "url": "https://rubyplay.com/games/mad-hit-vegas/",
+          "symbol": "rp_235"
+        },
+        {
+          "id": "mad-hit-diamonds-extreme",
+          "url": "https://rubyplay.com/games/mad-hit-diamonds-extreme/",
+          "symbol": "rp_222"
+        },
+        {
+          "id": "mad-hit-mr-coin-se",
+          "url": "https://rubyplay.com/games/mad-hit-mr-coin-se/",
+          "symbol": ""
+        },
+        {
+          "id": "elephant-stampede",
+          "url": "https://rubyplay.com/games/elephant-stampede/",
+          "symbol": "rp_42"
+        },
+        {
+          "id": "stampede-rush-wicked",
+          "url": "https://rubyplay.com/games/stampede-rush-wicked/",
+          "symbol": "rp_97"
+        },
+        {
+          "id": "stampede-rush-speedy-santa",
+          "url": "https://rubyplay.com/games/stampede-rush-speedy-santa/",
+          "symbol": "rp_99"
+        },
+        {
+          "id": "stampede-rush-mighty-chang",
+          "url": "https://rubyplay.com/games/stampede-rush-mighty-chang/",
+          "symbol": ""
+        },
+        {
+          "id": "elephant-stampede-se",
+          "url": "https://rubyplay.com/games/elephant-stampede-se/",
+          "symbol": "rp_149"
+        },
+        {
+          "id": "stampede-rush-trident",
+          "url": "https://rubyplay.com/games/stampede-rush-trident/",
+          "symbol": "rp_92"
+        },
+        {
+          "id": "go-high-harvest",
+          "url": "https://rubyplay.com/games/go-high-harvest/",
+          "symbol": "rp_98"
+        },
+        {
+          "id": "go-high-gone-fishing",
+          "url": "https://rubyplay.com/games/go-high-gone-fishing/",
+          "symbol": "rp_111"
+        },
+        {
+          "id": "go-high-fruit",
+          "url": "https://rubyplay.com/games/go-high-fruit/",
+          "symbol": "rp_112"
+        },
+        {
+          "id": "go-high-olympus",
+          "url": "https://rubyplay.com/games/go-high-olympus/",
+          "symbol": "rp_114"
+        },
+        {
+          "id": "go-high-gallina",
+          "url": "https://rubyplay.com/games/go-high-gallina/",
+          "symbol": "rp_142"
+        },
+        {
+          "id": "go-high-puppy-love",
+          "url": "https://rubyplay.com/games/go-high-puppy-love/",
+          "symbol": "rp_159"
+        },
+        {
+          "id": "go-high-joker",
+          "url": "https://rubyplay.com/games/go-high-joker/",
+          "symbol": "rp_165"
+        },
+        {
+          "id": "go-high-safari",
+          "url": "https://rubyplay.com/games/go-high-safari/",
+          "symbol": "rp_171"
+        },
+        {
+          "id": "diamond-explosion-sweet-love",
+          "url": "https://rubyplay.com/games/diamond-explosion-sweet-love/",
+          "symbol": "rp_101"
+        },
+        {
+          "id": "diamond-explosion-candy",
+          "url": "https://rubyplay.com/games/diamond-explosion-candy/",
+          "symbol": ""
+        },
+        {
+          "id": "diamond-explosion-patriots",
+          "url": "https://rubyplay.com/games/diamond-explosion-patriots/",
+          "symbol": "rp_124"
+        },
+        {
+          "id": "diamond-explosion-christmas-tango",
+          "url": "https://rubyplay.com/games/diamond-explosion-christmas-tango/",
+          "symbol": "rp_144"
+        },
+        {
+          "id": "diamond-explosion-7s-se",
+          "url": "https://rubyplay.com/games/diamond-explosion-7s-se/",
+          "symbol": "rp_146"
+        },
+        {
+          "id": "fu-double-luck-diamond-explosion",
+          "url": "https://rubyplay.com/games/fu-double-luck-diamond-explosion/",
+          "symbol": "rp_170"
+        },
+        {
+          "id": "diamond-explosion-777",
+          "url": "https://rubyplay.com/games/diamond-explosion-777/",
+          "symbol": "rp_200"
+        },
+        {
+          "id": "volcano-rising-se",
+          "url": "https://rubyplay.com/games/volcano-rising-se/",
+          "symbol": "rp_150"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://rubyplay.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "3oaks",
+      "name": "3 Oaks",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/3oaks.json",
+      "games": [
+        {
+          "id": "15_dragon_pearls",
+          "url": "https://3oaks.com/game/15_dragon_pearls",
+          "symbol": "15_dragon_pearls"
+        },
+        {
+          "id": "3_african_drums",
+          "url": "https://3oaks.com/game/3_african_drums",
+          "symbol": "3_african_drums"
+        },
+        {
+          "id": "3_aztec_temples",
+          "url": "https://3oaks.com/game/3_aztec_temples",
+          "symbol": "3_aztec_temples"
+        },
+        {
+          "id": "3_china_pots",
+          "url": "https://3oaks.com/game/3_china_pots",
+          "symbol": "3_china_pots"
+        },
+        {
+          "id": "3_clover_pots",
+          "url": "https://3oaks.com/game/3_clover_pots",
+          "symbol": "3_clover_pots"
+        },
+        {
+          "id": "3_clover_pots_extra",
+          "url": "https://3oaks.com/game/3_clover_pots_extra",
+          "symbol": "3_clover_pots_extra"
+        },
+        {
+          "id": "3_coin_volcanoes",
+          "url": "https://3oaks.com/game/3_coin_volcanoes",
+          "symbol": "3_coin_volcanoes"
+        },
+        {
+          "id": "3_coins",
+          "url": "https://3oaks.com/game/3_coins",
+          "symbol": "3_coins"
+        },
+        {
+          "id": "3_egypt_chests",
+          "url": "https://3oaks.com/game/3_egypt_chests",
+          "symbol": "3_egypt_chests"
+        },
+        {
+          "id": "3_hot_chillies",
+          "url": "https://3oaks.com/game/3_hot_chillies",
+          "symbol": "3_hot_chillies"
+        },
+        {
+          "id": "3_hot_teapots",
+          "url": "https://3oaks.com/game/3_hot_teapots",
+          "symbol": "3_hot_teapots"
+        },
+        {
+          "id": "3_lucky_sparks",
+          "url": "https://3oaks.com/game/3_lucky_sparks",
+          "symbol": "3_lucky_sparks"
+        },
+        {
+          "id": "3_olymp_fortunes",
+          "url": "https://3oaks.com/game/3_olymp_fortunes",
+          "symbol": "3_olymp_fortunes"
+        },
+        {
+          "id": "3_pots_of_egypt",
+          "url": "https://3oaks.com/game/3_pots_of_egypt",
+          "symbol": "3_pots_of_egypt"
+        },
+        {
+          "id": "3_super_coin_volcanoes",
+          "url": "https://3oaks.com/game/3_super_coin_volcanoes",
+          "symbol": "3_super_coin_volcanoes"
+        },
+        {
+          "id": "3_super_hot_chillies",
+          "url": "https://3oaks.com/game/3_super_hot_chillies",
+          "symbol": "3_super_hot_chillies"
+        },
+        {
+          "id": "3_super_hot_teapots",
+          "url": "https://3oaks.com/game/3_super_hot_teapots",
+          "symbol": "3_super_hot_teapots"
+        },
+        {
+          "id": "3_superpower_diamonds",
+          "url": "https://3oaks.com/game/3_superpower_diamonds",
+          "symbol": "3_superpower_diamonds"
+        },
+        {
+          "id": "4_african_drums",
+          "url": "https://3oaks.com/game/4_african_drums",
+          "symbol": "4_african_drums"
+        },
+        {
+          "id": "4_clover_pots",
+          "url": "https://3oaks.com/game/4_clover_pots",
+          "symbol": "4_clover_pots"
+        },
+        {
+          "id": "4_dragon_pearls",
+          "url": "https://3oaks.com/game/4_dragon_pearls",
+          "symbol": "4_dragon_pearls"
+        },
+        {
+          "id": "4_fairy_flowers",
+          "url": "https://3oaks.com/game/4_fairy_flowers",
+          "symbol": "4_fairy_flowers"
+        },
+        {
+          "id": "4_fortune_clovers",
+          "url": "https://3oaks.com/game/4_fortune_clovers",
+          "symbol": "4_fortune_clovers"
+        },
+        {
+          "id": "4_pots_of_egypt",
+          "url": "https://3oaks.com/game/4_pots_of_egypt",
+          "symbol": "4_pots_of_egypt"
+        },
+        {
+          "id": "4_super_clover_pots",
+          "url": "https://3oaks.com/game/4_super_clover_pots",
+          "symbol": "4_super_clover_pots"
+        },
+        {
+          "id": "4_wolf_drums",
+          "url": "https://3oaks.com/game/4_wolf_drums",
+          "symbol": "4_wolf_drums"
+        },
+        {
+          "id": "777_coins",
+          "url": "https://3oaks.com/game/777_coins",
+          "symbol": "777_coins"
+        },
+        {
+          "id": "777_fruity_coins",
+          "url": "https://3oaks.com/game/777_fruity_coins",
+          "symbol": "777_fruity_coins"
+        },
+        {
+          "id": "amazonia_wins",
+          "url": "https://3oaks.com/game/amazonia_wins",
+          "symbol": "amazonia_wins"
+        },
+        {
+          "id": "aztec_fire",
+          "url": "https://3oaks.com/game/aztec_fire",
+          "symbol": "aztec_fire"
+        },
+        {
+          "id": "aztec_fire_2",
+          "url": "https://3oaks.com/game/aztec_fire_2",
+          "symbol": "aztec_fire_2"
+        },
+        {
+          "id": "aztec_sun",
+          "url": "https://3oaks.com/game/aztec_sun",
+          "symbol": "aztec_sun"
+        },
+        {
+          "id": "big_heist",
+          "url": "https://3oaks.com/game/big_heist",
+          "symbol": "big_heist"
+        },
+        {
+          "id": "black_wolf_2",
+          "url": "https://3oaks.com/game/black_wolf_2",
+          "symbol": "black_wolf_2"
+        },
+        {
+          "id": "book_of_sun_multichance",
+          "url": "https://3oaks.com/game/book_of_sun_multichance",
+          "symbol": "book_of_sun_multichance"
+        },
+        {
+          "id": "chili_coins",
+          "url": "https://3oaks.com/game/chili_coins",
+          "symbol": "chili_coins"
+        },
+        {
+          "id": "chili_coins_xxxl",
+          "url": "https://3oaks.com/game/chili_coins_xxxl",
+          "symbol": "chili_coins_xxxl"
+        },
+        {
+          "id": "coin_express",
+          "url": "https://3oaks.com/game/coin_express",
+          "symbol": "coin_express"
+        },
+        {
+          "id": "coin_princess_x1000",
+          "url": "https://3oaks.com/game/coin_princess_x1000",
+          "symbol": "coin_princess_x1000"
+        },
+        {
+          "id": "coinup_volcano",
+          "url": "https://3oaks.com/game/coinup_volcano",
+          "symbol": "coinup_volcano"
+        },
+        {
+          "id": "coin_up",
+          "url": "https://3oaks.com/game/coin_up",
+          "symbol": "coin_up"
+        },
+        {
+          "id": "coin_lightning",
+          "url": "https://3oaks.com/game/coin_lightning",
+          "symbol": "coin_lightning"
+        },
+        {
+          "id": "coin_volcano",
+          "url": "https://3oaks.com/game/coin_volcano",
+          "symbol": "coin_volcano"
+        },
+        {
+          "id": "coin_volcano_2",
+          "url": "https://3oaks.com/game/coin_volcano_2",
+          "symbol": "coin_volcano_2"
+        },
+        {
+          "id": "dancing_joker",
+          "url": "https://3oaks.com/game/dancing_joker",
+          "symbol": "dancing_joker"
+        },
+        {
+          "id": "dj_tiger_x1000",
+          "url": "https://3oaks.com/game/dj_tiger_x1000",
+          "symbol": "dj_tiger_x1000"
+        },
+        {
+          "id": "egypt_fire",
+          "url": "https://3oaks.com/game/egypt_fire",
+          "symbol": "egypt_fire"
+        },
+        {
+          "id": "egypt_fire_2",
+          "url": "https://3oaks.com/game/egypt_fire_2",
+          "symbol": "egypt_fire_2"
+        },
+        {
+          "id": "egypt_power_x1000",
+          "url": "https://3oaks.com/game/egypt_power_x1000",
+          "symbol": "egypt_power_x1000"
+        },
+        {
+          "id": "fishing_bear",
+          "url": "https://3oaks.com/game/fishing_bear",
+          "symbol": "fishing_bear"
+        },
+        {
+          "id": "fortune_globe",
+          "url": "https://3oaks.com/game/fortune_globe",
+          "symbol": "fortune_globe"
+        },
+        {
+          "id": "gold_express",
+          "url": "https://3oaks.com/game/gold_express",
+          "symbol": "gold_express"
+        },
+        {
+          "id": "gold_nuggets",
+          "url": "https://3oaks.com/game/gold_nuggets",
+          "symbol": "gold_nuggets"
+        },
+        {
+          "id": "golden_teapot",
+          "url": "https://3oaks.com/game/golden_teapot",
+          "symbol": "golden_teapot"
+        },
+        {
+          "id": "grab_more_gold",
+          "url": "https://3oaks.com/game/grab_more_gold",
+          "symbol": "grab_more_gold"
+        },
+        {
+          "id": "grab_the_gold",
+          "url": "https://3oaks.com/game/grab_the_gold",
+          "symbol": "grab_the_gold"
+        },
+        {
+          "id": "grand",
+          "url": "https://3oaks.com/game/grand",
+          "symbol": "grand"
+        },
+        {
+          "id": "green_chilli",
+          "url": "https://3oaks.com/game/green_chilli",
+          "symbol": "green_chilli"
+        },
+        {
+          "id": "green_chilli_2",
+          "url": "https://3oaks.com/game/green_chilli_2",
+          "symbol": "green_chilli_2"
+        },
+        {
+          "id": "hit_more_gold",
+          "url": "https://3oaks.com/game/hit_more_gold",
+          "symbol": "hit_more_gold"
+        },
+        {
+          "id": "hit_the_gold",
+          "url": "https://3oaks.com/game/hit_the_gold",
+          "symbol": "hit_the_gold"
+        },
+        {
+          "id": "hot_fire_fruits",
+          "url": "https://3oaks.com/game/hot_fire_fruits",
+          "symbol": "hot_fire_fruits"
+        },
+        {
+          "id": "joker_glitz_x1000",
+          "url": "https://3oaks.com/game/joker_glitz_x1000",
+          "symbol": "joker_glitz_x1000"
+        },
+        {
+          "id": "jungle_volcano",
+          "url": "https://3oaks.com/game/jungle_volcano",
+          "symbol": "jungle_volcano"
+        },
+        {
+          "id": "lady_fortune",
+          "url": "https://3oaks.com/game/lady_fortune",
+          "symbol": "lady_fortune"
+        },
+        {
+          "id": "lava_coins",
+          "url": "https://3oaks.com/game/lava_coins",
+          "symbol": "lava_coins"
+        },
+        {
+          "id": "lava_coins_2",
+          "url": "https://3oaks.com/game/lava_coins_2",
+          "symbol": "lava_coins_2"
+        },
+        {
+          "id": "little_farm",
+          "url": "https://3oaks.com/game/little_farm",
+          "symbol": "little_farm"
+        },
+        {
+          "id": "lord_of_thunder",
+          "url": "https://3oaks.com/game/lord_of_thunder",
+          "symbol": "lord_of_thunder"
+        },
+        {
+          "id": "lucky_apple_x1000",
+          "url": "https://3oaks.com/game/lucky_apple_x1000",
+          "symbol": "lucky_apple_x1000"
+        },
+        {
+          "id": "lucky_apple_x2500",
+          "url": "https://3oaks.com/game/lucky_apple_x2500",
+          "symbol": "lucky_apple_x2500"
+        },
+        {
+          "id": "lucky_penny",
+          "url": "https://3oaks.com/game/lucky_penny",
+          "symbol": "lucky_penny"
+        },
+        {
+          "id": "lucky_penny_2",
+          "url": "https://3oaks.com/game/lucky_penny_2",
+          "symbol": "lucky_penny_2"
+        },
+        {
+          "id": "lucky_penny_3_pots_super_wheel",
+          "url": "https://3oaks.com/game/lucky_penny_3_pots_super_wheel",
+          "symbol": "lucky_penny_3_pots_super_wheel"
+        },
+        {
+          "id": "lucky_penny_powerscatter",
+          "url": "https://3oaks.com/game/lucky_penny_powerscatter",
+          "symbol": "lucky_penny_powerscatter"
+        },
+        {
+          "id": "magic_apple",
+          "url": "https://3oaks.com/game/magic_apple",
+          "symbol": "magic_apple"
+        },
+        {
+          "id": "magic_apple_2",
+          "url": "https://3oaks.com/game/magic_apple_2",
+          "symbol": "magic_apple_2"
+        },
+        {
+          "id": "magic_clovers",
+          "url": "https://3oaks.com/game/magic_clovers",
+          "symbol": "magic_clovers"
+        },
+        {
+          "id": "moon_sisters",
+          "url": "https://3oaks.com/game/moon_sisters",
+          "symbol": "moon_sisters"
+        },
+        {
+          "id": "more_magic_apple",
+          "url": "https://3oaks.com/game/more_magic_apple",
+          "symbol": "more_magic_apple"
+        },
+        {
+          "id": "power_sun",
+          "url": "https://3oaks.com/game/power_sun",
+          "symbol": "power_sun"
+        },
+        {
+          "id": "power_sun_xxl",
+          "url": "https://3oaks.com/game/power_sun_xxl",
+          "symbol": "power_sun_xxl"
+        },
+        {
+          "id": "purple_diamond",
+          "url": "https://3oaks.com/game/purple_diamond",
+          "symbol": "purple_diamond"
+        },
+        {
+          "id": "rio_gems",
+          "url": "https://3oaks.com/game/rio_gems",
+          "symbol": "rio_gems"
+        },
+        {
+          "id": "scarab_temple",
+          "url": "https://3oaks.com/game/scarab_temple",
+          "symbol": "scarab_temple"
+        },
+        {
+          "id": "space_coins",
+          "url": "https://3oaks.com/game/space_coins",
+          "symbol": "space_coins"
+        },
+        {
+          "id": "sun_of_egypt",
+          "url": "https://3oaks.com/game/sun_of_egypt",
+          "symbol": "sun_of_egypt"
+        },
+        {
+          "id": "sun_of_egypt_2",
+          "url": "https://3oaks.com/game/sun_of_egypt_2",
+          "symbol": "sun_of_egypt_2"
+        },
+        {
+          "id": "sun_of_egypt_3",
+          "url": "https://3oaks.com/game/sun_of_egypt_3",
+          "symbol": "sun_of_egypt_3"
+        },
+        {
+          "id": "sun_of_egypt_4",
+          "url": "https://3oaks.com/game/sun_of_egypt_4",
+          "symbol": "sun_of_egypt_4"
+        },
+        {
+          "id": "sun_of_egypt_5",
+          "url": "https://3oaks.com/game/sun_of_egypt_5",
+          "symbol": "sun_of_egypt_5"
+        },
+        {
+          "id": "sunlight_princess",
+          "url": "https://3oaks.com/game/sunlight_princess",
+          "symbol": "sunlight_princess"
+        },
+        {
+          "id": "super_china_pots",
+          "url": "https://3oaks.com/game/super_china_pots",
+          "symbol": "super_china_pots"
+        },
+        {
+          "id": "super_hot_chilli",
+          "url": "https://3oaks.com/game/super_hot_chilli",
+          "symbol": "super_hot_chilli"
+        },
+        {
+          "id": "super_hot_teapots",
+          "url": "https://3oaks.com/game/super_hot_teapots",
+          "symbol": "super_hot_teapots"
+        },
+        {
+          "id": "super_hotfire_diamonds",
+          "url": "https://3oaks.com/game/super_hotfire_diamonds",
+          "symbol": "super_hotfire_diamonds"
+        },
+        {
+          "id": "super_sticky_piggy",
+          "url": "https://3oaks.com/game/super_sticky_piggy",
+          "symbol": "super_sticky_piggy"
+        },
+        {
+          "id": "supreme_diamond_xxl",
+          "url": "https://3oaks.com/game/supreme_diamond_xxl",
+          "symbol": "supreme_diamond_xxl"
+        },
+        {
+          "id": "thunder_tiger",
+          "url": "https://3oaks.com/game/thunder_tiger",
+          "symbol": "thunder_tiger"
+        },
+        {
+          "id": "tiger_gems",
+          "url": "https://3oaks.com/game/tiger_gems",
+          "symbol": "tiger_gems"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://3oaks.com",
+          "pathPrefix": "/game/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "yggdrasil",
+      "name": "Yggdrasil",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/yggdrasil.json",
+      "games": [
+        {
+          "id": "3-gladiators-vs-caesar",
+          "url": "https://yggdrasilgaming.com/games/3-gladiators-vs-caesar/",
+          "symbol": "10511"
+        },
+        {
+          "id": "3-piggies-of-bank",
+          "url": "https://yggdrasilgaming.com/games/3-piggies-of-bank/",
+          "symbol": "10945"
+        },
+        {
+          "id": "4-foxx-crew-wildenergy-multimax",
+          "url": "https://yggdrasilgaming.com/games/4-foxx-crew-wildenergy-multimax/",
+          "symbol": "10688"
+        },
+        {
+          "id": "4-wolves-of-fortune-doublemax",
+          "url": "https://yggdrasilgaming.com/games/4-wolves-of-fortune-doublemax/",
+          "symbol": "10729"
+        },
+        {
+          "id": "777-volt-gigablox",
+          "url": "https://yggdrasilgaming.com/games/777-volt-gigablox/",
+          "symbol": "10570"
+        },
+        {
+          "id": "aphrodite-goes-wild-rushingwilds",
+          "url": "https://yggdrasilgaming.com/games/aphrodite-goes-wild-rushingwilds/",
+          "symbol": "10509"
+        },
+        {
+          "id": "arthurs-fortune",
+          "url": "https://yggdrasilgaming.com/games/arthurs-fortune/",
+          "symbol": "10160"
+        },
+        {
+          "id": "atlantean-gigarise",
+          "url": "https://yggdrasilgaming.com/games/atlantean-gigarise/",
+          "symbol": "7397"
+        },
+        {
+          "id": "badger-miners",
+          "url": "https://yggdrasilgaming.com/games/badger-miners/",
+          "symbol": "10447"
+        },
+        {
+          "id": "bob-marlin-goes-deep",
+          "url": "https://yggdrasilgaming.com/games/bob-marlin-goes-deep/",
+          "symbol": "10728"
+        },
+        {
+          "id": "bob-marlin-goes-splashing-wild-fight-rushingwilds",
+          "url": "https://yggdrasilgaming.com/games/bob-marlin-goes-splashing-wild-fight-rushingwilds/",
+          "symbol": "10758"
+        },
+        {
+          "id": "boilin-pots",
+          "url": "https://yggdrasilgaming.com/games/boilin-pots/",
+          "symbol": "10255"
+        },
+        {
+          "id": "buffalo-freedom-doublemax",
+          "url": "https://yggdrasilgaming.com/games/buffalo-freedom-doublemax/",
+          "symbol": "10704"
+        },
+        {
+          "id": "calavera-crush",
+          "url": "https://yggdrasilgaming.com/games/calavera-crush/",
+          "symbol": "10292"
+        },
+        {
+          "id": "candyfinity",
+          "url": "https://yggdrasilgaming.com/games/candyfinity/",
+          "symbol": "10407"
+        },
+        {
+          "id": "cazino-zeppelin-reloaded",
+          "url": "https://yggdrasilgaming.com/games/cazino-zeppelin-reloaded/",
+          "symbol": "10188"
+        },
+        {
+          "id": "champion-of-the-underworld",
+          "url": "https://yggdrasilgaming.com/games/champion-of-the-underworld/",
+          "symbol": "10308"
+        },
+        {
+          "id": "champions_of_rome",
+          "url": "https://yggdrasilgaming.com/games/champions_of_rome/",
+          "symbol": "10158"
+        },
+        {
+          "id": "christmas-plaza-doublemax",
+          "url": "https://yggdrasilgaming.com/games/christmas-plaza-doublemax/",
+          "symbol": "10366"
+        },
+        {
+          "id": "coo-coo-cashoo-lightninglines",
+          "url": "https://yggdrasilgaming.com/games/coo-coo-cashoo-lightninglines/",
+          "symbol": "10857"
+        },
+        {
+          "id": "defenders-of-mystica",
+          "url": "https://yggdrasilgaming.com/games/defenders-of-mystica/",
+          "symbol": "10421"
+        },
+        {
+          "id": "devour-the-weak",
+          "url": "https://yggdrasilgaming.com/games/devour-the-weak/",
+          "symbol": "10400"
+        },
+        {
+          "id": "dick-the-farmer",
+          "url": "https://yggdrasilgaming.com/games/dick-the-farmer/",
+          "symbol": "10673"
+        },
+        {
+          "id": "dwarf_mine",
+          "url": "https://yggdrasilgaming.com/games/dwarf_mine/",
+          "symbol": "10132"
+        },
+        {
+          "id": "e-force",
+          "url": "https://yggdrasilgaming.com/games/e-force/",
+          "symbol": "10380"
+        },
+        {
+          "id": "age-asgard",
+          "url": "https://yggdrasilgaming.com/games/age-asgard/",
+          "symbol": "7365"
+        },
+        {
+          "id": "alchymedes",
+          "url": "https://yggdrasilgaming.com/games/alchymedes/",
+          "symbol": "7332"
+        },
+        {
+          "id": "aldos-journey",
+          "url": "https://yggdrasilgaming.com/games/aldos-journey/",
+          "symbol": "7372"
+        },
+        {
+          "id": "avatars",
+          "url": "https://yggdrasilgaming.com/games/avatars/",
+          "symbol": "8308"
+        },
+        {
+          "id": "baron-samedi",
+          "url": "https://yggdrasilgaming.com/games/baron-samedi/",
+          "symbol": "7354"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "url": "https://yggdrasilgaming.com/games/beauty-and-the-beast/",
+          "symbol": "7333"
+        },
+        {
+          "id": "bicicleta",
+          "url": "https://yggdrasilgaming.com/games/bicicleta/",
+          "symbol": "7326"
+        },
+        {
+          "id": "big-blox",
+          "url": "https://yggdrasilgaming.com/games/big-blox/",
+          "symbol": "7328"
+        },
+        {
+          "id": "blood-moon-wilds",
+          "url": "https://yggdrasilgaming.com/games/blood-moon-wilds/",
+          "symbol": "8306"
+        },
+        {
+          "id": "bloody-pesos",
+          "url": "https://yggdrasilgaming.com/games/bloody-pesos/",
+          "symbol": "10809"
+        },
+        {
+          "id": "brazil-bomba",
+          "url": "https://yggdrasilgaming.com/games/brazil-bomba/",
+          "symbol": "7375"
+        },
+        {
+          "id": "cannonade",
+          "url": "https://yggdrasilgaming.com/games/cannonade/",
+          "symbol": "10365"
+        },
+        {
+          "id": "carol-of-the-elves",
+          "url": "https://yggdrasilgaming.com/games/carol-of-the-elves/",
+          "symbol": "7402"
+        },
+        {
+          "id": "cazino_cosmos",
+          "url": "https://yggdrasilgaming.com/games/cazino_cosmos/",
+          "symbol": "7357"
+        },
+        {
+          "id": "cazino-zeppelin",
+          "url": "https://yggdrasilgaming.com/games/cazino-zeppelin/",
+          "symbol": "7308"
+        },
+        {
+          "id": "chibeasties",
+          "url": "https://yggdrasilgaming.com/games/chibeasties/",
+          "symbol": "7315"
+        },
+        {
+          "id": "dark-joker-rizes",
+          "url": "https://yggdrasilgaming.com/games/dark-joker-rizes/",
+          "symbol": "7310"
+        },
+        {
+          "id": "dark-vortex",
+          "url": "https://yggdrasilgaming.com/games/dark-vortex/",
+          "symbol": "7353"
+        },
+        {
+          "id": "double-dragons",
+          "url": "https://yggdrasilgaming.com/games/double-dragons/",
+          "symbol": "7329"
+        },
+        {
+          "id": "dr_fortuno",
+          "url": "https://yggdrasilgaming.com/games/dr_fortuno/",
+          "symbol": "7360"
+        },
+        {
+          "id": "easter-island",
+          "url": "https://yggdrasilgaming.com/games/easter-island/",
+          "symbol": "7346"
+        },
+        {
+          "id": "easter-island-2",
+          "url": "https://yggdrasilgaming.com/games/easter-island-2/",
+          "symbol": "7396"
+        },
+        {
+          "id": "elysian-jackpots",
+          "url": "https://yggdrasilgaming.com/games/elysian-jackpots/",
+          "symbol": "10395"
+        },
+        {
+          "id": "empire-fortune",
+          "url": "https://yggdrasilgaming.com/games/empire-fortune/",
+          "symbol": "7324"
+        },
+        {
+          "id": "enchanted-waters",
+          "url": "https://yggdrasilgaming.com/games/enchanted-waters/",
+          "symbol": "10450"
+        },
+        {
+          "id": "fatzs-diner-gigablox",
+          "url": "https://yggdrasilgaming.com/games/fatzs-diner-gigablox/",
+          "symbol": "10458"
+        },
+        {
+          "id": "firekick-multimax",
+          "url": "https://yggdrasilgaming.com/games/firekick-multimax/",
+          "symbol": "10327"
+        },
+        {
+          "id": "florageddon",
+          "url": "https://yggdrasilgaming.com/games/florageddon/",
+          "symbol": "10290"
+        },
+        {
+          "id": "football-glory",
+          "url": "https://yggdrasilgaming.com/games/football-glory/",
+          "symbol": "7386"
+        },
+        {
+          "id": "frost-queen-jackpots",
+          "url": "https://yggdrasilgaming.com/games/frost-queen-jackpots/",
+          "symbol": "7398"
+        },
+        {
+          "id": "fruitoids",
+          "url": "https://yggdrasilgaming.com/games/fruitoids/",
+          "symbol": "7304"
+        },
+        {
+          "id": "fruitpunk",
+          "url": "https://yggdrasilgaming.com/games/fruitpunk/",
+          "symbol": "10762"
+        },
+        {
+          "id": "fruitylicious-doublemax",
+          "url": "https://yggdrasilgaming.com/games/fruitylicious-doublemax/",
+          "symbol": "10517"
+        },
+        {
+          "id": "gator-gold-deluxe-gigablox",
+          "url": "https://yggdrasilgaming.com/games/gator-gold-deluxe-gigablox/",
+          "symbol": "10170"
+        },
+        {
+          "id": "gator-gold-gigablox",
+          "url": "https://yggdrasilgaming.com/games/gator-gold-gigablox/",
+          "symbol": "7401"
+        },
+        {
+          "id": "gem-rocks",
+          "url": "https://yggdrasilgaming.com/games/gem-rocks/",
+          "symbol": "7343"
+        },
+        {
+          "id": "gemstone-jam",
+          "url": "https://yggdrasilgaming.com/games/gemstone-jam/",
+          "symbol": "10852"
+        },
+        {
+          "id": "giga-zombies-gigablox",
+          "url": "https://yggdrasilgaming.com/games/giga-zombies-gigablox/",
+          "symbol": "10909"
+        },
+        {
+          "id": "gigagong-gigablox",
+          "url": "https://yggdrasilgaming.com/games/gigagong-gigablox/",
+          "symbol": "10472"
+        },
+        {
+          "id": "giganimals-gigablox",
+          "url": "https://yggdrasilgaming.com/games/giganimals-gigablox/",
+          "symbol": "10417"
+        },
+        {
+          "id": "goals-of-olympus-boltlock",
+          "url": "https://yggdrasilgaming.com/games/goals-of-olympus-boltlock/",
+          "symbol": "10915"
+        },
+        {
+          "id": "gold-frontier-jackpots-fastpot5",
+          "url": "https://yggdrasilgaming.com/games/gold-frontier-jackpots-fastpot5/",
+          "symbol": "10515"
+        },
+        {
+          "id": "golden-chip-roulette",
+          "url": "https://yggdrasilgaming.com/games/golden-chip-roulette/",
+          "symbol": "22001"
+        },
+        {
+          "id": "golden-fish-tank",
+          "url": "https://yggdrasilgaming.com/games/golden-fish-tank/",
+          "symbol": "7322"
+        },
+        {
+          "id": "golden-fish-tank-2-gigablox",
+          "url": "https://yggdrasilgaming.com/games/golden-fish-tank-2-gigablox/",
+          "symbol": "7409"
+        },
+        {
+          "id": "golden-fish-tank-party",
+          "url": "https://yggdrasilgaming.com/games/golden-fish-tank-party/",
+          "symbol": "10595"
+        },
+        {
+          "id": "golden-gorgon",
+          "url": "https://yggdrasilgaming.com/games/golden-gorgon/",
+          "symbol": "10021"
+        },
+        {
+          "id": "golden-monkey",
+          "url": "https://yggdrasilgaming.com/games/golden-monkey/",
+          "symbol": "7325"
+        },
+        {
+          "id": "goldstorm-ultra",
+          "url": "https://yggdrasilgaming.com/games/goldstorm-ultra/",
+          "symbol": "10797"
+        },
+        {
+          "id": "hades",
+          "url": "https://yggdrasilgaming.com/games/hades/",
+          "symbol": "10125"
+        },
+        {
+          "id": "hanzos-dojo",
+          "url": "https://yggdrasilgaming.com/games/hanzos-dojo/",
+          "symbol": "7351"
+        },
+        {
+          "id": "holmes-stolen-stones",
+          "url": "https://yggdrasilgaming.com/games/holmes-stolen-stones/",
+          "symbol": "7317"
+        },
+        {
+          "id": "hyperburst",
+          "url": "https://yggdrasilgaming.com/games/hyperburst/",
+          "symbol": "10144"
+        },
+        {
+          "id": "incinerator",
+          "url": "https://yggdrasilgaming.com/games/incinerator/",
+          "symbol": "7320"
+        },
+        {
+          "id": "jackpot-express",
+          "url": "https://yggdrasilgaming.com/games/jackpot-express/",
+          "symbol": "7373"
+        },
+        {
+          "id": "jackpot-raiders",
+          "url": "https://yggdrasilgaming.com/games/jackpot-raiders/",
+          "symbol": "7361"
+        },
+        {
+          "id": "joker-millions",
+          "url": "https://yggdrasilgaming.com/games/joker-millions/",
+          "symbol": "7312"
+        },
+        {
+          "id": "jokerizer",
+          "url": "https://yggdrasilgaming.com/games/jokerizer/",
+          "symbol": "7301"
+        },
+        {
+          "id": "jungle-books",
+          "url": "https://yggdrasilgaming.com/games/jungle-books/",
+          "symbol": "7337"
+        },
+        {
+          "id": "lightning-joker",
+          "url": "https://yggdrasilgaming.com/games/lightning-joker/",
+          "symbol": "7388"
+        },
+        {
+          "id": "lucha-maniacs",
+          "url": "https://yggdrasilgaming.com/games/lucha-maniacs/",
+          "symbol": "7348"
+        },
+        {
+          "id": "lucky-apocalypse-gigablox",
+          "url": "https://yggdrasilgaming.com/games/lucky-apocalypse-gigablox/",
+          "symbol": ""
+        },
+        {
+          "id": "lucky-neko",
+          "url": "https://yggdrasilgaming.com/games/lucky-neko/",
+          "symbol": "10124"
+        },
+        {
+          "id": "lucky-ryan-gigablox",
+          "url": "https://yggdrasilgaming.com/games/lucky-ryan-gigablox/",
+          "symbol": "10638"
+        },
+        {
+          "id": "max-elements-gigablox",
+          "url": "https://yggdrasilgaming.com/games/max-elements-gigablox/",
+          "symbol": "10488"
+        },
+        {
+          "id": "mexomax",
+          "url": "https://yggdrasilgaming.com/games/mexomax/",
+          "symbol": "10260"
+        },
+        {
+          "id": "mexomax-2-wildenergy-multimax",
+          "url": "https://yggdrasilgaming.com/games/mexomax-2-wildenergy-multimax/",
+          "symbol": "10753"
+        },
+        {
+          "id": "monkeys-go-bananas-multimax",
+          "url": "https://yggdrasilgaming.com/games/monkeys-go-bananas-multimax/",
+          "symbol": "10514"
+        },
+        {
+          "id": "multifly",
+          "url": "https://yggdrasilgaming.com/games/multifly/",
+          "symbol": "10122"
+        },
+        {
+          "id": "multifly-2-multimax",
+          "url": "https://yggdrasilgaming.com/games/multifly-2-multimax/",
+          "symbol": "10894"
+        },
+        {
+          "id": "neon-rush",
+          "url": "https://yggdrasilgaming.com/games/neon-rush/",
+          "symbol": "7381"
+        },
+        {
+          "id": "neon-villains-doublemax",
+          "url": "https://yggdrasilgaming.com/games/neon-villains-doublemax/",
+          "symbol": "10287"
+        },
+        {
+          "id": "neon-west",
+          "url": "https://yggdrasilgaming.com/games/neon-west/",
+          "symbol": "10802"
+        },
+        {
+          "id": "nice-catch-2-doublemax",
+          "url": "https://yggdrasilgaming.com/games/nice-catch-2-doublemax/",
+          "symbol": "10477"
+        },
+        {
+          "id": "nice-catch-doublemax",
+          "url": "https://yggdrasilgaming.com/games/nice-catch-doublemax/",
+          "symbol": "10409"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://yggdrasilgaming.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "nolimit_city",
+      "name": "Nolimit City",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/nolimit_city.json",
+      "games": [
+        {
+          "id": "airportsecurity",
+          "url": "https://playin.com/embed/v1/demo/AirportSecurity",
+          "symbol": "AirportSecurity"
+        },
+        {
+          "id": "apocalypse",
+          "url": "https://playin.com/embed/v1/demo/Apocalypse",
+          "symbol": "Apocalypse"
+        },
+        {
+          "id": "bangkokhilton",
+          "url": "https://playin.com/embed/v1/demo/BangkokHilton",
+          "symbol": "BangkokHilton"
+        },
+        {
+          "id": "barbarianfury",
+          "url": "https://playin.com/embed/v1/demo/BarbarianFury",
+          "symbol": "BarbarianFury"
+        },
+        {
+          "id": "beheaded",
+          "url": "https://playin.com/embed/v1/demo/Beheaded",
+          "symbol": "Beheaded"
+        },
+        {
+          "id": "benjikilledinvegas",
+          "url": "https://playin.com/embed/v1/demo/BenjiKilledInVegas",
+          "symbol": "BenjiKilledInVegas"
+        },
+        {
+          "id": "bizarre",
+          "url": "https://playin.com/embed/v1/demo/Bizarre",
+          "symbol": "Bizarre"
+        },
+        {
+          "id": "bloodandshadow",
+          "url": "https://playin.com/embed/v1/demo/BloodAndShadow",
+          "symbol": "BloodAndShadow"
+        },
+        {
+          "id": "bloodandshadow2",
+          "url": "https://playin.com/embed/v1/demo/BloodAndShadow2",
+          "symbol": "BloodAndShadow2"
+        },
+        {
+          "id": "blooddiamond",
+          "url": "https://playin.com/embed/v1/demo/BloodDiamond",
+          "symbol": "BloodDiamond"
+        },
+        {
+          "id": "bonusbunnies",
+          "url": "https://playin.com/embed/v1/demo/BonusBunnies",
+          "symbol": "BonusBunnies"
+        },
+        {
+          "id": "bookofshadows",
+          "url": "https://playin.com/embed/v1/demo/BookOfShadows",
+          "symbol": "BookOfShadows"
+        },
+        {
+          "id": "bountyhunters",
+          "url": "https://playin.com/embed/v1/demo/BountyHunters",
+          "symbol": "BountyHunters"
+        },
+        {
+          "id": "breakout",
+          "url": "https://playin.com/embed/v1/demo/Breakout",
+          "symbol": "Breakout"
+        },
+        {
+          "id": "bricksnake2000",
+          "url": "https://playin.com/embed/v1/demo/BrickSnake2000",
+          "symbol": "BrickSnake2000"
+        },
+        {
+          "id": "bruteforce",
+          "url": "https://playin.com/embed/v1/demo/BruteForce",
+          "symbol": "BruteForce"
+        },
+        {
+          "id": "bruteforcealienonslaught",
+          "url": "https://playin.com/embed/v1/demo/BruteForceAlienOnslaught",
+          "symbol": "BruteForceAlienOnslaught"
+        },
+        {
+          "id": "buffalohunter",
+          "url": "https://playin.com/embed/v1/demo/BuffaloHunter",
+          "symbol": "BuffaloHunter"
+        },
+        {
+          "id": "bushidoways",
+          "url": "https://playin.com/embed/v1/demo/BushidoWays",
+          "symbol": "BushidoWays"
+        },
+        {
+          "id": "casinowinspin",
+          "url": "https://playin.com/embed/v1/demo/CasinoWinSpin",
+          "symbol": "CasinoWinSpin"
+        },
+        {
+          "id": "catfishhunters",
+          "url": "https://playin.com/embed/v1/demo/CatfishHunters",
+          "symbol": "CatfishHunters"
+        },
+        {
+          "id": "coinsoffortune",
+          "url": "https://playin.com/embed/v1/demo/CoinsOfFortune",
+          "symbol": "CoinsOfFortune"
+        },
+        {
+          "id": "crazyexgirlfriend",
+          "url": "https://playin.com/embed/v1/demo/CrazyExGirlfriend",
+          "symbol": "CrazyExGirlfriend"
+        },
+        {
+          "id": "dday",
+          "url": "https://playin.com/embed/v1/demo/DDay",
+          "symbol": "DDay"
+        },
+        {
+          "id": "dasxboot",
+          "url": "https://playin.com/embed/v1/demo/DasxBoot",
+          "symbol": "DasxBoot"
+        },
+        {
+          "id": "dasxboot2",
+          "url": "https://playin.com/embed/v1/demo/DasxBoot2",
+          "symbol": "DasxBoot2"
+        },
+        {
+          "id": "deadcanary",
+          "url": "https://playin.com/embed/v1/demo/DeadCanary",
+          "symbol": "DeadCanary"
+        },
+        {
+          "id": "deadmenwalking",
+          "url": "https://playin.com/embed/v1/demo/DeadMenWalking",
+          "symbol": "DeadMenWalking"
+        },
+        {
+          "id": "deaddeadordeader",
+          "url": "https://playin.com/embed/v1/demo/DeadDeadOrDeader",
+          "symbol": "DeadDeadOrDeader"
+        },
+        {
+          "id": "deadwoodrip",
+          "url": "https://playin.com/embed/v1/demo/DeadwoodRip",
+          "symbol": "DeadwoodRip"
+        },
+        {
+          "id": "deadwood",
+          "url": "https://playin.com/embed/v1/demo/Deadwood",
+          "symbol": "Deadwood"
+        },
+        {
+          "id": "devilscrossroad",
+          "url": "https://playin.com/embed/v1/demo/DevilsCrossroad",
+          "symbol": "DevilsCrossroad"
+        },
+        {
+          "id": "dingdongdeath",
+          "url": "https://playin.com/embed/v1/demo/DingDongDeath",
+          "symbol": "DingDongDeath"
+        },
+        {
+          "id": "disorder",
+          "url": "https://playin.com/embed/v1/demo/Disorder",
+          "symbol": "Disorder"
+        },
+        {
+          "id": "disturbed",
+          "url": "https://playin.com/embed/v1/demo/Disturbed",
+          "symbol": "Disturbed"
+        },
+        {
+          "id": "djpsycho",
+          "url": "https://playin.com/embed/v1/demo/DjPsycho",
+          "symbol": "DjPsycho"
+        },
+        {
+          "id": "dragontribe",
+          "url": "https://playin.com/embed/v1/demo/DragonTribe",
+          "symbol": "DragonTribe"
+        },
+        {
+          "id": "duckhunters",
+          "url": "https://playin.com/embed/v1/demo/DuckHunters",
+          "symbol": "DuckHunters"
+        },
+        {
+          "id": "duckhunters2",
+          "url": "https://playin.com/embed/v1/demo/DuckHunters2",
+          "symbol": "DuckHunters2"
+        },
+        {
+          "id": "duckhuntershappyhour",
+          "url": "https://playin.com/embed/v1/demo/DuckHuntersHappyHour",
+          "symbol": "DuckHuntersHappyHour"
+        },
+        {
+          "id": "dungeonquest",
+          "url": "https://playin.com/embed/v1/demo/DungeonQuest",
+          "symbol": "DungeonQuest"
+        },
+        {
+          "id": "eastvswest",
+          "url": "https://playin.com/embed/v1/demo/EastVsWest",
+          "symbol": "EastVsWest"
+        },
+        {
+          "id": "elpaso",
+          "url": "https://playin.com/embed/v1/demo/ElPaso",
+          "symbol": "ElPaso"
+        },
+        {
+          "id": "evilgoblins",
+          "url": "https://playin.com/embed/v1/demo/EvilGoblins",
+          "symbol": "EvilGoblins"
+        },
+        {
+          "id": "fireinthehole",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole",
+          "symbol": "FireInTheHole"
+        },
+        {
+          "id": "fireinthehole2",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole2",
+          "symbol": "FireInTheHole2"
+        },
+        {
+          "id": "fireinthehole3",
+          "url": "https://playin.com/embed/v1/demo/FireInTheHole3",
+          "symbol": "FireInTheHole3"
+        },
+        {
+          "id": "flightmode",
+          "url": "https://playin.com/embed/v1/demo/FlightMode",
+          "symbol": "FlightMode"
+        },
+        {
+          "id": "folsomprison",
+          "url": "https://playin.com/embed/v1/demo/FolsomPrison",
+          "symbol": "FolsomPrison"
+        },
+        {
+          "id": "fruits",
+          "url": "https://playin.com/embed/v1/demo/Fruits",
+          "symbol": "Fruits"
+        },
+        {
+          "id": "gaelicgold",
+          "url": "https://playin.com/embed/v1/demo/GaelicGold",
+          "symbol": "GaelicGold"
+        },
+        {
+          "id": "gatorhunters",
+          "url": "https://playin.com/embed/v1/demo/GatorHunters",
+          "symbol": "GatorHunters"
+        },
+        {
+          "id": "gatorhunters2",
+          "url": "https://playin.com/embed/v1/demo/GatorHunters2",
+          "symbol": "GatorHunters2"
+        },
+        {
+          "id": "gluttony",
+          "url": "https://playin.com/embed/v1/demo/Gluttony",
+          "symbol": "Gluttony"
+        },
+        {
+          "id": "goldengenie",
+          "url": "https://playin.com/embed/v1/demo/GoldenGenie",
+          "symbol": "GoldenGenie"
+        },
+        {
+          "id": "goldenshower",
+          "url": "https://playin.com/embed/v1/demo/GoldenShower",
+          "symbol": "GoldenShower"
+        },
+        {
+          "id": "harlequin",
+          "url": "https://playin.com/embed/v1/demo/Harlequin",
+          "symbol": "Harlequin"
+        },
+        {
+          "id": "highwaytohell",
+          "url": "https://playin.com/embed/v1/demo/HighwayToHell",
+          "symbol": "HighwayToHell"
+        },
+        {
+          "id": "homeofthebrave",
+          "url": "https://playin.com/embed/v1/demo/HomeOfTheBrave",
+          "symbol": "HomeOfTheBrave"
+        },
+        {
+          "id": "hot4cash",
+          "url": "https://playin.com/embed/v1/demo/Hot4Cash",
+          "symbol": "Hot4Cash"
+        },
+        {
+          "id": "hotnudge",
+          "url": "https://playin.com/embed/v1/demo/HotNudge",
+          "symbol": "HotNudge"
+        },
+        {
+          "id": "iceiceyeti",
+          "url": "https://playin.com/embed/v1/demo/IceIceYeti",
+          "symbol": "IceIceYeti"
+        },
+        {
+          "id": "immortalfruits",
+          "url": "https://playin.com/embed/v1/demo/ImmortalFruits",
+          "symbol": "ImmortalFruits"
+        },
+        {
+          "id": "infectious5",
+          "url": "https://playin.com/embed/v1/demo/Infectious5",
+          "symbol": "Infectious5"
+        },
+        {
+          "id": "jingleballs",
+          "url": "https://playin.com/embed/v1/demo/JingleBalls",
+          "symbol": "JingleBalls"
+        },
+        {
+          "id": "karen",
+          "url": "https://playin.com/embed/v1/demo/Karen",
+          "symbol": "Karen"
+        },
+        {
+          "id": "kennethmustdie",
+          "url": "https://playin.com/embed/v1/demo/KennethMustDie",
+          "symbol": "KennethMustDie"
+        },
+        {
+          "id": "killemall",
+          "url": "https://playin.com/embed/v1/demo/KillEmAll",
+          "symbol": "KillEmAll"
+        },
+        {
+          "id": "kissmychainsaw",
+          "url": "https://playin.com/embed/v1/demo/KissMyChainsaw",
+          "symbol": "KissMyChainsaw"
+        },
+        {
+          "id": "kitchendramasushimania",
+          "url": "https://playin.com/embed/v1/demo/KitchenDramaSushiMania",
+          "symbol": "KitchenDramaSushiMania"
+        },
+        {
+          "id": "landofthefree",
+          "url": "https://playin.com/embed/v1/demo/LandOfTheFree",
+          "symbol": "LandOfTheFree"
+        },
+        {
+          "id": "legionx",
+          "url": "https://playin.com/embed/v1/demo/LegionX",
+          "symbol": "LegionX"
+        },
+        {
+          "id": "littlebighorn",
+          "url": "https://playin.com/embed/v1/demo/LittleBighorn",
+          "symbol": "LittleBighorn"
+        },
+        {
+          "id": "loner",
+          "url": "https://playin.com/embed/v1/demo/Loner",
+          "symbol": "Loner"
+        },
+        {
+          "id": "manhattangoeswild",
+          "url": "https://playin.com/embed/v1/demo/ManhattanGoesWild",
+          "symbol": "ManhattanGoesWild"
+        },
+        {
+          "id": "mayanmagic",
+          "url": "https://playin.com/embed/v1/demo/MayanMagic",
+          "symbol": "MayanMagic"
+        },
+        {
+          "id": "mental",
+          "url": "https://playin.com/embed/v1/demo/Mental",
+          "symbol": "Mental"
+        },
+        {
+          "id": "mental2",
+          "url": "https://playin.com/embed/v1/demo/Mental2",
+          "symbol": "Mental2"
+        },
+        {
+          "id": "milkyways",
+          "url": "https://playin.com/embed/v1/demo/MilkyWays",
+          "symbol": "MilkyWays"
+        },
+        {
+          "id": "miserymining",
+          "url": "https://playin.com/embed/v1/demo/MiseryMining",
+          "symbol": "MiseryMining"
+        },
+        {
+          "id": "monkeysgold",
+          "url": "https://playin.com/embed/v1/demo/MonkeysGold",
+          "symbol": "MonkeysGold"
+        },
+        {
+          "id": "munchies",
+          "url": "https://playin.com/embed/v1/demo/Munchies",
+          "symbol": "Munchies"
+        },
+        {
+          "id": "ninetofive",
+          "url": "https://playin.com/embed/v1/demo/NineToFive",
+          "symbol": "NineToFive"
+        },
+        {
+          "id": "oktoberfest",
+          "url": "https://playin.com/embed/v1/demo/Oktoberfest",
+          "symbol": "Oktoberfest"
+        },
+        {
+          "id": "outsourced",
+          "url": "https://playin.com/embed/v1/demo/Outsourced",
+          "symbol": "Outsourced"
+        },
+        {
+          "id": "outsourced2",
+          "url": "https://playin.com/embed/v1/demo/Outsourced2",
+          "symbol": "Outsourced2"
+        },
+        {
+          "id": "payday",
+          "url": "https://playin.com/embed/v1/demo/Payday",
+          "symbol": "Payday"
+        },
+        {
+          "id": "owls",
+          "url": "https://playin.com/embed/v1/demo/Owls",
+          "symbol": "Owls"
+        },
+        {
+          "id": "pearlharbor",
+          "url": "https://playin.com/embed/v1/demo/PearlHarbor",
+          "symbol": "PearlHarbor"
+        },
+        {
+          "id": "pixiesvspirates",
+          "url": "https://playin.com/embed/v1/demo/PixiesVsPirates",
+          "symbol": "PixiesVsPirates"
+        },
+        {
+          "id": "poisoneve",
+          "url": "https://playin.com/embed/v1/demo/PoisonEve",
+          "symbol": "PoisonEve"
+        },
+        {
+          "id": "possessed",
+          "url": "https://playin.com/embed/v1/demo/Possessed",
+          "symbol": "Possessed"
+        },
+        {
+          "id": "punkrocker",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker",
+          "symbol": "PunkRocker"
+        },
+        {
+          "id": "punkrocker2",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker2",
+          "symbol": "PunkRocker2"
+        },
+        {
+          "id": "punkrocker3",
+          "url": "https://playin.com/embed/v1/demo/PunkRocker3",
+          "symbol": "PunkRocker3"
+        },
+        {
+          "id": "punktoilet",
+          "url": "https://playin.com/embed/v1/demo/PunkToilet",
+          "symbol": "PunkToilet"
+        },
+        {
+          "id": "remembergulag",
+          "url": "https://playin.com/embed/v1/demo/RememberGulag",
+          "symbol": "RememberGulag"
+        },
+        {
+          "id": "roadrage",
+          "url": "https://playin.com/embed/v1/demo/RoadRage",
+          "symbol": "RoadRage"
+        },
+        {
+          "id": "roadkill",
+          "url": "https://playin.com/embed/v1/demo/RoadKill",
+          "symbol": "RoadKill"
+        },
+        {
+          "id": "rockbottom",
+          "url": "https://playin.com/embed/v1/demo/RockBottom",
+          "symbol": "RockBottom"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://playin.com",
+          "pathPrefix": "/embed/v1/demo/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "playtech",
+      "name": "Playtech",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/playtech.json",
+      "games": [
+        {
+          "id": "game-gpas_1reeler_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_1reeler_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_1reeler_pop"
+        },
+        {
+          "id": "game-gpas_15dmd_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_15dmd_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_15dmd_pop"
+        },
+        {
+          "id": "game-gpas_15hom_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_15hom_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_15hom_pop"
+        },
+        {
+          "id": "game-gpas_hom_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_hom_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_hom_pop"
+        },
+        {
+          "id": "game-gpas_3chken_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_3chken_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_3chken_pop"
+        },
+        {
+          "id": "game-gpas_fccppj_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_fccppj_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_fccppj_pop"
+        },
+        {
+          "id": "game-gpas_ffve_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_ffve_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_ffve_pop"
+        },
+        {
+          "id": "game-gpas_eigoldcd_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_eigoldcd_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_eigoldcd_pop"
+        },
+        {
+          "id": "game-gpas_jokerhr_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_jokerhr_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_jokerhr_pop"
+        },
+        {
+          "id": "game-gpas_b9fjp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_b9fjp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_b9fjp_pop"
+        },
+        {
+          "id": "game-gpas_b9fl_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_b9fl_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_b9fl_pop"
+        },
+        {
+          "id": "game-gpas_9hom_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_9hom_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_9hom_pop"
+        },
+        {
+          "id": "game-gpas_anightout_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_anightout_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_anightout_pop"
+        },
+        {
+          "id": "game-gpas_amammoth_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_amammoth_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_amammoth_pop"
+        },
+        {
+          "id": "game-gpas_amammothpp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_amammothpp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_amammothpp_pop"
+        },
+        {
+          "id": "game-ashabw",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=ashabw&preferedmode=offline&real=0",
+          "symbol": "ashabw"
+        },
+        {
+          "id": "game-ashadv",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=ashadv&preferedmode=offline&real=0",
+          "symbol": "ashadv"
+        },
+        {
+          "id": "game-gpas_aoegypt_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoegypt_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoegypt_pop"
+        },
+        {
+          "id": "game-gpas_adogs_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_adogs_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_adogs_pop"
+        },
+        {
+          "id": "game-gpas_gogold_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_gogold_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_gogold_pop"
+        },
+        {
+          "id": "game-gpas_aoggagiants_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoggagiants_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoggagiants_pop"
+        },
+        {
+          "id": "game-gpas_aogkasgard_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogkasgard_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogkasgard_pop"
+        },
+        {
+          "id": "game-gpas_aognwot_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aognwot_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aognwot_pop"
+        },
+        {
+          "id": "game-gpas_aognnl_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aognnl_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aognnl_pop"
+        },
+        {
+          "id": "game-gpas_aogaogs_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogaogs_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogaogs_pop"
+        },
+        {
+          "id": "game-gpas_olwilds_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_olwilds_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_olwilds_pop"
+        },
+        {
+          "id": "game-gpas_appower_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_appower_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_appower_pop"
+        },
+        {
+          "id": "game-gpas_aogbooracle_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogbooracle_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogbooracle_pop"
+        },
+        {
+          "id": "game-gpas_aogetroy_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogetroy_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogetroy_pop"
+        },
+        {
+          "id": "game-ftsis",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=ftsis&preferedmode=offline&real=0",
+          "symbol": "ftsis"
+        },
+        {
+          "id": "game-gpas_aogfurfour_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogfurfour_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogfurfour_pop"
+        },
+        {
+          "id": "game-gpas_aogggriffin_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogggriffin_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogggriffin_pop"
+        },
+        {
+          "id": "game-gpas_aoggstorm_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoggstorm_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoggstorm_pop"
+        },
+        {
+          "id": "game-gpas_aoggosfb_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoggosfb_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoggosfb_pop"
+        },
+        {
+          "id": "game-gpas_aoggt_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoggt_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoggt_pop"
+        },
+        {
+          "id": "game-gpas_aoggosuna1_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aoggosuna1_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aoggosuna1_pop"
+        },
+        {
+          "id": "game-gpas_aogkol_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogkol_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogkol_pop"
+        },
+        {
+          "id": "game-gpas_aogkofbx_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogkofbx_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogkofbx_pop"
+        },
+        {
+          "id": "game-gpas_mkeeper_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_mkeeper_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_mkeeper_pop"
+        },
+        {
+          "id": "game-aogmt",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=aogmt&preferedmode=offline&real=0",
+          "symbol": "aogmt"
+        },
+        {
+          "id": "game-gpas_aogrotu_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogrotu_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogrotu_pop"
+        },
+        {
+          "id": "game-gpas_aogrotsea_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogrotsea_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogrotsea_pop"
+        },
+        {
+          "id": "game-gpas_aogrotsk_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogrotsk_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogrotsk_pop"
+        },
+        {
+          "id": "game-aogroo",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=aogroo&preferedmode=offline&real=0",
+          "symbol": "aogroo"
+        },
+        {
+          "id": "game-gpas_gstorm2_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_gstorm2_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_gstorm2_pop"
+        },
+        {
+          "id": "game-gpas_agstorm3_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_agstorm3_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_agstorm3_pop"
+        },
+        {
+          "id": "game-gpas_mgaogkol_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_mgaogkol_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_mgaogkol_pop"
+        },
+        {
+          "id": "game-gpas_aogww_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogww_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogww_pop"
+        },
+        {
+          "id": "game-gpas_aogwfot_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aogwfot_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aogwfot_pop"
+        },
+        {
+          "id": "game-gpas_alohacc_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_alohacc_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_alohacc_pop"
+        },
+        {
+          "id": "game-ashamw",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=ashamw&preferedmode=offline&real=0",
+          "symbol": "ashamw"
+        },
+        {
+          "id": "game-gpas_auncoil_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_auncoil_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_auncoil_pop"
+        },
+        {
+          "id": "game-anwild",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=anwild&preferedmode=offline&real=0",
+          "symbol": "anwild"
+        },
+        {
+          "id": "game-gpas_awild2_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_awild2_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_awild2_pop"
+        },
+        {
+          "id": "game-gpas_awild2pp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_awild2pp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_awild2pp_pop"
+        },
+        {
+          "id": "game-gpas_big5_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_big5_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_big5_pop"
+        },
+        {
+          "id": "game-tmccoy",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=tmccoy&preferedmode=offline&real=0",
+          "symbol": "tmccoy"
+        },
+        {
+          "id": "game-gpas_archer_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_archer_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_archer_pop"
+        },
+        {
+          "id": "game-gpas_ccskingofa_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_ccskingofa_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_ccskingofa_pop"
+        },
+        {
+          "id": "game-gtsatq",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gtsatq&preferedmode=offline&real=0",
+          "symbol": "gtsatq"
+        },
+        {
+          "id": "game-gpas_aexpedition_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aexpedition_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aexpedition_pop"
+        },
+        {
+          "id": "game-gpas_azfruit_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_azfruit_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_azfruit_pop"
+        },
+        {
+          "id": "game-gpas_azboli_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_azboli_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_azboli_pop"
+        },
+        {
+          "id": "game-gpas_azbolipp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_azbolipp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_azbolipp_pop"
+        },
+        {
+          "id": "game-gpas_aztecwfb_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_aztecwfb_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_aztecwfb_pop"
+        },
+        {
+          "id": "game-gpas_baba_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_baba_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_baba_pop"
+        },
+        {
+          "id": "game-bs",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=bs&preferedmode=offline&real=0",
+          "symbol": "bs"
+        },
+        {
+          "id": "game-bl",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=bl&preferedmode=offline&real=0",
+          "symbol": "bl"
+        },
+        {
+          "id": "game-gpas_bbuzz_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbuzz_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbuzz_pop"
+        },
+        {
+          "id": "game-gpas_bfrenzy_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bfrenzy_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bfrenzy_pop"
+        },
+        {
+          "id": "game-bt",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=bt&preferedmode=offline&real=0",
+          "symbol": "bt"
+        },
+        {
+          "id": "game-gpas_berrybon_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_berrybon_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_berrybon_pop"
+        },
+        {
+          "id": "game-gpas_betwilds_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_betwilds_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_betwilds_pop"
+        },
+        {
+          "id": "game-gpas_betwildspp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_betwildspp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_betwildspp_pop"
+        },
+        {
+          "id": "game-gpas_bbt_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbt_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbt_pop"
+        },
+        {
+          "id": "game-gpas_bbcbb_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbcbb_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbcbb_pop"
+        },
+        {
+          "id": "game-gpas_bwolfccl_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bwolfccl_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bwolfccl_pop"
+        },
+        {
+          "id": "game-gpas_bbwhs_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbwhs_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbwhs_pop"
+        },
+        {
+          "id": "game-bigsh",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=bigsh&preferedmode=offline&real=0",
+          "symbol": "bigsh"
+        },
+        {
+          "id": "game-gpas_bisu_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bisu_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bisu_pop"
+        },
+        {
+          "id": "game-gpas_bbhcs_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbhcs_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbhcs_pop"
+        },
+        {
+          "id": "game-gpas_bbells_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbells_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbells_pop"
+        },
+        {
+          "id": "game-gpas_bbellspp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbellspp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbellspp_pop"
+        },
+        {
+          "id": "game-gpas_bwizccl_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bwizccl_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bwizccl_pop"
+        },
+        {
+          "id": "game-gpas_bbears_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbears_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbears_pop"
+        },
+        {
+          "id": "game-gpas_btbandit_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_btbandit_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_btbandit_pop"
+        },
+        {
+          "id": "game-gpas_bokings2pp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bokings2pp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bokings2pp_pop"
+        },
+        {
+          "id": "game-gpas_boking_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_boking_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_boking_pop"
+        },
+        {
+          "id": "game-gpas_bokingpp_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bokingpp_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bokingpp_pop"
+        },
+        {
+          "id": "game-gpas_boskr_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_boskr_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_boskr_pop"
+        },
+        {
+          "id": "game-gpas_boom_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_boom_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_boom_pop"
+        },
+        {
+          "id": "game-ashbob",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=ashbob&preferedmode=offline&real=0",
+          "symbol": "ashbob"
+        },
+        {
+          "id": "game-gpas_brwcc_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_brwcc_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_brwcc_pop"
+        },
+        {
+          "id": "game-gpas_bvault_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bvault_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bvault_pop"
+        },
+        {
+          "id": "game-gpas_brkbad_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_brkbad_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_brkbad_pop"
+        },
+        {
+          "id": "game-gpas_bbob_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bbob_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bbob_pop"
+        },
+        {
+          "id": "game-gpas_pblast_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_pblast_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_pblast_pop"
+        },
+        {
+          "id": "game-bup",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=bup&preferedmode=offline&real=0",
+          "symbol": "bup"
+        },
+        {
+          "id": "game-gpas_bflbz3_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bflbz3_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bflbz3_pop"
+        },
+        {
+          "id": "game-gpas_bblitz2_pop",
+          "url": "https://cachedownload.playtechone.com/ngmdesktop/casinoclient.html?game=gpas_bblitz2_pop&preferedmode=offline&real=0",
+          "symbol": "gpas_bblitz2_pop"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://cachedownload.playtechone.com",
+          "pathPrefix": "/ngmdesktop/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "playngo",
+      "name": "Play’n GO",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/playngo.json",
+      "games": [
+        {
+          "id": "1098",
+          "url": "https://www.playngo.com/games/tower-run-treasure-steps"
+        },
+        {
+          "id": "1084",
+          "url": "https://www.playngo.com/games/redtail-robber-cash-vault-heist"
+        },
+        {
+          "id": "975",
+          "url": "https://www.playngo.com/games/ghost-booster-go-guaranteed"
+        },
+        {
+          "id": "1113",
+          "url": "https://www.playngo.com/games/three-pots-of-the-genie"
+        },
+        {
+          "id": "1083",
+          "url": "https://www.playngo.com/games/chunky-carlo's-money-mania"
+        },
+        {
+          "id": "1000",
+          "url": "https://www.playngo.com/games/lawn-n'-complete-disorder"
+        },
+        {
+          "id": "1095",
+          "url": "https://www.playngo.com/games/triple-beasts-of-fortune"
+        },
+        {
+          "id": "1073",
+          "url": "https://www.playngo.com/games/unigoat"
+        },
+        {
+          "id": "1109",
+          "url": "https://www.playngo.com/games/viking-runecraft-1000"
+        },
+        {
+          "id": "1082",
+          "url": "https://www.playngo.com/games/cursed-moon-power-collection"
+        },
+        {
+          "id": "1074",
+          "url": "https://www.playngo.com/games/holy-moo-extreme-power"
+        },
+        {
+          "id": "1075",
+          "url": "https://www.playngo.com/games/stompin-gold"
+        },
+        {
+          "id": "1101",
+          "url": "https://www.playngo.com/games/moon-princess-extreme"
+        },
+        {
+          "id": "1077",
+          "url": "https://www.playngo.com/games/temple-of-three"
+        },
+        {
+          "id": "1062",
+          "url": "https://www.playngo.com/games/reactoonz-blitzways"
+        },
+        {
+          "id": "1072",
+          "url": "https://www.playngo.com/games/fate's-fortune"
+        },
+        {
+          "id": "1085",
+          "url": "https://www.playngo.com/games/legion-gold-and-the-throne-of-dead"
+        },
+        {
+          "id": "998",
+          "url": "https://www.playngo.com/games/crabby's-gold-ii"
+        },
+        {
+          "id": "1100",
+          "url": "https://www.playngo.com/games/triple-launch-fortune-wild"
+        },
+        {
+          "id": "1002",
+          "url": "https://www.playngo.com/games/gnaw'n-gold"
+        },
+        {
+          "id": "1069",
+          "url": "https://www.playngo.com/games/shark-feast"
+        },
+        {
+          "id": "992",
+          "url": "https://www.playngo.com/games/buildin'-even-more-bucks"
+        },
+        {
+          "id": "1065",
+          "url": "https://www.playngo.com/games/primal-rampage"
+        },
+        {
+          "id": "1003",
+          "url": "https://www.playngo.com/games/track-n'-gold"
+        },
+        {
+          "id": "1068",
+          "url": "https://www.playngo.com/games/granny's-wild"
+        },
+        {
+          "id": "1096",
+          "url": "https://www.playngo.com/games/infernal-trinity-go-guaranteed"
+        },
+        {
+          "id": "1071",
+          "url": "https://www.playngo.com/games/treats-of-terror-ii"
+        },
+        {
+          "id": "1070",
+          "url": "https://www.playngo.com/games/manta-mayhem"
+        },
+        {
+          "id": "1061",
+          "url": "https://www.playngo.com/games/colt-lightning-inferno"
+        },
+        {
+          "id": "991",
+          "url": "https://www.playngo.com/games/wrappin'-gold"
+        },
+        {
+          "id": "1066",
+          "url": "https://www.playngo.com/games/spice-spice-baby"
+        },
+        {
+          "id": "1005",
+          "url": "https://www.playngo.com/games/legion-gold-reckoning"
+        },
+        {
+          "id": "1078",
+          "url": "https://www.playngo.com/games/nugget-n-nonsense"
+        },
+        {
+          "id": "1022",
+          "url": "https://www.playngo.com/games/valhalluck"
+        },
+        {
+          "id": "922",
+          "url": "https://www.playngo.com/games/honey-rush-black-and-yellow"
+        },
+        {
+          "id": "993",
+          "url": "https://www.playngo.com/games/tomb-of-gold-reimagined"
+        },
+        {
+          "id": "1059",
+          "url": "https://www.playngo.com/games/hope-unleashed-fortune-rises"
+        },
+        {
+          "id": "1051",
+          "url": "https://www.playngo.com/games/wheel-of-mictlan"
+        },
+        {
+          "id": "1054",
+          "url": "https://www.playngo.com/games/wild-north-radiant-skies-go-collect"
+        },
+        {
+          "id": "1049",
+          "url": "https://www.playngo.com/games/mega-don-triple-threat"
+        },
+        {
+          "id": "1021",
+          "url": "https://www.playngo.com/games/book-of-dead-go-collect"
+        },
+        {
+          "id": "1063",
+          "url": "https://www.playngo.com/games/sails-of-riches"
+        },
+        {
+          "id": "1058",
+          "url": "https://www.playngo.com/games/3-blades-blessings"
+        },
+        {
+          "id": "1044",
+          "url": "https://www.playngo.com/games/rise-of-olympus-1000"
+        },
+        {
+          "id": "994",
+          "url": "https://www.playngo.com/games/piggy-blitz-casino-gold"
+        },
+        {
+          "id": "1067",
+          "url": "https://www.playngo.com/games/barn-busters"
+        },
+        {
+          "id": "1036",
+          "url": "https://www.playngo.com/games/legacy-of-undead-dragon-abyssways"
+        },
+        {
+          "id": "1029",
+          "url": "https://www.playngo.com/games/play'n-go-mole-digger"
+        },
+        {
+          "id": "1060",
+          "url": "https://www.playngo.com/games/piggy-heist"
+        },
+        {
+          "id": "918",
+          "url": "https://www.playngo.com/games/buildin'-more-bucks"
+        },
+        {
+          "id": "1041",
+          "url": "https://www.playngo.com/games/ra's-reckoning"
+        },
+        {
+          "id": "1047",
+          "url": "https://www.playngo.com/games/fangs-fire"
+        },
+        {
+          "id": "1057",
+          "url": "https://www.playngo.com/games/banana-rush"
+        },
+        {
+          "id": "1015",
+          "url": "https://www.playngo.com/games/tome-of-the-lost"
+        },
+        {
+          "id": "1052",
+          "url": "https://www.playngo.com/games/stadium-of-riches"
+        },
+        {
+          "id": "1039",
+          "url": "https://www.playngo.com/games/rings-of-prosperity"
+        },
+        {
+          "id": "995",
+          "url": "https://www.playngo.com/games/lawn-n'-disorder"
+        },
+        {
+          "id": "1035",
+          "url": "https://www.playngo.com/games/static-nightmare-abyssways"
+        },
+        {
+          "id": "910",
+          "url": "https://www.playngo.com/games/divina-commedia-i-nove-cerchi"
+        },
+        {
+          "id": "873",
+          "url": "https://www.playngo.com/games/reactoonz-100"
+        },
+        {
+          "id": "1055",
+          "url": "https://www.playngo.com/games/bubblin'-riches"
+        },
+        {
+          "id": "1048",
+          "url": "https://www.playngo.com/games/bao-shi"
+        },
+        {
+          "id": "1042",
+          "url": "https://www.playngo.com/games/fate-of-dead-blitzways"
+        },
+        {
+          "id": "926",
+          "url": "https://www.playngo.com/games/bullion-xpress"
+        },
+        {
+          "id": "1037",
+          "url": "https://www.playngo.com/games/lab-of-madness-it's-a-wild"
+        },
+        {
+          "id": "1033",
+          "url": "https://www.playngo.com/games/rosy-orbit-treasure-turn"
+        },
+        {
+          "id": "1016",
+          "url": "https://www.playngo.com/games/rise-of-olympus-extreme"
+        },
+        {
+          "id": "1017",
+          "url": "https://www.playngo.com/games/fire-toad-2"
+        },
+        {
+          "id": "1026",
+          "url": "https://www.playngo.com/games/fire-joker-blitz"
+        },
+        {
+          "id": "1038",
+          "url": "https://www.playngo.com/games/leprechaun's-diamond-dig"
+        },
+        {
+          "id": "1014",
+          "url": "https://www.playngo.com/games/spinnin-records-raving-reels"
+        },
+        {
+          "id": "1025",
+          "url": "https://www.playngo.com/games/13th-trial-hercules-abyssways"
+        },
+        {
+          "id": "1024",
+          "url": "https://www.playngo.com/games/lady-of-fortune-destiny-spins"
+        },
+        {
+          "id": "996",
+          "url": "https://www.playngo.com/games/play'n-go-buffalo-of-wealth"
+        },
+        {
+          "id": "1032",
+          "url": "https://www.playngo.com/games/super-flip-deluxe"
+        },
+        {
+          "id": "964",
+          "url": "https://www.playngo.com/games/the-green-knight-oath-of-thorns"
+        },
+        {
+          "id": "1023",
+          "url": "https://www.playngo.com/games/cashin'-joker"
+        },
+        {
+          "id": "702",
+          "url": "https://www.playngo.com/games/rise-of-orpheus"
+        },
+        {
+          "id": "623",
+          "url": "https://www.playngo.com/games/moon-princess-stargazing"
+        },
+        {
+          "id": "914",
+          "url": "https://www.playngo.com/games/tomb-of-gold-ii"
+        },
+        {
+          "id": "1028",
+          "url": "https://www.playngo.com/games/big-win-cat-pawsperity"
+        },
+        {
+          "id": "741",
+          "url": "https://www.playngo.com/games/viper-city-heist"
+        },
+        {
+          "id": "1020",
+          "url": "https://www.playngo.com/games/king-of-sweets"
+        },
+        {
+          "id": "1031",
+          "url": "https://www.playngo.com/games/city-of-sound"
+        },
+        {
+          "id": "1007",
+          "url": "https://www.playngo.com/games/fire-joker-100"
+        },
+        {
+          "id": "1018",
+          "url": "https://www.playngo.com/games/dragonfate's-favor"
+        },
+        {
+          "id": "1019",
+          "url": "https://www.playngo.com/games/treats-of-terror"
+        },
+        {
+          "id": "920",
+          "url": "https://www.playngo.com/games/crabby's-gold"
+        },
+        {
+          "id": "908",
+          "url": "https://www.playngo.com/games/boat-bonanza-croconile"
+        },
+        {
+          "id": "1013",
+          "url": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-dead"
+        },
+        {
+          "id": "1008",
+          "url": "https://www.playngo.com/games/moon-princess-origins"
+        },
+        {
+          "id": "985",
+          "url": "https://www.playngo.com/games/1001-mystery-genie-fortunes"
+        },
+        {
+          "id": "698",
+          "url": "https://www.playngo.com/games/loot-labyrinths"
+        },
+        {
+          "id": "986",
+          "url": "https://www.playngo.com/games/spinnin'-records-into-the-beat"
+        },
+        {
+          "id": "1006",
+          "url": "https://www.playngo.com/games/mystery-egg-surprise"
+        },
+        {
+          "id": "716",
+          "url": "https://www.playngo.com/games/go-craps"
+        },
+        {
+          "id": "742",
+          "url": "https://www.playngo.com/games/trinity-impact"
+        },
+        {
+          "id": "989",
+          "url": "https://www.playngo.com/games/medusa's-madness"
+        },
+        {
+          "id": "965",
+          "url": "https://www.playngo.com/games/legion-gold-victory"
+        },
+        {
+          "id": "987",
+          "url": "https://www.playngo.com/games/myth-of-dead"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-catalogue-only",
+      "allowlist": [
+        {
+          "origin": "https://www.playngo.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    }
+  ]
+}
