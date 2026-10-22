@@ -111,7 +111,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   if(image.length<1200)throw Error('screenshot unexpectedly small');
   const viewport=page.viewportSize();
   return {image,info:{runId,provider:'playngo',gameId:game.id,shotId:'base',
-   state:'BASE',mode:'visual',adapter:'playngo-mobile-public-demo',adapterVersion:'1',
+   state:validation?.status==='intro'?'INTRO':'BASE',mode:'visual',adapter:'playngo-mobile-public-demo',adapterVersion:'1',
    candidates:[],width:viewport.width,height:viewport.height,
    metadata:{url:game.url,source:'github-actions-catalogue',runnerId:String(runnerId).slice(0,64),
     mobileChannel:'mobile',launcherHost:launcher.hostname,publicGid:launcher.searchParams.get('gid'),

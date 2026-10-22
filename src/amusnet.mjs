@@ -173,7 +173,7 @@ export async function captureAmusnetDemo(browser,_engine,job,{
   const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000})),validateScreenshot);
   if(image.length<1600)throw Error('Amusnet demo screenshot unexpectedly small');
   return {image,info:{runId,provider:'amusnet',gameId:game.id,shotId:'base',
-   state:'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',
+   state:validation?.status==='intro'?'INTRO':'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',
    candidates:[],width:Math.round(box.width),height:Math.round(box.height),
    metadata:{url:game.url,source:'github-actions-catalogue',
     ...(validation?{captureValidation:validation}:{}),runnerId:String(runnerId).slice(0,64),frameAligned:true,

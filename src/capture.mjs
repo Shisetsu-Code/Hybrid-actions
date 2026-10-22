@@ -103,7 +103,7 @@ export async function capturePublicDemo(browser,engine,job,{
   const width=Math.round(shot.clip?.width||page.viewportSize().width);
   const height=Math.round(shot.clip?.height||page.viewportSize().height);
   const info={runId,provider:job.provider,gameId:game.id,shotId:'base',
-   state:inspected.data.state,mode,adapter:shot.aligned?inspected.data.adapter:'unaligned-frame',
+   state:validation?(validation.status==='intro'?'INTRO':'BASE'):inspected.data.state,mode,adapter:shot.aligned?inspected.data.adapter:'unaligned-frame',
    adapterVersion:inspected.data.adapterVersion||'1',
    candidates:cands,width,height,metadata:{url:game.url,
     source:'github-actions-catalogue',...(imported?{launcher:TESTER_SPIN_LAUNCHER}:{}),runnerId:String(runnerId).slice(0,64),
