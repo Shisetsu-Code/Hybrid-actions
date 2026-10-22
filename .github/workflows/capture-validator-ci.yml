@@ -1,0 +1,22 @@
+name: Capture validator image tests
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  image-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update -qq && sudo apt-get install -y tesseract-ocr tesseract-ocr-spa fonts-dejavu-core
+      - run: python -m pip install Pillow==11.3.0 pytesseract==0.3.13
+      - run: python -m unittest discover -s test -p 'test_capture_validator.py' -v

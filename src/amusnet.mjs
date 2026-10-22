@@ -1,3 +1,4 @@
+import {validatedScreenshot} from './capture-validator.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // Amusnet: publicly published English catalogue and read-only Play Demo iframe.
 // No wager/spin, raw HAR, /api/lobby body, session token, or iframe URL in output.
@@ -120,7 +121,7 @@ export async function dismissAmusnetOverlays(page,{confirmAdult=false}={}){
  throw Error('Amusnet consent/age dialog still blocking public DEMO');
 }
 export async function captureAmusnetDemo(browser,_engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot
 }={}){
  const game=job.payload?.game;
  if(job.provider!=='amusnet'||game?.provider!=='amusnet'||job.subject!==game.id)
@@ -169,13 +170,13 @@ export async function captureAmusnetDemo(browser,_engine,job,{
   await frameElement.waitFor({state:'visible',timeout:15000});
   const box=await frameElement.boundingBox();
   if(!box||box.width<160||box.height<140)throw Error('Amusnet visible game area too small');
-  const image=Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000}));
+  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000})),validateScreenshot);
   if(image.length<1600)throw Error('Amusnet demo screenshot unexpectedly small');
   return {image,info:{runId,provider:'amusnet',gameId:game.id,shotId:'base',
-   state:'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',
+   state:validation?.status==='intro'?'INTRO':'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',
    candidates:[],width:Math.round(box.width),height:Math.round(box.height),
    metadata:{url:game.url,source:'github-actions-catalogue',
-    runnerId:String(runnerId).slice(0,64),frameAligned:true,
+    ...(validation?{captureValidation:validation}:{}),runnerId:String(runnerId).slice(0,64),frameAligned:true,
     opaqueCanvas:true,capturedAt:new Date().toISOString(),
     networkDiagnostics:{format:'summary-v1',summary:{
      lobbyHttp:lobbyStatus,iframeHost:frameUrl.hostname,

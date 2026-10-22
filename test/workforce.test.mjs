@@ -121,7 +121,7 @@ test('review and ingest bearer tokens remain segregated; existing items are not 
   return {ok:true,status:200,json:async()=>data};
  };
  const cloud=new CloudClient({baseUrl:'https://worker.example',reviewToken:'secret-review',
-  ingestToken:'secret-ingest',fetcher});
+  ingestToken:'secret-ingest',fetcher,captureValidator:async()=>({status:'ready',reasons:['test'],anchors:[]})});
  const existing=await cloud.existingCapture('test-run','p1','game-p1');
  assert.equal(existing.status,'classified');
  await cloud.uploadCapture({runId:'test-run',provider:'p1',gameId:'game-p1',shotId:'base'},Buffer.from([255,216,255,217]));

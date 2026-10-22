@@ -8,6 +8,7 @@ import {loadEngine} from '../src/engine.mjs';
 import {capturePublicDemo} from '../src/capture.mjs';
 import {buildPilotPlan} from '../src/pilot-plan.mjs';
 import {captureWithRetries,providerAccessDenied} from '../src/capture-retry.mjs';
+import {validateCapturedImage} from '../src/capture-validator.mjs';
 
 const ids=(process.env.PILOT_PROVIDERS||'belatra,bgaming,ka_gaming,rubyplay,redtiger,yggdrasil,nolimit_city,playtech').split(',');
 const shotId=process.env.PILOT_SHOT_ID||'launchfix-v1';
@@ -50,7 +51,8 @@ try{
     }
     if(!lease)throw Error('Pilot session permit timeout');
     const captured=await captureWithRetries(()=>capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
-     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',runnerId:workerId}));
+     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',runnerId:workerId,
+      validateScreenshot:image=>validateCapturedImage(cloud,{runId:config.runId,provider:p.id,gameId:game.id},image)}));
     captured.info.shotId=shotId;
     if(process.env.PILOT_VISUAL_ONLY==='true'){captured.info.mode='visual';captured.info.candidates=[];}
     const item=await cloud.uploadCapture(captured.info,captured.image);
