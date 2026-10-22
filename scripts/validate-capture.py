@@ -44,7 +44,7 @@ def analyze(image,*,provider,game_id,reference=None):
  if reference:
   if reference.get('provider')!=provider or reference.get('gameId')!=game_id:
    result['reasons']=['reference-game-mismatch'];return result
-  if 'start' in seen and len(seen-{'start'})<2:
+  if 'start' in seen and len(seen&{'balance','bet','spin'})<2:
    result.update(status='intro',reasons=['actionable-intro-not-base']);return result
   baseline=Image.open(io.BytesIO(base64.b64decode(reference['image']))).convert('RGB')
   if abs((image.width/image.height)/(baseline.width/baseline.height)-1)>.05:
@@ -62,7 +62,7 @@ def analyze(image,*,provider,game_id,reference=None):
   scene_distance=(dhash(current_scene)^dhash(baseline_scene)).bit_count()
   if scene_delta>30 or scene_distance>24:
    result['reasons']=['central-scene-changed'];return result
-  if len({a['role'] for a in matches if a['matched']})>=2:
+  if len({a['role'] for a in matches if a['matched']}&{'balance','bet','spin'})>=2:
    result.update(status='ready',reasons=['same-game-instruments-match']);return result
   result['reasons']=['reference-instruments-missing'];return result
  instruments=seen&{'balance','bet','spin'}

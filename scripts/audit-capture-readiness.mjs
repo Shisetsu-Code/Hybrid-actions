@@ -7,7 +7,7 @@ const cloud=new CloudClient({baseUrl:process.env.HYBRID_FUZZER_URL,reviewToken:p
 await cloud.requireReady();
 const config=JSON.parse(await fs.readFile('config/batches/catalog-300-20261021.json','utf8'));
 const report={runId,items:[]};
-for(const provider of config.providers)for(const game of provider.games.slice(0,2)){
+for(const provider of config.providers)for(const game of provider.games.filter((game,index)=>index<2||provider.id==='ka_gaming'&&game.id==='777vegas')){
  const id=[runId,provider.id,game.id,'base'].join(':');
  try{
   const {item,image,imageSha256}=await verifyStoredCapture(cloud,id);
