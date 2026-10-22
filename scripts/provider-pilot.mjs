@@ -7,6 +7,7 @@ import {validateConfig} from '../src/config.mjs';
 import {loadEngine} from '../src/engine.mjs';
 import {capturePublicDemo} from '../src/capture.mjs';
 import {buildPilotPlan} from '../src/pilot-plan.mjs';
+import {captureWithRetries,providerAccessDenied} from '../src/capture-retry.mjs';
 
 const ids=(process.env.PILOT_PROVIDERS||'belatra,bgaming,ka_gaming,rubyplay,redtiger,yggdrasil,nolimit_city,playtech').split(',');
 const shotId=process.env.PILOT_SHOT_ID||'launchfix-v1';
@@ -48,15 +49,15 @@ try{
      if(x.granted)lease=x;else await new Promise(done=>setTimeout(done,Math.min(30000,Math.max(1000,x.retryAfterMs||5000))));
     }
     if(!lease)throw Error('Pilot session permit timeout');
-    const captured=await capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
-     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',runnerId:workerId});
+    const captured=await captureWithRetries(()=>capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
+     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',runnerId:workerId}));
     captured.info.shotId=shotId;
     if(process.env.PILOT_VISUAL_ONLY==='true'){captured.info.mode='visual';captured.info.candidates=[];}
     const item=await cloud.uploadCapture(captured.info,captured.image);
     const {item:stored,image,imageSha256:hash}=await verifyStoredCapture(cloud,item.id,{image:captured.image});
     Object.assign(row,{result:'stored',itemId:item.id,bytes:image.length,imageSha256:hash,width:stored.width,height:stored.height,state:stored.state,mode:stored.mode,d1Verified:true,r2Verified:true});
     if(process.env.PILOT_OUTPUT_DIR){await fs.mkdir(process.env.PILOT_OUTPUT_DIR,{recursive:true});await fs.writeFile(path.join(process.env.PILOT_OUTPUT_DIR,p.id+'-'+game.id+'.jpg'),image);}
-   }catch(error){row.result='error';row.error=safeError(error);}
+   }catch(error){row.result='error';row.error=safeError(error);if(providerAccessDenied(error)){row.providerBlocked=true;break;}}
    finally{
     if(lease)await cloud.releaseSession(lease,workerId);
     row.finishedAt=new Date().toISOString();report.attempts.push(row);await save();console.log('PILOT_RESULT '+JSON.stringify(row));
