@@ -1,5 +1,5 @@
 """Remote diagnostic only: Tesseract positions, Laya multilingual semantics."""
-import os,sys,json,base64,io,importlib.util
+import os,sys,json,base64,io,importlib.util,hashlib
 from pathlib import Path
 os.environ.setdefault('OMP_THREAD_LIMIT','1')
 os.environ.setdefault('TOKENIZERS_PARALLELISM','false')
@@ -38,11 +38,20 @@ def main():
  torch.set_num_threads(2)
  agent=Agent('convaiinnovations/laya',device='cpu',subfolder='multilingual',revision=REVISION,backend='eager')
  if '--warmup' in sys.argv:return
- from PIL import Image
+ from PIL import Image,ImageChops,ImageStat
  spec=importlib.util.spec_from_file_location('ocr',Path(__file__).with_name('validate-capture.py'));ocr=importlib.util.module_from_spec(spec);spec.loader.exec_module(ocr)
  for line in sys.stdin:
   try:
-   request=json.loads(line);image=Image.open(io.BytesIO(base64.b64decode(request['image']))).convert('RGB');words=ocr.read_words(image)
+   request=json.loads(line);image=Image.open(io.BytesIO(base64.b64decode(request['image']))).convert('RGB')
+   if request.get('verify'):
+    before=Image.open(io.BytesIO(base64.b64decode(request['verify']['before']))).convert('RGB');rect=request['verify']['rect'];ok=False
+    if before.size==image.size and len(rect)==4 and all(isinstance(n,(int,float)) and 0<=n<=1 for n in rect):
+     current=ocr.crop(image,rect);old=ocr.crop(before,rect)
+     scene=(.1,.1,.8,.8)
+     ok=(ocr.dhash(current)^ocr.dhash(old)).bit_count()<=6 and max(ImageStat.Stat(current).stddev)>8 and sum(ImageStat.Stat(ImageChops.difference(current,old)).mean)/3<=15 and (ocr.dhash(ocr.crop(image,scene))^ocr.dhash(ocr.crop(before,scene))).bit_count()<=10
+    print(json.dumps({'id':request['id'],'result':{'ok':ok,'sourceImageSha256':hashlib.sha256(base64.b64decode(request['verify']['before'])).hexdigest(),'currentImageSha256':hashlib.sha256(base64.b64decode(request['image'])).hexdigest()}}),flush=True)
+    continue
+   words=ocr.read_words(image)
    passes=getattr(words,'passes',[])
    if not passes or passes[0]['status']!='ok':raise RuntimeError('full scene OCR unavailable')
    context=' '.join(w['word'] for w in sorted(words,key=lambda w:(w['y'],w['x'])))[:1800]

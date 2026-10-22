@@ -8,13 +8,18 @@ test('a Laya mistake cannot turn spins, purchases, stake selection or cookies in
 });
 test('entry-only test records before and after without requiring balance or certifying readiness',async()=>{
  let snapshots=0,clicks=0;const saved=[];
- const result=await probeIntro(async()=>Buffer.from([++snapshots]),async()=>({blocks:snapshots===1?[block]:[],visualHash:String(snapshots)}),{advanceIntro:async()=>clicks++,save:async(image,step)=>{saved.push([image[0],step]);return 'report-'+step;},sleep:async()=>{}});
+ const result=await probeIntro(async()=>Buffer.from([++snapshots]),async()=>({blocks:snapshots===1?[block]:[],visualHash:String(snapshots)}),{advanceIntro:async()=>clicks++,verifyCurrent:async()=>({ok:true}),save:async(image,step)=>{saved.push([image[0],step]);return 'report-'+step;},sleep:async()=>{}});
  assert.equal(clicks,1);assert.deepEqual(saved,[[1,0],[2,1]]);assert.equal(result.probe.outcome,'intro-no-longer-detected');assert.equal(result.probe.gameReadyVerified,false);
 });
 test('same screen is never clicked twice and model failures retain the original observation',async()=>{
  let clicks=0;
- const result=await probeIntro(async()=>Buffer.from([1]),async()=>({blocks:[block],visualHash:'unchanged'}),{advanceIntro:async()=>clicks++,save:async()=> 'proof',sleep:async()=>{}});
+ const result=await probeIntro(async()=>Buffer.from([1]),async()=>({blocks:[block],visualHash:'unchanged'}),{advanceIntro:async()=>clicks++,verifyCurrent:async()=>({ok:true}),save:async()=> 'proof',sleep:async()=>{}});
  assert.equal(clicks,1);assert.equal(result.probe.outcome,'intro-still-visible');
  const failed=await probeIntro(async()=>Buffer.from([1]),async()=>{throw Error('model down');},{save:async()=> 'before-error'});
  assert.equal(failed.probe.observations[0].reportId,'before-error');assert.equal(failed.probe.outcome,'laya-analysis-failed');
+});
+test('a stale or unverifiable entry is never clicked',async()=>{
+ let clicks=0;
+ const result=await probeIntro(async()=>Buffer.from([1]),async()=>({blocks:[block],visualHash:'before'}),{advanceIntro:async()=>clicks++,verifyCurrent:async()=>({ok:false}),save:async()=> 'before'});
+ assert.equal(clicks,0);assert.equal(result.probe.outcome,'entry-not-currently-verified');
 });
