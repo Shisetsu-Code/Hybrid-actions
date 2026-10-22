@@ -34,4 +34,9 @@ class CaptureValidationTests(unittest.TestCase):
   changed=image.copy();ImageDraw.Draw(changed).rectangle((180,120,820,500),fill='white')
   result=validator.analyze(changed,provider='sample',game_id='one',reference=ref)
   self.assertNotEqual(result['status'],'ready')
+ def test_small_idle_animation_does_not_invalidate_instruments(self):
+  image=shot('BALANCE 1000    BET 0.20    SPIN');data=io.BytesIO();image.save(data,format='JPEG')
+  ref={'provider':'sample','gameId':'one','image':base64.b64encode(data.getvalue()).decode(),'anchors':validator.analyze(image,provider='sample',game_id='one')['anchors']}
+  changed=image.copy();ImageDraw.Draw(changed).ellipse((410,250,450,290),fill='#885544')
+  self.assertEqual(validator.analyze(changed,provider='sample',game_id='one',reference=ref)['status'],'ready')
 if __name__=='__main__':unittest.main()

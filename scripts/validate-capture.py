@@ -65,7 +65,7 @@ def analyze(image,*,provider,game_id,reference=None):
   if len({a['role'] for a in matches if a['matched']})>=2:
    result.update(status='ready',reasons=['same-game-instruments-match']);return result
   result['reasons']=['reference-instruments-missing'];return result
- instruments=seen-{'start'}
+ instruments=seen&{'balance','bet','spin'}
  if len(instruments)>=2:
   result.update(status='ready',reasons=['visible-distinct-instruments','no-approved-reference-yet'])
  elif 'start' in seen:
