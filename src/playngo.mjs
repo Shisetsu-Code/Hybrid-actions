@@ -1,4 +1,5 @@
 import {validatedScreenshot} from './capture-validator.mjs';
+import {clearCaptureCookies,clickCaptureIntro} from './capture-cleanup.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
 // Official Play'n GO catalogue and read-only mobile practice DEMO adapter.
 // Never infer GID from a title/slug; use the official detail-page mobileUrl.
@@ -107,7 +108,10 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   if(!(canvases>0&&assets.configMobile>0&&assets.mobileUI>0&&assets.configV2>0))
    throw Error('mobile game not initialized; not uploading a misleading screenshot');
   await captureWait(gameStartedAt,{waitMs});
-  const {image,validation}=await validatedScreenshot(async()=>Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false})),validateScreenshot);
+  const {image,validation}=await validatedScreenshot(async()=>{
+   if(validateScreenshot)await clearCaptureCookies(page);
+   return Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false}));
+  },validateScreenshot,{clean:true,advanceIntro:action=>clickCaptureIntro(page,{x:0,y:0,...page.viewportSize()},action)});
   if(image.length<1200)throw Error('screenshot unexpectedly small');
   const viewport=page.viewportSize();
   return {image,info:{runId,provider:'playngo',gameId:game.id,shotId:'base',

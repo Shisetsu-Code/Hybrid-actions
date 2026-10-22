@@ -3,7 +3,7 @@ import base64, io, json, os, re, sys, unicodedata
 from PIL import Image, ImageDraw, ImageStat, ImageChops, ImageOps
 import pytesseract
 
-VERSION='1'
+VERSION='2'
 LABELS={'balance':{'balance','saldo','credit','credits','credito','creditos'},
         'bet':{'bet','apuesta','stake'},'spin':{'spin','girar'},
         'menu':{'menu'},'buy':{'buy','comprar'},
@@ -19,7 +19,7 @@ def read_words(image):
  words=[]
  # Scan the whole image plus enlarged toolbar/action areas. Coordinates always
  # map back to this game's original JPEG, never to another provider's layout.
- for region,scale,psm in [((0,0,1,1),1,11),((0,.68,1,.32),2,6),((.12,.56,.76,.42),2,11)]:
+ for region,scale,psm in [((0,0,1,1),1,11),((0,.68,1,.32),2,6),((.12,.56,.76,.42),2,11),((0,.72,1,.28),3,11)]:
   part=crop(image,region)
   if scale!=1:part=ImageOps.autocontrast(part.convert('L')).resize((part.width*scale,part.height*scale))
   data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=10)
@@ -30,6 +30,39 @@ def read_words(image):
    if existing is None:words.append(entry)
    elif entry['confidence']>existing['confidence']:existing.update(entry)
  return words
+
+def intro_action(words,image):
+ # Only complete entry prompts qualify. Never click a word extracted from a
+ # purchase, spin, autoplay or stake confirmation sentence.
+ patterns=[r'(?:click|tap|press)(?: anywhere)? to (?:continue|start|begin)',
+           r'(?:click|tap|press) anywhere(?: to (?:continue|start|begin))?',
+           r'(?:haz clic|pulsa|toca|presiona)(?: en cualquier (?:parte|lugar))? para (?:continuar|comenzar|iniciar)',
+           r'(?:start|continue|continuar|comenzar|iniciar)']
+ for seed in words:
+  line=sorted([w for w in words if abs((w['y']+w['h']/2)-(seed['y']+seed['h']/2))<max(5,min(seed['h'],w['h'])*.55)],key=lambda w:w['x'])
+  unique=[]
+  for w in line:
+   if not any(abs(w['x']-v['x'])<max(8,w['w']*.4) for v in unique):unique.append(w)
+  text=' '.join(re.sub(r'[^a-z ]','',w['word']).strip() for w in unique).strip()
+  if not any(re.fullmatch(p,text) for p in patterns):continue
+  if min(w['confidence'] for w in unique)<50:continue
+  left=min(w['x'] for w in unique);top=min(w['y'] for w in unique)
+  right=max(w['x']+w['w'] for w in unique);bottom=max(w['y']+w['h'] for w in unique)
+  return {'kind':'intro','text':text,'rect':[left/image.width,top/image.height,(right-left)/image.width,(bottom-top)/image.height]}
+ return None
+
+def balance_evidence(words,image):
+ for label in words:
+  if re.sub(r'[^a-z]','',label['word']) not in LABELS['balance'] or label['confidence']<50:continue
+  # A nearby amount is essential: title text or jackpot values are not balance.
+  for amount in words:
+   token=amount['word'].strip('$€£:')
+   if amount['confidence']<50 or not re.fullmatch(r'\d+(?:[.,]\d+)*',token):continue
+   same_line=abs(amount['y']-label['y'])<max(label['h'],amount['h'])*.8 and 0<=amount['x']-label['x']-label['w']<image.width*.18
+   below=0<=amount['y']-label['y']<max(label['h']*3,image.height*.055) and abs(amount['x']-label['x'])<image.width*.09
+   if same_line or below:
+    return {'rect':[label['x']/image.width,label['y']/image.height,label['w']/image.width,label['h']/image.height], 'amount':token}
+ return None
 def analyze(image,*,provider,game_id,reference=None):
  image=image.convert('RGB')
  result={'validatorVersion':VERSION,'provider':provider,'gameId':game_id,'status':'uncertain','reasons':[],'anchors':[]}
@@ -44,6 +77,12 @@ def analyze(image,*,provider,game_id,reference=None):
   if re.search(pattern,text):result.update(status=status,reasons=[status+'-screen']);return result
  if len(re.findall(r'\b\d+[,.]\d{2}\b',text))>=8 and re.search(r'\b(lineas|lines|apuesta|bet)\b',text):
   result.update(status='overlay',reasons=['stake-selection-covers-game']);return result
+ result['balanceEvidence']=balance_evidence(words,image)
+ action=intro_action(words,image)
+ if action:
+  result['introAction']=action
+  result['anchors']=[{'role':'start','rect':action['rect'],'matched':False}]
+  result.update(status='intro',reasons=['explicit-entry-prompt']);return result
  seen=set()
  for word in sorted(words,key=lambda w:w['confidence'],reverse=True):
   token=re.sub(r'[^a-z]','',word['word'])
@@ -56,6 +95,10 @@ def analyze(image,*,provider,game_id,reference=None):
  if 'start' not in seen and re.search(r'(click|tap)\s+anywhere',text):
   word=next(w for w in words if re.sub(r'[^a-z]','',w['word']) in ('click','tap'))
   result['anchors'].append({'role':'start','rect':[word['x']/image.width,word['y']/image.height,min(.4,1-word['x']/image.width),min(.08,1-word['y']/image.height)],'matched':False});seen.add('start')
+ # An approved introduction is not a reference for the subsequent base scene.
+ # Bootstrap the new base from its own visible instruments and numeric balance.
+ if reference and reference.get('stage')=='intro' and result.get('balanceEvidence') and len(seen&{'balance','bet','spin'})>=2:
+  reference=None
  if reference:
   if reference.get('provider')!=provider or reference.get('gameId')!=game_id:
    result['reasons']=['reference-game-mismatch'];return result
