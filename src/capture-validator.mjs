@@ -2,13 +2,14 @@ import {spawn} from 'node:child_process';import {fileURLToPath} from 'node:url';
 const cache=new WeakMap();
 const sha=image=>createHash('sha256').update(image).digest('hex');
 function runImageCheck(payload){
- if(process.env.GITHUB_ACTIONS!=='true')throw Error('Capture validation runs exclusively in GitHub Actions');
+ if(process.env.GITHUB_ACTIONS!=='true'&&process.env.HYBRID_LOCAL_OCR_TEST!=='true')throw Error('Capture validation requires GitHub Actions or explicit offline OCR test');
  return new Promise((resolve,reject)=>{
-  const child=spawn(process.env.TESTER_SPIN_PYTHON||'python3',[fileURLToPath(new URL('../scripts/validate-capture.py',import.meta.url))],{stdio:['pipe','pipe','pipe'],windowsHide:true});
-  let output='',size=0;const timer=setTimeout(()=>{child.kill();reject(Error('image validation timed out'));},45000);
-  child.stdout.on('data',bytes=>{size+=bytes.length;if(size>9*1024*1024){child.kill();return;}output+=bytes;});
-  child.stderr.on('data',()=>{});child.on('error',e=>{clearTimeout(timer);reject(e);});
-  child.on('close',code=>{clearTimeout(timer);try{if(code!==0)throw Error('image validator failed');resolve(JSON.parse(output));}catch(e){reject(e);}});
+  const child=spawn(process.env.TESTER_SPIN_PYTHON||'python3',[fileURLToPath(new URL('../scripts/validate-capture.py',import.meta.url))],{stdio:['pipe','pipe','pipe'],windowsHide:true,env:{...process.env,OMP_THREAD_LIMIT:process.env.OMP_THREAD_LIMIT||'1'}});
+  const failure=code=>Object.assign(Error('image validation '+code),{code});
+  let output='',size=0;const timer=setTimeout(()=>{child.kill();reject(failure('validator-timeout'));},45000);
+  child.stdout.on('data',bytes=>{size+=bytes.length;if(size>9*1024*1024){child.kill();reject(failure('validator-output-limit'));return;}output+=bytes;});
+  child.stderr.on('data',()=>{});child.on('error',e=>{clearTimeout(timer);reject(failure(e.code==='ENOENT'?'python-missing':'validator-start-failed'));});
+  child.on('close',code=>{clearTimeout(timer);try{if(code!==0)throw failure('validator-exit-failed');let data;try{data=JSON.parse(output);}catch{throw failure('validator-invalid-json');}resolve(data);}catch(e){reject(e);}});
   child.stdin.on('error',()=>{});child.stdin.end(JSON.stringify(payload));
  });
 }
@@ -29,7 +30,7 @@ export async function validateCapturedImage(cloud,info,image,{analyze=runImageCh
  if(reference===undefined)reference=await approvedReference(cloud,info);
  let result;
  try{result=await analyze({provider:info.provider,gameId:info.gameId,image:image.toString('base64'),reference});}
- catch{result={status:'uncertain',reasons:['validator-unavailable'],anchors:[],validatorVersion:'1',preview:image.toString('base64')};}
+ catch(error){result={status:'uncertain',reasons:['validator-unavailable'],ocr:{errorCode:/^(?:validator-[a-z-]+|python-missing)$/.test(error.code||'')?error.code:'validator-processing-error'},anchors:[],validatorVersion:'3',preview:image.toString('base64')};}
  const {preview,...details}=result;
  const report={...details,runId:info.runId,provider:info.provider,gameId:info.gameId,sourceImageSha256:sha(image),...(reference?{referenceId:reference.id,referenceSha256:reference.imageSha256}:{})};
  if(store){

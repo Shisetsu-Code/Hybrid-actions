@@ -122,7 +122,7 @@ export async function dismissAmusnetOverlays(page,{confirmAdult=false}={}){
  throw Error('Amusnet consent/age dialog still blocking public DEMO');
 }
 export async function captureAmusnetDemo(browser,_engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot
+ config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot,captureScreenshots=validatedScreenshot
 }={}){
  const game=job.payload?.game;
  if(job.provider!=='amusnet'||game?.provider!=='amusnet'||job.subject!==game.id)
@@ -171,7 +171,7 @@ export async function captureAmusnetDemo(browser,_engine,job,{
   await frameElement.waitFor({state:'visible',timeout:15000});
   const box=await frameElement.boundingBox();
   if(!box||box.width<160||box.height<140)throw Error('Amusnet visible game area too small');
-  const {image,validation}=await validatedScreenshot(async()=>{
+  const {image,validation}=await captureScreenshots(async()=>{
    if(validateScreenshot){await clearCaptureCookies(page);await dismissAmusnetOverlays(page,{confirmAdult});}
    return Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000}));
   },validateScreenshot,{clean:true,advanceIntro:async action=>clickCaptureIntro(page,await frameElement.boundingBox(),action)});

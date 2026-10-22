@@ -4,6 +4,7 @@ engine/
 .env.*
 .local/
 .cache/
+__pycache__/
 *.har
 *.jpg
 *.jpeg

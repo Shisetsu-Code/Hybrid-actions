@@ -7,10 +7,25 @@ validator=importlib.util.module_from_spec(spec);spec.loader.exec_module(validato
 def shot(text):
  image=Image.new('RGB',(1000,650),'#233344');draw=ImageDraw.Draw(image)
  draw.rectangle((80,80,920,500),fill='#774433')
- font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',28)
+ font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf' if Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf').exists() else 'C:/Windows/Fonts/arial.ttf',28)
  draw.multiline_text((100,530),text,font=font,fill='white',spacing=8)
  return image
 class CaptureValidationTests(unittest.TestCase):
+ def test_one_failed_crop_keeps_successful_words_and_sanitized_diagnostics(self):
+  data={'text':['BALANCE'],'conf':['96'],'left':[10],'top':[10],'width':[90],'height':[20]}
+  with patch.object(validator.pytesseract,'image_to_data',side_effect=[data,RuntimeError('Tesseract process timeout'),data,data]):
+   words=validator.read_words(shot('BALANCE 1000 BET 1'))
+  self.assertTrue(any(w['word']=='balance' for w in words));self.assertEqual(words.passes[1]['errorCode'],'timeout')
+  self.assertEqual(len(words.passes),4)
+ def test_failed_full_scene_never_authorizes_a_cropped_control(self):
+  data={'text':['START'],'conf':['96'],'left':[10],'top':[10],'width':[90],'height':[20]}
+  with patch.object(validator.pytesseract,'image_to_data',side_effect=[RuntimeError('timeout'),data,data,data]):
+   result=validator.analyze(shot('START'),provider='sample',game_id='one')
+  self.assertEqual(result['status'],'uncertain');self.assertEqual(result['reasons'],['ocr-scene-unavailable']);self.assertNotIn('introAction',result)
+ def test_entry_button_is_separate_from_neighboring_checkbox_text(self):
+  words=[{'word':word,'x':x,'y':500,'w':width,'h':25,'confidence':95} for word,x,width in [('continue',300,120),('do',650,25),('not',685,35),('show',730,50),('again',790,60)]]
+  action=validator.intro_action(words,shot(''))
+  self.assertEqual(action['text'],'continue');self.assertLess(action['rect'][0]+action['rect'][2],.5)
  def test_balance_requires_amount_and_ignores_jackpot(self):
   for text,expected in [('BALANCE 1000.00    BET 0.20',True),('JACKPOT 1000.00    BET 0.20',False),('BALANCE    BET',False),('BALANCE BET 0.20',False)]:
    result=validator.analyze(shot(text),provider='sample',game_id='one')

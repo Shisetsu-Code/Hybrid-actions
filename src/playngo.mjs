@@ -72,7 +72,7 @@ export function officialMobileLauncher(html){
  url.searchParams.set('channel','mobile');
  return url;
 }
-export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=25000,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot}={}){
+export async function capturePlayngoMobile(browser,engine,job,{config,runId,waitMs=25000,runnerId='runner',captureWait=waitForGameCapture,validateScreenshot,captureScreenshots=validatedScreenshot}={}){
  const game=job.payload?.game;
  if(job.provider!=='playngo'||game?.provider!=='playngo'||game.id!==job.subject)
   throw Error('invalid Playngo ticket');
@@ -108,7 +108,7 @@ export async function capturePlayngoMobile(browser,engine,job,{config,runId,wait
   if(!(canvases>0&&assets.configMobile>0&&assets.mobileUI>0&&assets.configV2>0))
    throw Error('mobile game not initialized; not uploading a misleading screenshot');
   await captureWait(gameStartedAt,{waitMs});
-  const {image,validation}=await validatedScreenshot(async()=>{
+  const {image,validation}=await captureScreenshots(async()=>{
    if(validateScreenshot)await clearCaptureCookies(page);
    return Buffer.from(await page.screenshot({type:'jpeg',quality:70,fullPage:false}));
   },validateScreenshot,{clean:true,advanceIntro:action=>clickCaptureIntro(page,{x:0,y:0,...page.viewportSize()},action)});

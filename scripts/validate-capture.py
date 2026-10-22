@@ -1,10 +1,14 @@
 """GitHub-runner image gate. OCR is local to the runner; no image is sent to an AI."""
-import base64, io, json, os, re, sys, unicodedata
+import base64, io, json, os, re, sys, unicodedata, time
 from PIL import Image, ImageDraw, ImageStat, ImageChops, ImageOps
 import pytesseract
+os.environ.setdefault('OMP_THREAD_LIMIT','1')
 
-VERSION='2'
-LABELS={'balance':{'balance','saldo','credit','credits','credito','creditos'},
+VERSION='3'
+if os.environ.get('TESSERACT_CMD'):pytesseract.pytesseract.tesseract_cmd=os.environ['TESSERACT_CMD']
+class OCRWords(list):
+ def __init__(self):super().__init__();self.passes=[]
+LABELS={'balance':{'balance','saldo','credit','credits','credito','creditos','credi'},
         'bet':{'bet','apuesta','stake'},'spin':{'spin','girar'},
         'menu':{'menu'},'buy':{'buy','comprar'},
         'start':{'start','continue','continuar','comenzar','iniciar'}}
@@ -16,13 +20,23 @@ def dhash(image):
  pixels=list(image.convert('L').resize((9,8)).getdata())
  return sum((1<<i) for i in range(64) if pixels[(i//8)*9+i%8]>pixels[(i//8)*9+i%8+1])
 def read_words(image):
- words=[]
+ words=OCRWords()
  # Scan the whole image plus enlarged toolbar/action areas. Coordinates always
  # map back to this game's original JPEG, never to another provider's layout.
- for region,scale,psm in [((0,0,1,1),1,11),((0,.68,1,.32),2,6),((.12,.56,.76,.42),2,11),((0,.72,1,.28),3,11)]:
+ for name,region,scale,psm in [('scene',(0,0,1,1),1,11),('toolbar',(0,.76,1,.24),2,6),('entry',(.3,.68,.4,.24),3,11),('balance',(0,.80,.45,.20),3,11)]:
+  started=time.monotonic()
   part=crop(image,region)
-  if scale!=1:part=ImageOps.autocontrast(part.convert('L')).resize((part.width*scale,part.height*scale))
-  data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=10)
+  # Bound pixel cost for mobile screenshots; map OCR boxes through the actual
+  # scale, including fractional scales after capping large input dimensions.
+  scale=min(scale,1800/max(part.size))
+  if scale!=1:part=ImageOps.autocontrast(part.convert('L')).resize((max(1,round(part.width*scale)),max(1,round(part.height*scale))))
+  try:
+   data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=7)
+   words.passes.append({'name':name,'status':'ok','durationMs':round((time.monotonic()-started)*1000)})
+  except Exception as error:
+   code='timeout' if isinstance(error,RuntimeError) and 'timeout' in str(error).lower() else 'binary-missing' if isinstance(error,pytesseract.TesseractNotFoundError) else 'engine-error' if isinstance(error,pytesseract.TesseractError) else 'processing-error'
+   words.passes.append({'name':name,'status':'error','errorCode':code,'durationMs':round((time.monotonic()-started)*1000)})
+   continue
   for i,word in enumerate(data['text']):
    if not word.strip() or float(data['conf'][i])<25:continue
    entry={'word':normalized(word.strip()),'x':region[0]*image.width+data['left'][i]/scale,'y':region[1]*image.height+data['top'][i]/scale,'w':data['width'][i]/scale,'h':data['height'][i]/scale,'confidence':float(data['conf'][i])}
@@ -43,18 +57,23 @@ def intro_action(words,image):
   unique=[]
   for w in line:
    if not any(max(0,min(w['x']+w['w'],v['x']+v['w'])-max(w['x'],v['x']))/max(1,min(w['w'],v['w']))>.7 for v in unique):unique.append(w)
-  unique.sort(key=lambda w:w['x'])
-  text=' '.join(re.sub(r'[^a-z ]','',w['word']).strip() for w in unique).strip()
-  if not any(re.fullmatch(p,text) for p in patterns):continue
-  if min(w['confidence'] for w in unique)<50:continue
-  left=min(w['x'] for w in unique);top=min(w['y'] for w in unique)
-  right=max(w['x']+w['w'] for w in unique);bottom=max(w['y']+w['h'] for w in unique)
-  return {'kind':'intro','text':text,'rect':[left/image.width,top/image.height,(right-left)/image.width,(bottom-top)/image.height]}
+  unique=sorted([w for w in unique if re.sub(r'[^a-z]','',w['word'])],key=lambda w:w['x'])
+  groups=[]
+  for word in unique:
+   if not groups or word['x']-(groups[-1][-1]['x']+groups[-1][-1]['w'])>max(image.width*.03,min(word['h'],groups[-1][-1]['h'])*2):groups.append([])
+   groups[-1].append(word)
+  for group in groups:
+   text=' '.join(re.sub(r'[^a-z ]','',w['word']).strip() for w in group).strip()
+   if not any(re.fullmatch(p,text) for p in patterns):continue
+   if min(w['confidence'] for w in group)<50:continue
+   left=min(w['x'] for w in group);top=min(w['y'] for w in group)
+   right=max(w['x']+w['w'] for w in group);bottom=max(w['y']+w['h'] for w in group)
+   return {'kind':'intro','text':text,'rect':[left/image.width,top/image.height,(right-left)/image.width,(bottom-top)/image.height]}
  return None
 
 def balance_evidence(words,image):
  for label in words:
-  if re.sub(r'[^a-z]','',label['word']) not in LABELS['balance'] or label['confidence']<50:continue
+  if re.sub(r'[^a-z]','',label['word']) not in LABELS['balance'] or label['confidence']<40:continue
   # A nearby amount is essential: title text or jackpot values are not balance.
   for amount in words:
    token=amount['word'].strip('$€£:')
@@ -71,6 +90,12 @@ def analyze(image,*,provider,game_id,reference=None):
  if image.width<160 or image.height<140 or max(ImageStat.Stat(image.resize((64,64))).stddev)<4:
   result['reasons']=['empty-or-small-image'];return result
  words=read_words(image)
+ passes=getattr(words,'passes',[])
+ result['ocr']={'passes':passes,'wordCount':len(words)}
+ # If the full scene could not be inspected, cropped controls cannot prove
+ # that there is no blocking message elsewhere in the game.
+ if passes and passes[0]['status']!='ok':
+  result['reasons']=['validator-unavailable' if all(p['status']!='ok' for p in passes) else 'ocr-scene-unavailable'];return result
  text=' '.join(w['word'] for w in words)
  blockers=[('blocked',r'not available in your country|geograph|access denied|attention required|restricted|no esta disponible|blocked|forbidden'),
            ('loading',r'loading|please wait|cargando|initializ|inicializ'),
@@ -151,7 +176,7 @@ def preview(image,result,reference=None):
  output=io.BytesIO();canvas.save(output,format='JPEG',quality=70);return output.getvalue()
 
 if __name__=='__main__':
- if os.environ.get('GITHUB_ACTIONS')!='true':raise SystemExit('GitHub Actions only')
+ if os.environ.get('GITHUB_ACTIONS')!='true' and os.environ.get('HYBRID_LOCAL_OCR_TEST')!='true':raise SystemExit('GitHub Actions or explicit offline OCR test only')
  payload=json.load(sys.stdin);image=Image.open(io.BytesIO(base64.b64decode(payload['image'])))
  result=analyze(image,provider=payload['provider'],game_id=payload['gameId'],reference=payload.get('reference'))
  result['preview']=base64.b64encode(preview(image,result,payload.get('reference'))).decode()
