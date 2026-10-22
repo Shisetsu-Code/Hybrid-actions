@@ -30,8 +30,8 @@ export class CloudClient{
   // /health is unauthenticated and health itself does not need REVIEW_TOKEN.
   const response=await this.fetcher(this.baseUrl+'/health',{signal:AbortSignal.timeout(15000)});
   const data=await response.json().catch(()=>({}));
-  if(!response.ok||!data.ok||data.schemaVersion<4||data.pacingReady!==true||data.workforceReady!==true)
-   throw Error('Cloudflare schema 0004 not deployed; refusing distributed execution');
+  if(!response.ok||!data.ok||data.schemaVersion<4||data.pacingReady!==true||data.workforceReady!==true||data.captureValidationReady!==true)
+   throw Error('Cloudflare schema 0004 or capture validator not deployed; refusing distributed execution');
   return data;
  }
  policies(){return this.call('/v1/work/provider/policies');}

@@ -48,7 +48,7 @@ export async function validatedScreenshot(snapshot,validate,{sleep=ms=>new Promi
  for(let attempt=0;attempt<3;attempt++){
   image=await snapshot();if(!validate)return {image};
   validation=await validate(image);
-  if(['ready','intro','blocked','overlay'].includes(validation.status))break;
+  if(['ready','intro','blocked','overlay'].includes(validation.status)||validation.reasons?.includes('validator-unavailable'))break;
   if(attempt<2)await sleep(8000);
  }
  requireReady(validation);return {image,validation};
