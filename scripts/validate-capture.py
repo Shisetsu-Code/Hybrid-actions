@@ -77,6 +77,8 @@ def analyze(image,*,provider,game_id,reference=None):
   scene_distance=(dhash(current_scene)^dhash(baseline_scene)).bit_count()
   if scene_delta>30 or scene_distance>24:
    result['reasons']=['central-scene-changed'];return result
+  if reference.get('stage')=='intro' and any(a['role']=='start' and a['matched'] for a in matches):
+   result.update(status='intro',reasons=['approved-intro-control-match']);return result
   if len({a['role'] for a in matches if a['matched']}&{'balance','bet','spin'})>=2:
    result.update(status='ready',reasons=['same-game-instruments-match']);return result
   result['reasons']=['reference-instruments-missing'];return result
