@@ -1,6 +1,18 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {validatedScreenshot,validateCapturedImage} from '../src/capture-validator.mjs';
 import {CloudClient} from '../src/client.mjs';
+import {executeTicket} from '../src/execute.mjs';
+test('regular catalogue tickets validate loading-to-ready inside their capture context',async()=>{
+ let images=0,uploaded=0;
+ const cloud={existingCapture:async()=>null,acquire:async()=>({granted:true,leaseId:'lease'}),renew:async()=>{},renewSession:async()=>{},releaseSession:async()=>{},complete:async()=>({status:'done'}),uploadCapture:async()=>{uploaded++;return {id:'saved'};}};
+ const result=await executeTicket({cloud,job:{role:'catalog',id:'job',provider:'p',subject:'g'},workerId:'worker',runId:'r',deadline:Date.now()+600000,
+  validateCapture:async()=>({status:images===1?'loading':'ready',reasons:[]}),
+  capture:async(_browser,_engine,_job,options)=>{
+   const shot=await validatedScreenshot(async()=>Buffer.from([++images]),options.validateScreenshot,{sleep:async()=>{}});
+   return {image:shot.image,info:{runId:'r',provider:'p',gameId:'g',mode:'visual',metadata:{captureValidation:shot.validation}}};
+  }});
+ assert.equal(result.status,'done');assert.equal(images,2);assert.equal(uploaded,1);
+});
 test('a blocked capture never reaches the classification ingest endpoint',async()=>{
  let requests=0;const cloud=new CloudClient({baseUrl:'https://worker.example',reviewToken:'review',ingestToken:'ingest',fetcher:async()=>{requests++;throw Error('unexpected ingest');},captureValidator:async()=>({status:'blocked',reasons:['blocked-screen'],reportId:'proof'})});
  await assert.rejects(cloud.uploadCapture({runId:'run',provider:'one',gameId:'two'},Buffer.from([255,216,255,217])),/CAPTURE_NOT_READY blocked/);assert.equal(requests,0);

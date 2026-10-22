@@ -6,7 +6,7 @@ function boundedError(error){return String(error?.message||error).slice(0,300);}
 export async function executeTicket({
  cloud,job,workerId,runId,browser,engine,config,deadline,
  waitMs=3500,confirmAdult=false,log=()=>{},sleepFn=sleep,
- capture=capturePublicDemo,discover=discoverCatalogue
+ capture=capturePublicDemo,discover=discoverCatalogue,validateCapture=validateCapturedImage
 }){
  let session=null,done=false;
  let lostLease=false;
@@ -50,7 +50,7 @@ export async function executeTicket({
   }else if(job.role==='catalog'){
    const captured=await capture(browser,engine,job,{
     config,runId,waitMs,confirmAdult,runnerId:workerId,
-    validateScreenshot:image=>validateCapturedImage(cloud,{runId,provider:job.provider,gameId:job.subject},image)});
+    validateScreenshot:image=>validateCapture(cloud,{runId,provider:job.provider,gameId:job.subject},image)});
    if(lostLease)throw Error('lease lost during DEMO capture');
    const item=await cloud.uploadCapture(captured.info,captured.image);
    result={provider:job.provider,gameId:job.subject,itemId:item.id,
