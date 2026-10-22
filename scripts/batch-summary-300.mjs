@@ -4,7 +4,9 @@ import {verifiedProviders} from '../src/pilot-plan.mjs';
 const runId=process.env.PILOT_RUN_ID;
 if(!/^[a-z0-9][a-z0-9_.-]{0,99}$/i.test(runId||''))throw Error('Invalid batch run ID');
 const c=new CloudClient({baseUrl:process.env.HYBRID_FUZZER_URL,reviewToken:process.env.HYBRID_REVIEW_TOKEN,ingestToken:process.env.HYBRID_INGEST_TOKEN});
-const summary={runId,expectedProviders:12,expectedGames:300,providers:[],cleanupErrors:[],reportErrors:[]};
+const perProvider=Number(process.env.PILOT_LIMIT||25);
+if(![10,25].includes(perProvider))throw Error('Unsupported bounded catalogue size');
+const summary={runId,expectedProviders:12,expectedGames:12*perProvider,providers:[],cleanupErrors:[],reportErrors:[]};
 for(const provider of verifiedProviders){
  try{await c.configurePolicy(provider,{enabled:false,minStartIntervalMs:20000,maxActive:1});}
  catch{summary.cleanupErrors.push(provider);}
@@ -17,7 +19,7 @@ for(const provider of verifiedProviders){
 }
 summary.stored=summary.providers.reduce((n,p)=>n+p.stored,0);
 summary.stats=await c.stats(runId);summary.finalPolicies=(await c.policies()).policies.filter(p=>verifiedProviders.includes(p.provider)).map(p=>({provider:p.provider,enabled:p.enabled}));
-summary.finishedAt=new Date().toISOString();summary.readyForClassification=summary.stored>0;summary.complete=summary.stored===300;
+summary.finishedAt=new Date().toISOString();summary.readyForClassification=summary.stored>0;summary.complete=summary.stored===summary.expectedGames;
 await fs.writeFile('batch-summary.json',JSON.stringify(summary,null,2)+'\n');
 const text='## Classification batch '+runId+'\n\n| Provider | Stored | Attempted | Errors |\n|---|---:|---:|---:|\n'+summary.providers.map(p=>`| ${p.provider} | ${p.stored} | ${p.attempts} | ${p.errors.length} |`).join('\n')+'\n\nImages are pending visual classification in private Cloudflare storage. No automatic classifications were performed.\n';
 if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,text);

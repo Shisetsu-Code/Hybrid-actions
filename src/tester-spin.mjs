@@ -204,14 +204,15 @@ export async function dismissImportedSiteOverlays(page,provider){
   if(await control.count()&&await control.isVisible())await control.click({timeout:5000});
  }
 }
-export async function openImportedDemo(page,provider,game,{engine,confirmAdult=false}={}){
+export async function openImportedDemo(page,provider,game,{engine,confirmAdult=false,confirmAge21=false}={}){
  try{
   if(['redtiger','nolimit_city','rubyplay'].includes(provider)){
-   const pattern=provider==='rubyplay'?/^Yes, I am of legal gambling age$/i:provider==='redtiger'?/^YES, I AM 18\+$/i:/^Yes, I.m 18 or older$/i;
+   const pattern=provider==='rubyplay'?/^Yes, I am of legal gambling age$/i:provider==='redtiger'?/^YES, I AM (?:18|21)\+$/i:/^Yes, I.m 18 or older$/i;
    const gates=page.getByText(pattern,{exact:true});
    if(provider==='nolimit_city')await gates.first().waitFor({state:'visible',timeout:7000}).catch(()=>{});
    for(let i=0;i<Math.min(await gates.count(),8);i++)if(await gates.nth(i).isVisible()){
     if(!confirmAdult)throw Error('adult confirmation required');
+    if(provider==='redtiger'&&/\b21\+/.test(await gates.nth(i).innerText())&&!confirmAge21)throw Error('explicit age 21 confirmation required');
     await gates.nth(i).click({timeout:8000});break;
    }
    await dismissImportedSiteOverlays(page,provider);

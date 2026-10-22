@@ -51,7 +51,7 @@ try{
     }
     if(!lease)throw Error('Pilot session permit timeout');
     const captured=await captureWithRetries(()=>capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
-     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',runnerId:workerId,
+     {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',confirmAge21:process.env.PILOT_CONFIRM_AGE_21==='true',runnerId:workerId,
       validateScreenshot:image=>validateCapturedImage(cloud,{runId:config.runId,provider:p.id,gameId:game.id},image)}));
     captured.info.shotId=shotId;
     if(process.env.PILOT_VISUAL_ONLY==='true'){captured.info.mode='visual';captured.info.candidates=[];}

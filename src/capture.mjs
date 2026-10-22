@@ -11,7 +11,7 @@ import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport,validateScreenshot
+ config,runId,waitMs=25000,confirmAdult=false,confirmAge21=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport,validateScreenshot
 }={}){
  let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
@@ -52,7 +52,7 @@ export async function capturePublicDemo(browser,engine,job,{
   if(imported){
    if(page.url().replace(/\/$/,'')!==game.url.replace(/\/$/,'')&&!isImportedRuntime(job.provider,page.url(),game))throw Error('imported DEMO redirected outside provider contract');
    phase='launch';
-   page=await openImportedDemo(page,job.provider,game,{engine,confirmAdult});
+   page=await openImportedDemo(page,job.provider,game,{engine,confirmAdult,confirmAge21});
   }else{
    if(new URL(page.url()).origin!==expectedOrigin)throw Error('demo redirected outside approved origin');
    await engine.intro.openPublicDemo(page,{provider:job.provider,url:game.url,confirmAdult});

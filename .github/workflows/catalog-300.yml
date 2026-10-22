@@ -1,4 +1,4 @@
-name: Capture 300 games (25 per provider)
+name: Capture bounded catalogue (10 or 25 per provider)
 on:
   workflow_dispatch:
     inputs:
@@ -10,6 +10,15 @@ on:
         description: Operator authorized adult confirmation
         type: boolean
         default: false
+      games_per_provider:
+        description: Number of configured games per provider
+        type: choice
+        options: ['10', '25']
+        default: '25'
+      confirm_age_21:
+        description: Operator explicitly confirmed age 21+ for Red Tiger
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -18,7 +27,7 @@ concurrency:
 jobs:
   capture:
     if: github.ref == 'refs/heads/main'
-    name: 25 games / ${{ matrix.provider }}
+    name: ${{ inputs.games_per_provider }} games / ${{ matrix.provider }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
     strategy:
@@ -33,11 +42,12 @@ jobs:
       PILOT_CONFIG: config/batches/catalog-300-20261021.json
       PILOT_RUN_ID: ${{ inputs.run_id }}
       PILOT_PROVIDERS: ${{ matrix.provider }}
-      PILOT_LIMIT: '25'
+      PILOT_LIMIT: ${{ inputs.games_per_provider }}
       PILOT_VERIFIED_ONLY: 'true'
       PILOT_VISUAL_ONLY: 'true'
       PILOT_SHOT_ID: base
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
       PILOT_REPORT_FILE: provider-report.json
     steps:
       - uses: actions/checkout@v4
@@ -79,6 +89,7 @@ jobs:
       HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
       HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
       PILOT_RUN_ID: ${{ inputs.run_id }}
+      PILOT_LIMIT: ${{ inputs.games_per_provider }}
     steps:
       - uses: actions/checkout@v4
         with:

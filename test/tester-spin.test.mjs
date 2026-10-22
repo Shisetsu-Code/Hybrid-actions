@@ -6,6 +6,17 @@ import {seedCatalogues} from '../src/seed.mjs';
 
 const d1='https://gs.1spin4win.com:10443/gmh5/games.html?game=TenLuckySpins&currency=EUR&config=1&freeplay=true&language=en&exit=none';
 const ka='https://gamesdemo.kaga88.com/?g=CapyGo123&p=demo&u=123&t=123&ak=accessKey&cr=USD&loc=es&l=https%3A%2F%2Fwww.kaga88.com%2F';
+
+test('Red Tiger 21+ confirmation requires its own explicit authorization',async()=>{
+ for(const authorized of [false,true]){
+  let clicks=0;
+  const gate={isVisible:async()=>true,innerText:async()=> 'YES, I AM 21+',click:async()=>clicks++};
+  const page={getByText:pattern=>({count:async()=>pattern.test('YES, I AM 21+')?1:0,nth:()=>gate}),locator:()=>({first(){return this;},count:async()=>0}),url:()=> 'https://games.evolution.com/demo/Test'};
+  if(authorized)assert.equal(await imported.openImportedDemo(page,'redtiger',{}, {confirmAdult:true,confirmAge21:true}),page);
+  else await assert.rejects(imported.openImportedDemo(page,'redtiger',{}, {confirmAdult:true}),error=>error.cause?.message==='explicit age 21 confirmation required');
+  assert.equal(clicks,authorized?1:0);
+ }
+});
 test('Nolimit written iframe must belong to its official entry and exact game script',async()=>{
  const game={url:'https://playin.com/embed/v1/demo/Test',symbol:'Test'};
  const frame={url:()=> 'about:blank',parentFrame:()=>({url:()=>game.url}),evaluate:async()=>['https://demo.nolimitcdn.com/games/Test/1.0.420/game.js']};
