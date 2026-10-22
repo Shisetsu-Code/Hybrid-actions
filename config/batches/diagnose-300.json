@@ -1,0 +1,116 @@
+{
+  "runId": "catalog-300-20261021",
+  "providers": [
+    {
+      "id": "pragmatic",
+      "name": "Pragmatic Play",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/pragmatic.json",
+      "games": [
+        {
+          "id": "8-dragons-slot",
+          "url": "https://www.pragmaticplay.com/en/games/8-dragons-slot/",
+          "symbol": "vs20eightdragons"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://www.pragmaticplay.com",
+          "pathPrefix": "/en/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "rubyplay",
+      "name": "RubyPlay",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/rubyplay.json",
+      "games": [
+        {
+          "id": "immortal-ways-3-fates",
+          "url": "https://rubyplay.com/games/immortal-ways-3-fates/",
+          "symbol": "rp_206"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://rubyplay.com",
+          "pathPrefix": "/games/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "redtiger",
+      "name": "Red Tiger",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/redtiger.json",
+      "games": [
+        {
+          "id": "10001-nights",
+          "url": "https://games.evolution.com/slots/10001-nights/",
+          "symbol": "15926",
+          "runtimeOrigins": [
+            "https://gserver-evo-93212de3kbqabvry.redtiger.cash"
+          ]
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://games.evolution.com",
+          "pathPrefix": "/slots/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    },
+    {
+      "id": "3oaks",
+      "name": "3 Oaks",
+      "enabled": false,
+      "approved": false,
+      "catalogFile": "config/catalogs/3oaks.json",
+      "games": [
+        {
+          "id": "3_hot_chillies",
+          "url": "https://3oaks.com/game/3_hot_chillies",
+          "symbol": "3_hot_chillies"
+        }
+      ],
+      "sources": [],
+      "preparationStatus": "tester-spin-launcher-imported-disabled",
+      "launcher": "tester-spin-v1",
+      "allowlist": [
+        {
+          "origin": "https://3oaks.com",
+          "pathPrefix": "/game/"
+        }
+      ],
+      "pacing": {
+        "minStartIntervalMs": 20000,
+        "maxActive": 1
+      }
+    }
+  ]
+}

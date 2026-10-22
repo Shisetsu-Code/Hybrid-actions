@@ -1,0 +1,62 @@
+name: Diagnose remote DEMO loading
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Separate Cloudflare batch ID (reuse to resume without replacing images)
+        required: true
+        default: catalog-300-20261021
+      confirm_adult:
+        description: Operator authorized adult confirmation
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: hybrid-diagnose-demo
+  cancel-in-progress: false
+jobs:
+  capture:
+    if: github.ref == 'refs/heads/main'
+    name: Diagnose / ${{ matrix.provider }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        provider: [pragmatic, redtiger, 3oaks, rubyplay]
+    env:
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+      PILOT_CONFIG: config/batches/diagnose-300.json
+      PILOT_RUN_ID: ${{ inputs.run_id }}
+      PILOT_PROVIDERS: ${{ matrix.provider }}
+      PILOT_LIMIT: '1'
+      PILOT_VERIFIED_ONLY: 'true'
+      PILOT_VISUAL_ONLY: 'true'
+      PILOT_SHOT_ID: base
+      PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_REPORT_FILE: provider-report.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check -r requirements-launchers.txt
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Capture only, verify each D1/R2 image, restore provider policy
+        run: node scripts/diagnose-provider.mjs
