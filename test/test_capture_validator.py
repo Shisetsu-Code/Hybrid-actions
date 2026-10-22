@@ -1,4 +1,5 @@
 import importlib.util, unittest, io, base64
+from unittest.mock import patch
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 spec=importlib.util.spec_from_file_location('validator',Path(__file__).parents[1]/'scripts'/'validate-capture.py')
@@ -39,4 +40,10 @@ class CaptureValidationTests(unittest.TestCase):
   ref={'provider':'sample','gameId':'one','image':base64.b64encode(data.getvalue()).decode(),'anchors':validator.analyze(image,provider='sample',game_id='one')['anchors']}
   changed=image.copy();ImageDraw.Draw(changed).ellipse((410,250,450,290),fill='#885544')
   self.assertEqual(validator.analyze(changed,provider='sample',game_id='one',reference=ref)['status'],'ready')
+ def test_approved_intro_button_can_match_when_ocr_cannot_read_its_font(self):
+  image=shot('START');data=io.BytesIO();image.save(data,format='JPEG')
+  ref={'provider':'sample','gameId':'one','stage':'intro','image':base64.b64encode(data.getvalue()).decode(),'anchors':[{'role':'start','rect':[.09,.80,.20,.12]}]}
+  with patch.object(validator,'read_words',return_value=[]):
+   result=validator.analyze(image,provider='sample',game_id='one',reference=ref)
+  self.assertEqual(result['status'],'intro')
 if __name__=='__main__':unittest.main()
