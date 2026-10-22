@@ -100,13 +100,14 @@ export async function capturePublicDemo(browser,engine,job,{
    if(imported)await dismissImportedSiteOverlays(page,job.provider);
    if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
     await engine.intro.dismissCatalogueOverlays(page,{provider:job.provider,url:game.url,confirmAdult,graceMs:450,requireClear:true});
-   inspected=imported?await selectVisibleImportedSurface(page,engine,job.provider,game):await engine['select-frame'].bestFrame(page,job.provider);
+   inspected=(imported?await selectVisibleImportedSurface(page,engine,job.provider,game):null)||await engine['select-frame'].bestFrame(page,job.provider);
    if(!inspected)throw Error('game surface disappeared during cleanup');
+   if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('cleanup selected a foreign game frame');
    shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
    return Buffer.from(await page.screenshot({type:'jpeg',quality:67,...(shot.clip?{clip:shot.clip}:{})}));
   },validateScreenshot,{clean:true,advanceIntro:action=>{
-   if(!shot.aligned||!shot.clip)throw Error('intro requires aligned game screenshot');
-   return clickCaptureIntro(page,shot.clip,action);
+   if(!shot.aligned)throw Error('intro requires aligned game screenshot');
+   return clickCaptureIntro(page,shot.clip||{x:0,y:0,...page.viewportSize()},action);
   }});
   const {har,summary}=await recorder.finish();
   recorded=true;
