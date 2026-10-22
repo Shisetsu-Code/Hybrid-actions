@@ -11,5 +11,6 @@ test('provider access blocks and unsupported surfaces are never blindly retried'
   let count=0;await assert.rejects(captureWithRetries(async()=>{count++;throw Error('capture failed',{cause:Error(text)});},{sleep:async()=>assert.fail('unexpected retry')}));assert.equal(count,1);
  }
  assert.equal(providerAccessDenied(Error('wrapper',{cause:Error('Provider DEMO HTTP 403 (access denied)')})),true);
+ assert.equal(providerAccessDenied(Error('public DEMO HTTP 403')),true);
  assert.equal(providerAccessDenied(Error('public DEMO HTTP 404')),false);
 });

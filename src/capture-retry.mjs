@@ -1,5 +1,5 @@
 function messages(error){const parts=[];for(let e=error;e&&parts.length<5;e=e.cause)parts.push(String(e.message||e));return parts.join(' ');}
-export function providerAccessDenied(error){return /Provider DEMO HTTP (403|429)\b/.test(messages(error));}
+export function providerAccessDenied(error){return /(?:Provider|public) DEMO HTTP (403|429)\b/.test(messages(error));}
 export async function captureWithRetries(capture,{sleep=ms=>new Promise(done=>setTimeout(done,ms))}={}){
  for(let attempt=1;;attempt++){
   try{return await capture();}
