@@ -96,7 +96,7 @@ export async function capturePublicDemo(browser,engine,job,{
   }
   phase='screenshot';
   let shot;
-  const {image,validation}=await captureScreenshots(async()=>{
+  const {image,validation,reviewOutcome}=await captureScreenshots(async()=>{
    if(validateScreenshot)await clearCaptureCookies(page);
    if(imported)await dismissImportedSiteOverlays(page,job.provider);
    if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
@@ -127,7 +127,7 @@ export async function capturePublicDemo(browser,engine,job,{
   // Never forward a raw HAR, cookies, accounts, or browser storage. The
   // diagnostics summary contains only redacted routes and action names.
   void har;
-  return {info,image};
+  return {info,image,reviewOutcome};
  }catch(error){
   if(imported)throw Error('Tester Spin DEMO '+phase+' failed',{cause:error});
   throw error;

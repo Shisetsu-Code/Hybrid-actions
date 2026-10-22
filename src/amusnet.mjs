@@ -172,12 +172,12 @@ export async function captureAmusnetDemo(browser,_engine,job,{
   await frameElement.waitFor({state:'visible',timeout:15000});
   const box=await frameElement.boundingBox();
   if(!box||box.width<160||box.height<140)throw Error('Amusnet visible game area too small');
-  const {image,validation}=await captureScreenshots(async()=>{
+  const {image,validation,reviewOutcome}=await captureScreenshots(async()=>{
    if(validateScreenshot){await clearCaptureCookies(page);await dismissAmusnetOverlays(page,{confirmAdult});}
    return Buffer.from(await frameElement.screenshot({type:'jpeg',quality:70,timeout:15000}));
   },validateScreenshot,{clean:true,click:async action=>clickReviewPoint(page,await frameElement.boundingBox(),action),advanceIntro:async action=>clickCaptureIntro(page,await frameElement.boundingBox(),action)});
   if(image.length<1600)throw Error('Amusnet demo screenshot unexpectedly small');
-  return {image,info:{runId,provider:'amusnet',gameId:game.id,shotId:'base',
+  return {image,reviewOutcome,info:{runId,provider:'amusnet',gameId:game.id,shotId:'base',
    state:validation?.status==='intro'?'INTRO':'BASE',mode:'visual',adapter:'amusnet-public-demo',adapterVersion:'1',
    candidates:[],width:Math.round(box.width),height:Math.round(box.height),
    metadata:{url:game.url,source:'github-actions-catalogue',
