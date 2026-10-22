@@ -23,7 +23,7 @@ def read_words(image):
  words=OCRWords()
  # Scan the whole image plus enlarged toolbar/action areas. Coordinates always
  # map back to this game's original JPEG, never to another provider's layout.
- for name,region,scale,psm in [('scene',(0,0,1,1),1,11),('toolbar',(0,.76,1,.24),2,6),('entry',(.3,.68,.4,.24),3,11),('balance',(0,.80,.45,.20),3,11)]:
+ for name,region,scale,psm in [('scene',(0,0,1,1),1,11),('toolbar',(0,.68,1,.32),2,6),('actions',(.12,.56,.76,.42),2,11),('footer',(0,.72,1,.28),3,11),('entry',(.3,.68,.4,.24),3,11),('balance',(0,.80,.45,.20),3,11)]:
   started=time.monotonic()
   part=crop(image,region)
   # Bound pixel cost for mobile screenshots; map OCR boxes through the actual
@@ -31,7 +31,7 @@ def read_words(image):
   scale=min(scale,1800/max(part.size))
   if scale!=1:part=ImageOps.autocontrast(part.convert('L')).resize((max(1,round(part.width*scale)),max(1,round(part.height*scale))))
   try:
-   data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=7)
+   data=pytesseract.image_to_data(part,lang='eng+spa',config='--psm '+str(psm),output_type=pytesseract.Output.DICT,timeout=5)
    words.passes.append({'name':name,'status':'ok','durationMs':round((time.monotonic()-started)*1000)})
   except Exception as error:
    code='timeout' if isinstance(error,RuntimeError) and 'timeout' in str(error).lower() else 'binary-missing' if isinstance(error,pytesseract.TesseractNotFoundError) else 'engine-error' if isinstance(error,pytesseract.TesseractError) else 'processing-error'

@@ -13,13 +13,13 @@ def shot(text):
 class CaptureValidationTests(unittest.TestCase):
  def test_one_failed_crop_keeps_successful_words_and_sanitized_diagnostics(self):
   data={'text':['BALANCE'],'conf':['96'],'left':[10],'top':[10],'width':[90],'height':[20]}
-  with patch.object(validator.pytesseract,'image_to_data',side_effect=[data,RuntimeError('Tesseract process timeout'),data,data]):
+  with patch.object(validator.pytesseract,'image_to_data',side_effect=[data,RuntimeError('Tesseract process timeout'),data,data,data,data]):
    words=validator.read_words(shot('BALANCE 1000 BET 1'))
   self.assertTrue(any(w['word']=='balance' for w in words));self.assertEqual(words.passes[1]['errorCode'],'timeout')
-  self.assertEqual(len(words.passes),4)
+  self.assertEqual(len(words.passes),6)
  def test_failed_full_scene_never_authorizes_a_cropped_control(self):
   data={'text':['START'],'conf':['96'],'left':[10],'top':[10],'width':[90],'height':[20]}
-  with patch.object(validator.pytesseract,'image_to_data',side_effect=[RuntimeError('timeout'),data,data,data]):
+  with patch.object(validator.pytesseract,'image_to_data',side_effect=[RuntimeError('timeout'),data,data,data,data,data]):
    result=validator.analyze(shot('START'),provider='sample',game_id='one')
   self.assertEqual(result['status'],'uncertain');self.assertEqual(result['reasons'],['ocr-scene-unavailable']);self.assertNotIn('introAction',result)
  def test_entry_button_is_separate_from_neighboring_checkbox_text(self):
