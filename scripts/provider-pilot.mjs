@@ -9,6 +9,10 @@ import {capturePublicDemo} from '../src/capture.mjs';
 import {buildPilotPlan} from '../src/pilot-plan.mjs';
 import {captureWithRetries,providerAccessDenied} from '../src/capture-retry.mjs';
 import {validateCapturedImage} from '../src/capture-validator.mjs';
+import {reviewedScreenshot} from '../src/capture-review.mjs';
+
+if(process.env.GITHUB_ACTIONS!=='true')throw Error('Capture executor requires GitHub-hosted Actions');
+const guided=process.env.PILOT_GPT_REVIEW==='true';
 
 const ids=(process.env.PILOT_PROVIDERS||'belatra,bgaming,ka_gaming,rubyplay,redtiger,yggdrasil,nolimit_city,playtech').split(',');
 const shotId=process.env.PILOT_SHOT_ID||'launchfix-v1';
@@ -18,6 +22,7 @@ const config=validateConfig(buildPilotPlan(raw,{providers:ids,limit:Number(proce
  runId:process.env.PILOT_RUN_ID||raw.runId,verifiedOnly:process.env.PILOT_VERIFIED_ONLY==='true'}));
 const cloud=new CloudClient({baseUrl:process.env.HYBRID_FUZZER_URL||'https://hybrid-cloud-fuzzer.braian-n-l.workers.dev',reviewToken:process.env.HYBRID_REVIEW_TOKEN,ingestToken:process.env.HYBRID_INGEST_TOKEN});
 const health=await cloud.requireReady(),before=(await cloud.policies()).policies;
+if(guided&&!health.captureReviewReady)throw Error('GPT review coordinator is not deployed');
 const engine=await loadEngine('engine'),browser=await engine.chromium.launch({headless:true});
 const report={runId:config.runId,shotId,startedAt:new Date().toISOString(),health,attempts:[],failures:[]};
 let pendingSave=Promise.resolve();
@@ -50,16 +55,18 @@ try{
      if(x.granted)lease=x;else await new Promise(done=>setTimeout(done,Math.min(30000,Math.max(1000,x.retryAfterMs||5000))));
     }
     if(!lease)throw Error('Pilot session permit timeout');
-    const captured=await captureWithRetries(()=>capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
+    const timing=guided?await cloud.call('/v1/capture-timing?'+new URLSearchParams({provider:p.id,gameId:game.id})):null;
+    const capture=()=>capturePublicDemo(browser,engine,{provider:p.id,subject:game.id,payload:{game:{provider:p.id,...game}}},
      {config,runId:config.runId,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',confirmAge21:process.env.PILOT_CONFIRM_AGE_21==='true',runnerId:workerId,
-      validateScreenshot:image=>validateCapturedImage(cloud,{runId:config.runId,provider:p.id,gameId:game.id},image)}));
+      ...(guided?{waitMs:timing.waitMs,captureWait:async(start,{waitMs})=>{const remaining=waitMs-(Date.now()-start);if(remaining>0)await new Promise(r=>setTimeout(r,remaining));},captureScreenshots:(snapshot,_validator,options)=>reviewedScreenshot(snapshot,cloud,{runId:config.runId,provider:p.id,gameId:game.id,shotId},{click:options.click,heartbeat:()=>cloud.renewSession(lease,workerId)})}:{validateScreenshot:image=>validateCapturedImage(cloud,{runId:config.runId,provider:p.id,gameId:game.id},image)})});
+    const captured=guided?await capture():await captureWithRetries(capture);
     captured.info.shotId=shotId;
     if(process.env.PILOT_VISUAL_ONLY==='true'){captured.info.mode='visual';captured.info.candidates=[];}
     const item=await cloud.uploadCapture(captured.info,captured.image);
     const {item:stored,image,imageSha256:hash}=await verifyStoredCapture(cloud,item.id,{image:captured.image});
     Object.assign(row,{result:'stored',itemId:item.id,bytes:image.length,imageSha256:hash,width:stored.width,height:stored.height,state:stored.state,mode:stored.mode,d1Verified:true,r2Verified:true});
     if(process.env.PILOT_OUTPUT_DIR){await fs.mkdir(process.env.PILOT_OUTPUT_DIR,{recursive:true});await fs.writeFile(path.join(process.env.PILOT_OUTPUT_DIR,p.id+'-'+game.id+'.jpg'),image);}
-   }catch(error){row.result='error';row.error=safeError(error);if(providerAccessDenied(error)){row.providerBlocked=true;break;}}
+   }catch(error){row.result='error';row.error=safeError(error);if(guided){row.reviewPending=true;break;}if(providerAccessDenied(error)){row.providerBlocked=true;break;}}
    finally{
     if(lease)await cloud.releaseSession(lease,workerId);
     row.finishedAt=new Date().toISOString();report.attempts.push(row);await save();console.log('PILOT_RESULT '+JSON.stringify(row));

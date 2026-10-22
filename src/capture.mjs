@@ -1,3 +1,4 @@
+import {clickReviewPoint} from './capture-review.mjs';
 import {selectVisibleImportedSurface} from './imported-surface.mjs';
 import {prepareKAPublicTransport} from './tester-spin-http.mjs';
 import {waitForGameCapture} from './capture-delay.mjs';
@@ -11,7 +12,7 @@ import {capturePlayngoMobile,discoverPlayngo} from './playngo.mjs';
 import {captureAmusnetDemo,discoverAmusnet} from './amusnet.mjs';
 
 export async function capturePublicDemo(browser,engine,job,{
- config,runId,waitMs=25000,confirmAdult=false,confirmAge21=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport,validateScreenshot
+ config,runId,waitMs=25000,confirmAdult=false,confirmAge21=false,runnerId='runner',captureWait=waitForGameCapture,createKATransport=prepareKAPublicTransport,validateScreenshot,captureScreenshots=validatedScreenshot
 }={}){
  let game=job.payload?.game;
  if(!game||game.provider!==job.provider||game.id!==job.subject)
@@ -23,8 +24,8 @@ export async function capturePublicDemo(browser,engine,job,{
   if(!known||known.url!==game.url||(known.symbol||'')!==(game.symbol||''))throw Error('imported DEMO ticket does not match configured game');
   game={...known,provider:job.provider};
  }
- if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId,captureWait,validateScreenshot});
- if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait,validateScreenshot});
+ if(job.provider==='playngo')return capturePlayngoMobile(browser,engine,job,{config,runId,waitMs,runnerId,captureWait,validateScreenshot,captureScreenshots});
+ if(job.provider==='amusnet')return captureAmusnetDemo(browser,engine,job,{config,runId,waitMs,confirmAdult,runnerId,captureWait,validateScreenshot,captureScreenshots});
 
  const expectedOrigin=new URL(game.url).origin;
  let kaTransport,context,recorder;
@@ -62,7 +63,7 @@ export async function capturePublicDemo(browser,engine,job,{
   await captureWait(gameStartedAt,{waitMs,provider:job.provider});
   let inspected=await engine['select-frame'].bestFrame(page,job.provider);
   if(!inspected)throw Error('no game iframe or DOM surface');
-  if(job.provider==='pragmatic'&&inspected.data.state==='INTRO'){
+  if(captureScreenshots===validatedScreenshot&&job.provider==='pragmatic'&&inspected.data.state==='INTRO'){
    const intro=await engine.intro.dismissKnownIntro(page,inspected,{
     inspect:()=>engine['select-frame'].bestFrame(page,job.provider)});
    inspected=intro.selected;
@@ -90,12 +91,12 @@ export async function capturePublicDemo(browser,engine,job,{
   if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('Tester Spin DEMO launch did not expose a game runtime');
   if(imported){
    const visibleCanvas=await inspected.frame.locator('canvas:visible').count()>0;
-   if(!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
+   if(captureScreenshots===validatedScreenshot&&!visibleCanvas&&!(inspected.data.mode!=='visual'&&inspected.data.candidates?.length))
     throw Error('Tester Spin runtime has no visible game surface');
   }
   phase='screenshot';
   let shot;
-  const {image,validation}=await validatedScreenshot(async()=>{
+  const {image,validation}=await captureScreenshots(async()=>{
    if(validateScreenshot)await clearCaptureCookies(page);
    if(imported)await dismissImportedSiteOverlays(page,job.provider);
    if(!imported||new URL(game.url).hostname==='www.pragmaticplay.fun')
@@ -105,7 +106,7 @@ export async function capturePublicDemo(browser,engine,job,{
    if(imported&&!await isImportedRuntimeFrame(job.provider,inspected.frame,game))throw Error('cleanup selected a foreign game frame');
    shot=await engine['select-frame'].screenshotBox(page,inspected.frame);
    return Buffer.from(await page.screenshot({type:'jpeg',quality:67,...(shot.clip?{clip:shot.clip}:{})}));
-  },validateScreenshot,{clean:true,advanceIntro:action=>{
+  },validateScreenshot,{clean:true,click:action=>clickReviewPoint(page,shot.clip||{x:0,y:0,...page.viewportSize()},action),advanceIntro:action=>{
    if(!shot.aligned)throw Error('intro requires aligned game screenshot');
    return clickCaptureIntro(page,shot.clip||{x:0,y:0,...page.viewportSize()},action);
   }});

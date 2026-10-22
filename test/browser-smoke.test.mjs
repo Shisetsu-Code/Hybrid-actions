@@ -5,6 +5,26 @@ import {capturePublicDemo} from '../src/capture.mjs';
 import {validateConfig} from '../src/config.mjs';
 import {fixtureTransport} from './fixture-transport.mjs';
 import {guardImportedNavigation,openImportedDemo} from '../src/tester-spin.mjs';
+import {reviewedScreenshot} from '../src/capture-review.mjs';
+
+test('GPT-guided quality loop clicks entry then captures the same game without OCR',
+ {skip:process.env.INTEGRATION_BROWSER!=='1',timeout:90000},async()=>{
+ const engine=await loadEngine('engine'),browser=await engine.chromium.launch({headless:true});
+ const url='https://www.pragmaticplay.fun/en/slots/fixture/';let stage=0,firstImage;
+ const cloud={call:async(path,{body})=>{
+  if(body instanceof FormData){stage++;const image=Buffer.from(await body.get('image').arrayBuffer());if(stage===1)firstImage=image;else assert.notDeepEqual(image,firstImage);return {review:{id:'fixture:p:g:base',revision:stage,status:'pending'}};}
+  return {review:{id:body.id,revision:stage,imageSha256:'fixture-hash',status:stage===1?'executing':'approved',action:stage===1?{id:'entry',kind:'click',x:.5,y:.5,waitMs:100}:null}};
+ }};
+ const transport=await fixtureTransport(browser,new Map([
+  [url,{body:'<iframe src="https://demogamesfree.pragmaticplay.net/fixture-game" style="width:900px;height:500px;border:0"></iframe>'}],
+  ['https://demogamesfree.pragmaticplay.net/fixture-game',{body:'<html><body style="margin:0;background:#224466"><button onclick="this.remove();document.body.style.background=\'green\'" style="position:fixed;inset:0;width:100%;height:100%">CONTINUE</button></body></html>'}]
+ ]));
+ const config=validateConfig({runId:'fixture-review',providers:[{id:'pragmatic',enabled:true,approved:true,pacing:{minStartIntervalMs:20000,maxActive:1},allowlist:[{origin:'https://www.pragmaticplay.fun',pathPrefix:'/en/slots/'}],games:[{id:'fixture',url}]}]});
+ try{
+  const result=await capturePublicDemo(transport.browser,engine,{provider:'pragmatic',subject:'fixture',payload:{game:{provider:'pragmatic',id:'fixture',url}}},{config,runId:config.runId,captureWait:async()=>new Promise(r=>setTimeout(r,600)),captureScreenshots:(snapshot,_validate,options)=>reviewedScreenshot(snapshot,cloud,{runId:config.runId,provider:'pragmatic',gameId:'fixture',shotId:'base'},{click:options.click})});
+  assert.equal(stage,2);assert.equal(result.info.metadata.captureValidation.reviewId,'fixture:p:g:base');
+ }finally{await transport.close();await browser.close();}
+});
 
 test('pinned engine captures a real Chromium JPEG from a completely mocked HTTPS DEMO',
  {skip:process.env.INTEGRATION_BROWSER!=='1',timeout:90000},async()=>{
