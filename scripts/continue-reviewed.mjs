@@ -40,7 +40,7 @@ if(process.env.BRANCH_PREFLIGHT==='true'){
 }
 if(before.some(p=>providers.includes(p.provider)&&p.enabled))throw Error('A selected provider is already enabled; refusing overlapping fleet ownership');
 let stop=false;process.on('SIGTERM',()=>{stop=true;});process.on('SIGINT',()=>{stop=true;});
-const browser=await engine.chromium.launch({headless:true});
+const browser=await engine.chromium.launch({headless:true,channel:'chrome'});
 const configured=[],summary={runId,engineSha:process.env.BRANCH_ENGINE_SHA,rounds:[],health};
 const deadline=Date.now()+minutes*60000;
 const errorText=e=>String(e.cause?.cause?.message||e.cause?.message||e.message).replace(/https?:\/\/\S+/g,'[URL]').slice(0,300);
