@@ -12,6 +12,8 @@ import {prepareKAPublicTransport} from '../src/tester-spin-http.mjs';
 if(process.env.GITHUB_ACTIONS!=='true')throw Error('GitHub Actions only');
 const runId=process.env.BRANCH_RUN_ID,minutes=Number(process.env.BRANCH_MINUTES||15),concurrency=Number(process.env.BRANCH_CONCURRENCY||8);
 if(!/^[a-z0-9][a-z0-9_.-]{0,99}$/i.test(runId||'')||!Number.isInteger(minutes)||minutes<1||minutes>60||!Number.isInteger(concurrency)||concurrency<1||concurrency>8)throw Error('Invalid continuation budget');
+const capacity=Number(process.env.BRANCH_PROVIDER_CAPACITY||1);
+if(![1,2,4,8].includes(capacity))throw Error('Invalid provider capacity');
 const providers=JSON.parse(process.env.BRANCH_PROVIDERS||'["pragmatic","bgaming"]');
 const games=JSON.parse(process.env.BRANCH_GAMES||'[]');
 if(!Array.isArray(games)||games.length>16||games.some(g=>typeof g!=='string'||!/^[-a-z0-9_]+\/[-a-z0-9_.]+$/i.test(g)))throw Error('Invalid selected games');
@@ -50,7 +52,7 @@ try{
  for(const p of config.providers){
   const old=before.find(row=>row.provider===p.id),policy=old||raw.providers.find(row=>row.id===p.id).pacing;
   configured.push(p.id);
-  await cloud.call('/v1/work/provider/policy',{method:'POST',body:JSON.stringify({provider:p.id,enabled:true,minStartIntervalMs:policy.minStartIntervalMs,maxActive:policy.maxActive})});
+  await cloud.call('/v1/work/provider/policy',{method:'POST',body:JSON.stringify({provider:p.id,enabled:true,minStartIntervalMs:policy.minStartIntervalMs,maxActive:capacity})});
  }
  const worker=new LoopController({cloud:filteredCloud,runId,outDir:'.local/continued-'+runId,limit:32,concurrency,coordinated:true,
   log:s=>console.log(String(s).replace(/https?:\/\/\S+/g,'[URL]')),
