@@ -59,7 +59,7 @@ jobs:
       BRANCH_PROVIDER_CAPACITY: ${{ inputs.provider_capacity }}
       BRANCH_CONCURRENCY: ${{ inputs.concurrency }}
       BRANCH_PREFLIGHT: ${{ inputs.preflight_only }}
-      BRANCH_ENGINE_SHA: b1f426fc1f6c32061116166144fb6e0f7e344c02
+      BRANCH_ENGINE_SHA: 91d0d7547b5b8993f0838ed4c3bc530be75c9ee3
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
       PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
       HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
@@ -76,7 +76,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Shisetsu-Code/hybrid-cloud-fuzzer
-          ref: b1f426fc1f6c32061116166144fb6e0f7e344c02
+          ref: 91d0d7547b5b8993f0838ed4c3bc530be75c9ee3
           path: engine
           persist-credentials: false
       - uses: actions/setup-node@v4
