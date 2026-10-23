@@ -5,6 +5,10 @@ on:
       confirm_adult:
         type: boolean
         default: false
+      real_background:
+        description: Positive control disabling Playwright focus emulation (diagnostic only)
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -20,6 +24,7 @@ jobs:
         provider: [pragmatic, bgaming]
     env:
       FOCUS_PROVIDER: ${{ matrix.provider }}
+      FOCUS_REAL_BACKGROUND: ${{ inputs.real_background }}
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
       HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
       HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}

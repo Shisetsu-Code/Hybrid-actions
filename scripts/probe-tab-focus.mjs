@@ -11,6 +11,7 @@ import {validateConfig} from '../src/config.mjs';
 import {validateCapturedImage} from '../src/capture-validator.mjs';
 if(process.env.GITHUB_ACTIONS!=='true')throw Error('GitHub Actions only');
 const provider=process.env.FOCUS_PROVIDER;
+const realBackground=process.env.FOCUS_REAL_BACKGROUND==='true';
 if(!['pragmatic','bgaming'].includes(provider))throw Error('Unsupported focus diagnostic provider');
 const runId='focus-'+process.env.GITHUB_RUN_ID+'-'+provider;
 const raw=JSON.parse(await fs.readFile('config/batches/catalog-300-20261021.json','utf8'));
@@ -21,7 +22,7 @@ const health=await cloud.requireReady();
 const policies=(await cloud.policies()).policies;
 if(policies.some(p=>p.provider===provider&&p.enabled))throw Error('Provider fleet enabled; refusing overlapping diagnostic');
 const engine=await loadEngine('engine');
-const report={runId,provider,gameId:game.id,health,engineSha:'a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d',trials:[]};
+const report={runId,provider,gameId:game.id,realBackground,health,engineSha:'a41ceed63900a6a778c6e864e0ec8e7fe44a9e9d',trials:[]};
 const clean=e=>String(e.cause?.cause?.message||e.cause?.message||e.message).replace(/https?:\/\/\S+/g,'[URL]').slice(0,250);
 // Instrumentation observes real browser visibility without spoofing it.
 const install=()=>{
@@ -33,7 +34,7 @@ const install=()=>{
  addEventListener('focus',()=>probe.focusChanges++);addEventListener('blur',()=>probe.focusChanges++);
 };
 let lastStart=0;
-for(const headless of [true,false]){
+for(const headless of (realBackground?[false]:[true,false])){
  const browser=await engine.chromium.launch({headless});
  try{
   for(const condition of ['foreground','background','restore-focus']){
@@ -71,6 +72,19 @@ for(const headless of [true,false]){
      captureWait:async()=>{
       // The launcher may have opened a popup; use its latest actual page.
       gamePage=context.pages().at(-1);
+      if(realBackground){
+       // Positive control: Playwright normally forces focus/visibility for every
+       // page. Disable that CDP emulation only here and use a sibling tab.
+       const runtime=gamePage;
+       const session=await context.newCDPSession(runtime);
+       await session.send('Emulation.setFocusEmulationEnabled',{enabled:false});
+       await coverContext.close();coverContext=null;
+       coverPage=await context.newPage();
+       await coverPage.setContent('<title>Real background control</title>Focus control');
+       const coverSession=await context.newCDPSession(coverPage);
+       await coverSession.send('Emulation.setFocusEmulationEnabled',{enabled:false});
+       gamePage=runtime;
+      }
       if(condition==='foreground')await gamePage.bringToFront();else await coverPage.bringToFront();
       await sample('runtime-start');
       for(let i=1;i<=3;i++){await sleep(10000);await sample('wait-'+i*10+'s');}
