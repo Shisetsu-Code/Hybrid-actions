@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Bound package mirror retries on ephemeral runner
+        run: |
+          printf 'Acquire::Retries "1";\nAcquire::http::Timeout "15";\nAcquire::https::Timeout "15";\n' | sudo tee /etc/apt/apt.conf.d/99hybrid-network-timeouts >/dev/null
       - uses: actions/checkout@v4
         with:
           persist-credentials: false

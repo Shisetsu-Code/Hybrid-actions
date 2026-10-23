@@ -46,6 +46,10 @@ jobs:
       HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
       HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
     steps:
+      - name: Bound package mirror retries on ephemeral runner
+        if: inputs.preflight_only != true
+        run: |
+          printf 'Acquire::Retries "1";\nAcquire::http::Timeout "15";\nAcquire::https::Timeout "15";\n' | sudo tee /etc/apt/apt.conf.d/99hybrid-network-timeouts >/dev/null
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
