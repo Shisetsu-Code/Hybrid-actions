@@ -9,6 +9,13 @@ on:
         description: JSON array of approved providers in that batch
         default: '["pragmatic","bgaming"]'
         required: true
+      games:
+        description: Optional JSON array of provider/game IDs (up to 16)
+        default: '[]'
+      wait_for_review:
+        description: Keep this bounded pilot alive while GPT classifies its next images
+        type: boolean
+        default: false
       duration_minutes:
         type: choice
         options: ['5','15','30','60']
@@ -41,10 +48,12 @@ jobs:
     env:
       BRANCH_RUN_ID: ${{ inputs.run_id }}
       BRANCH_PROVIDERS: ${{ inputs.providers }}
+      BRANCH_GAMES: ${{ inputs.games }}
+      BRANCH_WAIT_FOR_REVIEW: ${{ inputs.wait_for_review }}
       BRANCH_MINUTES: ${{ inputs.duration_minutes }}
       BRANCH_CONCURRENCY: ${{ inputs.concurrency }}
       BRANCH_PREFLIGHT: ${{ inputs.preflight_only }}
-      BRANCH_ENGINE_SHA: 1d37815e6a3cf729154feab43fd77a2a0d9678ee
+      BRANCH_ENGINE_SHA: d5fa9dfec827cd8601e92c632494e54d591b5d4f
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
       PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
       HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
@@ -61,7 +70,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Shisetsu-Code/hybrid-cloud-fuzzer
-          ref: 1d37815e6a3cf729154feab43fd77a2a0d9678ee
+          ref: d5fa9dfec827cd8601e92c632494e54d591b5d4f
           path: engine
           persist-credentials: false
       - uses: actions/setup-node@v4

@@ -13,6 +13,10 @@ if(process.env.GITHUB_ACTIONS!=='true')throw Error('GitHub Actions only');
 const runId=process.env.BRANCH_RUN_ID,minutes=Number(process.env.BRANCH_MINUTES||15),concurrency=Number(process.env.BRANCH_CONCURRENCY||8);
 if(!/^[a-z0-9][a-z0-9_.-]{0,99}$/i.test(runId||'')||!Number.isInteger(minutes)||minutes<1||minutes>60||!Number.isInteger(concurrency)||concurrency<1||concurrency>8)throw Error('Invalid continuation budget');
 const providers=JSON.parse(process.env.BRANCH_PROVIDERS||'["pragmatic","bgaming"]');
+const games=JSON.parse(process.env.BRANCH_GAMES||'[]');
+if(!Array.isArray(games)||games.length>16||games.some(g=>typeof g!=='string'||!/^[-a-z0-9_]+\/[-a-z0-9_.]+$/i.test(g)))throw Error('Invalid selected games');
+const gameSet=new Set(games);
+const selectedDecision=i=>providers.includes(i.provider)&&(!gameSet.size||gameSet.has(i.provider+'/'+i.gameId));
 // These routes have an existing tested launcher; other provider-specific launchers
 // are deliberately not replaced with a guessed URL or canvas click.
 const supported=['pragmatic','bgaming','1spin4win','ka_gaming','3oaks','rubyplay','yggdrasil','redtiger','nolimit_city','playtech'];
@@ -28,7 +32,7 @@ const health=await cloud.call('/health');
 if(!health.ok||health.schemaVersion<4||health.branchTransitionsVersion!==1||!health.branchCoordinationReady||!health.pacingReady||!health.workforceReady)throw Error('Updated cloud branch coordination is not ready');
 const before=(await cloud.call('/v1/work/provider/policies')).policies;
 if(process.env.BRANCH_PREFLIGHT==='true'){
- const decisions=(await cloud.allDecisions(runId)).filter(i=>providers.includes(i.provider));
+ const decisions=(await cloud.allDecisions(runId)).filter(selectedDecision);
  const report={preflight:true,runId,engineSha:process.env.BRANCH_ENGINE_SHA,health,classifiedDecisions:decisions.length,games:new Set(decisions.map(i=>i.provider+'/'+i.gameId)).size,providers:before.filter(p=>providers.includes(p.provider)).map(({provider,enabled,minStartIntervalMs,maxActive})=>({provider,enabled,minStartIntervalMs,maxActive}))};
  await fs.writeFile('continuation-summary.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));process.exit(0);
 }
@@ -39,7 +43,7 @@ const configured=[],summary={runId,engineSha:process.env.BRANCH_ENGINE_SHA,round
 const deadline=Date.now()+minutes*60000;
 const errorText=e=>String(e.cause?.cause?.message||e.cause?.message||e.message).replace(/https?:\/\/\S+/g,'[URL]').slice(0,300);
 const filteredCloud=new Proxy(cloud,{get(target,key){
- if(key==='allDecisions')return async id=>(await target.allDecisions(id)).filter(i=>providers.includes(i.provider));
+ if(key==='allDecisions')return async id=>(await target.allDecisions(id)).filter(selectedDecision);
  return typeof target[key]==='function'?target[key].bind(target):target[key];
 }});
 try{
@@ -83,7 +87,7 @@ try{
   }});
  do{
   const round=await worker.once();summary.rounds.push(round);console.log('CONTINUATION_ROUND '+JSON.stringify(round));
-  if(round.waiting)break; // GPT's next image batch is the prerequisite, not a busy loop.
+  if(round.waiting&&process.env.BRANCH_WAIT_FOR_REVIEW!=='true')break;
   if(!stop&&Date.now()<deadline)await sleep(5000);
  }while(!stop&&Date.now()<deadline);
 }finally{
