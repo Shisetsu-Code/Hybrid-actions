@@ -62,7 +62,14 @@ try{
    if(!game)throw Error('Reviewed game absent from approved frozen catalogue');
    providerForUrl(config,p.id,game.url);
    const owner='branch-'+process.env.GITHUB_RUN_ID+'-'+task.id.slice(0,16);
-   const lease=await cloud.call('/v1/work/provider/lease',{method:'POST',body:JSON.stringify({provider:p.id,runId,gameId:game.id,workerId:owner,leaseSeconds:900})});
+   let lease=await cloud.call('/v1/work/provider/lease',{method:'POST',body:JSON.stringify({provider:p.id,runId,gameId:game.id,workerId:owner,leaseSeconds:900})});
+   // Keep this free slot waiting for its provider start interval while the
+   // other game's browser is running; deferring the entire polling round would
+   // serialize same-provider games despite available parallel capacity.
+   if(!lease.granted&&lease.reason==='pacing'&&!stop&&Date.now()+lease.retryAfterMs<deadline){
+    await sleep(Math.max(1000,Math.min(60000,lease.retryAfterMs)));
+    if(!stop)lease=await cloud.call('/v1/work/provider/lease',{method:'POST',body:JSON.stringify({provider:p.id,runId,gameId:game.id,workerId:owner,leaseSeconds:900})});
+   }
    return lease.granted?{p,game,owner,lease}:{deferred:true,reason:lease.reason};
   },
   release:async(_task,{owner,lease})=>cloud.call('/v1/work/provider/release',{method:'POST',body:JSON.stringify({leaseId:lease.leaseId,workerId:owner})}),
