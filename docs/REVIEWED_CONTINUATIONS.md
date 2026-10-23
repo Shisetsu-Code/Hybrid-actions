@@ -6,7 +6,8 @@ Use **Actions → Continue GPT-reviewed DEMO branches → Run workflow**.
 2. Select the providers as a JSON array, for example `["pragmatic","bgaming"]`.
 3. Choose the time budget and up to eight concurrent games. Existing per-provider
    capacity and start intervals remain in force.
-4. Enable adult confirmation only with the operator's authorization.
+4. Enable adult confirmation only with the operator's authorization. Providers
+   with a 21+ gate additionally require `confirm_age_21`.
 5. Optionally select `preflight_only` to verify authentication, production engine
    compatibility and batch counts without starting a browser or changing policies.
 

@@ -74,7 +74,7 @@ try{
      catch(e){await context.close();throw e;}
     }};
     return await executeDemoBranch(task,source,{browser:wrapped,manifest:[{provider:p.id,...game}],resolveUrl:()=>url,
-     openDemo:async page=>({page:directPragmatic?(await engine.intro.openPublicDemo(page,{provider:p.id,url,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true'}),page):await openImportedDemo(page,p.id,game,{engine,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true'})}),
+     openDemo:async page=>({page:directPragmatic?(await engine.intro.openPublicDemo(page,{provider:p.id,url,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true'}),page):await openImportedDemo(page,p.id,game,{engine,confirmAdult:process.env.PILOT_CONFIRM_ADULT==='true',confirmAge21:process.env.PILOT_CONFIRM_AGE_21==='true'})}),
      cleanupOverlays:async(page,options)=>{await engine.intro.dismissCatalogueOverlays(page,options);await clearCaptureCookies(page);if(!directPragmatic)await dismissImportedSiteOverlays(page,p.id);},
      beforeClick:renew,keepAlive:async()=>{if(Date.now()-lastRenew>=30000)await renew();},loadReviewedImage:ref=>cloud.reviewedImage(ref)
     });

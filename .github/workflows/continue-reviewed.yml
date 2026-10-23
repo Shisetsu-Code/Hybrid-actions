@@ -20,6 +20,10 @@ on:
       confirm_adult:
         type: boolean
         default: false
+      confirm_age_21:
+        description: Explicit operator authorization for providers with a 21+ entry gate
+        type: boolean
+        default: false
       preflight_only:
         description: Check production version, authentication and batch without opening games
         type: boolean
@@ -33,7 +37,7 @@ jobs:
   continue:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 100
     env:
       BRANCH_RUN_ID: ${{ inputs.run_id }}
       BRANCH_PROVIDERS: ${{ inputs.providers }}
@@ -42,6 +46,7 @@ jobs:
       BRANCH_PREFLIGHT: ${{ inputs.preflight_only }}
       BRANCH_ENGINE_SHA: 1d37815e6a3cf729154feab43fd77a2a0d9678ee
       PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
       HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
       HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
       HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
