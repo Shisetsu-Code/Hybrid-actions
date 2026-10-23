@@ -1,0 +1,87 @@
+name: Continue GPT-reviewed DEMO branches
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Existing Hybrid batch whose screenshots GPT classified
+        required: true
+      providers:
+        description: JSON array of approved providers in that batch
+        default: '["pragmatic","bgaming"]'
+        required: true
+      duration_minutes:
+        type: choice
+        options: ['5','15','30','60']
+        default: '15'
+      concurrency:
+        type: choice
+        options: ['1','2','4','8']
+        default: '8'
+      confirm_adult:
+        type: boolean
+        default: false
+      confirm_age_21:
+        description: Explicit operator authorization for providers with a 21+ entry gate
+        type: boolean
+        default: false
+      preflight_only:
+        description: Check production version, authentication and batch without opening games
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: hybrid-verified-300-batch
+  cancel-in-progress: false
+jobs:
+  continue:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    env:
+      BRANCH_RUN_ID: ${{ inputs.run_id }}
+      BRANCH_PROVIDERS: ${{ inputs.providers }}
+      BRANCH_MINUTES: ${{ inputs.duration_minutes }}
+      BRANCH_CONCURRENCY: ${{ inputs.concurrency }}
+      BRANCH_PREFLIGHT: ${{ inputs.preflight_only }}
+      BRANCH_ENGINE_SHA: 1d37815e6a3cf729154feab43fd77a2a0d9678ee
+      PILOT_CONFIRM_ADULT: ${{ inputs.confirm_adult }}
+      PILOT_CONFIRM_AGE_21: ${{ inputs.confirm_age_21 }}
+      HYBRID_FUZZER_URL: https://hybrid-cloud-fuzzer.braian-n-l.workers.dev
+      HYBRID_REVIEW_TOKEN: ${{ secrets.HYBRID_REVIEW_TOKEN }}
+      HYBRID_INGEST_TOKEN: ${{ secrets.HYBRID_INGEST_TOKEN }}
+    steps:
+      - name: Bound package mirror retries on ephemeral runner
+        if: inputs.preflight_only != true
+        run: |
+          printf 'Acquire::Retries "1";\nAcquire::http::Timeout "15";\nAcquire::https::Timeout "15";\n' | sudo tee /etc/apt/apt.conf.d/99hybrid-network-timeouts >/dev/null
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Shisetsu-Code/hybrid-cloud-fuzzer
+          ref: 1d37815e6a3cf729154feab43fd77a2a0d9678ee
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        if: inputs.preflight_only != true
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check -r requirements-launchers.txt
+        if: inputs.preflight_only != true
+      - run: npm --prefix engine ci --ignore-scripts --no-audit --no-fund
+      - run: node engine/node_modules/playwright/cli.js install --with-deps chromium
+        if: inputs.preflight_only != true
+      - name: Replay reviewed branches and upload new screenshots to the existing batch
+        run: node scripts/continue-reviewed.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: continuation-summary
+          path: continuation-summary.json
+          if-no-files-found: warn
+          retention-days: 7
