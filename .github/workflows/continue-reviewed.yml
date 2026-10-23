@@ -43,7 +43,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: hybrid-verified-300-batch
+  group: hybrid-reviewed-${{ inputs.run_id }}
   cancel-in-progress: false
 jobs:
   continue:
